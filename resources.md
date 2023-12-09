@@ -1,0 +1,1 @@
+[Pre-built auth widget for Nuxt and Supabase](https://github.com/nuxtbase/auth-ui-vue)

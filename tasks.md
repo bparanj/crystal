@@ -1,0 +1,1 @@
+- Follow the steps in magic-link.md and get the feature to work locally.
