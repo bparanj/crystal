@@ -1,3 +1,5 @@
+Securing Ruby on Rails API Endpoints with Supabase Magic Link Authentication in a Nuxt 3 Application
+
 Integrating Supabase authentication with a Ruby on Rails backend to secure your API endpoints involves a few steps. The general idea is to use the token provided by Supabase when a user logs in with the magic link and then verify this token on your Rails backend. Here's how you can approach this:
 
 ### 1. **Frontend: Send the Supabase Auth Token**

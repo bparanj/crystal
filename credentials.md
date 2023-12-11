@@ -1,3 +1,45 @@
+
+Create .env file in the project root directory:
+
+```sh
+SUPABASE_DB_PASSWORD=only-available-on-the-serverside
+PUBLIC_SUPABASE_URL=https://uvjlmwflhjajykozmvca.supabase.co
+PUBLIC_SUPABASE_ANON_KEY=eyJhblahblahblah
+```
+
+nuxt.config.ts:
+
+```javascript
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  devtools: { enabled: true },
+  runtimeConfig: {
+	    // The private keys which are only available within server-side
+	    apiSecret: '123',
+	    // Keys within public, will be also exposed to the client-side
+	    public: {
+	      supabaseUrl: process.env.PUBLIC_SUPABASE_URL,
+				supabaseAnonKey: process.env.PUBLIC_SUPABASE_ANON_KEY	
+	    }
+	  }	
+})
+```
+
+Read the environment variables on the login page:
+
+```javacript
+<script lang="ts" setup>
+
+	const runtimeConfig = useRuntimeConfig()
+
+	console.log(runtimeConfig.public.supabaseUrl)
+	console.log(runtimeConfig.public.supabaseAnonKey)
+	
+</script>
+```
+
+
+
 Securing sensitive credentials using environment variables is crucial in any web application. In Nuxt.js, you can manage these variables using a `.env` file and access them safely in your code. Here's how to do it for your Supabase integration:
 
 ### 1. **Setting Up Environment Variables**

@@ -19,4 +19,13 @@
 
 ## Blockers
 
+- Errors due to following GPT generated instructions for getting magic link to work with Supabase.
+
+## Followups
+
+- Using Auth0 with magic link in Rails API backend: https://community.auth0.com/t/ruby-on-rails-api-authorization-complete-developer-guide/99144/2
 - Securing Rails API with Vue frontend: https://www.reddit.com/r/Supabase/comments/18g1cea/using_supabase_as_authentication_only/
+
+## Articles
+
+- [Auth0 with Rails Backend](https://developer.auth0.com/resources/guides/api/rails/basic-authorization)
