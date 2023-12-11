@@ -6,4 +6,4 @@
 - Setup NuxtUI for styling
 - Protect pages with middleware
 - How to hide the credentials on the frontend?
-- How will the Rails backend know that the user is already logged in using Supabase? See [Securing Rails API](securing-rails-api)
+- How will the Rails backend know that the user is already logged in using Supabase? See [Securing Rails API](./securing-rails-api.md)
