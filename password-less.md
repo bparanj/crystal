@@ -24,6 +24,5 @@ npm run dev -- -o
 
 3. Setup [credentials](./credentials.md) 
 
-4. 
+4. Setup [plugin](./plugin.md)
 
-npm install @supabase/supabase-js

@@ -146,7 +146,7 @@ To implement the "Login With Magic Link" feature in your Nuxt.js app using the m
 
 2. **Modify the Login Method**:
 
-   Instead of using `signIn`, use `signInWithOtp` method. Your method in the Vue component will look something like this:
+   Use `signInWithOtp` method. Your method in the Vue component will be:
 
    ```javascript
 	 <template>
