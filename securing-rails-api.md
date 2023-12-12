@@ -88,3 +88,55 @@ Ensure your Rails backend is configured to handle Cross-Origin Resource Sharing 
 - Always use HTTPS to ensure the security of data transmitted between the frontend and backend.
 
 By following these steps, you can secure your Ruby on Rails API endpoints to ensure that only logged-in users (authenticated via Supabase in your Nuxt.js frontend) can access them. This setup leverages the JWT token provided by Supabase to maintain a secure and consistent authentication flow between your frontend and backend.
+
+## Use Before Action Instead of Middleware
+
+To convert your `ApiAuthentication` middleware into a `before_action` in the `ApplicationController` of a Ruby on Rails app, you can follow these steps. This will allow you to execute the authentication logic before each controller action:
+
+1. **Remove the Middleware Class**: Since we are integrating the logic directly into the controller, the separate middleware class (`ApiAuthentication`) is no longer needed.
+
+2. **Define a Private Method in ApplicationController**: Incorporate the authentication logic into a private method within `ApplicationController`.
+
+3. **Use `before_action` to Invoke the Method**: Set up a `before_action` callback to call this method before each controller action.
+
+Here's the updated `ApplicationController`:
+
+```ruby
+class ApplicationController < ActionController::API
+  before_action :authenticate_request
+
+  private
+
+  def authenticate_request
+    begin
+      auth_header = request.headers['Authorization']
+      token = auth_header.split(' ').last if auth_header
+      decoded_token = JWT.decode(token, supabase_public_key, true, { algorithm: 'RS256' })
+
+      # You might want to set a current_user or similar here, based on decoded_token
+      # For example:
+      # user_id = decoded_token[0]['sub']
+      # @current_user = User.find(user_id)
+      
+      # If no exception is raised, the request continues normally
+    rescue JWT::DecodeError
+      render json: { errors: ['Not Authenticated'] }, status: :unauthorized
+    end
+  end
+
+  def supabase_public_key
+    # Fetch the public key from Supabase or store it in your environment variables
+    ENV['SUPABASE_PUBLIC_KEY']
+  end
+end
+```
+
+In this setup:
+
+- The `authenticate_request` method attempts to decode the JWT token from the `Authorization` header of the incoming request.
+- If the token is invalid or absent, a `JWT::DecodeError` is raised, and the request is responded to with a `401 Unauthorized` status.
+- You can modify the `rescue` block to handle other types of JWT exceptions as necessary.
+- You can also set a `@current_user` or similar variable based on the decoded token, which can then be used in your controller actions.
+- The `supabase_public_key` method fetches the public key, which you need to verify the JWT.
+
+This approach centralizes your authentication logic and makes it easy to manage and apply across your application. Remember to handle any exceptions appropriately to ensure that unauthorized access is effectively prevented.

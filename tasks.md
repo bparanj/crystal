@@ -1,11 +1,9 @@
 
-## Need to Learn
-
-- How to read environment variables in development environment in Nuxt 3? Check which lesson in VueSchool covers this topic.
-- How to create a plugin that will interact with Supabase for passwordless login?
-
 ## Tasks
 
+- Create a new Nuxt app and setup NuxtUI
+- Create a layout with nav bar, main and footer sections
+- Create a dashboard layout for logged in users. Tabs: Billers, Bills, Cash etc
 - Follow the steps in magic-link.md and get the feature to work locally.
 - Test the instructions in [Securing Rails API](./securing-rails-api.md)
 
@@ -19,12 +17,12 @@
 
 ## Blockers
 
-- Errors due to following GPT generated instructions for getting magic link to work with Supabase.
+- How to retrieve the user details on redirect from email link?
 
 ## Followups
 
 - Using Auth0 with magic link in Rails API backend: https://community.auth0.com/t/ruby-on-rails-api-authorization-complete-developer-guide/99144/2
-- Securing Rails API with Vue frontend: https://www.reddit.com/r/Supabase/comments/18g1cea/using_supabase_as_authentication_only/
+- Securing Rails API with Vue frontend: https://www.reddit.com/r/Supabase/comments/18g1cea/comment/kd24dpj/?context=3
 
 ## Articles
 
