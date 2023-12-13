@@ -5,11 +5,15 @@ This article consists of the following:
 
 Create a Nuxt 3 app:
 
+```
 npx nuxi init hw
+```
 
 Create home page:
 
+```
 npx nuxi add page index
+```
 
 Create a login page.
 
@@ -19,21 +23,24 @@ In app.vue:
 
 Change this:
 
+```html
 <template>
   <div>
     <NuxtPage />
   </div>
 </template>
+```
 
 to:
 
+```html
 <template>
   <div>
 		<nav>
 			<NuxtLink to="/"> Home </NuxtLink>
 			<NuxtLink to="/login"> Login </NuxtLink>
-		</nav>
-		
+		</nav>	
     <NuxtPage />
   </div>
 </template>
+```

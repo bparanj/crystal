@@ -21,6 +21,7 @@
 
 ## Followups
 
+- Handling callbacks in Nuxt https://www.reddit.com/r/Nuxt/comments/18hosy4/handling_authentication_callback/
 - Using Auth0 with magic link in Rails API backend: https://community.auth0.com/t/ruby-on-rails-api-authorization-complete-developer-guide/99144/2
 - Securing Rails API with Vue frontend: https://www.reddit.com/r/Supabase/comments/18g1cea/comment/kd24dpj/?context=3
 

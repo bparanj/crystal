@@ -1,10 +1,6 @@
 To implement the "Login With Magic Link" feature using Supabase in a Nuxt.js app, you'll need to follow a series of steps. This process involves setting up Supabase for authentication and integrating it with your Nuxt.js application. Here's a simplified guide:
 
-### 1. Set Up Supabase Project
 
-1. **Create a Supabase Account**: Go to the [Supabase website](https://supabase.io/) and sign up or log in.
-2. **Create a New Project**: Fill in the details like project name, database password, and region.
-3. **Retrieve API Keys**: Once the project is set up, note down the `URL` and `anon public` API keys from the project's API settings.
 
 ### 2. Initialize Supabase in Nuxt.js
 

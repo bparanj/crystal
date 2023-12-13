@@ -81,7 +81,3 @@ In pages/login.vue:
   }
 </script>
 ```
-
-## Implement After Login
-
-After the user clicks the email link, retrieve the user details and store it on the server. Pending...

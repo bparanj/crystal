@@ -22,7 +22,27 @@ npm install
 npm run dev -- -o
 ```
 
-3. Setup [credentials](./credentials.md) 
+3. Setup Home and Login tabs [Nuxt Tabs](./nuxt-links.md)
 
-4. Setup [plugin](./plugin.md)
+4. [Setup Supabase](./supabase-setup.md)
 
+5. Set Site URL to http://localhost:3000/auth in Supabase URL Configuration tab under Authentication. 
+
+6. Setup SPA, turn off the ssr flag (SPA Setup)(./spa-setup.md)
+
+5. Setup [Environment Variables](./env-variables.md) for Supabase client.
+
+6. Setup [Supabase client plugin](./plugin.md)
+
+7. Run the app and test the passwordless login feature.
+
+8. After the user clicks the magic link sent to their email, handle [Auth Callback](auth-callback.md)
+
+
+
+- Identify users in the backend: [Save User Profile](identify-users-backend.md)
+- How will the Rails backend know that the user is already logged in using Supabase? See [Securing Rails API](./securing-rails-api.md)
+
+## Troubleshooting
+
+- [Errors and Resolution](./troubleshooting.md)

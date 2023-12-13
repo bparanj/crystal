@@ -5,7 +5,7 @@ There are two types of environment variables in Nuxt:
 - Server side
 - Client side
 
-Only client side environment variables are exposed to the frontend code. The server side variables are only available on the server side and cannot be read on the client side code.
+Only client side environment variables are exposed to the frontend code. The server side variables are only available on the server side and cannot be read on the client side code. See [Supabase Keys](./supabase-keys.md)
 
 ### Step 1
 
