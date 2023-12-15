@@ -36,12 +36,12 @@ npm run dev -- -o
 
 7. Run the app and test the passwordless login feature.
 
-8. After the user clicks the magic link sent to their email, handle [Auth Callback](auth-callback.md)
+8. After the user clicks the magic link sent to their email, handle [Auth Callback](auth-callback.md) [Integrating with Rails Backend](./integrating-with-backend.md)
 
-
+9. Protect the [member area](./protected-pages.md)
 
 - Identify users in the backend: [Save User Profile](identify-users-backend.md)
-- How will the Rails backend know that the user is already logged in using Supabase? See [Securing Rails API](./securing-rails-api.md)
+- How will the Rails backend know that the user is already logged in using Supabase? See [Securing Rails API](./securing-rails-api.md) [Rails Backend](./supabase-rails.md)
 
 ## Troubleshooting
 
