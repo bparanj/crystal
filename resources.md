@@ -2,3 +2,4 @@
 - [Vue 3 Security](https://app.pluralsight.com/library/courses/vue-3-owasp-secure-coding/table-of-contents)
 - [Vue 3 State Management with Pinia](https://app.pluralsight.com/library/courses/vue-3-state-management-pinia/table-of-contents)
 - [Vue 3 Basics](https://vueschool.io/lessons/vue-3-component-template)
+- [Magic Link Supabase Docs](https://supabase.com/docs/guides/auth/passwordless-login/auth-magic-link?language=js)
