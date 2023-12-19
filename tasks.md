@@ -1,6 +1,8 @@
 
 ## Tasks
 
+- Complete Copilot training: https://github.com/bparanj/skills-copilot-codespaces-vscode?tab=readme-ov-file
+
 - Create a new Nuxt app and setup NuxtUI
 - Create a layout with nav bar, main and footer sections
 - Create a dashboard layout for logged in users. Tabs: Billers, Bills, Cash etc

@@ -3,3 +3,8 @@
 - [Vue 3 State Management with Pinia](https://app.pluralsight.com/library/courses/vue-3-state-management-pinia/table-of-contents)
 - [Vue 3 Basics](https://vueschool.io/lessons/vue-3-component-template)
 - [Magic Link Supabase Docs](https://supabase.com/docs/guides/auth/passwordless-login/auth-magic-link?language=js)
+- [OS Contribution](https://www.freecodecamp.org/news/the-definitive-guide-to-contributing-to-open-source-900d5f9f2282/)
+- [Mastering GitHub Copilot](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+- [Copilot with Codespaces](https://github.com/bparanj/skills-copilot-codespaces-vscode?tab=readme-ov-file)
+- [OS Resources](https://github.com/freeCodeCamp/how-to-contribute-to-open-source)
+- [Github Copilot Talks](https://reg.githubuniverse.com/flow/github/universe23/attendee-portal/page/curatedagenda_ghcopilot)
