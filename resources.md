@@ -8,3 +8,4 @@
 - [Copilot with Codespaces](https://github.com/bparanj/skills-copilot-codespaces-vscode?tab=readme-ov-file)
 - [OS Resources](https://github.com/freeCodeCamp/how-to-contribute-to-open-source)
 - [Github Copilot Talks](https://reg.githubuniverse.com/flow/github/universe23/attendee-portal/page/curatedagenda_ghcopilot)
+- [Interactive Javascript Lessons](https://learnjavascript.online/)
