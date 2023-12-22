@@ -30,4 +30,4 @@ Your dilemma between creating your own projects from scratch versus contributing
 10. **Seek Feedback and Mentorship**:
     - Get feedback from experienced developers in the open source community. They can provide guidance on where your efforts might be most impactful.
 
-Remember, building a reputation in open source takes time. Consistency and persistence, along with strategic planning, are key. By balancing personal projects with contributions to established projects, you can create a diverse portfolio that showcases your skills and increases your chances of gaining freelance opportunities.
+Building a reputation in open source takes time. Consistency and persistence, along with strategic planning, are key. By balancing personal projects with contributions to established projects, you can create a diverse portfolio that showcases your skills and increases your chances of gaining freelance opportunities.
