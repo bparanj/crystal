@@ -1,3 +1,5 @@
+## Copilot
+
 Using GitHub Copilot effectively in software development. Key points:
 
 1. Utilize specific, concise prompts for better Copilot responses.
@@ -67,3 +69,6 @@ Define the input and output requirements.
 - Fix problems
 - Document code
 
+### Explain Command
+
+Copilot /explain command can be used for syntactic level and semantic level explanation of the code.
