@@ -150,8 +150,8 @@ Coding Standards and Conventions
 173. Be wary of undocumented features: classify each instance as justified, careless, or malicious, and accordingly decide whether the code or the documentation should be fixed.
 174. Documentation occasionally does not describe the system as implemented but as it should have been or will be implemented. 
 175. In source code documentation the word grok typically means “to understand.”
-176. If unknown or idiosyncratically used words hinder the code's understanding, try looking them up in the documentation's glossary (if it exists), The New Hacker's Dictionary [Ray96], or on a Web search engine.
-177. When looking for source code documentation, consider nontraditional sources such as comments, standards, publications, test cases, mailing lists, newsgroups, revision logs, issue-tracking databases, marketing material, and the source code itself. (p. 256) 
+176. If unknown or idiosyncratically used words hinder the code's understanding, try looking them up in the documentation's glossary (if it exists), The New Hacker's Dictionary, or on a Web search engine.
+177. When looking for source code documentation, consider nontraditional sources such as comments, standards, publications, test cases, mailing lists, newsgroups, revision logs, issue-tracking databases, marketing material, and the source code itself.
 178. You should always view documentation with a critical mind; since documentation is never executed and rarely tested or formally reviewed to the extent code is, it can often be misleading or outright wrong.
 179. You can treat flawed code as the specification of the corresponding intended implementation.
 180. When reading documentation for a large system, familiarize yourself with the documentation's overall structure and conventions. 
@@ -208,5 +208,3 @@ Coding Standards and Conventions
 266. Automatically generated files often start with a comment indicating the fact.
 267. Any attempt to precisely analyze code will typically branch into numerous other classes, files, and modules and quickly overwhelm you; therefore, actively try to limit the extent of code you have to understand to the absolutely necessary minimum. 
 268. Employ a breadth-first search strategy, attacking code-reading problems from multiple sides until one of them gives way.
-
-

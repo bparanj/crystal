@@ -141,4 +141,47 @@ Patterns in merged PRs for Rails core often include:
 
 Successful PRs in such projects usually follow these patterns, demonstrating attention to detail and community standards.
 
+## Open Issues
+
+New issues are less than a month. Old issues are over a month. 
+
+### New Issue with No Comments
+
+- Read it and any insightful comments
+
+### Old Issue with No Comments
+
+- Is it describing a challengine problem?
+- Is it clear?
+
+### Old Issue with Comments
+
+- Why is the issue stalled?
+- Is it because a decision could not be made?
+- Did someone stop responding?
+- It was fixed but is not closed?
+
+Ask if it can be closed.
+
+## Categorize Issues
+
+- Does it have sufficient details?
+- Do you need more details?
+- Do you need to separate critical from non-critical components?
+
+Take notes on key details.
+
+## Issue Types
+
+### Bugs
+
+- Regressions
+- Unexpected behavior
+
+### Feature Requests
+
+- Modification
+- Addition
+
+
 
