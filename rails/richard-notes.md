@@ -183,5 +183,42 @@ Take notes on key details.
 - Modification
 - Addition
 
+## Reproducing Bugs
+
+1. Missing expected vs actual result
+
+Explain to the poster the importance of reproducing an issue and that the behavior they are describing is unclear.
+
+2. No code provided
+3. No instructions provided
+
+Comment back on the issue that you appreciate the report, but you have no way to see the behavior for yourself, and that you need a reproduction.
+
+Useful instructions: https://www.codetriage.com/example_app
+
+4. Missing steps in the test case to reproduce the bug
+
+Reproducing steps must be in code form. 
+
+5. Provides link to a repository for reproducing the bug
+
+Time box to 5 to 10 minutes to reproduce the bug. Comment on the issue with steps to reproduce the problem. If the bug was not reproduced, share the steps and ask if any steps is missing.
+
+6. Provides link to a repo with instructions on reproducting the bug
+7. Provides link to a repo with instructions on using containerization tool
+
+Report back whether you were able to reproduce the issue.
+
+## Checklist for Reproduction Steps
+
+- Software versions are the same.
+- OS version
+- Everything is checked into git (did not forget the files in .gitignore)
+- Ask them to run their reproducing in a new, fresh directory
+- Get the reporter to fail in the same way as it is on your machine
+
+If it passes for one person and fails for another, look for the differences in the environment to narrow down the cause.
+
+
 
 
