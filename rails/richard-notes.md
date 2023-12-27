@@ -219,6 +219,45 @@ Report back whether you were able to reproduce the issue.
 
 If it passes for one person and fails for another, look for the differences in the environment to narrow down the cause.
 
+## Debugging
+
+### Confirm
+
+Confirm it is still broken. See if the main branch has the problem. Run the test case against the latest commit and see if it still a problem.
+
+If it is fixed, comment on the issue. It can be closed.
+
+### Link 
+
+If you notice similar issues, link them to the related issues.
+
+- There is extra context for anyone who ultimately ends up working on the issue.
+- Developers across different issues can share information such as debugging steps.
+- Anyone who lands on one of the bugs via a search will have access to the whole conversation.
+- Duplicate issues can be closed so that developers can focus effort in one location.
+- Once a fix has been committed and confirmed, it is easy to go through and close all related issues.
+
+Search existing issues with a few keywords. Searching for related issues should be the first step for anyone submitting an issue.
+
+### Isolate Failing Behavior
+
+- When did it start failing?
+
+Use bisect to find failing commit that introduced the bug.
+
+### Report your Findings
+
+Explain the commit that caused the issue. Find the PR related to that commit. Read the PR and commit message. 
+
+- Why was the change made? 
+- Are there any tests modified or added? 
+- What was the intent of the change?
+
+Read any linked PRs.
+
+
+
+
 
 
 
