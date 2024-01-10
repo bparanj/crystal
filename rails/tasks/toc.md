@@ -16,3 +16,7 @@
 16. Mikado Method on Rails
 17. Dependency Isolation
 18. Docker Setup on Ubuntu
+19. Reproduce using Docker
+20. Using Older Ruby Versions
+21. Property Based Testing
+22. Edge Cases
