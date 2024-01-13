@@ -23,3 +23,5 @@
 23. [Understanding Method Argument Types](./23.md)
 24. [Invariants](./24.md)
 25. [Regression Bugs](./25.md)
+26. [Shrinking Algorithm](./26.md)
+27. [Collaboration](./27.md)
