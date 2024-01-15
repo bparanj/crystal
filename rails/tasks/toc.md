@@ -34,3 +34,8 @@
 34. [Generalizing Properties from Example Based Cases](./34.md)
 35. [Translating Specification to Properties](./35.md)
 36. [PBT for Rack 3](./36.md)
+37. [Rails Supported Service Providers](./37.md)
+38. [Executable Documentation](./38.md)
+39. [Custom Generators](./39.md)
+40. [Extracting Properties from Requirement](./40.md)
+41. [Convert Example Based Tests to PBT](./41.md)
