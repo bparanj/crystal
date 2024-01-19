@@ -1,1 +1,46 @@
 .DS_Store
+# Stack-related
+.stack-work/
+.stack-work-install/
+
+# Cabal-related
+dist/
+dist-newstyle/
+cabal.project.local
+cabal.project.local~
+*.cabal-sandbox/
+cabal.sandbox.config
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+
+# Executables
+*.exe
+*.prof
+*.hp
+
+# macOS specific
+.DS_Store
+
+# Vim/Emacs temporary files
+*~
+\#*\#
+.\#*
+
+# VSCode
+.vscode/
+
+# IntelliJ
+.idea/
+
+# HLS (Haskell Language Server)
+.hie
+.hie.yaml
+
+# Other common directories
+logs
+logs/*
+*.swp
+*.swo
+
