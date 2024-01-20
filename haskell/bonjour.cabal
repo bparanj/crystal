@@ -82,3 +82,11 @@ test-suite spec
   main-is: Spec.hs
   build-depends: base, QuickCheck
   default-language: Haskell2010
+
+test-suite hundred-doors-tests
+  type: exitcode-stdio-1.0
+  hs-source-dirs: test
+  main-is: HundredDoorsTests.hs
+  build-depends: base, QuickCheck   
+  default-language: Haskell2010
+
