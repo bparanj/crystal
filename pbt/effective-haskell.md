@@ -82,6 +82,8 @@ ghci> main
 - Function Composition Operator
 - Higher Order Function
 - Fixity
+- Pattern Matching
+- Destructuring Lists
 
 ### Currying
 
