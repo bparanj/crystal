@@ -11,6 +11,6 @@ def check_reverse_property(function)
       return false
     end
   end
-  puts "Test passed" 
+  puts "OK. 100 Tests passed" 
   true
 end
