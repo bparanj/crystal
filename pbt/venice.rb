@@ -10,12 +10,12 @@ end
 def check_reverse_property(function)
   @size.times do
     array = random_input
-    print array
+    # print array
     unless function.call(array)
       puts "Test failed"
       return false
     end
   end
-  puts "OK. 100 Tests passed" 
+  puts "OK. Passed #{@size} tests" 
   true
 end
