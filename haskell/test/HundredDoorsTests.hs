@@ -1,7 +1,7 @@
-module HundredDoorsTests where
+module Main where
 
 import Test.QuickCheck
-import App.HundredDoors
+import HundredDoors
 
 prop_run :: Int -> Property
 prop_run n = n > 0 ==> all (< n) xs && (null xs || maximum xs < n)

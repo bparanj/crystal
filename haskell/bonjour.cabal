@@ -51,6 +51,12 @@ extra-doc-files:    CHANGELOG.md
 -- Extra source files to be distributed with the package, such as examples, or a tutorial module.
 -- extra-source-files:
 
+library
+  hs-source-dirs:      app
+  exposed-modules:     HundredDoors
+  build-depends:       base >= 4.7 && < 5
+  default-language:    Haskell2010
+
 common warnings
     ghc-options: -Wall
 
@@ -85,8 +91,9 @@ test-suite spec
 
 test-suite hundred-doors-tests
   type: exitcode-stdio-1.0
-  hs-source-dirs: test
+  hs-source-dirs: test, app
   main-is: HundredDoorsTests.hs
+  other-modules: HundredDoors
   build-depends: base, QuickCheck   
   default-language: Haskell2010
 
