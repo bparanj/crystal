@@ -1,18 +1,22 @@
-def input(type, size = 100)
+def input(type, cases = 100)
   @type = type
-  @size = size
+  @cases = cases
 end
 
 def random_input
-  Rantly(rand(1..20)) { range(-100, 100) } if @type == Array
+  if @type == Array
+    arrays = (0..20).map do |size|
+      Array.new(size) { rand(-100..100) }
+    end  
+  end
 end
 
 def check_reverse_property(function)
-  @size.times do |n|
+  @cases.times do |n|
     array = random_input
 
     if function.call(array)
-      puts "OK. #{@size} tests passed"
+      puts "OK. #{@cases} tests passed"
       return true
     else
       puts "Falsified after #{n+1} times"
