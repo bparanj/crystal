@@ -84,7 +84,7 @@
 84. [Formal Verification vs. Property-Based Testing](./84.md)
 85. [LISP and Type Inference](./85.md)
 86. [LISP and Hardware Architecture](./86.md)
-87. [](./87.md)
+87. [LISP and Lambda Calculus](./87.md)
 88. [](./88.md)
 89. [](./89.md)
 90. [](./90.md)
