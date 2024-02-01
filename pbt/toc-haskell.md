@@ -42,3 +42,7 @@
 99. [Haskell Pure Function](./haskell/99.md)
 100. [Effective Haskell Notes](./effective-haskell.md)
 101. [Programming Languages Notes](./kenlouden.md)
+102. [Haskell Pattern Matching](./haskell/102.md)
+103. [Haskell Homogeneous List](./haskell/103.md)
+104. [Haskell Gaurd](./haskell/104.md)
+105. [Haskell Case Expression](./haskell/105.md)
