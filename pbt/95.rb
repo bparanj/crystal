@@ -1,16 +1,3 @@
-## Longest Substring Without Repeating Characters
-
-To test the `length_of_longest_substring` method using property-based testing (PBT) with Rantly, we can define several properties that should hold true for any input string. Here are a few properties you might consider:
-
-1. **Non-negativity**: The length of the longest substring without repeating characters should always be non-negative.
-2. **Upper Bound**: The length cannot be greater than the length of the input string.
-3. **Idempotency**: Repeatedly calling the function with the same input should yield the same result.
-4. **Substrings**: For any non-repeating substring of the input, its length should be less than or equal to the result.
-5. **Invariance Under Permutation**: The function should return the same result for any permutation of a string with all unique characters.
-
-Here's how you could implement these properties in code using Rantly:
-
-```ruby
 require 'rantly'
 require 'set'
 
@@ -70,6 +57,5 @@ end
 end
 
 puts "All tests passed."
-```
 
-This script defines a Rantly property block to test the `length_of_longest_substring` function. Each `assert` block checks a different property. For more extensive testing, you can adjust the size of the generated strings or focus on specific edge cases, like strings with all characters being the same or strings with all unique characters.
+
