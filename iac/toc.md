@@ -30,3 +30,7 @@
 [QEMU for Local Testing](./30.md)
 [Packer Installation](./31.md)
 [Using Vault to Dynamically Generate AWS Keys](./32.md)
+[Testing Images in Isolation](./33.md)
+[Image Life Cycle](./34.md)
+[Manage Image Life Cycle](./35.md)
+[Automate Provisioning for Customers](./36.md)
