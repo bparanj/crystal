@@ -29,3 +29,4 @@
 [Provisioning Infrastructure for Rails Stack](./29.md)
 [QEMU for Local Testing](./30.md)
 [Packer Installation](./31.md)
+[Using Vault to Dynamically Generate AWS Keys](./32.md)

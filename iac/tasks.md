@@ -1,0 +1,1 @@
+- [Using Vault to Dynamically Generate AWS Keys](./32.md)
