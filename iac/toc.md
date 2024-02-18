@@ -34,3 +34,5 @@
 [Image Life Cycle](./34.md)
 [Manage Image Life Cycle](./35.md)
 [Automate Provisioning for Customers](./36.md)
+[Experiments](./37.md)
+[AWS Credentials and Vault](./38.md)
