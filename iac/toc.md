@@ -36,3 +36,4 @@
 [Automate Provisioning for Customers](./36.md)
 [Experiments](./37.md)
 [AWS Credentials and Vault](./38.md)
+[Packer Template - First EC2 Image](./39.md)
