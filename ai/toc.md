@@ -129,6 +129,7 @@
 [Visual Model](./129.md)
 [Dual Process Theory](./130.md)
 [Extremal Principle](./131.md)
+[Bank Statement Classifier](./132.md)
 
 
 
