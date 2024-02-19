@@ -1,0 +1,7 @@
+[Subsequence Matching - Corona Discharge](./1.md)
+[Static Typing vs Dynamic Typing](./2.md)
+[Applications of TRIZ in IT](./3.md)
+[Trends of Evolution for software](./4.md)
+[Mapping the 40 Inventive Principles of TRIZ to software development](./5.md)
+[Adapting Inventive Principles](./6.md)
+[Cloud Computing and Inventive Principles](./7.md)

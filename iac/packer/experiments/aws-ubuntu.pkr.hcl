@@ -1,8 +1,13 @@
+
 packer {
   required_plugins {
     amazon = {
       source  = "github.com/hashicorp/amazon"
       version = "~> 1"
+    }
+    ansible = {
+      version = "~> 1"
+      source  = "github.com/hashicorp/ansible"
     }
   }
 }
@@ -21,9 +26,22 @@ source "amazon-ebs" "ubuntu" {
     owners      = ["099720109477"]
   }
   ssh_username = "ubuntu"
+  tags = {
+    "Name"        = "UbuntuImage"
+    "Environment" = "Testing"
+    "OS_Version"  = "Ubuntu 22.04"
+    "Release"     = "Latest"
+    "Created-by"  = "Packer"
+  }
 }
+
 build {
   sources = [
     "source.amazon-ebs.ubuntu"
   ]
+
+  provisioner "ansible" {
+    playbook_file = "${path.root}/playbooks/install_nginx.yml"
+    user          = "ubuntu"
+  }
 }
