@@ -1,0 +1,12 @@
+---
+- name: This playbook is used to install the packages
+  hosts: all
+  become: true
+  tasks:
+  - name: Update the apt repository
+    apt:
+      update_cache: yes
+  - name: Install the packages
+    apt:
+      name: "curl"
+      state: present

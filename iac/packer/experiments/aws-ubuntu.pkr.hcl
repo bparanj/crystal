@@ -13,6 +13,7 @@ packer {
 }
 
 source "amazon-ebs" "ubuntu" {
+  communicator  = "ssh"
   ami_name      = "packer-ubuntu-aws-{{timestamp}}"
   instance_type = "t2.micro"
   region        = "us-west-2"
@@ -41,7 +42,12 @@ build {
   ]
 
   provisioner "ansible" {
-    playbook_file = "${path.root}/playbooks/install_nginx.yml"
+    playbook_file = "${path.root}/playbooks/webserver.yml"
     user          = "ubuntu"
+    // Ensure Ansible can use the dynamic SSH settings provided by Packer
+    use_proxy = false
+    ansible_env_vars = [
+      "ANSIBLE_HOST_KEY_CHECKING=False"
+    ]
   }
 }
