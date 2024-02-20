@@ -37,3 +37,6 @@
 [Experiments](./37.md)
 [AWS Credentials and Vault](./38.md)
 [Packer Template - First EC2 Image](./39.md)
+[Packer and Ansible - Webserver ](./40.md)
+[Make Ansible Work with Packer](./41.md)
+[Provision Infrastructure using Terraform](./42.md)
