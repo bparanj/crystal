@@ -1,4 +1,3 @@
-
 packer {
   required_plugins {
     amazon = {
@@ -40,6 +39,15 @@ build {
   sources = [
     "source.amazon-ebs.ubuntu"
   ]
+
+  provisioner "ansible" {
+    playbook_file = "${path.root}/playbooks/packages.yml"
+    user          = "ubuntu"
+    use_proxy     = false
+    ansible_env_vars = [
+      "ANSIBLE_HOST_KEY_CHECKING=False"
+    ]
+  }
 
   provisioner "ansible" {
     playbook_file = "${path.root}/playbooks/webserver.yml"

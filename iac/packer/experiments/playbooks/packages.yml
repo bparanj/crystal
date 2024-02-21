@@ -1,0 +1,45 @@
+---
+- name: Install required packages on Ubuntu 22.04
+  hosts: all
+  become: true
+  tasks:
+    - name: Update apt repository and system packages
+      ansible.builtin.apt:
+        update_cache: yes
+        cache_valid_time: 3600 # Cache valid for 1 hour to avoid unnecessary updates
+
+    - name: Install development tools and libraries
+      ansible.builtin.apt:
+        name:
+          - autoconf
+          - bison
+          - build-essential
+          - curl
+          - git-core
+          - libdb-dev
+          - libffi-dev
+          - libgdbm-dev
+          - libgdbm6
+          - libgmp-dev
+          - libncurses5-dev
+          - libreadline6-dev
+          - libsqlite3-dev
+          - libssl-dev
+          - libyaml-dev
+          - locales
+          - patch
+          - pkg-config
+          - rustc
+          - uuid-dev
+          - zlib1g-dev
+          - tzdata
+        state: present
+
+    - name: Ensure locale is generated
+      ansible.builtin.locale_gen:
+        name: en_US.UTF-8
+        state: present
+
+    - name: Update locale
+      ansible.builtin.command: update-locale LANG=en_US.UTF-8
+      when: ansible_facts['env']['LANG'] is not defined or ansible_facts['env']['LANG'] != 'en_US.UTF-8'
