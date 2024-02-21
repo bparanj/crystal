@@ -5,3 +5,5 @@
 [Mapping the 40 Inventive Principles of TRIZ to software development](./5.md)
 [Adapting Inventive Principles](./6.md)
 [Cloud Computing and Inventive Principles](./7.md)
+[Turing Machine and Von Neumann Architecture](./8.md)
+[Intro to TRIZ by Lev](./9.md)
