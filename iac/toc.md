@@ -43,3 +43,7 @@
 - [Caddy AMI](./43.md)
 - [Installing Packages using Ansible](./44.md)
 - [Verification of Package Installation](./45.md)
+- [Install Packages using Packer and Ansible](./46.md)
+- [Create a Ansible playbook to generate a pem file for ssh connectivity](./47.md)
+
+

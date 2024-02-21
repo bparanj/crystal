@@ -33,6 +33,9 @@
           - uuid-dev
           - zlib1g-dev
           - tzdata
+          - openssl 
+          - python3 
+          - openssh-client
         state: present
 
     - name: Ensure locale is generated
