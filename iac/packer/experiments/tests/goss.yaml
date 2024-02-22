@@ -1,0 +1,45 @@
+package:
+  build-essential:
+    installed: true
+  curl:
+    installed: true
+  git:
+    installed: true
+  libdb-dev:
+    installed: true
+  libffi-dev:
+    installed: true
+  libgdbm-dev:
+    installed: true
+  libgdbm6:
+    installed: true
+  libgmp-dev:
+    installed: true
+  libncurses5-dev:
+    installed: true
+  libreadline-dev:
+    installed: true
+  libssl-dev:
+    installed: true
+  libyaml-dev:
+    installed: true
+  locales:
+    installed: true
+  patch:
+    installed: true
+  pkg-config:
+    installed: true
+  rustc:
+    installed: true
+  uuid-dev:
+    installed: true
+  zlib1g-dev:
+    installed: true
+  tzdata:
+    installed: true
+  openssl:
+    installed: true
+  python3:
+    installed: true
+  openssh-client:
+    installed: true
