@@ -45,5 +45,6 @@
 - [Verification of Package Installation](./45.md)
 - [Install Packages using Packer and Ansible](./46.md)
 - [Create a Ansible playbook to generate a pem file for ssh connectivity](./47.md)
-
+- [Package installation verification using Goss](./48.md)
+- [Specifying version in Goss](./49.md)
 
