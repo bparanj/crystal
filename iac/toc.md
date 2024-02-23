@@ -47,4 +47,8 @@
 - [Create a Ansible playbook to generate a pem file for ssh connectivity](./47.md)
 - [Package installation verification using Goss](./48.md)
 - [Specifying version in Goss](./49.md)
-
+- [Caddy AMI Using Packer](./50)
+- [Creating an Inbound Rule with Terraform](./51)
+- [Mapping Package Name to Program Name](./52)
+- [Generate Goss Test File Existing Code](./53)
+- [](./54)
