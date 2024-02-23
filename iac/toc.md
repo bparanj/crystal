@@ -51,4 +51,4 @@
 - [Creating an Inbound Rule with Terraform](./51)
 - [Mapping Package Name to Program Name](./52)
 - [Generate Goss Test File Existing Code](./53)
-- [](./54)
+- [Goss Health Check Endpoint](./54)
