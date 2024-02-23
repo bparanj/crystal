@@ -50,7 +50,7 @@ build {
   }
 
   provisioner "ansible" {
-    playbook_file = "${path.root}/playbooks/webserver.yml"
+    playbook_file = "${path.root}/playbooks/install_caddy.yml"
     user          = "ubuntu"
     // Ensure Ansible can use the dynamic SSH settings provided by Packer
     use_proxy = false
