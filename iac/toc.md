@@ -54,3 +54,6 @@
 - [Goss Health Check Endpoint](./54.md)
 - [SSH hardening](./55.md)
 - [Deploy User Playbook](./56.md)
+- [Fail2ban Playbook](./57.md)
+- [Postgresql Playbook](./58.md)
+- [Redis Playbook](./59.md)
