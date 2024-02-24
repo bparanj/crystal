@@ -50,6 +50,15 @@ build {
   }
 
   provisioner "ansible" {
+    playbook_file = "${path.root}/playbooks/fail2ban.yml"
+    user          = "ubuntu"
+    use_proxy     = false
+    ansible_env_vars = [
+      "ANSIBLE_HOST_KEY_CHECKING=False"
+    ]
+  }
+
+  provisioner "ansible" {
     playbook_file = "${path.root}/playbooks/install_caddy.yml"
     user          = "ubuntu"
     // Ensure Ansible can use the dynamic SSH settings provided by Packer

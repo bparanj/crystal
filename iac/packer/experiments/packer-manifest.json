@@ -44,7 +44,34 @@
       "artifact_id": "us-west-2:ami-05e600b2528735b91",
       "packer_run_uuid": "330f1a4c-bee6-30e9-f4cc-ecbc2146d96d",
       "custom_data": null
+    },
+    {
+      "name": "ubuntu",
+      "builder_type": "amazon-ebs",
+      "build_time": 1708793258,
+      "files": null,
+      "artifact_id": "us-west-2:ami-00ea5d5e791f1dcd1",
+      "packer_run_uuid": "92d3ec76-51bf-a5c4-235d-61ce7123e194",
+      "custom_data": null
+    },
+    {
+      "name": "ubuntu",
+      "builder_type": "amazon-ebs",
+      "build_time": 1708794481,
+      "files": null,
+      "artifact_id": "us-west-2:ami-00464cf3f489ac188",
+      "packer_run_uuid": "5ec64285-003a-502a-387e-9624a7d1b396",
+      "custom_data": null
+    },
+    {
+      "name": "ubuntu",
+      "builder_type": "amazon-ebs",
+      "build_time": 1708795571,
+      "files": null,
+      "artifact_id": "us-west-2:ami-0c14183d701bfb0f7",
+      "packer_run_uuid": "60bd9ee6-c136-0115-8172-f78ac1d44ccf",
+      "custom_data": null
     }
   ],
-  "last_run_uuid": "330f1a4c-bee6-30e9-f4cc-ecbc2146d96d"
+  "last_run_uuid": "60bd9ee6-c136-0115-8172-f78ac1d44ccf"
 }
