@@ -27,8 +27,8 @@ source "amazon-ebs" "ubuntu" {
   }
   ssh_username = "ubuntu"
   tags = {
-    "Name"        = "UbuntuImage"
-    "Environment" = "TestingFeb25"
+    "Name"        = "UbuntuImageFeb25"
+    "Environment" = "Testing"
     "OS_Version"  = "Ubuntu 22.04"
     "Release"     = "Latest"
     "Created-by"  = "Packer"
@@ -41,46 +41,9 @@ build {
   ]
 
   provisioner "ansible" {
-    playbook_file = "${path.root}/playbooks/packages.yml"
+    playbook_file = "${path.root}/playbooks/master_playbook.yml"
     user          = "ubuntu"
     use_proxy     = false
-    ansible_env_vars = [
-      "ANSIBLE_HOST_KEY_CHECKING=False"
-    ]
-  }
-
-  provisioner "ansible" {
-    playbook_file = "${path.root}/playbooks/fail2ban.yml"
-    user          = "ubuntu"
-    use_proxy     = false
-    ansible_env_vars = [
-      "ANSIBLE_HOST_KEY_CHECKING=False"
-    ]
-  }
-
-  provisioner "ansible" {
-    playbook_file = "${path.root}/playbooks/redis.yml"
-    user          = "ubuntu"
-    use_proxy     = false
-    ansible_env_vars = [
-      "ANSIBLE_HOST_KEY_CHECKING=False"
-    ]
-  }
-
-  provisioner "ansible" {
-    playbook_file = "${path.root}/playbooks/install_caddy.yml"
-    user          = "ubuntu"
-    use_proxy     = false
-    ansible_env_vars = [
-      "ANSIBLE_HOST_KEY_CHECKING=False"
-    ]
-  }
-
-  provisioner "ansible" {
-    playbook_file = "${path.root}/playbooks/goss.yml"
-    user          = "ubuntu"
-    // Ensure Ansible can use the dynamic SSH settings provided by Packer
-    use_proxy = false
     ansible_env_vars = [
       "ANSIBLE_HOST_KEY_CHECKING=False"
     ]
