@@ -57,3 +57,6 @@
 - [Fail2ban Playbook](./57.md)
 - [Postgresql Playbook](./58.md)
 - [Redis Playbook](./59.md)
+- [Static IP in AWS](./60.md)
+- [WAF](./61.md)
+- [Content Strategy](./62.md)

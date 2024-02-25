@@ -1,0 +1,22 @@
+- name: Install Redis server
+  ansible.builtin.apt:
+    name: redis-server
+    state: present
+    update_cache: yes
+
+- name: Update Redis configuration file
+  ansible.builtin.lineinfile:
+    path: "{{ redis_configuration_file }}"
+    regexp: "^{{ item.option }}"
+    line: "{{ item.option }} {{ item.value }}"
+    state: present
+  loop:
+    - { option: "bind", value: "{{ redis_bind_interface }}" }
+    - { option: "maxmemory-policy", value: "{{ redis_maxmemory_policy }}" }
+  notify: restart redis
+
+- name: Ensure Redis is running and enabled
+  ansible.builtin.service:
+    name: redis-server
+    state: started
+    enabled: yes

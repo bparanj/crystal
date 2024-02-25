@@ -8,6 +8,15 @@
         update_cache: yes
         cache_valid_time: 3600 # Cache valid for 1 hour to avoid unnecessary updates
 
+    - name: Debug sources.list
+      ansible.builtin.shell:
+        cmd: cat /etc/apt/sources.list
+      register: sources_list
+
+    - name: Print sources.list content
+      ansible.builtin.debug:
+        msg: "{{ sources_list.stdout }}"
+
     - name: Install development tools and libraries
       ansible.builtin.apt:
         name:
@@ -33,9 +42,10 @@
           - openssl
           - python3
           - openssh-client
+          - net-tools
         state: present
 
-    - name: Ensure locale is generated
+    - name: Ensure the locale is set to en_US.UTF-8
       ansible.builtin.locale_gen:
         name: en_US.UTF-8
         state: present
@@ -43,3 +53,4 @@
     - name: Update locale
       ansible.builtin.command: update-locale LANG=en_US.UTF-8
       when: ansible_facts['env']['LANG'] is not defined or ansible_facts['env']['LANG'] != 'en_US.UTF-8'
+      changed_when: false

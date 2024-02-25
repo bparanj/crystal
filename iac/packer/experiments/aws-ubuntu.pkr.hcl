@@ -28,7 +28,7 @@ source "amazon-ebs" "ubuntu" {
   ssh_username = "ubuntu"
   tags = {
     "Name"        = "UbuntuImage"
-    "Environment" = "Testing"
+    "Environment" = "TestingFeb25"
     "OS_Version"  = "Ubuntu 22.04"
     "Release"     = "Latest"
     "Created-by"  = "Packer"
@@ -59,10 +59,18 @@ build {
   }
 
   provisioner "ansible" {
+    playbook_file = "${path.root}/playbooks/redis.yml"
+    user          = "ubuntu"
+    use_proxy     = false
+    ansible_env_vars = [
+      "ANSIBLE_HOST_KEY_CHECKING=False"
+    ]
+  }
+
+  provisioner "ansible" {
     playbook_file = "${path.root}/playbooks/install_caddy.yml"
     user          = "ubuntu"
-    // Ensure Ansible can use the dynamic SSH settings provided by Packer
-    use_proxy = false
+    use_proxy     = false
     ansible_env_vars = [
       "ANSIBLE_HOST_KEY_CHECKING=False"
     ]

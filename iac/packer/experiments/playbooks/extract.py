@@ -1,5 +1,10 @@
 import yaml
 
+# Read the packages.yml file and create packages.txt file to be used with the 
+# shell script to manually verify that packages are installed on the server.
+# Refer troubleshooting/1.md for instructions
+# This is manual fallback mechanism to double check the installed packages
+
 package_map = {
     "git-core": "git"
     # Add more mappings if needed for other packages in packages.yml file
