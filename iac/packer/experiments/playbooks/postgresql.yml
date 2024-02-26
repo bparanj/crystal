@@ -1,0 +1,20 @@
+---
+- name: Install PostgreSQL on Ubuntu 22.04
+  hosts: all
+  become: true  # Use sudo
+  tasks:
+    - name: Update apt cache
+      ansible.builtin.apt:
+        update_cache: yes
+        cache_valid_time: 3600  # Optional: Cache valid for 1 hour to avoid unnecessary updates
+
+    - name: Install PostgreSQL
+      ansible.builtin.apt:
+        name: postgresql
+        state: present
+
+    - name: Ensure PostgreSQL is running and enabled on boot
+      ansible.builtin.service:
+        name: postgresql
+        state: started
+        enabled: yes
