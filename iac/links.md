@@ -4,3 +4,4 @@
 [Labs](https://github.com/btkrausen/hashicorp/tree/master/packer)
 [Setup Packer with CI/CD - Packt Course](https://subscription.packtpub.com/book/cloud-and-networking/9781837631636/10/ch10lvl1sec54/running-terraform-using-github-actions)
 [Ansible Lab](https://github.com/spurin/diveintoansible-lab)
+[Packer Basics](https://github.com/btkrausen/hashicorp)
