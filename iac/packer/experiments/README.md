@@ -1,5 +1,59 @@
 ## Versions
 
+### Development
+
+#### Python 
+
+```
+python3 --version
+Python 3.12.1
+```
+
+#### Ansible
+
+```
+ansible --version
+ansible [core 2.16.1]
+  config file = None
+  configured module search path = ['/Users/bparanj/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/9.1.0/libexec/lib/python3.12/site-packages/ansible
+  ansible collection location = /Users/bparanj/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.12.2 (main, Feb  6 2024, 20:19:44) [Clang 15.0.0 (clang-1500.1.0.2.5)] (/opt/homebrew/Cellar/ansible/9.1.0/libexec/bin/python)
+  jinja version = 3.1.3
+  libyaml = True
+```
+
+### Packer
+
+```
+packer version
+Packer v1.10.1
+```
+
+### Terraform
+
+```
+terraform -version
+Terraform v1.6.6
+on darwin_arm64
+
+Your version of Terraform is out of date! The latest version
+is 1.7.4. You can update by downloading from https://www.terraform.io/downloads.html
+```
+
+### Testing
+
+#### Goss
+
+See the playbooks/goss.yml:
+
+```
+v0.4.4
+```
+
+### Base Image
+
 ### Caddy
 
 ```

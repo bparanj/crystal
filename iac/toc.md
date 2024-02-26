@@ -67,3 +67,5 @@
 - [Packer CLI](./67.md)
 - [Calculating Memory for EC2](./68.md)
 - [Passwordless Login](./69.md)
+- [Basics of apt upgrade](.70.md)
+- [Basic Firewall Setup](./71.md)
