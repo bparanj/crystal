@@ -11,7 +11,7 @@ package_map = {
 }
 
 # Open and read the playbook file
-with open("./packages.yml", "r") as f:
+with open("../playbooks/packages.yml", "r") as f:
     data = yaml.safe_load(f)
 
 # Find the task that installs packages using apt
