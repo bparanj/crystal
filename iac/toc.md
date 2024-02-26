@@ -69,3 +69,6 @@
 - [Passwordless Login](./69.md)
 - [Basics of apt upgrade](.70.md)
 - [Basic Firewall Setup](./71.md)
+- [Realworld Painpoints](./72.md)
+- [Logrotate](./73.md)
+- [Postgres Database Hourly Backups](./74.md)
