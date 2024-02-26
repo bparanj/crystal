@@ -72,3 +72,5 @@
 - [Realworld Painpoints](./72.md)
 - [Logrotate](./73.md)
 - [Postgres Database Hourly Backups](./74.md)
+- [Upgrading Ruby](./75.md)
+- [Deployment and Git](./76.md)
