@@ -74,3 +74,5 @@
 - [Postgres Database Hourly Backups](./74.md)
 - [Upgrading Ruby](./75.md)
 - [Deployment and Git](./76.md)
+- [Restrict Access to Postgresql](./77.md)
+- [Packages and Description](./78.md)
