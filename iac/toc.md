@@ -76,3 +76,4 @@
 - [Deployment and Git](./76.md)
 - [Restrict Access to Postgresql](./77.md)
 - [Packages and Description](./basics/78.md)
+- [Test Connection Playbook](./79.md)
