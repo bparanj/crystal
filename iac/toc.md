@@ -78,3 +78,4 @@
 - [Packages and Description](./basics/78.md)
 - [Test Connection Playbook](./79.md)
 - [Rails Master Key](./80.md)
+- [Verify Caddy HTTP/2](./81.md)
