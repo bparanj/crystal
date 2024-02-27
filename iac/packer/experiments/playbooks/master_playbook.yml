@@ -1,6 +1,7 @@
 ---
 - import_playbook: packages.yml
 - import_playbook: fail2ban.yml
+- import_playbook: secure_ssh.yml
 - import_playbook: redis.yml
 - import_playbook: install_caddy.yml
 - import_playbook: postgresql.yml
