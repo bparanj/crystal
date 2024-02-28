@@ -79,3 +79,4 @@
 - [Test Connection Playbook](./79.md)
 - [Rails Master Key](./80.md)
 - [Verify Caddy HTTP/2](./81.md)
+- [Restrict Access to Redis](./82.md)
