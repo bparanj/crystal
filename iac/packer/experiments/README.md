@@ -2,6 +2,19 @@
 
 ### Development
 
+| Name      | Version                                   |
+|-----------|-------------------------------------------|
+| Python    | 3.12.1                                    |
+| Ansible   | core 2.16.1                               |
+| Packer    | 1.10.1                                    |
+| Terraform | 1.6.6                                     |
+| Goss      | 0.4.4                                     |
+| Caddy     | 2.7.6                                     |
+| PostgreSQL| 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)     |
+| Redis     | 6.0.16                                    |
+
+This table includes the main software along with their versions that you mentioned, providing a quick reference to the software stack's specifics.
+
 #### Python 
 
 ```

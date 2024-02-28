@@ -1,12 +1,14 @@
----
 - name: Install PostgreSQL on Ubuntu 22.04
   hosts: all
   become: true  # Use sudo
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
   tasks:
     - name: Update apt cache
       ansible.builtin.apt:
         update_cache: yes
-        cache_valid_time: 3600  # Optional: Cache valid for 1 hour to avoid unnecessary updates
+        cache_valid_time: 3600
 
     - name: Install PostgreSQL
       ansible.builtin.apt:
@@ -17,4 +19,46 @@
       ansible.builtin.service:
         name: postgresql
         state: started
+        enabled: yes
+
+    - name: Configure PostgreSQL to listen on localhost only
+      ansible.builtin.lineinfile:
+        path: /etc/postgresql/14/main/postgresql.conf
+        regexp: '^#?listen_addresses\s*='
+        line: "listen_addresses = 'localhost'"
+        state: present
+      notify: restart postgresql
+
+    - name: Restrict connections to local machine
+      ansible.builtin.lineinfile:
+        path: /etc/postgresql/14/main/pg_hba.conf
+        regexp: '^local\s+all\s+all\s+peer$'
+        line: "local   all             all                                     peer"
+        state: present
+      notify: restart postgresql
+
+    - name: Ensure libpq-dev is installed (Ubuntu/Debian)
+      ansible.builtin.apt:
+        name: libpq-dev
+        state: present
+
+    - name: Install psycopg2-binary using pip3  # Required for postgresql modules
+      ansible.builtin.pip:
+        name: psycopg2-binary
+        state: present
+
+    - name: Create temporary database user with a password
+      ansible.builtin.postgresql_user:
+        login_user: postgres
+        name: dbtester
+        password: "password"
+        state: present
+      become: true
+      become_user: postgres
+
+  handlers:
+    - name: restart postgresql
+      ansible.builtin.service:
+        name: postgresql
+        state: restarted
         enabled: yes
