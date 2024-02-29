@@ -1,0 +1,10 @@
+---
+- name: Common setup for all AMIs
+  hosts: all
+  become: true
+  tasks:
+    - name: Create deploy user
+      ansible.builtin.user:
+        name: deploy
+        shell: /bin/bash
+        create_home: yes

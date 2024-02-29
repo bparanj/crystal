@@ -5,5 +5,6 @@
 - import_playbook: redis.yml
 - import_playbook: install_caddy.yml
 - import_playbook: postgresql.yml
+- import_playbook: deploy_user.yml
 - import_playbook: motd.yml
 - import_playbook: goss.yml
