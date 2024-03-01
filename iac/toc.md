@@ -83,6 +83,7 @@
 - [Format Ansible Playbook](./83.md)
 - [Change SSH Port](./84.md)
 - [Hello Puma](./85.md)
+- [Hello Rails + Postgresql](./86.md)
 
 ## Provisioner
 
