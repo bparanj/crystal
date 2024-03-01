@@ -84,6 +84,7 @@
 - [Change SSH Port](./84.md)
 - [Hello Puma](./85.md)
 - [Hello Rails + Postgresql](./86.md)
+- [Install Latest Postgresql](./87.md)
 
 ## Provisioner
 
