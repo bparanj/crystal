@@ -14,7 +14,7 @@ packer {
 source "amazon-ebs" "ubuntu" {
   communicator  = "ssh"
   ami_name      = "packer-ubuntu-aws-{{timestamp}}"
-  instance_type = "t2.micro"
+  instance_type = "c5.2xlarge"
   region        = "us-west-2"
   source_ami_filter {
     filters = {
@@ -27,7 +27,7 @@ source "amazon-ebs" "ubuntu" {
   }
   ssh_username = "ubuntu"
   tags = {
-    "Name"        = "UbuntuImageFeb25"
+    "Name"        = "UbuntuImageMar1"
     "Environment" = "Testing"
     "OS_Version"  = "Ubuntu 22.04"
     "Release"     = "Latest"

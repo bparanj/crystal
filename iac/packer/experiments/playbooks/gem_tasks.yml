@@ -1,0 +1,14 @@
+---
+- name: Update RubyGems and turn off rdoc installation
+  hosts: all
+  become: true
+  tasks:
+    - name: Turn off rdoc installation for gem installation
+      ansible.builtin.lineinfile:
+        path: /etc/gemrc
+        line: 'gem: --no-document'
+        create: yes
+
+    - name: Update RubyGems to the latest version
+      ansible.builtin.command:
+        cmd: gem update --system

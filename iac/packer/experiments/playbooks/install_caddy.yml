@@ -19,12 +19,12 @@
         name: caddy
         state: latest
 
-    - name: Create Caddyfile
+    - name: Create Caddyfile for reverse proxy
       ansible.builtin.copy:
         dest: /etc/caddy/Caddyfile
         content: |
           :80 {
-              respond "Caddy is running but not yet configured." 200
+              reverse_proxy http://localhost:9292/
           }
         owner: root
         group: root

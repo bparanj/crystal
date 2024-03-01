@@ -1,18 +1,34 @@
-- name: Install PostgreSQL on Ubuntu 22.04
+- name: Install PostgreSQL 16 on Ubuntu 22.04
   hosts: all
   become: true  # Use sudo
   vars:
     ansible_python_interpreter: /usr/bin/python3
 
   tasks:
-    - name: Update apt cache
+    - name: Install prerequisites
       ansible.builtin.apt:
+        name:
+          - ca-certificates
+          - wget
+        state: present
         update_cache: yes
-        cache_valid_time: 3600
 
-    - name: Install PostgreSQL
+    - name: Add the PostgreSQL GPG key
+      ansible.builtin.apt_key:
+        url: https://www.postgresql.org/media/keys/ACCC4CF8.asc
+        state: present
+
+    - name: Add PostgreSQL 16 repository
+      ansible.builtin.apt_repository:
+        repo: deb http://apt.postgresql.org/pub/repos/apt/ {{ ansible_distribution_release }}-pgdg main
+        state: present
+        update_cache: yes
+
+    - name: Install PostgreSQL 16
       ansible.builtin.apt:
-        name: postgresql
+        name: 
+          - postgresql-16
+          - postgresql-client-16
         state: present
 
     - name: Ensure PostgreSQL is running and enabled on boot
@@ -23,7 +39,7 @@
 
     - name: Configure PostgreSQL to listen on localhost only
       ansible.builtin.lineinfile:
-        path: /etc/postgresql/14/main/postgresql.conf
+        path: /etc/postgresql/16/main/postgresql.conf  # Updated to version 16
         regexp: '^#?listen_addresses\s*='
         line: "listen_addresses = 'localhost'"
         state: present
@@ -31,7 +47,7 @@
 
     - name: Restrict connections to local machine
       ansible.builtin.lineinfile:
-        path: /etc/postgresql/14/main/pg_hba.conf
+        path: /etc/postgresql/16/main/pg_hba.conf  # Updated to version 16
         regexp: '^local\s+all\s+all\s+peer$'
         line: "local   all             all                                     peer"
         state: present
