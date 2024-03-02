@@ -39,7 +39,7 @@
 - [Packer Template - First EC2 Image](.basics//39.md)
 - [Packer and Ansible - Webserver ](./basics/40.md)
 - [Make Ansible Work with Packer](./41.md)
-- [Provision Infrastructure using Terraform](./42.md)
+- [Provision Infrastructure using Terraform](./basics/42.md)
 - [Caddy AMI](./43.md)
 - [Installing Packages using Ansible](./44.md)
 - [Verification of Package Installation](./45.md)
@@ -85,6 +85,15 @@
 - [Hello Puma](./85.md)
 - [Hello Rails + Postgresql](./86.md)
 - [Install Latest Postgresql](./87.md)
+- [Publish AMI](./provisioner/publish-ami.md)
+- [Project Structure](basics/project-structure.md)
+- [Allow SSH on Custom Port](./provisioner/ssh-port.md)
+- [AWS Secrets store for PEM file](./provisioner/aws-secrets.md)
+- [Caddy Troubleshotting](./caddy-troubleshooting.md)
+- [Speed Up Ansible](./speedup-ansible.md)
+- [Speed Up Bundle Install](./speedup-bundle.md)
+- [Terraform Rack App](./provisioner/terraform-ruby.md)
+- [Providing AWS Secrets Access to Terraform](./aws-secrets-policy.md)
 
 ## Provisioner
 
