@@ -14,7 +14,7 @@ packer {
 source "amazon-ebs" "ubuntu" {
   communicator  = "ssh"
   ami_name      = "packer-ubuntu-aws-{{timestamp}}"
-  instance_type = "c5.2xlarge"
+  instance_type = "c5.4xlarge"
   region        = "us-west-2"
   source_ami_filter {
     filters = {
@@ -27,7 +27,7 @@ source "amazon-ebs" "ubuntu" {
   }
   ssh_username = "ubuntu"
   tags = {
-    "Name"        = "UbuntuImageMar1"
+    "Name"        = "UbuntuImageMar2"
     "Environment" = "Testing"
     "OS_Version"  = "Ubuntu 22.04"
     "Release"     = "Latest"
@@ -41,7 +41,7 @@ build {
   ]
 
   provisioner "ansible" {
-    playbook_file = "${path.root}/playbooks/master_playbook.yml"
+    playbook_file = "${path.root}/../ansible/playbooks/master_playbook.yml"
     user          = "ubuntu"
     use_proxy     = false
     ansible_env_vars = [

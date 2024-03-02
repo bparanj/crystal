@@ -2,6 +2,32 @@ provider "aws" {
   region = "us-west-2"
 }
 
+resource "tls_private_key" "ror_key" {
+  algorithm = "RSA"
+  rsa_bits  = 2048
+}
+
+resource "random_string" "ror_key_suffix" {
+  length  = 8
+  special = false
+  upper   = false
+}
+
+resource "aws_secretsmanager_secret" "ror_key_secret" {
+  name = "ror_key_secret-${random_string.ror_key_suffix.result}"
+}
+
+
+resource "aws_secretsmanager_secret_version" "ror_key_version" {
+  secret_id     = aws_secretsmanager_secret.ror_key_secret.id
+  secret_string = tls_private_key.ror_key.private_key_pem
+}
+
+resource "aws_key_pair" "deployer" {
+  key_name   = "deployer-key"
+  public_key = tls_private_key.ror_key.public_key_openssh
+}
+
 resource "aws_vpc" "rails_vpc" {
   cidr_block           = "10.0.0.0/16"
   enable_dns_support   = true
@@ -30,8 +56,16 @@ resource "aws_internet_gateway" "rails_igw" {
 
 resource "aws_security_group" "rails_sg" {
   name        = "rails-sg"
-  description = "Allow inbound traffic for PostgreSQL, Rails, and Redis"
+  description = "Allow inbound traffic for PostgreSQL, Rails, Redis, and SSH"
   vpc_id      = aws_vpc.rails_vpc.id
+
+  ingress {
+    description = "SSH"
+    from_port   = 2222
+    to_port     = 2222
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
 
   ingress {
     description = "Rails HTTP"
@@ -97,10 +131,11 @@ resource "aws_route_table_association" "rails_a" {
 }
 
 resource "aws_instance" "rails" {
-  ami             = "ami-043ceec0b75bb683b" # Update with the latest AMI created by Packer
-  instance_type   = "t2.medium"
-  subnet_id       = aws_subnet.rails_public.id
-  security_groups = [aws_security_group.rails.name]
+  ami                    = "ami-0aa5a1d9359fc0e2c" # Update this to the latest AMI created by Packer
+  instance_type          = "t2.medium"
+  subnet_id              = aws_subnet.rails_public.id
+  vpc_security_group_ids = [aws_security_group.rails_sg.id]
+  key_name               = aws_key_pair.deployer.key_name
 
   tags = {
     Name = "RailsStack"

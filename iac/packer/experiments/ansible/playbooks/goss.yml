@@ -23,7 +23,7 @@
 
     - name: Copy Goss test file to target
       ansible.builtin.copy:
-        src: "../tests/{{ goss_file }}"
+        src: "../../tests/{{ goss_file }}"
         dest: "{{ goss_test_directory }}/{{ goss_file }}"
 
     - name: Run Goss validation
