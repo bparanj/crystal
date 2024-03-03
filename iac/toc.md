@@ -98,6 +98,11 @@
 - [Puma App Service](./puma-app-service.md)
 - [Externalize Data in Terraform](./externalize-data.md)
 - [PEM File Downloader](./pem-file-downloader.md)
+- [IAM User Setup for Customers](./provisioner/iam-user.md)
+- [Secure Backend for Terraform](./provisioner/secure-backend.md)
+- [Secure Customer Cross Account](./provisioner/customer-cross-account.md)
+- [Disable Redis Commands](./secure-redis.md)
+- [Secure AWS Keys](./provisioner/aws-access-keys.md)
 
 ## Provisioner
 
