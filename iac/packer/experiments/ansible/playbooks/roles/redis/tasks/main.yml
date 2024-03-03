@@ -1,8 +1,7 @@
-- name: Install Redis server
-  ansible.builtin.apt:
-    name: redis-server
+- name: Ensure Redis is installed
+  ansible.builtin.package:
+    name: "{{ redis_package_name }}"
     state: present
-    update_cache: yes
 
 - name: Update Redis configuration file
   ansible.builtin.lineinfile:
@@ -17,6 +16,14 @@
 
 - name: Ensure Redis is running and enabled
   ansible.builtin.service:
-    name: redis-server
+    name: "{{ redis_service_name }}"
     state: started
     enabled: yes
+
+- name: Disable specific Redis commands
+  ansible.builtin.lineinfile:
+    path: "{{ redis_configuration_file }}"
+    regexp: '^rename-command {{ item }} '
+    line: "rename-command {{ item }} \"\""
+    state: present
+  loop: "{{ redis_disabled_commands }}"

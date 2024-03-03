@@ -10,3 +10,8 @@ redis_service_name: "redis-server"
 # Other default settings could include
 redis_port: 6379
 redis_configuration_file: "/etc/redis/redis.conf"
+
+redis_disabled_commands:
+  - FLUSHDB
+  - FLUSHALL
+  - KEYS
