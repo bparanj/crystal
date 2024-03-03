@@ -93,7 +93,11 @@
 - [Speed Up Ansible](./speedup-ansible.md)
 - [Speed Up Bundle Install](./speedup-bundle.md)
 - [Terraform Rack App](./provisioner/terraform-ruby.md)
-- [Providing AWS Secrets Access to Terraform](./aws-secrets-policy.md)
+- [Providing AWS Secrets Access to Terraform](./provisioner/aws-secrets-policy.md)
+- [AWS Secrets Access](./provisioner/aws-secrets.md)
+- [Puma App Service](./puma-app-service.md)
+- [Externalize Data in Terraform](./externalize-data.md)
+- [PEM File Downloader](./pem-file-downloader.md)
 
 ## Provisioner
 
