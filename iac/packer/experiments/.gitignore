@@ -1,0 +1,6 @@
+# Ignore .pem files in the javascript folder
+javascript/*.pem
+
+# Ignore the node_modules directory in the javascript folder
+javascript/node_modules/
+

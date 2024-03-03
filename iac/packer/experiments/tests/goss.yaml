@@ -43,3 +43,83 @@ package:
     installed: true
   openssh-client:
     installed: true
+package:
+    caddy:
+        installed: true
+        versions:
+            - 2.7.6
+    fail2ban:
+        installed: true
+        versions:
+            - 0.11.2-6
+port:
+    tcp:2019:
+        listening: true
+        ip:
+            - 127.0.0.1
+    tcp:2222:
+        listening: true
+        ip:
+            - 0.0.0.0
+    tcp6:80:
+        listening: true
+        ip:
+            - '::'
+    tcp6:2222:
+        listening: true
+        ip:
+            - '::'
+service:
+    caddy:
+        enabled: true
+        running: true
+    fail2ban:
+        enabled: true
+        running: true
+    postgresql:
+        enabled: true
+        running: true
+    redis:
+        enabled: true
+        running: true
+    sshd:
+        enabled: true
+        running: true
+user:
+    caddy:
+        exists: true
+        uid: 998
+        gid: 999
+        groups:
+            - caddy
+            - www-data
+        home: /var/lib/caddy
+        shell: /usr/sbin/nologin
+    redis:
+        exists: true
+        uid: 115
+        gid: 122
+        groups:
+            - redis
+        home: /var/lib/redis
+        shell: /usr/sbin/nologin
+    sshd:
+        exists: true
+        uid: 109
+        gid: 65534
+        groups:
+            - nogroup
+        home: /run/sshd
+        shell: /usr/sbin/nologin
+group:
+    caddy:
+        exists: true
+        gid: 999
+    redis:
+        exists: true
+        gid: 122
+process:
+    caddy:
+        running: true
+    sshd:
+        running: true

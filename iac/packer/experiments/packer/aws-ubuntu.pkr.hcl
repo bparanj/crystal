@@ -41,7 +41,7 @@ build {
   ]
 
   provisioner "ansible" {
-    playbook_file = "${path.root}/../ansible/playbooks/master_playbook.yml"
+    playbook_file = "../ansible/playbooks/master_playbook.yml"
     user          = "ubuntu"
     use_proxy     = false
     ansible_env_vars = [
