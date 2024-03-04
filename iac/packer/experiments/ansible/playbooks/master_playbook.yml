@@ -1,8 +1,8 @@
 ---
 - import_playbook: packages.yml
+- import_playbook: redis.yml
 - import_playbook: fail2ban.yml
 - import_playbook: harden_ssh.yml
-- import_playbook: redis.yml
 - import_playbook: install_ruby.yml
 - import_playbook: gem_tasks.yml
 - import_playbook: rack_app.yml

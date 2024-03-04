@@ -23,7 +23,7 @@ packer {
 
 source "amazon-ebs" "ubuntu" {
   communicator  = "ssh"
-  ami_name = "packer-ubuntu-aws-${regex_replace(timestamp(), "[^a-zA-Z0-9-]", "")}"
+  ami_name      = "packer-ubuntu-aws-${regex_replace(timestamp(), "[^a-zA-Z0-9-]", "")}"
   instance_type = "${var.instance_type}"
   region        = "${var.aws_region}"
   source_ami_filter {

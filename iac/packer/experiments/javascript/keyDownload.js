@@ -6,7 +6,8 @@ const accessKeyId = process.env.AWS_ACCESS_KEY_ID;
 const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY;
 const region = process.env.AWS_REGION || 'us-west-2'; // Use 'us-west-2' if AWS_REGION is not set
 
-const secret_name = "ror_key_secret-gtdruaz6";
+// This is hard-coded for now, but you can also pass it as an environment variable
+const secret_name = "ror_key_secret-pqc11in5";
 
 // Configure the AWS Secrets Manager client
 const client = new SecretsManagerClient({

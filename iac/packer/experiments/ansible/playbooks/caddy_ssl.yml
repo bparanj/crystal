@@ -1,0 +1,16 @@
+- hosts: 44.238.195.175
+  become: yes
+  tasks:
+    - name: Update Caddyfile
+      copy:
+        dest: /etc/caddy/Caddyfile
+        content: |
+          clickplan.net {
+              reverse_proxy localhost:9292
+          }
+        owner: root
+        group: root
+        mode: '0644'
+
+    - name: Reload Caddy to apply changes
+      command: systemctl reload caddy

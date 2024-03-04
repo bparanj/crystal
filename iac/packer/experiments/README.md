@@ -10,8 +10,8 @@
 | Terraform | 1.6.6                                     |
 | Goss      | 0.4.4                                     |
 | Caddy     | 2.7.6                                     |
-| PostgreSQL| 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1)     |
-| Redis     | 6.0.16                                    |
+| PostgreSQL| 16.something (update this )               |
+| Redis     | 7.something (update me)                   |
 
 This table includes the main software along with their versions that you mentioned, providing a quick reference to the software stack's specifics.
 
@@ -89,3 +89,19 @@ PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compile
 redis-server --version
 Redis server v=6.0.16 sha=00000000:0 malloc=jemalloc-5.2.1 bits=64 build=a3fdef44459b3ad6
 ```
+
+## Caddy SSL Setup
+
+Customize the inventory_file to provide the public static IP of EC2 instance and the port number where sshd is running.
+Go to the directory: /Users/bparanj/work/nuxt/iac/packer/experiments/ansible/playbooks, run:
+
+```
+ ansible-playbook -i inventory_file caddy_ssl.yml
+```
+
+## Tasks
+
+- Remove hard-coded AWS Secrets id in javascript/keyDownload.js
+- Update goss.yaml by running goss autoadd for all services (after the image creation by Packer stabilizes)
+- Update the inventory_file with the public static IP of EC2 instance and the port number where sshd is running
+- Update the versions in this file with the latest versions that is installed on the server

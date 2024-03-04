@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "AMI ID for the EC2 instance"
   type        = string
-  default     = "ami-088f276458e2a3c16" # Consider using a data source to dynamically fetch AMI
+  default     = "ami-03b2bc56d1503c131" # Consider using a data source to dynamically fetch AMI (refer: dynamically-fetch-ami-id.md)
 }
 
 variable "vpc_cidr_block" {

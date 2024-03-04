@@ -3,9 +3,7 @@
 redis_bind_interface: "127.0.0.1"
 redis_maxmemory_policy: "allkeys-lru"
 
-# Default package name and service
-redis_package_name: "redis-server"
-redis_service_name: "redis-server"
+redis_service_name: "redis"
 
 # Other default settings could include
 redis_port: 6379
