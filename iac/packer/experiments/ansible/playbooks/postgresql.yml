@@ -31,6 +31,15 @@
           - postgresql-client-16
         state: present
 
+    - name: Ensure Ansible temporary directory exists for PostgreSQL user
+      file:
+        path: /var/lib/postgresql/.ansible/tmp
+        state: directory
+        mode: '0775'  # or '0755' if you want to be more restrictive
+        owner: postgres
+        group: postgres
+      become: true
+
     - name: Ensure PostgreSQL is running and enabled on boot
       ansible.builtin.service:
         name: postgresql

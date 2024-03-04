@@ -103,6 +103,8 @@
 - [Secure Customer Cross Account](./provisioner/customer-cross-account.md)
 - [Disable Redis Commands](./secure-redis.md)
 - [Secure AWS Keys](./provisioner/aws-access-keys.md)
+- [Dynamically Fetch AMI Id](./dynamically-fetch-ami-id.md)
+- [Using Variables in Packer](./packer-variables.md)
 
 ## Provisioner
 

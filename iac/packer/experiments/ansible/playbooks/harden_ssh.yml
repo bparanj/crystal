@@ -6,14 +6,13 @@
     ssh_port: 2222 # New SSH port (change as needed)
 
   tasks:
-    - name: Ensure Ansible remote_tmp directory exists
-      ansible.builtin.file:
-        path: "/tmp/.ansible-${USER}/tmp"
+    - name: Create Ansible temporary directory
+      file:
+        path: /root/.ansible/tmp
         state: directory
-        owner: "{{ ansible_user }}"
-        group: "{{ ansible_user }}"
         mode: '0775'
-      become: no
+        owner: root
+        group: root
 
     - name: Prevent root login via SSH
       ansible.builtin.lineinfile:

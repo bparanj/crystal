@@ -24,7 +24,7 @@
         dest: /etc/caddy/Caddyfile
         content: |
           :80 {
-             reverse_proxy http://localhost:9292/
+             respond "Hello Caddy" 200
           }
         owner: root
         group: root

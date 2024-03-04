@@ -1,7 +1,36 @@
-- name: Ensure Redis is installed
+- name: Install build dependencies for Redis
   ansible.builtin.package:
-    name: "{{ redis_package_name }}"
+    name:
+      - build-essential
+      - tcl
     state: present
+  become: true
+
+- name: Download Redis source code
+  ansible.builtin.get_url:
+    url: "http://download.redis.io/releases/redis-7.2.4.tar.gz"
+    dest: "/tmp/redis-7.2.4.tar.gz"
+    mode: '0644'
+  become: true
+
+- name: Extract Redis source code
+  ansible.builtin.unarchive:
+    src: "/tmp/redis-7.2.4.tar.gz"
+    dest: "/tmp"
+    remote_src: yes
+  become: true
+
+- name: Compile Redis
+  ansible.builtin.shell:
+    cmd: make
+    chdir: /tmp/redis-7.2.4
+  become: true
+
+- name: Install Redis
+  ansible.builtin.shell:
+    cmd: make install
+    chdir: /tmp/redis-7.2.4
+  become: true
 
 - name: Update Redis configuration file
   ansible.builtin.lineinfile:

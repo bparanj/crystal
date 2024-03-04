@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "ami_id" {
   description = "AMI ID for the EC2 instance"
   type        = string
-  default     = "ami-06bf7388023032057" # Consider using a data source to dynamically fetch AMI
+  default     = "ami-088f276458e2a3c16" # Consider using a data source to dynamically fetch AMI
 }
 
 variable "vpc_cidr_block" {
@@ -86,16 +86,4 @@ variable "route_table_cidr_block" {
   description = "The CIDR block for the default route in the route table"
   type        = string
   default     = "0.0.0.0/0"
-}
-
-variable "aws_access_key" {
-  description = "AWS access key"
-  type        = string
-  sensitive   = true
-}
-
-variable "aws_secret_key" {
-  description = "AWS secret key"
-  type        = string
-  sensitive   = true
 }

@@ -43,15 +43,14 @@ package:
     installed: true
   openssh-client:
     installed: true
-package:
-    caddy:
-        installed: true
-        versions:
-            - 2.7.6
-    fail2ban:
-        installed: true
-        versions:
-            - 0.11.2-6
+  caddy:
+    installed: true
+    versions:
+      - 2.7.6
+  fail2ban:
+    installed: true
+    versions:
+      - 0.11.2-6
 port:
     tcp:2019:
         listening: true
