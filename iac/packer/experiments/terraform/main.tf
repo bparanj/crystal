@@ -2,6 +2,10 @@ provider "aws" {
   region = var.aws_region
 }
 
+data "aws_eip" "static_ip" {
+  id = "eipalloc-057fe4dc2631b26e3"
+}
+
 resource "tls_private_key" "ror_key" {
   algorithm = "RSA"
   rsa_bits  = 2048
@@ -130,13 +134,19 @@ resource "aws_route_table_association" "rails_a" {
 }
 
 resource "aws_instance" "rails" {
-  ami                    = var.ami_id
-  instance_type          = var.instance_type
-  subnet_id              = aws_subnet.rails_public.id
-  vpc_security_group_ids = [aws_security_group.rails_sg.id]
-  key_name               = var.key_name
+  ami                         = var.ami_id
+  instance_type               = var.instance_type
+  subnet_id                   = aws_subnet.rails_public.id
+  vpc_security_group_ids      = [aws_security_group.rails_sg.id]
+  key_name                    = var.key_name
+  associate_public_ip_address = false
 
   tags = {
     Name = "RailsStack"
   }
+}
+
+resource "aws_eip_association" "rails_ip" {
+  instance_id   = aws_instance.rails.id
+  allocation_id = data.aws_eip.static_ip.id
 }

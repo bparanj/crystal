@@ -105,6 +105,8 @@
 - [Secure AWS Keys](./provisioner/aws-access-keys.md)
 - [Dynamically Fetch AMI Id](./dynamically-fetch-ami-id.md)
 - [Using Variables in Packer](./packer-variables.md)
+- [Mapping Domain to IP on Namecheap](./domain-ip-mapping.md)
+
 
 ## Provisioner
 
