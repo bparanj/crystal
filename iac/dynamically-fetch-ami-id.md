@@ -86,3 +86,72 @@ Ensure your Packer template tags the AMI appropriately for this to work.
 ### Conclusion
 
 These methods allow you to dynamically fetch the AMI ID created by Packer in your Terraform configurations. The choice between using an external data source or AWS-specific data sources may depend on your specific use case and how your AMIs are identified or tagged.
+
+Certainly! Here's the revised response using HCL for both Packer and Terraform:
+
+1. Using Terraform's `aws_ami` Data Source:
+   - In your Packer configuration (`example.pkr.hcl`), add a tag to the AMI that Packer creates:
+     ```hcl
+     source "amazon-ebs" "example" {
+       ami_name = "my-app-ami"
+       tags = {
+         "PackerBuild" = "my-app"
+       }
+     }
+
+     build {
+       sources = ["source.amazon-ebs.example"]
+     }
+     ```
+   - In your Terraform configuration (`main.tf`), use the `aws_ami` data source to filter and retrieve the AMI ID based on the tag:
+     ```hcl
+     data "aws_ami" "my_app_ami" {
+       most_recent = true
+       owners      = ["self"]
+
+       filter {
+         name   = "tag:PackerBuild"
+         values = ["my-app"]
+       }
+     }
+     ```
+   - Use the `data.aws_ami.my_app_ami.id` attribute to reference the AMI ID in your Terraform resources.
+
+2. Using Packer's Manifest Post-Processor:
+   - In your Packer configuration (`example.pkr.hcl`), add the manifest post-processor to generate a JSON file containing the build artifacts' information:
+     ```hcl
+     source "amazon-ebs" "example" {
+       ami_name = "my-app-ami"
+     }
+
+     build {
+       sources = ["source.amazon-ebs.example"]
+
+       post-processor "manifest" {
+         output = "manifest.json"
+       }
+     }
+     ```
+   - After running Packer, it will generate a `manifest.json` file containing the AMI ID.
+   - In your Terraform configuration (`main.tf`), use the `local_file` data source to read the `manifest.json` file:
+     ```hcl
+     data "local_file" "packer_manifest" {
+       filename = "path/to/manifest.json"
+     }
+     ```
+   - Parse the JSON content and extract the AMI ID using Terraform's `jsondecode` function:
+     ```hcl
+     locals {
+       packer_output = jsondecode(data.local_file.packer_manifest.content)
+       ami_id        = local.packer_output.builds[0].artifact_id
+     }
+     ```
+   - Use the `local.ami_id` value to reference the AMI ID in your Terraform resources.
+
+Both approaches allow you to dynamically retrieve the AMI ID created by Packer and use it in your Terraform configuration without hard-coding the value.
+
+The first approach using the `aws_ami` data source is simpler and doesn't require any additional files, but it relies on tagging the AMI correctly in Packer.
+
+The second approach using Packer's manifest post-processor requires generating a separate JSON file but provides more flexibility and allows you to access additional information about the Packer build if needed.
+
+Choose the approach that best fits your workflow and requirements. Remember to ensure that the Packer build runs before the Terraform apply, so that the AMI is available when Terraform references it.

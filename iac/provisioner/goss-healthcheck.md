@@ -331,3 +331,155 @@ resource "aws_security_group" "example" {
 This Terraform configuration creates a security group in a specified VPC with ingress rules allowing HTTP, HTTPS, PostgreSQL, and Redis traffic from specified sources and an egress rule allowing all outbound traffic.
 
 In summary, configuring security groups as part of the provisioning process with tools like Terraform provides better alignment with security, operational practices, and the dynamic nature of cloud environments.
+
+Yes, you can use the Goss auto-add command within your Packer configuration to automatically generate tests for your EC2 instance. Goss is a tool for validating the state of a server and can be used to create automated tests.
+
+Here's an example of how you can integrate Goss auto-add into your Packer configuration:
+
+1. Install Goss on your local machine where you are running Packer.
+
+2. In your Packer configuration file (e.g., `packer.json`), add a provisioner step to install Goss on the EC2 instance:
+
+```json
+{
+  "type": "shell",
+  "inline": [
+    "curl -fsSL https://goss.rocks/install | sh"
+  ]
+}
+```
+
+3. Add another provisioner step to run the Goss auto-add command on the EC2 instance:
+
+```json
+{
+  "type": "shell",
+  "inline": [
+    "goss autoadd",
+    "goss render > goss.yaml"
+  ]
+}
+```
+
+The `goss autoadd` command will automatically generate tests based on the current state of the EC2 instance. It will capture information about packages, files, services, and other system properties.
+
+The `goss render > goss.yaml` command will save the generated tests to a file named `goss.yaml` on the EC2 instance.
+
+4. Use the `file` provisioner to retrieve the generated `goss.yaml` file from the EC2 instance:
+
+```json
+{
+  "type": "file",
+  "source": "goss.yaml",
+  "destination": "goss.yaml",
+  "direction": "download"
+}
+```
+
+This step will download the `goss.yaml` file from the EC2 instance to your local machine.
+
+5. (Optional) You can add a final provisioner step to run the Goss tests on the EC2 instance before creating the AMI:
+
+```json
+{
+  "type": "shell",
+  "inline": [
+    "goss validate"
+  ]
+}
+```
+
+This step will execute the generated tests using the `goss validate` command to ensure that the EC2 instance meets the expected state.
+
+Here's the complete Packer configuration with the Goss auto-add steps:
+
+```json
+{
+  "builders": [
+    {
+      "type": "amazon-ebs",
+      "region": "us-west-2",
+      "source_ami": "ami-0c55b159cbfafe1f0",
+      "instance_type": "t2.micro",
+      "ssh_username": "ec2-user",
+      "ami_name": "packer-goss-example-{{timestamp}}"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "inline": [
+        "curl -fsSL https://goss.rocks/install | sh"
+      ]
+    },
+    {
+      "type": "shell",
+      "inline": [
+        "goss autoadd",
+        "goss render > goss.yaml"
+      ]
+    },
+    {
+      "type": "file",
+      "source": "goss.yaml",
+      "destination": "goss.yaml",
+      "direction": "download"
+    },
+    {
+      "type": "shell",
+      "inline": [
+        "goss validate"
+      ]
+    }
+  ]
+}
+```
+
+With this configuration, Packer will create an EC2 instance, run the Goss auto-add command to generate tests, retrieve the `goss.yaml` file, and optionally run the tests before creating the AMI.
+
+After running Packer, you will have the `goss.yaml` file on your local machine, containing the automatically generated tests for your EC2 instance. You can then use this file for future validation of your AMI or integrate it into your continuous integration and deployment pipeline.
+
+Yes, if you have both Apache and Caddy running on the same server and configured to listen on the same port (e.g., port 80 or 443), there will be a conflict. Only one process can bind to a specific port at a time.
+
+To avoid the conflict, you have a few options:
+
+1. Use different ports for Apache and Caddy:
+   - Configure Apache to listen on a different port (e.g., 8080) and update the proxy configuration accordingly.
+   - Keep Caddy running on the default ports (80 and 443) and let it handle the incoming requests.
+
+2. Use Caddy as the reverse proxy for both the Goss health check endpoint and your other services:
+   - Instead of using Apache, configure Caddy to proxy the Goss health check endpoint to the Goss script.
+   - Update the Caddyfile to include a route for the `/healthz` endpoint and proxy it to the Goss script.
+
+Here's an updated Caddyfile configuration that includes the Goss health check endpoint:
+
+```
+:80 {
+    route /check/* {
+        reverse_proxy localhost:9292
+    }
+
+    route /healthz {
+        reverse_proxy unix//var/run/goss.sock
+    }
+
+    route /* {
+        reverse_proxy localhost:3000
+    }
+}
+```
+
+In this configuration:
+- The `/check/*` route proxies requests to `localhost:9292`.
+- The `/healthz` route proxies requests to the Unix socket `/var/run/goss.sock`, which is used by the Goss script.
+- All other requests (`/*`) are proxied to `localhost:3000`.
+
+Update the Ansible playbook to remove the Apache-related tasks and configure Caddy with the updated Caddyfile.
+
+3. Use a different server for the Goss health check endpoint:
+   - If you want to keep Apache and Caddy running on the same server, you can set up the Goss health check endpoint on a separate server.
+   - Update the Ansible playbook to configure the Goss health check endpoint on the separate server.
+
+Choose the approach that best fits your requirements and architecture. If you are already using Caddy as the reverse proxy, it would be simpler to configure Caddy to handle the Goss health check endpoint as well, eliminating the need for Apache.
+
+Update your Ansible playbook accordingly based on the chosen approach.
