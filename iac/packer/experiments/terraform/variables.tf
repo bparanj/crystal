@@ -10,22 +10,10 @@ variable "instance_type" {
   default     = "t2.medium"
 }
 
-variable "ami_id" {
-  description = "AMI ID for the EC2 instance"
-  type        = string
-  default     = "ami-03b2bc56d1503c131" # Consider using a data source to dynamically fetch AMI (refer: dynamically-fetch-ami-id.md)
-}
-
 variable "vpc_cidr_block" {
   description = "CIDR block for the VPC"
   type        = string
   default     = "10.0.0.0/16"
-}
-
-variable "subnet_cidr_block" {
-  description = "CIDR block for the public subnet"
-  type        = string
-  default     = "10.0.1.0/24"
 }
 
 variable "availability_zone" {

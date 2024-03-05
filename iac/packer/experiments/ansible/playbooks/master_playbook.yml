@@ -10,4 +10,4 @@
 - import_playbook: deploy_user.yml
 - import_playbook: motd.yml
 - import_playbook: install_caddy.yml
-- import_playbook: goss.yml
+- import_playbook: setup_goss.yml

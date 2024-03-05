@@ -6,6 +6,22 @@ data "aws_eip" "static_ip" {
   id = "eipalloc-057fe4dc2631b26e3"
 }
 
+data "aws_ami" "latest_ami" {
+  most_recent = true
+
+  filter {
+    name   = "tag:Name"
+    values = ["UbuntuImage"]
+  }
+
+  filter {
+    name   = "tag:Version"
+    values = ["0.0.2"]
+  }
+
+  owners = ["self"] # or your AWS account ID
+}
+
 resource "tls_private_key" "ror_key" {
   algorithm = "RSA"
   rsa_bits  = 2048
@@ -40,13 +56,22 @@ resource "aws_vpc" "rails_vpc" {
   }
 }
 
-resource "aws_subnet" "rails_public" {
+resource "aws_subnet" "rails_public_subnet" {
   vpc_id                  = aws_vpc.rails_vpc.id
-  cidr_block              = var.subnet_cidr_block
+  cidr_block              = "10.0.10.0/24"
   map_public_ip_on_launch = true
-  availability_zone       = var.availability_zone
+  availability_zone       = "us-west-2a"
   tags = {
-    Name = "rails-public"
+    Name = "rails-public-subnet"
+  }
+}
+
+resource "aws_subnet" "rails_private_subnet" {
+  vpc_id            = aws_vpc.rails_vpc.id
+  cidr_block        = "10.0.2.0/24"
+  availability_zone = "us-west-2a"
+  tags = {
+    Name = "rails-private-subnet"
   }
 }
 
@@ -55,6 +80,24 @@ resource "aws_internet_gateway" "rails_igw" {
   tags = {
     Name = "rails-igw"
   }
+}
+
+resource "aws_route_table" "rails_public_rt" {
+  vpc_id = aws_vpc.rails_vpc.id
+
+  route {
+    cidr_block = "0.0.0.0/0"
+    gateway_id = aws_internet_gateway.rails_igw.id
+  }
+
+  tags = {
+    Name = "rails-public-rt"
+  }
+}
+
+resource "aws_route_table_association" "rails_public_rt_association" {
+  subnet_id      = aws_subnet.rails_public_subnet.id
+  route_table_id = aws_route_table.rails_public_rt.id
 }
 
 resource "aws_security_group" "rails_sg" {
@@ -115,38 +158,33 @@ resource "aws_security_group" "rails_sg" {
   }
 }
 
-resource "aws_route_table" "rails_public" {
-  vpc_id = aws_vpc.rails_vpc.id
-
-  route {
-    cidr_block = var.route_table_cidr_block
-    gateway_id = aws_internet_gateway.rails_igw.id
-  }
+resource "aws_instance" "rails" {
+  ami                         = data.aws_ami.latest_ami.id
+  instance_type               = var.instance_type
+  subnet_id                   = aws_subnet.rails_public_subnet.id
+  vpc_security_group_ids      = [aws_security_group.rails_sg.id]
+  key_name                    = var.key_name
+  associate_public_ip_address = true
 
   tags = {
-    Name = var.route_table_name
+    Name = "RailsFrontend"
   }
 }
 
-resource "aws_route_table_association" "rails_a" {
-  subnet_id      = aws_subnet.rails_public.id
-  route_table_id = aws_route_table.rails_public.id
-}
-
-resource "aws_instance" "rails" {
-  ami                         = var.ami_id
+resource "aws_instance" "rails_backend" {
+  ami                         = data.aws_ami.latest_ami.id
   instance_type               = var.instance_type
-  subnet_id                   = aws_subnet.rails_public.id
+  subnet_id                   = aws_subnet.rails_private_subnet.id
   vpc_security_group_ids      = [aws_security_group.rails_sg.id]
   key_name                    = var.key_name
   associate_public_ip_address = false
 
   tags = {
-    Name = "RailsStack"
+    Name = "RailsBackend"
   }
 }
 
-resource "aws_eip_association" "rails_ip" {
+resource "aws_eip_association" "rails_eip" {
   instance_id   = aws_instance.rails.id
   allocation_id = data.aws_eip.static_ip.id
 }

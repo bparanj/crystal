@@ -5,13 +5,14 @@
 | Name      | Version                                   |
 |-----------|-------------------------------------------|
 | Python    | 3.12.1                                    |
+| Ruby      | 3.3.0                                     |
 | Ansible   | core 2.16.1                               |
 | Packer    | 1.10.1                                    |
 | Terraform | 1.6.6                                     |
 | Goss      | 0.4.4                                     |
 | Caddy     | 2.7.6                                     |
-| PostgreSQL| 16.something (update this )               |
-| Redis     | 7.something (update me)                   |
+| PostgreSQL| psql (PostgreSQL) 16.2 (Ubuntu 16.2-1.pgdg22.04+1)               |
+| Redis     | Redis server v=7.2.4 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=4a33ab3ec422ece7 |
 
 This table includes the main software along with their versions that you mentioned, providing a quick reference to the software stack's specifics.
 
@@ -81,27 +82,47 @@ sudo -u postgres psql
 SELECT version();
 ```
 
-PostgreSQL 14.11 (Ubuntu 14.11-0ubuntu0.22.04.1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+```
+PostgreSQL 16.2 (Ubuntu 16.2-1.pgdg22.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+```
 
 ### Redis
 
 ```
 redis-server --version
-Redis server v=6.0.16 sha=00000000:0 malloc=jemalloc-5.2.1 bits=64 build=a3fdef44459b3ad6
+
+```
+
+## Download PEM File
+
+Go to the directory: /Users/bparanj/work/nuxt/iac/packer/experiments/javascript. Run:
+
+```
+node keyDownload.js 
 ```
 
 ## Caddy SSL Setup
 
-Customize the inventory_file to provide the public static IP of EC2 instance and the port number where sshd is running.
+Customize the inventory_file to provide the public static IP of EC2 instance and the port number where sshd is running. It should look like:
+
+```
+[webserver]
+44.238.195.175 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/Users/bparanj/work/nuxt/iac/packer/experiments/javascript/rails-server.pem  ansible_ssh_port=2222
+```
+
 Go to the directory: /Users/bparanj/work/nuxt/iac/packer/experiments/ansible/playbooks, run:
 
 ```
  ansible-playbook -i inventory_file caddy_ssl.yml
 ```
 
+## Running Tests
+
+- Manually run goss autoadd on the server.
+- Copy the generated file on the server to tests/goss.yaml file in the project
+
 ## Tasks
 
 - Remove hard-coded AWS Secrets id in javascript/keyDownload.js
 - Update goss.yaml by running goss autoadd for all services (after the image creation by Packer stabilizes)
 - Update the inventory_file with the public static IP of EC2 instance and the port number where sshd is running
-- Update the versions in this file with the latest versions that is installed on the server
