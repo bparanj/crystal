@@ -42,6 +42,7 @@ source "amazon-ebs" "ubuntu" {
     "OS_Version"  = "Ubuntu 22.04"
     "Release"     = "Latest"
     "Created-by"  = "Packer"
+    "Version"     = "0.0.2"
   }
 }
 
@@ -59,5 +60,7 @@ build {
     ]
   }
 
-  post-processor "manifest" {}
+  post-processor "manifest" {
+    output = "manifest.json"
+  }
 }
