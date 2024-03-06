@@ -19,6 +19,7 @@
         - build-essential
         - curl
         - git-core
+        - jq
         - libdb-dev
         - libffi-dev
         - libgdbm-dev

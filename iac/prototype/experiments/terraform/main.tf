@@ -16,10 +16,10 @@ data "aws_ami" "latest_ami" {
 
   filter {
     name   = "tag:Version"
-    values = ["0.0.2"]
+    values = ["0.0.5"]
   }
 
-  owners = ["self"] # or your AWS account ID
+  owners = ["self"]
 }
 
 resource "tls_private_key" "ror_key" {
@@ -63,15 +63,6 @@ resource "aws_subnet" "rails_public_subnet" {
   availability_zone       = "us-west-2a"
   tags = {
     Name = "rails-public-subnet"
-  }
-}
-
-resource "aws_subnet" "rails_private_subnet" {
-  vpc_id            = aws_vpc.rails_vpc.id
-  cidr_block        = "10.0.2.0/24"
-  availability_zone = "us-west-2a"
-  tags = {
-    Name = "rails-private-subnet"
   }
 }
 
@@ -158,7 +149,7 @@ resource "aws_security_group" "rails_sg" {
   }
 }
 
-resource "aws_instance" "rails" {
+resource "aws_instance" "rails_instance" {
   ami                         = data.aws_ami.latest_ami.id
   instance_type               = var.instance_type
   subnet_id                   = aws_subnet.rails_public_subnet.id
@@ -167,24 +158,11 @@ resource "aws_instance" "rails" {
   associate_public_ip_address = true
 
   tags = {
-    Name = "RailsFrontend"
-  }
-}
-
-resource "aws_instance" "rails_backend" {
-  ami                         = data.aws_ami.latest_ami.id
-  instance_type               = var.instance_type
-  subnet_id                   = aws_subnet.rails_private_subnet.id
-  vpc_security_group_ids      = [aws_security_group.rails_sg.id]
-  key_name                    = var.key_name
-  associate_public_ip_address = false
-
-  tags = {
-    Name = "RailsBackend"
+    Name = "RailsApplication"
   }
 }
 
 resource "aws_eip_association" "rails_eip" {
-  instance_id   = aws_instance.rails.id
+  instance_id   = aws_instance.rails_instance.id
   allocation_id = data.aws_eip.static_ip.id
 }

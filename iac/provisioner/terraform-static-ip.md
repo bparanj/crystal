@@ -159,12 +159,12 @@ After creating your AMI with Packer, replace `"ami-123456"` with the actual AMI 
 - By separating the creation of the AMI and the deployment of infrastructure into two steps, you maintain flexibility and reusability in your infrastructure management.
 - Always ensure your AWS credentials are managed securely, using environment variables or IAM roles where possible.
 
-Here's a Terraform HCL template that demonstrates how to assign a static IP address to an EC2 instance, along with explanations.  **Importantly, this assumes you have some pre-existing infrastructure setup by Packer.**
+Here's a Terraform HCL template that demonstrates how to assign a static IP address to an EC2 instance, along with explanations. **Importantly, this assumes you have some pre-existing infrastructure setup by Packer.**
 
 **Prerequisites**
 
-* **Packer-created AMI:** You need an AMI produced by your Packer HCL template. This AMI will become the base image for your EC2 instance.
-* **Existing VPC and Subnet:** Terraform needs a VPC and subnet within which to launch the EC2 instance.
+- **Packer-created AMI:** You need an AMI produced by your Packer HCL template. This AMI will become the base image for your EC2 instance.
+- **Existing VPC and Subnet:** Terraform needs a VPC and subnet within which to launch the EC2 instance.
 
 **Terraform HCL Template**
 
@@ -179,7 +179,7 @@ data "aws_ami" "example_ami" {
   owners      = ["self"]  # Assumes Packer AMI is owned by your account
   filter {
     name   = "name"
-    values = ["ami-name-from-packer*"] 
+    values = ["ami-name-from-packer*"]
   }
 }
 
@@ -188,7 +188,7 @@ data "aws_vpc" "main" {
 }
 
 data "aws_subnet" "example" {
-  # Example: Select a subnet by name 
+  # Example: Select a subnet by name
   filter {
     name   = "tag:Name"
     values = ["your-subnet-name"]
@@ -197,20 +197,20 @@ data "aws_subnet" "example" {
 
 # Elastic IP (for the static IP)
 resource "aws_eip" "static_ip" {
-  vpc = true 
+  vpc = true
 }
 
 # EC2 instance with static IP association
 resource "aws_instance" "web_server" {
   ami           = data.aws_ami.example_ami.id
-  instance_type = "t2.micro" 
+  instance_type = "t2.micro"
   subnet_id     = data.aws_subnet.example.id
 
   # Associate the Elastic IP
   network_interface {
     device_index = 0
     private_ips  = [aws_eip.static_ip.private_ip]
-    associate_public_ip = true 
+    associate_public_ip = true
   }
 
   # (Optional) User data for bootstrapping your instance
@@ -229,32 +229,32 @@ resource "aws_instance" "web_server" {
 
 1. **Provider:** Configures Terraform to use the AWS provider.
 2. **Data Sources:**
-   * `aws_ami`: Fetches the latest AMI created by your Packer template.
-   * `aws_vpc`: Fetches your default VPC.
-   * `aws_subnet`: Fetches a subnet (you'll need to adjust the filter).
-3. **Elastic IP:**  Creates an Elastic IP address (this is your static public IP).
+   - `aws_ami`: Fetches the latest AMI created by your Packer template.
+   - `aws_vpc`: Fetches your default VPC.
+   - `aws_subnet`: Fetches a subnet (you'll need to adjust the filter).
+3. **Elastic IP:** Creates an Elastic IP address (this is your static public IP).
 4. **EC2 Instance:**
-   * Uses your Packer AMI's ID.
-   * Launches into the selected subnet.
-   * Associates the Elastic IP to its network interface.
-   * Includes optional 'user_data' for instance setup.
+   - Uses your Packer AMI's ID.
+   - Launches into the selected subnet.
+   - Associates the Elastic IP to its network interface.
+   - Includes optional 'user_data' for instance setup.
 
 **How to Use**
 
 1.  **Replace placeholders:** Fill in "your-aws-region," subnet details, and adjust the AMI filter if needed.
 2.  **Packer:** Ensure your Packer HCL template correctly builds and tags/names the AMI.
-3.  **Terraform:**  Run `terraform init` and `terraform apply`
+3.  **Terraform:** Run `terraform init` and `terraform apply`
 
 **Important Notes**
 
-* **Coordination:** Packer and Terraform should be aligned (AMI names, regions, etc.).
-* **Alternatives:** For dynamic IPs that are still persistent across stops/starts, consider `aws_instance` with `associate_public_ip = true` without the Elastic IP.
+- **Coordination:** Packer and Terraform should be aligned (AMI names, regions, etc.).
+- **Alternatives:** For dynamic IPs that are still persistent across stops/starts, consider `aws_instance` with `associate_public_ip = true` without the Elastic IP.
 
 Let me know if you'd like help with any of the following:
 
-* **Customizing this template further for your specific setup**
-* **Integrating this Terraform snippet into a larger workflow**
-* **Troubleshooting issues when applying this configuration** 
+- **Customizing this template further for your specific setup**
+- **Integrating this Terraform snippet into a larger workflow**
+- **Troubleshooting issues when applying this configuration**
 
 To achieve the workflow where a static IP is created for a customer, and then they configure their domain registrar to point to this IP, followed by Terraform configuring the domain to point to the IP, you'll need to split the task into discrete steps. This process involves careful coordination between resource provisioning and external actions (like updating DNS settings at a domain registrar) that Terraform can't directly manage. Here's a suggested approach:
 
@@ -286,7 +286,7 @@ Once the customer has updated their DNS settings, you'll need to wait for these 
 
 After DNS settings are confirmed to be pointing to the provided Elastic IP, you can proceed with the next Terraform run to configure any additional resources that depend on the domain pointing to the IP. This step might involve configuring services that require the domain to be resolvable to the IP, such as setting up a web server, SSL certificates, or other cloud resources.
 
-If you're managing DNS records with AWS Route 53 and want to automate the process within the same Terraform configuration, you can use a `depends_on` argument or create a separate Terraform configuration that you run after DNS propagation. For Route 53, you would define a `aws_route53_record` resource that points your domain to the Elastic IP. 
+If you're managing DNS records with AWS Route 53 and want to automate the process within the same Terraform configuration, you can use a `depends_on` argument or create a separate Terraform configuration that you run after DNS propagation. For Route 53, you would define a `aws_route53_record` resource that points your domain to the Elastic IP.
 
 ```hcl
 resource "aws_route53_record" "example" {

@@ -1,22 +1,29 @@
 ## Versions
 
-### Development
+### Development - Control Node
 
-| Name      | Version                                   |
-|-----------|-------------------------------------------|
-| Python    | 3.12.1                                    |
-| Ruby      | 3.3.0                                     |
-| Ansible   | core 2.16.1                               |
-| Packer    | 1.10.1                                    |
-| Terraform | 1.6.6                                     |
-| Goss      | 0.4.4                                     |
-| Caddy     | 2.7.6                                     |
-| PostgreSQL| psql (PostgreSQL) 16.2 (Ubuntu 16.2-1.pgdg22.04+1)               |
-| Redis     | Redis server v=7.2.4 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=4a33ab3ec422ece7 |
+| Name      | Version     |
+| --------- | ----------- |
+| Python    | 3.12.1      |
+| Ansible   | core 2.16.1 |
+| Packer    | 1.10.1      |
+| Terraform | 1.6.6       |
+| Node      | v21.6.2     |
+| npm       | 10.5.0      |
+| AMI       | 0.0.5       |
 
-This table includes the main software along with their versions that you mentioned, providing a quick reference to the software stack's specifics.
+### Production - Target Node
 
-#### Python 
+| Name       | Version                                                                                  |
+| ---------- | ---------------------------------------------------------------------------------------- |
+| Ruby       | 3.3.0                                                                                    |
+| Goss       | 0.4.4                                                                                    |
+| Caddy      | 2.7.6                                                                                    |
+| PostgreSQL | psql (PostgreSQL) 16.2 (Ubuntu 16.2-1.pgdg22.04+1)                                       |
+| Redis      | Redis server v=7.2.4 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=4a33ab3ec422ece7 |
+| Git        | git version 2.34.1                                                                       |
+
+#### Python
 
 ```
 python3 --version
@@ -66,7 +73,7 @@ See the playbooks/goss.yml:
 v0.4.4
 ```
 
-### Base Image
+## Base Image
 
 ### Caddy
 
@@ -93,15 +100,24 @@ redis-server --version
 
 ```
 
-## Download PEM File
+## Custom Image
 
-Go to the directory: /Users/bparanj/work/nuxt/iac/packer/experiments/javascript. Run:
+### Download PEM File
+
+Go to the directory: /Users/bparanj/work/nuxt/iac/packer/experiments/javascript. Delete existing rails-server.pem file.
+Run:
 
 ```
-node keyDownload.js 
+node keyDownload.js
 ```
 
-## Caddy SSL Setup
+Delete any offending keys in the known_hosts file:
+
+```
+ssh-keygen -R 44.238.195.175
+```
+
+### Caddy SSL Setup
 
 Customize the inventory_file to provide the public static IP of EC2 instance and the port number where sshd is running. It should look like:
 
@@ -116,13 +132,21 @@ Go to the directory: /Users/bparanj/work/nuxt/iac/packer/experiments/ansible/pla
  ansible-playbook -i inventory_file caddy_ssl.yml
 ```
 
-## Running Tests
+## Health Check
 
+```
+curl http://localhost:8080/healthz | jq .
+```
+
+## Goss Test Setup
+
+- Review the Packer and Terraform template
 - Manually run goss autoadd on the server.
 - Copy the generated file on the server to tests/goss.yaml file in the project
 
 ## Tasks
 
+- Update the steps for different stages: Base Image, Custom Image and Provisioning
 - Remove hard-coded AWS Secrets id in javascript/keyDownload.js
 - Update goss.yaml by running goss autoadd for all services (after the image creation by Packer stabilizes)
 - Update the inventory_file with the public static IP of EC2 instance and the port number where sshd is running

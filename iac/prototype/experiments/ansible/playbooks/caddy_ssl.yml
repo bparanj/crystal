@@ -1,5 +1,5 @@
 - hosts: 44.238.195.175
-  become: yes
+  become: true
   tasks:
     - name: Update Caddyfile
       copy:
@@ -10,7 +10,7 @@
           }
         owner: root
         group: root
-        mode: '0644'
+        mode: "0644"
 
     - name: Reload Caddy to apply changes
       command: systemctl reload caddy
