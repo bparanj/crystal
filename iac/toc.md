@@ -124,6 +124,11 @@
 - [Zero Downtime Deploy](./basics/zero-downtime.md)
 - [Caddy Reverse Proxy Playbook](./reverse-proxy-caddy.md)
 - [Testing Image](./testing-image.md)
+- [Cloudshell](./basics/cloudshell.md)
+- [Database Replication](./basics/database-replication.md)
+- [EC2 Snapshotting](./next/ec2-snapshotting.md)
+- [PEM Downloader](./next/pem-downloader.md)
+- [Terratest](./provisioner/terratest.md)
 
 ## Provisioner
 
