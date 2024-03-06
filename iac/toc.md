@@ -2,7 +2,7 @@
 - [Iac Vocabulary](./basics/vocabulary.md)
 - [Mitigating Risks](./basics/risky-changes.md)
 - [Cloud Init](./cloud-init-ec2.md)
-- [QEMU](./qemu-cloud-init.md)
+- [QEMU](./basics/qemu-cloud-init.md)
 - [Create and Configure Infrastructure](./basics/create-configure.md)
 - [Terminology](./basics/terminology.md)
 - [Immutable Infrastructure](./basics/immutable.md)
@@ -60,7 +60,7 @@
 - [Content Strategy](./basics/content.md)
 - [Ruby Playbook](./ruby-playbook.md)
 - [MOTD Playbook](./motd.md)
-- [Caddy as Reverse Proxy](./virtual-host.md)
+- [Caddy as Reverse Proxy](./basics/virtual-host.md)
 - [Capture Version Data](./version-playbook.md)
 - [Packer CLI](./basics/packer-cli.md)
 - [Calculating Memory for EC2](./basics/68.md)
@@ -126,10 +126,21 @@
 - [Testing Image](./testing-image.md)
 - [Cloudshell](./basics/cloudshell.md)
 - [Database Replication](./basics/database-replication.md)
-- [EC2 Snapshotting](./next/ec2-snapshotting.md)
-- [PEM Downloader](./next/pem-downloader.md)
 - [Terratest](./provisioner/terratest.md)
 
 ## Provisioner
 
-- [Deploy User](./deploy-user.md)
+- [Deploy User](./provisioner/deploy-user.md)
+
+## Deployer
+
+- [Rails Deployer](./rails-deploy.md)
+
+## Next
+
+- [EC2 Snapshotting](./next/ec2-snapshotting.md)
+- [PEM Downloader](./next/pem-downloader.md)
+- [Tasks](./next/tasks.md)
+- [Backlog](./next/backlog.md)
+- [Links](./next/links.md)
+- [Virtual Host](./next/virtual-host.md)
