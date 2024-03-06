@@ -82,3 +82,26 @@ Whether you need a CNAME record depends on your specific use case. Here's a brie
 - **Type**: CNAME
 
 This setup ensures that visitors accessing `www.example.com` are directed to `example.hosting.com`, maintaining your branding while leveraging external hosting.
+
+If `example.com` is set up properly with SSL and `www.example.com` is having issues, it's likely due to missing DNS configuration or SSL certificate coverage for the `www` subdomain. To resolve this issue, you'll need to ensure both DNS and SSL certificate configurations include the `www` version of your domain. Here's how you can address it:
+
+1. **Add a DNS Record for `www.example.com`**:
+    - Log in to your domain registrar or DNS provider's dashboard.
+    - Add a new DNS record for `www`:
+        - If you want `www.example.com` to point to the same server as `example.com`, add a CNAME record for `www` that points to `example.com`.
+        - Alternatively, if your hosting setup requires, you might add an A record for `www` pointing to the IP address of your server, similar to the `@` record.
+
+2. **Ensure SSL Certificate Covers `www.example.com`**:
+    - Check if your SSL certificate covers both `example.com` and `www.example.com`. Many SSL certificates will cover both the root domain and the `www` subdomain by default, but this is not always the case.
+    - If your current certificate does not cover the `www` subdomain, you may need to reissue or regenerate your SSL certificate. Include both `example.com` and `www.example.com` in the certificate request.
+    - If you're using a service like Let's Encrypt, the command to generate a certificate covering both might look something like this: `certbot -d example.com -d www.example.com ...` (with additional parameters depending on your setup).
+
+3. **Configure Your Web Server**:
+    - Ensure your web server (e.g., Nginx, Apache) is configured to serve `www.example.com` and to use the correct SSL certificate. You may need to add or adjust a server block or virtual host for `www.example.com`.
+    - If you want `www.example.com` to redirect to `example.com` (or vice versa), make sure you've configured the appropriate redirection rules in your web server's configuration.
+
+4. **Test the Configuration**:
+    - After making the changes, use an SSL test tool like SSL Labs (https://www.ssllabs.com/ssltest/) to verify that the SSL setup for `www.example.com` is correct.
+    - Test accessing `www.example.com` in a browser to ensure that it loads correctly and shows a secure connection.
+
+Wait for DNS changes to propagate, which can take anywhere from a few minutes to 48 hours, although it's typically on the shorter side.
