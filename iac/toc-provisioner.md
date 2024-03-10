@@ -1,3 +1,4 @@
+- [Ansible playbook to crate PEM file](./provisioner/create-pem-file.md)
 - [Creating an Inbound Rule with Terraform](./provisioner/51.md)
 - [Goss Health Check Endpoint](./provisioner/54.md)
 - [SSH Hardening](./harden-ssh.md)
