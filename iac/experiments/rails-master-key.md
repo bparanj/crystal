@@ -1,8 +1,15 @@
+## Handling the Rails Master Key Securely in a Deployment Pipeline Using Terraform and Ansible
+
+For now, store it in the environment variable.
+
+Postpone the following:
+
 Handling the Rails master key securely in a deployment pipeline using Terraform and Ansible is crucial for maintaining the confidentiality and integrity of your application's secrets. The Rails master key is used to decrypt credentials and other secrets for your application, making its secure management essential. Here's a strategy to manage the Rails master key securely:
 
 ### 1. Storing the Master Key Securely
 
 #### Terraform:
+
 Use Terraform to create and manage infrastructure resources securely. While Terraform itself isn't typically used to directly handle application secrets, it can be used to set up infrastructure where secrets can be securely stored (e.g., AWS Secrets Manager, Azure Key Vault).
 
 - **Create a Secrets Manager resource**: Use Terraform to provision a secure storage solution like AWS Secrets Manager or Azure Key Vault.
@@ -21,6 +28,7 @@ resource "aws_secretsmanager_secret" "rails_master_key" {
 ```
 
 #### Ansible:
+
 Ansible can be used to configure your application servers and securely fetch the Rails master key during the deployment process.
 
 - **Fetch the Master Key**: Use an Ansible task to retrieve the Rails master key from the secrets manager during deployment.
@@ -39,16 +47,17 @@ Example Ansible task to fetch the Rails master key from AWS Secrets Manager and 
   ansible.builtin.file:
     path: "/path/to/your/app/config/credentials"
     state: directory
-    mode: '0700'
+    mode: "0700"
 
 - name: Create master.key file with the retrieved key
   ansible.builtin.copy:
     dest: "/path/to/your/app/config/credentials/master.key"
     content: "{{ rails_master_key.secret }}"
-    mode: '0600'
+    mode: "0600"
 ```
 
 ### 2. Best Practices
+
 - **Access Control**: Ensure that only necessary personnel and systems have access to the master key. Use IAM roles and policies to restrict access.
 - **Audit Logs**: Enable audit logging for access to the secrets manager to monitor for unauthorized access attempts.
 - **Encryption in Transit and At Rest**: Ensure that the secrets manager and your deployment process support encryption in transit (e.g., using HTTPS) and at rest.
@@ -93,13 +102,13 @@ Here's an adjusted example that includes a placeholder for setting AWS credentia
   ansible.builtin.file:
     path: "/path/to/your/app/config/credentials"
     state: directory
-    mode: '0700'
+    mode: "0700"
 
 - name: Create master.key file with the retrieved key
   ansible.builtin.copy:
     dest: "/path/to/your/app/config/credentials/master.key"
     content: "{{ rails_master_key.secret }}"
-    mode: '0600'
+    mode: "0600"
 ```
 
 ### 3. Security Considerations
@@ -117,6 +126,7 @@ Here's how you can modify your approach to use Ansible Vault for managing the Ra
 ### Storing the Master Key with Ansible Vault
 
 1. **Create an Encrypted File with Ansible Vault**:
+
    - Use `ansible-vault` to create a new encrypted file. This file will contain the Rails master key. You can specify a name for the file, such as `master_key.yml`, and inside the file, you can structure it as a YAML file containing the key.
    - Command to create an encrypted file:
      ```bash
@@ -128,6 +138,7 @@ Here's how you can modify your approach to use Ansible Vault for managing the Ra
      ```
 
 2. **Accessing the Master Key in Your Ansible Playbook**:
+
    - When your playbook runs, you can include the encrypted file and use the variable it defines. To include the encrypted file, use the `include_vars` module with the `ansible-vault` tag.
    - Example task to include the encrypted vars:
      ```yaml
@@ -146,7 +157,7 @@ Here's how you can modify your approach to use Ansible Vault for managing the Ra
        ansible.builtin.copy:
          dest: "/path/to/your/app/config/credentials/master.key"
          content: "{{ master_key.rails_master_key }}"
-         mode: '0600'
+         mode: "0600"
      ```
 
 ### Running Your Playbook with Ansible Vault
@@ -169,7 +180,7 @@ ansible-playbook your_playbook.yml --ask-vault-pass
 
 Using Ansible Vault offers a straightforward and integrated way to manage sensitive information such as the Rails master key without relying on external services, making it a suitable approach for scenarios where using cloud-based secrets managers is not preferred or possible.
 
-Yes, Ansible Vault can be used for storing a customer's Rails app master key securely. This method is particularly useful if you manage or deploy Rails applications on behalf of customers and need a secure way to handle sensitive information like the Rails master key. Using Ansible Vault allows you to encrypt the master key file and then use it within your Ansible playbooks without exposing the key in plain text. 
+Yes, Ansible Vault can be used for storing a customer's Rails app master key securely. This method is particularly useful if you manage or deploy Rails applications on behalf of customers and need a secure way to handle sensitive information like the Rails master key. Using Ansible Vault allows you to encrypt the master key file and then use it within your Ansible playbooks without exposing the key in plain text.
 
 Here’s how to adapt the process specifically for handling a customer's Rails app master key:
 
@@ -201,7 +212,7 @@ When deploying the customer's Rails application, include the encrypted master ke
   ansible.builtin.copy:
     dest: "/path/to/customer/app/config/credentials/master.key"
     content: "{{ master_key.rails_master_key }}"
-    mode: '0600'
+    mode: "0600"
 ```
 
 ### 3. Running Ansible Playbook
@@ -305,27 +316,27 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    # Step to install Vault CLI
-    - name: Install Vault
-      run: |
-        wget https://releases.hashicorp.com/vault/1.8.4/vault_1.8.4_linux_amd64.zip
-        unzip vault_1.8.4_linux_amd64.zip
-        sudo mv vault /usr/local/bin/
-    
-    # Step to authenticate and retrieve the Ansible Vault password
-    - name: Retrieve Ansible Vault Password
-      env:
-        VAULT_ADDR: ${{ secrets.VAULT_ADDR }}
-        VAULT_TOKEN: ${{ secrets.VAULT_TOKEN }}
-      run: |
-        vault login $VAULT_TOKEN
-        vault kv get -field=password secret/ansible_vault > ansible_vault_password.txt
-    
-    # Use the Ansible Vault password in your deployment
-    - name: Deploy with Ansible
-      run: ansible-playbook playbook.yml --vault-password-file ansible_vault_password.txt
+      # Step to install Vault CLI
+      - name: Install Vault
+        run: |
+          wget https://releases.hashicorp.com/vault/1.8.4/vault_1.8.4_linux_amd64.zip
+          unzip vault_1.8.4_linux_amd64.zip
+          sudo mv vault /usr/local/bin/
+
+      # Step to authenticate and retrieve the Ansible Vault password
+      - name: Retrieve Ansible Vault Password
+        env:
+          VAULT_ADDR: ${{ secrets.VAULT_ADDR }}
+          VAULT_TOKEN: ${{ secrets.VAULT_TOKEN }}
+        run: |
+          vault login $VAULT_TOKEN
+          vault kv get -field=password secret/ansible_vault > ansible_vault_password.txt
+
+      # Use the Ansible Vault password in your deployment
+      - name: Deploy with Ansible
+        run: ansible-playbook playbook.yml --vault-password-file ansible_vault_password.txt
 ```
 
 ### Security Considerations

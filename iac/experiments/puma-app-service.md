@@ -1,3 +1,5 @@
+## Puma Service for Rack App
+
 To create a systemd service file for Puma and start it using Ansible, you can use the `ansible.builtin.template` module to generate the service file dynamically and then use the `ansible.builtin.systemd` module to enable and start the service. Here's how you could structure your playbook:
 
 ### Step 1: Create a Template for the Service File
@@ -43,7 +45,7 @@ Next, create an Ansible playbook to deploy the template and manage the Puma serv
         dest: /etc/systemd/system/puma.service
         owner: root
         group: root
-        mode: '0644'
+        mode: "0644"
 
     - name: Reload systemd to recognize the new service
       ansible.builtin.systemd:

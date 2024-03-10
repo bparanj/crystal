@@ -1,4 +1,8 @@
-To set up `logrotate` on Ubuntu 22.04 using an Ansible playbook that can be included in a Packer template, you'll create a playbook that installs `logrotate`, ensures it's configured for your specific applications or system logs, and optionally forces an immediate rotation for testing. 
+## Logrotate Configuration with Ansible Playbook
+
+This is day 2 operations. Move to the next folder.
+
+To set up `logrotate` on Ubuntu 22.04 using an Ansible playbook that can be included in a Packer template, you'll create a playbook that installs `logrotate`, ensures it's configured for your specific applications or system logs, and optionally forces an immediate rotation for testing.
 
 Here's a basic example of how such a playbook might look:
 
@@ -22,7 +26,7 @@ Here's a basic example of how such a playbook might look:
         dest: /etc/logrotate.d/custom_logs
         owner: root
         group: root
-        mode: '0644'
+        mode: "0644"
       notify: force log rotation
 
   handlers:

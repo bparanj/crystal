@@ -1,3 +1,5 @@
+## Manually Verifying Disabled Redis Commands
+
 To manually verify that specific Redis commands (`FLUSHDB`, `FLUSHALL`, `KEYS`) are disabled on a terminal, you can directly attempt to execute these commands via the Redis CLI and observe the responses. When a command is disabled in Redis (often done for security reasons by renaming the command to an empty string), attempting to execute it should result in an error message indicating that the command is not allowed or does not exist.
 
 Here's how to proceed:

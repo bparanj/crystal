@@ -1,3 +1,5 @@
+## Goss Basics
+
 Goss is a quick and easy server validation tool that you can use to verify if specific packages are installed on your system. It allows you to define the desired state of your system in a YAML or JSON format and then checks the actual state against this specification. Here's how to use Goss for verifying the installed packages, assuming you've already installed the necessary packages using Ansible or another method.
 
 ### Step 1: Install Goss
@@ -71,7 +73,7 @@ To automate the installation of Goss on your system using Ansible, you can creat
       get_url:
         url: "https://github.com/aelsabbahy/goss/releases/download/{{ goss_version }}/goss-linux-amd64"
         dest: "{{ goss_install_path }}"
-        mode: '0755'
+        mode: "0755"
 
     - name: Ensure Goss test directory exists
       ansible.builtin.file:
@@ -90,7 +92,6 @@ To automate the installation of Goss on your system using Ansible, you can creat
     - name: Show Goss validation results
       ansible.builtin.debug:
         var: test_result.stdout_lines
-
 ```
 
 ### Steps to Use the Playbook
@@ -106,6 +107,7 @@ To automate the installation of Goss on your system using Ansible, you can creat
    ```
 
 This playbook performs the following actions:
+
 - Downloads the specified version of Goss and installs it to `/usr/local/bin/goss`.
 - Ensures the directory for Goss tests exists on the target system.
 - Copies your `goss.yaml` file to the target system.
@@ -190,22 +192,24 @@ Modify your Packer template to include two Ansible provisioners. Here’s an exa
 
 ```json
 {
-  "builders": [{
-    "type": "amazon-ebs",
-    "ami_name": "ami-with-packages-{{timestamp}}",
-    "instance_type": "t2.micro",
-    "source_ami_filter": {
-      "filters": {
-        "virtualization-type": "hvm",
-        "name": "ubuntu/images/*ubuntu-jammy-22.04-amd64-server-*",
-        "root-device-type": "ebs"
+  "builders": [
+    {
+      "type": "amazon-ebs",
+      "ami_name": "ami-with-packages-{{timestamp}}",
+      "instance_type": "t2.micro",
+      "source_ami_filter": {
+        "filters": {
+          "virtualization-type": "hvm",
+          "name": "ubuntu/images/*ubuntu-jammy-22.04-amd64-server-*",
+          "root-device-type": "ebs"
+        },
+        "owners": ["099720109477"],
+        "most_recent": true
       },
-      "owners": ["099720109477"],
-      "most_recent": true
-    },
-    "ssh_username": "ubuntu",
-    "region": "us-west-2"
-  }],
+      "ssh_username": "ubuntu",
+      "region": "us-west-2"
+    }
+  ],
   "provisioners": [
     {
       "type": "ansible",
@@ -248,46 +252,46 @@ Since Packer primarily focuses on image creation, directly reporting playbook re
 
 **How Packer Works with Playbooks**
 
-* **Execution:** Packer executes Ansible playbooks (using the Ansible provisioner) within the VM being built. It primarily waits for them to finish, ensuring the machine is in the desired state before creating the image.
-* **Output:** Packer's own logs will show if the Ansible provisioner succeeded or failed.  You'll see this in the terminal output during the build process. 
-* **Limited Result Aggregation:** Packer doesn't intrinsically parse Ansible's detailed success/failure reports for each verification task and surface those neatly in its final output.
+- **Execution:** Packer executes Ansible playbooks (using the Ansible provisioner) within the VM being built. It primarily waits for them to finish, ensuring the machine is in the desired state before creating the image.
+- **Output:** Packer's own logs will show if the Ansible provisioner succeeded or failed. You'll see this in the terminal output during the build process.
+- **Limited Result Aggregation:** Packer doesn't intrinsically parse Ansible's detailed success/failure reports for each verification task and surface those neatly in its final output.
 
 **Strategies for Getting Results**
 
 1. **Examine Ansible Output:**
 
-   * Enable verbose logging from Ansible (e.g., `-vvv` flag when running Ansible). This goes into Packer's build log, containing your detailed verification results.
-   * **Caveat:**  If your build has multiple provisioners, finding the relevant bits amongst other logs can be less convenient.
+   - Enable verbose logging from Ansible (e.g., `-vvv` flag when running Ansible). This goes into Packer's build log, containing your detailed verification results.
+   - **Caveat:** If your build has multiple provisioners, finding the relevant bits amongst other logs can be less convenient.
 
 2. **Artifacts Within the Image:**
 
-    * Have your verification playbook generate a structured output file (JSON, YAML) within the created image. After the build, you'd manually inspect this artifact alongside the image.
-    * **Downside:** Requires additional steps to access the file (unless your image is  meant to serve content/results directly).
+   - Have your verification playbook generate a structured output file (JSON, YAML) within the created image. After the build, you'd manually inspect this artifact alongside the image.
+   - **Downside:** Requires additional steps to access the file (unless your image is meant to serve content/results directly).
 
 3. **External Logging:**
 
-    * Configure Ansible to push results to a logging service (Elasticsearch, Logstash, Graylog, even a simple log file on a shared drive). 
-    * **Advantage:** Separates results from Packer's build logs, allowing easier analysis and retention, especially in a pipeline with many builds.
+   - Configure Ansible to push results to a logging service (Elasticsearch, Logstash, Graylog, even a simple log file on a shared drive).
+   - **Advantage:** Separates results from Packer's build logs, allowing easier analysis and retention, especially in a pipeline with many builds.
 
 4. **Packer Post-Processors (Advanced):**
 
-    * You *could* write a custom post-processor for Packer to interact with the built image, extract verification results, and format them as needed.  
-    * **Complexity:** This is the most involved method, only justified if  you have deep Packer customization needs. 
+   - You _could_ write a custom post-processor for Packer to interact with the built image, extract verification results, and format them as needed.
+   - **Complexity:** This is the most involved method, only justified if you have deep Packer customization needs.
 
 **What's the Best Approach for You?**
 
-* **Simple Validation:** Is your primary goal to have a quick pass/fail indicator within the Packer build itself? Looking at Ansible's verbose output might be enough.
-* **Auditable Results:** If you need to preserve detailed logs of verification checks separate from Packer output, external logging is the cleanest way.  
-* **Pipeline Context:** If you run these Packer builds in a CI/CD pipeline, your pipeline likely  has its own ways of aggregating status and logs, making options 1 or 3 fit better. 
+- **Simple Validation:** Is your primary goal to have a quick pass/fail indicator within the Packer build itself? Looking at Ansible's verbose output might be enough.
+- **Auditable Results:** If you need to preserve detailed logs of verification checks separate from Packer output, external logging is the cleanest way.
+- **Pipeline Context:** If you run these Packer builds in a CI/CD pipeline, your pipeline likely has its own ways of aggregating status and logs, making options 1 or 3 fit better.
 
 **Let's Optimize Your Workflow!**
 
 Could you provide more details about:
 
-* **Ultimate Goal:**  Do you just need immediate pass/fail as the build happens, or are you aiming for historical records of what was verified?
-* **Pipeline:** Do you have a specific CI/CD environment in mind?
+- **Ultimate Goal:** Do you just need immediate pass/fail as the build happens, or are you aiming for historical records of what was verified?
+- **Pipeline:** Do you have a specific CI/CD environment in mind?
 
-With this, I can give you the most streamlined solution! 
+With this, I can give you the most streamlined solution!
 
 ## CI/CD and Debugging Issues
 
@@ -321,55 +325,55 @@ In the event of a failed verification, use the detailed logs to identify which p
 
 By systematically reviewing the logs and output provided during the CI/CD process, you can identify and resolve issues efficiently, ensuring that your infrastructure automation maintains high reliability and performance standards.
 
-Here's where you can find detailed verification results and debugging information in various CI/CD setups.  The ideal approach depends on your specific CI/CD tool:
+Here's where you can find detailed verification results and debugging information in various CI/CD setups. The ideal approach depends on your specific CI/CD tool:
 
 **1. CI/CD Log Aggregation**
 
-* **Common Tools:** Jenkins, GitLab CI/CD, CircleCI, GitHub Actions, etc., all offer ways to collect and view logs for each job/stage.
-* **Access:** Job-specific logs are often viewable within the CI/CD web interface itself.
-* **How to Get the Data:**  
-    * **Direct Ansible Output:**  Increase Ansible verbosity (`-vvv`) to get granular detail in the job logs.
-    * **Structured Output:**  Have your verification playbook create a JSON/YAML result file.  Many CI/CD tools understand these formats and present them nicely.  
+- **Common Tools:** Jenkins, GitLab CI/CD, CircleCI, GitHub Actions, etc., all offer ways to collect and view logs for each job/stage.
+- **Access:** Job-specific logs are often viewable within the CI/CD web interface itself.
+- **How to Get the Data:**
+  - **Direct Ansible Output:** Increase Ansible verbosity (`-vvv`) to get granular detail in the job logs.
+  - **Structured Output:** Have your verification playbook create a JSON/YAML result file. Many CI/CD tools understand these formats and present them nicely.
 
 **2. External Log Storage**
 
-* **Purpose:** Ideal for long-term retention, querying, and when CI/CD log interfaces become clunky.  
-* **Tools:**
-    *  Elasticsearch + Kibana (ELK stack)
-    *  Logstash
-    *  Graylog
-    *  Centralized Syslog Server
-    *  Cloud-Based (CloudWatch Logs, etc.)
-* **Setup:**  Configure your Ansible playbook to send results to one of these. Your CI/CD job may need a step to trigger the push if it doesn't happen during verification.
+- **Purpose:** Ideal for long-term retention, querying, and when CI/CD log interfaces become clunky.
+- **Tools:**
+  - Elasticsearch + Kibana (ELK stack)
+  - Logstash
+  - Graylog
+  - Centralized Syslog Server
+  - Cloud-Based (CloudWatch Logs, etc.)
+- **Setup:** Configure your Ansible playbook to send results to one of these. Your CI/CD job may need a step to trigger the push if it doesn't happen during verification.
 
 **3. Artifacts**
 
-* **Concept:** Your CI/CD pipeline stores build outputs (in this case, perhaps the VM image). Alongside it, store verification results as a file. 
-* **Downside:** Usually requires an extra step after the build to examine the attached file. This is less convenient than a log you can directly query.  
-* **Good Fit:** If image inspection is already part of your workflow, or the verification results are very small (simple pass/fail status).
+- **Concept:** Your CI/CD pipeline stores build outputs (in this case, perhaps the VM image). Alongside it, store verification results as a file.
+- **Downside:** Usually requires an extra step after the build to examine the attached file. This is less convenient than a log you can directly query.
+- **Good Fit:** If image inspection is already part of your workflow, or the verification results are very small (simple pass/fail status).
 
 **General Tips**
 
-* **Timestamps:** Ensure Ansible logs, external log entries, and any artifacts have clear timestamps, for correlation with your CI/CD build jobs.
-* **Job Naming:** Use descriptive names within your CI that distinguish the installation stage from the verification stage. 
-* **Failure Notifications:** Many CI/CD  and logging services allow you to set up alerts for specific errors or strings in the logs. 
+- **Timestamps:** Ensure Ansible logs, external log entries, and any artifacts have clear timestamps, for correlation with your CI/CD build jobs.
+- **Job Naming:** Use descriptive names within your CI that distinguish the installation stage from the verification stage.
+- **Failure Notifications:** Many CI/CD and logging services allow you to set up alerts for specific errors or strings in the logs.
 
 **Which Route is Best?**
 
 Consider the following:
 
-* **Team Familiarity:** If your team already uses a log analysis tool, lean into that.
-* **Retention Needs:** Do you need to keep verification results for a long time for auditing? External storage shines here. 
-* **Complexity:**  CI/CD log viewing is often sufficient for simple setups and fast troubleshooting. 
+- **Team Familiarity:** If your team already uses a log analysis tool, lean into that.
+- **Retention Needs:** Do you need to keep verification results for a long time for auditing? External storage shines here.
+- **Complexity:** CI/CD log viewing is often sufficient for simple setups and fast troubleshooting.
 
 **Need More Help?**
 
 Let me know these details to give you the most specific guidance:
 
-* **Your CI/CD Tool:** I can provide tailored instructions on where to find logs and customize result storage. 
-* **Logging Preference:**  Do you have a specific external log solution you'd like to use?
+- **Your CI/CD Tool:** I can provide tailored instructions on where to find logs and customize result storage.
+- **Logging Preference:** Do you have a specific external log solution you'd like to use?
 
-I'm here to make your debugging within the CI/CD smooth! 
+I'm here to make your debugging within the CI/CD smooth!
 
 Yes, you can use the Goss auto-add command within your Packer configuration to automatically generate tests for your EC2 instance. Goss is a tool for validating the state of a server and can be used to create automated tests.
 
@@ -382,9 +386,7 @@ Here's an example of how you can integrate Goss auto-add into your Packer config
 ```json
 {
   "type": "shell",
-  "inline": [
-    "curl -fsSL https://goss.rocks/install | sh"
-  ]
+  "inline": ["curl -fsSL https://goss.rocks/install | sh"]
 }
 ```
 
@@ -393,10 +395,7 @@ Here's an example of how you can integrate Goss auto-add into your Packer config
 ```json
 {
   "type": "shell",
-  "inline": [
-    "goss autoadd",
-    "goss render > goss.yaml"
-  ]
+  "inline": ["goss autoadd", "goss render > goss.yaml"]
 }
 ```
 
@@ -422,9 +421,7 @@ This step will download the `goss.yaml` file from the EC2 instance to your local
 ```json
 {
   "type": "shell",
-  "inline": [
-    "goss validate"
-  ]
+  "inline": ["goss validate"]
 }
 ```
 
@@ -447,16 +444,11 @@ Here's the complete Packer configuration with the Goss auto-add steps:
   "provisioners": [
     {
       "type": "shell",
-      "inline": [
-        "curl -fsSL https://goss.rocks/install | sh"
-      ]
+      "inline": ["curl -fsSL https://goss.rocks/install | sh"]
     },
     {
       "type": "shell",
-      "inline": [
-        "goss autoadd",
-        "goss render > goss.yaml"
-      ]
+      "inline": ["goss autoadd", "goss render > goss.yaml"]
     },
     {
       "type": "file",
@@ -466,9 +458,7 @@ Here's the complete Packer configuration with the Goss auto-add steps:
     },
     {
       "type": "shell",
-      "inline": [
-        "goss validate"
-      ]
+      "inline": ["goss validate"]
     }
   ]
 }

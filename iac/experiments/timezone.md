@@ -1,3 +1,5 @@
+## Timezone Playbook
+
 When setting up a server that will serve customers across different timezones, it's common to configure the server's timezone to Coordinated Universal Time (UTC). Using UTC helps avoid confusion that can arise from daylight saving time changes and timezone differences. It provides a standard reference point and makes it easier to convert to local times as needed in your application or when parsing logs.
 
 For many applications, especially web applications, the server-side operations (like logging, scheduling, and internal timestamps) are handled in UTC, while the presentation layer converts these times into the local time of the viewer. This separation of concerns allows your application to serve users around the world without having to manage a complex web of timezones on the server side.

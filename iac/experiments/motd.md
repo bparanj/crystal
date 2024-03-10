@@ -1,3 +1,5 @@
+## Message of the Day Playbook
+
 To create an Ansible playbook that sets up a Message of the Day (MOTD) with your specified message on a Linux server, you can use the `ansible.builtin.copy` or `ansible.builtin.template` module. The `copy` module is straightforward for static messages, but if you ever want to include dynamic information (like the hostname or IP address), you might prefer the `template` module. Here, I'll show you how to use the `copy` module for simplicity.
 
 ### Playbook: setup_motd.yml
@@ -21,7 +23,7 @@ To create an Ansible playbook that sets up a Message of the Day (MOTD) with your
         content: "{{ motd_message }}"
         owner: root
         group: root
-        mode: '0644'
+        mode: "0644"
 ```
 
 ### Explanation:

@@ -1,3 +1,7 @@
+## How to Create AWS Access Keys Using HashiCorp Vault
+
+Move to next folder.
+
 Yes, it is possible to create AWS access keys using HashiCorp Vault. Vault is a tool for secrets management, offering secure access to tokens, passwords, certificates, API keys, and other secrets in modern computing. One of Vault's capabilities is to dynamically generate AWS access keys on demand. This feature is part of Vault's AWS Secrets Engine, which can be configured to create IAM users and generate temporary credentials based on IAM policies, improving security by limiting the lifespan of AWS credentials and reducing the risk associated with long-lived credentials.
 
 ### Steps to Create AWS Access Keys Using Vault
@@ -45,61 +49,66 @@ Using HashiCorp Vault to manage AWS access keys enhances security by automating 
 
 **Why Use Vault for AWS Access Key Management?**
 
-* **Enhanced Security:** Vault dynamically generates short-lived AWS access keys. This eliminates the risk of storing and managing long-lived credentials and reduces the impact of any potential leaks.
-* **Automation:** Vault streamlines the creation and rotation of AWS access keys, improving efficiency for both administrators and developers.
-* **Fine-grained Control:** Vault allows you to define precise IAM policies for the generated access keys, enforcing the principle of least privilege.
-* **Auditing:** Vault logs all actions related to AWS access keys, providing a valuable audit trail.
+- **Enhanced Security:** Vault dynamically generates short-lived AWS access keys. This eliminates the risk of storing and managing long-lived credentials and reduces the impact of any potential leaks.
+- **Automation:** Vault streamlines the creation and rotation of AWS access keys, improving efficiency for both administrators and developers.
+- **Fine-grained Control:** Vault allows you to define precise IAM policies for the generated access keys, enforcing the principle of least privilege.
+- **Auditing:** Vault logs all actions related to AWS access keys, providing a valuable audit trail.
 
 **Steps to Create AWS Access Keys using HashiCorp Vault**
 
 1. **Enable the AWS Secrets Engine:**
+
    ```bash
    vault secrets enable aws
    ```
 
 2. **Configure Vault with AWS Credentials:**
-   - Securely provide Vault with AWS credentials that have permissions to generate IAM users and access keys. 
+
+   - Securely provide Vault with AWS credentials that have permissions to generate IAM users and access keys.
    - Ensure the provided credentials have the necessary permissions to manage IAM entities for optimal integration.
+
    ```bash
    vault write aws/config/root \
        access_key=AKIAJWVN5Z4FOFT7NLNA \
        secret_key=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 \
-       region=us-east-1 
+       region=us-east-1
    ```
 
 3. **Create a Vault Role:**
-    - Define a Vault role that maps to a specific set of IAM permissions with policies, and the type of AWS credentials you want generated.
-    ```bash
-    vault write aws/roles/my-role \
-        credential_type=iam_user \
-        policy_document=<<-EOF 
-        {
-          "Version": "2012-10-17",
-          "Statement": [
-            {
-              "Effect": "Allow",
-              "Action": [
-                "ec2:DescribeInstances",
-                "s3:ListBuckets"
-              ],
-              "Resource": "*"
-            }
-          ]
-        }
-        EOF
-    ```
+
+   - Define a Vault role that maps to a specific set of IAM permissions with policies, and the type of AWS credentials you want generated.
+
+   ```bash
+   vault write aws/roles/my-role \
+       credential_type=iam_user \
+       policy_document=<<-EOF
+       {
+         "Version": "2012-10-17",
+         "Statement": [
+           {
+             "Effect": "Allow",
+             "Action": [
+               "ec2:DescribeInstances",
+               "s3:ListBuckets"
+             ],
+             "Resource": "*"
+           }
+         ]
+       }
+       EOF
+   ```
 
 4. **Generate AWS Access Keys:**
-    - Generate new credentials, with associated policies as determined by the role, whenever needed.
-    ```bash
-    vault read aws/creds/my-role
-    ```
-    - Vault will provide a new AWS access key, secret key, and a lease ID.
+   - Generate new credentials, with associated policies as determined by the role, whenever needed.
+   ```bash
+   vault read aws/creds/my-role
+   ```
+   - Vault will provide a new AWS access key, secret key, and a lease ID.
 
 **Important Considerations**
 
-* **Regular Rotation:** To enhance security, configure Vault to automatically rotate the generated AWS access keys at set intervals.
-* **Best Practices:** It is strongly recommended **not** to use your AWS root credentials as the input credentials for Vault. Create a dedicated IAM user with the specific permissions needed for Vault to perform the actions described above. 
-* **Lease Management:** Vault dynamically generated keys come with an expiration (lease) duration.  Be sure to renew them before they expire, and revoke them appropriately when no longer needed.
+- **Regular Rotation:** To enhance security, configure Vault to automatically rotate the generated AWS access keys at set intervals.
+- **Best Practices:** It is strongly recommended **not** to use your AWS root credentials as the input credentials for Vault. Create a dedicated IAM user with the specific permissions needed for Vault to perform the actions described above.
+- **Lease Management:** Vault dynamically generated keys come with an expiration (lease) duration. Be sure to renew them before they expire, and revoke them appropriately when no longer needed.
 
-**Let me know if you would like a more detailed guide on any specific part of the process, or if you have any other Vault-related questions!** 
+**Let me know if you would like a more detailed guide on any specific part of the process, or if you have any other Vault-related questions!**

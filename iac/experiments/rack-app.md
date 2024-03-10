@@ -1,3 +1,7 @@
+## Rack Application with Puma
+
+A simple Rack app that uses Puma to serve a web page saying "Hello Puma". This is a proxy and will be replaced by Rails app later. You can test the Caddy reverse proxy to this Rack app with SSL and custom domain.
+
 To create a simple Ruby program that uses Puma to serve a web page saying "Hello Puma", follow these steps. This program will involve creating a basic Rack application that Puma can run.
 
 ### Step 1: Install Required Gems
@@ -76,7 +80,7 @@ This is for image testing purposes. Caddy will proxy to this process. This will 
           app = Proc.new do |env|
             ['200', {'Content-Type' => 'text/html'}, ['Hello Puma']]
           end
-          
+
           run app
 
     - name: Start the application with Puma

@@ -1,3 +1,5 @@
+## Playbook to Install PostgreSQL 16 on Ubuntu 22.04
+
 To install the latest version of PostgreSQL, version 16, through an Ansible playbook, you might need to add the PostgreSQL official repository to your system before installing it. This ensures you get the latest version directly from PostgreSQL rather than the default version available in your distribution's package repository.
 
 Here's an updated playbook that includes tasks for adding the PostgreSQL Global Development Group (PGDG) repository, which provides the latest PostgreSQL versions, and then installs PostgreSQL 16:
@@ -29,13 +31,14 @@ Here's an updated playbook that includes tasks for adding the PostgreSQL Global 
 
     - name: Install PostgreSQL 16
       ansible.builtin.apt:
-        name: 
+        name:
           - postgresql-16
           - postgresql-client-16
         state: present
 ```
 
 This playbook performs the following steps:
+
 1. **Install prerequisites**: Ensures that `ca-certificates` and `wget` are installed which are necessary for fetching and adding the GPG key.
 2. **Add the PostgreSQL GPG key**: This key is used to verify the integrity of the packages.
 3. **Add PostgreSQL 16 repository**: Adds the official PostgreSQL repository for version 16. Make sure to replace `{{ ansible_distribution_release }}` with your Ubuntu version codename (e.g., `focal`, `bionic`) if your Ansible version does not support the `ansible_distribution_release` variable.
@@ -48,7 +51,7 @@ Here's the corrected Ansible playbook with adjustments for installing PostgreSQL
 ```yaml
 - name: Install PostgreSQL 16 on Ubuntu 22.04
   hosts: all
-  become: true  # Use sudo
+  become: true # Use sudo
   vars:
     ansible_python_interpreter: /usr/bin/python3
 
@@ -74,7 +77,7 @@ Here's the corrected Ansible playbook with adjustments for installing PostgreSQL
 
     - name: Install PostgreSQL 16
       ansible.builtin.apt:
-        name: 
+        name:
           - postgresql-16
           - postgresql-client-16
         state: present
@@ -87,7 +90,7 @@ Here's the corrected Ansible playbook with adjustments for installing PostgreSQL
 
     - name: Configure PostgreSQL to listen on localhost only
       ansible.builtin.lineinfile:
-        path: /etc/postgresql/16/main/postgresql.conf  # Updated to version 16
+        path: /etc/postgresql/16/main/postgresql.conf # Updated to version 16
         regexp: '^#?listen_addresses\s*='
         line: "listen_addresses = 'localhost'"
         state: present
@@ -95,7 +98,7 @@ Here's the corrected Ansible playbook with adjustments for installing PostgreSQL
 
     - name: Restrict connections to local machine
       ansible.builtin.lineinfile:
-        path: /etc/postgresql/16/main/pg_hba.conf  # Updated to version 16
+        path: /etc/postgresql/16/main/pg_hba.conf # Updated to version 16
         regexp: '^local\s+all\s+all\s+peer$'
         line: "local   all             all                                     peer"
         state: present
@@ -106,7 +109,7 @@ Here's the corrected Ansible playbook with adjustments for installing PostgreSQL
         name: libpq-dev
         state: present
 
-    - name: Install psycopg2-binary using pip3  # Required for postgresql modules
+    - name: Install psycopg2-binary using pip3 # Required for postgresql modules
       ansible.builtin.pip:
         name: psycopg2-binary
         state: present

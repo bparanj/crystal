@@ -1,3 +1,5 @@
+## How to Set Up Caddy as a Reverse Proxy
+
 To modify the playbook so that Caddy acts as a reverse proxy for `http://localhost:9292/`, you need to change the `Caddyfile` configuration. Here's how the playbook should be adjusted:
 
 ```yaml

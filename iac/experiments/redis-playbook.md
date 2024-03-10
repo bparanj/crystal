@@ -1,3 +1,5 @@
+## Ansible Playbook for Installing and Configuring Redis on Ubuntu 22.04
+
 Provide Ansible playbook for installing and configuring Redis on Ubuntu 22.04
 
 Here is an Ansible playbook to install and configure Redis on an Ubuntu 22.04 server. This playbook will perform the following actions:
@@ -12,7 +14,7 @@ You'll need to adjust the configuration settings according to your requirements.
 ---
 - name: Install and configure Redis on Ubuntu 22.04
   hosts: your_host_group
-  become: yes  # Use sudo
+  become: yes # Use sudo
   tasks:
     - name: Install Redis server
       ansible.builtin.apt:
@@ -23,12 +25,12 @@ You'll need to adjust the configuration settings according to your requirements.
     - name: Update Redis configuration file
       ansible.builtin.lineinfile:
         path: /etc/redis/redis.conf
-        regexp: '^{{ item.option }}'
-        line: '{{ item.option }} {{ item.value }}'
+        regexp: "^{{ item.option }}"
+        line: "{{ item.option }} {{ item.value }}"
         state: present
       loop:
-        - { option: 'bind', value: '127.0.0.1' }
-        - { option: 'maxmemory-policy', value: 'allkeys-lru' }
+        - { option: "bind", value: "127.0.0.1" }
+        - { option: "maxmemory-policy", value: "allkeys-lru" }
       notify: restart redis
 
     - name: Ensure Redis is running and enabled
@@ -80,6 +82,7 @@ Splitting your Ansible playbook into multiple files and organizing them into dif
 Given your current playbook focused on installing and configuring Redis, here's a simple way to organize it if you decide to expand or modularize:
 
 1. **Roles Directory Structure:**
+
    ```
    ansible-project/
    ├── roles/
@@ -97,6 +100,7 @@ Given your current playbook focused on installing and configuring Redis, here's 
    ```
 
 2. **Main Playbook (`playbooks/setup-redis.yml`):**
+
    ```yaml
    - name: Setup Redis on Ubuntu 22.04
      hosts: your_host_group
@@ -122,7 +126,7 @@ If you have a single server and its hostname or IP address is known, you can dir
 ```yaml
 - name: Install and configure Redis on Ubuntu 22.04
   hosts: your_server_ip_or_hostname
-  become: yes  # Use sudo
+  become: yes # Use sudo
   tasks:
     # Tasks here
 ```
@@ -143,7 +147,7 @@ Then, in your playbook, you would reference the group:
 ```yaml
 - name: Install and configure Redis on Ubuntu 22.04
   hosts: redis_servers
-  become: yes  # Use sudo
+  become: yes # Use sudo
   tasks:
     # Tasks here
 ```
@@ -158,7 +162,7 @@ If the playbook is being run on the same server where Redis needs to be installe
 - name: Install and configure Redis on Ubuntu 22.04
   hosts: localhost
   connection: local
-  become: yes  # Use sudo
+  become: yes # Use sudo
   tasks:
     # Tasks here
 ```

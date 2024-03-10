@@ -1,3 +1,5 @@
+## Refactoring Packer Templates with Variables
+
 To refactor your Packer template to use variables, you'll define these variables at the beginning of your template. This makes your template more flexible and customizable for different builds or environments. Here's how you can extract variables from your template:
 
 ### Packer HCL2 with Variables
@@ -125,14 +127,14 @@ packer build -var 'example_variable=custom value' template.pkr.hcl
 
 For sensitive data, ensure you're handling it securely, such as using environment variables or a secrets manager and referencing them in your commands or scripts without hardcoding them into your templates or scripts.
 
-## Troubleshooting 
+## Troubleshooting
 
 ### Issue #3
 
 $ packer validate .
 Error: 1 error(s) occurred:
 
-* AMIName should only contain alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes ('), at-signs (@), or underscores(_). You can use the `clean_resource_name` template filter to automatically clean your ami name.
+- AMIName should only contain alphanumeric characters, parentheses (()), square brackets ([]), spaces ( ), periods (.), slashes (/), dashes (-), single quotes ('), at-signs (@), or underscores(\_). You can use the `clean_resource_name` template filter to automatically clean your ami name.
 
   on aws-ubuntu.pkr.hcl line 24:
   (source code not available)
@@ -153,7 +155,7 @@ This uses the `clean_resource_name` function to ensure that the resulting AMI na
 
 After making this change, run `packer validate .` again to check if the error is resolved.
 
- packer validate .
+packer validate .
 Error: Call to unknown function
 
 The error message you're encountering suggests that `clean_resource_name` was mentioned as a solution to clean up AMI names to conform to AWS's naming restrictions, but it appears that `clean_resource_name` is not an existing function in Packer. As of my last update, Packer does not have a `clean_resource_name` function built into its templating engine.
@@ -176,7 +178,7 @@ This approach ensures that the `ami_name` will only include alphanumeric charact
 
 If you encountered the `clean_resource_name` suggestion in documentation or a forum, it might have been a misunderstanding or a custom function defined in someone's specific Packer wrapper scripts, not a function available in Packer itself.
 
-  on aws-ubuntu.pkr.hcl line 26:
-  (source code not available)
+on aws-ubuntu.pkr.hcl line 26:
+(source code not available)
 
 There is no function named "clean_resource_name".

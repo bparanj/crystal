@@ -1,3 +1,5 @@
+## Downloading a PEM File from AWS Secrets Manager Using JavaScript
+
 To use AWS Secrets that are defined as environment variables in your JavaScript code, especially when working with Node.js, you can use the `process.env` object. This object provides access to the environment variables set in the environment where the Node.js application is running.
 
 If you have AWS Secrets like AWS Access Key ID and AWS Secret Access Key stored in environment variables (commonly named `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`), you can access these within your JavaScript code to configure the AWS SDK as follows:
@@ -5,6 +7,7 @@ If you have AWS Secrets like AWS Access Key ID and AWS Secret Access Key stored 
 First, ensure your environment variables are set. You can set them temporarily in the terminal (for the current session only) or permanently by adding them to your shell profile file (e.g., `~/.bash_profile`, `~/.bashrc`, `~/.zshrc`).
 
 Temporary setting in the terminal:
+
 ```sh
 export AWS_ACCESS_KEY_ID='your-access-key-id'
 export AWS_SECRET_ACCESS_KEY='your-secret-access-key'
@@ -19,7 +22,7 @@ import { SecretsManagerClient, GetSecretValueCommand } from "@aws-sdk/client-sec
 // Access environment variables
 const accessKeyId = process.env.AWS_ACCESS_KEY_ID;
 const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY;
-const region = process.env.AWS_REGION || 'us-west-2'; // Use 'us-west-2' if AWS_REGION is not set
+const region = process.env.AWS_REGION || "us-west-2"; // Use 'us-west-2' if AWS_REGION is not set
 
 const secret_name = "ror_key_secret-gtdruaz6";
 
@@ -40,7 +43,7 @@ async function getSecret() {
       new GetSecretValueCommand({
         SecretId: secret_name,
         VersionStage: "AWSCURRENT", // VersionStage defaults to AWSCURRENT if unspecified
-      })
+      }),
     );
     // Assuming the secret is a string
     console.log("Secret:", response.SecretString);

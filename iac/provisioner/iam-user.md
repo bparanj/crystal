@@ -1,3 +1,5 @@
+## IAM User with EC2 Full Access and Secrets Manager Access
+
 To create an IAM role with policies granting EC2 full access and specific access to AWS Secrets Manager via Terraform, follow these steps. This setup will allow you to programmatically provision these roles for customers upon signup.
 
 ### Step 1: Define the IAM Role and Policies in Terraform

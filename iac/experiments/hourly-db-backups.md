@@ -1,6 +1,9 @@
+## Playbook to Create Hourly PostgreSQL Backups to AWS S3
+
 To create an Ansible playbook that sets up hourly PostgreSQL backups from an EC2 instance to AWS S3, you'll need to follow several steps. This process involves installing necessary tools, configuring PostgreSQL for backups, and scheduling a cron job to perform the backup operation and upload to S3.
 
 ### Assumptions:
+
 - PostgreSQL and AWS CLI are already installed on the EC2 instance.
 - You have an S3 bucket ready for storing the backups.
 - You have IAM credentials with permissions to write to the S3 bucket.
@@ -8,6 +11,7 @@ To create an Ansible playbook that sets up hourly PostgreSQL backups from an EC2
 ### Steps:
 
 1. **Create a Script for Backup and Upload**:
+
    - The script will dump the PostgreSQL database and upload the dump to S3.
    - Ensure the script has executable permissions.
 
@@ -48,7 +52,7 @@ To create an Ansible playbook that sets up hourly PostgreSQL backups from an EC2
           aws s3 cp "${BACKUP_FILE}" "s3://{{ aws_s3_bucket }}/${TIMESTAMP}_{{ db_name }}.sql.gz" --region {{ aws_default_region }}
           # Cleanup
           rm "${BACKUP_FILE}"
-        mode: '0755'
+        mode: "0755"
       notify: restart cron job
 
     - name: Setup environment variables for AWS CLI
@@ -94,26 +98,31 @@ Setting up PostgreSQL backups to AWS S3 can be approached in two different ways,
 ### Setting Up During Packer Base AMI Creation
 
 **Advantages**:
+
 - **Consistency and Reproducibility**: Every instance launched from the AMI comes pre-configured with the backup capability, ensuring consistency across your environment.
 - **Speed and Efficiency**: Reduces the time and steps required to prepare new instances for production, as the backup functionality is baked into the AMI.
 
 **Considerations**:
+
 - **Flexibility**: Configuring backups at the AMI creation stage might reduce flexibility. For example, if different applications require different backup schedules or configurations, it might be more challenging to manage these variations.
 - **Security**: Storing sensitive information (like AWS credentials) in the AMI could pose a security risk. Using IAM roles for EC2 instances to access S3 without embedding credentials in the AMI is safer.
 
 ### Setting Up After Application Deployment
 
 **Advantages**:
+
 - **Customization**: Allows for easy customization of backup configurations on a per-instance or per-application basis. You can tailor the backup frequency, retention policies, and even the destination (e.g., different S3 buckets) as needed.
 - **Security and IAM Role Utilization**: Configuring backups after deployment allows you to leverage IAM roles assigned to the EC2 instance for S3 access, avoiding the need to store AWS credentials.
 
 **Considerations**:
+
 - **Operational Overhead**: Requires additional steps as part of the instance or application setup process, which could increase the time to deployment.
 - **Automation and Consistency**: To mitigate operational overhead, automate the backup setup process as part of your deployment pipelines or configuration management workflows to ensure consistency.
 
 ### Best Practice: Use IAM Roles and Environment-Specific Configuration
 
 Regardless of when you choose to set up the backups, adhere to best practices for security and flexibility:
+
 - **Use IAM Roles**: Attach an IAM role with the necessary permissions to your EC2 instances. This approach is more secure than storing AWS credentials on the instance.
 - **Environment-Specific Configuration**: Leverage environment variables, configuration files, or secrets management solutions to customize backup behaviors for different deployments or environments.
 
@@ -181,7 +190,7 @@ For customer-specific AWS credentials used to upload PostgreSQL backups to S3 du
 
 ### Using IAM Roles (Preferred Method)
 
-**For EC2 Instances**: The most secure and recommended approach for providing AWS credentials to an EC2 instance is to use AWS IAM roles. 
+**For EC2 Instances**: The most secure and recommended approach for providing AWS credentials to an EC2 instance is to use AWS IAM roles.
 
 1. **Create an IAM Role**: Create an IAM role with permissions that allow uploading files to the specific S3 bucket. This role should have the least privilege required, only granting access to necessary resources.
 
@@ -248,6 +257,7 @@ Here’s how you can add S3 upload permissions to your existing IAM role:
 1. **Identify the IAM Role**: Determine the name of the IAM role currently attached to your EC2 instances.
 
 2. **Create a New Policy for S3 Access** (if necessary):
+
    - Go to the IAM dashboard in the AWS Management Console.
    - Navigate to Policies and click “Create policy”.
    - Choose the S3 service, then select actions such as `PutObject`, `PutObjectAcl`, and any other actions your backup process may require.
@@ -276,29 +286,25 @@ If you want the provisioning process to automatically create an S3 bucket in the
 
 ```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Effect": "Allow",
-            "Action": [
-                "s3:CreateBucket",
-                "s3:ListAllMyBuckets",
-                "s3:GetBucketLocation",
-                "s3:PutBucketPolicy",
-                "s3:PutBucketPublicAccessBlock"
-            ],
-            "Resource": "*"
-        },
-        {
-            "Effect": "Allow",
-            "Action": [
-                "s3:PutObject",
-                "s3:GetObject",
-                "s3:DeleteObject"
-            ],
-            "Resource": "arn:aws:s3:::your-bucket-name-prefix-*/*"
-        }
-    ]
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:CreateBucket",
+        "s3:ListAllMyBuckets",
+        "s3:GetBucketLocation",
+        "s3:PutBucketPolicy",
+        "s3:PutBucketPublicAccessBlock"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["s3:PutObject", "s3:GetObject", "s3:DeleteObject"],
+      "Resource": "arn:aws:s3:::your-bucket-name-prefix-*/*"
+    }
+  ]
 }
 ```
 
@@ -315,4 +321,3 @@ If you want the provisioning process to automatically create an S3 bucket in the
 ### Conclusion
 
 This policy is a starting point and might need adjustments based on your specific requirements, such as adding more permissions for additional S3 features you plan to use (e.g., enabling versioning on the bucket, encrypting objects at rest). When automating AWS resource creation, it's essential to have a clear understanding of the permissions required and to regularly review and adjust IAM policies to ensure they remain secure and provide only the necessary access rights.
-

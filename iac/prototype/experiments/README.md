@@ -132,7 +132,7 @@ ssh-keygen -R 44.238.195.175
 Create an entry in the ~/.ssh/config file:
 
 ```
-Host remote-rails-dox
+Host clickplan
     HostName 44.238.195.175
     User ubuntu
     Port 2222
@@ -142,7 +142,7 @@ Host remote-rails-dox
 You can now ssh into the EC2 instance:
 
 ```
-ssh remote-rails-dox
+ssh clickplan
 ```
 
 ### Caddy SSL Setup
@@ -151,13 +151,13 @@ Customize the inventory_file to provide the public static IP of EC2 instance and
 
 ```
 [webserver]
-44.238.195.175 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/Users/bparanj/work/nuxt/iac/packer/experiments/javascript/rails-server.pem  ansible_ssh_port=2222
+44.238.195.175 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=/Users/bparanj/work/nuxt/iac/prototype/experiments/javascript/rails-server.pem  ansible_ssh_port=2222
 ```
 
-Go to the directory: /Users/bparanj/work/nuxt/iac/packer/experiments/ansible/playbooks, run:
+Go to the directory: /Users/bparanj/work/nuxt/iac/prototype/experiments/ansible/playbooks, run:
 
 ```
- ansible-playbook -i inventory_file caddy_ssl.yml
+ansible-playbook -i inventory_file caddy_ssl.yml
 ```
 
 ## Health Check

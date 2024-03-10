@@ -1,3 +1,5 @@
+## Using Packer and Terraform to Create and Manage EC2 Instances on AWS
+
 Yes, Packer and Terraform can definitely be used together to create and manage EC2 instances for development purposes on AWS. This approach automates the provisioning and management process, making it more efficient, repeatable, and scalable compared to manual setup via the AWS console and terminal commands. Here’s a simplified workflow to achieve this:
 
 ### Step 1: Create a Packer Template for the EC2 Image
@@ -22,10 +24,7 @@ Yes, Packer and Terraform can definitely be used together to create and manage E
   "provisioners": [
     {
       "type": "shell",
-      "inline": [
-        "sudo apt-get update",
-        "sudo apt-get install -y nginx"
-      ]
+      "inline": ["sudo apt-get update", "sudo apt-get install -y nginx"]
     }
   ]
 }

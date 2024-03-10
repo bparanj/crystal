@@ -1,4 +1,4 @@
-## Package Installation
+## Package Installation using Packer and Ansible
 
 Create the Packer template:
 
@@ -118,7 +118,6 @@ Create the Ansible playbook packages.yml for installing packages in playbooks fo
       ansible.builtin.command: update-locale LANG=en_US.UTF-8
       when: ansible_facts['env']['LANG'] is not defined or ansible_facts['env']['LANG'] != 'en_US.UTF-8'
 ```
-
 
 ```
 packer fmt .

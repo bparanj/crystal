@@ -128,10 +128,6 @@
 - [Database Replication](./basics/database-replication.md)
 - [Terratest](./provisioner/terratest.md)
 
-## Provisioner
-
-- [Deploy User](./provisioner/deploy-user.md)
-
 ## Deployer
 
 - [Rails Deployer](./rails-deploy.md)

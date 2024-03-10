@@ -4,3 +4,5 @@
 - [Backlog](./next/backlog.md)
 - [Links](./next/links.md)
 - [Virtual Host](./next/virtual-host.md)
+- [WAF](./next/waf.md)
+- [Molecule](./next/molecule.md)

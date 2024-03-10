@@ -1,3 +1,5 @@
+## Verifying package installation with Goss
+
 Verifying package installation with Goss can be tailored to your specific needs, including checking for the presence of a package or verifying that a specific version of a package is installed. Whether you should verify a specific version of a package depends on the requirements of your environment or application.
 
 ### Scenarios Where Version Verification Might Be Necessary:
@@ -38,50 +40,50 @@ Whether you should verify a specific package version using Goss (or any infrastr
 
 **Arguments for Specific Version Verification**
 
-* **Strict Reproducibility:** If guaranteeing your environment works with *only* a particular package version is critical, version-specific checks in Goss are essential. 
-* **Known Vulnerabilities:**  If a specific older version has a known CVE,  a Goss test can protect against it re-appearing  unexpectedly.
-* **Compatibility Constraints:** Sometimes, your application may rely on a package's specific behavior or API, making upgrades risky without thorough testing. Goss helps verify your desired version is present.
+- **Strict Reproducibility:** If guaranteeing your environment works with _only_ a particular package version is critical, version-specific checks in Goss are essential.
+- **Known Vulnerabilities:** If a specific older version has a known CVE, a Goss test can protect against it re-appearing unexpectedly.
+- **Compatibility Constraints:** Sometimes, your application may rely on a package's specific behavior or API, making upgrades risky without thorough testing. Goss helps verify your desired version is present.
 
 **Arguments for Flexibility (Within a Range)**
 
-* **Stay Up-to-Date:**  Often, you  want the security patches and improvements from the latest bugfix versions in a package.  Goss tests can check if the  version falls within an acceptable range (e.g., `package_name >= 1.2.3`).
-* **Less Brittle Tests:**  Minor updates are less likely to break things.  Being less rigid in your Goss tests allows for smoother maintenance. 
-* **Accommodating Managed Environments:**  In cloud environments or where you have less control over package updates, verifying a minimum version or  feature presence might be more practical. 
+- **Stay Up-to-Date:** Often, you want the security patches and improvements from the latest bugfix versions in a package. Goss tests can check if the version falls within an acceptable range (e.g., `package_name >= 1.2.3`).
+- **Less Brittle Tests:** Minor updates are less likely to break things. Being less rigid in your Goss tests allows for smoother maintenance.
+- **Accommodating Managed Environments:** In cloud environments or where you have less control over package updates, verifying a minimum version or feature presence might be more practical.
 
 **How Goss Can Handle This**
 
 Goss provides flexibility in its syntax:
 
-* **Exact Match:**
-     ```yaml
-     package:
-       name: my_package
-       version: '1.2.3' 
-       installed: true
-     ```
-* **Ranges/Comparisons:** 
-    ```yaml 
-     package: 
-       name: my_package
-       version: '>= 1.2.3' 
-       installed: true
-    ```
-* **Queries (Distribution Specific):** Some distros allow more complex queries, potentially checking package sources.  
+- **Exact Match:**
+  ```yaml
+  package:
+    name: my_package
+    version: "1.2.3"
+    installed: true
+  ```
+- **Ranges/Comparisons:**
+  ```yaml
+  package:
+    name: my_package
+    version: ">= 1.2.3"
+    installed: true
+  ```
+- **Queries (Distribution Specific):** Some distros allow more complex queries, potentially checking package sources.
 
 **There's No Single Right Answer!**
 
 Ask yourself the following:
 
-* **Criticality:** How critical is it that this exact version is present? Are there known breaking changes in newer versions?
-* **Update Frequency:** How often are updates applied in your environment? Is it manually managed or automated (e.g., via a package manager)?
-* **Risk Tolerance:** What level of risk are you comfortable with if a newer, potentially incompatible package is  unexpectedly installed? 
+- **Criticality:** How critical is it that this exact version is present? Are there known breaking changes in newer versions?
+- **Update Frequency:** How often are updates applied in your environment? Is it manually managed or automated (e.g., via a package manager)?
+- **Risk Tolerance:** What level of risk are you comfortable with if a newer, potentially incompatible package is unexpectedly installed?
 
 **Let's Find the Best Fit for Your Scenario**
 
 Could you provide more details about:
 
-* **Your Application:** What does the software you're deploying with this package do?
-* **Deployment Environment:** Is it a cloud VM, container, on-premises, etc.?
-* **Update Process:** How are packages generally updated? 
+- **Your Application:** What does the software you're deploying with this package do?
+- **Deployment Environment:** Is it a cloud VM, container, on-premises, etc.?
+- **Update Process:** How are packages generally updated?
 
-With this context, I can give you tailored recommendations on how specific your Goss verification should be! 
+With this context, I can give you tailored recommendations on how specific your Goss verification should be!
