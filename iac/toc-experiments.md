@@ -52,3 +52,4 @@
 - [Mapping Domain to IP on Namecheap](./experiments/domain-ip-mapping.md)
 - [Caddy Reverse Proxy Playbook](./experiments/reverse-proxy-caddy.md)
 - [Testing Image](./experiments/testing-image.md)
+- [Timezone Playbook](./experiments/timezone.md)
