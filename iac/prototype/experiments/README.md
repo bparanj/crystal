@@ -1,3 +1,9 @@
+In the packer folder, run:
+
+```
+export ANSIBLE_CONFIG=$(pwd)/ansible/ansible.cfg
+```
+
 ## Versions
 
 ### Development - Control Node
@@ -10,18 +16,9 @@
 | Terraform | 1.6.6       |
 | Node      | v21.6.2     |
 | npm       | 10.5.0      |
-| AMI       | 0.0.5       |
+| AMI       | 0.0.23      |
 
-### Production - Target Node
-
-| Name       | Version                                                                                  |
-| ---------- | ---------------------------------------------------------------------------------------- |
-| Ruby       | 3.3.0                                                                                    |
-| Goss       | 0.4.4                                                                                    |
-| Caddy      | 2.7.6                                                                                    |
-| PostgreSQL | psql (PostgreSQL) 16.2 (Ubuntu 16.2-1.pgdg22.04+1)                                       |
-| Redis      | Redis server v=7.2.4 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=4a33ab3ec422ece7 |
-| Git        | git version 2.34.1                                                                       |
+The AMI image version in main.tf and aws-ubuntu.pkr.hcl must be same.
 
 #### Python
 
@@ -62,6 +59,19 @@ on darwin_arm64
 Your version of Terraform is out of date! The latest version
 is 1.7.4. You can update by downloading from https://www.terraform.io/downloads.html
 ```
+
+### Production - Target Node
+
+| Name         | Version                                                                                  |
+| ------------ | ---------------------------------------------------------------------------------------- |
+| ruby-install | 0.9.3                                                                                    |
+| Ruby         | 3.3.0                                                                                    |
+| Gem          | 2.3.6                                                                                    |
+| Goss         | 0.4.4                                                                                    |
+| Caddy        | 2.7.6                                                                                    |
+| PostgreSQL   | psql (PostgreSQL) 16.2 (Ubuntu 16.2-1.pgdg22.04+1)                                       |
+| Redis        | Redis server v=7.2.4 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=4a33ab3ec422ece7 |
+| Git          | git version 2.34.1                                                                       |
 
 ### Testing
 
@@ -115,6 +125,24 @@ Delete any offending keys in the known_hosts file:
 
 ```
 ssh-keygen -R 44.238.195.175
+```
+
+### SSH into the EC2 Instance
+
+Create an entry in the ~/.ssh/config file:
+
+```
+Host remote-rails-dox
+    HostName 44.238.195.175
+    User ubuntu
+    Port 2222
+    IdentityFile /Users/bparanj/work/nuxt/iac/prototype/experiments/javascript/rails-server.pem
+```
+
+You can now ssh into the EC2 instance:
+
+```
+ssh remote-rails-dox
 ```
 
 ### Caddy SSL Setup

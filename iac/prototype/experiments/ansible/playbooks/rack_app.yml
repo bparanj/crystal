@@ -4,12 +4,13 @@
   become: true
   vars:
     project_directory: /var/www/rack_app
+
   tasks:
     - name: Ensure project directory exists
       ansible.builtin.file:
         path: "{{ project_directory }}"
         state: directory
-        mode: '0755'
+        mode: "0755"
 
     - name: Install bundler
       ansible.builtin.gem:
@@ -35,7 +36,7 @@
           app = Proc.new do |env|
             ['200', {'Content-Type' => 'text/html'}, ['Hello Puma']]
           end
-          
+
           run app
 
     - name: Deploy Puma systemd service file
@@ -44,7 +45,7 @@
         dest: /etc/systemd/system/puma.service
         owner: root
         group: root
-        mode: '0644'
+        mode: "0644"
 
     - name: Reload systemd to recognize the new service
       ansible.builtin.systemd:

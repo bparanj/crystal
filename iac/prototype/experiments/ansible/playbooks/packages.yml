@@ -40,6 +40,11 @@
         - python3
         - openssh-client
         - net-tools
+      register: result
+      until: result is succeeded
+      retries: 5
+      delay: 10
+      ignore_errors: true
 
     # Assuming you want to debug the sources.list (perhaps for troubleshooting),
     # it should be its own task and does not need to loop.

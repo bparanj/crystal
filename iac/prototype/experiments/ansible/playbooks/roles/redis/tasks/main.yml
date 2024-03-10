@@ -6,25 +6,31 @@
     state: present
   become: true
 
+- name: Ensure root's ansible tmp directory exists with correct permissions
+  file:
+    path: /root/.ansible/tmp
+    state: directory
+    owner: root
+    group: root
+    mode: "0700"
+  become: true
+
 - name: Download Redis source code
   ansible.builtin.get_url:
     url: "http://download.redis.io/releases/redis-7.2.4.tar.gz"
     dest: "/tmp/redis-7.2.4.tar.gz"
-    mode: '0644'
-  become: true
+    mode: "0644"
 
 - name: Extract Redis source code
   ansible.builtin.unarchive:
     src: "/tmp/redis-7.2.4.tar.gz"
     dest: "/tmp"
     remote_src: yes
-  become: true
 
 - name: Compile Redis
   ansible.builtin.shell:
     cmd: make
     chdir: "/tmp/redis-7.2.4"
-  become: true
 
 - name: Install Redis
   ansible.builtin.shell:
@@ -36,7 +42,7 @@
   ansible.builtin.file:
     path: /etc/redis
     state: directory
-    mode: '0755'
+    mode: "0755"
   become: true
 
 - name: Move Redis configuration file to standard location
@@ -90,7 +96,7 @@
       WantedBy=multi-user.target
     owner: root
     group: root
-    mode: '0644'
+    mode: "0644"
   become: true
   notify: restart redis
 
