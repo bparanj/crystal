@@ -1,0 +1,41 @@
+---
+- name: Setup Puma HTTP Server as a systemd service
+  hosts: all
+  become: true
+  vars:
+    service_name: puma
+    service_description: Puma HTTP Server
+    working_directory: /var/www/rails-docs
+    exec_start: "/bin/bash -lc 'bundle exec puma -C /var/www/rails-docs/config/puma.rb -e production'"
+
+  tasks:
+    - name: Create Puma systemd service file
+      ansible.builtin.copy:
+        dest: "/etc/systemd/system/{{ service_name }}.service"
+        content: |
+          [Unit]
+          Description={{ service_description }}
+          After=network.target
+
+          [Service]
+          Type=simple
+          User=deploy
+          WorkingDirectory={{ working_directory }}
+          ExecStart={{ exec_start }}
+          TimeoutSec=15
+          Restart=always
+
+          [Install]
+          WantedBy=multi-user.target
+        owner: root
+        group: root
+        mode: "0644"
+      notify: reload and restart puma
+
+  handlers:
+    - name: reload and restart puma
+      ansible.builtin.systemd:
+        name: "{{ service_name }}"
+        state: restarted
+        enabled: yes
+        daemon_reload: yes

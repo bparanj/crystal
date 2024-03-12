@@ -1,6 +1,6 @@
 - name: Install PostgreSQL 16 on Ubuntu 22.04
   hosts: all
-  become: true  # Use sudo
+  become: true # Use sudo
   vars:
     ansible_python_interpreter: /usr/bin/python3
 
@@ -26,7 +26,7 @@
 
     - name: Install PostgreSQL 16
       ansible.builtin.apt:
-        name: 
+        name:
           - postgresql-16
           - postgresql-client-16
         state: present
@@ -35,7 +35,7 @@
       file:
         path: /var/lib/postgresql/.ansible/tmp
         state: directory
-        mode: '0775'  # or '0755' if you want to be more restrictive
+        mode: "0775" # or '0755' if you want to be more restrictive
         owner: postgres
         group: postgres
       become: true
@@ -48,7 +48,7 @@
 
     - name: Configure PostgreSQL to listen on localhost only
       ansible.builtin.lineinfile:
-        path: /etc/postgresql/16/main/postgresql.conf  # Updated to version 16
+        path: /etc/postgresql/16/main/postgresql.conf # Updated to version 16
         regexp: '^#?listen_addresses\s*='
         line: "listen_addresses = 'localhost'"
         state: present
@@ -56,7 +56,7 @@
 
     - name: Restrict connections to local machine
       ansible.builtin.lineinfile:
-        path: /etc/postgresql/16/main/pg_hba.conf  # Updated to version 16
+        path: /etc/postgresql/16/main/pg_hba.conf # Updated to version 16
         regexp: '^local\s+all\s+all\s+peer$'
         line: "local   all             all                                     peer"
         state: present
@@ -67,17 +67,18 @@
         name: libpq-dev
         state: present
 
-    - name: Install psycopg2-binary using pip3  # Required for postgresql modules
+    - name: Install psycopg2-binary using pip3 # Required for postgresql modules
       ansible.builtin.pip:
         name: psycopg2-binary
         state: present
 
-    - name: Create temporary database user with a password
+    - name: Create database user with a password and grant CREATE DB privilege
       ansible.builtin.postgresql_user:
         login_user: postgres
-        name: dbtester
+        name: deploy
         password: "password"
         state: present
+        role_attr_flags: CREATEDB
       become: true
       become_user: postgres
 

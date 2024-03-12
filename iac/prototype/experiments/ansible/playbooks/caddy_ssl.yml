@@ -6,7 +6,7 @@
         dest: /etc/caddy/Caddyfile
         content: |
           clickplan.net {
-              reverse_proxy localhost:9292
+              reverse_proxy localhost:3000
           }
         owner: root
         group: root
