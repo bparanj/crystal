@@ -58,3 +58,7 @@
 - [Rails Deployer](./deployer/rails-deploy.md)
 - [Deploy User](./deployer/deploy-user.md)
 - [Versioning Image](./deployer/versioning-image.md)
+- [Credentials](./deployer/credentials.md)
+- [Database Permission](./deployer/database-permission.md)
+- [Database Test](./deployer/database-test.md)
+- [Puma](./deployer/puma.md)
