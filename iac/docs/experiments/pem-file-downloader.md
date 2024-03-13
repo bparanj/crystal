@@ -1,3 +1,54 @@
+## Downloading a PEM File from AWS Secrets Manager using AWS CLI
+
+To download or retrieve the secret value from AWS Secrets Manager using the AWS CLI and the secret name, you can use the `aws secretsmanager get-secret-value` command. Here is how you would do it for a secret named "ror_key_secret-pqc11in5":
+
+```bash
+aws secretsmanager get-secret-value --secret-id ror_key_secret-pqc11in5
+```
+
+You must specify a region. You can also configure your region by running "aws configure".
+
+This command returns a JSON object that contains the secret value. If the secret is a string, it can be found in the `SecretString` field of the output. For binary secrets, the `SecretBinary` field will be populated instead.
+
+Replace `"ror_key_secret-pqc11in5"` with your actual secret name.
+
+Also, ensure your AWS CLI is configured with the appropriate credentials and region to access the Secrets Manager service. If you need to specify a region different from your default configuration, you can add the `--region` flag to your command, like so:
+
+```bash
+aws secretsmanager get-secret-value --secret-id ror_key_secret-pqc11in5 --region us-west-2
+```
+
+To extract the `SecretString` from the JSON response and store it in a file named `rails.pem`, you can use the AWS CLI command combined with `jq` and redirection.
+
+```
+brew install jq
+```
+
+The command:
+
+```sh
+aws secretsmanager get-secret-value --secret-id "ror_key_secret-pqc11in5" --region us-west-2 | jq -r '.SecretString' > rails.pem
+```
+
+This command performs the following actions:
+
+1. It retrieves the secret value using `aws secretsmanager get-secret-value`.
+2. It pipes (`|`) the JSON output to `jq`, which extracts the `SecretString` field.
+3. It redirects the output of `jq` (the secret value) to a file named `rails.pem` using `>`.
+
+After running this command, the file `rails.pem` will contain the secret value extracted from the AWS Secrets Manager response.
+
+To include changing the permissions of `rails.pem` to `400` after creating the file, you can simply append a `&&` followed by the `chmod` command. Here's the revised command:
+
+```sh
+aws secretsmanager get-secret-value --secret-id "ror_key_secret-pqc11in5" --region us-west-2 | jq -r '.SecretString' > rails.pem && chmod 400 rails.pem
+```
+
+This command does the following:
+
+1. Retrieves the secret value and stores it in `rails.pem`.
+2. After the file is successfully created, it changes the permissions of `rails.pem` to `400` (read-only for the owner), ensuring that the file is securely stored.
+
 ## Downloading a PEM File from AWS Secrets Manager Using JavaScript
 
 To use AWS Secrets that are defined as environment variables in your JavaScript code, especially when working with Node.js, you can use the `process.env` object. This object provides access to the environment variables set in the environment where the Node.js application is running.

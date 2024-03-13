@@ -7,7 +7,7 @@ const secretAccessKey = process.env.AWS_SECRET_ACCESS_KEY;
 const region = process.env.AWS_REGION || "us-west-2"; // Use 'us-west-2' if AWS_REGION is not set
 
 // This is hard-coded for now, but you can also pass it as an environment variable
-const secret_name = "ror_key_secret-pqc11in5";
+const secret_name = "ror_key_secret-b9fa2g7k";
 
 // Configure the AWS Secrets Manager client
 const client = new SecretsManagerClient({
@@ -38,7 +38,7 @@ async function getSecret() {
 
     console.log("Permissions changed to 400 for rails-server.pem");
     console.log("You can now ssh into the server using the command:");
-    console.log("ssh -i rails-server.pem -p 2222 ubuntu@44.238.195.175");
+    console.log("ssh -i rails-server.pem -p 2222 ubuntu@54.244.208.93");
   } catch (error) {
     console.error("Error:", error);
   }
