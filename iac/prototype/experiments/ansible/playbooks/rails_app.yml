@@ -1,5 +1,5 @@
 ---
-- name: Setup Puma HTTP Server as a systemd service
+- name: Setup Puma HTTP Server as a systemd service # Move this to the Rails app codebase
   hosts: all
   become: true
   vars:

@@ -48,7 +48,7 @@
 
     - name: Configure PostgreSQL to listen on localhost only
       ansible.builtin.lineinfile:
-        path: /etc/postgresql/16/main/postgresql.conf # Updated to version 16
+        path: /etc/postgresql/16/main/postgresql.conf
         regexp: '^#?listen_addresses\s*='
         line: "listen_addresses = 'localhost'"
         state: present
@@ -56,7 +56,7 @@
 
     - name: Restrict connections to local machine
       ansible.builtin.lineinfile:
-        path: /etc/postgresql/16/main/pg_hba.conf # Updated to version 16
+        path: /etc/postgresql/16/main/pg_hba.conf
         regexp: '^local\s+all\s+all\s+peer$'
         line: "local   all             all                                     peer"
         state: present
@@ -81,6 +81,14 @@
         role_attr_flags: CREATEDB
       become: true
       become_user: postgres
+
+    - name: Add deploy user md5 auth to pg_hba.conf
+      ansible.builtin.lineinfile:
+        path: /etc/postgresql/16/main/pg_hba.conf
+        line: "local   all             deploy                                  md5"
+        state: present
+      become: true
+      notify: restart postgresql
 
   handlers:
     - name: restart postgresql

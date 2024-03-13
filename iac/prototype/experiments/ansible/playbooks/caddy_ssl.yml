@@ -14,3 +14,4 @@
 
     - name: Reload Caddy to apply changes
       command: systemctl reload caddy
+# This needs to be executed after the deploy.yml and puma.yml is executed. Move this to the Rails app codebase.

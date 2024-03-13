@@ -5,3 +5,6 @@
 Acceptance Tests
 
 - [Deploy Open Source Rails Apps](./basics/os-rails-apps.md)
+
+iac/prototype/experiments/ansible/playbooks/rails_app.yml
+iac/prototype/experiments/ansible/playbooks/caddy_ssl.yml
