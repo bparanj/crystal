@@ -7,3 +7,4 @@
 - [Package Installation Issues](./7.md)
 - [List Running Processes and Port](./8.md)
 - [Check Running Services](./9.md)
+- [AWS CLI Installation on Mac](./10.md)

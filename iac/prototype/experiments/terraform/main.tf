@@ -2,9 +2,7 @@ provider "aws" {
   region = var.aws_region
 }
 
-data "aws_eip" "static_ip" {
-  id = "eipalloc-057fe4dc2631b26e3"
-}
+data "aws_caller_identity" "current" {}
 
 data "aws_ami" "latest_ami" {
   most_recent = true
@@ -16,10 +14,21 @@ data "aws_ami" "latest_ami" {
 
   filter {
     name   = "tag:Version"
-    values = ["0.0.24"]
+    values = ["0.0.25"]
   }
 
   owners = ["self"]
+}
+
+resource "aws_eip" "static_ip" {
+  tags = {
+    Name = "RailsAppEIP"
+  }
+}
+
+resource "aws_eip_association" "static_ip_association" {
+  instance_id   = aws_instance.rails_instance.id
+  allocation_id = aws_eip.static_ip.id
 }
 
 resource "tls_private_key" "ror_key" {
@@ -160,9 +169,4 @@ resource "aws_instance" "rails_instance" {
   tags = {
     Name = "RailsApplication"
   }
-}
-
-resource "aws_eip_association" "rails_eip" {
-  instance_id   = aws_instance.rails_instance.id
-  allocation_id = data.aws_eip.static_ip.id
 }
