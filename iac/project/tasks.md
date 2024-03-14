@@ -66,28 +66,28 @@
 [ ] Passwordless login using pem file
 [ ] Create an entry in ~/.ssh/config for host name
 [ ] Virtual host - asset host ex: media.example.com
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
-[ ]
+[ ] Upload code
+[ ] Setup environment variables for database, Rails etc
+[ ] Setup Rails master key to decrypt credentials
+[ ] run bundle install, create database, migrate database
+[ ] Restart Puma after code update
+[ ] Rails credentials must be correct. Write a test to verify credentials.
+[ ] S3 policy is needed for database backups - Move to next folder (day 2 ops)
+[ ] How much memory will redis use by default?
+[ ] Design experiments to find minimal packages (run on EC2 micro instances). Document in table on content site.
+[ ] How to reduce the verbosity of Goss health check JSON response?
+[ ] Manually add any missing Goss tests
+[ ] Is teh ansible.cfg inside ansible folder being used by Packer? If not, delete it.
+[ ] Packages playbook must have minimal packages - needs review
+[ ] How to remove hard coded values of versions for Postgres, Redis etc from the playbook
+[ ] Track all versions for a working image - document in release notes
+[ ] Find the old github repos with notes on IaC product - extract action items
+[ ] Learn about secrets management using Ansible vault
+[ ] Breakdown the tasks and write it down. Make the tasks actionable and concrete
+[ ] Start checking off actio items to build momentum
+[ ] Extract action items from Moonshine github repo, ansible rails playbook github repot
+[ ] Set billing cap to new AWS account ($100)
+[ ] 
 [ ]
 [ ]
 [ ]
