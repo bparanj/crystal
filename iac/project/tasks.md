@@ -8,7 +8,7 @@
 [ ] Run Rails web application
 [ ] Generate PEM file that is unique to every customer
 [ ] PEF file downloader micro service using Go or Node
-[ ] Implement JSON health check endpoint using ok_computer gem
+[ ] Implement JSON health check endpoint using ok*computer gem
 [ ] Admin dashboard setup for Sidekiq (Does this require a playbook?)
 [ ] ActiveAdmin dashboard setup
 [ ] Add *.pem to gitignore
@@ -38,7 +38,7 @@
 [ ] Restrict IP address allowed to access port 3306 for database
 [ ] Retain only one AWS Secrets in AWS for one Rails app
 [ ] Take todo, blog app used for teaching and provision it
-[ ] Include simple app with ok_computer and health check to deploy Rails Docs app
+[ ] Include simple app with ok*computer and health check to deploy Rails Docs app
 [ ] Run Goss auto add for services on the server. Save tests in goss.yaml file.
 [ ] Configure ufw firewall
 [ ] Setup SSL
@@ -57,47 +57,50 @@
 [ ] Revise packages playbook - refer notes (terminal history)
 [ ] Use Cloud Init for handling first and subsequent boots. Customer specific tasks and post deployment checks.
 [ ] Watch Hashicorp youtube videos for testing IaC
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
-[ ] 
+[ ] MOTD - Message of the day
+[ ] How to setup a new Rails app?
+[ ] How to setup a new Rails app with a new domain, SSL, a new EC2 instance and a new database?
+[ ] How to setup a new Rails app with a new domain, SSL, a new EC2 instance, a new database and a new database user?
+[ ] Firewall with IP tables setup
+[ ] Disable root and SSH login
+[ ] Passwordless login using pem file
+[ ] Create an entry in ~/.ssh/config for host name
+[ ] Virtual host - asset host ex: media.example.com
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]

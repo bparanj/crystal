@@ -19,3 +19,4 @@
 - [AWS Account](./provisioner/aws-account.md)
 - [Dynamically Allocate IP](./provisioner/dynamically-allocate-ip.md)
 - [Static IP Issues](./provisioner/static-ip-issues.md)
+- [Capturing Provisioner Ouput](./provisioner/output.md)

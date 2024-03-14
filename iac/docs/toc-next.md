@@ -6,3 +6,5 @@
 - [Virtual Host](./next/virtual-host.md)
 - [WAF](./next/waf.md)
 - [Molecule](./next/molecule.md)
+- [HTTP Caching](./next/http-caching.md)
+- [Serve Static Assets](./next/serve-static.md)
