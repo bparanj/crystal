@@ -14,7 +14,7 @@ data "aws_ami" "latest_ami" {
 
   filter {
     name   = "tag:Version"
-    values = ["0.0.25"]
+    values = ["0.0.26"]
   }
 
   owners = ["self"]

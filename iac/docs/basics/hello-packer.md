@@ -200,14 +200,6 @@ export AWS_SECRET_ACCESS_KEY=<your secret key>
 export AWS_DEFAULT_REGION=us-west-2
 ```
 
-> Example via Powershell:
-
-```pwsh
-PS C:\> $Env:AWS_ACCESS_KEY_ID="<your access key>"
-PS C:\> $Env:AWS_SECRET_ACCESS_KEY="<your secret key>"
-PS C:\> $Env:AWS_DEFAULT_REGION="us-west-2"
-```
-
 ### Step 4.1.1
 Run a `packer build` for the `aws-ubuntu.pkr.hcl` template.
 
