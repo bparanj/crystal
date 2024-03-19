@@ -115,3 +115,5 @@ Create a playbooks directory, webserver.yml playbook:
         state: started
         enabled: yes
 ```
+
+Status: Published
