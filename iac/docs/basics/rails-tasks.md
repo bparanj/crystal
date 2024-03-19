@@ -124,3 +124,5 @@ Designing experiments to build prototypes incrementally with Packer, Terraform, 
 ### Conclusion
 
 Through these experiments, you'll progressively build knowledge and skills in using Packer, Terraform, and Ansible. Starting with simple tasks and gradually increasing the complexity allows you to understand how these tools can be integrated to automate the deployment and management of a Rails application on AWS EC2 with Postgres as the database and Puma as the application server.
+
+Status: Published

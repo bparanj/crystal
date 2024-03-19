@@ -129,3 +129,5 @@ Lima will now create a new Ubuntu instance with the specified disk size based on
 It's important to note that modifying the disk size only affects new instances created with the updated configuration. Existing instances will retain their original disk size.
 
 Also, keep in mind that increasing the disk size will consume more space on your host macOS system, as Lima stores the virtual disk files locally. Make sure you have sufficient free space on your Mac's storage to accommodate the desired disk size for your Lima instances.
+
+Status: Published

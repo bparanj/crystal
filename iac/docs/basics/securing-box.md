@@ -38,3 +38,5 @@ When setting up an EC2 instance with Caddy as a reverse proxy to a Rack app, alo
    - Set up alerts and notifications for any suspicious activities or anomalies.
 
 Regularly review and update your security configurations to ensure the ongoing protection of your EC2 instance and the services running on it. It's also a good practice to conduct periodic security assessments and audits to identify and address any potential vulnerabilities.
+
+Status: Published
