@@ -6,13 +6,11 @@
 | --------- | ----------- |
 | Python    | 3.12.1      |
 | Ansible   | core 2.16.1 |
-| Packer    | 1.10.1      |
-| Terraform | 1.6.6       |
 | Node      | v21.6.2     |
 | npm       | 10.5.0      |
-| AMI       | 0.0.23      |
+| AMI       | 0.0.27      |
 
-The AMI image version in main.tf and aws-ubuntu.pkr.hcl must be same.
+The AMI image version in ami.yml and provision.yml must be same.
 
 #### Python
 
@@ -34,24 +32,6 @@ ansible [core 2.16.1]
   python version = 3.12.2 (main, Feb  6 2024, 20:19:44) [Clang 15.0.0 (clang-1500.1.0.2.5)] (/opt/homebrew/Cellar/ansible/9.1.0/libexec/bin/python)
   jinja version = 3.1.3
   libyaml = True
-```
-
-### Packer
-
-```
-packer version
-Packer v1.10.1
-```
-
-### Terraform
-
-```
-terraform -version
-Terraform v1.6.6
-on darwin_arm64
-
-Your version of Terraform is out of date! The latest version
-is 1.7.4. You can update by downloading from https://www.terraform.io/downloads.html
 ```
 
 ### Production - Target Node

@@ -13,14 +13,6 @@
 
 - Learn about Vue 3 Forms (watch Pluralsight course)
 
-## In Progress
-
-- Document working steps in password-less.md
-
-## Blockers
-
-- How to retrieve the user details on redirect from email link?
-
 ## Followups
 
 - Handling callbacks in Nuxt https://www.reddit.com/r/Nuxt/comments/18hosy4/handling_authentication_callback/

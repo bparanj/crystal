@@ -151,6 +151,32 @@ PackerUbuntuStack(app, "PackerUbuntuStack",
 app.synth()
 ```
 
+Apologies for the confusion in the previous response. You are correct; using `ec2.AmazonLinuxImage` to create a custom AMI for an Ubuntu image is not appropriate. Let me provide the corrected code snippet for creating a custom AMI based on the Ubuntu EC2 instance:
+
+```python
+# Create the custom AMI
+custom_ami = ec2.CfnImage(
+    self,
+    "CustomUbuntuAMI",
+    instance_id=instance.instance_id,
+    name=f"custom-ubuntu-ami-{core.Aws.ACCOUNT_ID}",
+    description="Custom Ubuntu AMI",
+)
+```
+
+In this updated code:
+
+1. Instead of using `ec2.AmazonLinuxImage`, we use the `ec2.CfnImage` class to create a custom AMI.
+
+2. We provide the `instance_id` parameter with the ID of the Ubuntu EC2 instance (`instance.instance_id`) that we want to use as the source for the custom AMI.
+
+3. We specify a name for the custom AMI using the `name` parameter, which in this case includes the AWS account ID (`core.Aws.ACCOUNT_ID`) to ensure uniqueness.
+
+4. We provide an optional description for the custom AMI using the `description` parameter.
+
+By using `ec2.CfnImage` and specifying the Ubuntu EC2 instance ID, we ensure that the custom AMI is created based on the correct source instance.
+
+
 In this converted code:
 
 1. The necessary AWS CDK modules are imported, including `aws_ec2` for EC2 resources and `aws_iam` for IAM roles.

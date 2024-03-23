@@ -1,4 +1,4 @@
-In the packer folder, run:
+In the images folder, run:
 
 ```
 export ANSIBLE_CONFIG=$(pwd)/ansible/ansible.cfg
@@ -18,7 +18,7 @@ export ANSIBLE_CONFIG=$(pwd)/ansible/ansible.cfg
 
 ### Download PEM File
 
-Go to the directory: /Users/bparanj/work/nuxt/iac/packer/experiments/javascript. Delete existing rails-server.pem file.
+Go to the directory: /Users/bparanj/work/nuxt/iac/prototype/experiments/javascript. Delete existing rails-server.pem file.
 Run:
 
 ```
