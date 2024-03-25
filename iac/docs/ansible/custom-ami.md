@@ -1,0 +1,117 @@
+Here's the conversion of the Packer template to an Ansible playbook:
+
+```yaml
+---
+- name: Build Custom AMI
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  vars:
+    aws_region: "us-west-2"
+    instance_type: "c5.4xlarge"
+    source_ami_name: "ubuntu/images/*ubuntu-jammy-22.04-amd64-server-*"
+    ami_owners: ["099720109477"]
+    ssh_username: "ubuntu"
+    ami_groups: ["all"]
+    ami_tags:
+      Name: "UbuntuImage"
+      Environment: "Production"
+      OS_Version: "Ubuntu 22.04"
+      Release: "Latest"
+      Created-by: "Ansible"
+      Version: "0.0.26"
+    manifest_output: "manifest.json"
+
+  tasks:
+    - name: Find source AMI
+      ec2_ami_info:
+        region: "{{ aws_region }}"
+        owners: "{{ ami_owners }}"
+        filters:
+          name: "{{ source_ami_name }}"
+          root-device-type: "ebs"
+          virtualization-type: "hvm"
+      register: ami_info
+
+    - name: Launch EC2 instance
+      ec2_instance:
+        region: "{{ aws_region }}"
+        instance_type: "{{ instance_type }}"
+        image_id: "{{ ami_info.images[0].image_id }}"
+        wait: yes
+        vpc_subnet_id: "{{ subnet_id }}"
+        assign_public_ip: yes
+        security_group: "{{ security_group }}"
+        key_name: "{{ key_name }}"
+      register: ec2
+
+    - name: Add EC2 instance to inventory
+      add_host:
+        hostname: "{{ ec2.instances[0].public_ip_address }}"
+        groupname: launched
+        ansible_user: "{{ ssh_username }}"
+        ansible_ssh_private_key_file: "{{ key_file }}"
+
+    - name: Wait for SSH to be available
+      delegate_to: "{{ ec2.instances[0].public_ip_address }}"
+      wait_for_connection:
+        delay: 30
+        timeout: 300
+
+    - name: Provision with Ansible playbook
+      ansible.builtin.include_tasks: "{{ playbook_file }}"
+      vars:
+        ansible_user: "{{ ansible_user }}"
+        ansible_ssh_extra_args: "-o StrictHostKeyChecking=no"
+
+    - name: Create AMI
+      ec2_ami:
+        region: "{{ aws_region }}"
+        instance_id: "{{ ec2.instances[0].instance_id }}"
+        name: "packer-ubuntu-aws-{{ '%Y%m%d%H%M%S' | strftime(ansible_date_time.epoch) }}"
+        wait: yes
+        tags: "{{ ami_tags }}"
+        launch_permissions:
+          group_names: "{{ ami_groups }}"
+      register: ami
+
+    - name: Terminate EC2 instance
+      ec2_instance:
+        region: "{{ aws_region }}"
+        instance_ids: "{{ ec2.instances[0].instance_id }}"
+        state: absent
+
+    - name: Create manifest
+      copy:
+        content: |
+          {
+            "builds": [
+              {
+                "name": "{{ ami.name }}",
+                "builder_type": "amazon-ebs",
+                "build_time": "{{ '%Y-%m-%d %H:%M:%S' | strftime(ansible_date_time.epoch) }}",
+                "files": null,
+                "artifact_id": "{{ ami.image_id }}",
+                "packer_run_uuid": "{{ ansible_date_time.epoch }}"
+              }
+            ],
+            "last_run_uuid": "{{ ansible_date_time.epoch }}"
+          }
+        dest: "{{ manifest_output }}"
+```
+
+This playbook performs the following tasks:
+
+1. Finds the source AMI based on the provided filters.
+2. Launches an EC2 instance using the source AMI.
+3. Adds the EC2 instance to the inventory for provisioning.
+4. Waits for SSH to be available on the EC2 instance.
+5. Provisions the EC2 instance using the specified Ansible playbook.
+6. Creates an AMI from the provisioned EC2 instance.
+7. Terminates the EC2 instance.
+8. Creates a manifest file with the AMI details.
+
+Replace `{{ subnet_id }}`, `{{ security_group }}`, `{{ key_name }}`, and `{{ key_file }}` with the appropriate values for your AWS environment.
+
+Also, make sure to have the necessary AWS credentials and permissions to launch EC2 instances, create AMIs, and perform the required actions.

@@ -281,3 +281,178 @@ Replace `your-region` with your actual AWS region. This command filters availabl
 
 For tasks like creating a VPC, subnets, or finding the correct AMI ID, automating these can save time and reduce the potential for human error, making it a good practice for software engineers interested in infrastructure automation and cloud computing.
 
+Here's the conversion of the Terraform configuration to an Ansible playbook:
+
+```yaml
+---
+- name: Provision Rails Infrastructure
+  hosts: localhost
+  connection: local
+  gather_facts: false
+
+  vars:
+    aws_region: "us-west-2"
+    vpc_cidr_block: "10.0.0.0/16"
+    subnet_cidr_block: "10.0.10.0/24"
+    availability_zone: "us-west-2a"
+    security_group_name: "rails-sg"
+    instance_type: "t2.micro"
+    key_name: "rails-key"
+
+  tasks:
+    - name: Get latest AMI
+      ec2_ami_info:
+        region: "{{ aws_region }}"
+        owners: ["self"]
+        filters:
+          name: "UbuntuImage"
+          "tag:Version": "0.0.26"
+      register: latest_ami
+
+    - name: Create Elastic IP
+      ec2_eip:
+        region: "{{ aws_region }}"
+        tags:
+          Name: "RailsAppEIP"
+      register: static_ip
+
+    - name: Generate RSA private key
+      community.crypto.openssh_keypair:
+        path: "{{ playbook_dir }}/rails-key.pem"
+        size: 2048
+        type: rsa
+
+    - name: Create random suffix for secret name
+      set_fact:
+        secret_suffix: "{{ lookup('password', '/dev/null length=8 chars=ascii_lowercase,digits') }}"
+
+    - name: Create Secrets Manager secret
+      aws_secret:
+        name: "ror_key_secret-{{ secret_suffix }}"
+        state: present
+
+    - name: Store private key in Secrets Manager
+      aws_secret:
+        name: "ror_key_secret-{{ secret_suffix }}"
+        state: present
+        secret_type: 'string'
+        secret: "{{ lookup('file', '{{ playbook_dir }}/rails-key.pem') }}"
+
+    - name: Create key pair
+      ec2_key:
+        name: "{{ key_name }}"
+        key_material: "{{ lookup('file', '{{ playbook_dir }}/rails-key.pem.pub') }}"
+        region: "{{ aws_region }}"
+
+    - name: Create VPC
+      ec2_vpc_net:
+        name: "rails-vpc"
+        cidr_block: "{{ vpc_cidr_block }}"
+        region: "{{ aws_region }}"
+        tags:
+          Name: "rails-vpc"
+      register: rails_vpc
+
+    - name: Create public subnet
+      ec2_vpc_subnet:
+        vpc_id: "{{ rails_vpc.vpc.id }}"
+        cidr: "{{ subnet_cidr_block }}"
+        az: "{{ availability_zone }}"
+        region: "{{ aws_region }}"
+        tags:
+          Name: "rails-public-subnet"
+      register: rails_public_subnet
+
+    - name: Create internet gateway
+      ec2_vpc_igw:
+        vpc_id: "{{ rails_vpc.vpc.id }}"
+        region: "{{ aws_region }}"
+        tags:
+          Name: "rails-igw"
+      register: rails_igw
+
+    - name: Create public route table
+      ec2_vpc_route_table:
+        vpc_id: "{{ rails_vpc.vpc.id }}"
+        region: "{{ aws_region }}"
+        subnets:
+          - "{{ rails_public_subnet.subnet.id }}"
+        routes:
+          - dest: 0.0.0.0/0
+            gateway_id: "{{ rails_igw.gateway_id }}"
+        tags:
+          Name: "rails-public-rt"
+
+    - name: Create security group
+      ec2_group:
+        name: "{{ security_group_name }}"
+        description: "Allow inbound traffic for PostgreSQL, Rails, Redis, and SSH"
+        vpc_id: "{{ rails_vpc.vpc.id }}"
+        region: "{{ aws_region }}"
+        rules:
+          - proto: tcp
+            from_port: 2222
+            to_port: 2222
+            cidr_ip: "{{ ssh_cidr_blocks }}"
+          - proto: tcp
+            from_port: 80
+            to_port: 80
+            cidr_ip: "{{ http_cidr_blocks }}"
+          - proto: tcp
+            from_port: 443
+            to_port: 443
+            cidr_ip: "{{ https_cidr_blocks }}"
+          - proto: tcp
+            from_port: 5432
+            to_port: 5432
+            cidr_ip: "{{ postgres_cidr_blocks }}"
+          - proto: tcp
+            from_port: 6379
+            to_port: 6379
+            cidr_ip: "{{ redis_cidr_blocks }}"
+        rules_egress:
+          - proto: all
+            cidr_ip: 0.0.0.0/0
+      register: rails_sg
+
+    - name: Launch Rails EC2 instance
+      ec2_instance:
+        image_id: "{{ latest_ami.images[0].image_id }}"
+        instance_type: "{{ instance_type }}"
+        vpc_subnet_id: "{{ rails_public_subnet.subnet.id }}"
+        security_group: "{{ rails_sg.group_id }}"
+        key_name: "{{ key_name }}"
+        assign_public_ip: yes
+        region: "{{ aws_region }}"
+        tags:
+          Name: "RailsApplication"
+      register: rails_instance
+
+    - name: Associate Elastic IP with Rails instance
+      ec2_eip:
+        device_id: "{{ rails_instance.instance_ids[0] }}"
+        ip: "{{ static_ip.public_ip }}"
+        region: "{{ aws_region }}"
+      register: eip_association
+```
+
+This playbook performs the following tasks:
+
+1. Retrieves the latest AMI based on the specified filters.
+2. Creates an Elastic IP.
+3. Generates an RSA private key.
+4. Creates a random suffix for the secret name.
+5. Creates a Secrets Manager secret.
+6. Stores the private key in the Secrets Manager secret.
+7. Creates a key pair using the public key.
+8. Creates a VPC.
+9. Creates a public subnet within the VPC.
+10. Creates an internet gateway and attaches it to the VPC.
+11. Creates a public route table and associates it with the public subnet.
+12. Creates a security group with the specified inbound and outbound rules.
+13. Launches an EC2 instance for the Rails application using the latest AMI, subnet, security group, and key pair.
+14. Associates the Elastic IP with the Rails EC2 instance.
+
+Replace the placeholders (e.g., `{{ ssh_cidr_blocks }}`, `{{ http_cidr_blocks }}`, etc.) with the appropriate values based on your requirements.
+
+Also, ensure that you have the necessary Ansible modules installed (`community.crypto`, `amazon.aws`) and the AWS credentials properly configured for authentication.
