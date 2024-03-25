@@ -1,0 +1,23 @@
+---
+- name: Upload a key to AWS
+  hosts: localhost
+  gather_facts: false
+  connection: local
+  vars:
+    key_name: "RailsKey" # Name for the key pair in AWS
+
+  tasks:
+    - name: Read public key file
+      ansible.builtin.slurp:
+        src: "/Users/bparanj/Desktop/rails-server.pub" # Update this path to your public key file
+      register: public_key_file
+
+    - name: Convert public key to string
+      ansible.builtin.set_fact:
+        public_key_content: "{{ public_key_file['content'] | b64decode }}"
+
+    - name: Upload public key pair to AWS
+      amazon.aws.ec2_key:
+        name: "{{ key_name }}"
+        key_material: "{{ public_key_content }}"
+        state: present
