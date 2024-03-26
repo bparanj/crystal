@@ -13,4 +13,6 @@
 - https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/security-group.md
 - https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/setup.md
 
-Mark as published: https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/pem-file.md
+https://rick-hightower.blogspot.com/2017/03/setting-up-ansible-ssh-to-configure-aws.html
+
+

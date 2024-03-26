@@ -50,3 +50,4 @@ head -n 5 rails-server.pem
 
 Verify this key is in the AWS console.
 
+Status: PUblished
