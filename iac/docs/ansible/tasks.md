@@ -1,17 +1,22 @@
 
 
-- Associate an Elastic IP address with an Amazon EC2 instance
-- Allocate an Elastic IP address for Amazon EC2
+- Allocate an Elastic IP address for Amazon EC2 (same as this:)
+- [Associate an Elastic IP address with an Amazon EC2 instance](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/ec2/elastic_ip.py)
+
+
 - Create an Amazon EC2 security group
-- Create a security key pair for Amazon EC2
+- [Create a security key pair for Amazon EC2](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/ec2/key_pair.py)
+
+- [Create security group](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/ec2/security_group.py)
 - Create and run an Amazon EC2 instance
 - Set inbound rules for an Amazon EC2 security group
 - Using the AWS docs for boto, add error handing and idemptotency to boto3 project
 
+- [Complete Scenario](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/ec2/scenario_get_started_instances.py)
+
 https://rick-hightower.blogspot.com/2017/03/setting-up-ansible-ssh-to-configure-aws.html
 
 Look at Claude answers for boto questions
-
 
 https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/custom-ami.md
 https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/ec2.md
@@ -42,6 +47,9 @@ playbook_file   = "../ansible/playbooks/master_playbook.yml"
 
 - Review and extract action items from Boto3 equivalent of post-processor in Packer /docs/boto/post-processor.md
 
+
+Pending claude
+
 - Should I use this flag in boto3:
 
 ```
@@ -50,14 +58,14 @@ playbook_file   = "../ansible/playbooks/master_playbook.yml"
 
 Terraform Template to Boto3 Tasks
 
-- Retrieve the AMI using the tag filter:
+- In boto3, how to retrieve the custom AMI I have created using the tag filter:
 	tag name and tag version 
 
 - How to allocate static IP to EC2 instance when it is created in boto3?
 
 - How to store PEM file in AWS secrets manager in boto3
 
-- Create RailsVPC
+- Using boto3, create RailsVPC
 
 resource "aws_vpc" "rails_vpc" {
   cidr_block           = var.vpc_cidr_block
@@ -68,7 +76,7 @@ resource "aws_vpc" "rails_vpc" {
   }
 }
 
-- Create RailsPublicSubnet
+- Using boto3, create RailsPublicSubnet
 
 resource "aws_subnet" "rails_public_subnet" {
   vpc_id                  = aws_vpc.rails_vpc.id
@@ -80,7 +88,7 @@ resource "aws_subnet" "rails_public_subnet" {
   }
 }
 
-- Create RailsIGW
+- Using boto3, create RailsIGW
 
 resource "aws_internet_gateway" "rails_igw" {
   vpc_id = aws_vpc.rails_vpc.id
@@ -89,7 +97,7 @@ resource "aws_internet_gateway" "rails_igw" {
   }
 }
 
-- Create route table
+- Using boto3, create route table
 
 resource "aws_route_table" "rails_public_rt" {
   vpc_id = aws_vpc.rails_vpc.id
@@ -106,9 +114,9 @@ resource "aws_route_table" "rails_public_rt" {
 
 Why do we need the route table?
 
-- Associate the route table to the rails public subnet
+- Using boto3, associate the route table to the rails public subnet
 
-- Create Rails security group:
+- Using boto3, create Rails security group:
 
 resource "aws_security_group" "rails_sg" {
   name        = var.security_group_name
@@ -168,7 +176,9 @@ resource "aws_security_group" "rails_sg" {
   }
 }
 
-- Create Rails EC2 instance:
+Why do we need egress rule?
+
+- Using boto3, create Rails EC2 instance:
 
 resource "aws_instance" "rails_instance" {
   ami                         = data.aws_ami.latest_ami.id

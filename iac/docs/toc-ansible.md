@@ -26,3 +26,4 @@
 - [Upload Key](./docs/ansible/upload-key.md)
 - [VPC](./docs/ansible/vpc.md)
 - [Wait Until](./docs/ansible/wait-until.md)
+- [Host Key Checking](./docs/ansible/host-key-check.md)

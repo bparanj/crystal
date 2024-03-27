@@ -17,7 +17,7 @@
       OS_Version: "Ubuntu 22.04"
       Release: "Latest"
       Created-by: "Ansible"
-      Version: "0.0.27"
+      Version: "0.0.1"
     manifest_output: "manifest.json"
 
   tasks:
