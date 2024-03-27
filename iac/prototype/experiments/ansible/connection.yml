@@ -1,0 +1,11 @@
+---
+- name: Run tasks on EC2 instance
+  hosts: all
+  tasks:
+    - name: Run command on the EC2 instance
+      command: lsb_release -a
+      register: lsb_release_output
+
+    - name: Print the command output
+      debug:
+        msg: "{{ lsb_release_output.stdout_lines }}"
