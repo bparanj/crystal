@@ -35,3 +35,4 @@ To find the AMI identifier for the latest version of 64-bit Ubuntu 22.04 using t
 
 You must have the `amazon.aws` collection installed (`ansible-galaxy collection install amazon.aws`) and AWS access credentials configured for Ansible. This playbook will return the AMI ID of the latest Ubuntu 22.04 LTS version available in your default AWS region. If you're targeting a specific region, make sure to set it in your AWS CLI configuration or include a `region` parameter in the task.
 
+Status: Published

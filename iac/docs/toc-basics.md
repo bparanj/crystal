@@ -83,3 +83,4 @@
 - [EC2](./ansible/ec2.md)
 - [Setup](./ansible/setup.md)
 - [VPC Subnet](./ansible/vpc-subnet.md)
+- [Private EC2 Instanct](./basics/private-ec2.md)

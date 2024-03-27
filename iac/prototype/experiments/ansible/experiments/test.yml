@@ -1,0 +1,123 @@
+- name: Setup VPC, Subnet, Security Group, and Launch EC2 Instance
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  collections:
+    - amazon.aws
+  vars:
+    aws_region: us-east-1
+    app_name: "TestApp"
+    app_environment: "production"
+    vpc_cidr_block: "10.10.0.0/16"
+    subnet_cidr_block: "10.10.1.0/24"
+    availability_zone: us-east-1a
+    security_group_name: RailsSG
+    security_group_description: Security Group created by Ansible for EC2
+    instance_type: t2.micro
+    key_name: testmar25
+    aws_image: "ami-0e21465cede02fd1e"
+    vpc_name: "Test VPC"
+    public_subnet_1_cidr: "10.10.1.0/24"
+    main_security_group: '{{app_name}}-main-security-group'
+    aws_security_groups:
+      - name: '{{main_security_group}}'
+        protocol: 'tcp'
+        port: '22'
+
+  tasks:
+    - name: Create VPC with DNS support and hostnames enabled
+      ec2_vpc_net:
+        name: "{{ vpc_name }}"
+        cidr_block: "{{ vpc_cidr_block }}"
+        region: "{{ aws_region }}"
+        dns_support: true
+        dns_hostnames: true
+        state: "present"
+      register: my_vpc
+
+    - name: Set VPC ID in variable
+      set_fact:
+        vpc_id: "{{ my_vpc.vpc.id }}"
+
+    - name: Create Public Subnet
+      ec2_vpc_subnet:
+        state: "present"
+        vpc_id: "{{ vpc_id }}"
+        cidr: "{{ public_subnet_1_cidr }}"
+        az: "{{ aws_region }}a"
+        region: "{{ aws_region }}"
+        resource_tags:
+          Name: "Public Subnet"
+      register: my_public_subnet
+
+    - name: Set Public Subnet ID in variable
+      set_fact:
+        public_subnet_id: "{{ my_public_subnet.subnet.id }}"
+
+    - name: Create Internet Gateway for VPC
+      ec2_vpc_igw:
+        vpc_id: "{{ vpc_id }}"
+        region: "{{ aws_region }}"
+        state: "present"
+      register: my_vpc_igw
+
+    - name: Set Internet Gateway ID in variable
+      set_fact:
+        igw_id: "{{ my_vpc_igw.gateway_id }}"
+
+    - name: Set up public subnet route table
+      ec2_vpc_route_table:
+        vpc_id: "{{ vpc_id }}"
+        region: "{{ aws_region }}"
+        tags:
+          Name: "Public"
+        subnets:
+          - "{{ public_subnet_id }}"
+        routes:
+          - dest: "0.0.0.0/0"
+            gateway_id: "{{ igw_id }}"
+
+    - name: Create security groups
+      ec2_group:
+        name: "{{ item.name }}"
+        description: "{{ item.name }}"
+        vpc_id: "{{ vpc_id }}"
+        region: "{{ aws_region }}"
+        rules:
+          - proto: "{{ item.protocol }}"
+            from_port: "{{ item.port }}"
+            to_port: "{{ item.port }}"
+            cidr_ip: 0.0.0.0/0
+      with_items: "{{ aws_security_groups }}"
+
+    - name: Create an EC2 key
+      ec2_key:
+        name: "{{ app_name }}-{{ app_environment }}-key"
+        region: "{{ aws_region }}"
+      register: ec2_key
+
+    - name: save private key
+      copy: content="{{ ec2_key.key.private_key }}" dest="./aws-{{ app_environment }}-private.pem" mode=0600
+      when: ec2_key.changed
+
+    - name: Provision ec2 instances
+      amazon.aws.ec2_instance:
+        name: "RailsServerMar25"
+        key_name: "{{ app_name }}-{{ app_environment }}-key"
+        region: '{{ aws_region }}'
+        instance_type: "t2.micro"
+        image_id: "{{ aws_image }}"
+        network:
+          vpc_subnet_id: '{{ public_subnet_id }}'
+          assign_public_ip: true
+          security_groups: '{{main_security_group}}'
+        wait: true
+      register: ec2_instance
+
+    - name: Allocating elastic IP to instance
+      ec2_eip:
+        device_id: "{{ ec2_instance.instance_ids[0] }}"
+        region: "{{ aws_region }}"
+        in_vpc: yes
+        reuse_existing_ip_allowed: yes
+        state: present

@@ -1,0 +1,97 @@
+- name: Setup VPC, Subnet, Security Group, and Launch EC2 Instance
+  hosts: localhost
+  gather_facts: no
+  connection: local
+  collections:
+    - amazon.aws
+  vars:
+    region: us-east-1
+    vpc_cidr_block: "10.10.0.0/16"
+    subnet_cidr_block: "10.10.1.0/24"
+    availability_zone: us-east-1a
+    security_group_name: RailsSG
+    security_group_description: Security Group created by Ansible for EC2
+    instance_type: t2.micro
+    ami_id: ami-0e21465cede02fd1e
+    key_name: testmar25
+  tasks:
+    - name: Create a VPC
+      ec2_vpc_net:
+        name: "RailsVPC"
+        cidr_block: "{{ vpc_cidr_block }}"
+        region: "{{ region }}"
+        tags:
+          Name: RailsVPC
+      register: vpc
+
+    - name: Create an Internet Gateway
+      ec2_vpc_igw:
+        vpc_id: "{{ vpc.vpc.id }}"
+        state: present
+        region: "{{ region }}"
+        tags:
+          Name: "RailsIGW"
+      register: igw
+
+    - name: Attach Internet Gateway to VPC
+      ec2_vpc_igw:
+        state: present
+        internet_gateway_id: "{{ igw.gateway_id }}"
+        vpc_id: "{{ vpc.vpc.id }}"
+        region: "{{ region }}"
+
+    - name: Debug IGW ID
+      debug:
+        var: igw
+
+    - name: Create a Subnet
+      ec2_vpc_subnet:
+        state: present
+        vpc_id: "{{ vpc.vpc.id }}"
+        cidr: "{{ subnet_cidr_block }}"
+        az: "{{ availability_zone }}"
+        tags:
+          Name: RailsSubnet
+      register: subnet
+
+    - name: Create Security Group
+      ec2_group:
+        name: "{{ security_group_name }}"
+        description: "{{ security_group_description }}"
+        vpc_id: "{{ vpc.vpc.id }}"
+        rules:
+          - proto: tcp
+            ports:
+              - 22
+            cidr_ip: 0.0.0.0/0
+      register: sg
+
+    - name: Create a route table for the VPC
+      ec2_vpc_route_table:
+        vpc_id: "{{ vpc.vpc.id }}"
+        tags:
+          Name: PublicRouteTable
+        routes:
+          - dest: 0.0.0.0/0
+            gateway_id: "{{ igw.gateway_id }}"
+      register: route_table
+
+    - name: Associate subnet with route table
+      ec2_vpc_route_table:
+        vpc_id: "{{ vpc.vpc.id }}"
+        subnets:
+          - "{{ subnet.subnet.id }}"
+        route_table_id: "{{ route_table.route_table.id }}"
+
+    - name: Launch an EC2 instance
+      amazon.aws.ec2_instance:
+        name: "RailsServer"
+        key_name: "{{ key_name }}"
+        instance_type: "{{ instance_type }}"
+        image_id: "{{ ami_id }}"
+        wait: true
+        region: "{{ region }}"
+        network:
+          vpc_subnet_id: "{{ subnet.subnet.id }}"
+          assign_public_ip: true
+          security_group: "{{ sg.group_id }}"
