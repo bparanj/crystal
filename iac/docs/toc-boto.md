@@ -1,0 +1,7 @@
+- [AMI Name](./docs/boto/ami-name.md)
+- [Customize AMI](./docs/boto/customize-ami.md)
+- [Fetching Custom AMI](./docs/boto/fetching-custom-ami.md)
+- [Post Processor Equivalent](./docs/boto/post-processor.md)
+- [Project Structure](./docs/boto/project-structure.md)
+- [Public AMI](./docs/boto/public-ami.md)
+- [Tag AMI](./docs/boto/tag-ami.md)
