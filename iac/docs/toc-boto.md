@@ -14,3 +14,4 @@
 - [Create VPC](./docs/boto/create-vpc.md)
 - [Create Rails EC2 Instance](./docs/boto/rails-ec2-instance.md)
 - [Store PEM File in Secrets Manager](./docs/boto/store-secrets.md)
+- [Naming Convention](./docs/boto/naming-convention.md)
