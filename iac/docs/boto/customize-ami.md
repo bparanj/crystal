@@ -166,3 +166,4 @@ In this example, you need to replace `'your-ssh-key-pair-name'` with the name of
 - This example demonstrates the basic flow of determining an appropriate AMI based on a name pattern and owner, and then launching an EC2 instance with that AMI. 
 - Adjust the filters in `describe_images` or add additional launch parameters as necessary for your specific requirements.
 - Ensure you handle exceptions and errors (e.g., no AMI found, API call failures) appropriately in a production script.
+

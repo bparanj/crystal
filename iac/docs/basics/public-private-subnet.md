@@ -1,5 +1,19 @@
 ## Public Subnet vs Private Subnet
 
+When deciding whether a subnet should be public or private, consider the following factors:
+
+1. Internet access: Public subnets have direct internet access, while private subnets do not.
+
+2. Security: Private subnets offer better security by isolating resources from direct internet exposure.
+
+3. Resource types: Place public-facing resources (e.g., web servers) in public subnets and internal resources (e.g., databases) in private subnets.
+
+4. VPN or Direct Connect: Private subnets can still access the internet via a NAT Gateway, VPN, or Direct Connect.
+
+5. Compliance: Some regulations may require certain resources to be in private subnets.
+
+In general, use public subnets for resources that require direct internet access and private subnets for internal resources that should be isolated from the internet.
+
 Deciding whether a subnet should be public or private depends on the roles and the accessibility requirements of the resources within that subnet. Here's a simple guide to make this decision:
 
 ### Public Subnet

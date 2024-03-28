@@ -142,4 +142,55 @@ for ami in custom_amis['Images']:
 
 Make sure to replace `'your-custom-ami-name'` and `'your-version-value'` with the actual values you've used to tag your AMI. This script will retrieve all AMIs that match both the specified name and version tags.
 
-Claude response PENDING
+Claude response
+
+To find the latest AMI owned by your AWS account using Boto3, you can use the `describe_images` method of the EC2 client. Here's an example of how you can accomplish this:
+
+```python
+import boto3
+
+ec2_client = boto3.client('ec2')
+
+# Find the latest AMI owned by your AWS account
+response = ec2_client.describe_images(
+    Owners=['self'],
+    Filters=[
+        {
+            'Name': 'name',
+            'Values': ['my-custom-ami-*']
+        }
+    ]
+)
+
+# Sort the images by creation date in descending order and select the latest one
+latest_image = sorted(response['Images'], key=lambda x: x['CreationDate'], reverse=True)[0]
+
+# Get the ID of the latest AMI
+latest_ami_id = latest_image['ImageId']
+
+print(f"Latest AMI ID: {latest_ami_id}")
+```
+
+In this code:
+
+1. We create an EC2 client using `boto3.client('ec2')`.
+
+2. We use the `describe_images` method of the EC2 client to search for AMIs.
+   - The `Owners` parameter is set to `['self']`, indicating that we want to search for AMIs owned by the same AWS account in which the code is running.
+   - The `Filters` parameter is used to specify additional criteria for filtering the AMIs. In this example, we filter AMIs based on their name, looking for AMIs whose name matches the pattern "my-custom-ami-*".
+
+3. The `describe_images` method returns a response containing a list of matching AMIs.
+
+4. We sort the AMIs by their creation date in descending order using the `sorted()` function and a lambda function as the key. This ensures that the most recently created AMI is at the beginning of the list.
+
+5. We select the latest AMI by taking the first element of the sorted list (`latest_image`).
+
+6. We extract the ID of the latest AMI from the `latest_image` dictionary using the `'ImageId'` key and assign it to the `latest_ami_id` variable.
+
+7. Finally, we print the ID of the latest AMI.
+
+By running this code, you will retrieve the ID of the most recently created AMI owned by your AWS account that matches the specified name pattern.
+
+Make sure to replace `'my-custom-ami-*'` with the actual name pattern of your custom AMIs.
+
+Note: This code assumes that you have properly configured your AWS credentials and have the necessary permissions to describe images in your AWS account.

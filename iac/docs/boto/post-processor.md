@@ -106,4 +106,4 @@ You can customize the Lambda function or script to perform any desired post-proc
 
 To trigger the Lambda function or run the custom script after the Packer build, you can use tools like AWS CodePipeline, AWS CodeBuild, or simply include the script execution as a final step in your Packer build process.
 
-Remember to configure the necessary IAM permissions for the Lambda function or the script execution environment to have the required access to perform the desired actions on the AMI using Boto3.
+Configure the necessary IAM permissions for the Lambda function or the script execution environment to have the required access to perform the desired actions on the AMI using Boto3.
