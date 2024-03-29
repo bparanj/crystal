@@ -4,7 +4,7 @@ Organizing a Boto3 project effectively can enhance readability, maintainability,
 
 ### Basic Project Structure
 
-For a relatively straightforward Boto3 project, you might start with something like this:
+For a Boto3 project, you can start with something like this:
 
 ```
 boto3_project/
@@ -115,3 +115,4 @@ This directory structure separates the source code, tests, and documentation, ma
 You can adapt this structure based on the specific needs and complexity of your Boto3 project. For example, you might have additional top-level directories for data files, configuration files, or deployment scripts.
 
 Keep your code modular, write clear and concise documentation, and include appropriate unit tests to ensure the reliability and maintainability of your Boto3 project.
+

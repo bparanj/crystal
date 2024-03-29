@@ -59,3 +59,64 @@ print(f"Secret updated: {response['ARN']}")
 - **Cost**: AWS Secrets Manager charges based on the number of secrets managed and the number of API calls made. Consider this when choosing to store secrets.
 
 By following these steps, you can securely store your PEM file in AWS Secrets Manager, making it accessible to AWS services and applications that require it while keeping it secure.
+
+To store a PEM file in AWS Secrets Manager using boto3, you can follow these steps:
+
+1. Read the contents of the PEM file.
+2. Create a new secret in AWS Secrets Manager using the `create_secret()` method of the Secrets Manager client.
+3. Specify the secret name, description, and the PEM file contents as the secret value.
+
+Here's an example code snippet that demonstrates how to store a PEM file in AWS Secrets Manager:
+
+```python
+import boto3
+
+def store_pem_file_in_secrets_manager(pem_file_path, secret_name, secret_description):
+    secrets_manager_client = boto3.client('secretsmanager')
+    
+    # Read the PEM file contents
+    with open(pem_file_path, 'r') as file:
+        pem_contents = file.read()
+    
+    # Create a new secret in AWS Secrets Manager
+    response = secrets_manager_client.create_secret(
+        Name=secret_name,
+        Description=secret_description,
+        SecretString=pem_contents
+    )
+    
+    secret_arn = response['ARN']
+    print(f"PEM file stored in AWS Secrets Manager with ARN: {secret_arn}")
+
+# Example usage
+pem_file_path = '/path/to/your/pem/file.pem'
+secret_name = 'MyPEMFileSecret'
+secret_description = 'PEM file for SSH access to EC2 instances'
+
+store_pem_file_in_secrets_manager(pem_file_path, secret_name, secret_description)
+```
+
+In this example, we define a function `store_pem_file_in_secrets_manager()` that takes the following parameters:
+- `pem_file_path`: The path to the PEM file on your local machine.
+- `secret_name`: The desired name for the secret in AWS Secrets Manager.
+- `secret_description`: A description for the secret.
+
+Inside the function:
+
+1. We create a Secrets Manager client using `boto3.client('secretsmanager')`.
+
+2. We open the PEM file specified by `pem_file_path` and read its contents into the `pem_contents` variable.
+
+3. We call the `create_secret()` method of the Secrets Manager client to create a new secret. We provide the `secret_name`, `secret_description`, and the `pem_contents` as the `SecretString` parameter.
+
+4. The `create_secret()` method returns a response that includes the ARN (Amazon Resource Name) of the newly created secret. We store the ARN in the `secret_arn` variable.
+
+5. Finally, we print a message indicating that the PEM file has been stored in AWS Secrets Manager along with the ARN of the secret.
+
+In the example usage, we specify the path to the PEM file (`pem_file_path`), the desired secret name (`secret_name`), and a description for the secret (`secret_description`). We then call the `store_pem_file_in_secrets_manager()` function with these arguments.
+
+Make sure to replace `/path/to/your/pem/file.pem` with the actual path to your PEM file on your local machine.
+
+Note: Ensure that you have the necessary permissions to create secrets in AWS Secrets Manager. You may need to configure the appropriate IAM permissions for your AWS account or the IAM user/role associated with your boto3 session.
+
+After storing the PEM file in AWS Secrets Manager, you can retrieve the secret value whenever needed using the `get_secret_value()` method of the Secrets Manager client.

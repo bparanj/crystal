@@ -7,7 +7,6 @@
 - Create IAM user and download the credentials as CSV file.
 
 
-
 python3 --version
 Python 3.12.1
 
@@ -22,7 +21,6 @@ pip 24.0 from /opt/homebrew/lib/python3.12/site-packages/pip (python 3.12)
 
 $ aws --version
 aws-cli/2.15.28 Python/3.11.8 Darwin/23.1.0 exe/x86_64 prompt/off
-
 
 $ aws configure
 AWS Access Key ID [****************NJU7]: AKIAsomething
