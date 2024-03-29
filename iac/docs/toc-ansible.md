@@ -27,3 +27,4 @@
 - [VPC](./docs/ansible/vpc.md)
 - [Wait Until](./docs/ansible/wait-until.md)
 - [Host Key Checking](./docs/ansible/host-key-check.md)
+- [Ansible Vault](./docs/ansible/ansible-vault.md)
