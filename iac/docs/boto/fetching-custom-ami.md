@@ -194,3 +194,60 @@ By running this code, you will retrieve the ID of the most recently created AMI 
 Make sure to replace `'my-custom-ami-*'` with the actual name pattern of your custom AMIs.
 
 Note: This code assumes that you have properly configured your AWS credentials and have the necessary permissions to describe images in your AWS account.
+
+To retrieve your custom AMI using the tag filter in boto3, you can use the `describe_images()` method of the EC2 client. Here's an example of how you can do it:
+
+```python
+import boto3
+
+def get_ami_by_tag(tag_name, tag_value):
+    ec2_client = boto3.client('ec2')
+    
+    response = ec2_client.describe_images(
+        Filters=[
+            {
+                'Name': 'tag:' + tag_name,
+                'Values': [tag_value]
+            }
+        ],
+        Owners=['self']  # Filter AMIs owned by you
+    )
+    
+    if 'Images' in response and len(response['Images']) > 0:
+        return response['Images'][0]['ImageId']
+    else:
+        return None
+
+# Example usage
+tag_name = 'Name'
+tag_value = 'MyCustomAMI'
+
+ami_id = get_ami_by_tag(tag_name, tag_value)
+
+if ami_id:
+    print(f"Found AMI with tag {tag_name}={tag_value}: {ami_id}")
+else:
+    print(f"No AMI found with tag {tag_name}={tag_value}")
+```
+
+In this example, we define a function `get_ami_by_tag()` that takes the tag name and tag value as parameters. Inside the function:
+
+1. We create an EC2 client using `boto3.client('ec2')`.
+
+2. We call the `describe_images()` method of the EC2 client, passing the following parameters:
+   - `Filters`: We specify the tag filter using the format `'tag:' + tag_name` for the `Name` field and provide the `tag_value` in the `Values` list.
+   - `Owners`: We set it to `['self']` to filter only the AMIs owned by your account.
+
+3. The `describe_images()` method returns a response containing a list of matching AMIs.
+
+4. We check if the `'Images'` key exists in the response and if it has at least one item. If so, we return the `ImageId` of the first matching AMI.
+
+5. If no matching AMI is found, we return `None`.
+
+In the example usage, we set the `tag_name` to `'Name'` and the `tag_value` to `'MyCustomAMI'`. We call the `get_ami_by_tag()` function with these values and store the returned AMI ID in the `ami_id` variable.
+
+Finally, we print a message indicating whether an AMI was found with the specified tag or not.
+
+Make sure to replace `'MyCustomAMI'` with the actual tag value you used for your custom AMI.
+
+Note: This code assumes that you have already configured your AWS credentials properly, either through environment variables, AWS configuration files, or IAM roles, as mentioned in the previous response.
