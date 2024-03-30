@@ -45,3 +45,7 @@
 - When do we need it?
 - What is egress rule?
 - When do we need it?
+
+Pending Claude
+
+How to make Ansible read the environment variables defined in a file so that the EC2 instance get the environment variables setup properly when the playbook is run

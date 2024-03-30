@@ -32,3 +32,4 @@
 - [SSH PEM File](./docs/ansible/ssh-pem-file.md)
 - [Sudo Access](./docs/ansible/sudo-access.md)
 - [Story Behind the Product](./docs/story.md)
+- [Environment Variables](./ansible/environment-variables.md)
