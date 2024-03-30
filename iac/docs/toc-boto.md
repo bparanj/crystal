@@ -17,3 +17,4 @@
 - [Naming Convention](./docs/boto/naming-convention.md)
 - [Idempotent Boto3](./docs/boto/idempotent.md)
 - [Launch EC2](./docs/boto/launch-ec2.md)
+- [Storing Configuration Values](./docs/boto/configuration.md)
