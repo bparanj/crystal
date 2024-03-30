@@ -193,7 +193,6 @@ resource "aws_instance" "rails_instance" {
   }
 }
 
-
 Note:
 
 The playbooks:
