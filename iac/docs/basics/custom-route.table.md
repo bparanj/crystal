@@ -37,3 +37,24 @@ This configuration ensures that instances in the public subnet can initiate conn
 - **NAT Devices for Private Subnets**: If you have private subnets, they will need a different route table configuration, typically including a route that directs internet-bound traffic from instances in private subnets to a NAT Gateway or NAT Instance in a public subnet.
 
 By carefully configuring your public subnet's route table and understanding its role within your VPC, you can effectively manage traffic flow and maintain a secure and efficient network architecture on AWS.
+
+Create a custom route table when you need to:
+
+1. Override the default routing behavior of the main route table for specific subnets.
+2. Implement different routing rules for subnets based on their purpose or security requirements.
+3. Control traffic flow between subnets or to external networks in a more granular way.
+
+Use custom route tables when subnets have distinct routing needs that differ from the default routing provided by the main route table.
+
+Custom route tables solve the problem of needing different routing rules for specific subnets within a VPC. They allow you to:
+
+1. Isolate subnets: Custom route tables enable you to control traffic flow between subnets, allowing you to isolate certain subnets from others based on security or functional requirements.
+
+2. Control external access: You can define specific routes in custom route tables to control how subnets connect to external networks, such as the internet or other VPCs, enabling you to limit or grant access as needed.
+
+3. Override default routing: Custom route tables let you override the default routing behavior of the main route table for selected subnets, providing flexibility in managing network traffic flow.
+
+4. Implement network segmentation: By associating subnets with different custom route tables, you can segment your VPC into smaller, logical networks with distinct routing policies, enhancing security and network organization.
+
+Custom route tables give you fine-grained control over the routing configuration of individual subnets, enabling you to tailor the network traffic flow to meet specific requirements and design a more secure and efficient VPC architecture.
+

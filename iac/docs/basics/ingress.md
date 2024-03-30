@@ -21,3 +21,19 @@ The word "ingress" comes from the Latin word "ingressus," which means "entering.
 In the specific context of AWS and networking, "ingress" is used as a noun to refer to the inbound traffic itself, and it can also be used as an adjective, such as "ingress rules," to describe the rules that govern the inbound traffic.
 
 So, to reiterate, "ingress" is a complete word on its own and not a shortened version of another term.
+
+An ingress rule in AWS defines the inbound traffic that is allowed to reach a resource, such as an EC2 instance or a security group. It specifies the source (IP address or security group), protocol (TCP, UDP, etc.), and port range for incoming traffic that should be permitted.
+
+You need an ingress rule when you want to:
+
+1. Allow inbound traffic to your resources (e.g., EC2 instances) from specific sources.
+2. Control access to your resources by specifying the allowed protocols and ports.
+3. Enable communication between resources within a VPC or from external networks.
+
+Ingress rules are typically used to:
+- Permit incoming SSH or RDP access for remote management.
+- Allow web traffic (HTTP/HTTPS) to reach your application servers.
+- Enable communication between different components of your application architecture.
+
+Without ingress rules, no inbound traffic can reach your resources by default, ensuring a secure configuration. You add ingress rules to selectively allow the necessary inbound access while keeping unwanted traffic restricted.
+

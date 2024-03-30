@@ -15,3 +15,5 @@
 - [Create Rails EC2 Instance](./docs/boto/rails-ec2-instance.md)
 - [Store PEM File in Secrets Manager](./docs/boto/store-secrets.md)
 - [Naming Convention](./docs/boto/naming-convention.md)
+- [Idempotent Boto3](./docs/boto/idempotent.md)
+- [Launch EC2](./docs/boto/launch-ec2.md)
