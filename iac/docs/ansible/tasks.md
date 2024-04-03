@@ -37,6 +37,8 @@ playbook_file   = "../ansible/playbooks/master_playbook.yml"
 - Review docs/boto/tag-ami.md
 - Review and extract action items from Boto3 equivalent of post-processor in Packer /docs/boto/post-processor.md
 
+IP with no ads: https://checkip.amazonaws.com/
+
 ## Done
 
 - Establish SSH connection from Ansible control node to EC2 instance. 	
