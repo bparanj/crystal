@@ -13,14 +13,13 @@
 
 - [Complete Scenario](https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/ec2/scenario_get_started_instances.py)
 
-https://rick-hightower.blogspot.com/2017/03/setting-up-ansible-ssh-to-configure-aws.html
-
-https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/custom-ami.md
-https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/ec2.md
-https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/one-box.md
-https://github.com/Apress/practicle-ansible/blob/main/code/ch6_2_roles_splunk_server_tasks_main.yml
-https://docs.aws.amazon.com/code-library/latest/ug/python_3_ec2_code_examples.html
-https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/iam/user_wrapper.py
+- https://rick-hightower.blogspot.com/2017/03/setting-up-ansible-ssh-to-configure-aws.html
+- https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/custom-ami.md
+- https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/ec2.md
+- https://github.com/bparanj/learning-nuxt/blob/main/iac/docs/ansible/one-box.md
+- https://github.com/Apress/practicle-ansible/blob/main/code/ch6_2_roles_splunk_server_tasks_main.yml
+- https://docs.aws.amazon.com/code-library/latest/ug/python_3_ec2_code_examples.html
+- https://github.com/awsdocs/aws-doc-sdk-examples/blob/main/python/example_code/iam/user_wrapper.py
 
 
 ## Packer Template to Boto3 Tasks
