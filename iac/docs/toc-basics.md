@@ -96,3 +96,4 @@
 - [NACL](./docs/basics/nacl.md)
 - [Packer High Level Tasks](./docs/basics/packer.md)
 - [AWS Region](./docs/basics/region.md)
+- [Flipped Interaction](./docs/basics/flipped-interaction.md)
