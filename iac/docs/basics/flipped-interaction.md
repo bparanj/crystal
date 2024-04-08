@@ -370,3 +370,33 @@ Once you have created the IAM user and obtained the access key ID and secret acc
 10. Finally, you can use the created custom AMI to launch new EC2 instances with the same customized configuration.
 
 Does this high-level overview help you understand the steps involved in automating the process of creating a custom AMI using boto3? Let me know if you have any further questions!
+The high-level tasks you have listed cover the main steps involved in creating a custom AMI from a base Ubuntu 22.04 image using Ansible and boto3. However, there are a couple of additional steps that you might want to consider:
+
+1. Launch an EC2 instance:
+   - After creating the key pair and before running the Ansible master playbook, you need to launch an EC2 instance using the base Ubuntu 22.04 AMI.
+   - This step should include specifying the instance type, key pair, security group, and any other necessary configurations.
+
+2. Wait for the EC2 instance to be ready:
+   - After launching the EC2 instance, you should wait for it to be in a ready state before proceeding with the Ansible playbook execution.
+   - This step ensures that the instance is fully initialized and accessible via SSH.
+
+3. Clean up the custom AMI (optional):
+   - After creating the custom AMI, you may want to consider cleaning up any temporary files or configurations that were used during the customization process.
+   - This step helps to ensure that the custom AMI is clean and contains only the necessary components.
+
+Here's the updated list of high-level tasks:
+
+1. Select the base image: Ubuntu 22.04
+2. Create an IAM user with EC2, S3, and Secrets Manager access
+3. Download AWS credentials
+4. Configure boto3 with AWS credentials
+5. Verify boto3 configuration
+6. Create a key pair
+7. Launch an EC2 instance using the base Ubuntu 22.04 AMI
+8. Wait for the EC2 instance to be ready
+9. Run the Ansible master playbook on the EC2 instance
+10. Create the custom AMI from the EC2 instance using boto3
+11. Clean up the custom AMI (optional)
+12. Terminate the temporary EC2 instance used for customization
+
+These tasks provide a comprehensive overview of the process involved in creating a custom AMI using Ansible and boto3. Let me know if you have any further questions or if you need assistance with any specific step!
