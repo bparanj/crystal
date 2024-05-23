@@ -24,6 +24,7 @@ Overthewire Bandits and Natas
 
 Exploit.education Nebula
 
+Setting up Kali: page 17 The Hacker Playbook Practical Guide to Penetration Testing (convert these steps to Ansible playbook)
 
 Port Swigger Academy
 https://portswigger.net/web-security/learning-paths
