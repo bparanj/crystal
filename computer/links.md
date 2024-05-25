@@ -9,3 +9,5 @@ https://www.youtube.com/@empoweredpc/videos
 https://cellbotics.com/computer-repair-course/
 
 https://www.professormesser.com/
+
+
