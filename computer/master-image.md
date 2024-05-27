@@ -375,3 +375,77 @@ By leveraging Ansible playbooks to automate the installation of penetration test
 This approach saves time and effort compared to manually installing the tools on each laptop and ensures that all the laptops have the same set of tools and configurations.
 
 Test the deployment process thoroughly and have a plan in place for managing updates, patches, and ongoing maintenance of the deployed laptops.
+
+If you want to have a single boot solution, meaning you only want to install either Kali Linux or Windows 10 on the laptops depending on customer preference, you can follow this streamlined process to prepare and deploy the laptops efficiently.
+
+### Step-by-Step Guide
+
+### Step 1: Install Each Operating System on Separate Drives
+
+1. **Install Windows 10 on One Laptop**:
+   - **Prepare Installation Media**: Use a tool like Rufus to create a bootable USB drive with the Windows 10 ISO.
+   - **Install Windows 10**: Boot from the USB drive and follow the installation instructions. Once installed, set up the system as you normally would.
+   - **Create a Master Image**: Use a tool like Clonezilla to create an image of the Windows 10 installation.
+
+2. **Install Kali Linux on Another Laptop**:
+   - **Prepare Installation Media**: Create a bootable USB drive with the Kali Linux ISO.
+   - **Install Kali Linux**: Boot from the USB drive and follow the installation instructions. Configure the system as needed.
+   - **Create a Master Image**: Use Clonezilla to create an image of the Kali Linux installation.
+
+### Step 2: Deploy the Master Images to Other Laptops
+
+1. **Prepare the Target Laptops**:
+   - Ensure each laptop is set to boot from a USB drive.
+
+2. **Deploy Windows 10 Image**:
+   - Boot the target laptop from the Clonezilla USB drive.
+   - Select "device-image" mode to restore the Windows 10 image from the external storage.
+   - Follow the prompts to restore the image to the target laptop’s hard drive.
+
+3. **Deploy Kali Linux Image**:
+   - Boot the target laptop from the Clonezilla USB drive.
+   - Select "device-image" mode to restore the Kali Linux image from the external storage.
+   - Follow the prompts to restore the image to the target laptop’s hard drive.
+
+### Step 3: Customize Each Laptop Post-Deployment
+
+1. **Change Hostname and User Details**:
+   - For Windows:
+     - Go to **Settings > System > About** and click **Rename this PC** to change the hostname.
+   - For Kali Linux:
+     - Change the hostname using the following commands:
+       ```sh
+       sudo hostnamectl set-hostname new-hostname
+       sudo nano /etc/hostname
+       sudo nano /etc/hosts
+       ```
+     - Update user details if necessary.
+
+2. **Install Additional Drivers and Updates**:
+   - Ensure all drivers are up to date and install any necessary updates for both operating systems.
+
+### Step 4: Prepare for Sale
+
+1. **Clean the System**:
+   - Remove any personal or test data.
+   - Run a disk cleanup and defragment (for Windows) or use tools like `bleachbit` (for Kali Linux) to clean up the system.
+
+2. **Document Configuration and Provide Instructions**:
+   - Include documentation for each laptop, specifying its installed OS, specifications, and basic usage instructions.
+   - Provide a brief guide on how to set up the laptop upon first use.
+
+### Step 5: Final Checks and Shipping
+
+1. **Perform a Final Test**:
+   - Boot each laptop to ensure it operates correctly and the OS is functioning as expected.
+   
+2. **Package Securely**:
+   - Package each laptop securely for shipping, including any accessories and documentation.
+
+### References
+
+- **Clonezilla**: [Clonezilla Documentation](https://clonezilla.org/clonezilla-live-doc.php)
+- **Kali Linux Installation**: [Kali Linux Documentation](https://www.kali.org/docs/)
+- **Windows 10 Installation**: [Microsoft Windows 10 Download](https://www.microsoft.com/en-us/software-download/windows10)
+
+By following these steps, you can efficiently prepare and deploy single-boot installations of either Kali Linux or Windows 10, ensuring that each laptop meets the specific requirements of your customers. This approach saves time and ensures consistency across all units.
