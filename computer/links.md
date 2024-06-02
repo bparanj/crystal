@@ -10,8 +10,25 @@ https://cellbotics.com/computer-repair-course/
 
 https://www.professormesser.com/
 
+https://shopgoodwill.com/
+https://www.reddit.com/r/hardwareswap/
+https://www.gsaauctions.gov/
+
+Pricing:
+
+https://www.bestbuy.com/site/services/computer-tablet-services/pcmcat138100050019.c?id=pcmcat138100050019
+https://knowledgebar.microcenter.com/marietta-ga/pc-laptop-repair/
+https://www.ubreakifix.com/repairs
+
+
+Good model to follow: https://sorinelectronics.com/our-services/
+
+PC Test Kit
+https://www.passmark.com/products/pc-test-kit/index.php
+
 Training
 https://cellbotics.com/
+https://www.youtube.com/@electronicsrepairschool
 
 
 Not found
