@@ -166,3 +166,41 @@ By following these steps, you can create a benchmark that provides valuable info
 Be honest, accurate, and transparent in your benchmarking process and product listings. Provide disclaimers and clarifications where necessary to ensure that buyers have a clear understanding of the laptop's performance and any limitations or considerations.
 
 Seek feedback from buyers and continuously refine your benchmarking methodology based on their experiences and expectations to ensure that your product listings remain relevant and informative.
+
+GRUB Issue:
+
+    1  sudo mount /dev/nvme0n1p1 /boot/efi
+    2  free -h
+    3  free -m
+    4  free -g
+    5  sudo grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=ubuntu
+    6  sudo update-grub
+    7  sudo reboot
+    8  free -g
+    9  lsb_release -a
+
+Benchmark Commands
+
+   14  sudo dmidecode -t memory
+   15  sudo lshw -class memory
+   16  sudo lshw -short > system_info.txt
+
+   18  cat system_info.txt
+   19  lsblk > storage_info.txt
+   20  cat storage_info.txt 
+   21  lscpu > cpu_info.txt
+   22  cat cpu_info.txt
+   23  free -h > memory_info.txt
+   24  cat memory_info.txt
+   25  sudo apt-get update
+   26  sudo apt-get install sysbench
+
+   28  sysbench --test=cpu --cpu-max-prime=20000 run > cpu_benchmark.txt
+   29  cat cpu_benchmark.txt
+   30  sysbench --test=memory run > memory_benchmark.txt
+   31  cat memory_benchmark.txt
+   32  sysbench --test=fileio --file-total-size=10G prepare
+   33  sysbench --test=fileio --file-total-size=10G --file-test-mode=rndrw --max-time=300 --max-requests=0 run > io_benchmark.txt
+   34  cat io_benchmark.txt
+   35  sysbench --test=fileio --file-total-size=10G cleanup
+
