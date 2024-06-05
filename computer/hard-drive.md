@@ -1,3 +1,10 @@
+SSD Drive
+
+$ lsblk -o NAME,ROTA  
+
+If the ROTA has 0, it is SSD.
+
+
 To check if your used ThinkPad Lenovo laptop has a hard drive, you can follow these steps:
 
 ### Method 1: Using BIOS/UEFI

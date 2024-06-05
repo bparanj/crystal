@@ -204,3 +204,43 @@ Benchmark Commands
    34  cat io_benchmark.txt
    35  sysbench --test=fileio --file-total-size=10G cleanup
 
+The `--test` flag in `sysbench` has been deprecated in favor of a new syntax that makes it easier to specify the test you want to run. Here's a quick guide on how to use the new syntax:
+
+### Old Syntax:
+```bash
+sysbench --test=cpu run
+```
+
+### New Syntax:
+```bash
+sysbench cpu run
+```
+
+### Example for CPU Benchmark:
+- **Old way:** 
+    ```bash
+    sysbench --test=cpu --cpu-max-prime=20000 run
+    ```
+- **New way:** 
+    ```bash
+    sysbench cpu --cpu-max-prime=20000 run
+    ```
+
+### Example for File I/O Benchmark:
+- **Old way:** 
+    ```bash
+    sysbench --test=fileio --file-total-size=1G prepare
+    sysbench --test=fileio --file-total-size=1G --file-test-mode=rndrw run
+    sysbench --test=fileio --file-total-size=1G cleanup
+    ```
+- **New way:** 
+    ```bash
+    sysbench fileio --file-total-size=1G prepare
+    sysbench fileio --file-total-size=1G --file-test-mode=rndrw run
+    sysbench fileio --file-total-size=1G cleanup
+    ```
+
+### Key Takeaways:
+1. Replace `--test=xxx` with the test name directly after `sysbench`.
+2. The rest of the parameters remain the same.
+3. This change simplifies the command syntax and improves readability.
