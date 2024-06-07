@@ -1,0 +1,1 @@
+A power supply tester is an inexpensive tool, costing around ten dollars, that quickly diagnoses power issues by indicating with green for good and red or yellow for bad, simply by plugging in the motherboard's power cable.
