@@ -1,5 +1,7 @@
 When I power up the Lenovo laptop, it is beeping, the screen is not turning on.
 
+https://www.thinkwiki.org/wiki/Error_Codes_and_Beep_Codes
+
 When your Lenovo laptop beeps during startup and the screen doesn't turn on, it's usually indicating a hardware issue. The beeps are a form of error code that can help diagnose the problem. Here are steps to troubleshoot and potentially resolve the issue:
 
 ### 1. Count the Beeps
