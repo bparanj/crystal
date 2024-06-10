@@ -7,6 +7,12 @@ If the ROTA has 0, it is SSD.
 
 To check if your used ThinkPad Lenovo laptop has a hard drive, you can follow these steps:
 
+Without model/model#, you can press power and then before Lenovo logo pops up press and hold f2 or esc. This will bring up main bios page. A hard drive will be listed if installed. You could also press power button then f12 and this will bring up boot menu, again a hard drive will be listed if installed. The non tech way is to remove screws from bottom case, remove bottom cover and visually inspect inners.
+
+If you power each laptop and let it sit, you should get one of two error messages on the screen. No bootable device found, which means no valid storage device is present (no HDD or SSD).. or Missing Operating System, which means the BIOS found a storage device, but no OS was present on it.
+
+This is aside from all the other methods you can use to determine if a storage device is present.
+
 ### Method 1: Using BIOS/UEFI
 1. **Restart the Laptop**: Start by restarting your laptop.
 2. **Enter BIOS/UEFI**: During the boot process, press the appropriate key to enter the BIOS/UEFI settings. Common keys include `F1`, `F2`, `F10`, `DEL`, or `ESC`. The specific key should be displayed briefly during the boot-up screen.
