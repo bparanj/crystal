@@ -1,3 +1,5 @@
+Remove EFI lock on Mac: https://www.youtube.com/watch?v=cEDP0tNxi_U
+
 Lenovo troubleshooting https://www.youtube.com/@LenovoSupport/videos
 
 Parts Removal and Replacement https://support.lenovo.com/us/en/solutions/HT505031
