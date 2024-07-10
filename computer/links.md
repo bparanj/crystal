@@ -2,6 +2,8 @@ https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-seri
 https://www.youtube.com/watch?v=Z1v9zKVpnII
 https://www.amazon.com/Gerber-Lite-Pocket-Knife-31-000345/dp/B002RILCLY?crid=undefined&th=1
 
+https://education.ipc.org/product/soldering-electronics-assembly-introduction?referrer=/products%3Fsearch%3DElectronics%26sort_bef_combine%3Dtitle_ASC
+
 Remove EFI lock on Mac: https://www.youtube.com/watch?v=cEDP0tNxi_U
 
 Lenovo troubleshooting https://www.youtube.com/@LenovoSupport/videos
