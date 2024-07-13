@@ -1,3 +1,5 @@
+https://www.youtube.com/@RDKLInc/videos
+
 https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x390/solutions/ht063051
 https://www.youtube.com/watch?v=Z1v9zKVpnII
 https://www.amazon.com/Gerber-Lite-Pocket-Knife-31-000345/dp/B002RILCLY?crid=undefined&th=1
