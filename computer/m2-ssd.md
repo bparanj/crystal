@@ -47,3 +47,7 @@ The term "M.2" in M.2 SSD stands for the M.2 standard, which is a specification 
 3. **Versatility**: M.2 SSDs can support multiple protocols (SATA, PCIe, NVMe) and offer various performance levels. This versatility is one reason for the adoption of the M.2 form factor.
 
 In summary, "M.2" signifies the standard and form factor of the SSD, indicating its size, connector type, and versatility in supporting different interfaces.
+
+The term "M.2" in M.2 SSDs refers to the form factor of the drive. Originally, M.2 was known as the Next Generation Form Factor (NGFF), but it was later renamed to M.2. This form factor was designed to replace the older mSATA standard and is used to make better use of space, especially in small devices like laptops and ultrabooks⁶.
+
+M.2 drives are known for their compact size and high performance, making them popular for modern computing devices⁴. They can support both SATA and NVMe protocols, allowing for versatile and high-speed data transfer capabilities.
