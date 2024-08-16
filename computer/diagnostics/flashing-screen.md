@@ -1,4 +1,4 @@
-A flashing laptop screen that becomes dark periodically can be frustrating. Here's how to approach this issue:
+How to approach a flashing laptop screen that becomes dark periodically:
 
 Potential causes:
 
