@@ -1,4 +1,4 @@
-Arduino and Raspberry Pi are both popular platforms for electronics projects, but they serve different purposes and have distinct differences. Here’s a detailed comparison:
+Arduino and Raspberry Pi are both popular platforms for electronics projects, but they serve different purposes and have distinct differences. Here’s a comparison:
 
 ### 1. **Purpose and Use Cases**
 - **Arduino**:
