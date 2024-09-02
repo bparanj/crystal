@@ -76,5 +76,3 @@ A non-linear element's output is not directly proportional to its input, often d
 8. Advantages:
 - Enable important functions in electronics (e.g., rectification, amplification)
 - Can be used to create specific non-linear responses in circuits
-
-Would you like me to expand on any particular aspect of non-linear elements or their applications?

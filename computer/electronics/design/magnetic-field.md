@@ -1,4 +1,4 @@
-Here's a straightforward experiment to visualize magnetic fields using common materials:
+Here's an experiment to visualize magnetic fields using common materials:
 
 ### Experiment: Visualizing Magnetic Fields with Iron Filings
 
@@ -17,4 +17,4 @@ Here's a straightforward experiment to visualize magnetic fields using common ma
 4. **Observe the Pattern**: Watch as the iron filings align themselves along the magnetic field lines, forming a pattern that shows the direction and shape of the magnetic field.
 5. **Use a Compass (Optional)**: Move a compass around the magnet to see how the needle aligns with the magnetic field lines.
 
-**Explanation**: The iron filings act as tiny magnets and align themselves along the magnetic field lines created by the bar magnet. This visually demonstrates the magnetic field, showing how it extends from the north pole to the south pole of the magnet⁴⁵.
+**Explanation**: The iron filings act as tiny magnets and align themselves along the magnetic field lines created by the bar magnet. This visually demonstrates the magnetic field, showing how it extends from the north pole to the south pole of the magnet.

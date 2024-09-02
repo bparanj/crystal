@@ -111,5 +111,3 @@ Explanation:
 This experiment demonstrates Faraday's law of induction. The changing magnetic field (caused by the motion of the magnet) induces an electromotive force (EMF) in the coil. This EMF creates a current in the circuit, which is detected by the galvanometer or powers the LED. The magnitude of the induced EMF depends on the rate of change of the magnetic field, which is why faster movement produces a stronger effect.
 
 This simple setup illustrates the basic principle behind electrical generators, where mechanical energy is converted into electrical energy through magnetic induction.
-
-

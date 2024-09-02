@@ -1,3 +1,13 @@
+All of these are applicable types of data stored in RAM when a system is in use:
+
+1. **Operating System Kernel:** The core part of the operating system, including essential drivers and system services, is loaded into RAM to enable quick access and manage hardware resources effectively.
+
+2. **In-Use Data:** Any data actively being processed or used by the system, such as open files, documents, and temporary data, is stored in RAM for fast access and manipulation.
+
+3. **Active Programs:** Applications and programs that are currently running (like web browsers, email clients, and games) are loaded into RAM to ensure they operate efficiently and respond quickly to user actions.
+
+These elements are all loaded into RAM to ensure the system can operate smoothly and efficiently.
+
 A person adds a second 8-GB 288-pin DIMM to his PC, which should bring the total RAM in the system up to 16 GB. The PC has an Intel Core i7 4-GHz processor and 4 288-pin DIMM slots on the motherboard. When he turns on the PC, only 8 GB of RAM shows up in Windows Settings. What is the most likely to be the problem?
 
 When a person adds a second 8-GB 288-pin DIMM to their PC but only 8 GB of RAM is recognized by Windows, there are several potential causes for this issue. Here are the most likely ones:

@@ -120,9 +120,7 @@ This LED circuit is a great next step for beginners because it introduces severa
 This simple yet slightly more complex circuit builds on the foundation of the basic resistor circuit and sets the stage for learning more about other electronic components and circuit designs.
 
 
-
-
-Excellent questions! Let's dive into how to calculate the resistor value and discuss appropriate battery voltage for our basic circuit.
+Let's dive into how to calculate the resistor value and discuss appropriate battery voltage for our basic circuit.
 
 To calculate the resistor value, we use Ohm's Law: V = I * R, where V is voltage, I is current, and R is resistance. We'll rearrange this to R = V / I to find our resistor value.
 
@@ -133,8 +131,6 @@ For a typical beginner's circuit, let's consider these parameters:
 2. Desired current: For a simple LED circuit, we typically aim for around 20mA (0.02A) current. This is suitable for most standard LEDs.
 
 Now, let's calculate:
-
-
 
 1. First, we need to account for the LED's voltage drop. A typical red LED has a forward voltage of about 2V.
 
@@ -166,8 +162,6 @@ For our basic LED circuit, any of these voltages would work, but we'd need to re
 
 - For 3V: R = (3V - 2V) / 0.02A = 50 ohms (use a standard 47 ohm resistor)
 - For 5V: R = (5V - 2V) / 0.02A = 150 ohms
-
-
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 250">

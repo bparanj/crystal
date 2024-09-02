@@ -14,7 +14,7 @@
 ### 5. **To a Colleague (Expert Engineer):**
    - **What it is**: Reactance, as the frequency-dependent component of impedance, plays a pivotal role in the dynamic response of AC circuits. For inductors, the reactance \(X_L = \omega L\) signifies the opposition to changes in current, inducing a lagging phase relationship between current and voltage. Conversely, capacitive reactance \(X_C = \frac{1}{\omega C}\) indicates the opposition to changes in voltage, with a leading current. In complex impedance analysis, reactance is represented as the imaginary part \(jX\) in the phasor domain, where \(X = X_L - X_C\). The interplay between inductive and capacitive reactance is fundamental in designing resonant circuits, filters, and reactive power management in power systems. The correct balancing of reactance is essential for achieving desired impedance matching and minimizing signal reflections in high-frequency transmission lines.
 
-Here’s a simple experiment to illustrate the concept of **reactance**:
+A simple experiment to illustrate the concept of **reactance**:
 
 ### Objective:
 To demonstrate how reactance in an inductor or capacitor affects the flow of alternating current (AC) in a circuit.

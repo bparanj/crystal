@@ -1,4 +1,4 @@
-Here's a simple experiment to illustrate the concept of an electric field using common materials:
+A simple experiment to illustrate the concept of an electric field using common materials:
 
 ### Experiment: Visualizing Electric Fields with a Van de Graaff Generator
 
@@ -23,4 +23,4 @@ Here's a simple experiment to illustrate the concept of an electric field using 
 ### Safety Note
 Be cautious when using the Van de Graaff generator, as it can produce high voltages. Ensure proper grounding and avoid direct contact with the charged sphere.
 
-This experiment provides a clear visual representation of electric fields and helps in understanding how they influence charged particles¹².
+This experiment provides a clear visual representation of electric fields and helps in understanding how they influence charged particles.

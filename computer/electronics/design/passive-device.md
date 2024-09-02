@@ -57,8 +57,6 @@ Understanding these concepts is crucial for advanced circuit design, especially 
 
 5. Explaining to a Colleague (Expert Level):
 
-
-
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
   <!-- Input -->
@@ -158,7 +156,7 @@ A **passive device** in electronics is a component that does not require an exte
 ### Summary:
 A passive device in electronics is a component that does not require external power to operate and does not amplify or generate energy. Instead, passive devices control, store, or dissipate energy already present in the circuit. Common examples include resistors, capacitors, inductors, transformers, and diodes in certain contexts. These components are essential for shaping and managing electrical signals in circuits.
 
-You're correct. While passive devices themselves do not require an external power source to operate, they do need to be part of a circuit that has a power supply in order for them to perform their functions. Here's a clearer explanation:
+While passive devices themselves do not require an external power source to operate, they do need to be part of a circuit that has a power supply in order for them to perform their functions. Here's a clearer explanation:
 
 ### Passive Devices in a Powered Circuit:
 

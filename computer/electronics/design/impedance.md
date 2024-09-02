@@ -14,7 +14,7 @@ Impedance in an AC circuit is the total opposition to current flow, combining bo
 ### 5. **To a Colleague (Expert Engineer):**
 Impedance \(Z\) in AC circuit theory encapsulates the complex interaction between resistance, inductance, and capacitance. It is defined in the frequency domain as \(Z(\omega) = R + j\left(\omega L - \frac{1}{\omega C}\right)\), where \(\omega\) is the angular frequency. The frequency-dependent nature of impedance directly impacts the design and analysis of filters, transmission lines, and matching networks. In resonant circuits, the interplay between inductive and capacitive reactance leads to conditions of minimum or maximum impedance, which are critical for maximizing power transfer or achieving desired bandwidth characteristics. Impedance matching, governed by the principles of maximum power transfer, ensures efficient signal transmission and minimal reflection in high-frequency applications.
 
-Here’s a simple experiment to illustrate the concept of **impedance**:
+A simple experiment to illustrate the concept of **impedance**:
 
 ### Objective:
 To demonstrate how impedance affects the flow of alternating current (AC) in a circuit containing resistive and reactive components (inductors or capacitors).

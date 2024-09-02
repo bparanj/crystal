@@ -25,7 +25,7 @@ This progression illustrates how the concept of a solid-state device can be tail
 
 ## Level 1: Explanation for a Child
 
-Hey there! Have you ever seen a toy that lights up or makes sounds? Inside those toys are tiny things called solid state devices. They're like magic boxes that can control electricity. They don't have any moving parts, but they can make lights turn on and off, or help your tablet show pictures and play games. They're called "solid state" because they're made of solid materials, unlike old radios that had special glass tubes in them.
+Have you ever seen a toy that lights up or makes sounds? Inside those toys are tiny things called solid state devices. They're like magic boxes that can control electricity. They don't have any moving parts, but they can make lights turn on and off, or help your tablet show pictures and play games. They're called "solid state" because they're made of solid materials, unlike old radios that had special glass tubes in them.
 
 ## Level 2: Explanation for a Teenager
 
@@ -184,5 +184,3 @@ The term "solid state" refers to the physical state of the materials used in the
 5. Consistency: The solid nature of these devices contributes to their reliability, durability, and compact size. They maintain their properties and function consistently under normal conditions.
 
 This terminology emphasizes the fundamental difference in the physical nature of these devices compared to earlier electronic components, highlighting the technological leap they represented in the field of electronics.
-
-Would you like more information about how the solid nature of these devices influences their performance or design?

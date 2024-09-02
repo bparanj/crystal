@@ -102,7 +102,7 @@ To determine the safe current range for a green LED, you should follow these ste
    - If the LED will be in a hot environment, use lower currents to prevent overheating.
    - For pulsed operation, you might be able to use slightly higher peak currents.
 
-Remember, exceeding the maximum current even briefly can damage or destroy the LED. It's always better to err on the side of caution and use a current-limiting resistor to protect the LED.
+Exceeding the maximum current even briefly can damage or destroy the LED. It's always better to err on the side of caution and use a current-limiting resistor to protect the LED.
 
 
 A simple circuit with only a power supply and a resistor can still serve useful functions. 

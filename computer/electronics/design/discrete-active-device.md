@@ -44,8 +44,6 @@ Applications of discrete active devices:
 
 Discrete active devices are fundamental building blocks in many electronic circuits, enabling functions that passive components alone cannot achieve.
 
-Would you like me to elaborate on any specific type of active device or their applications?
-
 A **discrete active device** refers to an individual electronic component that can control the flow of electricity in a circuit and requires an external power source to operate. Unlike passive devices, which do not amplify signals, active devices can amplify, switch, or modify electrical signals.
 
 ### Key Characteristics of Discrete Active Devices:

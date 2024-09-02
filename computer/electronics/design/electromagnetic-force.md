@@ -1,4 +1,4 @@
-Here's a simple experiment to illustrate the electromagnetic force using basic materials:
+A simple experiment to illustrate the electromagnetic force using basic materials:
 
 ### Experiment: Creating an Electromagnet
 

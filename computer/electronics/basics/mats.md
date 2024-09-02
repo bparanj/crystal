@@ -94,7 +94,7 @@ Yes, you can use a resistivity meter (also known as a surface resistance meter o
    - **ESD Mat**: An ESD mat typically has a surface resistivity between \(10^6\) and \(10^{11}\) ohms per square (Ω/sq). If your measurement falls within this range, the mat is likely an ESD mat, designed to dissipate static electricity safely.
    - **Soldering Mat**: A soldering mat generally has a very high resistivity, often greater than \(10^{12}\) ohms per square (Ω/sq). If your measurement is significantly higher than \(10^{11}\) Ω/sq, it indicates that the mat is an insulator and not intended for ESD protection.
 
-### Important Points to Remember
+### Brief
 
 - **Surface Resistivity vs. Surface Resistance**: 
   - **Surface Resistivity**: Measures the resistance of a material's surface to the flow of electric current. This is expressed in ohms per square (Ω/sq) and is used for evaluating ESD materials.
@@ -114,7 +114,7 @@ Aside from using a resistivity meter, you can also identify mat types through ot
 
 By using a resistivity meter and understanding the resistance characteristics of the mat, you can accurately determine whether it is an ESD mat or a soldering mat.
 
-Here's a concise table to help you quickly check whether a mat is an ESD mat or a soldering mat using a resistivity meter:
+Here's a table to check whether a mat is an ESD mat or a soldering mat using a resistivity meter:
 
 | **Feature**                | **ESD Mat**                                     | **Soldering Mat**                               |
 |----------------------------|-------------------------------------------------|-------------------------------------------------|

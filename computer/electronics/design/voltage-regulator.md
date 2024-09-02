@@ -16,7 +16,7 @@ A voltage regulator operates by using feedback mechanisms to maintain a constant
 ### 5. **To a Colleague:**
 Voltage regulators are integral to power management in electronic systems, providing a stable output voltage crucial for reliable operation of sensitive circuitry. Linear regulators, characterized by their simplicity and low noise, utilize an error amplifier and pass transistor to maintain a regulated output but are inherently inefficient, particularly at high voltage differentials. Switching regulators, including buck, boost, and buck-boost configurations, leverage energy storage in inductors and capacitors to achieve high efficiency across a wide range of input conditions. Advanced designs may incorporate features such as synchronous rectification, spread spectrum modulation to reduce EMI, and adaptive feedback networks to optimize transient response. Thermal management and efficiency optimization remain critical, especially in high-current and high-density applications.
 
-Here’s a simple experiment to illustrate the concept of a **voltage regulator**:
+A simple experiment to illustrate the concept of a **voltage regulator**:
 
 ### Objective:
 To demonstrate how a voltage regulator maintains a constant output voltage even when the input voltage varies.

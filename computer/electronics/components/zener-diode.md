@@ -81,7 +81,7 @@ However, if you're looking for something more akin to Mermaid's simplicity and i
 2. Using general-purpose diagramming tools or libraries that can handle circuit symbols
 3. Specialized circuit design software (though these are usually more complex and not text-based)
 
-If you're interested in creating a simple circuit diagram, I could demonstrate how to do it using an SVG, which we could display here. While not as convenient as Mermaid for circuits, it would allow us to create a viewable diagram. Would you like me to create a simple circuit diagram as an example?
+If you're interested in creating a simple circuit diagram, I could demonstrate how to do it using an SVG, which we could display here. While not as convenient as Mermaid for circuits, it would allow us to create a viewable diagram.
 
 Yes, for drawing circuit diagrams, there's a widely-used standard called **schematic diagrams**. These are graphical representations of an electrical or electronic circuit. While not exactly like Mermaid diagrams, schematic diagrams serve the same purpose in the field of electronics as Mermaid does for flowcharts or other types of diagrams.
 

@@ -1,4 +1,3 @@
-**inductive coupling** explained at five different levels of complexity:
 
 ### 1. **To a Child:**
 Imagine you have two toy cars. If you push one car, and it’s connected to the other car with a string, the second car will move too, even though you only pushed the first one. Inductive coupling is like that, but instead of cars and strings, we use electricity and magnetic fields to make something happen without touching it directly.

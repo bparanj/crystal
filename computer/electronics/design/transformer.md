@@ -2,9 +2,9 @@ A **transformer** in electronics is a device that transfers electrical energy be
 
 A transformer solves the problem of **changing voltage levels** in AC power systems. It allows the efficient transmission of electrical power over long distances by stepping up the voltage to reduce energy loss and then stepping it down to safer, usable levels for homes and businesses. It also provides electrical isolation between circuits and helps in impedance matching for maximum power transfer in electronics.
 
-Correct. In a transformer, the circuits involved in AC signal transfer are **not physically connected by wires**. Instead, they are **connected through electromagnetic induction**. The primary winding creates a magnetic field when an AC current flows through it, and this magnetic field induces a voltage in the secondary winding. This allows energy to be transferred between the two circuits without direct electrical contact, providing electrical isolation while allowing the AC signal to be transferred.
+In a transformer, the circuits involved in AC signal transfer are **not physically connected by wires**. Instead, they are **connected through electromagnetic induction**. The primary winding creates a magnetic field when an AC current flows through it, and this magnetic field induces a voltage in the secondary winding. This allows energy to be transferred between the two circuits without direct electrical contact, providing electrical isolation while allowing the AC signal to be transferred.
 
-Here’s a simple experiment to illustrate the concept of a **transformer** and how it transfers energy between circuits without direct contact:
+A simple experiment to illustrate the concept of a **transformer** and how it transfers energy between circuits without direct contact:
 
 ### Objective:
 To demonstrate electromagnetic induction in a transformer, showing that electrical energy can be transferred between two circuits without direct connection.

@@ -70,5 +70,3 @@ They process and manipulate binary information (0s and 1s) using logic gates and
 - Truth tables and Boolean equations
 - Logic minimization
 - Circuit schematics and implementation
-
-Would you like me to elaborate on any specific aspect of digital circuits?

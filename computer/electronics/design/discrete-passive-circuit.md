@@ -101,4 +101,3 @@ A **discrete passive circuit** refers to an electronic circuit made up of indivi
 
 ### Summary:
 A discrete passive circuit is an electronic circuit composed of separate passive components like resistors, capacitors, and inductors. These circuits are used in various applications to control, store, and filter electrical energy without the need for external power. While they offer flexibility and ease of troubleshooting, they can be larger and more complex compared to integrated solutions.
-

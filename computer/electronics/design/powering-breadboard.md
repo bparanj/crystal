@@ -20,7 +20,7 @@ Using the power supply circuit from a Lenovo laptop to power a breadboard for el
 ### Summary:
 While it might be technically possible to use a laptop power supply for breadboard experiments, it is not recommended due to the risks of voltage and current mismatches, safety concerns, and the lack of flexibility in voltage regulation. It’s safer and more practical to use a regulated bench power supply, USB power, or battery packs designed for electronics experiments.
 
-I would strongly advise against using a laptop power supply circuit to power a breadboard for electronics experiments. Here's why:
+It is not recommended to use a laptop power supply circuit to power a breadboard for electronics experiments. Here's why:
 
 1. Safety risks: Laptop power supplies deal with high voltages and currents that can be dangerous if not properly handled. Modifying or repurposing these components increases the risk of electric shock or fire.
 
@@ -34,7 +34,7 @@ I would strongly advise against using a laptop power supply circuit to power a b
 
 6. Inconsistent power: Laptop power supplies are designed to meet the varying power needs of the laptop, which could lead to inconsistent power delivery to your experiments.
 
-Instead, I recommend using dedicated power supplies designed for electronics experimentation:
+I recommend using dedicated power supplies designed for electronics experimentation:
 
 1. Bench power supply: Provides adjustable, stable voltage and current with built-in safety features.
 

@@ -84,5 +84,3 @@ When electric current flows through a material with electrical resistance, some 
 - Using materials with lower resistance
 - Increasing conductor cross-sectional area
 - Improving heat dissipation (e.g., heat sinks, forced cooling)
-
-Would you like me to elaborate on any specific aspect of the thermal effect, such as its implications in circuit design or its applications in everyday devices?

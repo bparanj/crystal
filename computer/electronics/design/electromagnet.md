@@ -48,7 +48,6 @@ An **electromagnet** is directly related to the broader concept of **electromagn
 ### Summary:
 Electromagnets are specific devices that utilize the principles of electromagnetism to generate magnetic fields through the flow of electric current. The relationship between electromagnets and electromagnetism is foundational, with electromagnets serving as practical applications of electromagnetic laws, such as Ampère's Law and Faraday's Law. This connection illustrates how theoretical principles of electromagnetism are applied in real-world technologies, from electric motors to magnetic lifting devices.
 
-
 An electromagnet is a type of magnet that produces a magnetic field using electric current. Key points:
 
 1. Core: Usually made of ferromagnetic material like iron

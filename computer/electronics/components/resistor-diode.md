@@ -16,4 +16,4 @@ Here's a comparison table highlighting the key differences and similarities betw
 | **Types**                | Fixed, variable, thermistor, light-dependent resistor (LDR) | Standard diode, Zener diode, Schottky diode, LED, photodiode |
 | **Current-Voltage Characteristics Curve** | A straight line (Ohmic behavior) | A curve showing exponential increase in forward bias and near-zero current in reverse bias (until breakdown) |
 
-This table highlights the fundamental differences and similarities between resistors and diodes, providing a clear comparison of their characteristics and applications.
+This table highlights the fundamental differences and similarities between resistors and diodes, providing a comparison of their characteristics and applications.

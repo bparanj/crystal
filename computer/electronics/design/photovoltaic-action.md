@@ -31,7 +31,7 @@ No, a solar panel will not run out of electrons during the photovoltaic process.
 ### Summary:
 The photovoltaic process in a solar panel involves the movement of electrons, not their consumption. The electrons are part of a continuous loop within the circuit, so the solar panel will not run out of electrons. This ensures that the panel can continue to generate electricity as long as sunlight is available.
 
-Here’s a simple experiment to illustrate the concept of **photovoltaic action**:
+A simple experiment to illustrate the concept of **photovoltaic action**:
 
 ### Objective:
 To demonstrate how sunlight can be converted directly into electrical energy using a solar cell.
