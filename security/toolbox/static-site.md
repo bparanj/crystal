@@ -346,7 +346,7 @@ To use Bleve for full-text search in a Hugo static site that uses Markdown (md) 
    - Use JavaScript to make an HTTP request to the Go program's endpoint, passing the search query as a parameter.
    - Parse the JSON response and display the search results on your Hugo site.
 
-That's it! You have now set up Bleve for full-text search in your Hugo static site. When you generate your site using Hugo, it will create a JSON index file containing the content of your Markdown files. The Go program will then use Bleve to create a search index and perform searches based on user queries.
+You have now set up Bleve for full-text search in your Hugo static site. When you generate your site using Hugo, it will create a JSON index file containing the content of your Markdown files. The Go program will then use Bleve to create a search index and perform searches based on user queries.
 
 Customize the search functionality according to your specific requirements, such as handling user input, displaying search results, and styling the search interface.
 

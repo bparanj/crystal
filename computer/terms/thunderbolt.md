@@ -88,7 +88,7 @@ The existence of multiple interface standards like USB, FireWire, and Thunderbol
 6. Adoption time:
    - It takes time for new standards to be widely adopted, during which multiple standards coexist.
 
-That said, there has been a trend towards consolidation. USB has become increasingly versatile and is now the most common standard for many applications. Thunderbolt, which uses the USB-C connector, represents a step towards unification by supporting multiple protocols.
+There has been a trend towards consolidation. USB has become increasingly versatile and is now the most common standard for many applications. Thunderbolt, which uses the USB-C connector, represents a step towards unification by supporting multiple protocols.
 
 The industry is moving towards more universal standards, but it's a gradual process balancing innovation, compatibility, and diverse needs.
 

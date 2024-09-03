@@ -2,11 +2,11 @@ The data used in UEFI (Unified Extensible Firmware Interface) is primarily store
 
 Additionally, the UEFI firmware itself is typically stored on a **NOR-based EEPROM (Electrically Erasable Programmable Read-Only Memory)** chip on the motherboard³. This ensures that the firmware remains intact even when the computer is powered off.
 
-BIOS Password
+### BIOS Password
 
 The BIOS password is typically stored in the **CMOS (Complementary Metal-Oxide-Semiconductor) memory** on the motherboard¹². This memory is powered by a small battery, often referred to as the CMOS battery, which helps retain the BIOS settings, including the password, even when the computer is turned off.
 
-CMOS Battery
+### CMOS Battery
 
 When the CMOS battery is dead, the BIOS settings, including the BIOS password, are typically lost. Here’s what happens:
 

@@ -116,7 +116,7 @@ Yes, you can set up an Amazon EC2 instance running Windows to complement your Ka
 
 Follow security best practices and harden the Windows instance as much as possible to minimize the risk of being compromised during your testing activities. Regularly update the operating system, apply security patches, and monitor the instance for any suspicious activities.
 
-It's important to note that running a Windows instance on EC2 will incur costs based on the instance type, storage, and data transfer. Make sure to review the pricing details and set up appropriate billing alerts and limits to avoid unexpected charges.
+Running a Windows instance on EC2 will incur costs based on the instance type, storage, and data transfer. Make sure to review the pricing details and set up appropriate billing alerts and limits to avoid unexpected charges.
 
 To access your Windows EC2 instance from your laptop at home, you can use Remote Desktop Protocol (RDP). Here’s a step-by-step guide:
 
@@ -179,4 +179,4 @@ If you haven't already, you need to decrypt the password for the Windows Adminis
 - [Microsoft Remote Desktop for macOS](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 - [AWS Security Groups](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-network-security.html)
 
-By following these steps, you should be able to securely access your Windows EC2 instance from your laptop at home.
+By following these steps, you can securely access your Windows EC2 instance from your laptop at home.

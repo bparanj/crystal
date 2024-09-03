@@ -64,13 +64,13 @@ with open('laptop_details.csv', 'w', newline='') as csvfile:
 
     for serial in serial_numbers:
         driver.get("https://support.lenovo.com/")
-        
+
         # Find the serial number input box and enter the serial number
         search_box = driver.find_element(By.ID, "serial-number-search-box")
         search_box.clear()
         search_box.send_keys(serial)
         search_box.send_keys(Keys.RETURN)
-        
+
         time.sleep(5)  # Wait for the page to load
 
         # Extract details
@@ -78,7 +78,7 @@ with open('laptop_details.csv', 'w', newline='') as csvfile:
             model = driver.find_element(By.CSS_SELECTOR, "model_selector").text
             warranty_status = driver.find_element(By.CSS_SELECTOR, "warranty_selector").text
             specifications = driver.find_element(By.CSS_SELECTOR, "specifications_selector").text
-            
+
             writer.writerow({'Serial Number': serial, 'Model': model, 'Warranty Status': warranty_status, 'Specifications': specifications})
         except Exception as e:
             print(f"Error retrieving details for {serial}: {e}")
@@ -106,4 +106,4 @@ Yes, there are ways to scan the serial number on a laptop and extract the detail
 
 4. Asset management software: If you have a large number of laptops to manage, consider using asset management software that allows you to input and track serial numbers along with other relevant information about each device. Some software solutions also support barcode scanning or OCR to automate the data entry process.
 
-Regardless of the method you choose, it's important to double-check the accuracy of the captured serial numbers to avoid any errors in your documentation.
+Double-check the accuracy of the captured serial numbers to avoid any errors in your documentation.

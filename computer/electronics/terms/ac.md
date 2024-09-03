@@ -40,7 +40,7 @@ AC circuit analysis requires a deep understanding of the frequency-domain behavi
 Colleague:
 Alternating current is the foundation of modern power systems and a key aspect of many electronic applications. The design of AC systems requires a comprehensive understanding of the frequency-dependent behavior of components, the effects of parasitic elements, and the impact of non-linear loads. In high-frequency applications, such as wireless communication and radar, the propagation and coupling of AC signals become critical considerations. Advanced techniques like harmonic balance and envelope analysis are used to simulate and optimize AC circuits in the presence of nonlinearities and time-varying elements. In power electronics, the control and conversion of AC waveforms using semiconductor switches and pulse-width modulation techniques enable efficient and flexible power management. As the grid integrates more renewable energy sources and power electronic interfaces, the analysis and control of AC systems are becoming increasingly complex, requiring advanced tools like real-time simulation and hardware-in-the-loop testing to ensure stability and reliability.
 
-No, this is not correct. In an alternating current (AC) system, both the polarity of the voltage and the direction of the current periodically reverse. The electrons in the wire oscillate back and forth, changing direction many times per second, typically at a frequency of 50 or 60 Hz, depending on the country. 
+No, this is not correct. In an alternating current (AC) system, both the polarity of the voltage and the direction of the current periodically reverse. The electrons in the wire oscillate back and forth, changing direction many times per second, typically at a frequency of 50 or 60 Hz, depending on the country.
 
 The power supply company generates AC voltage, which causes the current to alternate in direction. This means that the electrons in the wire move forward and backward, but they don't actually travel from the power company to your house. Instead, the energy is transmitted through the wire by the oscillating motion of the electrons.
 
@@ -50,7 +50,7 @@ No, this is not correct. In alternating current (AC), both the polarity of the v
 
 In an alternating current (AC) system, even though the direction of the current flow reverses periodically, the direction of energy flow remains consistently from the power supply company to the home. This is due to the way power is transferred in AC systems, where energy is delivered to the load (your home) during each cycle, regardless of the current's instantaneous direction. The energy transfer can be understood through the concept of instantaneous power, which, despite the oscillating current, results in a net flow of energy in the direction of the load over time.
 
-Yes, that's correct. The actual work of energy transmission in an AC system is done by the electromagnetic field. Here’s a more detailed explanation:
+The actual work of energy transmission in an AC system is done by the electromagnetic field. Here’s a more detailed explanation:
 
 In an AC power system, energy is transmitted from the power supply to the load (such as a home) through the creation and propagation of electromagnetic fields around the conductors. These fields oscillate with the alternating current, but the overall effect is a net transfer of energy in one direction—from the power plant to the end user.
 

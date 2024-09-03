@@ -36,6 +36,3 @@ SANS Institute, eLearn Security, Pentester Academy, and PentesterLab offer onlin
 
 https://www.offsec.com/labs/
 
-
-
-

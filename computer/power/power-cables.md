@@ -64,7 +64,7 @@ To determine which power cable to use with a specific model of Lenovo laptop, fo
 
 By following these steps, you can ensure that you select the correct power cable for your Lenovo laptop model, maintaining the safety and functionality of your device.
 
-To ensure you are using the correct power cable for your Lenovo laptop model, you should check the following:
+To ensure you are using the correct power cable for your Lenovo laptop model, check the following:
 
 1. Voltage and Amperage: Look for the voltage (V) and amperage (A) ratings on your laptop and the power cable. These specifications must match to ensure safe and proper functioning.
 
@@ -149,4 +149,4 @@ If the laptops do not have any hard drives and you need to identify the model to
    - Boot the laptop from the USB drive.
    - Use the built-in tools to scan and display hardware information.
 
-By following these methods, you can identify the model and other necessary details of Lenovo laptops even if they lack hard drives. This information will help you determine the appropriate power adapters and prepare the laptops for sale.
+By following these methods, you can identify the model and other necessary details of Lenovo laptops even if they lack hard drives. This will help you determine the appropriate power adapters and prepare the laptops for sale.

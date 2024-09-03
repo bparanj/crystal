@@ -33,7 +33,7 @@ Thermal paste, also known as thermal compound, thermal grease, or thermal interf
 - [What is Thermal Paste and How Does It Work?](https://www.techspot.com/article/2007-thermal-paste/) (TechSpot)
 - [Applying Thermal Paste: What You Need to Know](https://www.pcworld.com/article/2932478/how-to-apply-thermal-paste.html) (PCWorld)
 
-Thermal paste is a critical component in ensuring efficient heat transfer between a CPU or GPU and its heat sink, thereby maintaining the performance and longevity of your computer's components.
+Thermal paste is used for heat transfer between a CPU or GPU and its heat sink, thereby maintaining the performance and longevity of your computer's components.
 
 Thermal paste, also known as thermal grease, thermal compound, or heat sink paste, is a thermally conductive material applied between a heat source (like a CPU or GPU) and a heat sink to enhance heat transfer and dissipation. Here's why thermal paste is needed and when to use it:
 
@@ -53,4 +53,4 @@ When to use thermal paste:
 
 4. High-performance computing: In demanding applications like gaming, overclocking, or running resource-intensive software, using high-quality thermal paste can help maintain optimal performance by preventing thermal throttling.
 
-It's important to note that applying the right amount of thermal paste is crucial. A pea-sized amount is usually sufficient, as excessive thermal paste can actually decrease heat transfer efficiency. Additionally, make sure to choose a high-quality thermal paste from a reputable manufacturer to ensure the best performance and longevity.
+Applying the right amount of thermal paste is crucial. A pea-sized amount is usually sufficient, as excessive thermal paste can actually decrease heat transfer efficiency. Make sure to choose a high-quality thermal paste from a reputable manufacturer to ensure the best performance and longevity.

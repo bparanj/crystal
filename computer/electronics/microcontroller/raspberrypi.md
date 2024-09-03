@@ -1,4 +1,4 @@
-The Raspberry Pi is a versatile single-board computer with a wide range of capabilities. Here are some of the key features and uses:
+The Raspberry Pi is a versatile single-board computer with a wide range of capabilities.
 
 ### Key Capabilities
 

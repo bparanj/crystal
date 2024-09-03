@@ -118,7 +118,7 @@ The "Cross-Site" aspect is a crucial characteristic of CSRF attacks, as it invol
 
 What is the same origin policy?
 
-The Same-Origin Policy (SOP) is a critical security mechanism implemented in web browsers to prevent malicious scripts on one web page from accessing data on another web page without permission. This policy restricts how a document or script loaded from one origin can interact with resources from another origin. 
+The Same-Origin Policy (SOP) is a critical security mechanism implemented in web browsers to prevent malicious scripts on one web page from accessing data on another web page without permission. This policy restricts how a document or script loaded from one origin can interact with resources from another origin.
 
 ### Definition of Origin
 An "origin" is defined by the combination of:
@@ -367,20 +367,20 @@ graph TD
     A[URL] --> B{Check Scheme, Domain, Port}
     B -->|Same| C[Same Origin]
     B -->|Different| D[Different Origins]
-    
+
     C --> E{Check Domain}
     E -->|Same| F[Same Site]
     E -->|Different| G[Different Sites]
-    
+
     D --> H{Check Domain}
     H -->|Same| I[Same Site]
     H -->|Different| J[Different Sites]
-    
+
     F --> K[Allowed Interactions]
     I --> L[Allowed Interactions]
     G --> M[Restricted Interactions]
     J --> N[Restricted Interactions]
-    
+
     K --> O[Same-Origin Policy Allows Access]
     L --> P[Same-Origin Policy Allows Access]
     M --> Q[Same-Origin Policy Restricts Access]
@@ -410,7 +410,7 @@ This flowchart illustrates the process of determining whether two URLs belong to
 
 This flowchart provides a visual representation of how the Same-Origin Policy applies to URLs based on their origin and site, and how it governs the allowed or restricted interactions between them.
 
-Note that the specific rules and exceptions of the Same-Origin Policy may vary slightly depending on the browser and the context in which it is applied. The flowchart aims to provide a general overview of the concept.
+The specific rules and exceptions of the Same-Origin Policy may vary slightly depending on the browser and the context in which it is applied. The flowchart aims to provide a general overview of the concept.
 
 Here is a table to illustrate the differences between a "site" and an "origin" in web security contexts:
 
@@ -446,7 +446,7 @@ Here is a table to illustrate the differences between a "site" and an "origin" i
 
 ### Security Implications:
 
-- **Same-Origin Policy (SOP)**: 
+- **Same-Origin Policy (SOP)**:
   - Enforces restrictions based on the origin to prevent scripts from one origin from accessing resources from another origin.
 - **Same-Site Cookie Policy**:
   - Allows cookies to be scoped to the site level, enabling sharing across subdomains while providing protection against cross-site request forgery (CSRF).
@@ -456,4 +456,4 @@ Here is a table to illustrate the differences between a "site" and an "origin" i
 - [MDN Web Docs: Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [Web.dev: SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
 
-This table and the examples should help clarify the differences between "site" and "origin" in web security contexts.
+This table and the examples clarify the differences between "site" and "origin" in web security contexts.

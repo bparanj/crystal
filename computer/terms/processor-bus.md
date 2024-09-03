@@ -49,4 +49,5 @@ A processor bus in a computer is a communication pathway used to transfer data a
 
 In modern computer architecture, traditional buses are often replaced or supplemented by high-speed serial interfaces like PCIe (Peripheral Component Interconnect Express), which offers greater bandwidth and efficiency.
 
-Understanding the processor bus is crucial for comprehending how different parts of a computer interact and work together to perform tasks.
+Understanding the processor bus is important for understanding how different parts of a computer interact and work together to perform tasks.
+

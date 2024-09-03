@@ -34,15 +34,15 @@ You can repeat these steps for each of the drives. This method is straightforwar
 To connect a SATA3 drive to your Ubuntu ThinkPad laptop, you'll need to use an external connection method since most laptops don’t have direct SATA ports. Here's how you can do it:
 
 ### 1. **Using a SATA-to-USB Adapter or Docking Station**
-   - **SATA-to-USB Adapter**: This is a simple cable that connects the SATA data and power connectors on your drive to a USB port on your laptop. 
+   - **SATA-to-USB Adapter**: This is a simple cable that connects the SATA data and power connectors on your drive to a USB port on your laptop.
    - **Docking Station**: A docking station usually has multiple slots for different types of drives (e.g., 2.5-inch and 3.5-inch SATA drives) and connects to your laptop via USB.
 
    **Steps**:
-   1. **Connect the Drive**: 
+   1. **Connect the Drive**:
       - Attach the SATA-to-USB adapter or place the drive in the docking station.
       - Connect the USB end to your laptop.
 
-   2. **Power the Drive (if needed)**: 
+   2. **Power the Drive (if needed)**:
       - Some adapters or docking stations require an external power source, especially for 3.5-inch drives. Make sure the drive is powered on.
 
    3. **Verify the Connection**:
@@ -71,3 +71,5 @@ To connect a SATA3 drive to your Ubuntu ThinkPad laptop, you'll need to use an e
    - Then, safely disconnect the USB adapter or docking station.
 
 This method allows you to connect and manage SATA3 drives easily on your laptop, making it convenient to access large amounts of data or perform backups.
+
+NAS storage device is a better option. Ask and revise.

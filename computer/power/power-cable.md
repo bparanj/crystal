@@ -1,4 +1,4 @@
-Sparks in Power Cable
+## Sparks in Power Cable
 
 I got a used Lenovo laptop. I plugged in the power cable that came with the purchase to the socket, I saw sparks. I immediately removed the cable. Is the cable defective? Why did that happen? How can I troubleshoot this issue?
 

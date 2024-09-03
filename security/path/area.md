@@ -71,4 +71,4 @@ When choosing an area to focus on, consider the following:
 
 4. Learning resources and community support: Consider the availability of learning resources, tutorials, and community support for the specific area you choose. A strong community and ample learning materials can accelerate your growth.
 
-Remember, while focusing on one area is beneficial, it's still important to have a broad understanding of security concepts and stay updated with developments across multiple areas. As you gain experience and confidence in your chosen area, you can gradually expand your skills and explore other areas of bug bounty hunting.
+Focusing on one area is beneficial, it's still important to have a broad understanding of security concepts and stay updated with developments across multiple areas. As you gain experience and confidence in your chosen area, you can gradually expand your skills and explore other areas of bug bounty hunting.

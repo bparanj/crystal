@@ -47,4 +47,4 @@
 - [Microsoft Docs: DHCP Overview](https://docs.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-overview)
 - [RFC 2131: Dynamic Host Configuration Protocol](https://tools.ietf.org/html/rfc2131)
 
-DHCP is a fundamental protocol in IP networking that simplifies the configuration and management of network devices by dynamically assigning IP addresses and other necessary parameters. This automation improves network efficiency and reduces the administrative overhead associated with manual IP address assignment.
+DHCP is a protocol in IP networking that simplifies the configuration and management of network devices by dynamically assigning IP addresses and other necessary parameters. This improves network efficiency and reduces the administrative overhead associated with manual IP address assignment.

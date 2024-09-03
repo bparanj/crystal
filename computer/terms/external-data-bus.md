@@ -1,4 +1,4 @@
-An external data bus in computer hardware is a communication system that transfers data between components inside a computer, or between computers. Here's a concise overview:
+An external data bus in computer hardware is a communication system that transfers data between components inside a computer, or between computers.
 
 1. Definition:
    - A set of parallel wires or connections that carry data signals

@@ -8,4 +8,4 @@ To find a 1- to 16-port switch box for managing multiple computers, you can use 
 6. **VGA KVM Switch**
 7. **HDMI KVM Switch**
 
-Using these terms on platforms like Amazon, eBay, Craigslist, Newegg, or other electronics retailers should help you find the type of switch box you're looking for.
+Using these terms on platforms like Amazon, eBay, Craigslist, Newegg, or other electronics retailers should help you find the type of switch box.

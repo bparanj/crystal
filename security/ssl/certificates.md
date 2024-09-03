@@ -27,8 +27,6 @@ The use of a **root certificate**, **intermediate certificate**, and an **end-us
 This layered approach improves security, manages risk, and allows the PKI system to scale efficiently while maintaining trustworthiness. Using just one certificate (a root certificate) would make the system less secure, harder to manage, and more vulnerable to compromise.
 
 
-
-
 We use root, intermediate, and end-user certificates in a **Public Key Infrastructure (PKI)** to enhance security, scalability, and trust management:
 
 1. **Security**: Root certificates are highly secure and rarely used directly. Intermediate certificates minimize risk; if compromised, they only affect specific portions of the system, not the entire trust chain.

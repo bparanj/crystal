@@ -42,7 +42,7 @@ A **MAC (Media Access Control) address** is a unique identifier assigned to netw
   - Scope: Local Network
   - Format: 48 bits (12 hexadecimal digits)
   - Example: `00:1A:2B:3C:4D:5E`
-  
+
 - **IP Address**:
   - Layer: Network Layer (Layer 3)
   - Scope: Can be local or global (e.g., private IP addresses vs. public IP addresses)
@@ -65,4 +65,4 @@ A **MAC (Media Access Control) address** is a unique identifier assigned to netw
 
 ### Conclusion
 
-A MAC address is a vital component in the realm of computer networking, enabling the identification and addressing of devices within a local network. Its unique and permanent nature, along with its role in directing network traffic and maintaining security, underscores its importance in efficient network operations.
+A MAC address is a vital component of computer networking, enabling the identification and addressing of devices within a local network. Its unique and permanent nature, along with its role in directing network traffic and maintaining security, underscores its importance in efficient network operations.

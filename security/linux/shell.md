@@ -6,7 +6,7 @@ A shell in computing, particularly in the context of Unix-like operating systems
 
 1. **Command Interpretation**:
    - The shell interprets user commands and converts them into actions by the operating system.
-   
+
 2. **Scripting**:
    - Shells allow for the creation of scripts, which are sequences of commands saved in a file to automate tasks.
 
@@ -54,4 +54,4 @@ The term "shell" is used because it acts as a "shell" or outer layer that encase
 - [The Linux Programming Interface](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200)
 - [Unix Shell Programming](https://www.amazon.com/Unix-Shell-Programming-Stephen-Kochan/dp/0672324903)
 
-By understanding what a shell is and why it is called a shell, users can better appreciate its role as a crucial interface between the user and the operating system, providing both command execution and scripting capabilities.
+By understanding a shell, users can appreciate its role as a crucial interface between the user and the operating system, providing both command execution and scripting capabilities.

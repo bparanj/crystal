@@ -1,4 +1,4 @@
-A non-contact thermometer, also known as an infrared (IR) thermometer, measures temperature from a distance without needing to touch the object being measured. This is particularly useful in situations where contact is impractical, unsafe, or could contaminate the object. Here’s a detailed explanation of how non-contact thermometers work and their applications:
+A non-contact thermometer, also known as an infrared (IR) thermometer, measures temperature from a distance without needing to touch the object being measured. This is useful in situations where contact is impractical, unsafe, or could contaminate the object. Here’s an explanation of how non-contact thermometers work and their applications:
 
 1. **Principle of Operation**:
    - **Infrared Radiation**: All objects emit infrared radiation as a function of their temperature. The higher the temperature, the more infrared radiation is emitted.
@@ -39,7 +39,7 @@ A non-contact thermometer, also known as an infrared (IR) thermometer, measures 
 
 Non-contact thermometers are essential tools in modern electronics and various other fields, providing a quick, safe, and hygienic way to measure temperature.
 
-Non-contact thermometers, also known as infrared (IR) thermometers, are electronic devices used to measure temperature from a distance without physical contact. Here's an overview of non-contact thermometers in electronics:
+Non-contact thermometers, also known as infrared (IR) thermometers, are electronic devices used to measure temperature from a distance without physical contact. Here's an overview of non-contact thermometers:
 
 1. Working Principle:
    - Detect infrared radiation emitted by objects

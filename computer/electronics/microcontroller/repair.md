@@ -47,9 +47,9 @@ For building tools for troubleshooting and repairing laptops, both Arduino and R
 
 **Recommendation**:
 - **For comprehensive troubleshooting and repairing laptops**, a **Raspberry Pi** would be a better choice due to its processing power, multitasking ability, and connectivity options. It allows you to build sophisticated diagnostic tools with graphical interfaces, remote access, and advanced data analysis capabilities.
-- **For specific, dedicated testing tools**, an **Arduino** could be very effective due to its simplicity and real-time control capabilities. 
+- **For specific, dedicated testing tools**, an **Arduino** could be very effective due to its simplicity and real-time control capabilities.
 
-Ultimately, you might find that using both platforms together could provide the best of both worlds, leveraging Arduino for specific hardware tests and Raspberry Pi for overall diagnostics and user interface.
+Using both platforms together can provide the best of both worlds, leveraging Arduino for specific hardware tests and Raspberry Pi for overall diagnostics and user interface.
 
 For troubleshooting and repairing laptops, a Raspberry Pi would be a more suitable choice compared to an Arduino. Here's why:
 

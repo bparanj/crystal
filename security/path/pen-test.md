@@ -1,6 +1,6 @@
 Penetration testing, also known as pen testing or ethical hacking, is a simulated cyberattack against a computer system, network, or web application to evaluate its security. The objective of penetration testing is to identify vulnerabilities, weaknesses, and security gaps that could be exploited by malicious actors.
 
-Here are the key points to understand about penetration testing:
+Key points about penetration testing:
 
 1. Purpose:
    - Assess the effectiveness of security measures and controls.

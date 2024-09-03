@@ -105,7 +105,7 @@ To determine the safe current range for a green LED, you should follow these ste
 Exceeding the maximum current even briefly can damage or destroy the LED. It's always better to err on the side of caution and use a current-limiting resistor to protect the LED.
 
 
-A simple circuit with only a power supply and a resistor can still serve useful functions. 
+A simple circuit with only a power supply and a resistor can still serve useful functions.
 
 1. **Basic Load Testing**: This circuit can be used for load testing a power supply. By knowing the value of the resistor, you can calculate the current flowing through the circuit and determine if the power supply can handle the load without dropping voltage or overheating.
 
@@ -122,13 +122,13 @@ A circuit with only a power supply and a resistor can indeed serve useful functi
 
 2. Useful applications:
    a) Heating: This simple circuit is the basis for many heating devices (e.g., some types of electric heaters).
-   
+
    b) Current limiting: It can be used to limit current in other parts of a larger circuit.
-   
+
    c) Voltage division: When combined with another resistor, it forms a voltage divider.
-   
+
    d) Testing and education: It's useful for demonstrating Ohm's Law and basic electrical principles.
-   
+
    e) Load simulation: Can be used to simulate loads for testing power supplies.
 
 3. Power dissipation:
@@ -169,7 +169,7 @@ Let's compare:
 
 2. Power supply only (short circuit):
    - Components: One (power supply)
-   - Functions: 
+   - Functions:
      a) Demonstrates maximum current flow capability of the power supply
      b) Can be used for testing/measuring internal resistance of the power supply
      c) In controlled situations, can be used for rapid discharge of batteries
@@ -230,7 +230,7 @@ These circuits, while simple, demonstrate fundamental electrical and electronic 
 Several simple electronic circuits are at the same level of simplicity as a basic power supply and resistor. These circuits typically involve just one or two components and serve fundamental purposes. Here are some examples:
 
 ### 1. **Power Supply + Capacitor (RC Charging Circuit)**
-   - **Description**: A circuit with a power supply connected to a capacitor. 
+   - **Description**: A circuit with a power supply connected to a capacitor.
    - **Function**: This circuit is used to demonstrate the charging and discharging behavior of a capacitor. It can also be used in timing applications or as a simple form of energy storage.
 
 ### 2. **Power Supply + Inductor (RL Circuit)**
@@ -257,4 +257,4 @@ Several simple electronic circuits are at the same level of simplicity as a basi
    - **Description**: A circuit with a power supply connected to a thermistor (a resistor that changes resistance with temperature).
    - **Function**: Used to measure temperature changes or to provide temperature-dependent current limiting in a circuit.
 
-These circuits are all simple and fundamental, serving as basic building blocks for more complex electronic designs. Each circuit demonstrates a basic electrical principle or component behavior, making them essential for learning electronics.
+These circuits are fundamental, serving as basic building blocks for more complex electronic designs. Each circuit demonstrates a basic electrical principle or component behavior, making them essential for learning electronics.

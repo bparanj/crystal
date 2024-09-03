@@ -1,4 +1,4 @@
-Certainly! Here's a series of simple experiments that gradually build up to the equivalent AWS CDK code for the Packer and Terraform configurations:
+Here's a series of simple experiments that gradually build up to the equivalent AWS CDK code for the Packer and Terraform configurations:
 
 Experiment 1: Basic Infrastructure Setup
 1. Set up a new AWS CDK project using the AWS CDK CLI.

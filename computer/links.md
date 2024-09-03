@@ -38,7 +38,6 @@ PC Test Kit
 https://www.passmark.com/products/pc-test-kit/index.php
 
 Training
-https://cellbotics.com/
 https://www.youtube.com/@electronicsrepairschool
 
 

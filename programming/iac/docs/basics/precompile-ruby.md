@@ -38,7 +38,7 @@ By using one of these approaches, you can significantly reduce the time it takes
 
 Consider factors such as the specific Ruby version you need, the operating system and architecture of your EC2 instances, and any additional dependencies or configurations required for your Ruby environment.
 
-Certainly! Let's dive into more detail on approach #2: Build Ruby Locally and Transfer the Binaries.
+Let's dive into more detail on approach #2: Build Ruby Locally and Transfer the Binaries.
 
 Here's a step-by-step guide on how to build Ruby locally and transfer the binaries to your EC2 instance:
 

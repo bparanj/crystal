@@ -113,4 +113,4 @@ Flashing the BIOS is the process of updating the firmware stored on the BIOS chi
 - [Gigabyte BIOS Update Guide](https://www.gigabyte.com/Support/FAQ/300)
 - [MSI BIOS Update Guide](https://www.msi.com/page/bios-update)
 
-By following these steps carefully and ensuring that the process is not interrupted, you can safely update your BIOS to benefit from new features, improved compatibility, and security enhancements.
+By following these steps and ensuring that the process is not interrupted, you can safely update your BIOS to benefit from new features, improved compatibility, and security enhancements.

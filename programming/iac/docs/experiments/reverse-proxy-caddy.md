@@ -1,4 +1,4 @@
-Certainly! Here's an Ansible playbook that sets up Caddy as a reverse proxy, directing requests to the `/check` endpoint to `localhost:9292` and the rest of the requests to `localhost:3000`:
+Here's an Ansible playbook that sets up Caddy as a reverse proxy, directing requests to the `/check` endpoint to `localhost:9292` and the rest of the requests to `localhost:3000`:
 
 ```yaml
 ---

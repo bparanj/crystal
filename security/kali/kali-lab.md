@@ -58,7 +58,7 @@ This setup provides a powerful environment for security testing and other tasks 
 ### Steps to Use This Template:
 
 1. **Replace Credentials**: Insert your actual AWS access key and secret key where indicated.
-   
+
 2. **Adjust Settings**: Modify the `region`, `instance_type`, or any other configurations to suit your needs.
 
 3. **Save the File**: Store this configuration in a file with a `.pkr.hcl` extension.
@@ -154,10 +154,10 @@ This setup ensures `sqlmap` is installed from the latest source and is readily a
 
 Using an Ansible playbook instead of hardcoding installation commands directly in the Packer template offers several advantages, especially in terms of maintainability, scalability, and flexibility. Here’s why using Ansible can be a better approach:
 
-1. **Modularity and Reusability**: 
+1. **Modularity and Reusability**:
    - **Ansible roles** allow you to create reusable components that can be included in multiple playbooks or even used across different projects. This modular approach makes it easier to manage and update your configurations.
 
-2. **Idempotence**: 
+2. **Idempotence**:
    - Ansible tasks are idempotent, meaning they can be run multiple times without affecting the final state beyond the initial application. This is crucial for maintaining consistent states across deployments.
 
 3. **Error Handling and Reporting**:
@@ -174,7 +174,7 @@ Using an Ansible playbook instead of hardcoding installation commands directly i
 
 ### Example Ansible Playbook for Your Scenario
 
-Here’s how you might convert your current shell-based provisioning into an Ansible playbook:
+Here’s how you can convert your current shell-based provisioning into an Ansible playbook:
 
 ```yaml
 ---

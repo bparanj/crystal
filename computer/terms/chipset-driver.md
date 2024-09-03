@@ -71,4 +71,4 @@ When to update chipset drivers:
 
 6. Periodically: It's a good practice to check for updates every few months, though it's not as critical as updating other components like graphics drivers.
 
-Generally, if your system is working well, there's no urgent need to update chipset drivers. However, staying reasonably current can help maintain optimal performance and compatibility.
+If your system is working well, there's no urgent need to update chipset drivers. However, staying current can help maintain optimal performance and compatibility.

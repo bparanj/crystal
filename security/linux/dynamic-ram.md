@@ -66,4 +66,4 @@ Here is a table comparing Dynamic RAM (DRAM) and Static RAM (SRAM):
 - [Micron: Understanding the Different Types of DRAM](https://www.micron.com/about/blog/2020/february/understanding-different-types-of-dram)
 - [Computer Organization and Design by David A. Patterson and John L. Hennessy](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
 
-This table provides a clear comparison between DRAM and SRAM, highlighting their key differences in terms of structure, performance, cost, and typical use cases.
+This table provides a comparison between DRAM and SRAM, highlighting their key differences in terms of structure, performance, cost, and typical use cases.

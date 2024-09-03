@@ -1,4 +1,4 @@
-Certainly! Here's the converted AWS CDK code in Python based on the provided Terraform HCL template:
+Here's the converted AWS CDK code in Python based on the provided Terraform HCL template:
 
 ```python
 from aws_cdk import (

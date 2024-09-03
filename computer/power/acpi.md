@@ -30,5 +30,3 @@ ACPI (Advanced Configuration and Power Interface) is a power management and conf
    - Enhanced system control
 
 10. Versions: Evolving standard (current version 6.4 as of 2021)
-
-Need more details on specific ACPI features or implementation?

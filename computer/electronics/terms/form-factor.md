@@ -1,9 +1,7 @@
-Form Factor
 
 A form factor refers to the physical size, shape, and layout of a device or component, such as a computer case, motherboard, or other parts. It determines how different components fit together and how they work together within the system.
 
 For example, in computers, form factors can dictate the dimensions and mounting points of motherboards, the size and shape of hard drives, and the overall design of cases. This standardization ensures compatibility between different components from various manufacturers.
-
 
 The latest form factor of PC motherboards is ATX (Advanced Technology eXtended), with some newer variations like microATX, mini-ITX, and extended ATX (EATX) catering to different needs in terms of size and functionality. The ATX form factor, introduced by Intel in 1995, has become the most common and versatile standard, offering a balanced layout for performance, expansion, and cooling.
 

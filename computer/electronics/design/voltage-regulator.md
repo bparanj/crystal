@@ -137,4 +137,4 @@ This experiment illustrates the key function of a voltage regulator:
 
 4. Capacitor Role: The capacitors help smooth out any ripples in the input and output voltages, improving the regulator's performance.
 
-This hands-on experiment provides a clear visual demonstration of how voltage regulators work to provide a stable power supply, which is crucial for the reliable operation of electronic circuits. You can extend this experiment by trying different load resistances or comparing the performance of different types of voltage regulators.
+This hands-on experiment is a clear visual demonstration of how voltage regulators work to provide a stable power supply, which is crucial for the reliable operation of electronic circuits. You can extend this experiment by trying different load resistances or comparing the performance of different types of voltage regulators.

@@ -87,7 +87,7 @@ Ensure your Packer template tags the AMI appropriately for this to work.
 
 These methods allow you to dynamically fetch the AMI ID created by Packer in your Terraform configurations. The choice between using an external data source or AWS-specific data sources may depend on your specific use case and how your AMIs are identified or tagged.
 
-Certainly! Here's the revised response using HCL for both Packer and Terraform:
+Here's the revised response using HCL for both Packer and Terraform:
 
 1. Using Terraform's `aws_ami` Data Source:
    - In your Packer configuration (`example.pkr.hcl`), add a tag to the AMI that Packer creates:

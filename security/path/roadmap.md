@@ -1,6 +1,6 @@
 Starting in bug bounty hunting can indeed feel overwhelming, but your background in web application development provides a strong foundation. Here’s a customized roadmap to help you transition smoothly:
 
-1. **Understand the Basics of Security**: 
+1. **Understand the Basics of Security**:
    - **Concepts**: Familiarize yourself with core security principles, common vulnerabilities (like those listed in the OWASP Top 10), and the types of security threats.
    - **Resources**: Consider starting with "Web Application Hacker's Handbook" for a deep dive into web security.
 
@@ -29,7 +29,7 @@ Starting in bug bounty hunting can indeed feel overwhelming, but your background
 
 This path leverages your existing skills while guiding you through the essentials of security and bug hunting. As you progress, adjust the focus based on your interests and the feedback you receive from your submissions.
 
-Certainly! Transitioning from web application development to bug bounty hunting can be overwhelming initially, but with the right roadmap and guidance, you can navigate this path effectively. Given your background in web application development, you already have a solid foundation to build upon. Here's a customized roadmap for you to follow:
+Transitioning from web application development to bug bounty hunting can be overwhelming initially, but with the right roadmap and guidance, you can navigate this path effectively. Given your background in web application development, you already have a solid foundation to build upon. Here's a customized roadmap for you to follow:
 
 1. Fundamentals of Web Application Security:
    - Review the OWASP Top 10 vulnerabilities and understand their impact and mitigation techniques.

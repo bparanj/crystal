@@ -42,7 +42,7 @@ Getting started with bug bounty hunting and earning money by finding security fl
 
 Adhere to the legal and ethical guidelines set by the bug bounty programs. Respect the scope and rules of engagement, and only test applications that you have explicit permission to test.
 
-It's also important to note that bug bounty hunting is a competitive field, and earning significant money requires finding high-impact vulnerabilities in well-known programs. Start with realistic expectations and focus on learning and improving your skills before aiming for large payouts.
+Bug bounty hunting is a competitive field, and earning significant money requires finding high-impact vulnerabilities in well-known programs. Start with realistic expectations and focus on learning and improving your skills before aiming for large payouts.
 
 To get started in making money through bug bounty programs for identifying security flaws, follow these steps:
 
