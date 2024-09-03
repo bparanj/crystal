@@ -6,15 +6,15 @@ The simplest electronic circuit is a basic closed circuit with a power source an
   <line x1="20" y1="20" x2="20" y2="80" stroke="black" stroke-width="2"/>
   <line x1="10" y1="20" x2="30" y2="20" stroke="black" stroke-width="2"/>
   <line x1="15" y1="30" x2="25" y2="30" stroke="black" stroke-width="2"/>
-  
+
   <!-- Wires -->
   <line x1="20" y1="20" x2="180" y2="20" stroke="black" stroke-width="2"/>
   <line x1="20" y1="80" x2="180" y2="80" stroke="black" stroke-width="2"/>
-  
+
   <!-- Resistor (Load) -->
   <path d="M180 20 L170 20 L165 30 L155 10 L145 30 L135 10 L125 30 L115 10 L105 30 L95 10 L90 20 L180 20" fill="none" stroke="black" stroke-width="2"/>
   <line x1="180" y1="20" x2="180" y2="80" stroke="black" stroke-width="2"/>
-  
+
   <!-- Labels -->
   <text x="10" y="55" font-family="Arial" font-size="12">Battery</text>
   <text x="130" y="50" font-family="Arial" font-size="12">Load</text>
@@ -40,8 +40,7 @@ Key points about this simple circuit:
 
 This basic circuit forms the foundation for understanding more complex circuits. By adding more components or altering the arrangement, we can create a wide variety of electronic devices and systems.
 
-
-You've made an excellent analogy! Yes, this basic circuit could indeed be considered the "Hello World" equivalent in electronic circuits. Let me elaborate on why this comparison is so apt:
+This basic circuit could indeed be considered the "Hello World" equivalent in electronic circuits. Let me elaborate on why this comparison is so apt:
 
 1. Simplicity: Just as "Hello World" is often the simplest program one can write in a programming language, this basic circuit is the simplest functional circuit one can create. It demonstrates the fundamental concept of a complete circuit with minimal components.
 
@@ -92,15 +91,15 @@ This simple circuit is the foundation for more complex electronic circuits and i
   <line x1="20" y1="20" x2="20" y2="80" stroke="black" stroke-width="2"/>
   <line x1="10" y1="20" x2="30" y2="20" stroke="black" stroke-width="2"/>
   <line x1="15" y1="30" x2="25" y2="30" stroke="black" stroke-width="2"/>
-  
+
   <!-- Wires -->
   <line x1="20" y1="20" x2="90" y2="20" stroke="black" stroke-width="2"/>
   <line x1="20" y1="80" x2="180" y2="80" stroke="black" stroke-width="2"/>
-  
+
   <!-- Resistor (Load) -->
   <path d="M90 20 L100 20 L105 10 L115 30 L125 10 L135 30 L145 10 L155 30 L165 10 L170 20 L180 20" fill="none" stroke="black" stroke-width="2"/>
   <line x1="180" y1="20" x2="180" y2="80" stroke="black" stroke-width="2"/>
-  
+
   <!-- Labels -->
   <text x="10" y="55" font-family="Arial" font-size="12">Battery</text>
   <text x="120" y="50" font-family="Arial" font-size="12">Resistor</text>

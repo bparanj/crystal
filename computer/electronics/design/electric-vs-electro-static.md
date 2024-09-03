@@ -87,7 +87,7 @@ Distinguishing between the **electric field in a capacitor** and the **general e
 ### Summary:
 Distinguishing between the electric field in a capacitor and the general concept of an electrostatic field is necessary to accurately design, analyze, and apply these concepts in different contexts. The specific, uniform field in a capacitor is key to circuit design and energy storage, while the broader concept of electrostatic fields is essential for understanding and managing a wide range of physical phenomena and applications.
 
-It's important to clarify that both **electric fields** and **electrostatic fields** can occur both inside electronic circuits and in the real world outside of circuits. However, they have different contexts of occurrence and applications. Let’s break down these ideas:
+Both **electric fields** and **electrostatic fields** can occur both inside electronic circuits and in the real world outside of circuits. However, they have different contexts of occurrence and applications. Let’s break down these ideas:
 
 ### 1. **Electric Field**:
    - **Inside Electronic Circuits**:
@@ -180,8 +180,6 @@ Here are four simple experiments designed to clarify the concepts of **electric 
 
 These experiments offer hands-on ways to explore and understand the distinctions between electric fields and electrostatic fields in different contexts.
 
-This touches on some subtle but important points in electromagnetic theory. Let's break it down:
-
 In a typical capacitor under DC conditions, the electric field is indeed an electrostatic field. However, there are some nuances to consider:
 
 1. Steady-state condition:
@@ -205,12 +203,10 @@ In a typical capacitor under DC conditions, the electric field is indeed an elec
 7. Theoretical vs. practical considerations:
    In many practical applications and basic circuit theory, we often treat the field in a capacitor as electrostatic for simplicity, even when it's technically a time-varying field (e.g., in AC analysis).
 
-
 - In a fully charged capacitor at rest (DC conditions), the electric field is essentially an electrostatic field.
 - During charging, discharging, or in AC applications, the electric field in a capacitor is a time-varying electric field, which is different from a purely electrostatic field.
 
 This distinction becomes particularly important in high-frequency applications, electromagnetic wave theory, and advanced circuit analysis. However, for many basic circuit calculations and DC analysis, treating the field as electrostatic is often sufficient.
-
 
 The distinction between electric fields and electrostatic fields is important in physics for several reasons:
 
@@ -234,7 +230,7 @@ The distinction between electric fields and electrostatic fields is important in
 - Electrostatics is used in scenarios involving stationary charges, like capacitors or electrostatic precipitators.
 - General electric field theory is needed for understanding electromagnetic waves, antennas, and other dynamic electromagnetic phenomena.
 
-Understanding this distinction is crucial for correctly analyzing and applying electromagnetic principles in various contexts, from simple electrostatic problems to complex electromagnetic systems.
+Understanding this distinction is important for correctly analyzing and applying electromagnetic principles in various contexts, from simple electrostatic problems to complex electromagnetic systems.
 
 # Experiments to Illustrate Differences Between Electrostatic and General Electric Fields
 

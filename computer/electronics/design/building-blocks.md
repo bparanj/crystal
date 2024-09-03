@@ -1,4 +1,4 @@
-The basic building blocks in electronics are fundamental components and concepts that form the foundation of all electronic circuits and devices. These building blocks include both passive and active components, each playing a crucial role in the design and operation of electronic systems.
+The basic building blocks in electronics are fundamental components and concepts that form the foundation of all electronic circuits and devices. These building blocks include both passive and active components, each playing a role in the design and operation of electronic systems.
 
 ### 1. **Resistors**
    - **Function**: Resistors limit or regulate the flow of electric current in a circuit. They are used to control voltage levels, divide voltages, and limit current to safe levels for other components.

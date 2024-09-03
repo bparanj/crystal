@@ -1,4 +1,4 @@
-Resistors are fundamental components in electronics with numerous applications. Here are some key uses of resistors in electronic circuits:
+Resistors are fundamental components in electronics with numerous applications. Here are some uses of resistors in electronic circuits:
 
 1. Current limiting:
    - Protect sensitive components by limiting current flow
@@ -60,7 +60,7 @@ Resistors are fundamental components in electronics with numerous applications. 
 
 These applications demonstrate the versatility and importance of resistors in electronic design. Their ability to control current, divide voltage, and dissipate power makes them essential in virtually all electronic circuits.
 
-Voltage division
+## Voltage division
 
 A simple voltage division circuit is a fundamental electronic circuit that uses two resistors to create a lower voltage from a higher voltage source. Here's a description of a basic voltage divider:
 
@@ -111,7 +111,7 @@ Applications:
 
 This simple circuit is the basis for many more complex voltage division applications in electronics.
 
-pull-up circuit
+## Pull-up circuit
 
 A simple pull-up circuit is a common configuration in digital electronics used to ensure a known state for an input pin, typically in microcontrollers or other digital ICs. Here's a description of a basic pull-up circuit:
 

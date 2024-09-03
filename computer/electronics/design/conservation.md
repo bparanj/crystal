@@ -43,4 +43,4 @@ The principle that energy can neither be created nor destroyed is known as the *
 ### 6. **Implications in Various Fields**
    - In mechanics, conservation of energy explains phenomena such as why a pendulum swings back and forth without gaining or losing energy (ignoring air resistance and friction). In electrical circuits, it ensures that all energy supplied by a power source is converted into other forms (e.g., light, heat) without any loss of energy from the system.
 
-The law reflects a deep and universal truth about the nature of the universe. While energy can change forms and be transferred between objects and systems, the total energy remains unchanged, demonstrating a fundamental property of reality.
+The law reflects an universal truth about the nature of the universe. While energy can change forms and be transferred between objects and systems, the total energy remains unchanged, demonstrating a fundamental property of reality.

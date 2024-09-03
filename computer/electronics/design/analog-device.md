@@ -37,7 +37,7 @@ An **analog device** is an electronic component or system that processes analog 
 ### Summary:
 An analog device processes continuous signals that vary smoothly over time, without converting them to digital form. These devices are essential in applications where the signal's natural variation is important, such as audio processing, radio communication, and instrumentation. While analog devices offer high resolution and simplicity, they are more susceptible to noise and may lack the precision of digital devices in certain contexts.
 
-An analog device is an electronic component or system that processes continuous signals, representing physical quantities that can vary smoothly over a range of values. Here's a more detailed explanation:
+An analog device is an electronic component or system that processes continuous signals, representing physical quantities that can vary smoothly over a range of values.
 
 Key characteristics of analog devices:
 

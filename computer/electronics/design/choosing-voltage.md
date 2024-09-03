@@ -21,7 +21,6 @@ To choose the voltage for a power source in a circuit:
 10. Future expansion: Allow headroom for potential circuit additions or modifications.
 
 
-
 To choose the voltage for a power source in a circuit, follow these steps:
 
 1. **Identify the Required Voltage**: Determine the voltage requirements of all components in the circuit. Each component will have a specified operating voltage range, often listed in its datasheet.

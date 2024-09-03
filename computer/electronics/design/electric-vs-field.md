@@ -112,4 +112,4 @@ To illustrate the concept of an electric field in the context of static electric
 - The wall becomes polarized due to the electric field, with positive charges attracted closer to the balloon.
 - The hair strands are repelled from the balloon and from each other, standing up due to the repulsive force between the like charges.
 
-This simple diagram effectively illustrates how the electric field created by a charged balloon affects nearby objects, like hair and a wall, demonstrating the concept of static electricity and electric fields.
+This simple diagram illustrates how the electric field created by a charged balloon affects nearby objects, like hair and a wall, demonstrating the concept of static electricity and electric fields.

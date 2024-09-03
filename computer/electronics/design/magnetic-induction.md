@@ -16,7 +16,7 @@ Magnetic induction, governed by Faraday's Law, plays a critical role in energy c
 
 This progression illustrates how the concept of magnetic induction can be explained at varying levels of complexity, tailored to different audiences from children to expert engineers.
 
-Here’s a simple experiment to illustrate the concept of **magnetic induction**:
+A simple experiment to illustrate the concept of **magnetic induction**:
 
 ### Objective:
 To demonstrate how a changing magnetic field can induce an electric current in a coil of wire.

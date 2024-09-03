@@ -105,4 +105,4 @@ Undervolting is the process of reducing the voltage supplied to a computer proce
    - Warranty concerns: Undervolting may void the manufacturer's warranty, as it involves modifying the default settings.
    - Limited gains: The extent of the benefits from undervolting varies depending on the specific CPU model and individual chip characteristics.
 
-It's important to note that not all CPUs support undervolting, and the process can be complex for users unfamiliar with the technique. Inexperienced users should exercise caution and thoroughly research the process before attempting to undervolt their CPU. Additionally, many modern CPUs have built-in safeguards that limit the extent of undervolting to maintain stability and prevent damage.
+Not all CPUs support undervolting, and the process can be complex for users unfamiliar with the technique. Inexperienced users should exercise caution and thoroughly research the process before attempting to undervolt their CPU. Many modern CPUs have built-in safeguards that limit the extent of undervolting to maintain stability and prevent damage.

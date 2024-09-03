@@ -30,7 +30,7 @@ Common applications include:
 - Timing circuits
 - Voltage dividers
 
-My use of the term "create" was imprecise and incorrect from a physics standpoint.
+use of the term "create" was imprecise and incorrect from a physics standpoint.
 
 Passive components cannot [--generate--], amplify, or increase the energy in a system. They can only store, dissipate, or transfer energy that is already present in the circuit.
 
@@ -43,7 +43,6 @@ The key points about energy in passive circuits are:
 3. Energy storage: Components like capacitors and inductors can temporarily store energy and release it later.
 
 4. Energy dissipation: Resistors convert electrical energy into heat energy, effectively dissipating it from the circuit.
-
 
 Passive components and circuits do not introduce new energy into a system. They can only manipulate, store, transfer, or dissipate the energy already present in the circuit. Here's a more precise way to describe what passive components do:
 
@@ -58,8 +57,6 @@ Passive components and circuits do not introduce new energy into a system. They 
 The key principle is that passive components work with the existing energy in a system, following the law of conservation of energy. They don't add new energy to the circuit.
 
 In contrast, active components (like batteries or powered amplifiers) can input additional energy into a circuit from an external source.
-
-Would you like me to elaborate on any specific aspect of discrete passive circuits, such as common configurations or analysis methods?
 
 A **discrete passive circuit** refers to an electronic circuit made up of individual passive components, each housed in its own package, rather than being integrated onto a single chip (like in an integrated circuit). Passive components are those that do not require an external power source to operate and do not amplify or generate electrical signals. They include components like resistors, capacitors, inductors, and transformers.
 

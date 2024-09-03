@@ -1,4 +1,4 @@
-Yes, a **diode** can be thought of as a type of electronic **switch** with specific characteristics. Here's how a diode functions similarly to a switch:
+A **diode** can be thought of as a type of electronic **switch** with specific characteristics. Here's how a diode functions similarly to a switch:
 
 ### 1. **Directional Current Flow**:
    - **Forward Bias (Switch "On")**: When a diode is forward-biased (positive voltage applied to the anode and negative to the cathode), it allows current to flow through it. This is similar to closing a switch, which allows current to pass through a circuit.

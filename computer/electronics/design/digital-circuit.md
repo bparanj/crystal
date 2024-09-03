@@ -41,7 +41,6 @@ A **digital circuit** is an electronic circuit designed to process digital signa
 ### Summary:
 A digital circuit is an electronic circuit that processes binary signals to perform logical, arithmetic, storage, or control functions. These circuits form the backbone of all modern digital devices, providing the precision, reliability, and scalability needed for complex computing and communication tasks. Digital circuits are built using fundamental components like logic gates and flip-flops and are organized into combinational and sequential logic circuits to handle a wide range of digital operations.
 
-
 They process and manipulate binary information (0s and 1s) using logic gates and other digital elements.
 
 1. Basic components:

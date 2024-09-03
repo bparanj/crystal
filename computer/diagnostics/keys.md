@@ -2,22 +2,22 @@ If some keys on a Lenovo laptop are not working, the issue could stem from vario
 
 ### Causes:
 
-1. **Physical Damage**: 
+1. **Physical Damage**:
    - Keys may be broken or stuck due to physical impact or debris.
-   
-2. **Software Issues**: 
+
+2. **Software Issues**:
    - Driver problems or software conflicts can lead to unresponsive keys.
-   
-3. **Dirt and Debris**: 
+
+3. **Dirt and Debris**:
    - Dust, crumbs, or other particles can get lodged under the keys, preventing them from functioning properly.
-   
-4. **Hardware Malfunction**: 
+
+4. **Hardware Malfunction**:
    - Internal components of the keyboard might be faulty.
-   
-5. **Liquid Damage**: 
+
+5. **Liquid Damage**:
    - Spilled liquids can cause short circuits or damage the keyboard circuitry.
-   
-6. **Incorrect Keyboard Layout Settings**: 
+
+6. **Incorrect Keyboard Layout Settings**:
    - Incorrect settings can make some keys appear non-functional.
 
 ### Fixes:
@@ -57,7 +57,7 @@ If some keys on a Lenovo laptop are not working, the issue could stem from vario
      - Following a guide or video tutorial to replace it yourself.
      - Taking the laptop to a professional repair service.
 
-By following these steps, you should be able to diagnose and fix the issue with the non-working keys on your Lenovo laptop.
+By following these steps, you can diagnose and fix the issue with the non-working keys on your Lenovo laptop.
 
 Deciding whether to replace the entire keyboard or just the keys that are not working depends on several factors. Here’s how to make an informed decision:
 

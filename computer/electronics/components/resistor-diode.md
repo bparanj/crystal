@@ -1,4 +1,4 @@
-Here's a comparison table highlighting the key differences and similarities between a **resistor** and a **diode**:
+Comparison table highlighting the key differences and similarities between a **resistor** and a **diode**:
 
 | **Feature**              | **Resistor**                                       | **Diode**                                          |
 |--------------------------|---------------------------------------------------|----------------------------------------------------|

@@ -25,7 +25,7 @@ No, a solar panel will not run out of electrons during the photovoltaic process.
 
 ### Conservation of Charge:
 - **Closed Circuit**: In a solar panel, electrons do not leave the system permanently. They are part of a closed loop where they flow out of the solar cell into an external circuit and then return to the solar cell. This means the total number of electrons in the system remains constant.
-  
+
 - **No Depletion**: Since the solar panel does not lose electrons but rather moves them around in a controlled manner, it will not run out of electrons. The photovoltaic process does not consume electrons; it simply moves them from one place to another within the circuit.
 
 ### Summary:
@@ -72,7 +72,7 @@ Photovoltaic action is how solar panels turn sunlight into electricity. The pane
 3. Explaining to an undergraduate student majoring in electronics:
 Photovoltaic action occurs in semiconductor materials, typically silicon doped to form a p-n junction. When photons with energy greater than the bandgap of the semiconductor are absorbed, they create electron-hole pairs. The built-in electric field at the p-n junction separates these charge carriers, with electrons moving to the n-type region and holes to the p-type region. This separation of charges creates a potential difference across the cell.
 
-Key concepts to understand include:
+Key concepts to understand:
 - Band theory of solids
 - Doping and p-n junction formation
 - Photon absorption and electron excitation

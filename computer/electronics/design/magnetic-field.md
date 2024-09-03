@@ -1,4 +1,4 @@
-Here's an experiment to visualize magnetic fields using common materials:
+An experiment to visualize magnetic fields using common materials:
 
 ### Experiment: Visualizing Magnetic Fields with Iron Filings
 
