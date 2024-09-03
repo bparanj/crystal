@@ -60,8 +60,6 @@ Transformers solve several key problems in electrical and electronic systems:
 
 These capabilities make transformers essential in power systems, electronics, and signal processing applications.
 
-
-
 1. Direct connection: The primary and secondary circuits in a transformer are not directly connected by wires. There's no conductive path between them.
 
 2. Magnetic coupling: Instead, they interact through a shared magnetic field. The primary and secondary coils are wound around the same core but are electrically isolated from each other.

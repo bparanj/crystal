@@ -82,4 +82,4 @@ This experiment demonstrates the static electric effect. When you rub the plasti
 
 When you bring this charged object near the neutral tissue paper, it induces a temporary charge separation in the paper. The side of the paper closer to the charged object becomes oppositely charged (positive in this case), while the far side becomes similarly charged (negative). Since opposite charges attract, the tissue paper is pulled towards the comb or balloon.
 
-This simple experiment effectively illustrates key concepts of the static electric effect: charge transfer, induction, and electrostatic attraction.
+This experiment illustrates key concepts of the static electric effect: charge transfer, induction, and electrostatic attraction.

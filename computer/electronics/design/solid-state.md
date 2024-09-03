@@ -67,7 +67,7 @@ Solid state devices form the foundation of modern electronics, enabling the deve
 
 ## Level 4: Explanation for a Graduate Student
 
-At the graduate level, understanding solid state devices involves a deep dive into quantum mechanics, statistical mechanics, and device physics. Key areas of focus include:
+At this level, understanding solid state devices involves a deep dive into quantum mechanics, statistical mechanics, and device physics. Key areas of focus include:
 
 1. Quantum mechanical basis:
    - Schrödinger equation in semiconductors

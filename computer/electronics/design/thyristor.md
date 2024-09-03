@@ -82,7 +82,7 @@ Let's delve into some advanced aspects of thyristor physics and applications:
 
 These advanced topics highlight the ongoing relevance of thyristors in power electronics research and industrial applications, despite the rise of fully controllable switches like IGBTs and MOSFETs.
 
-The name "thyristor" has an interesting origin that relates to its function and history. Let me explain:
+The name "thyristor" has an interesting origin that relates to its function and history.
 
 
 The term "thyristor" is a portmanteau (a blend of words) created from two parts:
@@ -101,11 +101,11 @@ This name was chosen because:
 
 3. Historical context: The term was coined in the late 1950s by engineers at General Electric. They were working on developing what was initially called a "solid-state thyratron." The thyratron was a gas-filled tube used for switching electricity. The solid-state version (the thyristor) was seen as its semiconductor equivalent.
 
-The name cleverly encapsulates both the device's function (as a controllable "door" for current) and its place in the evolution of electronic components (as a solid-state version of the thyratron).
+The name encapsulates both the device's function (as a controllable "door" for current) and its place in the evolution of electronic components (as a solid-state version of the thyratron).
 
 
 
- history of the thyristor or how its naming compares to other electronic components?
+History of the thyristor or how its naming compares to other electronic components?
 
 
 
