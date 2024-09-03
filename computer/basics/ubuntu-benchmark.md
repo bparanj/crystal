@@ -110,4 +110,4 @@ To document the performance and condition of a laptop running Ubuntu, you can fo
 - [Phoronix Test Suite](https://www.phoronix-test-suite.com/)
 - [Linux Hardware Info Commands](https://www.cyberciti.biz/faq/how-to-get-hardware-information-on-linux/)
 
-By following these steps, you can thoroughly document the performance and condition of your Ubuntu laptop, providing a clear and detailed report for potential buyers.
+By following these steps, you can document the performance and condition of Ubuntu laptop, providing a detailed report for potential buyers.

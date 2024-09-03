@@ -35,5 +35,4 @@ ROM (Read-Only Memory) chips for BIOS (Basic Input/Output System) were replaced 
 
 6. Reliability: Flash memory is more resistant to environmental factors like heat and electromagnetic interference.
 
-This transition began in the 1990s and has since become standard in modern computing devices. Would you like me to elaborate on any specific aspect of this change?
-
+This transition began in the 1990s and has since become standard in modern computing devices. 

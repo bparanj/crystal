@@ -1,4 +1,4 @@
-Sure, here are the different phases of a computer from power on to booting up successfully, with each phase detailed so that it can be studied individually for troubleshooting and repairs:
+Here are the different phases of a computer from power on to booting up successfully, with each phase detailed so that it can be studied individually for troubleshooting and repairs:
 
 ### 1. **Power Supply Phase**
 - **Description**: The power supply unit (PSU) provides power to the motherboard and other components.
