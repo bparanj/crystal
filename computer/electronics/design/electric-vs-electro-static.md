@@ -28,12 +28,12 @@ While both concepts describe the influence that electric charges exert on their 
 The electric field stored in a capacitor is not fundamentally different from an electrostatic field; in fact, it **is** an electrostatic field. Here’s how the two concepts are related:
 
 ### 1. **Electric Field in a Capacitor**:
-   - **What it is**: When a capacitor is charged, it creates an electric field between its plates. This field is due to the separation of positive and negative charges on the plates.
+     When a capacitor is charged, it creates an electric field between its plates. This field is due to the separation of positive and negative charges on the plates.
    - **Nature of the Field**: Since the charges on the plates of a charged capacitor are stationary (not moving), the electric field between the plates is static. This means it is an **electrostatic field**.
    - **Function**: The electric field in a capacitor stores energy, which can be released when the capacitor discharges.
 
 ### 2. **Electrostatic Field**:
-   - **What it is**: An electrostatic field is a static (unchanging with time) electric field created by stationary charges. It describes the influence that these charges have on other charges or objects in the surrounding space.
+     An electrostatic field is a static (unchanging with time) electric field created by stationary charges. It describes the influence that these charges have on other charges or objects in the surrounding space.
 
 ### Relationship:
 - **In a Capacitor**: The electric field present between the plates of a capacitor is specifically an electrostatic field because it results from stationary charges on the capacitor’s plates. The strength and direction of this field depend on the amount of charge stored and the distance between the plates.
