@@ -52,3 +52,5 @@ https://www.injuredgadgets.com/tesa-adhesion-promoter-fast-cure-60153-100ml?acc=
 https://www.injuredgadgets.com/search?q=tesa%2Btape&acc=4dfc7d9837cfd2d64cce759e51bf333c
 https://www.harborfreight.com/fluorescent-magnifying-lamp-60643.html?_br_psugg_q=desktop%2Bmagnifying%2Blamp
 
+
+https://my.1password.com/

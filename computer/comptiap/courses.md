@@ -6,6 +6,18 @@
 - [Complete Guide to Ethical Hacking](https://learning.oreilly.com/videos/the-complete-ethical/9781839210495/9781839210495-video1_1/)
 - [Linux Fundamentals](https://learning.oreilly.com/course/linux-fundamentals-2nd/9780137929313/)
 - [Kali Linux Fundamentals](https://learning.oreilly.com/videos/kali-linux-tutorial/9781789615173/9781789615173-video16_2/)
+- [Linux+](https://hub.totalsem.com/content/27810#path=27810,27816,27821)
+- [Kali Linux Audio Book](https://www.youtube.com/watch?v=Oxvq4fljk7s)
+
+## Simulation
+
+- [A+](https://www.comptialabs.com/CourseAssignment/1447704)
+
+## Resources
+
+- [Omar Santos](https://github.com/The-Art-of-Hacking/h4cker)
+- [DVWA](https://github.com/digininja/DVWA)
+- [Home](http://192.168.1.133:8000/)
 
 ## Electronics
 
