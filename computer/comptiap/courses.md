@@ -8,6 +8,8 @@
 - [Kali Linux Fundamentals](https://learning.oreilly.com/videos/kali-linux-tutorial/9781789615173/9781789615173-video16_2/)
 - [Linux+](https://hub.totalsem.com/content/27810#path=27810,27816,27821)
 - [Kali Linux Audio Book](https://www.youtube.com/watch?v=Oxvq4fljk7s)
+- [nmap for Penetration Testing](https://learning.oreilly.com/videos/nmap-for-penetration/9781801074421/9781801074421-video1_1/)
+- [Hands On Network Scanning with nmap for Network Security](https://learning.oreilly.com/videos/-/9781838981853/)
 
 ## Simulation
 

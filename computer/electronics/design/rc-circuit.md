@@ -159,19 +159,12 @@ print(f"Voltage at t=5*tau during charging: {v_charging(5*tau):.2f} V")
 This script simulates our RC circuit and plots the voltage across the capacitor over time. Here's a breakdown of what the code does:
 
 1. We import NumPy for numerical calculations and Matplotlib for plotting.
-
 2. We define our circuit parameters: V (voltage source), R (resistance), and C (capacitance).
-
 3. We calculate the time constant (tau) of the circuit.
-
 4. We create a time array for 1 second with 1000 points.
-
 5. We define functions for charging and discharging voltages based on the RC circuit equations.
-
 6. We simulate charging for the first 0.5 seconds, then discharging for the next 0.5 seconds.
-
 7. We plot the results, showing the voltage across the capacitor over time.
-
 8. Finally, we print some key values, including the time constant and voltages at specific times.
 
 To run this simulation:
@@ -190,7 +183,6 @@ To run this simulation:
 This simulation will generate a graph showing the capacitor voltage over time, including both the charging and discharging phases. It also prints out some key values to help understand the circuit behavior.
 
 Using PySpice is an excellent choice for simulating electronic circuits in Python. PySpice provides a more comprehensive simulation environment that's closer to real-world circuit behavior. Here's how we can simulate our RC circuit using PySpice:
-
 
 
 ```python
@@ -237,20 +229,14 @@ print(f"Voltage at t=5*tau: {voltage[int(5*tau*1000)]:.2f} V")
 
 ```
 
-This script uses PySpice to simulate our RC circuit. Here's a breakdown of what the code does:
+This script uses PySpice to simulate our RC circuit.
 
 1. We import necessary modules from PySpice and create a new Circuit object.
-
 2. We define our circuit parameters using PySpice's unit system.
-
 3. We create circuit elements: a voltage source, a resistor, and a capacitor.
-
 4. We run a transient analysis simulation for 1 second with 1ms steps.
-
 5. We extract time and voltage data from the simulation results.
-
 6. We plot the results using Matplotlib.
-
 7. Finally, we print some key values, including the time constant and voltages at specific times.
 
 To run this simulation:
