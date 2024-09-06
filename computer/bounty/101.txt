@@ -1,0 +1,50 @@
+Notes from [h4cker-bounty](https://github.com/The-Art-of-Hacking/h4cker/tree/master/bug-bounties)
+
+Reading: 
+
+- The Web Application Hackers Handbook
+- [OWASP Top Ten](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
+
+Blogs:
+
+- [Nir Goldshlager](http://www.breaksec.com/?page_id=6002)
+- [Egor Homakov](http://homakov.blogspot.co.uk/)
+- [Bitquark](https://bitquark.co.uk/blog/)
+- [Neal Poole](https://nealpoole.com/blog/)
+- [Behrouz Sadeghipour](http://nahamsec.com/)
+- [Stephen Sclafani](http://stephensclafani.com/)
+- [Christian Lopez](http://insertco.in/articles)
+- [Josip Franjković](http://josipfranjkovic.blogspot.co.uk/)
+- [Oliver Beg](http://olivierbeg.nl/)
+
+Tools:
+
+- [Burp Suite](http://portswigger.net/burp/) - An intercepting proxy which lets you modify requests on the fly, replay requests and so on.
+- [Nmap](http://nmap.org/) - Useful for finding additional web servers to investigate (providing the scope of the programme is wide enough)
+- [DNS-Discovery](https://code.google.com/p/dns-discovery/) - Find additional sub-domains to investigate
+
+Practice Apps:
+
+- [Damn Vulnerable Web App](http://www.dvwa.co.uk/)
+- [VulnHub](http://vulnhub.com/) (Not all of these are web applications)
+- [OWASP WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
+- [WebGoat](https://github.com/WebGoat/WebGoat)
+
+Platforms:
+
+- [Bugcrowd](https://bugcrowd.com/)
+- [CrowdCurity](https://www.crowdcurity.com)
+- [HackerOne](https://hackerone.com)
+- [Synack](https://www.synack.com/) (You do need to apply and pass a test to join)
+
+Cheatsheets:
+
+[Bugbounty Cheatsheet](https://github.com/EdOverflow/bugbounty-cheatsheet/tree/master)
+
+Terms:
+
+- IDOR
+
+Next Action Item:
+
+https://www.bugcrowd.com/blog/getting-started-bug-bounty-hunter-methodology/
