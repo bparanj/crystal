@@ -4,6 +4,7 @@ Reading:
 
 - The Web Application Hackers Handbook
 - [OWASP Top Ten](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
+- [Pentest Standard](http://www.pentest-standard.org/index.php/Main_Page)
 
 Blogs:
 
@@ -30,6 +31,15 @@ Practice Apps:
 - [OWASP WebGoat](https://www.owasp.org/index.php/Category:OWASP_WebGoat_Project)
 - [WebGoat](https://github.com/WebGoat/WebGoat)
 
+Books:
+
+
+- Penetration Testing: A Hands-On Introduction to Hacking 1st Edition by Georgia Weidman
+- The Hacker Playbook 2: Practical Guide To Penetration Testing Paperback – June 20, 2015 by Peter Kim
+- The Tangled Web: A Guide to Securing Modern Web Applications 1st Edition, Kindle Edition by Michal Zalewski 
+- Web Hacking 101 How to Make Money Hacking Ethically by Peter Yoworski
+
+
 Platforms:
 
 - [Bugcrowd](https://bugcrowd.com/)
@@ -47,4 +57,4 @@ Terms:
 
 Next Action Item:
 
-https://www.bugcrowd.com/blog/getting-started-bug-bounty-hunter-methodology/
+https://www.hackerone.com/hackerone-community-blog/how-become-successful-bug-bounty-hunter
