@@ -5,6 +5,17 @@ Reading:
 - The Web Application Hackers Handbook
 - [OWASP Top Ten](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
 - [Pentest Standard](http://www.pentest-standard.org/index.php/Main_Page)
+- [Disclosed Bugs on HackerOne](https://hackerone.com/hacktivity)
+- [OWASP Testing Guide v4](https://www.owasp.org/index.php/OWASP_Testing_Project)
+- [How to approach a target](https://forum.bugcrowd.com/t/how-do-you-approach-a-target/293)
+- [How to write a Great Vulnerability Report](https://blog.bugcrowd.com/advice-for-writing-a-great-vulnerability-report/)
+- [How to write a Proof of Concept](https://blog.bugcrowd.com/writing-up-a-poc-by-planet-zuda/)
+- [How to Report a Bug](https://researcherdocs.bugcrowd.com/docs/reporting-a-bug)
+- [Bug Bounty Disclosure Policy](https://researcherdocs.bugcrowd.com/docs/disclosure)
+- [Check out the Github and watch the video](https://github.com/jhaddix/tbhm)
+- [How To Shot Web - Jason Haddix's talk from DEFCON23](https://www.youtube.com/watch?v=VtFuAH19Qz0)
+- [Details Guide](https://www.bugcrowd.com/resources/report/your-guide-to-hacking-with-bugcrowd-and-why-you-should-get-started-today/
+)
 
 Blogs:
 
@@ -33,7 +44,6 @@ Practice Apps:
 
 Books:
 
-
 - Penetration Testing: A Hands-On Introduction to Hacking 1st Edition by Georgia Weidman
 - The Hacker Playbook 2: Practical Guide To Penetration Testing Paperback – June 20, 2015 by Peter Kim
 - The Tangled Web: A Guide to Securing Modern Web Applications 1st Edition, Kindle Edition by Michal Zalewski 
@@ -51,10 +61,35 @@ Cheatsheets:
 
 [Bugbounty Cheatsheet](https://github.com/EdOverflow/bugbounty-cheatsheet/tree/master)
 
+Training
+
+- [Google Bughunter University](https://bughunters.google.com/)
+- [Hacksplaining](https://www.hacksplaining.com/lessons)
+- [Pentration Testing Practice Labs](https://www.amanhardikar.com/mindmaps/Practice.html)
+- [Bug Bounty write-ups and POCs](https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137)
+- [Bug Hunting Tutorials](https://forum.bugcrowd.com/t/researcher-resources-tutorials/370)
+- [/r/Netsec on Reddit](https://www.reddit.com/r/netsec)
+- [JackkTutorials on YouTube](https://www.youtube.com/watch?v=RyQL9AdxHqY&list=PLfn0sdgJVUVhOEE6D8FwOWhrRQhURSP3t&ab_channel=Tinkernut)
+- [DEFCON Conference videos on YouTube](https://www.youtube.com/user/DEFCONConference/videos)
+- [Hak5 on YouTube](https://www.youtube.com/user/Hak5Darren/playlists)
+- [Awesome-Infosec](https://github.com/onlurking/awesome-infosec)
+
+Tools
+
+- [Bugcrowd Researcher Resources - Tools](https://forum.bugcrowd.com/t/researcher-resources-tools/167)
+
+Community
+
+- [Bugcrowd Discord](https://bgcd.co/discord)
+- [Twitter Bugcrowd](https://x.com/bugcrowd)
+
+
 Terms:
 
 - IDOR
 
 Next Action Item:
 
-https://www.hackerone.com/hackerone-community-blog/how-become-successful-bug-bounty-hunter
+https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters
+
+
