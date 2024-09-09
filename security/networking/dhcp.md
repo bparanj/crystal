@@ -76,3 +76,44 @@ The TCP three-way handshake is the process used to establish a connection betwee
 After these three steps are completed successfully, a TCP connection is established and data can begin to flow between the client and server.
 
 This process ensures that both sides are ready to communicate and helps to synchronize sequence numbers used for tracking the conversation.
+
+When configuring a DHCP server for a Small Office/Home Office (SOHO) network, you have some flexibility in choosing IP addresses, but there are guidelines and best practices to follow.
+
+1. Private IP Address Ranges:
+   For SOHO networks, you should use private IP address ranges as defined by RFC 1918. These are:
+
+   - 10.0.0.0 to 10.255.255.255 (10.0.0.0/8)
+   - 172.16.0.0 to 172.31.255.255 (172.16.0.0/12)
+   - 192.168.0.0 to 192.168.255.255 (192.168.0.0/16)
+
+2. Common SOHO Choices:
+   Most SOHO routers default to using:
+   - 192.168.0.0/24 (255.255.255.0)
+   - 192.168.1.0/24 (255.255.255.0)
+
+3. Avoiding Conflicts:
+   - Ensure the range you choose doesn't conflict with other networks you might connect to (e.g., via VPN).
+   - If you're using multiple subnets, make sure they don't overlap.
+
+4. Size Considerations:
+   - For most SOHO networks, a /24 subnet (providing 254 usable IP addresses) is sufficient.
+   - If you need more addresses, you could use a larger subnet like /23 or /22.
+
+5. Router/Server IP:
+   - Typically, you'd assign a static IP to your router/DHCP server at the beginning or end of the range.
+   - Common choices are x.x.x.1 or x.x.x.254
+
+6. DHCP Range:
+   - Set your DHCP range to leave some IPs available for static assignment.
+   - For example, if using 192.168.1.0/24:
+     - Router: 192.168.1.1
+     - DHCP range: 192.168.1.50 to 192.168.1.200
+     - Static IPs: Can use 2-49 and 201-254
+
+Given your previous configuration using 172.18.0.0/16, this is a valid choice for a SOHO network, although it provides far more addresses than typically needed (65,534 usable addresses). If you want to stick with this range, you could consider:
+
+- Server/Router IP: 172.18.0.1
+- DHCP Range: 172.18.0.10 to 172.18.0.254
+- Subnet Mask: 255.255.0.0
+
+While you can choose any IP within the private ranges, it's often best to stick with common practices unless you have a specific reason to do otherwise. This makes troubleshooting easier and reduces the likelihood of conflicts if connecting to other networks.
