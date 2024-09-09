@@ -48,3 +48,31 @@
 - [RFC 2131: Dynamic Host Configuration Protocol](https://tools.ietf.org/html/rfc2131)
 
 DHCP is a protocol in IP networking that simplifies the configuration and management of network devices by dynamically assigning IP addresses and other necessary parameters. This improves network efficiency and reduces the administrative overhead associated with manual IP address assignment.
+
+DHCP reservation, also sometimes called static DHCP assignment or DHCP static mapping.
+
+Here's a brief explanation of how it works:
+
+1. Instead of configuring a static IP address on the host device itself, you configure the DHCP server to always assign a specific IP address to that device.
+
+2. This is typically done by associating the device's MAC address with a particular IP address in the DHCP server's configuration.
+
+3. When the device requests an IP address from the DHCP server, the server recognizes its MAC address and assigns it the pre-configured IP address.
+
+This approach combines the benefits of static IP addressing (consistent, known IP addresses for specific devices) with the convenience of DHCP (centralized management, automatic configuration on the client side).
+
+DHCP reservation is particularly useful in environments where you want to maintain centralized control over IP addressing while ensuring certain devices (like servers, printers, or network equipment) always receive the same IP address.
+
+The term that refers to establishing a TCP session is "handshake" or more specifically, the "three-way handshake."
+
+The TCP three-way handshake is the process used to establish a connection between two devices using the TCP (Transmission Control Protocol) protocol. It's called a "three-way" handshake because it involves three steps:
+
+1. SYN (Synchronize): The client sends a SYN packet to the server to initiate the connection.
+
+2. SYN-ACK (Synchronize-Acknowledge): The server responds with a SYN-ACK packet to acknowledge the client's request.
+
+3. ACK (Acknowledge): The client sends an ACK packet back to the server to acknowledge the server's response.
+
+After these three steps are completed successfully, a TCP connection is established and data can begin to flow between the client and server.
+
+This process ensures that both sides are ready to communicate and helps to synchronize sequence numbers used for tracking the conversation.

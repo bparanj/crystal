@@ -83,6 +83,9 @@ Community
 - [Bugcrowd Discord](https://bgcd.co/discord)
 - [Twitter Bugcrowd](https://x.com/bugcrowd)
 
+Links
+
+- [Nahamsec](https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters)
 
 Terms:
 
@@ -90,6 +93,7 @@ Terms:
 
 Next Action Item:
 
-https://github.com/nahamsec/Resources-for-Beginner-Bug-Bounty-Hunters
+https://github.com/devanshbatham/Awesome-Bugbounty-Writeups
+
 
 
