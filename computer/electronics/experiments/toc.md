@@ -5,3 +5,4 @@
 5. Potentiometer
 6. Capacitor
 7. Diode (Next)
+8. Fuse
