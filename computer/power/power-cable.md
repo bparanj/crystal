@@ -113,5 +113,3 @@ To test the power cable safely and in isolation, you can use a multimeter to che
 6. Test the power adapter: If the power cable passes the continuity and short circuit tests, you can proceed to test the power adapter brick using the same multimeter. Set the multimeter to the appropriate voltage range (e.g., 20V DC), and measure the voltage between the power adapter's output pins. The voltage should match the specifications listed on the adapter or your laptop.
 
 This test only checks the power cable and adapter. If the issue persists after confirming that the cable and adapter are functioning correctly, the problem may lie with the laptop's power connector or internal components.
-
-Exercise caution when working with electrical components, and if you are unsure about any steps or encounter further issues, consult a professional or contact the laptop manufacturer for assistance.

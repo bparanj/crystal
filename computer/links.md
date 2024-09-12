@@ -16,8 +16,6 @@ learning.lenovo.com (How to signup - there is no registration link)
 
 https://www.youtube.com/@empoweredpc/videos
 
-https://cellbotics.com/computer-repair-course/
-
 https://www.professormesser.com/
 
 https://shopgoodwill.com/

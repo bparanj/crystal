@@ -1,4 +1,4 @@
-Yes, you can use a VMware image in Proxmox Virtual Environment (PVE). Proxmox supports the import and conversion of VMware virtual machines. Here are the general steps to achieve this:
+Yes, you can use a VMware image in Proxmox Virtual Environment (PVE). Proxmox supports the import and conversion of VMware virtual machines. Here are the steps to achieve this:
 
 ### Steps to Import a VMware Image into Proxmox VE
 
@@ -96,4 +96,4 @@ To use a VMware image in Proxmox VE, you can follow these general steps:
 
 While importing VMware images to Proxmox VE is possible, there may be some limitations or compatibility issues depending on the specific configuration of the virtual machine and the versions of VMware and Proxmox VE you are using. Test the imported virtual machine to ensure it functions as expected in the Proxmox VE environment.
 
-Make sure you have sufficient storage space in Proxmox VE to accommodate the imported virtual machine's disk files.
+You must have sufficient storage space in Proxmox VE to accommodate the imported virtual machine's disk files.

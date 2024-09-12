@@ -1,4 +1,4 @@
-Getting started with bug bounty hunting and earning money by finding security flaws requires knowledge, skills, and dedication. Here's a step-by-step guide to help you get started:
+Getting started with bug bounty hunting and earning money by finding security flaws requires knowledge, skills, and dedication. Here's a step-by-step guide to get started:
 
 1. Learn the basics of web technologies and security:
    - Study HTML, CSS, JavaScript, and server-side technologies like PHP, Python, or Ruby.

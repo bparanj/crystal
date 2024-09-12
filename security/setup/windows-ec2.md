@@ -1,4 +1,5 @@
 Can I setup an EC2 instance for window for this scenario:
+
 Setting up a Windows common testing platform should be to help complement your Kali Linux host. Change your host names, disable NetBios if you don’t need it, and harden these boxes as much as you can. The last thing you want is to get owned during a test.
 
 Yes, you can set up an EC2 instance for Windows to complement your Kali Linux host. Here are the steps to create and configure a Windows EC2 instance on AWS for this purpose:

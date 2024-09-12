@@ -33,7 +33,7 @@ An external data bus in computer hardware is a communication system that transfe
    - Affects data transfer rates and system throughput
    - Key factor in overall computer performance
 
-The external data bus (EDB) in computer hardware is a set of physical connections (wires or traces on a circuit board) that carry data between the computer's central processing unit (CPU) and external devices, such as memory, storage, and peripherals. Here are some key points about the external data bus:
+The external data bus (EDB) in computer hardware is a set of physical connections (wires or traces on a circuit board) that carry data between the computer's processing CPU and external devices, such as memory, storage, and peripherals.
 
 1. **Purpose**: The EDB facilitates communication between the CPU and external components. It ensures that data can be transferred in and out of the CPU efficiently.
 
@@ -51,4 +51,4 @@ The external data bus (EDB) in computer hardware is a set of physical connection
    - **Peripheral Component Interconnect (PCI) Bus**: Connects peripheral devices to the CPU.
    - **Universal Serial Bus (USB)**: Connects external devices like keyboards, mice, and storage devices.
 
-Understanding the external data bus is essential for comprehending how different parts of a computer system communicate and work together. It plays a crucial role in the overall performance and functionality of the system.
+Understanding the external data bus is necessary for comprehending how different parts of a computer system communicate and work together. It plays a role in the overall performance and functionality of the system.

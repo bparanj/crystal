@@ -1,6 +1,4 @@
-Penetration testing, also known as pen testing or ethical hacking, is a simulated cyberattack against a computer system, network, or web application to evaluate its security. The objective of penetration testing is to identify vulnerabilities, weaknesses, and security gaps that could be exploited by malicious actors.
-
-Key points about penetration testing:
+Penetration testing is a simulated cyberattack against a computer system, network, or web application to evaluate its security. The objective of penetration testing is to identify vulnerabilities, weaknesses, and security gaps that could be exploited by malicious actors.
 
 1. Purpose:
    - Assess the effectiveness of security measures and controls.
@@ -71,7 +69,7 @@ Here are a few reasons why "penetration" is used in the term:
 
 Using the term "penetration" in "penetration testing" helps convey the depth, thoroughness, and realistic nature of the testing approach. It underscores the goal of actively attempting to breach the system's defenses and gain unauthorized access, similar to what a real attacker would do. The term has become widely accepted and understood within the cybersecurity industry to represent this specific type of security testing.
 
-Penetration testing, commonly known as pen testing, is a method used to evaluate the security of an IT infrastructure by safely attempting to exploit vulnerabilities. These vulnerabilities could exist in operating systems, services and application flaws, improper configurations, or risky end-user behavior. The primary goal is to identify security weaknesses that could be exploited by attackers and to suggest improvements to enhance security measures.
+Penetration testing is a method used to evaluate the security of an IT infrastructure by safely attempting to exploit vulnerabilities. These vulnerabilities could exist in operating systems, services and application flaws, improper configurations, or risky end-user behavior. The primary goal is to identify security weaknesses that could be exploited by attackers and to suggest improvements to enhance security measures.
 
 ### Key Aspects of Penetration Testing
 

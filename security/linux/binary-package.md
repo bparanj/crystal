@@ -1,4 +1,4 @@
-A binary package is a pre-compiled, ready-to-install software package that contains executable files and other resources needed for a program to run. Here are key points about binary packages:
+A binary package is a pre-compiled, ready-to-install software package that contains executable files and other resources needed for a program to run.
 
 1. Pre-compiled:
    - The source code has already been compiled into machine-readable binary format.
@@ -43,3 +43,14 @@ A binary package is a pre-compiled, ready-to-install software package that conta
     - Source packages contain the original source code and require compilation before use
 
 Binary packages are used for easy software distribution and management in modern operating systems, especially for end-users who may not have the expertise or desire to compile software from source.
+
+## Terms
+
+- Pre-compiled Package
+- Executable File
+- Machine Readable
+- Package Manager
+- Library
+- Compile
+- Package Repository
+- Source Package

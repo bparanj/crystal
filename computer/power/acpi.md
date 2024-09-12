@@ -1,4 +1,4 @@
-ACPI (Advanced Configuration and Power Interface) is a power management and configuration standard for computer hardware. Key points:
+ACPI (Advanced Configuration and Power Interface) is a power management and configuration standard for computer hardware.
 
 1. Purpose: Manages power consumption and hardware configuration
 

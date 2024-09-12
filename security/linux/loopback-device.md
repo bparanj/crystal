@@ -1,6 +1,9 @@
 ### What is a Loopback Device?
 
-A **loopback device** in computer networking and storage is a virtual device that emulates a real device. It is used primarily for testing and development purposes. There are two main types of loopback devices: network loopback devices and loopback block devices.
+A **loopback device** in computer networking and storage is a virtual device that emulates a real device. It is used for testing and development purposes. There are two types of loopback devices:
+
+- Network loopback devices
+- Loopback block devices
 
 ### Network Loopback Device:
 
@@ -39,16 +42,28 @@ A **loopback device** in computer networking and storage is a virtual device tha
      mount /dev/loop0 /mnt                             # Mount the loop device
      ```
 
-### Benefits of Loopback Devices:
+### Benefits:
 
 1. **Versatility**:
-   - Loopback devices provide a versatile environment for testing and development, eliminating the need for additional hardware.
+   - Loopback devices provide a versatile environment for testing and development without any additional hardware.
 
 2. **Security**:
    - They allow secure and isolated testing, as data does not leave the local machine.
 
 3. **Resource Efficiency**:
    - They make efficient use of existing resources by allowing multiple virtual devices to be managed without requiring physical counterparts.
+
+## Terms
+
+- Disk Image
+- Mounting Disk Image
+- Virtual Device
+- Virtual Environment
+- Device Emulation
+- Block Device
+- Virtual Network
+- Psedo Device
+- ISO Image
 
 ### Sources:
 

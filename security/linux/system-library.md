@@ -1,8 +1,8 @@
 ### What is a System Library?
 
-A system library is a collection of pre-compiled routines that a program can use to perform common tasks. These libraries provide a standardized set of functions that are reusable across different programs, reducing the need for developers to write code from scratch for common operations. System libraries are essential components of an operating system, providing a bridge between the application layer and the kernel.
+A system library is a collection of pre-compiled routines that a program can use to perform common tasks. These libraries provide a standardized set of functions that are reusable across different programs, reducing the need to write code from scratch for common operations. System libraries are essential components of an operating system, providing a bridge between the application layer and the kernel.
 
-### Key Characteristics of System Libraries:
+### Key Characteristics:
 
 1. **Pre-compiled and Reusable**:
    - System libraries consist of pre-compiled code that can be reused by multiple programs. This promotes code reusability and modularity.
@@ -11,12 +11,12 @@ A system library is a collection of pre-compiled routines that a program can use
    - They provide standardized interfaces for common operations such as file handling, memory management, and network communication, ensuring consistency across different applications.
 
 3. **Efficient Development**:
-   - By using system libraries, developers can focus on the unique aspects of their applications rather than implementing standard functions, leading to faster and more efficient development.
+   - By using system libraries, developers can focus on the unique aspects of their applications rather than implementing standard functions, leading to faster development.
 
 4. **Performance Optimization**:
    - Libraries are often optimized for performance, providing efficient implementations of common tasks that can improve the overall performance of applications.
 
-### Examples of System Libraries:
+### Examples:
 
 1. **GNU C Library (glibc)**:
    - **Description**: The GNU C Library, commonly known as glibc, is the standard C library for Linux systems. It provides essential routines for system calls, file operations, string manipulation, and more.
@@ -58,4 +58,13 @@ A system library is a collection of pre-compiled routines that a program can use
 4. **"Linux System Programming" by Robert Love**:
    - Provides insights into system programming, including the use of system libraries and how they interact with the Linux kernel.
 
-System libraries are fundamental to the operation and development of software on an operating system, providing building blocks that simplify and standardize the creation of applications.
+System libraries are fundamental to the operation and development of software on an operating system, providing building blocks that simplify and standardize development of applications.
+
+## Terms
+
+- Static Linking
+- Dynamic Linking
+- Kernel
+- Application Layer
+- Precompiled Code
+- Compilation
