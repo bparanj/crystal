@@ -8,7 +8,7 @@
 **How do voltages add up in a circuit?**
 - Voltage in a circuit is like the energy a car uses to go up and down hills. In a closed loop, if you add up all the increases and decreases in energy (voltage), they balance out to zero by the time you get back to where you started. This is called Kirchhoff's Voltage Law (KVL), which says the total voltage around any closed loop in a circuit is zero.
 
-### Level 3: Explaining to an Undergraduate Student Majoring in Electronics
+### Level 3: Undergraduate Student
 
 **Understanding how voltages add up in a circuit technically**
 - According to Kirchhoff’s Voltage Law (KVL), the sum of all voltages around a closed loop in a circuit is zero. This means if you take the voltage gains (like those across power sources) and subtract the voltage drops (like those across resistors or other components), the total will be zero. Mathematically, \( \sum_{i=1}^{n} V_i = 0 \), where \( V_i \) represents the voltage at each point in the loop.

@@ -8,7 +8,7 @@
 **What is current in a circuit?**
 - Current in a circuit is like water flowing through a pipe. The more water flowing, the stronger the current. It's measured in amperes (amps). Different parts of a circuit can have different amounts of current flowing through them depending on the resistance and voltage at that point.
 
-### Level 3: Explaining to an Undergraduate Student Majoring in Electronics
+### Level 3: Undergraduate Student
 
 **Understanding current in a circuit technically**
 - Current (\(I\)) in a circuit is the flow of electric charge through a conductor, measured in amperes (A). According to Ohm's Law (\(V = IR\)), the current at any point in the circuit depends on the voltage (\(V\)) across that point and the resistance (\(R\)) at that point. Kirchhoff’s Current Law (KCL) states that the total current entering a junction equals the total current leaving it, which helps in analyzing complex circuits.

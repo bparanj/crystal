@@ -8,7 +8,7 @@
 **What is alternating current (AC)?**
 - Alternating current (AC) is a type of electricity where the flow of electric charge changes direction periodically. Unlike direct current (DC), which flows in one direction, AC switches direction many times per second. This makes it very efficient for sending electricity over long distances, like the power that comes into your home from the power plant.
 
-### Level 3: Explaining to an Undergraduate Student Majoring in Electronics
+### Level 3: Undergraduate Student
 
 **Understanding alternating current (AC) in a technical context**
 - Alternating current (AC) is an electric current that periodically reverses direction, in contrast to direct current (DC) which flows only in one direction. The most common waveform of AC is the sinusoidal wave, characterized by its frequency (measured in hertz, Hz) and amplitude. AC is widely used in power distribution systems because it can be easily transformed to different voltages using transformers, making it efficient for long-distance transmission.

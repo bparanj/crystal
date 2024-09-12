@@ -9,6 +9,8 @@ Diode experiment demonstrates this idea.
 ### 2. **Threshold Behavior**:
    - Unlike a mechanical switch that changes state instantly, a diode requires a certain threshold voltage (typically 0.7V for a silicon diode) in forward bias to start conducting. Below this threshold, the diode remains "off," and above it, the diode turns "on."
 
+This needs a variable power supply to demonstrate.
+
 ### 3. **Nonlinear Behavior**:
    - While a mechanical switch is either fully "on" or "off," a diode has a nonlinear transition between these states. In forward bias, the diode starts conducting gradually once the threshold is reached, and the current increases rapidly with increasing voltage.
 
@@ -28,4 +30,6 @@ A diode behaves like a switch by allowing or blocking current flow based on the 
 
 - Forward Bias
 - Reverse Bias
-- 
+- Nonlinear
+- Rectification
+ 

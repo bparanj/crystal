@@ -1,4 +1,4 @@
-Resistors are fundamental components in electronics with numerous applications. Here are some uses of resistors in electronic circuits:
+Resistors are fundamental components in electronics with numerous applications. Here are some uses of resistors:
 
 1. Current limiting:
    - Protect sensitive components by limiting current flow

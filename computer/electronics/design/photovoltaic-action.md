@@ -69,7 +69,7 @@ Imagine the sun is like a big, bright friend who gives away tiny bits of light c
 2.  teenager (13-16 years old):
 Photovoltaic action is how solar panels turn sunlight into electricity. The panels are made of special materials called semiconductors, usually silicon. When light hits these materials, it gives energy to the electrons inside. This extra energy allows the electrons to break free and move, creating an electric current. The panel has two layers with different properties that help guide the electrons in one direction, creating a useful flow of electricity we can use to power devices.
 
-3. Explaining to an undergraduate student majoring in electronics:
+3. Explaining to an undergraduate student:
 Photovoltaic action occurs in semiconductor materials, typically silicon doped to form a p-n junction. When photons with energy greater than the bandgap of the semiconductor are absorbed, they create electron-hole pairs. The built-in electric field at the p-n junction separates these charge carriers, with electrons moving to the n-type region and holes to the p-type region. This separation of charges creates a potential difference across the cell.
 
 Key concepts to understand:

@@ -1,4 +1,4 @@
-Steps after Power On
+## Steps after Power On
 
 Here are the high-level steps that occur when you turn on a laptop:
 

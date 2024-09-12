@@ -65,10 +65,10 @@ Imagine you have a long water slide. When you start at the top, you have lots of
 2. To a teenager (13-15 years old):
 Think of voltage as electrical pressure. When electricity flows through a wire, it's like water flowing through a pipe. Just as water loses some pressure as it moves through a long pipe, electricity loses some of its "pressure" (voltage) as it travels through a wire. This loss is called voltage drop.
 
-3. To an undergraduate student majoring in electronics:
+3. To an undergraduate student:
 Voltage drop occurs due to the resistance in a conductor. As current flows through a wire, it encounters resistance, which causes some of the electrical energy to be converted into heat. This energy loss results in a decrease in potential difference (voltage) along the wire. We can calculate voltage drop using Ohm's Law: V = IR, where V is the voltage drop, I is the current, and R is the resistance of the wire.
 
-4. To a graduate student in electronics:
+4. To a graduate student:
 Voltage drop is a consequence of the Second Law of Thermodynamics and the concept of entropy in electrical systems. In real-world applications, we must consider factors like wire gauge, material properties, temperature coefficients, and current density. For AC systems, we also need to account for reactance and impedance. Advanced modeling techniques, such as distributed parameter models, can provide more accurate predictions of voltage drop in complex systems, especially for high-frequency applications or long transmission lines.
 
 5. To a colleague (expert level):

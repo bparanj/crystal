@@ -56,7 +56,7 @@ Imagine you have two special blocks. When one block gets hot and the other stays
 2.  teenager (13-16 years old):
 The thermoelectric effect is when we can create electricity from a temperature difference, or use electricity to create a temperature difference. It happens in special materials called semiconductors. When one side is hot and the other is cold, tiny particles called electrons move from the hot side to the cold side, creating an electric current. We can use this effect to generate power from heat or to make small, quiet coolers without any moving parts.
 
-3. Explaining to an undergraduate student majoring in electronics:
+3. Explaining to an undergraduate student:
 The thermoelectric effect encompasses three related phenomena: the Seebeck effect, the Peltier effect, and the Thomson effect.
 
 1. Seebeck effect: When two different conductors are joined and their junctions are at different temperatures, a voltage is produced proportional to the temperature difference. The Seebeck coefficient (S) describes this relationship: V = S(T₁ - T₂).

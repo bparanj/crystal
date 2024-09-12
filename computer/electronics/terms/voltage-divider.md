@@ -25,7 +25,7 @@ Voltage dividers are indispensable tools in the electronics engineer's toolkit, 
 **What is a voltage divider in electronics?**
 - A voltage divider is a simple circuit that uses two resistors to create a specific voltage that is lower than the input voltage. It's like having two water slides of different heights; the water (or electricity) flows down both, but at different levels. This allows you to get a smaller, controlled voltage for part of your circuit.
 
-### Level 3: Explaining to an Undergraduate Student Majoring in Electronics
+### Level 3: Undergraduate Student
 
 **Understanding a voltage divider technically**
 - A voltage divider consists of two resistors connected in series across a voltage source. The output voltage is taken from the junction of the two resistors. The formula for the output voltage (\(V_{out}\)) is \( V_{out} = V_{in} \cdot \frac{R2}{R1 + R2} \), where \(V_{in}\) is the input voltage, and \(R1\) and \(R2\) are the resistances. This configuration allows you to divide the input voltage into a smaller, proportional voltage.

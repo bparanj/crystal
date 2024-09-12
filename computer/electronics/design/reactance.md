@@ -51,10 +51,10 @@ Imagine you're on a swing. When you're swinging slowly, it's easy to push you. B
 2. Teenager (13-16 years old):
 Reactance is how some electrical parts resist the flow of electricity that's changing over time. It's different from regular resistance because it depends on how fast the electricity is changing. There are two types: capacitive reactance (which resists more when electricity changes slowly) and inductive reactance (which resists more when electricity changes quickly). It's important in things like radios and speakers.
 
-3. Undergraduate student majoring in electronics:
+3. Undergraduate student:
 Reactance is the imaginary part of impedance in AC circuits. It's expressed in ohms and is frequency-dependent. For capacitors, reactance is given by Xc = 1/(2πfC), where f is frequency and C is capacitance. For inductors, it's XL = 2πfL, where L is inductance. Unlike resistance, reactance doesn't dissipate energy but instead stores and returns it to the circuit. It causes a phase shift between voltage and current: capacitive reactance causes current to lead voltage, while inductive reactance causes current to lag voltage.
 
-4. Graduate student in electronics:
+4. Graduate student:
 At this level, we delve deeper into the implications of reactance in complex systems. We analyze how reactance affects power factor in AC systems and its role in power quality. We explore the concept of complex power (S = P + jQ) and how reactive power (Q) relates to reactance. We study the behavior of reactance in resonant circuits, including series and parallel RLC circuits, and its applications in filter design. We also examine the effects of parasitic reactances in high-frequency circuits and transmission lines, including concepts like skin effect and proximity effect.
 
 5. Colleague (fellow expert):

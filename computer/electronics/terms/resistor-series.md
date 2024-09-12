@@ -8,7 +8,7 @@
 **What is placing a number of resistors in series?**
 - When you connect resistors in series, you are joining them end-to-end so that the same current flows through each resistor. This is like having a group of water pipes connected one after another; the same amount of water flows through each pipe. In a series circuit, the total resistance is the sum of all the individual resistances, making it harder for the current to flow.
 
-### Level 3: Explaining to an Undergraduate Student Majoring in Electronics
+### Level 3: Undergraduate Student
 
 **Understanding placing resistors in series technically**
 - Connecting resistors in series means that they are connected end-to-end, with the same current flowing through each resistor. The total or equivalent resistance (\(R_{total}\)) of resistors in series is the sum of their individual resistances: \( R_{total} = R_1 + R_2 + R_3 + \ldots + R_n \). This configuration increases the overall resistance, which reduces the current flowing through the circuit according to Ohm's Law (\(V = IR\)).

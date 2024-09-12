@@ -48,7 +48,7 @@ Imagine you have a special crystal that's like magic. When you squeeze it, it ma
 2.  teenager (13-16 years old):
 The piezoelectric effect is a property of certain materials, usually crystals, that can generate an electric charge when mechanical stress is applied to them. This works both ways: if you apply an electric field to these materials, they will change shape slightly. This effect is used in many devices, like electric lighters, speakers in headphones, and even some types of sensors in phones and game controllers.
 
-3. Explaining to an undergraduate student majoring in electronics:
+3. Explaining to an undergraduate student:
 The piezoelectric effect occurs in non-centrosymmetric crystals or ceramics. When mechanical stress is applied, it causes a displacement of charge within the crystal structure, resulting in a net electrical polarization. This is described by the equation:
 
 D = dT + εE

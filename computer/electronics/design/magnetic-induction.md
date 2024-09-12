@@ -55,7 +55,7 @@ Imagine you have a magic wand that can make metal things move without touching t
 2.  teenager (13-16 years old):
 Magnetic induction is when a changing magnetic field creates an electric current in a nearby conductor. This happens because the moving magnetic field pushes and pulls on the electrons in the metal. It's how we make electricity in power plants and how some wireless chargers work for phones. The faster the magnetic field changes, the more electricity is made.
 
-3. Explaining to an undergraduate student majoring in electronics:
+3. Explaining to an undergraduate student:
 Magnetic induction is governed by Faraday's Law, which states that the induced electromotive force (EMF) in a closed circuit is equal to the negative rate of change of magnetic flux through the circuit. Mathematically, this is expressed as:
 
 EMF = -N * (dΦ/dt)
