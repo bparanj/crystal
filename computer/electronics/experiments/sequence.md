@@ -111,9 +111,8 @@ Here's an arrangement of the components from simplest to most complicated, based
 
 This arrangement considers the components' complexity in terms of their internal structure, functionality, and typical application in circuits. It starts with basic passive components and progresses through various sensors, actuators, integrated circuits, and more complex systems. The most advanced items are microcontrollers and sophisticated test equipment.
 
-Here is an arrangement of the components you listed, from simplest to most complicated, broken down by category:
+Here is an arrangement of the components, from simplest to most complicated:
 
-- General Components
 - Resistor
 - Capacitor
 - Polarized Capacitor
