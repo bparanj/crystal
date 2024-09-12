@@ -6,6 +6,7 @@
 6. Capacitor
     - Polarized capacitor
 7. Diode (Next)
+<<<<<<< Updated upstream
     - Zener Diode
 8. Fuse
 9. Relay
@@ -13,3 +14,8 @@
 11. Inductor
 12. Resistor - series
 13. Resistor - parallel
+=======
+
+
+https://www.youtube.com/watch?v=Mi1-IV0vMCw&list=PLeVrdakJu3M43jB2WqKEL4_Hhn94LpOMT
+>>>>>>> Stashed changes
