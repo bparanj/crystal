@@ -50,10 +50,10 @@ This experiment demonstrates the **thermoelectric effect**, specifically the See
 
 
 
-1. Explaining to a child (5-8 years old):
+1.  child (5-8 years old):
 Imagine you have two special blocks. When one block gets hot and the other stays cool, they can make a tiny bit of electricity! It's like magic, but it's actually science. We can use this to make little lights glow or even to keep our drinks cold in a special cooler.
 
-2. Explaining to a teenager (13-16 years old):
+2.  teenager (13-16 years old):
 The thermoelectric effect is when we can create electricity from a temperature difference, or use electricity to create a temperature difference. It happens in special materials called semiconductors. When one side is hot and the other is cold, tiny particles called electrons move from the hot side to the cold side, creating an electric current. We can use this effect to generate power from heat or to make small, quiet coolers without any moving parts.
 
 3. Explaining to an undergraduate student majoring in electronics:
@@ -72,7 +72,7 @@ Key concepts include:
 - Materials selection and doping for thermoelectric devices
 - Applications in power generation and cooling
 
-4. Explaining to a graduate student:
+4.  graduate student:
 At an advanced level, we delve deeper into the quantum mechanics and solid-state physics underlying thermoelectric phenomena:
 
 - Boltzmann transport equation for electrons and phonons
@@ -90,7 +90,7 @@ We also explore advanced concepts and techniques:
 - Hybrid thermoelectric-photovoltaic systems
 - Characterization techniques: Harman method, 3ω method, scanning probe microscopy
 
-5. Explaining to a colleague (expert level):
+5.  colleague (expert level):
 In a peer-to-peer discussion, we'd focus on cutting-edge research and challenges in thermoelectrics:
 
 - Novel materials: discussing recent advancements in organic thermoelectrics, hybrid perovskites, and two-dimensional materials like graphene and transition metal dichalcogenides.
