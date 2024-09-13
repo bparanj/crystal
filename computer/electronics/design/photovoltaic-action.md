@@ -63,13 +63,13 @@ To demonstrate how sunlight can be converted directly into electrical energy usi
 ### Explanation:
 This experiment demonstrates **photovoltaic action**, where light energy is converted directly into electrical energy by the solar cell. When photons from the light source strike the semiconductor material in the solar cell, they excite electrons, freeing them from their atomic bonds and creating an electric current. The multimeter reading shows the voltage generated, and the optional LED demonstrates that this electrical energy can be used to power devices. This simple setup provides a clear illustration of how solar cells harness light to generate electricity.
 
-1. Explaining to a child (5-8 years old):
+1.  child (5-8 years old):
 Imagine the sun is like a big, bright friend who gives away tiny bits of light called photons. Solar panels are like special catchers that grab these photons. When the photons land on the solar panel, they wake up tiny helpers inside called electrons. These excited electrons then run around and make electricity, which we can use to power our toys and lights!
 
-2. Explaining to a teenager (13-16 years old):
+2.  teenager (13-16 years old):
 Photovoltaic action is how solar panels turn sunlight into electricity. The panels are made of special materials called semiconductors, usually silicon. When light hits these materials, it gives energy to the electrons inside. This extra energy allows the electrons to break free and move, creating an electric current. The panel has two layers with different properties that help guide the electrons in one direction, creating a useful flow of electricity we can use to power devices.
 
-3. Explaining to an undergraduate student majoring in electronics:
+3. Explaining to an undergraduate student:
 Photovoltaic action occurs in semiconductor materials, typically silicon doped to form a p-n junction. When photons with energy greater than the bandgap of the semiconductor are absorbed, they create electron-hole pairs. The built-in electric field at the p-n junction separates these charge carriers, with electrons moving to the n-type region and holes to the p-type region. This separation of charges creates a potential difference across the cell.
 
 Key concepts to understand:
@@ -82,7 +82,7 @@ Key concepts to understand:
 
 The open-circuit voltage (Voc) and short-circuit current (Isc) are crucial parameters in determining the cell's performance.
 
-4. Explaining to a graduate student:
+4.  graduate student:
 At an advanced level, we delve deeper into the quantum mechanics underlying photovoltaic action. We consider:
 
 - Detailed balance limit and Shockley-Queisser efficiency limit
@@ -102,7 +102,7 @@ Analysis techniques include:
 - Optical modeling (e.g., transfer matrix method)
 - Advanced characterization: electroluminescence, photoluminescence spectroscopy
 
-5. Explaining to a colleague (expert level):
+5.  colleague (expert level):
 In a peer-to-peer discussion, we'd focus on cutting-edge research and challenges in photovoltaics:
 
 - Novel materials: discussing recent advancements in perovskite-silicon tandems, their stability issues, and scalability challenges.

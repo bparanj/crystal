@@ -1,8 +1,10 @@
+## DHCP
+
 ### What is DHCP?
 
 **DHCP (Dynamic Host Configuration Protocol)** is a network management protocol used to automate the process of configuring devices on IP networks. This protocol dynamically assigns IP addresses and other network configuration parameters to devices, enabling them to communicate on an IP network without manual configuration.
 
-### Key Functions of DHCP:
+### Key Functions:
 
 1. **Automatic IP Address Assignment**:
    - DHCP automatically assigns IP addresses to devices on a network, eliminating the need for manual configuration by network administrators. This simplifies network management and reduces the risk of IP address conflicts.
@@ -50,8 +52,6 @@
 DHCP is a protocol in IP networking that simplifies the configuration and management of network devices by dynamically assigning IP addresses and other necessary parameters. This improves network efficiency and reduces the administrative overhead associated with manual IP address assignment.
 
 DHCP reservation, also sometimes called static DHCP assignment or DHCP static mapping.
-
-Here's a brief explanation of how it works:
 
 1. Instead of configuring a static IP address on the host device itself, you configure the DHCP server to always assign a specific IP address to that device.
 

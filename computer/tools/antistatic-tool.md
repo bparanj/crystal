@@ -68,3 +68,12 @@ An antistatic tool is a device designed to prevent or reduce the buildup and tra
 7. Maintenance:
    - Regular testing to ensure proper functionality
    - Periodic cleaning to maintain effectiveness
+
+## Terms
+
+- Static Electricity
+- Electrostatic Discharge
+- Conductive Material
+- Dissipative Material
+- Antistatic
+- Static Buildup

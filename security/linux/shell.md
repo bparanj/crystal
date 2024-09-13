@@ -1,6 +1,6 @@
 ### What is a Shell?
 
-A shell in computing, particularly in the context of Unix-like operating systems such as Linux, is a command-line interface (CLI) that allows users to interact with the operating system. It provides an interface for users to execute commands, run scripts, and manage the system. Shells can also be used for scripting, allowing users to automate repetitive tasks.
+A shell is a command-line interface that allows users to interact with the operating system. It provides an interface for users to execute commands, run scripts, and manage the system. Shells can also be used for scripting, allowing users to automate repetitive tasks.
 
 ### Functions of a Shell:
 
@@ -53,5 +53,3 @@ The term "shell" is used because it acts as a "shell" or outer layer that encase
 - [Operating System Concepts](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1118063333)
 - [The Linux Programming Interface](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200)
 - [Unix Shell Programming](https://www.amazon.com/Unix-Shell-Programming-Stephen-Kochan/dp/0672324903)
-
-By understanding a shell, users can appreciate its role as a crucial interface between the user and the operating system, providing both command execution and scripting capabilities.

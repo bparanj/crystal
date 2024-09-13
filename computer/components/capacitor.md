@@ -184,7 +184,7 @@ Here are three simple experiments designed to illustrate the concept of **capaci
 - Wires for connections
 
 **Procedure**:
-1. **Set Up the Circuit**: Connect the battery, capacitor, resistor, and switch in series with the LED or light bulb. The circuit should be: Battery -> Switch -> Resistor -> Capacitor -> LED -> Battery.
+1. **Set Up the Circuit**: Connect the battery, capacitor, resistor, and switch in series with the LED. The circuit should be: Battery -> Switch -> Resistor -> Capacitor -> LED -> Battery.
 2. **Close the Switch (Charging)**: Close the switch to start charging the capacitor. The LED will light up as current flows through the circuit and charges the capacitor.
 3. **Observe the LED**: Over time, you will notice the LED gradually dimming as the capacitor charges and the current decreases.
 4. **Open the Switch (Discharging)**: After the capacitor is fully charged, open the switch to disconnect the battery. Then, connect the LED directly across the capacitor (without the battery) to observe the discharge process.

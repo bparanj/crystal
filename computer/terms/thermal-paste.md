@@ -16,7 +16,7 @@ Thermal paste, also known as thermal compound, thermal grease, or thermal interf
 
 2. **Replacing a Heat Sink**: If you are replacing or re-seating a heat sink, you should clean off the old thermal paste and apply a new layer.
 
-3. **Regular Maintenance**: Over time, thermal paste can dry out and lose its effectiveness. It's recommended to reapply thermal paste periodically (every few years) to maintain optimal thermal performance.
+3. **Regular Maintenance**: Over time, thermal paste can dry out and lose its effectiveness. It's recommended to reapply thermal paste every few years to maintain optimal thermal performance.
 
 ### How to Apply Thermal Paste?
 
@@ -53,4 +53,4 @@ When to use thermal paste:
 
 4. High-performance computing: In demanding applications like gaming, overclocking, or running resource-intensive software, using high-quality thermal paste can help maintain optimal performance by preventing thermal throttling.
 
-Applying the right amount of thermal paste is crucial. A pea-sized amount is usually sufficient, as excessive thermal paste can actually decrease heat transfer efficiency. Make sure to choose a high-quality thermal paste from a reputable manufacturer to ensure the best performance and longevity.
+Applying the right amount of thermal paste is crucial. A pea-sized amount is sufficient, as excessive thermal paste can decrease heat transfer efficiency. Choose a high-quality thermal paste from a reputable manufacturer to ensure the best performance and longevity.

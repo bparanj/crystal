@@ -54,7 +54,7 @@ Imagine you have a water faucet that sometimes sprays water too hard and sometim
 2. Teenager (13-16 years old):
 A voltage regulator is an electronic component that keeps the voltage in a circuit steady. Think of voltage like water pressure in a pipe. Sometimes the pressure can be too high or too low, which can damage things or make them not work right. A voltage regulator takes the input voltage, which might vary, and outputs a constant, stable voltage. This is important for many electronic devices to work correctly and safely.
 
-3. Undergraduate student majoring in electronics:
+3. Undergraduate student:
 Voltage regulators are crucial components in power management circuits. They maintain a constant voltage level despite variations in input voltage or load current. There are two main types: linear regulators and switching regulators.
 
 Linear regulators work by dissipating excess power as heat, essentially acting as a variable resistor. They're simple and produce clean output but are inefficient for large voltage drops.
@@ -63,7 +63,7 @@ Switching regulators use rapid switching and energy storage elements (inductors 
 
 Key parameters include dropout voltage, quiescent current, line and load regulation, and thermal characteristics. Understanding datasheet parameters and choosing the right regulator type is crucial for effective circuit design.
 
-4. Graduate student in electronics:
+4. Graduate student:
 At this level, we delve deeper into advanced regulator topologies and their applications. We explore low-dropout (LDO) regulators, their internal structures, and trade-offs between PMOS and NMOS pass elements. We analyze the stability of voltage regulators, including frequency compensation techniques and the impact of ESR in output capacitors.
 
 For switching regulators, we study buck, boost, and buck-boost topologies, along with more complex architectures like SEPIC and Ćuk converters. We examine control methods like voltage-mode and current-mode control, and their implications for transient response and stability.

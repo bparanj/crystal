@@ -50,7 +50,7 @@ This experiment demonstrates the **static electric effect**, where rubbing the b
 2. Teenager (13-17 years old):
 "Static electricity happens when certain materials rub against each other. This causes electrons, which are tiny parts of atoms, to move from one material to another. This creates an imbalance of electric charge, which can make objects attract or repel each other. That's why your hair might stand up after taking off a sweater."
 
-3. Undergraduate student majoring in electronics:
+3. Undergraduate student:
 "Static electricity is the result of triboelectric charging, where materials exchange electrons through contact and separation. This creates an electrostatic potential difference between objects. The magnitude of charge separation depends on the materials' positions in the triboelectric series. The resulting electric field can cause observable effects like attraction, repulsion, or even spark discharge when the field strength exceeds the dielectric breakdown of air."
 
 4. Graduate student:

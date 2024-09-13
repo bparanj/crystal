@@ -1,6 +1,6 @@
 Here's an explanation of a Thyristor at five different levels of complexity:
 
-1. Child (5-10 years old):
+1. Child:
 A thyristor is like a special light switch. It stays off until you press a button, and then it lets electricity flow through. Once it's on, it stays on until you turn off the main power. It's used in many toys and gadgets to control when they turn on and off.
 
 2. Teenager (13-17 years old):

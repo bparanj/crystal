@@ -1,7 +1,5 @@
 CSRF stands for Cross-Site Request Forgery. It is a type of web security vulnerability that allows an attacker to induce users to perform unintended actions on a web application in which they are currently authenticated.
 
-Here are the key points:
-
 1. Unauthorized Actions:
    - CSRF exploits the trust that a web application has in a user's browser.
    - It allows an attacker to trick a victim's browser into sending a forged request to the web application.
@@ -9,7 +7,7 @@ Here are the key points:
    - The attacker can make the user perform unintended actions, such as changing account settings, making purchases, or submitting forms.
 
 2. Exploiting User's Authentication:
-   - CSRF attacks rely on the fact that the user is authenticated (logged in) to the target web application.
+   - CSRF attacks rely on the fact that the user is authenticated to the target web application.
    - When a user is authenticated, their browser typically sends authentication tokens (such as cookies) with each request to the application.
    - The attacker exploits this by crafting a malicious request that includes the user's authentication tokens.
 
@@ -19,12 +17,12 @@ Here are the key points:
    - The request appears to originate from the victim's browser, making it seem legitimate to the web application.
 
 4. Tricking the User:
-   - For a CSRF attack to be successful, the attacker needs to trick the user into clicking a malicious link or visiting a malicious webpage.
+   - For a CSRF attack to be successful, the attacker has to trick the user into clicking a malicious link or visiting a malicious webpage.
    - This can be done through various methods, such as sending a phishing email, posting a malicious link on social media, or injecting malicious code into a trusted website.
 
 5. Lack of Proper Validation:
    - CSRF vulnerabilities arise when a web application fails to properly validate the origin and authenticity of requests.
-   - If the application relies solely on authentication tokens (e.g., cookies) to validate requests, it becomes susceptible to CSRF attacks.
+   - If the application relies solely on authentication tokens to validate requests, it becomes susceptible to CSRF attacks.
 
 6. Prevention Techniques:
    - CSRF attacks can be prevented by implementing proper security measures, such as:
@@ -35,54 +33,12 @@ Here are the key points:
 
 7. Impact and Consequences:
    - CSRF attacks can lead to unauthorized actions, data modification, or disclosure of sensitive information.
-   - They can compromise user accounts, perform financial transactions, or manipulate application settings without the user's knowledge or consent.
-   - CSRF vulnerabilities can have severe consequences, impacting the confidentiality, integrity, and availability of web applications and user data.
+   - They can compromise user accounts, perform financial transactions, or manipulate application settings without the user's knowledge.
+   - CSRF vulnerabilities impacts the confidentiality, integrity, and availability of web applications and user data.
 
 Developers should implement appropriate CSRF prevention mechanisms, and users should be cautious when clicking on links or interacting with untrusted websites. Regular security testing and keeping web applications updated with the latest security patches are also important to mitigate the risk of CSRF attacks.
 
-CSRF stands for Cross-Site Request Forgery. It is a type of web security vulnerability that allows an attacker to induce users to perform unintended actions on a web application in which they are currently authenticated.
-
-Here are the key points to understand about CSRF:
-
-1. Unauthorized Actions:
-   - CSRF exploits the trust that a web application has in a user's browser.
-   - It allows an attacker to trick a victim's browser into sending a forged request to the web application.
-   - The forged request appears to be a legitimate request from the authenticated user.
-   - The attacker can make the user perform unintended actions, such as changing account settings, making purchases, or submitting forms.
-
-2. Exploiting User's Authentication:
-   - CSRF attacks rely on the fact that the user is authenticated (logged in) to the target web application.
-   - When a user is authenticated, their browser typically sends authentication tokens (such as cookies) with each request to the application.
-   - The attacker exploits this by crafting a malicious request that includes the user's authentication tokens.
-
-3. Forged Requests:
-   - The attacker creates a malicious link, webpage, or HTML form that triggers a forged request to the target web application.
-   - The forged request is designed to perform an unintended action on behalf of the authenticated user.
-   - The request appears to originate from the victim's browser, making it seem legitimate to the web application.
-
-4. Tricking the User:
-   - For a CSRF attack to be successful, the attacker needs to trick the user into clicking a malicious link or visiting a malicious webpage.
-   - This can be done through various methods, such as sending a phishing email, posting a malicious link on social media, or injecting malicious code into a trusted website.
-
-5. Lack of Proper Validation:
-   - CSRF vulnerabilities arise when a web application fails to properly validate the origin and authenticity of requests.
-   - If the application relies solely on authentication tokens (e.g., cookies) to validate requests, it becomes susceptible to CSRF attacks.
-
-6. Prevention Techniques:
-   - CSRF attacks can be prevented by implementing proper security measures, such as:
-     - Anti-CSRF tokens: Including unique, unpredictable tokens in each request and validating them on the server-side.
-     - Same-Site cookies: Setting the `SameSite` attribute on cookies to restrict their inclusion in cross-site requests.
-     - Referer validation: Checking the `Referer` header to ensure requests originate from the expected source.
-     - User interaction-based confirmation: Requiring user interaction (e.g., re-authentication) for sensitive actions.
-
-7. Impact and Consequences:
-   - CSRF attacks can lead to unauthorized actions, data modification, or disclosure of sensitive information.
-   - They can compromise user accounts, perform financial transactions, or manipulate application settings without the user's knowledge or consent.
-   - CSRF vulnerabilities can have severe consequences, impacting the confidentiality, integrity, and availability of web applications and user data.
-
-Preventing CSRF vulnerabilities is crucial for maintaining the security of web applications. Developers should implement appropriate CSRF prevention mechanisms, and users should be cautious when clicking on links or interacting with untrusted websites. Regular security testing and keeping web applications updated with the latest security patches are also important to mitigate the risk of CSRF attacks.
-
-Why?
+## Why?
 
 The term "Cross-Site" in "Cross-Site Request Forgery" refers to the fact that the forged request originated from a different website or domain than the target web application. It highlights the cross-site nature of the attack.
 
@@ -100,7 +56,7 @@ Here's why "Cross-Site" is used in the name:
    - CSRF attacks exploit this loophole by making the victim's browser send a forged request to a different site, violating the Same-Origin Policy.
 
 3. Exploiting User's Authenticated Session:
-   - CSRF attacks rely on the fact that the user is authenticated on the target web application.
+   - CSRF attacks rely on authenticated user in the target web application.
    - The attacker's goal is to make the victim's browser send a request to the target site while the user is still logged in.
    - By leveraging the user's authenticated session, the forged request appears to be a legitimate cross-site request from the user.
 
@@ -116,34 +72,42 @@ Here's why "Cross-Site" is used in the name:
 
 The "Cross-Site" aspect is a crucial characteristic of CSRF attacks, as it involves forging requests from a different website to the target application. It highlights the importance of implementing proper CSRF prevention mechanisms to ensure that requests originate from trusted sources and are genuinely initiated by the authenticated user.
 
+## Same Origin Policy
+
 What is the same origin policy?
 
-The Same-Origin Policy (SOP) is a critical security mechanism implemented in web browsers to prevent malicious scripts on one web page from accessing data on another web page without permission. This policy restricts how a document or script loaded from one origin can interact with resources from another origin.
+The Same-Origin Policy (SOP) is a security mechanism implemented in web browsers to prevent malicious scripts on one web page from accessing data on another web page without permission. This policy restricts how a document or script loaded from one origin can interact with resources from another origin.
 
 ### Definition of Origin
+
 An "origin" is defined by the combination of:
+
 1. **Scheme (protocol)**: such as `http` or `https`.
 2. **Host (domain)**: such as `www.example.com`.
 3. **Port**: such as `80` for HTTP and `443` for HTTPS.
 
-Two URLs have the same origin if and only if all three components (scheme, host, and port) match exactly.
+Two URLs have the same origin if and only if all three components (scheme, host, and port) match.
 
 ### Purpose of Same-Origin Policy
-The main purpose of the Same-Origin Policy is to protect user data from being accessed or manipulated by malicious websites. It prevents certain types of potentially harmful interactions between resources loaded from different origins.
+
+The main purpose of the Same-Origin Policy is to protect user data from being accessed or manipulated by malicious websites. It prevents certain types of harmful interactions between resources loaded from different origins.
 
 ### Examples of SOP in Action
+
 1. **XMLHttpRequest**: A script on `https://example.com` cannot make an `XMLHttpRequest` to `https://another-example.com` unless `another-example.com` explicitly allows it via Cross-Origin Resource Sharing (CORS).
 2. **DOM Access**: A script on `https://example.com` cannot access the Document Object Model (DOM) of a page loaded from `https://another-example.com`.
 3. **Cookies**: Cookies set by `https://example.com` cannot be read by `https://another-example.com`.
 
 ### Relaxing the Same-Origin Policy
-In some cases, it is necessary to allow controlled interactions between different origins. This can be achieved using mechanisms such as:
+
+In some cases, it is necessary to allow controlled interactions between different origins. This can be achieved by:
+
 1. **Cross-Origin Resource Sharing (CORS)**: Allows servers to specify who can access resources via HTTP headers. For example, a server can include the header `Access-Control-Allow-Origin: https://another-example.com` to permit cross-origin requests from that domain.
 2. **JSONP (JSON with Padding)**: A technique used to bypass the SOP restrictions by using `<script>` tags to request resources from different origins, as script tags are not restricted by SOP.
 3. **PostMessage API**: Allows safe communication between windows/frames across different origins by sending messages via `window.postMessage`.
 
 ### Importance and Challenges
-The Same-Origin Policy is essential for maintaining the security and integrity of web applications. However, it can also present challenges for legitimate use cases where cross-origin resource sharing is required. Developers must carefully configure their applications to balance security and functionality, often using CORS to manage these requirements.
+The Same-Origin Policy is essential for maintaining the security and integrity of web applications. However, it can also present challenges for legitimate use cases where cross-origin resource sharing is required. Developers must configure their applications to balance security and functionality, often using CORS to manage these requirements.
 
 ### References
 - [MDN Web Docs: Same-Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
@@ -151,7 +115,7 @@ The Same-Origin Policy is essential for maintaining the security and integrity o
 
 In summary, the Same-Origin Policy is a foundational security feature in web browsers that restricts how scripts and documents from one origin can interact with resources from another origin, thereby protecting user data from unauthorized access and manipulation.
 
-Draw mermaid diagram for CSRF
+## Mermaid diagram for CSRF
 
 Here's a Mermaid diagram that illustrates a typical Cross-Site Request Forgery (CSRF) attack flow:
 
@@ -191,14 +155,20 @@ CSRF attack flow:
 
 This diagram illustrates how a CSRF attack exploits the trust relationship between the victim's browser and the target website. The attacker tricks the victim into initiating a forged request, making the target website perform unintended actions while assuming the request is legitimate.
 
-To prevent CSRF attacks, web developers can implement various defense mechanisms, such as including anti-CSRF tokens in forms and requests, validating the origin of requests, and using the `SameSite` attribute on cookies to restrict their inclusion in cross-site requests.
+To prevent CSRF attacks, developers can implement defense mechanisms, such as:
+
+- Including anti-CSRF tokens in forms and requests
+- Validating the origin of requests
+- Using the `SameSite` attribute on cookies to restrict their inclusion in cross-site requests
+
+## Conditions for CSRF Attack
 
 What are the conditions that must be met for a CSRF attack to be possible?
 
-For a Cross-Site Request Forgery (CSRF) attack to be possible, certain conditions must be met. Let's explore these conditions in detail:
+For a Cross-Site Request Forgery (CSRF) attack to be possible, certain conditions must be met.
 
 1. User Authentication:
-   - The victim must be authenticated (logged in) to the target web application.
+   - The victim must be authenticated to the target web application.
    - CSRF attacks rely on the victim's active session or authentication credentials.
    - If the user is not authenticated, the attack will not have the intended impact.
 
@@ -234,7 +204,14 @@ For a Cross-Site Request Forgery (CSRF) attack to be possible, certain condition
 
 When these conditions are met, an attacker can craft a malicious request, lure the victim into initiating it, and make the victim's browser send the forged request to the target web application, potentially leading to unauthorized actions or data manipulation.
 
-To prevent CSRF vulnerabilities, web developers should implement robust CSRF defense mechanisms, such as anti-CSRF tokens, strict validation of request origins, user interaction-based confirmations for sensitive actions, and proper configuration of the `SameSite` attribute on cookies. Regularly updating and patching web applications, as well as educating users about potential risks, can also help mitigate the risk of CSRF attacks.
+To prevent CSRF vulnerabilities, web developers should implement CSRF defense mechanisms" such as:
+
+- Anti-CSRF tokens
+- Strict validation of request origins
+- User interaction-based confirmations for sensitive actions
+- Proper configuration of the `SameSite` attribute on cookies.
+- Regularly updating and patching web applications
+- Educating users about potential risks
 
 For a Cross-Site Request Forgery (CSRF) attack to be possible, several conditions must be met. Understanding these conditions helps in recognizing potential vulnerabilities and implementing necessary defenses. Here are the key conditions:
 
@@ -248,12 +225,15 @@ The target website must rely on automatic mechanisms (like cookies or HTTP basic
 The action being targeted by the CSRF attack must be one that can be predictably initiated by the attacker. For example, the attacker must know or be able to guess the structure of the URL and the parameters needed to perform the action (e.g., a request to change the user's email address).
 
 ### 4. **Vulnerable Endpoint**
+
 The target website must not be using sufficient CSRF protections on the vulnerable endpoint. This typically means the absence of anti-CSRF tokens (also known as CSRF tokens) or improper implementation of such tokens.
 
 ### 5. **User Interaction**
+
 The victim must be induced to perform an action that triggers the malicious request. This is typically done through social engineering tactics, such as sending a link via email, embedding the request in an image tag, or using a form submission.
 
 ### Example Scenario
+
 1. **User Authentication**: Alice is logged into her online banking account.
 2. **Session Cookie**: Alice’s browser has a session cookie for the banking site.
 3. **Predictable Request**: The attacker knows that a GET request to `https://bank.com/transfer?amount=1000&to=attacker_account` will transfer money from Alice's account to the attacker’s account.
@@ -261,29 +241,30 @@ The victim must be induced to perform an action that triggers the malicious requ
 5. **User Interaction**: Alice visits a malicious website while logged into her bank account, and the website contains an embedded image tag: `<img src="https://bank.com/transfer?amount=1000&to=attacker_account" />`.
 
 ### References
+
 1. [OWASP CSRF](https://owasp.org/www-community/attacks/csrf)
 2. [MDN Web Docs: Cross-Site Request Forgery (CSRF)](https://developer.mozilla.org/en-US/docs/Glossary/CSRF)
 3. [CSRF Attack Explained with Examples](https://www.acunetix.com/blog/web-security-zone/csrf-attacks/)
 
 ### Preventive Measures
+
 To mitigate CSRF attacks, the following measures are commonly implemented:
 - **Anti-CSRF Tokens**: Use unique tokens that must be included in every state-changing request.
 - **SameSite Cookies**: Use the `SameSite` attribute to restrict how cookies are sent with cross-site requests.
 - **Custom Headers**: Require custom headers that cannot be set by cross-site requests (e.g., `X-Requested-With`).
 - **Referer/Origin Header Checks**: Validate the `Referer` or `Origin` headers of incoming requests to ensure they originate from the same origin.
 
-By understanding these conditions and implementing appropriate defenses, web applications can effectively mitigate the risk of CSRF attacks.
-
-The terms "site" and "origin" have specific definitions in web security contexts, particularly relating to the Same-Origin Policy (SOP). They are crucial for understanding how web browsers enforce security boundaries.
+The terms "site" and "origin" have specific definitions in web security contexts, relating to the Same-Origin Policy (SOP). They are about how web browsers enforce security boundaries.
 
 ### Origin
 
 An **origin** is defined by three components:
+
 1. **Scheme (protocol)**: e.g., `http`, `https`.
 2. **Host (domain)**: e.g., `www.example.com`.
 3. **Port**: e.g., `80`, `443`.
 
-An origin is unique if all three of these components match exactly.
+An origin is unique if all three of these components match.
 
 **Example of origins**:
 - `https://www.example.com:443` (origin A)
@@ -296,7 +277,7 @@ In the examples above:
 
 ### Site
 
-A **site** is more broadly defined and only considers the scheme and the registrable domain. The registrable domain is essentially the domain name without subdomains, which is used to determine the highest level at which a domain is registered.
+A **site** is broadly defined and only considers the scheme and the registrable domain. The registrable domain is essentially the domain name without subdomains, which is used to determine the highest level at which a domain is registered.
 
 **Example of sites**:
 - `https://www.example.com:443` (site A)
@@ -304,7 +285,6 @@ A **site** is more broadly defined and only considers the scheme and the registr
 - `http://www.example.com:80` (site A)
 - `https://www.example.com:443` (site A)
 
-In this context:
 - All of the above URLs belong to the same site (`https://example.com`) despite differences in subdomains, ports, or schemes.
 
 ### Key Differences
@@ -332,7 +312,7 @@ In this context:
 
 Understanding the distinction between a site and an origin helps in comprehending how web browsers implement security boundaries and manage resource sharing and data protection.
 
-The terms "site" and "origin" are often used in the context of web security and the Same-Origin Policy (SOP). While they are related, there are some differences between the two:
+The terms "site" and "origin" are often used in the context of web security and the Same-Origin Policy (SOP). They are related. There are some differences:
 
 1. Definition:
    - Site: A site refers to a domain name, such as `example.com`, and includes all subdomains and ports associated with that domain.
@@ -356,11 +336,13 @@ The terms "site" and "origin" are often used in the context of web security and 
    - Origin-based security: Many web security features, such as Cross-Origin Resource Sharing (CORS) and content security policies (CSP), rely on the concept of origin to enforce restrictions and control access to resources.
    - Site-based security: Some security mechanisms, like the `SameSite` attribute for cookies, operate at the site level, considering the domain name as the primary factor.
 
-Understanding the difference between a site and an origin is important for implementing appropriate security measures and ensuring that your web application follows the Same-Origin Policy correctly. It helps in properly configuring security headers, setting cookie attributes, and managing cross-origin access to resources.
+Understanding the difference between a site and an origin is important for implementing appropriate security measures and ensuring that your web application follows the Same-Origin Policy correctly. It helps in configuring security headers, setting cookie attributes, and managing cross-origin access to resources.
 
-In general, when discussing web security and the Same-Origin Policy, the term "origin" is more commonly used, as it provides a more precise and fine-grained security boundary. However, the concept of a "site" is still relevant in certain contexts, such as cookie management and the `SameSite` attribute.
+The term "origin" is more commonly used, as it provides a more precise and fine-grained security boundary. However, the concept of a "site" is still relevant in certain contexts, such as cookie management and the `SameSite` attribute.
 
-Here's a Mermaid diagram flowchart that illustrates the difference between a site and an origin:
+## Site vs Origin
+
+Here's a Mermaid diagram to illustrate the difference between a site and an origin:
 
 ```mermaid
 graph TD
@@ -387,7 +369,7 @@ graph TD
     N --> R[Same-Origin Policy Restricts Access]
 ```
 
-This flowchart illustrates the process of determining whether two URLs belong to the same origin or site and the resulting allowed or restricted interactions based on the Same-Origin Policy.
+This illustrates the process of determining whether two URLs belong to the same origin or site and the resulting allowed or restricted interactions based on the Same-Origin Policy.
 
 1. The flowchart starts with a URL.
 2. It checks the scheme, domain, and port of the URL.
@@ -410,9 +392,11 @@ This flowchart illustrates the process of determining whether two URLs belong to
 
 This flowchart provides a visual representation of how the Same-Origin Policy applies to URLs based on their origin and site, and how it governs the allowed or restricted interactions between them.
 
-The specific rules and exceptions of the Same-Origin Policy may vary slightly depending on the browser and the context in which it is applied. The flowchart aims to provide a general overview of the concept.
+The specific rules and exceptions of the Same-Origin Policy may vary slightly depending on the browser and the context in which it is applied. The flowchart provides a general overview of the concept.
 
-Here is a table to illustrate the differences between a "site" and an "origin" in web security contexts:
+## Site vs Origin Comparison
+
+Here is a table to show the differences between a "site" and an "origin":
 
 | **Component**      | **Origin**                                | **Site**                                |
 |--------------------|-------------------------------------------|-----------------------------------------|
@@ -455,5 +439,3 @@ Here is a table to illustrate the differences between a "site" and an "origin" i
 - [MDN Web Docs: Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy)
 - [MDN Web Docs: Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 - [Web.dev: SameSite cookies explained](https://web.dev/samesite-cookies-explained/)
-
-This table and the examples clarify the differences between "site" and "origin" in web security contexts.

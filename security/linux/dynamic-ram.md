@@ -1,20 +1,20 @@
-Dynamic RAM (DRAM) is a type of random access memory (RAM) used in computing devices to store data. It is called "dynamic" because it needs to be refreshed constantly to retain the stored data. Here’s a detailed explanation:
+Dynamic RAM (DRAM) is a type of random access memory (RAM) used in computing devices to store data. It is called "dynamic" because it is refreshed constantly to retain the stored data.
 
-### Characteristics of DRAM:
+### Characteristics:
 
 1. **Structure**:
    - **Cells**: DRAM stores each bit of data in a separate capacitor within an integrated circuit. Each memory cell consists of a transistor and a capacitor.
    - **Grid**: These cells are arranged in a grid of rows and columns.
 
 2. **Volatility**:
-   - DRAM is volatile memory, meaning it loses its data when power is turned off.
+   - DRAM is volatile memory. It loses data when power is turned off.
 
 3. **Refresh Requirement**:
    - The capacitors in DRAM can only hold a charge for a short period (milliseconds). Therefore, the memory must be periodically refreshed by recharging the capacitors, which is done by the memory controller.
 
 ### Why It Is Called Dynamic:
 
-DRAM is called "dynamic" because the stored data must be refreshed dynamically (constantly) to maintain its integrity. This constant refresh cycle distinguishes it from static RAM (SRAM), which does not require refreshing to maintain data.
+DRAM is called "dynamic" because the stored data must be refreshed dynamically to maintain its integrity. This constant refresh cycle distinguishes it from static RAM (SRAM), which does not require refreshing to maintain data.
 
 ### Comparison with Other Types of RAM:
 
@@ -43,7 +43,7 @@ DRAM is called "dynamic" because the stored data must be refreshed dynamically (
 - [Micron: Understanding the Different Types of DRAM](https://www.micron.com/about/blog/2020/february/understanding-different-types-of-dram)
 - [Computer Organization and Design by David A. Patterson and John L. Hennessy](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
 
-DRAM provides the primary memory for a wide range of devices, from computers to smartphones. Its dynamic nature, requiring constant refreshing, is a fundamental aspect that impacts its design and performance.
+DRAM provides the memory for a wide range of devices, from computers to smartphones. Its dynamic nature, requiring constant refreshing, is a fundamental aspect that impacts its design and performance.
 
 Here is a table comparing Dynamic RAM (DRAM) and Static RAM (SRAM):
 

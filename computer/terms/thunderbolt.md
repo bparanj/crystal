@@ -1,6 +1,6 @@
 Thunderbolt is a high-speed hardware interface developed by Intel in collaboration with Apple. It combines PCI Express (PCIe) and DisplayPort (DP) into a serial data interface that can provide high-speed connectivity for various peripherals.
 
-Key features of Thunderbolt:
+## Key Features:
 
 1. High speed: Thunderbolt 3 and 4 can transfer data at up to 40 Gbps, which is significantly faster than most other interfaces.
 
@@ -14,11 +14,13 @@ Key features of Thunderbolt:
 
 6. Compatibility: Thunderbolt 3 and 4 use the USB-C connector, making them compatible with USB devices.
 
-Versions:
+## Versions:
+
 - Thunderbolt 1 & 2: Used Mini DisplayPort connector, speeds up to 20 Gbps
 - Thunderbolt 3 & 4: Use USB-C connector, speeds up to 40 Gbps
 
-Common uses:
+## Uses:
+
 - External graphics cards (eGPUs)
 - High-speed external storage
 - Docking stations
@@ -29,7 +31,7 @@ Thunderbolt has become increasingly common in high-end laptops and desktops, par
 
 Thunderbolt is a high-speed hardware interface developed by Intel in collaboration with Apple. It combines several functionalities, including data transfer, video output, and power delivery, into a single compact port. Thunderbolt is known for its versatility, speed, and ability to support multiple types of devices and protocols through a single connection.
 
-### Key Features of Thunderbolt
+### Key Features
 
 1. **High-Speed Data Transfer**: Thunderbolt offers extremely high data transfer rates. The different versions of Thunderbolt provide varying speeds:
    - **Thunderbolt 1**: Up to 10 Gbps
@@ -46,7 +48,7 @@ Thunderbolt is a high-speed hardware interface developed by Intel in collaborati
 
 6. **Backward Compatibility**: Thunderbolt 3 and 4 use the USB-C connector, making them compatible with USB-C devices and cables.
 
-### Common Uses
+### Uses
 
 - **External Storage**: High-speed external hard drives and SSDs use Thunderbolt for rapid data transfer.
 - **Displays**: Connects high-resolution monitors and displays, including 4K and 5K screens.

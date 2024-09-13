@@ -42,13 +42,13 @@ To demonstrate how mechanical pressure on a piezoelectric material generates an 
 ### Explanation:
 This experiment demonstrates the **piezoelectric effect**, where mechanical pressure applied to a piezoelectric material generates an electrical voltage. When pressure is applied, it deforms the crystal structure within the material, causing a displacement of charge and generating a voltage across the material. This simple setup shows how mechanical energy can be converted directly into electrical energy, illustrating the fundamental principle behind piezoelectric sensors, microphones, and other devices.
 
-1. Explaining to a child (5-8 years old):
+1.  child (5-8 years old):
 Imagine you have a special crystal that's like magic. When you squeeze it, it makes a tiny spark of electricity. And if you give it electricity, it wiggles a little bit. It's like the crystal is ticklish! We use these special crystals in things like birthday cards that play music when you open them.
 
-2. Explaining to a teenager (13-16 years old):
+2.  teenager (13-16 years old):
 The piezoelectric effect is a property of certain materials, usually crystals, that can generate an electric charge when mechanical stress is applied to them. This works both ways: if you apply an electric field to these materials, they will change shape slightly. This effect is used in many devices, like electric lighters, speakers in headphones, and even some types of sensors in phones and game controllers.
 
-3. Explaining to an undergraduate student majoring in electronics:
+3. Explaining to an undergraduate student:
 The piezoelectric effect occurs in non-centrosymmetric crystals or ceramics. When mechanical stress is applied, it causes a displacement of charge within the crystal structure, resulting in a net electrical polarization. This is described by the equation:
 
 D = dT + εE
@@ -62,7 +62,7 @@ Key concepts include:
 - Common piezoelectric materials (e.g., quartz, PZT, PVDF)
 - Applications in sensors, actuators, and energy harvesting
 
-4. Explaining to a graduate student:
+4.  graduate student:
 At an advanced level, we delve deeper into the solid-state physics and materials science aspects:
 
 - Tensor notation and symmetry considerations in piezoelectric materials
@@ -80,7 +80,7 @@ We also explore advanced concepts and applications:
 - Surface acoustic wave (SAW) devices
 - Piezoelectric energy harvesting from ambient vibrations
 
-5. Explaining to a colleague (expert level):
+5.  colleague (expert level):
 In a peer-to-peer discussion, we'd focus on cutting-edge research and challenges in piezoelectrics:
 
 - Novel materials: discussing recent advancements in lead-free piezoelectrics, relaxor ferroelectrics, and organic piezoelectric materials.

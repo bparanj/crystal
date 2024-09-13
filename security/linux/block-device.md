@@ -56,3 +56,15 @@ A block device is a type of computer storage device that provides buffered acces
 - [Understanding Block Devices in Linux](https://opensource.com/article/18/11/understanding-linux-block-devices)
 
 Block devices play an important role in the efficient management and access of data in computing systems.
+
+## Terms
+
+- Buffered Access
+- Block of Data
+- Block Device
+- Swap Space
+- Block Device Driver
+- Virtual Memory
+- Block Level Operation
+- Partition
+- Character Device

@@ -16,11 +16,11 @@ Passive devices are fundamental components that operate based on linear and time
 
 This explanation progressively builds up the concept of a passive device, from a very simple analogy to a detailed technical understanding suitable for an expert in the field.
 
-1. Explaining to a Child (5-8 years old):
+1.  Child (5-8 years old):
 
 Imagine you have a toy car that doesn't need batteries. When you push it, it rolls, but it can't move on its own. In electronics, we have parts like that toy car - they're called passive devices. They can do things when electricity moves through them, but they can't make electricity or make it stronger.
 
-2. Explaining to a Teenager (13-16 years old):
+2.  Teenager (13-16 years old):
 
 Passive devices in electronics are components that don't need their own power source to work. They're like the pipes and valves in a water system. They can control how electricity flows, store it for a bit, or even change its direction, but they can't create new electricity or make it stronger. Common examples are resistors, which slow down electricity, and capacitors, which can store it briefly.
 
@@ -36,7 +36,7 @@ Key characteristics include:
 
 Understanding their behavior is crucial for circuit analysis and design, especially in areas like filter design, power supplies, and signal conditioning.
 
-4. Explaining to a Graduate Student:
+4.  Graduate Student:
 
 Passive devices form the backbone of linear circuit theory and are fundamental to understanding more complex electronic systems. Their behavior is described by linear differential equations, making them predictable and easy to model mathematically.
 
@@ -55,32 +55,32 @@ Advanced applications include:
 
 Understanding these concepts is crucial for advanced circuit design, especially in fields like RF engineering, power systems, and analog signal processing.
 
-5. Explaining to a Colleague (Expert Level):
+5.  Colleague (Expert Level):
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
   <!-- Input -->
   <text x="10" y="100" font-family="Arial" font-size="12">Vin</text>
-  
+
   <!-- Inductor with parasitic capacitance and resistance -->
   <path d="M50 100 C60 90, 70 110, 80 100 C90 90, 100 110, 110 100 C120 90, 130 110, 140 100" fill="none" stroke="black" stroke-width="2"/>
   <path d="M140 100 L160 100" stroke="black" stroke-width="2"/>
   <path d="M95 70 L95 90 M105 70 L105 90" stroke="black" stroke-width="2"/>
   <path d="M90 100 L100 100 L100 130 L110 130" stroke="black" stroke-width="1" stroke-dasharray="4,2"/>
-  
+
   <!-- Capacitor with ESR and ESL -->
   <path d="M180 80 L180 120 M200 80 L200 120" stroke="black" stroke-width="2"/>
   <path d="M160 100 L180 100" stroke="black" stroke-width="2"/>
   <path d="M200 100 L220 100" stroke="black" stroke-width="2"/>
   <path d="M190 100 C200 90, 210 110, 220 100" fill="none" stroke="black" stroke-width="1" stroke-dasharray="4,2"/>
-  
+
   <!-- Resistor with parasitic inductance -->
   <path d="M240 100 L260 100 M260 90 L270 100 L280 90 L290 100 L300 90 L310 100 L320 90 L330 100 M330 100 L350 100" stroke="black" stroke-width="2" fill="none"/>
   <path d="M280 70 C290 80, 300 60, 310 70" fill="none" stroke="black" stroke-width="1" stroke-dasharray="4,2"/>
-  
+
   <!-- Output -->
   <text x="360" y="100" font-family="Arial" font-size="12">Vout</text>
-  
+
   <!-- Labels -->
   <text x="95" y="60" font-family="Arial" font-size="10">Cp</text>
   <text x="110" y="145" font-family="Arial" font-size="10">Rp</text>
@@ -93,7 +93,7 @@ Understanding these concepts is crucial for advanced circuit design, especially 
 
 Colleague, as we delve deeper into passive devices, it's crucial to consider their non-ideal behaviors, especially in high-frequency or high-power applications. The circuit I've sketched illustrates some of these complexities:
 
-1. Inductor non-idealities: 
+1. Inductor non-idealities:
    - Parasitic capacitance (Cp) causes self-resonance
    - Core losses and skin effect increase effective resistance (Rp)
    - Implications for Q factor and frequency response in LC circuits

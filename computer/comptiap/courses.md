@@ -25,3 +25,5 @@
 
 - [Electronics Cookbook](https://learning.oreilly.com/videos/electronics-cookbook/9781491997888/9781491997888-video317543/)
 - [The Art of Doing Electronics for Everyone](https://learning.oreilly.com/videos/the-art-of/9781836200635/9781836200635-video2_2/)
+- [Arduino for Beginners - 2023 Complete Course](https://learning.oreilly.com/course/arduino-for-beginners/9781804619117/)
+

@@ -77,10 +77,10 @@ An optocoupler is like a special bridge for electricity. On one side, there's a 
 2. To a teenager (13-15 years old):
 An optocoupler is a device that uses light to transfer electrical signals between two separate circuits. It's made up of an LED (light-emitting diode) on one side and a light-sensitive component on the other, usually a phototransistor. When a signal goes through the LED, it lights up. The phototransistor detects this light and creates a corresponding signal in the second circuit. This way, information can be shared between circuits without them being physically connected.
 
-3. To an undergraduate student majoring in electronics:
+3. To an undergraduate student:
 An optocoupler, also known as an optoisolator, is a component that transfers electrical signals between two isolated circuits using light. It typically consists of an LED and a photodetector (often a phototransistor) in a single package. When current flows through the LED, it emits light that's detected by the photodetector, which then conducts current in the output circuit. This provides electrical isolation while allowing signal transmission. Key parameters include current transfer ratio (CTR), isolation voltage, and switching speed. Optocouplers are crucial in applications requiring galvanic isolation, noise reduction, and level shifting between circuits with different ground potentials.
 
-4. To a graduate student in electronics:
+4. To a graduate student:
 Optocouplers are essential components in modern electronics, offering galvanic isolation with several key advantages. Their operation relies on the principles of photoemission and photodetection. The input side typically uses an infrared LED, while the output can vary from simple phototransistors to more complex arrangements like photodarlingtons or phototriac drivers. Advanced optocouplers may incorporate additional features like Schmitt trigger outputs or integrated EMI shields.
 
 When designing with optocouplers, one must consider factors such as CTR degradation over time, temperature effects, and frequency response limitations. For high-speed applications, special attention must be paid to rise and fall times, which are influenced by junction capacitances and carrier recombination rates. In digital applications, propagation delay and its variation (jitter) become critical.

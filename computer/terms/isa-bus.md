@@ -1,6 +1,6 @@
-The ISA (Industry Standard Architecture) bus is a type of computer bus used for adding expansion cards to the motherboard. Introduced in the early 1980s, it was standard in IBM-compatible PCs. The ISA bus allows various peripheral devices, such as network cards, sound cards, and modems, to communicate with the CPU and memory. It operates at a clock speed of 8 MHz and supports both 8-bit and 16-bit data transfers. Despite being largely obsolete today, it was critical in the development of early personal computers.
+The ISA (Industry Standard Architecture) bus is a type of computer bus used for adding expansion cards to the motherboard. Introduced in the early 1980s, it was standard in IBM-compatible PCs. The ISA bus allows various peripheral devices, such as network cards, sound cards, and modems, to communicate with the CPU and memory. It operates at a clock speed of 8 MHz and supports both 8-bit and 16-bit data transfers. It is obsolete today. It was critical in the development of early personal computers.
 
-The ISA (Industry Standard Architecture) bus is an older computer bus standard used for connecting peripheral devices to the motherboard. Here are key points about the ISA bus:
+The ISA (Industry Standard Architecture) bus is an older computer bus standard used for connecting peripheral devices to the motherboard.
 
 1. Origin:
    - Introduced by IBM in 1981 with the IBM PC
