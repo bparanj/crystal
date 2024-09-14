@@ -1,14 +1,12 @@
-What language is pwd, ls, cat and other commands in Linux implemented?
-What are utilities in Linux?
-What are builtin commands in Linux?
-What is POSIX? What problem does it address?
-What is tty in Linux?
-What does a teletype look like?
-What is a low-level service from the kernel? Why is it called low level?
+find . -type d -name 'linux'
+
+Find the location of the linux directory by searching from the current directory.
+
 
 grep "Search Term" articles/*
 
 Keyboard is the standard input.
+
 Terminal screen is the standard output.
 
 Filter
@@ -18,9 +16,6 @@ All the data is passed as the data stream or as arguments in the command line.
 Without any arguments, a program reads from the standard input and writes to the standard output.
 
 Programs can be combined by using pipes. It can take output of the program on the left and feed it as input to the program on the right. Diagram.
-
-What is job control in Linux?
-What is command line editing in Linux?
 
 grep loginname /etc/passwd
 
@@ -89,8 +84,6 @@ ps x
 
 List all running processes
 
-What is a virtual console in Linux?
-
 ps aux
 
 List all running programs
@@ -103,5 +96,4 @@ File system check
 
 sync
 shutdown
-
 
