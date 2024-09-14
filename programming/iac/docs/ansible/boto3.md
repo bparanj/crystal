@@ -20,7 +20,7 @@ This line declares that the `amazon.aws` collection requires Boto3 version 1.18.
 
 When you install the `amazon.aws` collection using the `ansible-galaxy` command or by specifying it in your `requirements.yml` file, Ansible automatically resolves and installs the specified version of Boto3 as a dependency.
 
-It's important to note that the exact version of Boto3 required may vary depending on the version of the `amazon.aws` collection you are using. It's recommended to refer to the documentation or release notes of the specific collection version to determine the compatible Boto3 version.
+ the exact version of Boto3 required may vary depending on the version of the `amazon.aws` collection you are using. It's recommended to refer to the documentation or release notes of the specific collection version to determine the compatible Boto3 version.
 
 Additionally, some Ansible AWS modules may have additional dependencies or requirements beyond Boto3. These dependencies would also be specified in the `requirements.txt` file or documented in the module's documentation.
 

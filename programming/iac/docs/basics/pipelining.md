@@ -24,7 +24,7 @@ However, there are a few considerations when enabling SSH pipelining:
 
 Despite these considerations, enabling SSH pipelining can provide significant performance benefits in most Ansible deployments.
 
-It's important to note that the `pipelining` option is set to `False` by default in Ansible. If you want to enable SSH pipelining, you need to explicitly set `pipelining = True` in your ansible.cfg file or use the `--ssh-pipelining` command-line flag when running Ansible commands.
+ the `pipelining` option is set to `False` by default in Ansible. If you want to enable SSH pipelining, you need to explicitly set `pipelining = True` in your ansible.cfg file or use the `--ssh-pipelining` command-line flag when running Ansible commands.
 
 To check if the `RequireRTT` setting is disabled in the SSH server configuration, you can follow these steps:
 

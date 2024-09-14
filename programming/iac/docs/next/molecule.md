@@ -81,7 +81,7 @@ Whether you need Molecule tests in addition to Goss depends on your specific tes
 ### Goss
 
 - **Purpose**: Goss is a quick and easy server validation tool. It's designed to validate a server's configuration: ensuring services are running, packages are installed, files exist with specific contents, and so on.
-- **Use Case**: It's particularly useful for "smoke testing" an environment, where you're quickly validating that the critical components are correctly installed and configured without diving into more detailed behavior tests.
+- **Use Case**: It's useful for "smoke testing" an environment, where you're quickly validating that the critical components are correctly installed and configured without diving into more detailed behavior tests.
 
 ### Molecule
 

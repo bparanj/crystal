@@ -61,7 +61,7 @@ DHCP reservation, also sometimes called static DHCP assignment or DHCP static ma
 
 This approach combines the benefits of static IP addressing (consistent, known IP addresses for specific devices) with the convenience of DHCP (centralized management, automatic configuration on the client side).
 
-DHCP reservation is particularly useful in environments where you want to maintain centralized control over IP addressing while ensuring certain devices (like servers, printers, or network equipment) always receive the same IP address.
+DHCP reservation is useful in environments where you want to maintain centralized control over IP addressing while ensuring certain devices (like servers, printers, or network equipment) always receive the same IP address.
 
 The term that refers to establishing a TCP session is "handshake" or more specifically, the "three-way handshake."
 

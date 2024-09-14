@@ -40,7 +40,7 @@ Capturing the versions of installed packages in an Ansible playbook can be achie
 - **Error Handling**: `ignore_errors: yes` is used to prevent the playbook from failing if the package is not installed. You can check the result code (`rc`) and print the version only if the command was successful (`rc == 0`).
 - **Capturing All Installed Packages**: If you wish to capture all installed packages and their versions, you can modify the command accordingly. For example, on Debian/Ubuntu, you might use `dpkg -l` to list all installed packages, though processing and filtering this list might require additional steps.
 
-This method provides a flexible way to query and report on installed package versions using Ansible. It can be particularly useful for inventory purposes, compliance checks, or simply documenting the environment state.
+This method provides a flexible way to query and report on installed package versions using Ansible. It can be useful for inventory purposes, compliance checks, or simply documenting the environment state.
 
 Yes, you can automate the process of adding services like `sshd` to Goss tests within an Ansible playbook. Goss is a YAML-based tool for validating server's configuration and infrastructure; automating the addition of services to Goss tests can streamline your infrastructure testing process.
 
@@ -207,7 +207,7 @@ This documentation is vital for maintaining consistency when manually testing AM
 
 Whether integrating Goss tests into the Packer build process or running them manually post-AMI creation, the key is ensuring that the infrastructure meets your standards before it's deployed. Your choice to run tests manually is valid and may offer more control and flexibility in certain scenarios.
 
-I see, your approach focuses on using the `goss autoadd` command to automatically generate a `goss.yaml` file based on the current state of the system right after the AMI is created. This file then serves as the basis for future automated tests whenever an image is instantiated. This strategy leverages Goss's capability to inspect the system and create tests that reflect its current configuration, which can be particularly useful for ensuring consistency and reliability in your infrastructure.
+I see, your approach focuses on using the `goss autoadd` command to automatically generate a `goss.yaml` file based on the current state of the system right after the AMI is created. This file then serves as the basis for future automated tests whenever an image is instantiated. This strategy leverages Goss's capability to inspect the system and create tests that reflect its current configuration, which can be useful for ensuring consistency and reliability in your infrastructure.
 
 ### Integrating `goss autoadd` into the Packer Build Process
 

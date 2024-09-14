@@ -1,6 +1,6 @@
 ## Hypervisor
 
-The term **hypervisor** comes from the word "supervisor," which refers to a component in computer systems that manages the execution of processes. A **hypervisor** is essentially a "supervisor of supervisors," since it controls multiple operating systems running simultaneously on the same hardware.
+The term **hypervisor** comes from the word "supervisor," which refers to a component in computer systems that manages the execution of processes. A **hypervisor** is "supervisor of supervisors," since it controls multiple operating systems running simultaneously on the same hardware.
 
 ### Origin:
 - **Supervisor**: In traditional computing, the **supervisor** refers to the part of the operating system that manages system resources, processes, and memory. It ensures the correct operation of the system and oversees individual programs or processes.

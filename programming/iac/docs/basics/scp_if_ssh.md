@@ -30,7 +30,7 @@ Here's what you need to know about the `scp_if_ssh` setting:
 
    - Alternatively, you can set the `ANSIBLE_SCP_IF_SSH` environment variable to `False` to override the default behavior.
 
-It's important to note that setting `scp_if_ssh` to `False` assumes that SFTP is supported and available on all the remote hosts you are managing with Ansible. If SFTP is not available or if there are compatibility issues, you may encounter file transfer failures.
+ setting `scp_if_ssh` to `False` assumes that SFTP is supported and available on all the remote hosts you are managing with Ansible. If SFTP is not available or if there are compatibility issues, you may encounter file transfer failures.
 
 If you are unsure about the compatibility or if you want Ansible to automatically choose between SCP and SFTP based on the available capabilities, you can leave `scp_if_ssh` set to its default value of `smart`.
 

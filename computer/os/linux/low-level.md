@@ -15,7 +15,7 @@ Examples of low-level kernel services include:
 
 These services are critical for the efficient operation of the system and form the foundation upon which all other software runs.
 
-Yes, you're right! In a typical system architecture diagram, **hardware** is placed at the very bottom, representing the **lowest level**. The kernel and low-level services sit just above the hardware, acting as the interface between the hardware and the software layers above it.
+In a typical system architecture diagram, **hardware** is placed at the very bottom, representing the **lowest level**. The kernel and low-level services sit just above the hardware, acting as the interface between the hardware and the software layers above it.
 
 Here’s a simplified view of this layered architecture:
 

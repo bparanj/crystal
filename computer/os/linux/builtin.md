@@ -2,7 +2,7 @@ What are builtin commands in Linux?
 
 Built-in commands in Linux are commands that are executed directly by the shell itself, without requiring external binaries or utilities. These commands are part of the shell's internal functionality and are designed to handle tasks related to shell operations or environment management.
 
-Examples of built-in commands include:
+Examples:
 
 - **`cd`**: Change the current directory.
 - **`echo`**: Display a line of text.

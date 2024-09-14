@@ -45,7 +45,7 @@ Goss will report the status of each test. If a package is installed as expected,
 
 ### Additional Tips
 
-- **Automating with Ansible**: If you're using Ansible, you can automate the installation of Goss and the execution of tests as part of your playbook. This can be particularly useful for continuous integration or deployment pipelines.
+- **Automating with Ansible**: If you're using Ansible, you can automate the installation of Goss and the execution of tests as part of your playbook. This can be useful for continuous integration or deployment pipelines.
 - **Extending Goss Tests**: Beyond package installation, Goss allows you to test various other system aspects, such as file contents, services running, HTTP responses, and more. You can extend your `goss.yaml` to include these tests for more comprehensive system validation.
 - **Using dgoss for Docker Containers**: If you're working with Docker, `dgoss` is a wrapper around Goss that simplifies testing Docker containers. You can write tests in the same way but specifically target your containerized applications.
 

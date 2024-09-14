@@ -8,7 +8,7 @@ The `postgresql-client-16` package contains the client-side programs for Postgre
 
 3. **Scripting and Automation**: The client package allows for scripting and automation of various database tasks, facilitating automated deployments, backups, and test data generation.
 
-4. **Remote Database Management**: You can install the `postgresql-client-16` package on machines that do not host a PostgreSQL server instance to manage and interact with remote PostgreSQL databases. This is particularly useful in distributed systems where database servers and client applications are on different hosts.
+4. **Remote Database Management**: You can install the `postgresql-client-16` package on machines that do not host a PostgreSQL server instance to manage and interact with remote PostgreSQL databases. This is useful in distributed systems where database servers and client applications are on different hosts.
 
 5. **Compatibility**: It's important to match the client tools' version with the version of your PostgreSQL server for full compatibility, especially to leverage the latest features and ensure the integrity of data operations. The `-16` in `postgresql-client-16` signifies that this version of the client tools is intended for use with PostgreSQL server version 16.
 

@@ -119,7 +119,7 @@ Ordering the methods from simple to complex based on the flexibility they offer 
 
 4. **Use Data Sources to Dynamically Fetch Data**
    - Simplicity: Data sources provide a way to incorporate external or dynamic data into your configurations.
-   - Complexity: Moderate to High. It requires understanding of available data sources and how to query them effectively. It's particularly useful when you need to fetch data that isn't static and could change over time (like AMIs).
+   - Complexity: Moderate to High. It requires understanding of available data sources and how to query them effectively. It's useful when you need to fetch data that isn't static and could change over time (like AMIs).
 
 5. **Use Terraform Modules for Reusable Components**
    - Simplicity: Modules allow encapsulation of complex setups into reusable components.

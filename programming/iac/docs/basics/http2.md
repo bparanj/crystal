@@ -16,7 +16,7 @@ HTTP/2 brings several benefits, such as:
 
 Caddy takes advantage of these HTTP/2 features out of the box, providing improved performance and efficiency for your web applications.
 
-It's important to note that HTTP/2 requires HTTPS. If you are serving traffic over plain HTTP (port 80), Caddy will use HTTP/1.1 for those connections. However, it is generally recommended to use HTTPS for all connections, not only for security reasons but also to take advantage of the benefits of HTTP/2.
+ HTTP/2 requires HTTPS. If you are serving traffic over plain HTTP (port 80), Caddy will use HTTP/1.1 for those connections. However, it is generally recommended to use HTTPS for all connections, not only for security reasons but also to take advantage of the benefits of HTTP/2.
 
 If you want to explicitly disable HTTP/2 in Caddy for some reason, you can do so by adding the `http2 disable` directive to your Caddyfile:
 

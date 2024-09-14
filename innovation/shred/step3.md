@@ -243,4 +243,4 @@ This step involves configuring the server to display an IP configuration menu on
 
    - After about **5 minutes**, you should see the IP configuration displayed either automatically or after logging in via the console.
 
-This approach ensures that the IP configuration will be visible after booting the server, which is particularly useful in headless or remote environments.
+This approach ensures that the IP configuration will be visible after booting the server, which is useful in headless or remote environments.

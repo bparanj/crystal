@@ -161,7 +161,7 @@ source "amazon-ebs" "ubuntu" {
 
 **Let's go further! Do you want to refine the Ansible playbook with more elaborate Nginx configuration, or explore integrating Ansible variable handling for more flexible provisioning?** 
 
-In Packer, `path.root` is a predefined variable that represents the directory where the Packer template file (.pkr.hcl or .json) resides. This variable is automatically set by Packer and does not need to be defined by the user. It is particularly useful for specifying paths to resources relative to the location of the Packer template itself, ensuring portability and ease of reference without hardcoding absolute paths.
+In Packer, `path.root` is a predefined variable that represents the directory where the Packer template file (.pkr.hcl or .json) resides. This variable is automatically set by Packer and does not need to be defined by the user. It is useful for specifying paths to resources relative to the location of the Packer template itself, ensuring portability and ease of reference without hardcoding absolute paths.
 
 In the context of your Packer template:
 

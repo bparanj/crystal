@@ -163,9 +163,7 @@ Key points about HTTP operation through the OSI layers:
 7. Physical Layer (1):
    - Represents the actual transmission medium (e.g., Ethernet, Wi-Fi).
 
-It's important to note that while HTTP primarily operates at the Application layer, the use of HTTPS (HTTP Secure) incorporates functions that span multiple layers, particularly in its handling of encryption.
-
-I understand you want a more detailed table for HTTP operations, focusing on the specific elements used at each layer. I'll create this table with two columns: OSI layer name and the elements utilized at each layer.
+While HTTP primarily operates at the Application layer, the use of HTTPS (HTTP Secure) incorporates functions that span multiple layers, particularly in its handling of encryption.
 
 
 | OSI Layer | Elements and Operations |
@@ -225,4 +223,3 @@ This table provides a more detailed look at the elements and operations involved
 5. Network Layer: Deals with logical addressing (IP) and routing.
 6. Data Link Layer: Uses MAC addresses for physical addressing on a local network.
 7. Physical Layer: Consists of the actual hardware that transmits the raw bit stream.
-

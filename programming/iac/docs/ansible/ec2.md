@@ -508,7 +508,7 @@ No, you don't necessarily have to create the VPC and subnet manually if you're w
 - **AMI ID and Instance Type**: Specify the appropriate AMI ID and instance type.
 - **Key Pair**: Ensure you have an SSH key pair created in the specified AWS region and provide its name in the playbook.
 
-Using this approach, you can fully automate your AWS environment setup, including network and instance creation, with Ansible. This is particularly useful for creating reproducible environments or for managing infrastructure as code.
+Using this approach, you can fully automate your AWS environment setup, including network and instance creation, with Ansible. This is useful for creating reproducible environments or for managing infrastructure as code.
 
 ## Creating the AWS Resources
 

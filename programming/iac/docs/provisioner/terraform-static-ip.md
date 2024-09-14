@@ -74,7 +74,7 @@ Run `terraform apply` to apply your configuration. Terraform will use the existi
 - **Clean Up**: Remember that manually created resources will not be cleaned up by Terraform. You'll need to manually release the EIP if it's no longer needed.
 - **Billing**: AWS charges for EIPs that are allocated but not associated with a running instance. Ensure you associate it with an instance or release it when not in use to avoid unnecessary charges.
 
-This approach allows you to maintain a consistent IP address across Terraform runs, which can be particularly useful for development, testing, or when you have DNS records or whitelisting policies tied to specific IP addresses.
+This approach allows you to maintain a consistent IP address across Terraform runs, which can be useful for development, testing, or when you have DNS records or whitelisting policies tied to specific IP addresses.
 
 To achieve this task, you need to follow a two-step process: first, create an Amazon Machine Image (AMI) using Packer with your desired configuration, and second, use Terraform to deploy an EC2 instance using that AMI and assign it a static IP address, also known as an Elastic IP (EIP) in AWS terminology.
 

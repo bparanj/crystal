@@ -108,7 +108,7 @@ Using mDNS on a Mac is quite straightforward, as macOS has built-in support for 
    
 ```
 
-   These commands allow you to discover, browse, resolve, and publish mDNS services from the Terminal.
+These commands allow you to discover, browse, resolve, and publish mDNS services from the Terminal.
 
 mDNS on macOS is designed to work out of the box, so in most cases, you don't need to do anything special to use it. Just make sure your devices are on the same local network, and you should be able to reach your Mac using its `.local` address from other devices that support mDNS.
 
@@ -126,9 +126,7 @@ Let's break this down step-by-step:
    - On your computer (the server), make sure the computer name is set correctly.
    - On a client device, try pinging your computer using `ping mycomputer.local` to verify mDNS resolution is working.
 
-2. Start the Python SimpleHTTPServer:
-   
-   
+2. Start the Python SimpleHTTPServer:   
 
    ```python
 # For Python 3.x
@@ -159,4 +157,4 @@ Troubleshooting:
 3. Some older devices or browsers might not support mDNS. In this case, you'll need to use the IP address.
 4. If you're using a virtual machine or some network configurations, you might need to set up port forwarding.
 
-This setup is for local network use only. It won't make your server accessible from the internet unless you set up port forwarding on your router (which isn't recommended for security reasons unless you know what you're doing).
+This setup is for local network use only. It won't make your server accessible from the internet unless you set up port forwarding on your router (which isn't recommended for security reasons).

@@ -16,7 +16,7 @@ Here's what the `deriving` clause accomplishes for `Point`:
 
 - **`Eq`**: The compiler generates an implementation for the `==` operator. Two `Point` values are considered equal if their corresponding `Int` fields are equal. This allows you to use `==` and `/=` with `Point` instances.
 
-- **`Show`**: The compiler generates an implementation of the `show` function, which converts a `Point` instance to a `String`. This is particularly useful for debugging, as it allows you to print `Point` instances to the console.
+- **`Show`**: The compiler generates an implementation of the `show` function, which converts a `Point` instance to a `String`. This is useful for debugging, as it allows you to print `Point` instances to the console.
 
 ### Benefits of `deriving`
 

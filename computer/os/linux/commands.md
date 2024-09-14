@@ -1,6 +1,5 @@
 
 
-
 head - 2 /etc/passwd
 
 cut -d ":" -f 1,7 /etc/passwd

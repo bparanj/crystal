@@ -87,7 +87,7 @@ When to use Aquatone:
 
 1. Reconnaissance Phase: Aquatone is primarily used during the reconnaissance phase of a security assessment or penetration testing engagement. It helps in gathering visual information about the target organization's websites and subdomains, providing valuable insights for further analysis and attack planning.
 
-2. Large-scale Assessments: Aquatone is particularly useful when assessing organizations with a large number of websites or subdomains. Its batch processing capabilities make it efficient for capturing screenshots and generating reports across multiple hosts simultaneously.
+2. Large-scale Assessments: Aquatone is useful when assessing organizations with a large number of websites or subdomains. Its batch processing capabilities make it efficient for capturing screenshots and generating reports across multiple hosts simultaneously.
 
 3. Asset Inventory: Aquatone can be used to create a visual inventory of an organization's web assets. This inventory can be used for various purposes, such as tracking changes over time, identifying forgotten or abandoned websites, or assessing the organization's overall web presence.
 
@@ -97,7 +97,7 @@ Aquatone is a reconnaissance tool and should be used ethically and with proper a
 
 ### What is Aquatone?
 
-Aquatone is a tool for visual inspection of websites across a large number of domains. It is designed for security professionals to gather screenshots and information about the web pages served by various domains, subdomains, or IP addresses. It is particularly useful for reconnaissance during penetration testing and security assessments.
+Aquatone is a tool for visual inspection of websites across a large number of domains. It is designed for security professionals to gather screenshots and information about the web pages served by various domains, subdomains, or IP addresses. It is useful for reconnaissance during penetration testing and security assessments.
 
 ### Features of Aquatone
 

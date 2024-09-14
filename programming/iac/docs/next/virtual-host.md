@@ -84,7 +84,7 @@ Caddy, a modern web server and reverse proxy, offers several advantages when use
 - Caddy's configuration syntax is straightforward and human-readable, making it easier to set up and manage as a reverse proxy compared to some other servers. Configurations that might be complex in other servers can often be accomplished in Caddy with fewer lines of code.
 
 ### 3. **Zero Downtime Reloads**
-- Caddy supports hot configuration reloads without the need to restart the server, leading to zero downtime when changes are made. This feature is particularly useful in production environments where service continuity is critical.
+- Caddy supports hot configuration reloads without the need to restart the server, leading to zero downtime when changes are made. This feature is useful in production environments where service continuity is critical.
 
 ### 4. **Built-in Load Balancing**
 - Caddy includes built-in support for load balancing, allowing you to distribute incoming traffic across multiple backend servers easily. This can improve the reliability and scalability of your applications.

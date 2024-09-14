@@ -29,4 +29,19 @@ The OSI (Open Systems Interconnection) model is a conceptual framework used to u
 - **Functionality**: This layer serves as the interface between the OSI model and the end-user applications. It provides network services such as file transfers, email, remote login, and other network software services directly to the user's application.
 
 ### Summary
+
 Each layer of the OSI model is named based on its specific role in the communication process. These names are designed to provide a clear understanding of the purpose and functionality of each layer, making it easier to understand how different networking components and protocols interact within the model. The naming helps delineate responsibilities and facilitates troubleshooting, development, and education about network technologies.
+
+OSI model layers and their functions:
+
+| OSI Layer           | Function                                      |
+|---------------------|-----------------------------------------------|
+| Application Layer    | Provides network services to applications     |
+| Presentation Layer   | Data formatting, encryption, and compression  |
+| Session Layer        | Manages sessions between applications         |
+| Transport Layer      | Ensures reliable data transfer (flow control, error handling) |
+| Network Layer        | Routing and logical addressing (IP)           |
+| Data Link Layer      | Physical addressing (MAC) and error detection |
+| Physical Layer       | Transmits raw bits over physical medium       |
+
+This table summarizes the primary function of each OSI model layer.

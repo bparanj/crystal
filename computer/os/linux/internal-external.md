@@ -1,7 +1,8 @@
 In Linux, commands are categorized as **internal** (built-in) and **external** because of where and how they are executed within the system:
 
 ### 1. **Internal (Built-in) Commands**:
-Internal commands are part of the **shell** itself, meaning they are built into the shell (like Bash) and do not require any external program to run. These commands are directly executed by the shell without creating a new process.
+
+Internal commands are part of the **shell** itself. They are built into the shell (like Bash) and do not require any external program to run. These commands are directly executed by the shell without creating a new process.
 
 **Examples of internal commands**:
 - `cd`: Change directory.

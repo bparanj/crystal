@@ -146,6 +146,6 @@ When to use AutoEgressAssess:
 
 4. Incident Response: In the event of a security incident or breach, AutoEgressAssess can be used to quickly assess the egress filtering rules and identify any potential paths an attacker might have used to exfiltrate data or establish command and control channels.
 
-It's important to note that AutoEgressAssess is a tool intended for authorized security testing and should be used responsibly and with proper permissions. Unauthorized use of the tool to test networks without explicit consent is unethical and may be illegal.
+ AutoEgressAssess is a tool intended for authorized security testing and should be used responsibly and with proper permissions. Unauthorized use of the tool to test networks without explicit consent is unethical and may be illegal.
 
 Network administrators and security professionals can leverage AutoEgressAssess as part of their overall network security testing and assessment processes to identify and remediate weaknesses in egress filtering controls, thereby enhancing the security posture of their networks.

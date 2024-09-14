@@ -202,7 +202,7 @@ If deploying manually or through another automation tool, you might use a simpli
 
 ## Iteration #5
 
-In Ansible, `playbook_dir` is a special variable that provides the absolute path to the directory of the currently running playbook. It is one of Ansible's magic variables, which are automatically available and do not need to be set by the user. This variable is particularly useful when you need to reference files or templates relative to the location of your playbook.
+In Ansible, `playbook_dir` is a special variable that provides the absolute path to the directory of the currently running playbook. It is one of Ansible's magic variables, which are automatically available and do not need to be set by the user. This variable is useful when you need to reference files or templates relative to the location of your playbook.
 
 For example, if you have a structure like this:
 
@@ -401,7 +401,7 @@ ansible-playbook -i host.ini deploy.yml -vvv
 
 This will provide more insight into what's happening and might point you directly to the issue.
 
-To specify a different SSH port for Ansible to connect to a host in your inventory file (often an `ini` file format), you can use the `ansible_port` variable for the specific host or group of hosts. This is particularly useful if your server does not use the default SSH port (`22`).
+To specify a different SSH port for Ansible to connect to a host in your inventory file (often an `ini` file format), you can use the `ansible_port` variable for the specific host or group of hosts. This is useful if your server does not use the default SSH port (`22`).
 
 Here is an example of how to specify a custom SSH port in your inventory file:
 

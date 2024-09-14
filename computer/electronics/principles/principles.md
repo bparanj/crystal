@@ -74,7 +74,7 @@ In electronics, several fundamental principles and laws govern the behavior of c
 
 ### 6. **Thevenin's Theorem**:
    - **Principle**: Any linear electrical network with voltage and current sources and resistances can be replaced at terminals A-B by an equivalent voltage source \( V_{th} \) in series with a resistance \( R_{th} \).
-   - **Application**: Simplifies the analysis of complex circuits, particularly useful in analyzing power systems and electronic circuits.
+   - **Application**: Simplifies the analysis of complex circuits, useful in analyzing power systems and electronic circuits.
 
 ### 7. **Norton's Theorem**:
    - **Principle**: Similar to Thevenin's Theorem, Norton's Theorem states that any linear electrical network can be replaced by an equivalent current source \( I_{N} \) in parallel with a resistance \( R_{N} \).

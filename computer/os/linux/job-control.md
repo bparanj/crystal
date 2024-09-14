@@ -1,4 +1,4 @@
-**Job control** in Linux refers to the ability to manage multiple processes or tasks (jobs) within a single terminal session. It allows users to start, stop, pause, and resume processes, running them either in the foreground or background. This is particularly useful for multitasking within a shell environment.
+**Job control** in Linux refers to the ability to manage multiple processes or tasks (jobs) within a single terminal session. It allows users to start, stop, pause, and resume processes, running them either in the foreground or background. This is useful for multitasking within a shell environment.
 
 ### Key features of job control:
 1. **Foreground and Background Jobs**:
@@ -50,8 +50,6 @@ Job control is useful for managing long-running tasks. For example, you can star
 
 ## Exercises
 
-Here are some simple exercises to help you practice job control in Linux:
-
 ### Exercise 1: Running a Background Job
 1. Open a terminal.
 2. Run the following command to ping a website in the background:
@@ -99,4 +97,4 @@ Here are some simple exercises to help you practice job control in Linux:
 
 - **Question**: Verify with `jobs` if the job was successfully terminated.
 
-These exercises will help you understand how to start, stop, and manage jobs using job control in Linux.
+These exercises cover how to start, stop, and manage jobs using job control in Linux.

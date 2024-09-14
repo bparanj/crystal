@@ -256,7 +256,7 @@ Using a deployment server offers several advantages when deploying Kali Linux or
 7. Remote management:
    - With a deployment server, you can initiate and manage the deployment process remotely.
    - You can monitor the progress, troubleshoot issues, and control the deployment from a central location.
-   - Remote management is particularly useful when deploying to machines in different physical locations or when physical access to the machines is limited.
+   - Remote management is useful when deploying to machines in different physical locations or when physical access to the machines is limited.
 
 Overall, a deployment server simplifies and automates the process of deploying operating systems and software to multiple machines. It saves time, ensures consistency, and provides a scalable and efficient solution for managing deployments in various scenarios, from small labs to large enterprise environments.
 

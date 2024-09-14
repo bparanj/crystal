@@ -29,7 +29,7 @@ Several open-source tools can provide data wiping capabilities that meet or exce
    - Offers DoD 5220.22-M 3-pass
    - Provides 7-pass DoD 5220.28-STD
 
-It's important to note that while these tools can meet or exceed the specified standards, the effectiveness of data wiping can also depend on the type of storage media being wiped. For modern SSDs, some of these overwriting methods may not be as effective due to wear leveling and other SSD-specific technologies.
+ while these tools can meet or exceed the specified standards, the effectiveness of data wiping can also depend on the type of storage media being wiped. For modern SSDs, some of these overwriting methods may not be as effective due to wear leveling and other SSD-specific technologies.
 
 Would you like more details on any of these tools or information about their usage?
 

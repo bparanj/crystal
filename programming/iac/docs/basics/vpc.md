@@ -55,7 +55,7 @@ While both AWS VPC and Firefox VPN involve the concept of creating a virtual pri
 
 AWS VPC is a fundamental networking service for building and managing cloud infrastructure, while Firefox VPN is a consumer-oriented service focused on enhancing online privacy and security for individual users.
 
-It's important to note that the term "VPN" can refer to different types of Virtual Private Networks, including consumer VPN services like Firefox VPN, as well as site-to-site VPNs used for connecting on-premises networks to cloud environments or connecting multiple cloud VPCs together. However, in the specific context of AWS, VPC refers to the Virtual Private Cloud service for creating and managing isolated virtual networks within the AWS cloud infrastructure.
+ the term "VPN" can refer to different types of Virtual Private Networks, including consumer VPN services like Firefox VPN, as well as site-to-site VPNs used for connecting on-premises networks to cloud environments or connecting multiple cloud VPCs together. However, in the specific context of AWS, VPC refers to the Virtual Private Cloud service for creating and managing isolated virtual networks within the AWS cloud infrastructure.
 
 Yes, VPN (Virtual Private Network) is an abstraction that extends the concept of private networks from the old days of on-premises infrastructure to the modern era of cloud computing and remote connectivity.
 

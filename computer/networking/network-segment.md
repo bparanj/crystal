@@ -23,4 +23,3 @@ A network segment is a portion of a computer network that is separated from the 
    - In a home network, wired and wireless connections might be on different segments.
 
 Network segmentation is a fundamental concept in network design and management, allowing for more efficient and secure network architectures.
-
