@@ -48,10 +48,10 @@ To demonstrate how a voltage regulator maintains a constant output voltage even 
 ### Explanation:
 This experiment illustrates how a voltage regulator works to maintain a constant output voltage even when the input voltage fluctuates. The 7805 regulator ensures that the output stays at 5V, protecting sensitive components like the LED from variations in power supply. This principle is crucial in electronics, where consistent voltage is needed to ensure the reliable operation of circuits and devices. The experiment provides a clear demonstration of the voltage regulator’s role in power management.
 
-1. Child (5-8 years old):
+1. Child :
 Imagine you have a water faucet that sometimes sprays water too hard and sometimes too softly. A voltage regulator is like a special handle for the faucet that makes sure the water always comes out just right - not too strong and not too weak. It helps make sure your electronic toys always get the right amount of power to work properly.
 
-2. Teenager (13-16 years old):
+2. Teenager :
 A voltage regulator is an electronic component that keeps the voltage in a circuit steady. Think of voltage like water pressure in a pipe. Sometimes the pressure can be too high or too low, which can damage things or make them not work right. A voltage regulator takes the input voltage, which might vary, and outputs a constant, stable voltage. This is important for many electronic devices to work correctly and safely.
 
 3. Undergraduate student:
@@ -70,7 +70,7 @@ For switching regulators, we study buck, boost, and buck-boost topologies, along
 
 We also consider the challenges of high-frequency operation, including EMI/RFI issues, PCB layout considerations, and thermal management techniques. Advanced topics might include soft-start circuits, protection features (over-current, over-temperature), and synchronization in multi-rail power systems.
 
-5. Colleague (fellow expert):
+5. Colleague :
 
 Voltage regulation is a critical aspect of power management in modern electronics.
 
