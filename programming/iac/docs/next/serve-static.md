@@ -26,7 +26,7 @@ example.com {
 In this configuration:
 
 - The `reverse_proxy` directive is used to forward requests to Puma running on localhost port 3000.
-- The `root` directive specifies the root directory where Caddy should look for static files. This is typically the `public` directory of your Rails application.
+- The `root` directive specifies the root directory where Caddy should look for static files. This is  the `public` directory of your Rails application.
 - The `file_server` directive with `try_files` tells Caddy to attempt serving static files directly from the specified root directory. If the requested file is not found, it falls back to the reverse proxy (hence, to your Rails application).
 - The `encode gzip zstd` directive enables response compression using gzip and zstd algorithms.
 

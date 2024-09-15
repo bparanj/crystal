@@ -26,7 +26,7 @@ The term "Ethernet Star Bus" combines two network topologies, and the inclusion 
    - The term "bus" stuck even as the physical topology evolved.
 
 2. Logical topology vs Physical topology:
-   - Physically, modern Ethernet networks typically use a star topology, with devices connected to a central switch.
+   - Physically, modern Ethernet networks  use a star topology, with devices connected to a central switch.
    - Logically, it still behaves like a bus in some ways, which is why the term persists.
 
 3. Broadcast nature:

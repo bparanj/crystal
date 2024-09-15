@@ -5,7 +5,7 @@ Using GitHub Copilot effectively in software development. Key points:
 1. Utilize specific, concise prompts for better Copilot responses.
 2. Understand the role of context in influencing Copilot's outputs.
 3. Adopt an iterative approach to refine Copilot's suggestions.
-4. Use Copilot for various coding tasks, including debugging and refactoring.
+4. Use Copilot for various coding tasks,  debugging and refactoring.
 5. The developer's expertise is crucial in guiding and verifying Copilot's outputs.
 6. Copilot is a tool that complements, not replaces, the developer's skills.
 

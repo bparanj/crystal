@@ -95,7 +95,7 @@ with open(playbook_path, 'r') as file:
 
 ### Step 2: Use `goss autoadd` for Extracted Resources
 
-Once you have the lists of packages and services, you can generate Goss tests for them. Since `goss autoadd` works by inspecting the current system state, you'd typically run it directly on the target system to generate tests based on what's actually installed or running. If you want to generate tests based on the playbook's contents (rather than system inspection), you'd need to create a Goss test file manually or use Goss's `add` command to create tests for each package and service identified.
+Once you have the lists of packages and services, you can generate Goss tests for them. Since `goss autoadd` works by inspecting the current system state, you'd  run it directly on the target system to generate tests based on what's ly installed or running. If you want to generate tests based on the playbook's contents (rather than system inspection), you'd need to create a Goss test file manually or use Goss's `add` command to create tests for each package and service identified.
 
 #### Example Commands to Add Tests Manually
 
@@ -109,7 +109,7 @@ for svc in services:
     goss add service $svc
 ```
 
-You'd replace `packages` and `services` with the actual lists of names extracted by the Python script.
+You'd replace `packages` and `services` with the  lists of names extracted by the Python script.
 
 ### Note
 

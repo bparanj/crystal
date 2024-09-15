@@ -21,7 +21,7 @@ Yes, from a contributor's perspective, the Ruby on Rails codebase does exhibit a
 
 5. **Automated Testing**: A comprehensive suite of automated tests ensures that new changes do not break existing functionalities. This maintains the integrity of the directory structure and the overall codebase.
 
-6. **Community-Driven Development**: The Rails community, including core team members and contributors, plays a significant role in shaping the codebase. Proposals for changes often undergo thorough discussion and review, contributing to the orderly development process.
+6. **Community-Driven Development**: The Rails community,  core team members and contributors, plays a significant role in shaping the codebase. Proposals for changes often undergo thorough discussion and review, contributing to the orderly development process.
 
 For Rails contributors, understanding and adhering to this structured approach is crucial for effective collaboration and contribution to the framework's development. The orderly directory structure not only facilitates easier code navigation but also ensures the scalability and maintainability of the Rails framework itself.
 
@@ -65,7 +65,7 @@ The Rails distribution provides a comprehensive package to web app developers th
 
 5. **Testing Framework**: Rails is bundled with a default testing framework, making it easy to write and run tests for your application.
 
-6. **Asset Pipeline**: Rails has an asset pipeline for managing assets like JavaScript, CSS, and images, including pre-processors like SASS for CSS and CoffeeScript for JavaScript.
+6. **Asset Pipeline**: Rails has an asset pipeline for managing assets like JavaScript, CSS, and images,  pre-processors like SASS for CSS and CoffeeScript for JavaScript.
 
 7. **Gemfile**: A default `Gemfile` is included, specifying gem dependencies for Rails and allowing easy management of additional gems.
 
@@ -73,7 +73,7 @@ The Rails distribution provides a comprehensive package to web app developers th
 
 9. **Initializers**: Directory for initializing scripts, which are run when the application starts.
 
-10. **Locale Files**: Support for internationalization is provided, including default locale files.
+10. **Locale Files**: Support for internationalization is provided,  default locale files.
 
 11. **Middleware Stack**: Rails comes with a default set of middleware for session management, request responses, and other essential web application functions.
 

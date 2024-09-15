@@ -24,7 +24,7 @@ Rails framework does not have a single, unified system specification document in
 
 5. **Contributing Guides**: For those looking to contribute to Rails, there are guides that explain the contribution process, coding standards, and other practices. While not a system specification, they provide insights into the framework's design and development philosophy.
 
-6. **GitHub Repository**: The Rails GitHub repository itself, including issues and pull requests, can be seen as a living document offering insights into the ongoing development and discussions surrounding Rails features and specifications.
+6. **GitHub Repository**: The Rails GitHub repository itself,  issues and pull requests, can be seen as a living document offering insights into the ongoing development and discussions surrounding Rails features and specifications.
 
 The framework's specifications are comprehensively covered through its API documentation, guides and code comments.
 

@@ -19,12 +19,12 @@ A system library is a collection of pre-compiled routines that a program can use
 ### Examples:
 
 1. **GNU C Library (glibc)**:
-   - **Description**: The GNU C Library, commonly known as glibc, is the standard C library for Linux systems. It provides essential routines for system calls, file operations, string manipulation, and more.
+   - **Description**: The GNU C Library,  known as glibc, is the standard C library for Linux systems. It provides essential routines for system calls, file operations, string manipulation, and more.
    - **Functions**: Includes functions like `printf`, `malloc`, `fopen`, and `fork`.
 
 2. **Math Library (libm)**:
    - **Description**: The math library (libm) provides mathematical functions such as `sin`, `cos`, `exp`, and `log`.
-   - **Usage**: These functions are commonly used in scientific and engineering applications.
+   - **Usage**: These functions are  used in scientific and engineering applications.
 
 3. **Pthread Library (libpthread)**:
    - **Description**: The POSIX thread library (libpthread) provides functions for creating and managing threads, synchronizing thread execution, and handling thread-specific data.
@@ -56,7 +56,7 @@ A system library is a collection of pre-compiled routines that a program can use
    - This book is a classic reference that covers system libraries in detail, providing examples and explanations of their usage in Unix-like operating systems.
 
 4. **"Linux System Programming" by Robert Love**:
-   - Provides insights into system programming, including the use of system libraries and how they interact with the Linux kernel.
+   - Provides insights into system programming,  the use of system libraries and how they interact with the Linux kernel.
 
 System libraries are fundamental to the operation and development of software on an operating system, providing building blocks that simplify and standardize development of applications.
 

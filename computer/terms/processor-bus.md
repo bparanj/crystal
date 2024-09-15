@@ -36,7 +36,7 @@ A processor bus in a computer is a communication pathway used to transfer data a
 
 ### Types of Processor Buses:
 
-1. **Data Bus**: Transfers actual data between the CPU and other components.
+1. **Data Bus**: Transfers  data between the CPU and other components.
 2. **Address Bus**: Carries the addresses of data (but not the data itself) that the CPU needs to read from or write to.
 3. **Control Bus**: Carries control signals that manage various operations within the computer, such as read/write commands.
 

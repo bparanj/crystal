@@ -1,4 +1,4 @@
-Disabling root login and password-based SSH authentication are common security practices for Linux servers, including Ubuntu 22.04. When you disable these, you typically rely on SSH key-based authentication for user accounts. A PEM file (Privacy Enhanced Mail) is often used in this context as it contains a private key for SSH key-based authentication.
+Disabling root login and password-based SSH authentication are common security practices for Linux servers,  Ubuntu 22.04. When you disable these, you  rely on SSH key-based authentication for user accounts. A PEM file (Privacy Enhanced Mail) is often used in this context as it contains a private key for SSH key-based authentication.
 
 ### SSH Key-Based Authentication
 
@@ -94,14 +94,14 @@ Below is an example playbook that accomplishes this. It assumes you have already
 - **Disable root SSH login**: This task updates `/etc/ssh/sshd_config` to set `PermitRootLogin` to `no`, disabling root login over SSH.
 - **Disable password authentication**: Similarly, it sets `PasswordAuthentication` to `no` to require SSH key-based authentication.
 - **Ensure SSH directory exists**: Creates the `.ssh` directory for the specified non-root user if it doesn’t already exist, ensuring the correct permissions.
-- **Add authorized key**: Adds a specified public SSH key to the non-root user's authorized keys, allowing key-based SSH login. Replace `/path/to/your/public_key.pub` with the actual path to your public SSH key file.
+- **Add authorized key**: Adds a specified public SSH key to the non-root user's authorized keys, allowing key-based SSH login. Replace `/path/to/your/public_key.pub` with the  path to your public SSH key file.
 - **Handlers - restart sshd**: This handler restarts the SSH service to apply the configuration changes.
 
 ### Important Notes
 
 - **SSH Access**: Before running this playbook, ensure that you have SSH access to the server using the non-root user and that your public SSH key is correctly installed. This is critical because, after applying these changes, password-based and root logins will be disabled.
 - **Ansible User Variable**: Replace `{{ ansible_user }}` with your specific non-root username if not set as a variable elsewhere in your Ansible configurations.
-- **Public Key Path**: Change `/path/to/your/public_key.pub` to the actual path of your public SSH key on the machine running Ansible.
+- **Public Key Path**: Change `/path/to/your/public_key.pub` to the  path of your public SSH key on the machine running Ansible.
 
 ### Running the Playbook
 
@@ -167,7 +167,7 @@ The playbook you've provided aims to secure SSH configuration by disabling root 
 ### Key Corrections and Improvements:
 
 - **SSH Directory Path**: Changed from `/home/{{ ansible_user }}/ssh` to `/home/{{ ansible_user }}/.ssh`. The `.ssh` directory is the correct location for storing user SSH keys.
-- **Dynamic Public Key Path**: Added a `vars` section to define `ssh_public_key` using Ansible's `lookup` plugin to fetch the `HOME` environment variable of the user running the playbook. This allows for a more dynamic and correct path setting. Adjust the path (`/path/to/your/public_key.pub`) to where your public key is actually located relative to the `HOME` directory of the user running the playbook.
+- **Dynamic Public Key Path**: Added a `vars` section to define `ssh_public_key` using Ansible's `lookup` plugin to fetch the `HOME` environment variable of the user running the playbook. This allows for a more dynamic and correct path setting. Adjust the path (`/path/to/your/public_key.pub`) to where your public key is ly located relative to the `HOME` directory of the user running the playbook.
 - **Regular Expression Adjustment**: Updated the `regexp` for `PermitRootLogin` and `PasswordAuthentication` to account for commented-out lines (`^(#)?`). This ensures that the playbook correctly updates these settings whether they are initially commented out or not.
 
 ### Running the Playbook with Packer

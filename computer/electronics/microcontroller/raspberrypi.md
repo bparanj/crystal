@@ -8,7 +8,7 @@ The Raspberry Pi is a versatile single-board computer with a wide range of capab
 
 2. **Programming and Development**:
    - **Multiple Languages**: Supports Python, C, C++, Java, Scratch, and many other programming languages.
-   - **Integrated Development Environments (IDEs)**: Compatible with several IDEs, including Thonny, Geany, and Visual Studio Code.
+   - **Integrated Development Environments (IDEs)**: Compatible with several IDEs,  Thonny, Geany, and Visual Studio Code.
 
 3. **Educational Tool**:
    - **Learning Platform**: Widely used in education for teaching programming, electronics, and robotics.
@@ -33,7 +33,7 @@ The Raspberry Pi is a versatile single-board computer with a wide range of capab
    - **Custom Solutions**: Build custom automation solutions with various sensors and actuators.
 
 8. **Robotics**:
-   - **Robot Controller**: Can be used to control robots, including motor control, sensor integration, and decision-making processes.
+   - **Robot Controller**: Can be used to control robots,  motor control, sensor integration, and decision-making processes.
    - **AI and Machine Learning**: Supports frameworks like TensorFlow and OpenCV for AI and computer vision projects.
 
 9. **Game Emulation**:

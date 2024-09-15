@@ -4,8 +4,8 @@ Here's a comparison of UFW and WAF in the context of AWS:
 
 1. UFW (Uncomplicated Firewall):
    - UFW is a host-based firewall that runs on individual instances or servers.
-   - It is typically used to control inbound and outbound traffic at the instance level, filtering traffic based on IP addresses, ports, and protocols.
-   - UFW is commonly used on Linux-based instances, such as Amazon EC2 instances running Ubuntu or other Linux distributions.
+   - It is  used to control inbound and outbound traffic at the instance level, filtering traffic based on IP addresses, ports, and protocols.
+   - UFW is  used on Linux-based instances, such as Amazon EC2 instances running Ubuntu or other Linux distributions.
    - It provides a simple and easy-to-use interface for configuring firewall rules on individual instances.
    - UFW is suitable for securing individual instances and controlling access to specific services or applications running on those instances.
 
@@ -16,7 +16,7 @@ Here's a comparison of UFW and WAF in the context of AWS:
    - WAF allows you to define custom rules and conditions to filter and block malicious traffic based on request patterns, IP addresses, HTTP headers, and other criteria.
    - It provides a centralized way to protect multiple web applications or APIs across different instances or services.
 
-In an AWS environment, you typically use security groups and network ACLs as the primary means of network-level security. Security groups act as virtual firewalls at the instance level, controlling inbound and outbound traffic based on IP addresses, ports, and protocols. Network ACLs provide an additional layer of security at the subnet level.
+In an AWS environment, you  use security groups and network ACLs as the primary means of network-level security. Security groups act as virtual firewalls at the instance level, controlling inbound and outbound traffic based on IP addresses, ports, and protocols. Network ACLs provide an additional layer of security at the subnet level.
 
 If you require host-based firewall capabilities on individual instances, you can choose to use UFW or other host-based firewalls like iptables. However, using UFW is not mandatory, and you can rely on security groups and network ACLs for network-level security.
 

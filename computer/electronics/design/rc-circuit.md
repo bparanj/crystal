@@ -100,7 +100,7 @@ Experiment procedure:
    - The time constant (τ) of this circuit is R * C = 1kΩ * 100µF = 0.1 seconds.
    - It takes about 5 time constants (0.5 seconds) to fully charge or discharge the capacitor.
 
-This simple experiment demonstrates the fundamental behavior of capacitors in DC circuits, including charging, discharging, and the concept of the time constant.
+This simple experiment demonstrates the fundamental behavior of capacitors in DC circuits,  charging, discharging, and the concept of the time constant.
 
 We can simulate this RC circuit using Python. We'll use the NumPy library for numerical calculations and Matplotlib for plotting the results. This simulation will show the charging and discharging of the capacitor over time.
 
@@ -165,7 +165,7 @@ This script simulates our RC circuit and plots the voltage across the capacitor 
 5. We define functions for charging and discharging voltages based on the RC circuit equations.
 6. We simulate charging for the first 0.5 seconds, then discharging for the next 0.5 seconds.
 7. We plot the results, showing the voltage across the capacitor over time.
-8. Finally, we print some key values, including the time constant and voltages at specific times.
+8. Finally, we print some key values,  the time constant and voltages at specific times.
 
 To run this simulation:
 
@@ -180,7 +180,7 @@ To run this simulation:
    python rc_circuit_simulation.py
    ```
 
-This simulation will generate a graph showing the capacitor voltage over time, including both the charging and discharging phases. It also prints out some key values to help understand the circuit behavior.
+This simulation will generate a graph showing the capacitor voltage over time,  both the charging and discharging phases. It also prints out some key values to help understand the circuit behavior.
 
 Using PySpice is an excellent choice for simulating electronic circuits in Python. PySpice provides a more comprehensive simulation environment that's closer to real-world circuit behavior. Here's how we can simulate our RC circuit using PySpice:
 
@@ -237,7 +237,7 @@ This script uses PySpice to simulate our RC circuit.
 4. We run a transient analysis simulation for 1 second with 1ms steps.
 5. We extract time and voltage data from the simulation results.
 6. We plot the results using Matplotlib.
-7. Finally, we print some key values, including the time constant and voltages at specific times.
+7. Finally, we print some key values,  the time constant and voltages at specific times.
 
 To run this simulation:
 
@@ -252,6 +252,6 @@ To run this simulation:
    python pyspice_rc_simulation.py
    ```
 
-This simulation provides a more accurate representation of the circuit behavior, including the initial charging phase and any potential non-ideal behaviors that might occur in a real circuit.
+This simulation provides a more accurate representation of the circuit behavior,  the initial charging phase and any potential non-ideal behaviors that might occur in a real circuit.
 
 The resulting graph will show the capacitor voltage over time, demonstrating how it charges up to the source voltage. The printed values will give you specific data points to understand the circuit's behavior.

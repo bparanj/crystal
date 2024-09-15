@@ -8,7 +8,7 @@ Start with small changes. There are more than 70 types of refactoring changes.
 
 - How many types of refactoring changes have been accepted to Rails ?
 
-There isn't a specific count or categorized list detailing the types of refactoring changes accepted in the Rails codebase. However, in general, refactoring in Rails, like in many large open-source projects, typically includes:
+There isn't a specific count or categorized list detailing the types of refactoring changes accepted in the Rails codebase. However, in general, refactoring in Rails, like in many large open-source projects,  includes:
 
 1. **Improving Code Readability**: Simplifying complex code for better understanding.
 2. **Optimizing Performance**: Enhancing the efficiency of certain operations.

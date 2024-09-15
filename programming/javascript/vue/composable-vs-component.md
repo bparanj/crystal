@@ -8,7 +8,7 @@ In Vue 3, the terms "composable" and "component" refer to different concepts, ea
 2. **Composables**:
    - **Definition**: Composables are a concept introduced in Vue 3 as part of the Composition API. A composable is a reusable function that encapsulates and manages a piece of reactive state or behavior. 
    - **Usage**: Composables are used to extract and reuse logic across different components. This could include data fetching, form handling, or any other reactive logic.
-   - **Characteristics**: Composables make it easier to organize and share logic between components without needing to rely on the options API (like mixins or higher-order components). They leverage Vue’s reactivity system, typically returning reactive state or functions that manipulate that state.
+   - **Characteristics**: Composables make it easier to organize and share logic between components without needing to rely on the options API (like mixins or higher-order components). They leverage Vue’s reactivity system,  returning reactive state or functions that manipulate that state.
 
 ## Key Differences
 

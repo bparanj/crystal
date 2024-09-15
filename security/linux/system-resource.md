@@ -13,12 +13,12 @@ System resources in Linux refer to the various components and assets of the comp
    - **Resource Management**: The kernel manages memory allocation and deallocation, ensuring that processes have the memory they need while maintaining overall system stability.
 
 3. **Storage Devices**:
-   - **Function**: Long-term storage of data and programs, including hard drives, SSDs, and other storage media.
-   - **Resource Management**: The kernel manages file systems and storage space, including reading from and writing to disks.
+   - **Function**: Long-term storage of data and programs,  hard drives, SSDs, and other storage media.
+   - **Resource Management**: The kernel manages file systems and storage space,  reading from and writing to disks.
 
 4. **Input/Output (I/O) Devices**:
    - **Function**: Devices such as keyboards, mice, printers, and network interfaces that allow interaction with the system.
-   - **Resource Management**: The kernel handles I/O operations, including device drivers and managing data transfer between devices and the system.
+   - **Resource Management**: The kernel handles I/O operations,  device drivers and managing data transfer between devices and the system.
 
 5. **Network Resources**:
    - **Function**: Network interfaces and protocols that enable communication with other systems.
@@ -26,7 +26,7 @@ System resources in Linux refer to the various components and assets of the comp
 
 6. **Processes**:
    - **Function**: Running instances of programs that perform tasks.
-   - **Resource Management**: The kernel schedules and manages processes, including multitasking and inter-process communication (IPC).
+   - **Resource Management**: The kernel schedules and manages processes,  multitasking and inter-process communication (IPC).
 
 7. **System Services**:
    - **Function**: Background services and daemons that perform various system functions.
@@ -52,8 +52,8 @@ The term "system resources" is used because these components and assets are esse
 
 ### Sources:
 
-- **"Operating System Concepts" by Silberschatz, Galvin, and Gagne**: This book provides comprehensive coverage of operating system principles, including resource management.
-- **"The Linux Programming Interface" by Michael Kerrisk**: This book covers the Linux operating system in detail, including how it manages system resources.
-- **"Linux Kernel Development" by Robert Love**: This book offers insights into how the Linux kernel manages system resources, including memory, CPU, and I/O.
-- **The Linux Documentation Project**: A valuable resource for understanding various aspects of Linux, including resource management. [The Linux Documentation Project](https://www.tldp.org/)
+- **"Operating System Concepts" by Silberschatz, Galvin, and Gagne**: This book provides comprehensive coverage of operating system principles,  resource management.
+- **"The Linux Programming Interface" by Michael Kerrisk**: This book covers the Linux operating system in detail,  how it manages system resources.
+- **"Linux Kernel Development" by Robert Love**: This book offers insights into how the Linux kernel manages system resources,  memory, CPU, and I/O.
+- **The Linux Documentation Project**: A valuable resource for understanding various aspects of Linux,  resource management. [The Linux Documentation Project](https://www.tldp.org/)
 - **Red Hat Documentation**: Provides detailed guides and manuals on managing Linux systems and resources. [Red Hat Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/)

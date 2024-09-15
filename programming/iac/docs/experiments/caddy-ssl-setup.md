@@ -36,7 +36,7 @@ For the scenario where you need to modify the Caddy configuration after the doma
          command: systemctl reload caddy
    ```
 
-   - Before running the playbook, replace `your_ec2_instance` with your actual EC2 instance's inventory or IP address, and `yourdomain.com` with your actual domain name.
+   - Before running the playbook, replace `your_ec2_instance` with your  EC2 instance's inventory or IP address, and `yourdomain.com` with your  domain name.
 
 4. **Execution**:
 

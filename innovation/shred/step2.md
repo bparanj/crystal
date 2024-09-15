@@ -93,7 +93,7 @@ sudo ufw reload
 sudo ufw status verbose
 ```
 
-This will display all the active rules, including the ones we just added.
+This will display all the active rules,  the ones we just added.
 
 Additional notes:
 - These rules assume that DNS resolution is working correctly for the specified domain names. If you're having issues, you might need to allow outgoing DNS traffic (port 53 UDP/TCP) as well.

@@ -11,7 +11,7 @@ A non-contact thermometer, also known as an infrared (IR) thermometer, measures 
    - **Display**: Shows the temperature reading to the user.
 
 3. **Types of Non-Contact Thermometers**:
-   - **Handheld IR Thermometers**: Commonly used for quick measurements in various applications, including medical, industrial, and food safety.
+   - **Handheld IR Thermometers**: Commonly used for quick measurements in various applications,  medical, industrial, and food safety.
    - **Fixed-Mount IR Thermometers**: Used for continuous monitoring in industrial processes.
    - **Thermal Cameras**: Provide a visual representation of temperature distribution across an area, used in building inspections, electrical maintenance, and medical diagnostics.
 

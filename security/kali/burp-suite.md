@@ -24,7 +24,7 @@ This Ansible playbook is designed to install Burp Suite Pro and other assessment
 ```
 - **name**: Describes the purpose of the play, which is to install assessment tools.
 - **hosts**: Specifies that the play will run on all hosts in the inventory.
-- **become**: Enables privilege escalation (running tasks as a different user, typically root).
+- **become**: Enables privilege escalation (running tasks as a different user,  root).
 - **become_method**: Specifies the method for privilege escalation, using `sudo`.
 - **vars**: Defines variables used within the play:
   - **group**: The group that should own the installed tools. The VNC user belongs to this group.
@@ -57,7 +57,7 @@ This Ansible playbook is designed to install Burp Suite Pro and other assessment
 This Ansible playbook is structured to:
 1. Ensure it runs with elevated privileges.
 2. Fetch necessary user information from AWS SSM.
-3. Install the `AutoEgressAssess` tool by including the `assessment_tool` role with specified parameters, ensuring the tool is installed correctly and with appropriate dependencies.
+3. Install the `AutoEgressAssess` tool by  the `assessment_tool` role with specified parameters, ensuring the tool is installed correctly and with appropriate dependencies.
 
 By following these steps, the playbook effectively sets up the required assessment tools for the VNC user in a secure and organized manner.
 
@@ -119,7 +119,7 @@ Imagine a company that wants to ensure its sensitive data does not leak out thro
 ### References
 
 - [GitHub - AutoEgressAssess Repository](https://github.com/tarrell13/Auto-Egress-Assess): Official repository with source code and documentation.
-- [OWASP Testing Guide](https://owasp.org/www-project-testing-guide/): Provides guidelines for comprehensive security testing, including egress filtering.
+- [OWASP Testing Guide](https://owasp.org/www-project-testing-guide/): Provides guidelines for comprehensive security testing,  egress filtering.
 - [SANS Institute - Egress Filtering](https://www.sans.org/reading-room/whitepapers/firewalls/egress-filtering-990): Detailed explanation of egress filtering and its importance in network security.
 
 By using AutoEgressAssess, organizations can proactively identify and mitigate risks associated with outbound traffic, thereby enhancing their overall security posture.

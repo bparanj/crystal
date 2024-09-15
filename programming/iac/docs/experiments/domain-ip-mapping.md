@@ -1,4 +1,4 @@
-Associating an IP address with your domain in Namecheap involves updating the domain's DNS settings to point to the IP address. This process typically involves creating or modifying an A record to establish this association. Here’s how you can do it:
+Associating an IP address with your domain in Namecheap involves updating the domain's DNS settings to point to the IP address. This process  involves creating or modifying an A record to establish this association. Here’s how you can do it:
 
 ### Step 1: Log in to Your Namecheap Account
 
@@ -23,7 +23,7 @@ Associating an IP address with your domain in Namecheap involves updating the do
    - Select “A Record” from the dropdown menu for the type of record.
    - For the Host field, if you want to point your entire domain (e.g., `example.com`) to the IP address, enter `@`. To point a specific subdomain (e.g., `www.example.com`), enter the subdomain part (e.g., `www`).
    - In the Value field, enter the IP address you want to associate with the domain or subdomain.
-   - Set the TTL (Time to Live) as desired. The default value is typically fine for most use cases.
+   - Set the TTL (Time to Live) as desired. The default value is  fine for most use cases.
    - If editing an existing A record, simply update the Value field with the new IP address.
 
 ### Step 6: Save Changes
@@ -32,7 +32,7 @@ Associating an IP address with your domain in Namecheap involves updating the do
 
 ### Step 7: DNS Propagation
 
-7. DNS changes can take some time to propagate across the internet, typically up to 24-48 hours. During this time, your domain might not immediately reflect the change.
+7. DNS changes can take some time to propagate across the internet,  up to 24-48 hours. During this time, your domain might not immediately reflect the change.
 
 **Note**: Be cautious when making DNS changes, as incorrect settings can make your site inaccessible. If you’re not sure, it’s a good idea to consult with someone who has experience managing DNS or reach out to Namecheap’s support for assistance.
 
@@ -60,7 +60,7 @@ Whether you need a CNAME record depends on your specific use case. Here's a brie
 
 2. **Service Integration**: Many online services (like email marketing tools, customer support platforms, etc.) ask you to point a subdomain of your website to their systems using a CNAME record. This allows you to use a branded subdomain with an external service.
 
-3. **Load Balancing and Redundancy**: CNAME records can be used to abstract the actual hostname of a service behind a more generic subdomain, making it easier to switch between servers or services without needing DNS changes for each client.
+3. **Load Balancing and Redundancy**: CNAME records can be used to abstract the  hostname of a service behind a more generic subdomain, making it easier to switch between servers or services without needing DNS changes for each client.
 
 ### When Not to Use a CNAME Record
 
@@ -100,7 +100,7 @@ If `example.com` is set up properly with SSL and `www.example.com` is having iss
      1. **Name**: The alias you want to create, often a subdomain, like `www` or `mail`.
      2. **Type**: Set this to `CNAME`.
      3. **Value or Target**: The canonical domain name this alias points to, such as `example.com`.
-     4. **TTL (Time To Live)**: How long the DNS cache should keep the record, typically in seconds or minutes, e.g., `3600` for one hour.
+     4. **TTL (Time To Live)**: How long the DNS cache should keep the record,  in seconds or minutes, e.g., `3600` for one hour.
 
      These values are used to create a DNS entry that directs traffic from the alias (Name) to the specified target domain (Value).
 
@@ -119,4 +119,4 @@ If `example.com` is set up properly with SSL and `www.example.com` is having iss
    - After making the changes, use an SSL test tool like SSL Labs (https://www.ssllabs.com/ssltest/) to verify that the SSL setup for `www.example.com` is correct.
    - Test accessing `www.example.com` in a browser to ensure that it loads correctly and shows a secure connection.
 
-Wait for DNS changes to propagate, which can take anywhere from a few minutes to 48 hours, although it's typically on the shorter side.
+Wait for DNS changes to propagate, which can take anywhere from a few minutes to 48 hours, although it's  on the shorter side.

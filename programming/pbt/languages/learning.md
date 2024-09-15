@@ -366,7 +366,7 @@ Not necessarily. The advice to "throw it away" emphasizes learning over product.
 
 #### Why Are My Studies Taking So Long?
 
-Studies might take longer than expected for several reasons, including tackling too broad a topic, perfectionism, or learning new tools or concepts. To mitigate this, set clear, achievable goals and time limits. Remember, the goal is learning and exploration, not creating a polished product.
+Studies might take longer than expected for several reasons,  tackling too broad a topic, perfectionism, or learning new tools or concepts. To mitigate this, set clear, achievable goals and time limits. Remember, the goal is learning and exploration, not creating a polished product.
 
 #### If I Always Throw Code Away, Won’t I Learn Bad Habits?
 

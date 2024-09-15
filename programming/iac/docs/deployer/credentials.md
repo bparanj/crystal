@@ -69,7 +69,7 @@ The error message you're seeing suggests that Rails is unable to decrypt `config
      ```bash
      RAILS_ENV=production bin/rails credentials:edit
      ```
-   - Remember to replace `your_master_key_here` with your actual master key.
+   - Remember to replace `your_master_key_here` with your  master key.
 
 3. **Check for Typos in the Master Key**:
 
@@ -106,7 +106,7 @@ To source the `bashrc` file within an Ansible playbook, you generally use the `a
 
 If you need to run a command as a specific user and source their `.bashrc`, you can use the `become` and `become_user` directives to switch users. However, note that directly sourcing `.bashrc` might not always work as expected in non-interactive shells (like when running commands through Ansible), since `.bashrc` may contain conditions that exit early if the shell is not interactive.
 
-A more reliable approach might involve directly exporting the needed environment variables within the task or including a specific script to set up the environment. Here's an adjusted example where you source `.bashrc` and run a command, ensuring that the `.bashrc` execution context is suitable for your operation:
+A more reliable approach might involve directly exporting the needed environment variables within the task or  a specific script to set up the environment. Here's an adjusted example where you source `.bashrc` and run a command, ensuring that the `.bashrc` execution context is suitable for your operation:
 
 ```yaml
 - name: Source .bashrc and execute a command
@@ -119,11 +119,11 @@ A more reliable approach might involve directly exporting the needed environment
   become_user: target_user
 ```
 
-In this example, `your_command_here` is the command you wish to run after sourcing `.bashrc`, and `target_user` is the user whose `.bashrc` you want to source. Remember to replace these placeholders with your actual command and user.
+In this example, `your_command_here` is the command you wish to run after sourcing `.bashrc`, and `target_user` is the user whose `.bashrc` you want to source. Remember to replace these placeholders with your  command and user.
 
 Using `exec /bin/bash -l -i -c` ensures that the shell is treated as both login (`-l`) and interactive (`-i`), which can help in sourcing `.bashrc` or `.bash_profile` correctly. However, this method should be used cautiously and tested thoroughly, as it can lead to different behavior depending on how `.bashrc` is configured and the environment it expects.
 
-The error message you're encountering, `ActiveSupport::MessageEncryptor::InvalidMessage`, typically indicates a problem with the decryption of the encrypted credentials or master key in a Rails application. This can happen if the `RAILS_MASTER_KEY` is not set correctly or if the encrypted credentials file (`config/credentials.yml.enc`) cannot be decrypted with the provided key. Here are a few steps to troubleshoot and potentially fix this issue:
+The error message you're encountering, `ActiveSupport::MessageEncryptor::InvalidMessage`,  indicates a problem with the decryption of the encrypted credentials or master key in a Rails application. This can happen if the `RAILS_MASTER_KEY` is not set correctly or if the encrypted credentials file (`config/credentials.yml.enc`) cannot be decrypted with the provided key. Here are a few steps to troubleshoot and potentially fix this issue:
 
 1. **Ensure the Master Key is Set**: The Rails master key used to decrypt `config/credentials.yml.enc` should be set in an environment variable named `RAILS_MASTER_KEY`. Make sure this environment variable is present and correctly set in the environment where you're running the Rails application.
 
@@ -150,7 +150,7 @@ The error message you're encountering, `ActiveSupport::MessageEncryptor::Invalid
        RAILS_ENV: "production"
    ```
 
-   Replace `"{{ rails_master_key }}"` with the actual master key value or a variable representing it.
+   Replace `"{{ rails_master_key }}"` with the  master key value or a variable representing it.
 
 5. **Verify File Permissions**: Ensure that the user running the Rails commands has the necessary permissions to read the credentials and key files. You might encounter permission issues if the files cannot be accessed by the user running the Rails application.
 
@@ -158,7 +158,7 @@ If you're still encountering issues, consider examining the Rails logs for more 
 
 Ansible doesn't automatically pick up the `RAILS_MASTER_KEY` value unless it is explicitly provided in your playbook, environment variables, or Ansible Vault for secure storage and access.
 
-The `RAILS_MASTER_KEY` is typically used in Rails applications to decrypt encrypted credentials. If your application requires this key, you need to ensure that it's accessible during your Ansible deployments, especially when running commands that depend on Rails credentials.
+The `RAILS_MASTER_KEY` is  used in Rails applications to decrypt encrypted credentials. If your application requires this key, you need to ensure that it's accessible during your Ansible deployments, especially when running commands that depend on Rails credentials.
 
 Here are some ways to provide the `RAILS_MASTER_KEY`:
 
@@ -201,7 +201,7 @@ Here are some ways to provide the `RAILS_MASTER_KEY`:
 3. **Inline with `ansible-playbook` Command**: You can also pass the `RAILS_MASTER_KEY` at runtime via the `ansible-playbook` command using the `--extra-vars` option:
 
    ```bash
-   ansible-playbook deploy.yml --extra-vars "rails_master_key=youractualmasterkey"
+   ansible-playbook deploy.yml --extra-vars "rails_master_key=yourmasterkey"
    ```
 
 Regardless of the method you choose, ensure that the `RAILS_MASTER_KEY` is securely managed and not exposed in plaintext in your version control or accessible logs.
@@ -214,7 +214,7 @@ The error message indicates a problem with the encryption key used by Rails, spe
 
 ### Solutions:
 
-1. **Check `secret_key_base`:** Ensure your `secret_key_base` is of the correct length. This key is typically found in the `credentials.yml.enc` file (for Rails 5.2+) or in the `secrets.yml` for older versions. If you're setting it through environment variables, ensure the environment variable is correctly set.
+1. **Check `secret_key_base`:** Ensure your `secret_key_base` is of the correct length. This key is  found in the `credentials.yml.enc` file (for Rails 5.2+) or in the `secrets.yml` for older versions. If you're setting it through environment variables, ensure the environment variable is correctly set.
 
 2. **Generate a new `secret_key_base`:** You can generate a new `secret_key_base` by running `bin/rails secret` in your Rails application directory. This command generates a new secret key of the correct length. You can then set this key as your `secret_key_base`.
 
@@ -322,7 +322,7 @@ To set the value of `RAILS_MASTER_KEY` in Ansible, you can use an environment va
     RAILS_MASTER_KEY: "{{ rails_master_key }}"
 ```
 
-In this snippet, `RAILS_MASTER_KEY` is set as an environment variable for the command task. The value `{{ rails_master_key }}` is a placeholder for the actual master key, which you should replace with your key or reference from a variable defined elsewhere in your playbook or in an external variables file.
+In this snippet, `RAILS_MASTER_KEY` is set as an environment variable for the command task. The value `{{ rails_master_key }}` is a placeholder for the  master key, which you should replace with your key or reference from a variable defined elsewhere in your playbook or in an external variables file.
 
 To securely manage your `RAILS_MASTER_KEY`, you can:
 
@@ -367,6 +367,6 @@ To securely manage your `RAILS_MASTER_KEY`, you can:
          $ANSIBLE_VAULT;1.1;AES256
          663864396532363739643732626639663531666564383466...
    ```
-   This embeds the encrypted master key directly in your playbook. You'll need to replace the encrypted string with your actual encrypted `RAILS_MASTER_KEY`, which you can generate using `ansible-vault encrypt_string`.
+   This embeds the encrypted master key directly in your playbook. You'll need to replace the encrypted string with your  encrypted `RAILS_MASTER_KEY`, which you can generate using `ansible-vault encrypt_string`.
 
 Choose the method that best fits your security practices and operational environment.

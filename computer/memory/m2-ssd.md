@@ -32,9 +32,9 @@ The "M.2" in M.2 SSD refers to a form factor specification for computer expansio
 
 4. Form factor: M.2 describes the physical size and connector type of the SSD, not its performance or interface.
 
-5. Versatility: While commonly used for SSDs, the M.2 form factor can also be used for other device types like WiFi cards.
+5. Versatility: While  used for SSDs, the M.2 form factor can also be used for other device types like WiFi cards.
 
-6. Sizes: M.2 SSDs come in various sizes, typically denoted by a four or five-digit number (e.g., 2280, 22110) indicating width and length in millimeters.
+6. Sizes: M.2 SSDs come in various sizes,  denoted by a four or five-digit number (e.g., 2280, 22110) indicating width and length in millimeters.
 
 The M.2 designation helps users and manufacturers quickly identify the physical format of the device, ensuring compatibility with motherboards and other hardware.
 
@@ -42,7 +42,7 @@ The term "M.2" in M.2 SSD stands for the M.2 standard, which is a specification 
 
 1. **Form Factor**: M.2 refers to the form factor of the SSD. It describes the physical dimensions and connector type used by the SSD. M.2 is a compact form factor, making it suitable for use in small devices like laptops and ultrabooks.
 
-2. **Connector Type**: The M.2 standard defines the connector and slot on the motherboard. It allows for different types of connections, including SATA and PCIe (NVMe), which are faster and more efficient.
+2. **Connector Type**: The M.2 standard defines the connector and slot on the motherboard. It allows for different types of connections,  SATA and PCIe (NVMe), which are faster and more efficient.
 
 3. **Versatility**: M.2 SSDs can support multiple protocols (SATA, PCIe, NVMe) and offer various performance levels. This versatility is one reason for the adoption of the M.2 form factor.
 

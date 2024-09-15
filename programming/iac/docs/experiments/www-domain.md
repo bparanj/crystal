@@ -26,7 +26,7 @@ This ensures Caddy automatically obtains and renews SSL certificates for both do
 
 ### 3. Check SSL Certificate
 
-Ensure that the SSL certificate covers both the root domain and the `www` subdomain. If you're using Caddy, it typically handles this for you, but verifying can be useful. You can inspect the certificate with:
+Ensure that the SSL certificate covers both the root domain and the `www` subdomain. If you're using Caddy, it  handles this for you, but verifying can be useful. You can inspect the certificate with:
 
 ```bash
 openssl s_client -connect clickplan.net:443 -servername clickplan.net | openssl x509 -noout -text

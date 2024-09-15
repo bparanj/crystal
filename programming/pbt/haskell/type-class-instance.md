@@ -6,7 +6,7 @@ In Haskell, a type class is a sort of interface that defines some behavior in th
 
 - **Type Class**: A type class defines a set of function signatures without implementing them. It specifies what actions can be performed on a type, but not how those actions are carried out.
 
-- **Instance**: An instance of a type class provides the actual implementation of the functions specified by the type class, but for a specific type. When you declare a type as an instance of a type class, you're essentially saying, "Here's how this type conforms to the interface defined by the type class."
+- **Instance**: An instance of a type class provides the  implementation of the functions specified by the type class, but for a specific type. When you declare a type as an instance of a type class, you're essentially saying, "Here's how this type conforms to the interface defined by the type class."
 
 ### Example: The `Eq` Type Class
 
@@ -113,7 +113,7 @@ elem x (y:ys) = x == y || elem x ys
 
 ### Usage
 
-This definition allows `elem` to be used with any type that can be compared for equality, including built-in types like `Int`, `Char`, and user-defined types that are instances of `Eq`. Here's an example of using `elem` with a list of integers and a list of characters:
+This definition allows `elem` to be used with any type that can be compared for equality,  built-in types like `Int`, `Char`, and user-defined types that are instances of `Eq`. Here's an example of using `elem` with a list of integers and a list of characters:
 
 ```haskell
 main :: IO ()

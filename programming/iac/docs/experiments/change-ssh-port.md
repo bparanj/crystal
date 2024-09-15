@@ -2,7 +2,7 @@ Changing the default SSH port from the standard port 22 to another port is a com
 
 Here's how you can change the SSH port:
 
-1. **Edit the SSH configuration file** on your server, typically located at `/etc/ssh/sshd_config`.
+1. **Edit the SSH configuration file** on your server,  located at `/etc/ssh/sshd_config`.
    
    - Open the file with a text editor (you'll need sudo privileges): `sudo nano /etc/ssh/sshd_config`
    - Find the line that says `#Port 22`. Remove the `#` to uncomment it, and change `22` to your desired port number, for example, `Port 2222`.
@@ -22,12 +22,12 @@ After changing the SSH port, you must specify the new port number when connectin
 ssh -i /path/to/your/private_key.pem -p 2222 username@your_server_ip
 ```
 
-Replace `/path/to/your/private_key.pem` with the actual path to your PEM file, `2222` with your new SSH port, `username` with your actual username on the server, and `your_server_ip` with the IP address of your server.
+Replace `/path/to/your/private_key.pem` with the  path to your PEM file, `2222` with your new SSH port, `username` with your  username on the server, and `your_server_ip` with the IP address of your server.
 
 ### Important Considerations
 
 - **Remember the New Port**: Ensure you remember the new port number, as you'll need it for all future SSH connections.
-- **Security Implications**: Changing the default SSH port is a security measure to avoid unsophisticated attacks but should be part of a broader security strategy, including the use of SSH keys, strong passwords, and regular system updates.
+- **Security Implications**: Changing the default SSH port is a security measure to avoid unsophisticated attacks but should be part of a broader security strategy,  the use of SSH keys, strong passwords, and regular system updates.
 - **Connectivity Issues**: Ensure the new port is not blocked by any network firewalls or ISP restrictions that might prevent SSH access.
 - **Update Configuration Management Tools**: If you're using configuration management tools or scripts that rely on SSH, remember to update them with the new port number.
 
@@ -99,7 +99,7 @@ To use this playbook with Packer, ensure you have an Ansible provisioner block i
 }
 ```
 
-Replace `"path/to/change-ssh-port.yml"` with the actual path to your playbook file.
+Replace `"path/to/change-ssh-port.yml"` with the  path to your playbook file.
 
 ### Running Packer
 

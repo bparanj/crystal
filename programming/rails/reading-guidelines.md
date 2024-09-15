@@ -79,7 +79,7 @@ Another way to actively read existing code is to improve it. Think about how you
 46. Read a >> n as a / k, where k = 2n. 
 47. Examine one control structure at a time, treating its contents as a black box.
 48. Treat the controlling expression of each control structure as an assertion for the code it encloses.
-49. The return, goto, break, and continue statements as well as exceptions interfere with the structured flow of execution. Reason about their behavior separately since they all typically either terminate or restart the loop being processed.
+49. The return, goto, break, and continue statements as well as exceptions interfere with the structured flow of execution. Reason about their behavior separately since they all  either terminate or restart the loop being processed.
 50. Reason about complex loops through their variant and invariant properties.
 51. Simplify code reasoning by rearranging code, using meaning-preserving transformations. 
 
@@ -87,19 +87,19 @@ Another way to actively read existing code is to improve it. Think about how you
 
 116. You can examine a project's organization by browsing its source code tree—the hierarchical directory structure containing the project's source code. The source code tree often reflects the project's architectural and software process structure.
 117. Often the source code tree of an application mirrors the application's deployment structure.
-118. Do not let huge source code collections daunt you; typically these are better organized than smaller, ad hoc efforts. 
+118. Do not let huge source code collections daunt you;  these are better organized than smaller, ad hoc efforts. 
 119. When you work on a large project for the first time, spend some time acquainting yourself with its directory tree structure. 
-120. A project's “source code” encompasses a lot more than the computer language instructions compiled to obtain an executable program; a project's source code tree typically also includes specifications, end-user and developer documentation, test scripts, multimedia resources, build tools, examples, localization files, revision history, installation procedures, and licensing information. 
-121. The build process of large projects is typically specified declaratively by means of dependencies. Dependencies are translated into concrete build actions by tools such as make and its derivatives.
+120. A project's “source code” encompasses a lot more than the computer language instructions compiled to obtain an executable program; a project's source code tree  also includes specifications, end-user and developer documentation, test scripts, multimedia resources, build tools, examples, localization files, revision history, installation procedures, and licensing information. 
+121. The build process of large projects is  specified declaratively by means of dependencies. Dependencies are translated into concrete build actions by tools such as make and its derivatives.
 122. In large projects makefiles are often dynamically generated after a configuration step; you will need to perform the project-specific configuration before examining the makefile. 
 123. To inspect the steps of a large build process, you can dry-run make by using the -n switch.
 124. A revision control system provides a way to obtain an up-to-date version of the source code from its repository.
 125. Use commands that display executable file revision identification keywords to match an executable with its source code.
 126. Use bug-tracking code numbers that appear in revision logs to locate an issue description in the bug-tracking database.
 127. Use the revision control system version repository to identify how particular changes were implemented. 
-128. Many different aspects of the software development process, including configuration, build process management, code generation, testing, and documentation use custom-built tools.
+128. Many different aspects of the software development process,  configuration, build process management, code generation, testing, and documentation use custom-built tools.
 129. Use a program's debugging output to help you understand crucial parts of a program's control flow and data elements.
-130. The places where a tracing statement is located typically mark important parts of an algorithm function.
+130. The places where a tracing statement is located  mark important parts of an algorithm function.
 131. Assertions are used to verify steps in the operation of an algorithm, parameters received by a function, a program's flow of control, properties of the underlying hardware, and the results of test cases.
 132. Use algorithm verification assertions to confirm your understanding of an algorithm's operation or as a point to start your reasoning. 
 133. Often function argument and result assertions document a function's preconditions and postconditions.
@@ -139,8 +139,8 @@ Coding Standards and Conventions
 162. Documentation often elucidates the meaning of source code identifiers.
 163. Documentation can provide the rationale behind nonfunctional requirements.
 164. Documentation explains internal programming interfaces.
-165. Because documentation is seldom tested and stressed in the way the actual program code is, it can often be erroneous, incomplete, or out of date. 
-166. Documentation provides test cases and examples of actual use.
+165. Because documentation is seldom tested and stressed in the way the  program code is, it can often be erroneous, incomplete, or out of date. 
+166. Documentation provides test cases and examples of  use.
 167. Documentation often describes known implementation problems and bugs.
 168. Known environment deficiencies are often documented in the source code.
 169. Change documentation can indicate trouble spots.
@@ -149,7 +149,7 @@ Coding Standards and Conventions
 172. Documentation may often provide a misleading view of the source code.
 173. Be wary of undocumented features: classify each instance as justified, careless, or malicious, and accordingly decide whether the code or the documentation should be fixed.
 174. Documentation occasionally does not describe the system as implemented but as it should have been or will be implemented. 
-175. In source code documentation the word grok typically means “to understand.”
+175. In source code documentation the word grok  means “to understand.”
 176. If unknown or idiosyncratically used words hinder the code's understanding, try looking them up in the documentation's glossary (if it exists), The New Hacker's Dictionary, or on a Web search engine.
 177. When looking for source code documentation, consider nontraditional sources such as comments, standards, publications, test cases, mailing lists, newsgroups, revision logs, issue-tracking databases, marketing material, and the source code itself.
 178. You should always view documentation with a critical mind; since documentation is never executed and rarely tested or formally reviewed to the extent code is, it can often be misleading or outright wrong.
@@ -192,7 +192,7 @@ Coding Standards and Conventions
 253. Resist the temptation to beautify foreign code to your coding standards; gratuitous formatting changes create divergent code bases and hinder organized maintenance. 
 254. Program pretty-printers and editor syntax coloring can make source code more readable.
 255. The program cdecl will translate inscrutable C and C++ type declarations into plain English (and vice versa). 
-256. You can gain valuable insight on how the program operates by actually executing it. 
+256. You can gain valuable insight on how the program operates by ly executing it. 
 257. System call, event, and packet tracing tools can improve your understanding of a program's operation.
 258. Execution profilers let you target your optimization efforts, verify your input data coverage, and analyze the operation of algorithms. 
 259. Look for lines that are never executed to find weaknesses in your test coverage and amend your test data.
@@ -206,5 +206,5 @@ Coding Standards and Conventions
 
 265. Model software additions along the lines of similar entities (classes, functions, modules). Among similar existing entities, pick one with an unusual name to simplify textual searches in the base source code. 
 266. Automatically generated files often start with a comment indicating the fact.
-267. Any attempt to precisely analyze code will typically branch into numerous other classes, files, and modules and quickly overwhelm you; therefore, actively try to limit the extent of code you have to understand to the absolutely necessary minimum. 
+267. Any attempt to precisely analyze code will  branch into numerous other classes, files, and modules and quickly overwhelm you; therefore, actively try to limit the extent of code you have to understand to the absolutely necessary minimum. 
 268. Employ a breadth-first search strategy, attacking code-reading problems from multiple sides until one of them gives way.

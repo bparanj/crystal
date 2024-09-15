@@ -15,7 +15,7 @@ In AWS, the handling and storage of key pairs and secrets serve different purpos
 
 ### Key Differences
 
-1. **Use Case**: Key pairs are specific to SSH access for EC2 instances. Secrets Manager is for a wide range of secrets, including database credentials, API keys, and more.
+1. **Use Case**: Key pairs are specific to SSH access for EC2 instances. Secrets Manager is for a wide range of secrets,  database credentials, API keys, and more.
 2. **Management**: EC2 key pairs are managed within the EC2 dashboard or via the AWS CLI/SDKs related to EC2. Secrets Manager provides a dedicated service for secrets management with features like automatic rotation, access control policies, and auditing capabilities.
 3. **Storage Responsibility**: For key pairs, AWS stores the public key, but you are responsible for the private key. With Secrets Manager, AWS manages the encryption and storage of the secrets, reducing the operational burden on users.
 
@@ -28,7 +28,7 @@ Here's a table summarizing the differences between storing key pairs (specifical
 | **Purpose**              | Used for SSH access to EC2 instances.                  | Manages credentials, API keys, and other secrets.   |
 | **Storage**              | Public key stored by AWS. Private key managed by user. | Secrets stored and encrypted by AWS.                |
 | **Management**           | Managed within EC2 dashboard or AWS CLI/SDKs.          | Dedicated service with features like rotation and auditing. |
-| **Use Case**             | Specific to SSH key management for EC2 access.         | Broad range of secrets, including database credentials and API keys. |
+| **Use Case**             | Specific to SSH key management for EC2 access.         | Broad range of secrets,  database credentials and API keys. |
 | **Storage Responsibility** | User responsible for private key.                     | AWS manages encryption and storage of secrets.      |
 
 This table highlights the primary distinctions in purpose, management, and storage responsibilities between EC2 key pairs and AWS Secrets Manager.
@@ -38,7 +38,7 @@ This table highlights the primary distinctions in purpose, management, and stora
 Your understanding is mostly correct, with a few important considerations and best practices to keep in mind:
 
 1. **Storing Private Keys in AWS Secrets Manager**:
-   - **Feasibility**: Yes, you can store private keys in AWS Secrets Manager. This allows you to leverage AWS’s robust security features, including encryption and access control policies, to manage sensitive data like SSH private keys.
+   - **Feasibility**: Yes, you can store private keys in AWS Secrets Manager. This allows you to leverage AWS’s robust security features,  encryption and access control policies, to manage sensitive data like SSH private keys.
    - **Access**: Access to the private key stored in AWS Secrets Manager can be controlled via IAM policies. You can create policies that grant the necessary permissions to retrieve the private key from Secrets Manager, ensuring only authorized users or services can access it.
 
 2. **Exposing Private Keys**:

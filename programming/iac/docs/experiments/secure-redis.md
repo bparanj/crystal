@@ -1,10 +1,10 @@
 If your goal is to complete the Redis configuration task during the base image creation stage with Packer using Ansible, and you want to incorporate security recommendations such as disallowing specific commands, you will need to ensure your Ansible playbook is properly set up to configure Redis as desired. Based on the variables you've shown, it looks like you're preparing to manage Redis configuration through Ansible, which is a good approach.
 
-Here's how you might adjust and expand your Ansible setup for Redis configuration, including command restrictions, within your Packer build process:
+Here's how you might adjust and expand your Ansible setup for Redis configuration,  command restrictions, within your Packer build process:
 
 ### 1. Expand the Ansible Role or Playbook
 
-First, ensure your Ansible role or playbook that configures Redis includes tasks to update the Redis configuration file (`/etc/redis/redis.conf`) with the desired settings, including disabling specific commands. You'll likely want to use the `lineinfile` module for simple changes or the `template` module for more comprehensive configurations.
+First, ensure your Ansible role or playbook that configures Redis includes tasks to update the Redis configuration file (`/etc/redis/redis.conf`) with the desired settings,  disabling specific commands. You'll likely want to use the `lineinfile` module for simple changes or the `template` module for more comprehensive configurations.
 
 ```yaml
 - name: Configure Redis settings
@@ -69,15 +69,15 @@ Ensure your Packer template includes a provisioner that calls Ansible to run the
 }
 ```
 
-This configuration assumes you're using the `ansible-local` provisioner, which runs Ansible playbooks locally on the provisioned machine. Adjust the path to point to your actual playbook file.
+This configuration assumes you're using the `ansible-local` provisioner, which runs Ansible playbooks locally on the provisioned machine. Adjust the path to point to your  playbook file.
 
 ### 3. Build Your Image
 
-Run your Packer build command to create the image. Packer will provision a base image, run the Ansible playbook to configure Redis (including disabling specified commands), and then create a machine image with these configurations baked in.
+Run your Packer build command to create the image. Packer will provision a base image, run the Ansible playbook to configure Redis ( disabling specified commands), and then create a machine image with these configurations baked in.
 
 ### Final Note
 
-By following this approach, you integrate Redis configuration, including security enhancements, directly into your image build process with Packer and Ansible. This ensures that every instance launched from the resulting image will have Redis configured according to your specifications, right from the start.
+By following this approach, you integrate Redis configuration,  security enhancements, directly into your image build process with Packer and Ansible. This ensures that every instance launched from the resulting image will have Redis configured according to your specifications, right from the start.
 
 The structure you've described indicates you're using an Ansible role for Redis configuration. Ansible roles are a way to group related tasks, variables, files, and handlers into a defined directory structure for easy reuse and organization. Given your structure with `defaults/main.yml`, `handlers/main.yml`, and `tasks/main.yml`, here's how to organize the given playbook content within an Ansible role:
 
@@ -163,7 +163,7 @@ This playbook applies the `redis` role to all hosts in the `redis_servers` group
 
 ### Conclusion
 
-By structuring your Redis configuration as an Ansible role, you make your playbook more organized and reusable. The role's `defaults/main.yml` provides a clear location for default values, `tasks/main.yml` for the actual work to be done, and `handlers/main.yml` for service restarts or other triggered actions.
+By structuring your Redis configuration as an Ansible role, you make your playbook more organized and reusable. The role's `defaults/main.yml` provides a clear location for default values, `tasks/main.yml` for the  work to be done, and `handlers/main.yml` for service restarts or other triggered actions.
 
 Yes, the Ansible tasks you've outlined are generally correct and follow a good structure for ensuring Redis is installed, configuring Redis, ensuring the Redis service is running and enabled, and disabling specific Redis commands. However, there are a few points to consider for improvement and clarification:
 

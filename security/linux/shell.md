@@ -21,7 +21,7 @@ A shell is a command-line interface that allows users to interact with the opera
 
 ### Types of Shells:
 
-- **Bash (Bourne Again Shell)**: One of the most commonly used shells in Linux.
+- **Bash (Bourne Again Shell)**: One of the most  used shells in Linux.
 - **sh (Bourne Shell)**: The original Unix shell, which Bash is based on.
 - **csh (C Shell)**: Known for its scripting capabilities and syntax similar to the C programming language.
 - **ksh (Korn Shell)**: Combines features of the Bourne shell and C shell.
@@ -44,8 +44,8 @@ The term "shell" is used because it acts as a "shell" or outer layer that encase
 
 ### References:
 
-- **"Operating System Concepts" by Silberschatz, Galvin, and Gagne**: Provides an in-depth explanation of operating systems, including shells.
-- **"The Linux Programming Interface" by Michael Kerrisk**: Discusses various aspects of Linux, including shell programming and usage.
+- **"Operating System Concepts" by Silberschatz, Galvin, and Gagne**: Provides an in-depth explanation of operating systems,  shells.
+- **"The Linux Programming Interface" by Michael Kerrisk**: Discusses various aspects of Linux,  shell programming and usage.
 - **"Unix Shell Programming" by Stephen G. Kochan and Patrick Wood**: Offers insights into the functionality and programming aspects of Unix shells.
 
 ### Sources:

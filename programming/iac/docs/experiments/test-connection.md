@@ -1,4 +1,4 @@
-Creating an Ansible playbook to test connection to an AWS instance involves a few steps. First, ensure you have Ansible installed on your control machine, and you have the necessary AWS access set up, including your instance's IP address and your SSH key. Here's a simple playbook to test the connection:
+Creating an Ansible playbook to test connection to an AWS instance involves a few steps. First, ensure you have Ansible installed on your control machine, and you have the necessary AWS access set up,  your instance's IP address and your SSH key. Here's a simple playbook to test the connection:
 
 1. **Create Your Ansible Inventory File:**
    Before writing the playbook, add your AWS instance details to an inventory file. This file lists the servers you want Ansible to manage. Create a file named `hosts.ini` (or any name you prefer) and add your AWS instance details under a group `[aws_instances]`:

@@ -41,4 +41,4 @@ The Ruby on Rails framework utilizes several build tools and systems for its dev
 10. **Documentation Tools (like RDoc or YARD)**:
     - For generating API documentation from the Ruby codebase.
 
-These tools collectively support the development lifecycle of the Rails framework, ensuring that the codebase remains robust, well-tested, and maintainable. Contributors to Rails typically need to be familiar with these tools to effectively work on the framework.
+These tools collectively support the development lifecycle of the Rails framework, ensuring that the codebase remains robust, well-tested, and maintainable. Contributors to Rails  need to be familiar with these tools to effectively work on the framework.

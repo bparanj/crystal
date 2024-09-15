@@ -1,6 +1,6 @@
 ## Project Specific Tools
 
-Large projects often have unique problems and matching resources to construct specialized tools as part of the implementation process. Custom-built tools are used for many different aspects of the software development process including configuration, build process management,code generation,testing,and documentation
+Large projects often have unique problems and matching resources to construct specialized tools as part of the implementation process. Custom-built tools are used for many different aspects of the software development process  configuration, build process management,code generation,testing,and documentation
 
 Propose a way to locate code generation tools. 
 

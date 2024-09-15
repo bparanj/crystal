@@ -9,7 +9,7 @@ To check the current timezone on an Ubuntu server, you can use the `timedatectl`
 timedatectl
 ```
 
-This command will output several pieces of information about your system time settings, including the local time, universal time, RTC time, time zone, and the status of the NTP synchronization. Look for the line that starts with `Time zone:` to find out the current timezone set on your server.
+This command will output several pieces of information about your system time settings,  the local time, universal time, RTC time, time zone, and the status of the NTP synchronization. Look for the line that starts with `Time zone:` to find out the current timezone set on your server.
 
 Here is an example of what the output might look like:
 

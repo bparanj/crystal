@@ -47,11 +47,11 @@ The provided Ansible playbook snippet installs the `3ndG4me/AutoBlue-MS17-010` t
 
 ### What is AutoBlue-MS17-010?
 
-AutoBlue-MS17-010 is a script or tool that automates the exploitation of the MS17-010 vulnerability, also known as EternalBlue. This vulnerability affects the Server Message Block (SMB) protocol in various versions of Windows and was famously exploited by the WannaCry ransomware. The tool typically includes various scripts to check for the vulnerability, exploit it, and establish a foothold on the target system.
+AutoBlue-MS17-010 is a script or tool that automates the exploitation of the MS17-010 vulnerability, also known as EternalBlue. This vulnerability affects the Server Message Block (SMB) protocol in various versions of Windows and was famously exploited by the WannaCry ransomware. The tool  includes various scripts to check for the vulnerability, exploit it, and establish a foothold on the target system.
 
 ### When to Use It
 
-AutoBlue-MS17-010 is typically used during security assessments, penetration testing, or red team exercises to identify and exploit the MS17-010 vulnerability in a controlled and authorized manner. It is a valuable tool for security professionals to understand the implications of the EternalBlue vulnerability and to test the security posture of systems against this well-known exploit.
+AutoBlue-MS17-010 is  used during security assessments, penetration testing, or red team exercises to identify and exploit the MS17-010 vulnerability in a controlled and authorized manner. It is a valuable tool for security professionals to understand the implications of the EternalBlue vulnerability and to test the security posture of systems against this well-known exploit.
 
 ### Important Considerations
 
@@ -59,7 +59,7 @@ AutoBlue-MS17-010 is typically used during security assessments, penetration tes
 - **Impact**: Be aware that exploiting vulnerabilities can cause instability or crashes in the target systems.
 - **Ethical Use**: Use such tools responsibly and ethically, following all legal and organizational guidelines.
 
-By including this playbook in your automation workflow, you can efficiently deploy the AutoBlue-MS17-010 tool across multiple systems, ensuring consistent setup and configuration.
+By  this playbook in your automation workflow, you can efficiently deploy the AutoBlue-MS17-010 tool across multiple systems, ensuring consistent setup and configuration.
 
 This Ansible playbook task installs the "AutoBlue-MS17-010" tool using an existing role named "assessment_tool". Let's break it down:
 
@@ -83,9 +83,9 @@ The "assessment_tool" role is expected to perform the following tasks:
 
 4. Perform any additional setup or configuration steps required for the "AutoBlue-MS17-010" tool.
 
-By including the "assessment_tool" role with the provided variables, this playbook task automates the process of installing and setting up the "AutoBlue-MS17-010" tool on the target hosts.
+By  the "assessment_tool" role with the provided variables, this playbook task automates the process of installing and setting up the "AutoBlue-MS17-010" tool on the target hosts.
 
-"AutoBlue-MS17-010" is a Python-based tool that automates the process of exploiting the MS17-010 SMB vulnerability (also known as EternalBlue) on Windows systems. It is commonly used by security professionals and penetration testers to assess the vulnerability of Windows systems and demonstrate the potential impact of the MS17-010 exploit.
+"AutoBlue-MS17-010" is a Python-based tool that automates the process of exploiting the MS17-010 SMB vulnerability (also known as EternalBlue) on Windows systems. It is  used by security professionals and penetration testers to assess the vulnerability of Windows systems and demonstrate the potential impact of the MS17-010 exploit.
 
 AutoBlue-MS17-010 should only be done in legal and authorized security testing or educational contexts. Misuse of such tools can be illegal and unethical.
 

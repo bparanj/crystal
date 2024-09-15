@@ -46,7 +46,7 @@ To grant database creation privileges to the `deploy` database user from the Pos
 
 Here's how you can do it:
 
-1. Log into the PostgreSQL database as a superuser (typically, the `postgres` user):
+1. Log into the PostgreSQL database as a superuser (, the `postgres` user):
 
    ```bash
    sudo -u postgres psql
@@ -68,7 +68,7 @@ After executing this command, the `deploy` user will have the privilege to creat
 
 Granting high-level privileges like `CREATEDB` should be done with consideration to your application's security requirements and the principle of least privilege.
 
-To grant the `deploy` database user the privilege to create databases in PostgreSQL, you can use the `ansible.builtin.postgresql_user` module and set the `db` parameter to specify the database where the privilege should be applied, and use the `priv` parameter to specify the privileges. Since the privilege to create databases is typically a server-wide setting rather than a specific database setting, you'll need to adjust your approach to use the `postgresql_privs` module instead, as the `postgresql_user` module does not directly support granting the CREATE DATABASE privilege.
+To grant the `deploy` database user the privilege to create databases in PostgreSQL, you can use the `ansible.builtin.postgresql_user` module and set the `db` parameter to specify the database where the privilege should be applied, and use the `priv` parameter to specify the privileges. Since the privilege to create databases is  a server-wide setting rather than a specific database setting, you'll need to adjust your approach to use the `postgresql_privs` module instead, as the `postgresql_user` module does not directly support granting the CREATE DATABASE privilege.
 
 However, the direct method to grant such privilege is to set the `CREATEDB` option for the user. Here is how you can modify your playbook to include this:
 
@@ -99,4 +99,4 @@ local   all             deploy                                  md5
 
 Means that for connections to all databases (`all`) from the local machine (`local`), the user `deploy` is required to authenticate using MD5-encrypted passwords (`md5`). This setup is correct if you want the `deploy` user to authenticate with an MD5 password for local connections to any database on the PostgreSQL server.
 
-After making changes to the `pg_hba.conf` file, remember to reload the PostgreSQL service for the changes to take effect. This can typically be done with a command like `sudo systemctl reload postgresql` on systems using systemd, or by using the SQL command `SELECT pg_reload_conf();` executed as a superuser within the PostgreSQL environment.
+After making changes to the `pg_hba.conf` file, remember to reload the PostgreSQL service for the changes to take effect. This can  be done with a command like `sudo systemctl reload postgresql` on systems using systemd, or by using the SQL command `SELECT pg_reload_conf();` executed as a superuser within the PostgreSQL environment.

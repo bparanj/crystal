@@ -8,7 +8,7 @@ First, you need an Ubuntu 22.04 image that supports `cloud-init`. Most cloud pro
 
 ### Step 2: Prepare User Data
 
-`Cloud-init` uses user data to perform initial configurations. You’ll write a `cloud-init` configuration file, typically in YAML format. Here's a simple example of user data that creates a new user and installs some packages:
+`Cloud-init` uses user data to perform initial configurations. You’ll write a `cloud-init` configuration file,  in YAML format. Here's a simple example of user data that creates a new user and installs some packages:
 
 ```yaml
 #cloud-config

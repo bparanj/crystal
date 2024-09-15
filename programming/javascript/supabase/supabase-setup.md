@@ -16,7 +16,7 @@ Once the project is set up, note down the `URL` and `anon public` API keys from 
 
 The `SUPABASE_ANON_KEY`, or Supabase anonymous key, is designed to be safe for client-side exposure. It's intended for use in scenarios where you need to interact with your Supabase project from frontend code, such as a web application. However, there are important considerations to keep in mind:
 
-1. **Limited Permissions**: The anon key has limited permissions. It's typically used to perform operations that don't require elevated privileges, like authenticating users or accessing data that's meant to be publicly available. You should configure Row Level Security (RLS) policies in your Supabase project to strictly control what operations can be performed using this key.
+1. **Limited Permissions**: The anon key has limited permissions. It's  used to perform operations that don't require elevated privileges, like authenticating users or accessing data that's meant to be publicly available. You should configure Row Level Security (RLS) policies in your Supabase project to strictly control what operations can be performed using this key.
 
 2. **Secure Configuration**: Even though the anon key is meant for client-side use, it's crucial to set up your database and API permissions securely in Supabase. Ensure that sensitive data or operations are protected and not unintentionally exposed to unauthorized users.
 

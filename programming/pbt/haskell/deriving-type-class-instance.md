@@ -31,7 +31,7 @@ Here's what the `deriving` clause accomplishes for `Point`:
 
 ### Custom Deriving with `DerivingStrategies`
 
-Recent versions of Haskell introduce `DerivingStrategies`, which give more control over how instances are derived, including using GHC extensions like `GeneralizedNewtypeDeriving`, `DeriveAnyClass`, and `DeriveGeneric`. This allows for more nuanced control over instance derivation when needed.
+Recent versions of Haskell introduce `DerivingStrategies`, which give more control over how instances are derived,  using GHC extensions like `GeneralizedNewtypeDeriving`, `DeriveAnyClass`, and `DeriveGeneric`. This allows for more nuanced control over instance derivation when needed.
 
 ### Conclusion
 

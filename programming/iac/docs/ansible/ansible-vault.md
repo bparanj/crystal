@@ -19,7 +19,7 @@ steps:
 
 ### 2. **Secrets Management Systems**
 
-Use integrated secrets managers like AWS Secrets Manager, HashiCorp Vault or others. These can securely store and manage secrets, including your Ansible Vault password. Many CI/CD systems can integrate directly with these secrets managers to securely fetch the Vault password at runtime.
+Use integrated secrets managers like AWS Secrets Manager, HashiCorp Vault or others. These can securely store and manage secrets,  your Ansible Vault password. Many CI/CD systems can integrate directly with these secrets managers to securely fetch the Vault password at runtime.
 
 Example:
 

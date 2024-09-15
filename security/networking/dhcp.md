@@ -55,7 +55,7 @@ DHCP reservation, also sometimes called static DHCP assignment or DHCP static ma
 
 1. Instead of configuring a static IP address on the host device itself, you configure the DHCP server to always assign a specific IP address to that device.
 
-2. This is typically done by associating the device's MAC address with a particular IP address in the DHCP server's configuration.
+2. This is  done by associating the device's MAC address with a particular IP address in the DHCP server's configuration.
 
 3. When the device requests an IP address from the DHCP server, the server recognizes its MAC address and assigns it the pre-configured IP address.
 
@@ -110,7 +110,7 @@ When configuring a DHCP server for a Small Office/Home Office (SOHO) network, yo
      - DHCP range: 192.168.1.50 to 192.168.1.200
      - Static IPs: Can use 2-49 and 201-254
 
-Given your previous configuration using 172.18.0.0/16, this is a valid choice for a SOHO network, although it provides far more addresses than typically needed (65,534 usable addresses). If you want to stick with this range, you could consider:
+Given your previous configuration using 172.18.0.0/16, this is a valid choice for a SOHO network, although it provides far more addresses than  needed (65,534 usable addresses). If you want to stick with this range, you could consider:
 
 - Server/Router IP: 172.18.0.1
 - DHCP Range: 172.18.0.10 to 172.18.0.254

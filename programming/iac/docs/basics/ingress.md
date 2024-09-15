@@ -8,7 +8,7 @@ The naming of "ingress" and "egress" comes from the general terminology used in 
 
 2. Egress: The word "egress" means "the act of going out or leaving." In networking, it signifies the traffic that leaves or goes out of a resource or network. It is used to describe the outbound traffic flow.
 
-These terms are commonly used in various contexts related to networking, security, and cloud services, including AWS.
+These terms are  used in various contexts related to networking, security, and cloud services,  AWS.
 
 In AWS, you can control and manage ingress traffic using security groups, network ACLs, and other security mechanisms. For example, when configuring a security group for an EC2 instance, you define ingress rules to specify which traffic is allowed to reach the instance based on IP addresses, ports, and protocols. Similarly, when configuring a load balancer, you define ingress rules to determine which traffic is allowed to reach the load balancer and be forwarded to the registered targets.
 
@@ -30,7 +30,7 @@ You need an ingress rule when you want to:
 2. Control access to your resources by specifying the allowed protocols and ports.
 3. Enable communication between resources within a VPC or from external networks.
 
-Ingress rules are typically used to:
+Ingress rules are  used to:
 - Permit incoming SSH or RDP access for remote management.
 - Allow web traffic (HTTP/HTTPS) to reach your application servers.
 - Enable communication between different components of your application architecture.

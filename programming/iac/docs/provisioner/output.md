@@ -24,7 +24,7 @@ If you specifically want to capture the output during the `terraform apply` step
 terraform apply | tee apply_output.txt
 ```
 
-This will save the whole output of `terraform apply` to `apply_output.txt`, including the values of any output variables you have defined in your configuration.
+This will save the whole output of `terraform apply` to `apply_output.txt`,  the values of any output variables you have defined in your configuration.
 
 For JSON format, which might be easier to use in automated scripts, you can run:
 
@@ -47,7 +47,7 @@ By managing output values properly, you can streamline your infrastructure manag
 
 ## Typical Workflow
 
-The `terraform output` command is typically run after the `terraform apply` command. The `terraform apply` command is used to apply the changes required to reach the desired state of the configuration, and it updates the Terraform state file with the latest state of your infrastructure. Once `terraform apply` has completed successfully, you can use the `terraform output` command to retrieve the output values defined in your Terraform configuration.
+The `terraform output` command is  run after the `terraform apply` command. The `terraform apply` command is used to apply the changes required to reach the desired state of the configuration, and it updates the Terraform state file with the latest state of your infrastructure. Once `terraform apply` has completed successfully, you can use the `terraform output` command to retrieve the output values defined in your Terraform configuration.
 
 The `terraform output` command queries the state file to retrieve the values of output variables. This means for the output command to return the most up-to-date information, it should be run after any changes have been applied to your infrastructure with `terraform apply`.
 

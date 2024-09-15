@@ -54,7 +54,7 @@ Flashing the BIOS refers to the process of updating or rewriting the BIOS firmwa
 
 ### What is Flashing the BIOS?
 
-Flashing the BIOS is the process of updating the firmware stored on the BIOS chip on the motherboard. This firmware is essential for starting up the computer and for various hardware interactions. The update is typically performed by replacing the old BIOS version with a new version provided by the motherboard manufacturer.
+Flashing the BIOS is the process of updating the firmware stored on the BIOS chip on the motherboard. This firmware is essential for starting up the computer and for various hardware interactions. The update is  performed by replacing the old BIOS version with a new version provided by the motherboard manufacturer.
 
 ### Why Flash the BIOS?
 

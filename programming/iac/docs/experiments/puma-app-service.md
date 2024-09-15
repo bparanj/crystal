@@ -22,7 +22,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-In this template, `{{ app_user }}`, `{{ project_directory }}`, and `{{ bundle_path }}` are variables that will be replaced with actual values when the template is processed by Ansible.
+In this template, `{{ app_user }}`, `{{ project_directory }}`, and `{{ bundle_path }}` are variables that will be replaced with  values when the template is processed by Ansible.
 
 ### Step 2: Create the Ansible Playbook
 
@@ -34,9 +34,9 @@ Next, create an Ansible playbook to deploy the template and manage the Puma serv
   hosts: your_target_hosts
   become: yes
   vars:
-    app_user: "your_app_user" # Replace with the actual user name
-    project_directory: "/path/to/your/app" # Replace with the actual directory path
-    bundle_path: "/path/to/bundle" # Replace with the actual bundle executable path
+    app_user: "your_app_user" # Replace with the  user name
+    project_directory: "/path/to/your/app" # Replace with the  directory path
+    bundle_path: "/path/to/bundle" # Replace with the  bundle executable path
 
   tasks:
     - name: Deploy Puma systemd service file

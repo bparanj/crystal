@@ -11,10 +11,10 @@ The CMOS battery, short for Complementary Metal-Oxide-Semiconductor battery, is 
 ### Key Points:
 
 1. **Type:**
-   - Most commonly, the CMOS battery is a CR2032 lithium coin cell.
+   - Most , the CMOS battery is a CR2032 lithium coin cell.
 
 2. **Lifespan:**
-   - The battery typically lasts 3 to 5 years but can vary depending on usage and environment.
+   - The battery  lasts 3 to 5 years but can vary depending on usage and environment.
 
 3. **Signs of Failure:**
    - When the CMOS battery fails, you may notice issues such as:
@@ -64,7 +64,7 @@ When the CMOS battery fails or runs out of power, you may experience the followi
 
 To resolve these issues, you'll need to replace the CMOS battery with a new one. In most cases, CMOS batteries are inexpensive and can be easily replaced by opening the computer case and locating the battery on the motherboard. It's important to use the correct type of battery (usually CR2032) and ensure proper polarity when installing the new one.
 
-No, the CMOS battery is not found only in laptops; it is present in most types of computers, including:
+No, the CMOS battery is not found only in laptops; it is present in most types of computers, :
 
 ### 1. **Desktops:**
    - Like in laptops, the CMOS battery in desktop computers powers the CMOS chip to retain BIOS/UEFI settings and keep the system clock running.
@@ -84,9 +84,9 @@ No, the CMOS battery is not found only in laptops; it is present in most types o
 
 In summary, CMOS batteries are a common component in various types of computing devices, not just laptops, ensuring that essential system settings and timekeeping functions are preserved when the device is powered off.
 
-No, CMOS batteries are not found only in laptops. They are present in almost all computers, including desktop computers, servers, and some embedded systems. The CMOS battery is a standard component on motherboards, regardless of the form factor of the device.
+No, CMOS batteries are not found only in laptops. They are present in almost all computers,  desktop computers, servers, and some embedded systems. The CMOS battery is a standard component on motherboards, regardless of the form factor of the device.
 
-In desktop computers, the CMOS battery is usually easily accessible by opening the computer case. It is typically located on the motherboard, often in a small socket or holder.
+In desktop computers, the CMOS battery is usually easily accessible by opening the computer case. It is  located on the motherboard, often in a small socket or holder.
 
 In laptops, the CMOS battery is also present on the motherboard. However, accessing it may require more disassembly compared to desktop computers. Depending on the laptop model, you may need to remove the bottom panel, keyboard, or other components to reach the battery.
 

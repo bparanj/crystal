@@ -49,7 +49,7 @@ The current through the circuit is 2.8mA, and this will not damage the green LED
 Let's analyze this scenario step-by-step:
 
 1. LED characteristics:
-   - Green LEDs typically have a forward voltage of about 2.0 to 3.5 volts. Let's assume 2.2V for this calculation.
+   - Green LEDs  have a forward voltage of about 2.0 to 3.5 volts. Let's assume 2.2V for this calculation.
    - The maximum current for most standard 5mm green LEDs is around 20-30mA.
 
 2. Circuit setup:
@@ -149,7 +149,7 @@ A circuit with just a power supply and a resistor is one of the simplest circuit
 
 ### 1. **A Single Wire (Short Circuit)**
    - **Description**: A direct connection between the positive and negative terminals of a power supply with no components in between.
-   - **Function**: While this may not seem useful in most contexts, it demonstrates a fundamental electrical concept: a short circuit. It can serve as a basic test for checking the continuity of a power source or wiring. However, this circuit is typically not practical because it can cause damage by allowing unrestricted current flow.
+   - **Function**: While this may not seem useful in most contexts, it demonstrates a fundamental electrical concept: a short circuit. It can serve as a basic test for checking the continuity of a power source or wiring. However, this circuit is  not practical because it can cause damage by allowing unrestricted current flow.
 
 ### 2. **A Power Supply Alone**
    - **Description**: A power supply on its own, without any other components connected.
@@ -181,13 +181,13 @@ However, it's important to note:
 
 2. Practical use: While the short circuit can serve some purposes, it's generally avoided in practical applications due to safety concerns and potential damage to the power supply.
 
-3. Intentional design: The power supply + resistor circuit is more often intentionally designed for specific purposes, whereas a short circuit is typically an unintended and undesirable condition.
+3. Intentional design: The power supply + resistor circuit is more often intentionally designed for specific purposes, whereas a short circuit is  an unintended and undesirable condition.
 
 In terms of complexity and number of components, the short circuit is simpler. However, the power supply + resistor circuit is generally considered the simplest "intentionally designed" circuit that performs useful functions safely and controllably.
 
 Both of these circuits demonstrate fundamental principles of electricity and are important for understanding electrical theory and safety, albeit in different ways.
 
-There are a few other circuits that are at a similar level of simplicity as the basic power supply + resistor circuit. These circuits typically consist of just two or three basic components. Here are some examples:
+There are a few other circuits that are at a similar level of simplicity as the basic power supply + resistor circuit. These circuits  consist of just two or three basic components. Here are some examples:
 
 1. Power supply + capacitor:
    - Function: Stores electrical energy, can smooth voltage fluctuations
@@ -227,7 +227,7 @@ There are a few other circuits that are at a similar level of simplicity as the 
 
 These circuits, while simple, demonstrate fundamental electrical and electronic principles and serve as building blocks for more complex circuits. Each introduces a basic concept (like energy storage, rectification, or light emission) that is crucial in more advanced electronic systems.
 
-Several simple electronic circuits are at the same level of simplicity as a basic power supply and resistor. These circuits typically involve just one or two components and serve fundamental purposes. Here are some examples:
+Several simple electronic circuits are at the same level of simplicity as a basic power supply and resistor. These circuits  involve just one or two components and serve fundamental purposes. Here are some examples:
 
 ### 1. **Power Supply + Capacitor (RC Charging Circuit)**
    - **Description**: A circuit with a power supply connected to a capacitor.

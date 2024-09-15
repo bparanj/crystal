@@ -25,7 +25,7 @@ FireWire, also known as IEEE 1394, is a high-speed interface standard for connec
 
 ### Key Features of FireWire
 
-1. **High Speed**: FireWire supports high data transfer rates, typically ranging from 400 Mbps (FireWire 400) to 800 Mbps (FireWire 800). Some later versions could support even higher speeds.
+1. **High Speed**: FireWire supports high data transfer rates,  ranging from 400 Mbps (FireWire 400) to 800 Mbps (FireWire 800). Some later versions could support even higher speeds.
 2. **Peer-to-Peer**: Unlike USB, FireWire supports peer-to-peer communication, allowing devices to communicate with each other without going through the computer's CPU.
 3. **Hot Swappable**: Devices can be connected and disconnected without needing to power down the computer.
 4. **Multiple Devices**: Supports daisy-chaining, allowing multiple devices to be connected in series.

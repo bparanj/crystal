@@ -88,7 +88,7 @@ Thus, the current gain (β) of the transistor is **100**.
 Teacher Bot: As requested, I am employing the Feynman Technique. The primary audience is beginners to electronics who use a Zettelkasten, and my objective is to deliver clear, concise, and comprehensive explanations of various topics decomposed into atomic ideas (i.e., Zettels). For clarity and objectivity, I am writing in the third person, in a neutral tone, and in E-Prime to express thoughts more actively and specifically. I am also showing you the MathJax code (i.e., do not render the code) so you can copy-paste the results into a Markdown file.
 
 Overview:
-A diode serves as a fundamental electronic component that allows current to flow predominantly in one direction while blocking it in the opposite direction. This asymmetric conduction property makes diodes crucial in various applications, including rectification, signal demodulation, and voltage regulation. Diodes consist of a junction between two types of semiconductor materials, typically p-type and n-type silicon, which creates a depletion region that controls the flow of current.
+A diode serves as a fundamental electronic component that allows current to flow predominantly in one direction while blocking it in the opposite direction. This asymmetric conduction property makes diodes crucial in various applications,  rectification, signal demodulation, and voltage regulation. Diodes consist of a junction between two types of semiconductor materials,  p-type and n-type silicon, which creates a depletion region that controls the flow of current.
 
 Atomic Ideas:
 
@@ -114,13 +114,13 @@ c) Calculate: $I \approx 15.2\text{mA}$
 d) This demonstrates how a small voltage change can cause a large current increase.
 
 3. What characterizes the forward voltage drop of a diode?
-The forward voltage drop represents the voltage across a diode when it conducts in the forward direction. It remains relatively constant over a wide range of currents. For silicon diodes, this typically equals about 0.7V, while for LEDs, it can range from 1.8V to 3.3V depending on the color.
+The forward voltage drop represents the voltage across a diode when it conducts in the forward direction. It remains relatively constant over a wide range of currents. For silicon diodes, this  equals about 0.7V, while for LEDs, it can range from 1.8V to 3.3V depending on the color.
 Analogy: The forward voltage drop resembles the effort needed to open a spring-loaded door. Once you apply enough force to overcome the spring (reach the forward voltage), the door opens (diode conducts), and additional force (voltage) doesn't significantly change the door's position (voltage across the diode).
 Example: Measure the forward voltage of an LED:
 a) Set up a circuit with a variable power supply, a 220Ω resistor, the LED, and a voltmeter.
 b) Increase the supply voltage slowly until the LED just begins to light.
 c) Measure the voltage across the LED with the voltmeter.
-d) Observe that this voltage (typically 1.8V-3.3V) remains relatively constant even as you increase the supply voltage further.
+d) Observe that this voltage ( 1.8V-3.3V) remains relatively constant even as you increase the supply voltage further.
 
 4. How does one define and utilize the reverse breakdown voltage of a diode?
 The reverse breakdown voltage specifies the reverse-bias voltage at which a diode's ability to block reverse current fails, causing a large reverse current to flow. Most diodes avoid operation in this region, but Zener diodes utilize it for voltage regulation.

@@ -10,7 +10,7 @@ Handling the Rails master key securely in a deployment pipeline using Terraform 
 
 #### Terraform:
 
-Use Terraform to create and manage infrastructure resources securely. While Terraform itself isn't typically used to directly handle application secrets, it can be used to set up infrastructure where secrets can be securely stored (e.g., AWS Secrets Manager, Azure Key Vault).
+Use Terraform to create and manage infrastructure resources securely. While Terraform itself isn't  used to directly handle application secrets, it can be used to set up infrastructure where secrets can be securely stored (e.g., AWS Secrets Manager, Azure Key Vault).
 
 - **Create a Secrets Manager resource**: Use Terraform to provision a secure storage solution like AWS Secrets Manager or Azure Key Vault.
 - **Store the Master Key**: After creating the secrets manager resource, manually add the Rails master key to the secrets manager. Ensure that access to this secret is tightly controlled.
@@ -23,7 +23,7 @@ resource "aws_secretsmanager_secret" "rails_master_key" {
   description = "Holds the Rails master key for the application"
 }
 
-# Note: The actual secret value (the master key itself) should be added securely,
+# Note: The  secret value (the master key itself) should be added securely,
 # either through the AWS Management Console or using the AWS CLI.
 ```
 
@@ -192,10 +192,10 @@ First, you need to create an encrypted file that will store the Rails master key
 ansible-vault create customer_name_master_key.yml
 ```
 
-Inside this file, you can structure it as follows, replacing `actual_master_key` with the customer's Rails master key:
+Inside this file, you can structure it as follows, replacing `_master_key` with the customer's Rails master key:
 
 ```yaml
-rails_master_key: actual_master_key
+rails_master_key: _master_key
 ```
 
 ### 2. Using the Master Key in Deployment

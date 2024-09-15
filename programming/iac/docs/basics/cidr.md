@@ -1,4 +1,4 @@
-CIDR (Classless Inter-Domain Routing) is a notation used to represent IP addresses and their associated network prefixes. It is commonly used in networking, including in AWS (Amazon Web Services), to define the range of IP addresses for a network.
+CIDR (Classless Inter-Domain Routing) is a notation used to represent IP addresses and their associated network prefixes. It is  used in networking,  in AWS (Amazon Web Services), to define the range of IP addresses for a network.
 
 Think of CIDR as a way to specify a group of IP addresses that belong to a specific network. It allows you to define the size of the network and the number of available IP addresses within that network.
 
@@ -84,11 +84,11 @@ It's important to carefully plan and consider your specific requirements when ch
 
 Document your CIDR block choices and maintain a consistent and organized IP address allocation scheme across your AWS environment.
 
-CIDR (Classless Inter-Domain Routing) solves several problems that were present in the early days of the internet and IP addressing. Here are the key problems that CIDR addresses:
+CIDR (Classless Inter-Domain Routing) solves several problems that were present in the early days of the internet and IP addressing. Here are the problems that CIDR addresses:
 
 1. IP Address Depletion:
    - Before CIDR, IP addresses were assigned based on classful addressing (Class A, B, and C).
-   - Classful addressing led to inefficient allocation of IP addresses, as networks were assigned fixed-size address blocks regardless of their actual needs.
+   - Classful addressing led to inefficient allocation of IP addresses, as networks were assigned fixed-size address blocks regardless of their  needs.
    - This resulted in the rapid depletion of available IP addresses, especially in the Class B address space.
    - CIDR introduces a more flexible and efficient way of allocating IP addresses, allowing for variable-length subnet masks (VLSM) and better utilization of the IP address space.
 

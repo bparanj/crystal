@@ -20,7 +20,7 @@ gpg --import /path/to/keyfile.asc
 
 ### If you meant to add a repository key to APT's trusted keys:
 
-As in the context of adding a repository signing key, like for PostgreSQL, you'd typically use `gpg` to convert an ASCII armored key (`*.asc`) to a format suitable for APT and place it in the `/etc/apt/trusted.gpg.d` directory. This process might look like:
+As in the context of adding a repository signing key, like for PostgreSQL, you'd  use `gpg` to convert an ASCII armored key (`*.asc`) to a format suitable for APT and place it in the `/etc/apt/trusted.gpg.d` directory. This process might look like:
 
 ```bash
 curl -sSL https://www.postgresql.org/media/keys/ACCC4CF8.asc | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/postgresql.gpg > /dev/null

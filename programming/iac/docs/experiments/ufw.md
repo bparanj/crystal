@@ -209,8 +209,8 @@ Using AWS WAF (Web Application Firewall) and configuring a server-level firewall
 
 ### UFW (On an EC2 Instance)
 
-- **Layer 3-4 Protection**: UFW operates at the network and transport layers, providing a way to configure the iptables firewall easily. It allows or denies traffic based on source and destination IP addresses, ports, and protocols, which is more about controlling access than inspecting or interacting with the actual content of web traffic.
-- **Server-level Control**: UFW is useful for controlling access to the server itself, including SSH (port 22), web server ports (80 and 443 for HTTP/S), and any other services running on the server. It's a fundamental tool for securing the server on a network level.
+- **Layer 3-4 Protection**: UFW operates at the network and transport layers, providing a way to configure the iptables firewall easily. It allows or denies traffic based on source and destination IP addresses, ports, and protocols, which is more about controlling access than inspecting or interacting with the  content of web traffic.
+- **Server-level Control**: UFW is useful for controlling access to the server itself,  SSH (port 22), web server ports (80 and 443 for HTTP/S), and any other services running on the server. It's a fundamental tool for securing the server on a network level.
 - **Simplicity and Ubiquity**: UFW is known for its simplicity and is widely used in Linux environments. It's a good practice to secure your servers regardless of other higher-level protections you have in place.
 
 ### Decision Factors

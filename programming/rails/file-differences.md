@@ -73,7 +73,7 @@ cat $OUTPUT_FILE
 
 Before running the script, ensure that `bc` (an arbitrary precision calculator language) is installed on your system as it's used to perform the floating-point calculation.
 
-**Note**: This method is very rudimentary and does not account for actual code structure or logic. More sophisticated methods, such as token-based comparison or abstract syntax tree (AST) analysis, can give a more accurate measure of code similarity and should be considered for more complex analysis. Tools like Simian (Similarity Analyzer) or PMD's Copy/Paste Detector (CPD) can also be used to detect duplicate code.
+**Note**: This method is very rudimentary and does not account for  code structure or logic. More sophisticated methods, such as token-based comparison or abstract syntax tree (AST) analysis, can give a more accurate measure of code similarity and should be considered for more complex analysis. Tools like Simian (Similarity Analyzer) or PMD's Copy/Paste Detector (CPD) can also be used to detect duplicate code.
 
 ### Exercise 2
 

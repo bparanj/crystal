@@ -50,7 +50,7 @@ To create a CRON job that makes a PostgreSQL database backup every midnight usin
 2. Explanation of the playbook:
    - The `hosts` parameter specifies the target hosts where the CRON job will be set up. You can replace `all` with a specific group or host name.
    - The `become` parameter is set to `yes` to run the tasks with sudo privileges.
-   - The `vars` section defines variables for the backup directory, database name, database user, and password. Replace the values with your actual database details.
+   - The `vars` section defines variables for the backup directory, database name, database user, and password. Replace the values with your  database details.
    - The first task ensures that the required packages (`cron`, `postgresql`, and `postgresql-client`) are installed using the `apt` module.
    - The second task creates the backup directory specified in the `backup_dir` variable using the `file` module. It sets the ownership and permissions for the directory.
    - The third task creates the CRON job using the `cron` module:
@@ -104,7 +104,7 @@ pg_dump -U $PGUSER -h $PGHOST -p $PGPORT $DATABASE | gzip > "$BACKUP_DIR/db-$DAT
 chmod 600 "$BACKUP_DIR/db-$DATE.gz"
 ```
 
-Make sure to replace `dbuser`, `dbpassword`, `localhost`, `5432`, `dbname`, and `/path/to/your/backup/directory` with your actual PostgreSQL credentials and desired backup directory.
+Make sure to replace `dbuser`, `dbpassword`, `localhost`, `5432`, `dbname`, and `/path/to/your/backup/directory` with your  PostgreSQL credentials and desired backup directory.
 
 ### Step 2: Make the Backup Script Executable
 On the server, set the script to be executable:

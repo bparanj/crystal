@@ -1,4 +1,4 @@
-In Haskell, a type class is a way to define a set of functions or operations that can be performed on a variety of types. Type classes are similar to interfaces in object-oriented languages but are more powerful and flexible due to Haskell's type system. Defining a type class involves specifying the signatures of these operations without providing their implementations. The actual implementations are provided by instances of the type class for specific types.
+In Haskell, a type class is a way to define a set of functions or operations that can be performed on a variety of types. Type classes are similar to interfaces in object-oriented languages but are more powerful and flexible due to Haskell's type system. Defining a type class involves specifying the signatures of these operations without providing their implementations. The  implementations are provided by instances of the type class for specific types.
 
 ### How to Define a Type Class
 

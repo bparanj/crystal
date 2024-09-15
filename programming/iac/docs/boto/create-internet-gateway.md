@@ -58,9 +58,9 @@ else:
 
 ### Important Notes:
 
-- Replace `'your-vpc-id-here'` with the actual ID of your VPC if you already know it, or use the provided method to fetch it based on the VPC's name.
+- Replace `'your-vpc-id-here'` with the  ID of your VPC if you already know it, or use the provided method to fetch it based on the VPC's name.
 - This assumes that your VPC is uniquely identifiable by its name. If you have multiple VPCs with the same name, you'll need to refine the selection logic.
-- AWS charges for some resources and actions. While there's typically no charge for creating and attaching an internet gateway, it's always a good idea to review the current AWS pricing details.
+- AWS charges for some resources and actions. While there's  no charge for creating and attaching an internet gateway, it's always a good idea to review the current AWS pricing details.
 
 To create the RailsIGW resource (an Internet Gateway) using boto3, you can use the `create_internet_gateway()` method of the EC2 client. Here's an example code snippet that demonstrates how to create the Internet Gateway and attach it to the specified VPC:
 
@@ -121,7 +121,7 @@ Inside the function:
 
 In the example usage, we specify the VPC ID (`vpc_id`) and the desired name for the Internet Gateway (`igw_name`). We then call the `create_rails_igw()` function with these arguments.
 
-Make sure to replace `'vpc-xxxxxxxx'` with the actual ID of your VPC.
+Make sure to replace `'vpc-xxxxxxxx'` with the  ID of your VPC.
 
 Note: Ensure that you have the necessary permissions to create and modify Internet Gateways in your AWS account. You may need to configure the appropriate IAM permissions for your AWS account or the IAM user/role associated with your boto3 session.
 

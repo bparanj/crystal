@@ -177,7 +177,7 @@ To test the playbook:
    - **Locally**: Attempt to connect to the PostgreSQL database locally from the EC2 instance to verify that local connections are permitted.
    - **Remotely**: Try to connect to the PostgreSQL database from a different machine to confirm that remote connections are restricted.
 
-5. **Monitor Logs**: Check PostgreSQL logs for any errors or warnings after applying the playbook and testing connectivity. The log files are typically located in `/var/log/postgresql/`.
+5. **Monitor Logs**: Check PostgreSQL logs for any errors or warnings after applying the playbook and testing connectivity. The log files are  located in `/var/log/postgresql/`.
 
 By following these steps, you can ensure that your PostgreSQL database is correctly configured to accept connections only from the local machine, enhancing the security of your database server.
 
@@ -369,11 +369,11 @@ local all all peer
 
 The output of your command indicates that there are indeed entries in your `pg_hba.conf` file configured to allow local connections with `peer` authentication for all databases and users. Specifically, the fact that you're seeing two lines with this configuration suggests that there are either duplicate entries or potentially that the configuration is reinforced for different scopes or comments that also match the pattern.
 
-The `peer` authentication method works by obtaining the client's operating system user name and using it for authentication, assuming a database role with the same name exists. This method is commonly used for local connections on the server where the PostgreSQL database is running.
+The `peer` authentication method works by obtaining the client's operating system user name and using it for authentication, assuming a database role with the same name exists. This method is  used for local connections on the server where the PostgreSQL database is running.
 
 Given that you have confirmed these entries exist, your PostgreSQL server should allow local connections for all users and databases using the `peer` authentication method. This setup is typical and recommended for local development environments or other scenarios where database access is controlled and limited to local users on the server.
 
-If you're configuring PostgreSQL for production environments or need to allow access from external hosts, you would typically use different authentication methods (like `md5` for password-based authentication or `scram-sha-256` for improved security) and would need to adjust the `pg_hba.conf` file accordingly.
+If you're configuring PostgreSQL for production environments or need to allow access from external hosts, you would  use different authentication methods (like `md5` for password-based authentication or `scram-sha-256` for improved security) and would need to adjust the `pg_hba.conf` file accordingly.
 
 Remember, after making any changes to the `pg_hba.conf` file, you should reload the PostgreSQL service to apply the changes. On systems using `systemd`, this can be done with:
 
@@ -405,7 +405,7 @@ The `pg_hba.conf` content you've provided outlines several rules governing how c
    local   all             all                                     peer
    ```
 
-   These entries (including the one within the "ANSIBLE MANAGED BLOCK") permit local connections for all users to all databases using `peer` authentication. There's redundancy here with multiple lines providing the same directive, which is generally harmless but can be cleaned up for clarity.
+   These entries ( the one within the "ANSIBLE MANAGED BLOCK") permit local connections for all users to all databases using `peer` authentication. There's redundancy here with multiple lines providing the same directive, which is generally harmless but can be cleaned up for clarity.
 
 3. **IPv4 and IPv6 Local Connections**:
 
@@ -427,7 +427,7 @@ The `pg_hba.conf` content you've provided outlines several rules governing how c
    These entries allow connections for database replication purposes. Local connections use `peer` authentication, while network connections (both IPv4 and IPv6) use `scram-sha-256`.
 
 5. **Comments and Structure**:
-   The comments and structure (including the "ANSIBLE MANAGED BLOCK") help clarify the purpose of each entry and indicate that some configurations are managed by automation tools like Ansible, which can be helpful for maintaining and understanding the configuration file.
+   The comments and structure ( the "ANSIBLE MANAGED BLOCK") help clarify the purpose of each entry and indicate that some configurations are managed by automation tools like Ansible, which can be helpful for maintaining and understanding the configuration file.
 
 ### Recommendations:
 
@@ -449,7 +449,7 @@ SELECT pg_reload_conf();
 
 This ensures your PostgreSQL server applies the latest authentication rules without requiring a full restart.
 
-To avoid creating duplicate entries in the `pg_hba.conf` file when using the Ansible `blockinfile` module, you can leverage Ansible's idempotency feature by ensuring your playbook checks for the existence of a specific configuration before making changes. However, the `blockinfile` module is designed to ensure a block of text is present within a file, and if the exact block (including comments) is not found, it might append the block again, leading to duplicates over multiple playbook runs.
+To avoid creating duplicate entries in the `pg_hba.conf` file when using the Ansible `blockinfile` module, you can leverage Ansible's idempotency feature by ensuring your playbook checks for the existence of a specific configuration before making changes. However, the `blockinfile` module is designed to ensure a block of text is present within a file, and if the exact block ( comments) is not found, it might append the block again, leading to duplicates over multiple playbook runs.
 
 For configurations like the `pg_hba.conf` where you want to avoid duplicate lines but ensure specific settings are enforced, it's often more reliable to use a combination of `lineinfile`, custom scripts, or conditional tasks based on the output of a command checking the current configuration. However, these approaches require more complex logic and might not perfectly fit every scenario.
 
@@ -527,7 +527,7 @@ For more advanced PostgreSQL configuration management where you need to ensure i
   psql -h localhost -U your_database_user -d your_database_name
   ```
 
-  Replace `your_database_user` and `your_database_name` with your actual database user and name.
+  Replace `your_database_user` and `your_database_name` with your  database user and name.
 
 - **Remote Connection Attempt**: Attempt to connect to the PostgreSQL database from another machine to ensure the connection is refused. Use the `psql` command or a database management tool, specifying the IP address of the EC2 instance:
 
@@ -537,7 +537,7 @@ For more advanced PostgreSQL configuration management where you need to ensure i
 
   This attempt should fail if your playbook correctly restricted access.
 
-When you install PostgreSQL, it typically creates a default user and database that you can use to connect to the PostgreSQL server. The default user is `postgres`, and there is also a default database named `postgres` created upon installation. This user is a superuser role in the PostgreSQL instance and has full access to all databases and operations.
+When you install PostgreSQL, it  creates a default user and database that you can use to connect to the PostgreSQL server. The default user is `postgres`, and there is also a default database named `postgres` created upon installation. This user is a superuser role in the PostgreSQL instance and has full access to all databases and operations.
 
 To connect to the PostgreSQL server using `psql`, the command-line interface for PostgreSQL, with the default user and database, you can use:
 

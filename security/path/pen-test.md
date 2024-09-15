@@ -7,7 +7,7 @@ Penetration testing is a simulated cyberattack against a computer system, networ
    - Provide recommendations for improving security posture.
 
 2. Methodology:
-   - Penetration testing follows a structured approach, which typically includes:
+   - Penetration testing follows a structured approach, which  includes:
      - Planning and reconnaissance: Gathering information about the target system.
      - Scanning: Identifying potential entry points and vulnerabilities.
      - Gaining access: Exploiting identified vulnerabilities to gain unauthorized access.
@@ -35,7 +35,7 @@ Penetration testing is a simulated cyberattack against a computer system, networ
    - The goal is to improve security, not cause damage or disrupt normal operations.
 
 6. Reporting and Remediation:
-   - Penetration testers provide a detailed report of their findings, including identified vulnerabilities, their severity, and potential impact.
+   - Penetration testers provide a detailed report of their findings,  identified vulnerabilities, their severity, and potential impact.
    - The report should include recommendations for remediation and prioritize the identified risks.
    - The organization can use the report to address the vulnerabilities and improve its security posture.
 

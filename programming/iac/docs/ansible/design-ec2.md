@@ -41,7 +41,7 @@ When designing an AWS EC2 instance, here are some key questions to consider:
     - Consider the availability requirements and if the instance should be deployed across multiple Availability Zones.
 
 11. How will the instance be backed up and restored?
-    - Define the backup strategy, including the frequency and retention period of snapshots.
+    - Define the backup strategy,  the frequency and retention period of snapshots.
     - Consider the process for instance recovery in case of failures or disasters.
 
 12. What is the cost optimization strategy?

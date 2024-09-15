@@ -20,7 +20,7 @@ To run your Terraform script after updating the AMI (Amazon Machine Image) or an
    terraform plan
    ```
 
-5. **Apply the Terraform configuration**. This step will make the actual changes to your infrastructure based on your `.tf` files. Terraform will prompt you to confirm that you want to apply the changes. You can automatically approve the changes by adding the `-auto-approve` flag, but it's generally safer to review the plan before applying.
+5. **Apply the Terraform configuration**. This step will make the  changes to your infrastructure based on your `.tf` files. Terraform will prompt you to confirm that you want to apply the changes. You can automatically approve the changes by adding the `-auto-approve` flag, but it's generally safer to review the plan before applying.
 
    ```sh
    terraform apply

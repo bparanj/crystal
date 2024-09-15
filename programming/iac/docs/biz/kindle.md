@@ -38,7 +38,7 @@ Publishing a book on Kindle is a great way to reach a wide audience, and doing i
 
 4. **Review and Publish:**
    - Preview your book using the Online Previewer tool to ensure everything looks right.
-   - Once satisfied, submit your book for publishing. It typically takes 24-48 hours for Amazon to review and make your book available on the Kindle Store.
+   - Once satisfied, submit your book for publishing. It  takes 24-48 hours for Amazon to review and make your book available on the Kindle Store.
 
 ### Additional Tips:
 - **Proofreading and Editing:** Consider having your book professionally edited and proofread to ensure it is free of errors.

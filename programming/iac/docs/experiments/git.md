@@ -34,7 +34,7 @@ Heroku adopts a deployment approach that abstracts away the need for direct Git 
 
 3. **Release Phase**: After the build process, Heroku moves to the release phase, where the slug is prepared for deployment. This may include executing database migrations and other pre-deployment tasks defined in the application's Procfile.
 
-4. **Running on Dynos**: The slug is then deployed to one or more dynos, which are isolated, virtualized Linux containers managed by Heroku. These dynos are where the application actually runs. Heroku abstracts the underlying infrastructure, so developers don't need to manage or access the servers directly.
+4. **Running on Dynos**: The slug is then deployed to one or more dynos, which are isolated, virtualized Linux containers managed by Heroku. These dynos are where the application ly runs. Heroku abstracts the underlying infrastructure, so developers don't need to manage or access the servers directly.
 
 5. **Routing**: Heroku's routing layer automatically directs traffic to the dynos running the application, handling load balancing and ensuring high availability.
 
@@ -53,7 +53,7 @@ Heroku's model emphasizes ease of use, developer productivity, and abstracting a
 Using GitHub Actions to deploy code directly to a production server (not using Heroku or similar PaaS providers) involves setting up a CI/CD workflow that automates the deployment process from your GitHub repository to your server based on specific branch updates. This setup can work with virtual servers, dedicated servers, or cloud instances where you have SSH access. Here's a general overview of how this process works:
 
 ### 1. **Setup SSH Access**
-Ensure you have SSH access to your production server. You'll need the server's IP address or hostname and a secure way to authenticate—typically, an SSH key pair for which the public key is installed on the server and the private key is securely stored in GitHub Actions secrets.
+Ensure you have SSH access to your production server. You'll need the server's IP address or hostname and a secure way to authenticate—, an SSH key pair for which the public key is installed on the server and the private key is securely stored in GitHub Actions secrets.
 
 ### 2. **Configure GitHub Secrets**
 Store sensitive information required for deployment as GitHub Secrets. This might include:
@@ -126,7 +126,7 @@ If your product needs to access a customer's GitHub repository, the instructions
 
 If deploying code from a customer's repository to their server using GitHub Actions, the workflow setup would be similar to what was described. However, the focus should be on securely managing access:
 
-- **Encourage Secure Practices**: Guide customers on setting up their GitHub Actions workflows securely, including storing sensitive information like SSH keys or deployment credentials in GitHub Secrets.
+- **Encourage Secure Practices**: Guide customers on setting up their GitHub Actions workflows securely,  storing sensitive information like SSH keys or deployment credentials in GitHub Secrets.
   
 - **Access Tokens for Checkout**: If your product automates the setup of GitHub Actions workflows in customer repositories, use an access token with the appropriate scope (`repo` for private repositories) in the `actions/checkout` step.
   

@@ -49,7 +49,7 @@ The term "hyper" in Hyper-Threading suggests something beyond normal threading c
 - **Intel's Official Documentation on Hyper-Threading Technology**:
   [Intel Hyper-Threading Technology](https://www.intel.com/content/www/us/en/architecture-and-technology/hyper-threading/hyper-threading-technology.html)
 - **"Computer Architecture: A Quantitative Approach" by John L. Hennessy and David A. Patterson**:
-  This book provides a detailed explanation of CPU architectures, including Hyper-Threading.
+  This book provides a detailed explanation of CPU architectures,  Hyper-Threading.
 - **Ars Technica Article on Hyper-Threading**:
   [How Hyper-Threading Works](https://arstechnica.com/features/2002/10/hyper-threading/)
 

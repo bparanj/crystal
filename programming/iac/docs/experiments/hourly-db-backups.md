@@ -166,7 +166,7 @@ rm "${BACKUP_FILE}"
 
 Once an instance is launched from the base image for a specific customer, you can customize the backup process with details like the database name. This can be done through cloud-init scripts, Ansible playbooks, or other configuration management tools used during instance provisioning.
 
-**1. Customize Backup Script**: Replace placeholders in the backup script with actual customer-specific values. This could be automated with a simple sed command, an Ansible task, or manually if the setup is done infrequently.
+**1. Customize Backup Script**: Replace placeholders in the backup script with  customer-specific values. This could be automated with a simple sed command, an Ansible task, or manually if the setup is done infrequently.
 
 Example using `sed` to replace placeholders:
 
@@ -194,7 +194,7 @@ For customer-specific AWS credentials used to upload PostgreSQL backups to S3 du
 
 1. **Create an IAM Role**: Create an IAM role with permissions that allow uploading files to the specific S3 bucket. This role should have the least privilege required, only granting access to necessary resources.
 
-2. **Attach IAM Role to EC2**: When provisioning the EC2 instance for a customer, attach this IAM role to the instance. This way, any application running on the instance, including your backup scripts, can securely access AWS resources without needing to manage static credentials.
+2. **Attach IAM Role to EC2**: When provisioning the EC2 instance for a customer, attach this IAM role to the instance. This way, any application running on the instance,  your backup scripts, can securely access AWS resources without needing to manage static credentials.
 
 ### Injecting Credentials Securely
 

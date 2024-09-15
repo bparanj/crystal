@@ -1,4 +1,4 @@
-To create a virtual host for `media.mydomain.com` using the Caddy web server through an Ansible playbook, you'll typically manage a Caddyfile configuration. The Caddyfile is where you define your sites and how they should be served. 
+To create a virtual host for `media.mydomain.com` using the Caddy web server through an Ansible playbook, you'll  manage a Caddyfile configuration. The Caddyfile is where you define your sites and how they should be served. 
 
 Let's assume you want `media.mydomain.com` to serve static files from a specific directory, say `/var/www/media`. Here's how you can create a playbook to manage this configuration.
 
@@ -90,7 +90,7 @@ Caddy, a modern web server and reverse proxy, offers several advantages when use
 - Caddy includes built-in support for load balancing, allowing you to distribute incoming traffic across multiple backend servers easily. This can improve the reliability and scalability of your applications.
 
 ### 5. **Modern Protocol Support**
-- Caddy supports modern protocols out of the box, including HTTP/2 and HTTP/3 (QUIC), enhancing the performance and speed of web applications, especially under high load conditions.
+- Caddy supports modern protocols out of the box,  HTTP/2 and HTTP/3 (QUIC), enhancing the performance and speed of web applications, especially under high load conditions.
 
 ### 6. **Automatic Compression and Caching**
 - It can automatically handle compression and caching, optimizing the performance by reducing the size of the data transferred between the client and the server and decreasing load times.
@@ -124,8 +124,8 @@ yourdomain.com {
 ```
 
 In this example:
-- Replace `yourdomain.com` with your actual domain.
-- `localhost:3000` should be replaced with the actual address and port your Puma server is listening on. If Puma is running on the same machine as Caddy but on a different port (3000 in this example), this setup tells Caddy to forward all requests for `yourdomain.com` to the Puma server.
+- Replace `yourdomain.com` with your  domain.
+- `localhost:3000` should be replaced with the  address and port your Puma server is listening on. If Puma is running on the same machine as Caddy but on a different port (3000 in this example), this setup tells Caddy to forward all requests for `yourdomain.com` to the Puma server.
 
 This configuration assumes that:
 - Puma is configured and running correctly on the specified port.
@@ -134,7 +134,7 @@ This configuration assumes that:
 ### Advantages of This Setup
 
 - **Simplified SSL/TLS Management**: Caddy automatically manages SSL certificates for your domain, removing the need to configure SSL in Puma and simplifying certificate renewal processes.
-- **Enhanced Security**: Caddy can handle security policies, including strict transport security headers (HSTS), content security policy (CSP), and more, before requests reach your application.
+- **Enhanced Security**: Caddy can handle security policies,  strict transport security headers (HSTS), content security policy (CSP), and more, before requests reach your application.
 - **Performance and Scalability**: Caddy's performance features, like HTTP/2 and HTTP/3 support, can enhance the responsiveness of your application. Additionally, if you scale up your application, Caddy can load balance between multiple Puma instances.
 
 ### Conclusion

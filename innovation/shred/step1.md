@@ -13,7 +13,7 @@ To implement the feature where the Ubuntu server connects to the internet via th
 ### 2. **Configure the Server for DHCP**
    - **Edit the Network Configuration File**:
      For Ubuntu 24.04, you may be using **Netplan** to manage network configurations.
-     1. Open the network configuration file for the WAN interface. This file is typically located in `/etc/netplan/`. It will have a `.yaml` extension, such as `00-installer-config.yaml` or `01-netcfg.yaml`.
+     1. Open the network configuration file for the WAN interface. This file is  located in `/etc/netplan/`. It will have a `.yaml` extension, such as `00-installer-config.yaml` or `01-netcfg.yaml`.
         ```bash
         sudo nano /etc/netplan/00-installer-config.yaml
         ```
@@ -127,13 +127,13 @@ To implement this feature on your Ubuntu 24.04 Server, we'll need to configure t
    Look for the interface name (e.g., eth0, enp3s0) that corresponds to your WAN port.
 
 2. Configure the network interface:
-   Edit the Netplan configuration file. On Ubuntu 24.04, it's typically located at `/etc/netplan/00-installer-config.yaml`:
+   Edit the Netplan configuration file. On Ubuntu 24.04, it's  located at `/etc/netplan/00-installer-config.yaml`:
 
    ```bash
    sudo nano /etc/netplan/00-installer-config.yaml
    ```
 
-3. Add the following configuration, replacing `<interface_name>` with your actual WAN interface name:
+3. Add the following configuration, replacing `<interface_name>` with your  WAN interface name:
 
    ```yaml
    network:

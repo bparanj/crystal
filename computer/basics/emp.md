@@ -66,6 +66,6 @@ Electromagnetic energy is a form of energy that is propagated through space or m
    - **Wave-Particle Duality**: Exhibits properties of both waves and particles (photons).
    - **Speed**: Travels at the speed of light (approximately 299,792 kilometers per second in a vacuum).
 
-5. **Sources**: Electromagnetic energy can be emitted by various sources, including the sun, electronic devices, and radioactive materials.
+5. **Sources**: Electromagnetic energy can be emitted by various sources,  the sun, electronic devices, and radioactive materials.
 
 Electromagnetic energy is fundamental to many technologies and natural processes, affecting everything from communication systems to biological functions.

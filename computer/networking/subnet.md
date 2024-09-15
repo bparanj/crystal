@@ -21,7 +21,7 @@ A subnetwork, often abbreviated as subnet, is a logical subdivision of an IP net
    - More efficient use of IP address space
    - Reduced network congestion
 
-7. Implementation: Subnetting is typically done by network administrators using routers or layer 3 switches.
+7. Implementation: Subnetting is  done by network administrators using routers or layer 3 switches.
 
 8. Examples:
    - In a large office, different departments might be on different subnets.

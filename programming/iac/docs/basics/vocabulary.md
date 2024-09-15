@@ -6,7 +6,7 @@ For a solid understanding of Infrastructure as Code (IaC) and related fields, it
 
 2. **Virtual Server (Virtual Machine)**: A virtual server, or virtual machine (VM), is a software-based emulation of a physical computer. It runs an operating system and applications as if it were a physical machine but shares the underlying physical hardware with other VMs.
 
-3. **Resource**: In the context of computing and IaC, a resource refers to any component of technology that can be managed, including hardware devices like servers and switches, software components like databases and applications, and more abstract entities like IP addresses and storage capacity.
+3. **Resource**: In the context of computing and IaC, a resource refers to any component of technology that can be managed,  hardware devices like servers and switches, software components like databases and applications, and more abstract entities like IP addresses and storage capacity.
 
 4. **Container**: Containers package an application and all its dependencies together in a single unit that is isolated from other containers. This allows for consistent operation across different computing environments. Docker is a popular containerization platform.
 

@@ -4,12 +4,12 @@ A register in computer hardware is a small, fast storage location within the CPU
 
 1. **Speed**: Registers are the fastest type of memory in a computer system, significantly faster than RAM and cache memory. This speed is essential for the CPU's performance, allowing it to perform operations quickly.
 
-2. **Size**: Registers are typically very small in size, usually holding a few bytes of data (commonly 32 or 64 bits, depending on the CPU architecture).
+2. **Size**: Registers are  very small in size, usually holding a few bytes of data ( 32 or 64 bits, depending on the CPU architecture).
 
 3. **Function**: They hold operands for arithmetic and logical operations, addresses for memory access, and other critical data that the CPU needs immediate access to.
 
 4. **Types**:
-   - **General-Purpose Registers**: Used for a wide range of functions, including arithmetic operations, data storage, and address calculation.
+   - **General-Purpose Registers**: Used for a wide range of functions,  arithmetic operations, data storage, and address calculation.
    - **Special-Purpose Registers**: Include the program counter (PC), stack pointer (SP), and status registers, each serving specific functions in the CPU's operation.
 
 ### Why It’s Called a Register:

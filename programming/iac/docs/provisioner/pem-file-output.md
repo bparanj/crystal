@@ -1,6 +1,6 @@
 ## Terraform Output for AWS Secrets
 
-To output the AWS secrets created by Terraform to the standard output, you can define an output value in your Terraform configuration file (typically in `outputs.tf`) that references the attributes of the `aws_secretsmanager_secret` resource you wish to display. However, for security reasons, avoid outputting sensitive information like secret values to the console. Instead, you can output non-sensitive information such as the ARN or the name of the secret.
+To output the AWS secrets created by Terraform to the standard output, you can define an output value in your Terraform configuration file ( in `outputs.tf`) that references the attributes of the `aws_secretsmanager_secret` resource you wish to display. However, for security reasons, avoid outputting sensitive information like secret values to the console. Instead, you can output non-sensitive information such as the ARN or the name of the secret.
 
 Here's an example of how to output the ARN and the name of the secret you've created:
 
@@ -16,7 +16,7 @@ output "ror_key_secret_name" {
 }
 ```
 
-This way, you can retrieve metadata about the secret without exposing its actual value. If you need to access the secret value, it's better to do so securely within your applications using the AWS SDK or CLI, querying by the secret's ARN or name, and ensuring appropriate IAM permissions are in place to restrict access to authorized entities only.
+This way, you can retrieve metadata about the secret without exposing its  value. If you need to access the secret value, it's better to do so securely within your applications using the AWS SDK or CLI, querying by the secret's ARN or name, and ensuring appropriate IAM permissions are in place to restrict access to authorized entities only.
 
 Use best practices for managing secrets, such as using AWS IAM roles and policies to control access, avoiding hardcoding secrets in your source code or Terraform configurations, and regularly rotating secrets.
 

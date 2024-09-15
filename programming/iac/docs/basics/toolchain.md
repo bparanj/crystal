@@ -18,7 +18,7 @@ Packer, Terraform, and Ansible together form a powerful toolchain for infrastruc
 ### Putting It All Together: A Unified Workflow
 
 1. **Build**: Start by using Packer to build a base machine image with the necessary system configurations and software.
-2. **Provision**: Use Terraform to provision the infrastructure needed for your application, including networks, VM instances based on the Packer images, databases, and other services.
+2. **Provision**: Use Terraform to provision the infrastructure needed for your application,  networks, VM instances based on the Packer images, databases, and other services.
 3. **Configure and Deploy**: With the infrastructure in place, use Ansible to further configure the provisioned systems, deploy your applications, and manage any ongoing configuration changes.
 
 ### Advantages of the Toolchain

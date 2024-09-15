@@ -127,7 +127,7 @@ provisioner "ansible" {
 }
 ```
 
-Replace `path/to/your_playbook.yml` with the actual path to the Ansible playbook you've created. This setup assumes Packer and Ansible are correctly installed and configured to work together, and that you have SSH access configured for the target Ubuntu 22.04 instance that Packer creates.
+Replace `path/to/your_playbook.yml` with the  path to the Ansible playbook you've created. This setup assumes Packer and Ansible are correctly installed and configured to work together, and that you have SSH access configured for the target Ubuntu 22.04 instance that Packer creates.
 
 Running this setup will execute the Ansible playbook as part of the Packer build process, installing the required packages and configuring the locale on your Ubuntu 22.04 image.
 

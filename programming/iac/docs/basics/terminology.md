@@ -4,7 +4,7 @@
 
 The term for a rule that helps you to choose between potential solutions is a "Heuristic." 
 
-Heuristics are strategies or approaches that guide problem-solving, decision-making, or discovery. They simplify the processes of finding solutions through practical methods not guaranteed to be optimal or perfect but sufficient for reaching an immediate, short-term goal or approximation. In various contexts, including design, engineering, and everyday decision-making, heuristics serve as valuable tools for navigating complex or uncertain situations by providing a framework for making choices without exhaustive analysis.
+Heuristics are strategies or approaches that guide problem-solving, decision-making, or discovery. They simplify the processes of finding solutions through practical methods not guaranteed to be optimal or perfect but sufficient for reaching an immediate, short-term goal or approximation. In various contexts,  design, engineering, and everyday decision-making, heuristics serve as valuable tools for navigating complex or uncertain situations by providing a framework for making choices without exhaustive analysis.
 
 ### Approach
 

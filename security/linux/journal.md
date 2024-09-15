@@ -1,6 +1,6 @@
 ### What is a Journal in Linux?
 
-A journal in Linux typically refers to two main concepts: the journal in journaling filesystems and the system journal managed by `systemd-journald`.
+A journal in Linux  refers to two main concepts: the journal in journaling filesystems and the system journal managed by `systemd-journald`.
 
 ### Journaling Filesystems
 
@@ -27,7 +27,7 @@ In the context of filesystems, a journal is a feature that helps ensure data int
 #### Features of `systemd-journald`:
 
 1. **Centralized Logging**:
-   - Collects logs from various sources, including the kernel, initramfs, services, and applications.
+   - Collects logs from various sources,  the kernel, initramfs, services, and applications.
 2. **Structured Logs**:
    - Stores logs in a binary format that allows for efficient indexing and querying.
 3. **Log Rotation**:
@@ -47,7 +47,7 @@ The term "journal" is used because both journaling filesystems and `systemd-jour
 ### References:
 
 - **Journaling Filesystem**:
-  - "Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati: Discusses the internals of Linux filesystems, including journaling.
+  - "Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati: Discusses the internals of Linux filesystems,  journaling.
   - Red Hat Documentation on [Journaling Filesystems](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/storage_administration_guide/ch-journaling_file_systems)
 
 - **systemd-journald**:

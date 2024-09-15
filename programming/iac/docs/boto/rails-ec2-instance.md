@@ -2,12 +2,12 @@ To create an EC2 instance for your Rails application using boto3, translate Terr
 
 ### Step 1: Prepare Your Parameters
 
-Determine the necessary parameters like the AMI ID, instance type, subnet ID, security group ID, and key name. For the AMI ID (`data.aws_ami.latest_ami.id` in Terraform), you'd typically look up the latest AMI for your specific needs (e.g., the latest Amazon Linux 2 AMI).
+Determine the necessary parameters like the AMI ID, instance type, subnet ID, security group ID, and key name. For the AMI ID (`data.aws_ami.latest_ami.id` in Terraform), you'd  look up the latest AMI for your specific needs (e.g., the latest Amazon Linux 2 AMI).
 
 However, for simplicity, let's assume you have these parameters ready:
 
 ```python
-ami_id = 'ami-xxxxxxx'  # Replace this with the actual AMI ID
+ami_id = 'ami-xxxxxxx'  # Replace this with the  AMI ID
 instance_type = 't2.micro'  # Or any other instance type
 subnet_id = 'subnet-xxxxxx'  # Your public subnet ID
 security_group_id = 'sg-xxxxxx'  # Your security group ID
@@ -57,7 +57,7 @@ print(f"EC2 Instance ID: {instance[0].id}")
   
 - **Key Pair (`key_name`)**: The key pair name is required for SSH access to your instance. Ensure you've created the key pair in the same region where you're launching the instance.
 
-This launches a single EC2 instance with the specified configuration for a Rails application EC2 instance. Replace placeholder values with actual data relevant to your AWS setup.
+This launches a single EC2 instance with the specified configuration for a Rails application EC2 instance. Replace placeholder values with  data relevant to your AWS setup.
 
 To create the Rails EC2 instance using boto3, you can use the `run_instances()` method of the EC2 client. Here's an example code snippet that demonstrates how to create the EC2 instance:
 
@@ -138,7 +138,7 @@ Inside the function:
 
 In the example usage, we specify the AMI ID (`ami_id`), instance type (`instance_type`), subnet ID (`subnet_id`), security group ID (`security_group_id`), key pair name (`key_name`), and tags. We then call the `create_rails_instance()` function with these arguments.
 
-Make sure to replace the placeholders (`'ami-xxxxxxxx'`, `'subnet-xxxxxxxx'`, `'sg-xxxxxxxx'`, `'my-key-pair'`) with the actual values specific to your AWS setup.
+Make sure to replace the placeholders (`'ami-xxxxxxxx'`, `'subnet-xxxxxxxx'`, `'sg-xxxxxxxx'`, `'my-key-pair'`) with the  values specific to your AWS setup.
 
 Note: Ensure that you have the necessary permissions to create EC2 instances in your AWS account. You may need to configure the appropriate IAM permissions for your AWS account or the IAM user/role associated with your boto3 session.
 

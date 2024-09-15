@@ -59,7 +59,7 @@ class PackerUbuntuStack(Stack):
 
 In this modified code:
 
-1. The necessary AWS CDK modules are imported, including `aws_lambda` for Lambda functions and `custom_resources` for creating custom resources.
+1. The necessary AWS CDK modules are imported,  `aws_lambda` for Lambda functions and `custom_resources` for creating custom resources.
 
 2. An IAM role is created for the Lambda function using `iam.Role`, and the necessary permissions are attached to the role (e.g., `AmazonEC2FullAccess`).
 
@@ -69,7 +69,7 @@ In this modified code:
 
 5. The custom resource is added as a dependency of the EC2 instance using `instance.node.add_dependency(ansible_resource)` to ensure that the Ansible playbook is run after the instance is created.
 
-Note that you need to provide the actual Lambda function code that runs the Ansible playbook. The Lambda function should have the necessary dependencies installed (e.g., Ansible) and should execute the playbook using the provided playbook file and instance ID.
+Note that you need to provide the  Lambda function code that runs the Ansible playbook. The Lambda function should have the necessary dependencies installed (e.g., Ansible) and should execute the playbook using the provided playbook file and instance ID.
 
 Also, make sure to grant the appropriate permissions to the Lambda function's IAM role to access the necessary AWS resources (e.g., EC2 instances) and to execute the Ansible playbook.
 

@@ -4,7 +4,7 @@ A discrete active device is an individual electronic component that can control 
    This means the device is a separate, individual component, as opposed to being part of an integrated circuit.
 
 2. Active:
-   These devices can control the flow of electric current and provide power gain. They typically require an external power source to operate.
+   These devices can control the flow of electric current and provide power gain. They  require an external power source to operate.
 
 Key characteristics of discrete active devices:
 
@@ -55,14 +55,14 @@ A **discrete active device** refers to an individual electronic component that c
 2. **Discrete Components**:
    - **Transistors**: The most common discrete active devices. Transistors can act as amplifiers or switches in a circuit. They control the flow of current between two terminals (collector and emitter) based on the input at a third terminal (base or gate).
    - **Diodes (in certain contexts)**: While diodes are generally considered passive devices, certain types, like light-emitting diodes (LEDs) or zener diodes, are often treated as active devices because they control the direction of current flow and require a threshold voltage to operate.
-   - **Integrated Circuits (ICs)**: Although ICs are not typically "discrete" because they integrate many components, a single transistor from an IC could be considered a discrete active device.
+   - **Integrated Circuits (ICs)**: Although ICs are not  "discrete" because they integrate many components, a single transistor from an IC could be considered a discrete active device.
 
 3. **Functionality**:
    - **Switching**: In digital circuits, transistors are used to switch signals on and off, forming the basis of logic gates and memory cells.
    - **Amplification**: In analog circuits, transistors amplify weak signals, such as in audio amplifiers, radio frequency amplifiers, and operational amplifiers.
 
 4. **Discrete Assembly**:
-   - **Discrete** refers to the fact that these components are separate and distinct, typically housed in individual packages (e.g., TO-92 for small transistors or TO-220 for larger ones). This is in contrast to integrated circuits, where many active components are fabricated on a single chip.
+   - **Discrete** refers to the fact that these components are separate and distinct,  housed in individual packages (e.g., TO-92 for small transistors or TO-220 for larger ones). This is in contrast to integrated circuits, where many active components are fabricated on a single chip.
 
 ### Example of a Discrete Active Device:
 

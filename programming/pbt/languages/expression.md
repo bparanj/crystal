@@ -36,10 +36,10 @@ Function calls are expressions that invoke a function with a set of arguments an
 Conditional expressions evaluate to different values based on a condition. The most common form is the `if-else` expression, which chooses between two expressions based on a boolean condition. Some languages also offer ternary operators (`condition ? trueExpression : falseExpression`) as shorthand for simple `if-else` conditions.
 
 ### Iterative Expressions
-Iterative expressions (or loops) repeatedly evaluate an expression or a block of expressions based on a condition, typically for side effects (like mutating state or performing I/O operations) rather than to produce a value. While not all programming languages treat loops as expressions that yield a value, in some functional languages, even loops can be expressed in a way that they result in a value (e.g., using recursion or higher-order functions like `fold`).
+Iterative expressions (or loops) repeatedly evaluate an expression or a block of expressions based on a condition,  for side effects (like mutating state or performing I/O operations) rather than to produce a value. While not all programming languages treat loops as expressions that yield a value, in some functional languages, even loops can be expressed in a way that they result in a value (e.g., using recursion or higher-order functions like `fold`).
 
 ### Constant and Variable Accesses
-- **Constant Accesses** refer to the use of named constants in expressions. Constants are fixed values defined in the program, typically at the global level, that do not change during execution.
+- **Constant Accesses** refer to the use of named constants in expressions. Constants are fixed values defined in the program,  at the global level, that do not change during execution.
 - **Variable Accesses** involve referencing variables by their names to retrieve their current values. Variable accesses are evaluated to the value the variable holds at the time of access.
 
 These classifications help in understanding the components of a programming language and how they are used to construct programs. Each plays a crucial role in defining the syntax and semantics of the language, influencing how developers write code and express computations.

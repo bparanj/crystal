@@ -6,7 +6,7 @@ The term "bus" is derived from the Latin word "omnibus," which means "for all." 
 
 ### Key Points about Computer Buses
 
-1. **Data Bus**: Carries the actual data being processed.
+1. **Data Bus**: Carries the  data being processed.
 2. **Address Bus**: Carries information about where the data should go.
 3. **Control Bus**: Carries control signals to manage the operations of the computer components.
 

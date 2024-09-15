@@ -11,7 +11,7 @@ However, here’s how the data can still be retained when the CMOS battery is re
    - Some motherboards store critical settings in non-volatile storage that does not require battery power to retain data. This allows the system to restore certain settings even if the CMOS battery is replaced.
 
 3. **System Reconfiguration**:
-   - After replacing the CMOS battery, users typically need to re-enter the BIOS setup to configure system settings such as date and time or any custom hardware configurations. These settings will then be saved and maintained by the new CMOS battery.
+   - After replacing the CMOS battery, users  need to re-enter the BIOS setup to configure system settings such as date and time or any custom hardware configurations. These settings will then be saved and maintained by the new CMOS battery.
 
 ### Steps to Replace CMOS Battery:
 

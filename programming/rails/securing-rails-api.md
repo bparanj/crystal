@@ -4,7 +4,7 @@ Integrating Supabase authentication with a Ruby on Rails backend to secure your 
 
 ### 1. **Frontend: Send the Supabase Auth Token**
 
-When a user logs in using the magic link feature of Supabase in your Nuxt 3 app, Supabase provides an authentication token. You need to send this token to your Rails backend with each API request. This is typically done through an HTTP header.
+When a user logs in using the magic link feature of Supabase in your Nuxt 3 app, Supabase provides an authentication token. You need to send this token to your Rails backend with each API request. This is  done through an HTTP header.
 
 In your Nuxt 3 app, after a successful login, you can access the user's session token using Supabase's JavaScript client and include it in the headers of your API requests:
 

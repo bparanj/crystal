@@ -86,7 +86,7 @@ Here's how you can set up VS Code to work with your Lima Ubuntu instance:
 
 9. Any files you edit or create using VS Code will be automatically synchronized with the Ubuntu instance through the Lima shared directory.
 
-By leveraging the Remote - SSH extension in VS Code, you can have a seamless development experience where you edit your code on your Mac using VS Code's rich features and extensions, while the actual execution and running of the code happen inside the Lima Ubuntu instance.
+By leveraging the Remote - SSH extension in VS Code, you can have a seamless development experience where you edit your code on your Mac using VS Code's rich features and extensions, while the  execution and running of the code happen inside the Lima Ubuntu instance.
 
 This setup allows you to take advantage of the Linux environment and tools provided by Lima, while still using your preferred code editor on your Mac. It provides a convenient and efficient workflow for developing and testing your code in a Linux environment without leaving your macOS environment.
 

@@ -18,7 +18,7 @@ To manually verify that the `deploy` user has been created on an EC2 instance fr
   ```bash
   grep deploy /etc/passwd
   ```
-- If the user exists, this command will output a line with user information, including the username `deploy`.
+- If the user exists, this command will output a line with user information,  the username `deploy`.
 
 ### Method 2: Use the `id` Command
 

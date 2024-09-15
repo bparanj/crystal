@@ -3,7 +3,7 @@ Here's a breakdown of the image lifecycle when using Packer, along with explanat
 **1. Source Image Definition**
 
 * **Base Image Selection:**  Choose a starting point for your image. This could be a generic operating system image (e.g., Ubuntu, CentOS, Windows Server) or a more specialized image depending on your needs.
-* **Packer Template:** Create a Packer template (typically a JSON or HCL file) to define the specifications and build process of your image. This is the backbone of your Packer workflow.
+* **Packer Template:** Create a Packer template ( a JSON or HCL file) to define the specifications and build process of your image. This is the backbone of your Packer workflow.
 
 **2. Provisioning**
 
@@ -56,7 +56,7 @@ When using Packer for image creation, the image lifecycle encompasses several st
 ### 3. **Image Creation**
 
 - **Building**: Packer initializes the builders specified in the template and starts the image creation process. This often involves launching a temporary instance on a cloud provider or a virtual machine on local or remote hardware, depending on the builder used.
-- **Provisioning**: Once the instance is running, Packer executes the provisioners defined in the template. This step typically involves installing software, applying configurations, and performing cleanup tasks to prepare the image.
+- **Provisioning**: Once the instance is running, Packer executes the provisioners defined in the template. This step  involves installing software, applying configurations, and performing cleanup tasks to prepare the image.
 - **Post-Processing**: After the provisioning step completes, any specified post-processors run. This can include compressing the image, uploading it to a cloud provider, or adding metadata.
 
 ### 4. **Testing**

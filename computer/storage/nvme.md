@@ -13,7 +13,7 @@ Overall, NVMe drives offer a significant performance boost over traditional SATA
 The term **non-volatile** in NVMe stands for the type of memory used in these storage devices. Here's a breakdown:
 
 - **Non-volatile memory** refers to a type of memory that retains stored data even when the power is turned off. This is in contrast to volatile memory, like RAM, which loses its data when the power is lost.
-- In the context of NVMe, the non-volatile memory used is typically NAND flash memory, which is the same type of memory used in SSDs (Solid State Drives).
+- In the context of NVMe, the non-volatile memory used is  NAND flash memory, which is the same type of memory used in SSDs (Solid State Drives).
 
 So, the "non-volatile" part of NVMe highlights that the storage retains data without needing a constant power supply, making it reliable for long-term data storage.
 
@@ -75,9 +75,9 @@ M.2 is a form factor for computer expansion cards and associated connectors.
 
 2. Purpose: Primarily used for SSDs, but also Wi-Fi and Bluetooth adapters.
 
-3. Interface: Supports multiple interfaces including SATA, PCIe, and USB 3.0.
+3. Interface: Supports multiple interfaces  SATA, PCIe, and USB 3.0.
 
-4. Dimensions: Various sizes, commonly 22mm wide with lengths of 30, 42, 60, 80, or 110mm.
+4. Dimensions: Various sizes,  22mm wide with lengths of 30, 42, 60, 80, or 110mm.
 
 5. Naming: Size denoted as 2230, 2242, 2260, 2280, 22110.
 

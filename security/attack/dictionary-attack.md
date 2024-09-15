@@ -23,9 +23,9 @@ In this diagram:
 
 4. The automated script or tool takes the passwords from the dictionary and attempts to log in to the target system or account using each password.
 
-5. If a password from the dictionary matches the actual password of the target account, the login attempt is successful, and the Attacker gains unauthorized access to the system or account.
+5. If a password from the dictionary matches the  password of the target account, the login attempt is successful, and the Attacker gains unauthorized access to the system or account.
 
-6. If a password from the dictionary doesn't match the actual password, the login attempt fails. The automated script or tool then moves on to the next password from the dictionary and tries again.
+6. If a password from the dictionary doesn't match the  password, the login attempt fails. The automated script or tool then moves on to the next password from the dictionary and tries again.
 
 7. The process continues until either a successful login occurs or all the passwords from the dictionary have been exhausted.
 

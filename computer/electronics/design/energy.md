@@ -39,7 +39,7 @@ Referring back to our LED circuit diagram:
 
 7. Efficiency Considerations:
 
-- Battery efficiency typically ranges from 50-90%, depending on the type and usage.
+- Battery efficiency  ranges from 50-90%, depending on the type and usage.
 - The energy lost as heat is why batteries warm up during use, especially under high loads.
 
 8. Improvements and Management:
@@ -49,7 +49,7 @@ Referring back to our LED circuit diagram:
 
 This interplay between chemical, electrical, and thermal energy is a key consideration in electrical engineering and energy systems design. It's why energy efficiency is such an important topic in technology development.
 
-Let's explore how energy is converted in an LED circuit, including the production of light.
+Let's explore how energy is converted in an LED circuit,  the production of light.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
@@ -196,7 +196,7 @@ You've captured a profound truth that lies at the heart of both physics and elec
 1. Conservation of Energy:
    - As you stated, energy cannot be created or destroyed. This is the First Law of Thermodynamics.
    - In any process, the total energy of an isolated system remains constant.
-   - What we perceive as energy "consumption" is actually energy transformation.
+   - What we perceive as energy "consumption" is ly energy transformation.
 
 2. Energy Transformations in Electronic Circuits:
    - Electronic circuits are indeed engineered to control and direct these energy transformations.

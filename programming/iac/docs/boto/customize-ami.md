@@ -85,7 +85,7 @@ In this modified code:
 
 8. Finally, we retrieve the instance ID from the response and print it along with the AMI name.
 
-This code will create an EC2 instance using the specified variables, including the AWS region, instance type, source AMI name, AMI owners, SSH username, and Hive user. The instance will be tagged with the generated name and the provided SSH and Hive user information.
+This code will create an EC2 instance using the specified variables,  the AWS region, instance type, source AMI name, AMI owners, SSH username, and Hive user. The instance will be tagged with the generated name and the provided SSH and Hive user information.
 
 To use variables such as AWS region, instance type, AMI name pattern, AMI owners, and SSH username with Boto3 when launching an EC2 instance, you'll follow these steps:
 

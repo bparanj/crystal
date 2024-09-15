@@ -1,4 +1,4 @@
-Here is a table that summarizes the key aspects of each package: its name, a brief description, and identifying which types of applications or services commonly depend on that package. 
+Here is a table that summarizes the key aspects of each package: its name, a brief description, and identifying which types of applications or services  depend on that package. 
 
 | Package Name          | Description                                                                                       | Who Depends on That Package                |
 |-----------------------|---------------------------------------------------------------------------------------------------|--------------------------------------------|
@@ -11,7 +11,7 @@ Here is a table that summarizes the key aspects of each package: its name, a bri
 
 - **libxslt-dev**: This package is crucial for developers working with XSLT transformations. It's often used in web applications that require dynamic XML document transformations. Web servers or backend services that generate or serve XML content may depend on this for transforming XML formats.
 
-- **libxml2-dev**: Essential for any application that needs to parse, validate, or manipulate XML documents. It's widely used across different types of software, including web browsers, office applications, and language libraries that provide XML parsing capabilities.
+- **libxml2-dev**: Essential for any application that needs to parse, validate, or manipulate XML documents. It's widely used across different types of software,  web browsers, office applications, and language libraries that provide XML parsing capabilities.
 
 - **libmysqlclient-dev**: This package is necessary for developing applications that communicate with MySQL databases. It provides the necessary client libraries and header files to connect and execute SQL queries from languages like C, C++, or any language capable of interfacing with C libraries.
 

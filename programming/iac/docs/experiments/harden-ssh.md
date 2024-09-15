@@ -1,7 +1,7 @@
 Create Ansible playbook for:
  - SSH hardening - prevent password login, change the default default ssh port and prevent root login
 
-To create an Ansible playbook for SSH hardening, including preventing password login, changing the default SSH port, and preventing root login, you can follow this template. This playbook makes changes to the SSH daemon configuration, typically found in `/etc/ssh/sshd_config`.
+To create an Ansible playbook for SSH hardening,  preventing password login, changing the default SSH port, and preventing root login, you can follow this template. This playbook makes changes to the SSH daemon configuration,  found in `/etc/ssh/sshd_config`.
 
 ### Ansible Playbook: SSH Hardening
 
@@ -68,9 +68,9 @@ This playbook provides a foundational approach to SSH hardening. Depending on yo
 
 ## Revise Playbook
 
-The error message you're encountering, "ERROR! The requested handler 'restart sshd' was not found in either the main handlers list nor in the listening handlers list," indicates a mismatch between the name specified in the `notify` directive of your tasks and the name of the actual handler that is supposed to restart the SSH service.
+The error message you're encountering, "ERROR! The requested handler 'restart sshd' was not found in either the main handlers list nor in the listening handlers list," indicates a mismatch between the name specified in the `notify` directive of your tasks and the name of the  handler that is supposed to restart the SSH service.
 
-In your playbook, tasks are notifying a handler named "restart sshd", but your handler is defined with the name "Restart SSH service to apply changes". The names in the `notify` directive and the actual handler must match exactly.
+In your playbook, tasks are notifying a handler named "restart sshd", but your handler is defined with the name "Restart SSH service to apply changes". The names in the `notify` directive and the  handler must match exactly.
 
 ### Solution
 
@@ -131,7 +131,7 @@ In an Ansible playbook, you might see multiple tasks using the `notify` directiv
 
 3. **Clarity and Maintainability**: Defining tasks with specific, focused changes makes playbooks easier to read, understand, and maintain. When a task triggers a significant action (like restarting a critical service), using `notify` makes it clear that the change requires a specific response (in this case, restarting the SSH service to apply the new configuration).
 
-4. **Conditional Notifications**: Sometimes, not all tasks will change a system's state. If a task makes no changes (because the system already meets the desired state), it won't notify the handler. This conditionality ensures that services are only restarted when necessary, based on the actual changes made during the playbook run.
+4. **Conditional Notifications**: Sometimes, not all tasks will change a system's state. If a task makes no changes (because the system already meets the desired state), it won't notify the handler. This conditionality ensures that services are only restarted when necessary, based on the  changes made during the playbook run.
 
 5. **Grouping Related Changes**: By having multiple tasks notify the same handler, you can group related configuration changes. This setup is useful when multiple independent changes all require the same subsequent action (like a service restart). It allows for logical grouping and efficient execution of post-configuration steps.
 

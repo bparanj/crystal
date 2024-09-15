@@ -1,11 +1,11 @@
-To verify that Caddy has enabled HTTP/2, you can use various methods, including browser developer tools, command-line tools like `curl`, or online tools. HTTP/2 is designed to improve the efficiency, speed, and security of web server communications. Since Caddy automatically enables HTTP/2 for HTTPS sites (where the protocol is supported and enabled by default), verifying its activation is straightforward.
+To verify that Caddy has enabled HTTP/2, you can use various methods,  browser developer tools, command-line tools like `curl`, or online tools. HTTP/2 is designed to improve the efficiency, speed, and security of web server communications. Since Caddy automatically enables HTTP/2 for HTTPS sites (where the protocol is supported and enabled by default), verifying its activation is straightforward.
 
 ### Using Browser Developer Tools
 
 1. **Open your website** in a web browser that supports HTTP/2 (most modern browsers do).
 2. **Open the Developer Tools**. You can usually do this by right-clicking on the page and selecting "Inspect" or "Inspect Element", or by pressing `F12` or `Ctrl+Shift+I` (Cmd+Option+I on Mac).
 3. **Go to the Network tab** and reload your website to capture the network requests.
-4. **Click on any request** made to your Caddy server, typically the initial document request.
+4. **Click on any request** made to your Caddy server,  the initial document request.
 5. **Look for the Protocol column** or in the headers section for the selected request. You might need to enable the Protocol column in some browsers by right-clicking on the column headers and selecting "Protocol" from the list.
 6. Verify that the protocol is listed as **HTTP/2**.
 

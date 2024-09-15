@@ -49,7 +49,7 @@ Build the AMI
 
 Verify Caddy installation
 
-If you can see the "Caddy is running but not yet configured." message when accessing your server locally via `curl http://localhost:80` but not when using the public IP address (e.g., `curl http://52.13.222.170:80`), it typically points to a network or firewall configuration issue. Here are steps to troubleshoot and resolve this problem:
+If you can see the "Caddy is running but not yet configured." message when accessing your server locally via `curl http://localhost:80` but not when using the public IP address (e.g., `curl http://52.13.222.170:80`), it  points to a network or firewall configuration issue. Here are steps to troubleshoot and resolve this problem:
 
 ### 1. Check Security Group Settings
 
@@ -86,7 +86,7 @@ Ensure that the public IP address you're trying to access is indeed the current 
 
 After checking these aspects, try accessing your instance via the public IP address again. If the problem persists, reviewing logs (`/var/log/cloud-init.log` for initialization issues, `journalctl -u caddy` for Caddy logs) and double-checking all network configurations can provide further insights.
 
-If you can see the "Caddy is running but not yet configured." message when accessing your server locally via `curl http://localhost:80` but not when using the public IP address (e.g., `curl http://52.13.222.170:80`), it typically points to a network or firewall configuration issue. Here are steps to troubleshoot and resolve this problem:
+If you can see the "Caddy is running but not yet configured." message when accessing your server locally via `curl http://localhost:80` but not when using the public IP address (e.g., `curl http://52.13.222.170:80`), it  points to a network or firewall configuration issue. Here are steps to troubleshoot and resolve this problem:
 
 ### 1. Check Security Group Settings
 

@@ -1,6 +1,6 @@
 All of these are applicable types of data stored in RAM when a system is in use:
 
-1. **Operating System Kernel:** The core part of the operating system, including essential drivers and system services, is loaded into RAM to enable quick access and manage hardware resources effectively.
+1. **Operating System Kernel:** The core part of the operating system,  essential drivers and system services, is loaded into RAM to enable quick access and manage hardware resources effectively.
 
 2. **In-Use Data:** Any data actively being processed or used by the system, such as open files, documents, and temporary data, is stored in RAM for fast access and manipulation.
 

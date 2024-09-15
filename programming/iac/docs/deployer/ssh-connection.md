@@ -8,7 +8,7 @@ ssh -i /Users/bparanj/work/nuxt/iac/prototype/experiments/javascript/rails.pem -
 
 Using Ansible:
 
-To test an SSH connection to a remote EC2 instance with an Ansible playbook, you can use the `ping` module, which is a simple way to check if your Ansible setup can communicate with the remote hosts defined in your inventory. This does not actually ping hosts, but attempts an SSH connection, and it’s a good way to ensure that your configuration is correct.
+To test an SSH connection to a remote EC2 instance with an Ansible playbook, you can use the `ping` module, which is a simple way to check if your Ansible setup can communicate with the remote hosts defined in your inventory. This does not ly ping hosts, but attempts an SSH connection, and it’s a good way to ensure that your configuration is correct.
 
 Before running this playbook, inventory file must be set up with the IP addresses or DNS names of EC2 instances and any necessary connection parameters like the remote user and private key path.
 

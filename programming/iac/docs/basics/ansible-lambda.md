@@ -148,4 +148,4 @@ def lambda_handler(event, context):
 
 Make sure to adjust the paths and names according to your specific folder structure and playbook file names.
 
-By including the Ansible playbooks in the Lambda function deployment package using `add_to_asset_hash`, you ensure that the playbooks are available to the Lambda function at runtime, allowing you to execute them as needed.
+By  the Ansible playbooks in the Lambda function deployment package using `add_to_asset_hash`, you ensure that the playbooks are available to the Lambda function at runtime, allowing you to execute them as needed.

@@ -6,7 +6,7 @@ Running a Rails application in production on an Ubuntu server involves a combina
 
 3. **`yarn`**: A package manager for JavaScript, used to manage front-end dependencies in Rails applications.
 
-4. **`build-essential`**: Includes essential tools for building and compiling software from source, including GCC compiler, make, and other utilities.
+4. **`build-essential`**: Includes essential tools for building and compiling software from source,  GCC compiler, make, and other utilities.
 
 5. **`libssl-dev`**: Development libraries for SSL, needed to enable HTTPS support in your application through OpenSSL.
 
@@ -26,7 +26,7 @@ Running a Rails application in production on an Ubuntu server involves a combina
 
 13. **`libsqlite3-dev`**: Development libraries for SQLite, necessary if you're using SQLite as your database in development or production.
 
-14. **`nginx`** or **`apache2`**: Web servers that can serve static files and proxy requests to your Rails app. Nginx is more commonly used with Rails for its lightweight and high-performance capabilities.
+14. **`nginx`** or **`apache2`**: Web servers that can serve static files and proxy requests to your Rails app. Nginx is more  used with Rails for its lightweight and high-performance capabilities.
 
 15. **`redis-server`**: In-memory data structure store, used as a database, cache, and message broker. Essential for action cable and caching in Rails.
 
@@ -40,7 +40,7 @@ Running a Rails application in production on an Ubuntu server involves a combina
 
 20. **`certbot`** (from the EFF, optional but recommended): Automatically obtain and renew SSL certificates from Let's Encrypt. Essential for secure HTTPS communication.
 
-To install these packages, you would typically run a command like:
+To install these packages, you would  run a command like:
 
 ```bash
 sudo apt-get update

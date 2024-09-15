@@ -107,7 +107,7 @@ Here's an Ansible playbook that installs and configures Fail2Ban on an Ubuntu 22
 Before running this playbook:
 
 - Replace `your_host_group` with the group name of your target servers defined in your Ansible inventory. If you're targeting a single server, specify its hostname or IP address.
-- Ensure you have a Fail2Ban configuration file ready to be deployed (`jail.local`). The path `/path/to/your/jail.local` should be replaced with the actual path to your customized `jail.local` file on the control node. The `jail.local` file is used to override the default configuration settings.
+- Ensure you have a Fail2Ban configuration file ready to be deployed (`jail.local`). The path `/path/to/your/jail.local` should be replaced with the  path to your customized `jail.local` file on the control node. The `jail.local` file is used to override the default configuration settings.
 - Ensure Ansible is installed on your control machine and you have SSH access to the target machine(s).
 
 To run the playbook, save it to a file (e.g., `install_fail2ban.yml`), and then use the `ansible-playbook` command:
@@ -157,7 +157,7 @@ maxretry = 3
 - **[DEFAULT]**: Settings in this section apply to all jails unless overridden in the jail's specific section.
 - **bantime**: The duration for which an IP is banned. This can be specified in seconds or using a time duration (e.g., `1h` for one hour, `1d` for one day).
 - **findtime** and **maxretry**: These settings define the failure threshold for banning. If Fail2Ban finds `maxretry` failed attempts within a `findtime` period, the source IP will be banned.
-- **destemail** and **action**: Configuration for email notifications. The `action = %(action_mwl)s` line configures Fail2Ban to send an email with whois information and relevant log lines on ban. Make sure to replace `your_email@example.com` with your actual email address.
+- **destemail** and **action**: Configuration for email notifications. The `action = %(action_mwl)s` line configures Fail2Ban to send an email with whois information and relevant log lines on ban. Make sure to replace `your_email@example.com` with your  email address.
 - **[sshd]**: A jail for monitoring SSH login attempts. This section can be customized or extended with additional jails for other services.
 
 ### Extending Your Configuration
@@ -166,7 +166,7 @@ To monitor other services, you can add more sections similar to `[sshd]`. For ea
 
 Before implementing this configuration, ensure you have Fail2Ban installed and that you create or modify the `jail.local` file with appropriate permissions. Also, test your configuration to ensure it behaves as expected, paying special attention to the impact of banning policies on legitimate users and services.
 
-Yes, adding the line `ignoreip = 127.0.0.1/8 ::1` to your Fail2Ban configuration file is a good starting point. This setting instructs Fail2Ban to ignore any ban actions for the specified IP addresses. `127.0.0.1/8` represents the loopback address range (localhost) for IPv4, and `::1` is the loopback address for IPv6. By including this line, you prevent Fail2Ban from banning legitimate access from the local system, which is especially important for services that might have legitimate reasons to connect frequently and could otherwise be mistakenly banned.
+Yes, adding the line `ignoreip = 127.0.0.1/8 ::1` to your Fail2Ban configuration file is a good starting point. This setting instructs Fail2Ban to ignore any ban actions for the specified IP addresses. `127.0.0.1/8` represents the loopback address range (localhost) for IPv4, and `::1` is the loopback address for IPv6. By  this line, you prevent Fail2Ban from banning legitimate access from the local system, which is especially important for services that might have legitimate reasons to connect frequently and could otherwise be mistakenly banned.
 
 Here's a basic example of a Fail2Ban configuration file (`jail.local`) that you can use as a starting point. This file overrides some default settings from `jail.conf` and specifies a few common jails:
 
@@ -214,13 +214,13 @@ This configuration:
 - Triggers a ban after 5 retries by default, but adjusts this for specific services (e.g., 3 retries for SSH).
 - Uses the `action_mwl` action, which bans the IP and sends an email with the whois report and relevant log lines.
 
-Remember to replace `your_email@example.com` with your actual email address if you wish to receive notifications. Also, ensure that you have mail utilities configured on your server for email notifications to work.
+Remember to replace `your_email@example.com` with your  email address if you wish to receive notifications. Also, ensure that you have mail utilities configured on your server for email notifications to work.
 
 Before deploying this configuration, review and adjust the settings to match your security policies and operational requirements. Fail2Ban is highly customizable, allowing you to fine-tune its behavior to best fit your environment.
 
-Ubuntu 22.04 (Jammy Jellyfish) does not come with `sendmail` installed by default. Ubuntu typically includes minimal packages necessary for a basic setup to keep the installation lean. For mail services, users are encouraged to install the mail server software that best fits their needs, whether it be `sendmail`, `Postfix`, `Exim`, or any other MTA (Mail Transfer Agent).
+Ubuntu 22.04 (Jammy Jellyfish) does not come with `sendmail` installed by default. Ubuntu  includes minimal packages necessary for a basic setup to keep the installation lean. For mail services, users are encouraged to install the mail server software that best fits their needs, whether it be `sendmail`, `Postfix`, `Exim`, or any other MTA (Mail Transfer Agent).
 
-If you need `sendmail` or a similar MTA for sending emails from your server, you can easily install it. For example, to install `Postfix`, which is commonly used as an alternative to `sendmail` and often preferred for its simpler configuration, you can use the following command:
+If you need `sendmail` or a similar MTA for sending emails from your server, you can easily install it. For example, to install `Postfix`, which is  used as an alternative to `sendmail` and often preferred for its simpler configuration, you can use the following command:
 
 ```sh
 sudo apt update
@@ -288,7 +288,7 @@ This should show the offending IP as banned.
 
 ### 5. Review Fail2Ban Logs
 
-Fail2Ban logs actions (such as banning and unbanning IPs) to its log file, which is typically located at `/var/log/fail2ban.log`. You can inspect this file to see the history of Fail2Ban’s actions:
+Fail2Ban logs actions (such as banning and unbanning IPs) to its log file, which is  located at `/var/log/fail2ban.log`. You can inspect this file to see the history of Fail2Ban’s actions:
 
 ```sh
 sudo less /var/log/fail2ban.log
@@ -316,7 +316,7 @@ sudo nft list ruleset
 
 By following these steps, you can thoroughly verify your Fail2Ban installation and setup. It’s important to periodically check Fail2Ban’s status and logs to ensure it continues to protect your system effectively against unwanted access attempts.
 
-When using Packer to provision machines with Ansible, including setting up Fail2Ban as part of the provisioning process, the location of the Fail2Ban configuration file (e.g., `jail.local`) on your **control machine** (the machine running Packer) can be anywhere that is accessible to the Ansible playbook being executed by Packer. However, during the playbook run, you'll need to ensure that this file gets copied to the correct location on the **target machine** (the machine being provisioned by Packer).
+When using Packer to provision machines with Ansible,  setting up Fail2Ban as part of the provisioning process, the location of the Fail2Ban configuration file (e.g., `jail.local`) on your **control machine** (the machine running Packer) can be anywhere that is accessible to the Ansible playbook being executed by Packer. However, during the playbook run, you'll need to ensure that this file gets copied to the correct location on the **target machine** (the machine being provisioned by Packer).
 
 The standard location for the Fail2Ban configuration file `jail.local` on the target machine is `/etc/fail2ban/jail.local`. This is where Fail2Ban expects to find override settings for its default configuration.
 
@@ -424,7 +424,7 @@ Here's what these tasks do:
 
 This approach ensures that your playbook is idempotent and can handle scenarios where Fail2Ban might not be installed on the target system during the first playbook run. It also prevents potential errors from stopping your playbook execution and provides a more robust solution for managing configurations and backups with Ansible.
 
-In Ansible playbooks, the `handlers` section is used to define tasks that should only be run when notified by other tasks. Handlers are typically used for operations that need to occur after a change to the system, such as restarting a service after its configuration file has been modified. This ensures that the service picks up any changes made to its configuration.
+In Ansible playbooks, the `handlers` section is used to define tasks that should only be run when notified by other tasks. Handlers are  used for operations that need to occur after a change to the system, such as restarting a service after its configuration file has been modified. This ensures that the service picks up any changes made to its configuration.
 
 In the provided playbook example, the `restart fail2ban` handler is defined to restart the Fail2Ban service. This handler is notified by the "Copy Fail2Ban configuration file" task using the `notify` directive. Here's why this is important and useful:
 

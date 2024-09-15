@@ -7,7 +7,7 @@ To ensure that your playbook waits until the EC2 instance is fully booted and th
   gather_facts: false
   vars:
     instance_type: t2.micro
-    image_id: ami-123456 # Replace with the actual AMI ID for your region
+    image_id: ami-123456 # Replace with the  AMI ID for your region
     region: us-east-1
     key_name: my-keypair # Replace with your key pair name
     security_group: my-security-group # Replace with your security group name

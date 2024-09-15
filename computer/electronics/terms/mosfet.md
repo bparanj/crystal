@@ -8,6 +8,6 @@ A **MOSFET** (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of tr
    - **Enhancement Mode**: Requires a voltage at the gate to conduct.
    - **Depletion Mode**: Conducts when no voltage is applied to the gate and stops conducting when a voltage is applied.
 
-4. **Applications**: MOSFETs are widely used in various applications, including power supplies, amplifiers, and digital circuits. They are particularly valued for their efficiency and high-speed switching capabilities.
+4. **Applications**: MOSFETs are widely used in various applications,  power supplies, amplifiers, and digital circuits. They are particularly valued for their efficiency and high-speed switching capabilities.
 
 5. **Advantages**: Compared to other types of transistors, MOSFETs have high input impedance and low output capacitance, making them ideal for high-speed and low-power applications.

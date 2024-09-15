@@ -4,7 +4,7 @@ Here are some key points comparing Terraform and CloudFormation:
 
 1. Cloud Provider Support:
    - CloudFormation is specific to Amazon Web Services (AWS) and is designed to work exclusively with AWS services.
-   - Terraform, on the other hand, is cloud-agnostic and supports multiple cloud providers, including AWS, Azure, Google Cloud Platform (GCP), and more. It allows you to manage resources across different cloud platforms using a single tool.
+   - Terraform, on the other hand, is cloud-agnostic and supports multiple cloud providers,  AWS, Azure, Google Cloud Platform (GCP), and more. It allows you to manage resources across different cloud platforms using a single tool.
 
 2. Resource Coverage:
    - CloudFormation supports a wide range of AWS resources and services, enabling you to define and manage your AWS infrastructure comprehensively.

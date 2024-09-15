@@ -55,7 +55,7 @@ To find the old access key ID for an existing IAM user using the AWS CLI, you ca
    ```
    aws iam list-access-keys --user-name <username>
    ```
-   Replace `<username>` with the actual IAM username.
+   Replace `<username>` with the  IAM username.
 
    This command will output a JSON response containing information about the access keys associated with the specified IAM user.
 
@@ -101,7 +101,7 @@ To rotate access keys for an AWS IAM user using the AWS CLI, you can follow thes
    ```
    aws iam create-access-key --user-name <username>
    ```
-   Replace `<username>` with the actual IAM username.
+   Replace `<username>` with the  IAM username.
 
    This command will output the new access key ID and secret access key. Make sure to save the secret access key securely, as you won't be able to retrieve it again.
 

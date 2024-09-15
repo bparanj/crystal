@@ -1,4 +1,4 @@
-Setting up AWS WAF (Web Application Firewall) involves creating and configuring resources to protect your web applications from common web exploits. While Packer and Ansible are not directly involved in configuring AWS WAF, they can be part of the broader infrastructure setup, particularly for preparing your server images (with Packer) and configuring software on those servers (with Ansible). Terraform can then be used to provision your AWS infrastructure, including WAF. Here's a high-level overview of how these tools can work together:
+Setting up AWS WAF (Web Application Firewall) involves creating and configuring resources to protect your web applications from common web exploits. While Packer and Ansible are not directly involved in configuring AWS WAF, they can be part of the broader infrastructure setup, particularly for preparing your server images (with Packer) and configuring software on those servers (with Ansible). Terraform can then be used to provision your AWS infrastructure,  WAF. Here's a high-level overview of how these tools can work together:
 
 ### Step 1: Prepare Server Images with Packer
 
@@ -16,7 +16,7 @@ Once you have your server images, you can use Ansible to automate the deployment
 
 ### Step 3: Provision Infrastructure with Terraform, Including AWS WAF
 
-Now, you'll use Terraform to provision your AWS infrastructure, including EC2 instances from the AMIs created by Packer, and set up AWS WAF for protection.
+Now, you'll use Terraform to provision your AWS infrastructure,  EC2 instances from the AMIs created by Packer, and set up AWS WAF for protection.
 
 1. **Define your infrastructure** in a Terraform configuration (`main.tf`). This includes your EC2 instances, any necessary networking infrastructure (VPC, subnets), and AWS WAF resources.
 
@@ -76,7 +76,7 @@ This example sets up a basic rate-limiting rule. Replace `aws_lb.example.arn` wi
 
 ### Key Steps:
 
-1. **Build your server image** with Packer, including all necessary software.
+1. **Build your server image** with Packer,  all necessary software.
 2. **Automate application deployment** and configuration with Ansible.
 3. **Provision your AWS infrastructure** and WAF with Terraform to protect your web applications.
 

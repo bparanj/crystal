@@ -51,7 +51,7 @@ This experiment demonstrates the **thermoelectric effect**, specifically the See
 
 
 1.  child :
-Imagine you have two special blocks. When one block gets hot and the other stays cool, they can make a tiny bit of electricity! It's like magic, but it's actually science. We can use this to make little lights glow or even to keep our drinks cold in a special cooler.
+Imagine you have two special blocks. When one block gets hot and the other stays cool, they can make a tiny bit of electricity! It's like magic, but it's ly science. We can use this to make little lights glow or even to keep our drinks cold in a special cooler.
 
 2.  teenager :
 The thermoelectric effect is when we can create electricity from a temperature difference, or use electricity to create a temperature difference. It happens in special materials called semiconductors. When one side is hot and the other is cold, tiny particles called electrons move from the hot side to the cold side, creating an electric current. We can use this effect to generate power from heat or to make small, quiet coolers without any moving parts.
@@ -130,7 +130,7 @@ Setup and procedure:
 7. Alternate between hot and cold sources, noting the voltage changes.
 
 Expected results:
-- You should observe a small voltage (typically a few millivolts) when there's a temperature difference between the junction and the free ends of the wires.
+- You should observe a small voltage ( a few millivolts) when there's a temperature difference between the junction and the free ends of the wires.
 - The voltage should increase as the temperature difference increases.
 - Reversing the hot and cold ends should reverse the polarity of the voltage.
 

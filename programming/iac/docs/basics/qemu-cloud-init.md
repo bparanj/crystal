@@ -6,7 +6,7 @@ In computer terms, QEMU lets you run a program or an entire computer system (lik
 
 ## Experimentation
 
-Yes, if you want to experiment with `cloud-init` locally on Ubuntu 22.04 without using actual cloud instances, using QEMU (Quick EMUlator) along with KVM (Kernel-based Virtual Machine) is a practical approach. QEMU is a free and open-source emulator that performs hardware virtualization. It allows you to run virtual machines (VMs), making it a useful tool for testing and development, including experimenting with `cloud-init` configurations.
+Yes, if you want to experiment with `cloud-init` locally on Ubuntu 22.04 without using  cloud instances, using QEMU (Quick EMUlator) along with KVM (Kernel-based Virtual Machine) is a practical approach. QEMU is a free and open-source emulator that performs hardware virtualization. It allows you to run virtual machines (VMs), making it a useful tool for testing and development,  experimenting with `cloud-init` configurations.
 
 ### Why Use QEMU for `cloud-init` Experiments?
 

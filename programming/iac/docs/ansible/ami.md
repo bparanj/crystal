@@ -26,11 +26,11 @@ Once your EC2 instance is configured to your satisfaction:
 ### Key Considerations:
 - **AMI and Resource IDs are Region-specific**: If you plan to share your AMI across regions, you'll need to copy it to other regions. This can be automated with the AWS CLI or Ansible.
 - **Security**: Before sharing your AMI, ensure it doesn’t contain sensitive information, like SSH keys, AWS access keys, or personal data.
-- **Documentation**: Whether you're manually setting up resources or automating the process, clear documentation on using your custom AMI, including any setup or operational instructions, will be very helpful to your users.
+- **Documentation**: Whether you're manually setting up resources or automating the process, clear documentation on using your custom AMI,  any setup or operational instructions, will be very helpful to your users.
 
 For a project focused on creating and sharing a custom AMI, a mix of manual steps (especially for first-time setup and decisions about what to include in the AMI) and automation (for repeatability and efficiency) is typical. Automating as much as possible, particularly with tools like Ansible, can make the process more efficient and less prone to errors.
 
-In a Packer template, the `ami_groups` option is used to specify the group(s) that should have launch permissions for the created AMI (Amazon Machine Image). The `ami_groups` option is typically used in the `amazon-ebs` builder section of the Packer template.
+In a Packer template, the `ami_groups` option is used to specify the group(s) that should have launch permissions for the created AMI (Amazon Machine Image). The `ami_groups` option is  used in the `amazon-ebs` builder section of the Packer template.
 
 When you set `ami_groups = ["all"]`, it means that you are granting launch permissions for the created AMI to the "all" group. The "all" group is a special group that represents all AWS accounts.
 

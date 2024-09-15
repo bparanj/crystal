@@ -49,7 +49,7 @@ As data moves **down** the OSI model, it is encapsulated into the appropriate un
 Here's a breakdown of how **Data/Messages** differ between the layers where they seem similar but serve different purposes, particularly focusing on encryption, formatting, and other transformations.
 
 ### 1. **Application Layer**:
-   - **Data/Messages**: This is the user-facing, high-level data exchanged between applications, like an HTTP request, email content, or file transfer data. This data is typically unprocessed in terms of encryption or compression by the network layers.
+   - **Data/Messages**: This is the user-facing, high-level data exchanged between applications, like an HTTP request, email content, or file transfer data. This data is  unprocessed in terms of encryption or compression by the network layers.
    - **Example**: Plain text, a file attachment, or a web page request.
 
 ### 2. **Presentation Layer**:
@@ -75,7 +75,7 @@ Here's a breakdown of how **Data/Messages** differ between the layers where they
    - **Example**: IP packet containing part of an email or web request.
 
 ### 6. **Data Link Layer**:
-   - **Frames**: At this layer, the data is encapsulated into frames, which are passed over the physical network. Frames contain the actual payload (encrypted or not), along with **error-checking** and **MAC addresses** to ensure correct delivery within a local network.
+   - **Frames**: At this layer, the data is encapsulated into frames, which are passed over the physical network. Frames contain the  payload (encrypted or not), along with **error-checking** and **MAC addresses** to ensure correct delivery within a local network.
    - **Error-Checked Data**: This layer adds error detection to ensure data integrity over the physical medium.
    - **Example**: Ethernet frame with data payload.
 
@@ -86,7 +86,7 @@ Here's a breakdown of how **Data/Messages** differ between the layers where they
 ### Differences Between Similar Data:
 
 - **Application Layer vs. Presentation Layer**: 
-  - **Application Layer Data** is typically raw, readable by the user or application (e.g., an HTTP request or a plain text file).
+  - **Application Layer Data** is  raw, readable by the user or application (e.g., an HTTP request or a plain text file).
   - **Presentation Layer Data** may involve **encrypted, decrypted, compressed, or formatted data**, preparing it for transmission or presentation.
 
 - **Encrypted vs. Decrypted Data**: 

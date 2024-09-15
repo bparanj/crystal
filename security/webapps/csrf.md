@@ -8,7 +8,7 @@ CSRF stands for Cross-Site Request Forgery. It is a type of web security vulnera
 
 2. Exploiting User's Authentication:
    - CSRF attacks rely on the fact that the user is authenticated to the target web application.
-   - When a user is authenticated, their browser typically sends authentication tokens (such as cookies) with each request to the application.
+   - When a user is authenticated, their browser  sends authentication tokens (such as cookies) with each request to the application.
    - The attacker exploits this by crafting a malicious request that includes the user's authentication tokens.
 
 3. Forged Requests:
@@ -45,7 +45,7 @@ The term "Cross-Site" in "Cross-Site Request Forgery" refers to the fact that th
 Here's why "Cross-Site" is used in the name:
 
 1. Different Origin:
-   - In a CSRF attack, the malicious request is typically initiated from a different website or domain than the target web application.
+   - In a CSRF attack, the malicious request is  initiated from a different website or domain than the target web application.
    - The attacker's website or a compromised website serves as the source of the forged request.
    - The request crosses the boundaries of the original site and targets a different site, hence the term "Cross-Site."
 
@@ -67,7 +67,7 @@ Here's why "Cross-Site" is used in the name:
 
 5. Highlighting the Trust Exploit:
    - CSRF attacks exploit the trust that a web application has in a user's browser and the user's authenticated session.
-   - By including "Cross-Site" in the name, it emphasizes that the attack takes advantage of the trust relationship across different sites.
+   - By  "Cross-Site" in the name, it emphasizes that the attack takes advantage of the trust relationship across different sites.
    - It underscores the need for web applications to validate and verify the authenticity of requests, even if they appear to come from authenticated users.
 
 The "Cross-Site" aspect is a crucial characteristic of CSRF attacks, as it involves forging requests from a different website to the target application. It highlights the importance of implementing proper CSRF prevention mechanisms to ensure that requests originate from trusted sources and are genuinely initiated by the authenticated user.
@@ -139,11 +139,11 @@ CSRF attack flow:
 
 1. The attacker crafts a malicious link or form designed to perform an unintended action on the target website.
 
-2. The attacker sends the malicious link or form to the victim, typically through channels like email, social media, or a compromised website.
+2. The attacker sends the malicious link or form to the victim,  through channels like email, social media, or a compromised website.
 
 3. The victim, who is already authenticated on the target website, clicks on the malicious link or submits the malicious form.
 
-4. The victim's browser sends a forged request to the target website, automatically including the victim's session cookies or authentication tokens.
+4. The victim's browser sends a forged request to the target website, automatically  the victim's session cookies or authentication tokens.
 
 5. The target website receives the forged request and processes it as if it were a legitimate request from the authenticated victim.
 
@@ -184,7 +184,7 @@ For a Cross-Site Request Forgery (CSRF) attack to be possible, certain condition
 
 4. Browser's Cookie-Based Authentication:
    - The victim's browser must automatically include the relevant authentication cookies or tokens with each request to the target web application.
-   - Browsers typically send cookies associated with a website for each request made to that site.
+   - Browsers  send cookies associated with a website for each request made to that site.
    - If the authentication mechanism relies solely on cookies without additional checks, the attacker can leverage the victim's authenticated session.
 
 5. No User Interaction Required:
@@ -194,7 +194,7 @@ For a Cross-Site Request Forgery (CSRF) attack to be possible, certain condition
 
 6. Ability to Lure the Victim:
    - The attacker must have a means to lure the victim into clicking a malicious link or submitting a crafted form.
-   - This typically involves tricking the victim through social engineering techniques, such as phishing emails or malicious websites.
+   - This  involves tricking the victim through social engineering techniques, such as phishing emails or malicious websites.
    - If the attacker cannot convince the victim to interact with the malicious content, the CSRF attack may not be successful.
 
 7. Same-Site Policy Loopholes:
@@ -226,11 +226,11 @@ The action being targeted by the CSRF attack must be one that can be predictably
 
 ### 4. **Vulnerable Endpoint**
 
-The target website must not be using sufficient CSRF protections on the vulnerable endpoint. This typically means the absence of anti-CSRF tokens (also known as CSRF tokens) or improper implementation of such tokens.
+The target website must not be using sufficient CSRF protections on the vulnerable endpoint. This  means the absence of anti-CSRF tokens (also known as CSRF tokens) or improper implementation of such tokens.
 
 ### 5. **User Interaction**
 
-The victim must be induced to perform an action that triggers the malicious request. This is typically done through social engineering tactics, such as sending a link via email, embedding the request in an image tag, or using a form submission.
+The victim must be induced to perform an action that triggers the malicious request. This is  done through social engineering tactics, such as sending a link via email, embedding the request in an image tag, or using a form submission.
 
 ### Example Scenario
 
@@ -248,7 +248,7 @@ The victim must be induced to perform an action that triggers the malicious requ
 
 ### Preventive Measures
 
-To mitigate CSRF attacks, the following measures are commonly implemented:
+To mitigate CSRF attacks, the following measures are  implemented:
 - **Anti-CSRF Tokens**: Use unique tokens that must be included in every state-changing request.
 - **SameSite Cookies**: Use the `SameSite` attribute to restrict how cookies are sent with cross-site requests.
 - **Custom Headers**: Require custom headers that cannot be set by cross-site requests (e.g., `X-Requested-With`).
@@ -338,7 +338,7 @@ The terms "site" and "origin" are often used in the context of web security and 
 
 Understanding the difference between a site and an origin is important for implementing appropriate security measures and ensuring that your web application follows the Same-Origin Policy correctly. It helps in configuring security headers, setting cookie attributes, and managing cross-origin access to resources.
 
-The term "origin" is more commonly used, as it provides a more precise and fine-grained security boundary. However, the concept of a "site" is still relevant in certain contexts, such as cookie management and the `SameSite` attribute.
+The term "origin" is more  used, as it provides a more precise and fine-grained security boundary. However, the concept of a "site" is still relevant in certain contexts, such as cookie management and the `SameSite` attribute.
 
 ## Site vs Origin
 

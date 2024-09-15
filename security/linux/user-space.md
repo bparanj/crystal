@@ -4,7 +4,7 @@ User space in Linux refers to the memory space and environment where user-mode a
 
 1. **Memory Segregation**:
    - **User Space**: Contains all the application code, libraries, and user-level processes. It’s isolated from the kernel to protect the system from accidental or malicious interference.
-   - **Kernel Space**: Contains the core operating system code, including device drivers, system calls, and interrupt handling. It has unrestricted access to all hardware and memory.
+   - **Kernel Space**: Contains the core operating system code,  device drivers, system calls, and interrupt handling. It has unrestricted access to all hardware and memory.
 
 2. **Process Management**:
    - **User Processes**: All user applications, such as web browsers, text editors, and games, run in user space. Each user process operates in its own address space, providing isolation and protection.

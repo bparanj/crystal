@@ -18,7 +18,7 @@ By enabling SSH pipelining, Ansible can reduce the number of SSH connections req
 
 However, there are a few considerations when enabling SSH pipelining:
 
-1. The remote hosts must have the necessary SSH configuration to support pipelining. This typically requires the `RequireRTT` setting to be disabled in the SSH server configuration.
+1. The remote hosts must have the necessary SSH configuration to support pipelining. This  requires the `RequireRTT` setting to be disabled in the SSH server configuration.
 2. Some tasks or modules may not be compatible with SSH pipelining, particularly those that require interactive input or rely on certain terminal settings.
 3. If a task fails during the pipelined execution, Ansible may not receive the failure status immediately, as the output is buffered. This can lead to subsequent tasks being executed even if a previous task failed.
 

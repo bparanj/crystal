@@ -147,7 +147,7 @@ source "amazon-ebs" "ubuntu" {
 
 **Important Considerations**
 
-* **Packer-Ansible Integration:** Ensure Packer has a way to connect to the instance (typically SSH-based). Your existing source block is likely good here.
+* **Packer-Ansible Integration:** Ensure Packer has a way to connect to the instance ( SSH-based). Your existing source block is likely good here.
 * **Inventory:** This assumes Ansible's default dynamic inventory for a single host. If you have custom inventory, add the `inventory_file`  option in the provisioner block.
 * **Extracting AMI ID:** Packer likely has the built AMI ID available as a variable if you need it further down in your workflow
 * **Customization:** Expand your playbook (`nginx.yml`)  for configurations, firewalls, or any other post-installation steps.

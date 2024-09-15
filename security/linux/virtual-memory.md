@@ -1,6 +1,6 @@
 ### What is Virtual Memory in Linux?
 
-Virtual memory in Linux is a memory management technique that provides an "idealized abstraction of the storage resources that are actually available on a given machine" to create the illusion to users of a very large (main) memory. This system allows the operating system to use disk space to extend the apparent size of the physical memory (RAM) installed in the computer, thus enabling it to run larger applications or multiple applications simultaneously.
+Virtual memory in Linux is a memory management technique that provides an "idealized abstraction of the storage resources that are ly available on a given machine" to create the illusion to users of a very large (main) memory. This system allows the operating system to use disk space to extend the apparent size of the physical memory (RAM) installed in the computer, thus enabling it to run larger applications or multiple applications simultaneously.
 
 ### Key Concepts of Virtual Memory:
 
@@ -8,7 +8,7 @@ Virtual memory in Linux is a memory management technique that provides an "ideal
    - Virtual memory divides the available memory into address spaces. Each process in Linux has its own virtual address space, which is divided into different regions such as the stack, heap, and text segments.
 
 2. **Paging**:
-   - The system divides virtual memory into blocks of physical memory called pages. A page typically is 4 KB in size. When a program needs more memory than is physically available, some of the data is swapped out to a space on the disk called the swap space.
+   - The system divides virtual memory into blocks of physical memory called pages. A page  is 4 KB in size. When a program needs more memory than is physically available, some of the data is swapped out to a space on the disk called the swap space.
 
 3. **Swap Space**:
    - Swap space is a portion of the hard disk designated to store parts of the memory that are not currently in use. This space acts as an overflow area for when the physical RAM is fully utilized.

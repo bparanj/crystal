@@ -74,7 +74,7 @@ W: http://apt.postgresql.org/pub/repos/apt/dists/jammy-pgdg/InRelease: Key is st
 
 ## Solution
 
-The warnings you're encountering suggest that the key file (`postgresql.gpg`) you placed in `/etc/apt/trusted.gpg.d/` is not in the correct format that `apt` expects for new-style keyrings. Specifically, the `apt` system expects the keyring files in this directory to be in binary GPG keyring format (`*.gpg`), but the file you have is likely still in ASCII armored format (which is what `.asc` files typically are).
+The warnings you're encountering suggest that the key file (`postgresql.gpg`) you placed in `/etc/apt/trusted.gpg.d/` is not in the correct format that `apt` expects for new-style keyrings. Specifically, the `apt` system expects the keyring files in this directory to be in binary GPG keyring format (`*.gpg`), but the file you have is likely still in ASCII armored format (which is what `.asc` files  are).
 
 To resolve this issue, you need to convert the ASCII armored key (`ACCC4CF8.asc`) to a binary GPG keyring format before moving it to `/etc/apt/trusted.gpg.d/`. Here’s how you can do that:
 
@@ -208,7 +208,7 @@ build {
 
 - **Required Plugins**: Specifies that the Amazon EBS builder plugin from HashiCorp is required.
 - **Variables**: Declares variables for the AWS region, the base AMI name filter for Ubuntu 22.04 (Jammy Jellyfish), the instance type, and the SSH username.
-- **Source**: Defines the Amazon EBS source configuration, including the region, instance type, source AMI filter (to automatically select the latest Ubuntu 22.04 AMI), and the SSH username.
+- **Source**: Defines the Amazon EBS source configuration,  the region, instance type, source AMI filter (to automatically select the latest Ubuntu 22.04 AMI), and the SSH username.
 - **Builds**: Specifies the build process, which includes the source and a shell provisioner.
   - **Shell Provisioner**: Contains inline shell commands to update the package index and install PostgreSQL and its contrib package.
 

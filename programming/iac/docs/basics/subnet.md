@@ -48,7 +48,7 @@ Imagine you have a large plot of land (your AWS VPC) where you plan to build dif
 
 In AWS, a subnet is a powerful tool for segmenting and managing your VPC's network infrastructure, much like how you might organize different areas of a large plot of land. By using subnets, you can achieve greater control, security, and efficiency in how you deploy and manage your cloud resources.
 
-Subnets solve several problems and provide important benefits in network design and management. Here are the key problems that subnets address:
+Subnets solve several problems and provide important benefits in network design and management. Here are the problems that subnets address:
 
 1. Network Segmentation and Security:
    - Subnets allow you to divide a larger network into smaller, logical sub-networks.

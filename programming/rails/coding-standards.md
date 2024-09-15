@@ -1,6 +1,6 @@
 ## Coding Standards
 
-Identify the coding standards that apply to Rails. In the form of a table, compare their coverage against two other commonly used standards.
+Identify the coding standards that apply to Rails. In the form of a table, compare their coverage against two other  used standards.
 
 - How are the files named?
 - How are items ordered in the source file?
@@ -41,7 +41,7 @@ The Rails framework follows several process standards to ensure the quality, con
    - Rails adheres to a specific set of coding conventions and style guides, such as naming conventions, code formatting, and best practices in Ruby programming. This includes following the Ruby Style Guide and Rails-specific best practices.
 
 2. **Test-Driven Development (TDD)**:
-   - Rails strongly advocates for TDD. Contributions to the Rails codebase typically require accompanying tests to validate the functionality of the code. This approach ensures that new features or bug fixes do not introduce regressions.
+   - Rails strongly advocates for TDD. Contributions to the Rails codebase  require accompanying tests to validate the functionality of the code. This approach ensures that new features or bug fixes do not introduce regressions.
 
 3. **Code Reviews**:
    - Pull requests submitted to the Rails repository undergo thorough code reviews by core team members or experienced contributors. This process ensures that all new code adheres to Rails standards and practices.
@@ -59,7 +59,7 @@ The Rails framework follows several process standards to ensure the quality, con
    - Contributors may need to agree to a CLA, which clarifies the legal terms under which contributions are made.
 
 8. **Security Protocols**:
-   - Rails has established protocols for handling security vulnerabilities, including a responsible disclosure policy and a process for releasing security patches.
+   - Rails has established protocols for handling security vulnerabilities,  a responsible disclosure policy and a process for releasing security patches.
 
 9. **Community Involvement and RFCs**:
    - Major changes to the framework often involve community discussions. Rails encourages the use of Request for Comments (RFCs) or similar mechanisms for proposing substantial changes.

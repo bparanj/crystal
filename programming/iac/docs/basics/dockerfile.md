@@ -1,4 +1,4 @@
-A Dockerfile, which is used to create Docker images, is imperative by nature. This means that it specifies a sequence of instructions that dictate how to build an image, rather than simply declaring the desired end state of the image. This imperative approach can sometimes expose implementation-level details, which may not always align with the principles of abstraction and encapsulation typically valued in software design. Here’s how this characteristic can impact development:
+A Dockerfile, which is used to create Docker images, is imperative by nature. This means that it specifies a sequence of instructions that dictate how to build an image, rather than simply declaring the desired end state of the image. This imperative approach can sometimes expose implementation-level details, which may not always align with the principles of abstraction and encapsulation  valued in software design. Here’s how this characteristic can impact development:
 
 ### 1. **Imperative Nature**
 

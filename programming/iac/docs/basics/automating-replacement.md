@@ -12,9 +12,9 @@ Automating instance replacement to achieve immutable infrastructure involves a s
 
 ### Step 2: Automate Instance Deployment
 
-Use AWS services like CloudFormation or Elastic Beanstalk, which support Infrastructure as Code (IaC), to manage your infrastructure. Define your infrastructure in a template, including the new AMI ID for your updated instance.
+Use AWS services like CloudFormation or Elastic Beanstalk, which support Infrastructure as Code (IaC), to manage your infrastructure. Define your infrastructure in a template,  the new AMI ID for your updated instance.
 
-- **CloudFormation**: Create a CloudFormation template that describes your EC2 instance, including specifying the AMI ID of your updated AMI. Use CloudFormation to manage the creation and deletion of your instances.
+- **CloudFormation**: Create a CloudFormation template that describes your EC2 instance,  specifying the AMI ID of your updated AMI. Use CloudFormation to manage the creation and deletion of your instances.
   
 - **Elastic Beanstalk**: If your application runs on Elastic Beanstalk, you can update your environment to use the new AMI. Elastic Beanstalk simplifies deployment, scaling, and instance replacement.
 
@@ -70,7 +70,7 @@ Here's how you can approach automating instance replacement with Terraform:
 
 ### Step 2: Plan and Apply Changes
 
-1. **Terraform Plan**: Run `terraform plan` to preview the changes Terraform will make to your infrastructure without actually applying them. This step is crucial for verifying that the configuration will do what you expect before making any changes.
+1. **Terraform Plan**: Run `terraform plan` to preview the changes Terraform will make to your infrastructure without ly applying them. This step is crucial for verifying that the configuration will do what you expect before making any changes.
 
 2. **Terraform Apply**: Execute `terraform apply` to apply the changes. Terraform will provision the new EC2 instance based on the new AMI and any other defined resources. It will also handle dependency ordering to ensure resources are created in the correct sequence.
 

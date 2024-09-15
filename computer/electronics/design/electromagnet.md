@@ -6,7 +6,7 @@ An **electromagnet** is a type of magnet in which the magnetic field is produced
    - **Electric Current and Magnetic Field**: When an electric current flows through a wire, it generates a magnetic field around the wire. This phenomenon is described by Ampère's Law. If you coil the wire into a loop or series of loops, the magnetic fields from each loop add together, creating a stronger overall magnetic field.
 
 2. **Construction**:
-   - **Coil of Wire**: An electromagnet is typically made by winding a wire into a coil, often around a core made of a ferromagnetic material like iron. The wire is usually insulated to prevent short circuits between the turns.
+   - **Coil of Wire**: An electromagnet is  made by winding a wire into a coil, often around a core made of a ferromagnetic material like iron. The wire is usually insulated to prevent short circuits between the turns.
    - **Core Material**: The ferromagnetic core, such as an iron rod, enhances the magnetic field produced by the coil. The core becomes magnetized when current flows through the coil, significantly increasing the strength of the electromagnet compared to a coil without a core.
 
 3. **Operation**:
@@ -29,7 +29,7 @@ An **electromagnet** is directly related to the broader concept of **electromagn
 
 ### 1. **Electromagnetism**:
    - **Fundamental Force**: Electromagnetism is one of the four fundamental forces of nature and describes how electric charges interact with each other and with magnetic fields. It encompasses the behavior and interaction of electric and magnetic fields, as well as how they are influenced by charges and currents.
-   - **Key Principles**: Electromagnetism is governed by several key principles, including:
+   - **Key Principles**: Electromagnetism is governed by several key principles, :
      - **Ampère's Law**: Describes how an electric current flowing through a conductor generates a magnetic field around it.
      - **Faraday’s Law of Induction**: Describes how a changing magnetic field can induce an electric current in a conductor.
      - **Maxwell’s Equations**: A set of equations that summarize the behavior of electric and magnetic fields and their interactions.

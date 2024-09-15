@@ -1,4 +1,4 @@
-Yes, it is possible to test an image built by Packer using QEMU. Packer supports various builders, including one for QEMU, which allows you to build and test images for virtual machines directly on your local machine without the need for a Vagrant box. QEMU is a generic and open-source machine emulator and virtualizer, which makes it a versatile tool for emulating various hardware platforms and running different operating systems.
+Yes, it is possible to test an image built by Packer using QEMU. Packer supports various builders,  one for QEMU, which allows you to build and test images for virtual machines directly on your local machine without the need for a Vagrant box. QEMU is a generic and open-source machine emulator and virtualizer, which makes it a versatile tool for emulating various hardware platforms and running different operating systems.
 
 ### How to Use Packer with QEMU:
 
@@ -36,7 +36,7 @@ Yes, it is possible to test an image built by Packer using QEMU. Packer supports
 
 ### Advantages of Using QEMU with Packer:
 
-- **Local Testing**: Allows for rapid testing and iteration of images locally without deploying them to actual hardware or cloud environments.
+- **Local Testing**: Allows for rapid testing and iteration of images locally without deploying them to  hardware or cloud environments.
 - **Versatility**: Supports emulation of a wide range of hardware types and configurations, making it suitable for testing images intended for different environments.
 - **Integration**: Fits well into a development workflow where Packer is already used for image creation, providing a consistent toolchain from image creation to testing.
 

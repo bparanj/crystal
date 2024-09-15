@@ -74,7 +74,7 @@ These discussions highlight the importance of systematic and understanding-based
 - The section begins with a seemingly miraculous solution where a specific failing assertion now works. However, this approach is criticized as it involves hardcoding a specific case to pass the test, rather than addressing the underlying issue. It's hinted that some programmers might use this method to superficially pass tests.
 
 **Effective Debugging Strategies**:
-- The text suggests that effective debugging involves understanding the code, fixing the actual problem (not just the symptoms), and proceeding systematically. This is contrasted with the "devil's guide" of ineffective debugging methods previously discussed.
+- The text suggests that effective debugging involves understanding the code, fixing the  problem (not just the symptoms), and proceeding systematically. This is contrasted with the "devil's guide" of ineffective debugging methods previously discussed.
 
 **Understanding Failures and Faults in Debugging**:
 - The chapter breaks down the debugging process by distinguishing between input, program execution, and output. A successful input leading to a faulty output is termed a failure.
@@ -121,7 +121,7 @@ This section highlights the importance of systematic analysis in debugging, usin
 - The hypothesis is confirmed when the function strips double quotes from the input, contrary to expectations.
 
 **Analyzing Results and Observations**:
-- The experiment's results are added to a list of observations, showing discrepancies between expected and actual outputs.
+- The experiment's results are added to a list of observations, showing discrepancies between expected and  outputs.
 - The author suggests that the cause of the quote-stripping issue might be within the specific code block handling quotes in the `remove_html_markup` function.
 
 **Refining Hypotheses with Debugging Tools**:

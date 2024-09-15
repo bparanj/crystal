@@ -24,7 +24,7 @@ When setting up an EC2 instance with Caddy as a reverse proxy to a Rack app, alo
    - If you have sensitive data in Redis, consider enabling authentication and encrypting Redis traffic using SSL/TLS.
 
 5. Regular Updates and Patches:
-   - Keep your EC2 instance and all the installed software (including Caddy, Rack, PostgreSQL, and Redis) up to date with the latest security patches and updates.
+   - Keep your EC2 instance and all the installed software ( Caddy, Rack, PostgreSQL, and Redis) up to date with the latest security patches and updates.
    - Regularly monitor for any security vulnerabilities and apply necessary patches promptly.
 
 6. Access Management:

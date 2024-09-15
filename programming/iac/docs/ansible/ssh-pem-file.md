@@ -9,7 +9,7 @@ To use a PEM file with Ansible, you need to specify the path to the PEM file in 
 your_ec2_instance_hostname_or_ip ansible_user=ec2-user ansible_ssh_private_key_file=/path/to/your/pemfile.pem
 ```
 
-Replace `your_ec2_instance_hostname_or_ip` with the hostname or IP address of your EC2 instance, and `/path/to/your/pemfile.pem` with the actual path to your PEM file.
+Replace `your_ec2_instance_hostname_or_ip` with the hostname or IP address of your EC2 instance, and `/path/to/your/pemfile.pem` with the  path to your PEM file.
 
 2. In your Ansible playbook (e.g., `playbook.yml`), you can refer to the EC2 instance using the hostname or group defined in the inventory file:
 
@@ -41,7 +41,7 @@ If the username on your EC2 instance is "ubuntu" instead of the default "ec2-use
 your_ec2_instance_hostname_or_ip ansible_user=ubuntu ansible_ssh_private_key_file=/path/to/your/pemfile.pem
 ```
 
-Replace `your_ec2_instance_hostname_or_ip` with the hostname or IP address of your EC2 instance, and `/path/to/your/pemfile.pem` with the actual path to your PEM file.
+Replace `your_ec2_instance_hostname_or_ip` with the hostname or IP address of your EC2 instance, and `/path/to/your/pemfile.pem` with the  path to your PEM file.
 
 2. Your Ansible playbook (`playbook.yml`) remains the same:
 
@@ -62,7 +62,7 @@ Ansible will use the "ubuntu" username specified in the inventory file along wit
 
 Make sure that the "ubuntu" user has the necessary permissions to execute the tasks you have defined in your playbook.
 
-By modifying the `ansible_user` parameter in the inventory file to match the actual username on your EC2 instance, Ansible will use the correct user for establishing the SSH connection.
+By modifying the `ansible_user` parameter in the inventory file to match the  username on your EC2 instance, Ansible will use the correct user for establishing the SSH connection.
 
 Yes, the instructions will still work when running the Ansible playbook from your laptop with the username "bparanj". The `ansible_user` parameter in the inventory file specifies the username to be used on the remote EC2 instance, not the local username on your laptop.
 
@@ -75,7 +75,7 @@ Here's how your setup should look:
 your_ec2_instance_hostname_or_ip ansible_user=ubuntu ansible_ssh_private_key_file=/path/to/your/pemfile.pem
 ```
 
-Replace `your_ec2_instance_hostname_or_ip` with the hostname or IP address of your EC2 instance, and `/path/to/your/pemfile.pem` with the actual path to your PEM file on your laptop.
+Replace `your_ec2_instance_hostname_or_ip` with the hostname or IP address of your EC2 instance, and `/path/to/your/pemfile.pem` with the  path to your PEM file on your laptop.
 
 2. Ansible playbook (`playbook.yml`):
 

@@ -42,7 +42,7 @@ Since your app is now an SPA, all routing will be handled client-side. Ensure th
 
 ### 5. Hosting Considerations
 
-When hosting your SPA, ensure that the server is correctly configured to handle SPA routing - typically, all requests should be redirected to the `index.html` file to let the Vue router handle the routing.
+When hosting your SPA, ensure that the server is correctly configured to handle SPA routing - , all requests should be redirected to the `index.html` file to let the Vue router handle the routing.
 
 ### Conclusion
 

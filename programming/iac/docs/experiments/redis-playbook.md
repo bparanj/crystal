@@ -62,7 +62,7 @@ This playbook provides a basic setup for Redis. Depending on your specific requi
 
 ## Splitting Playbook
 
-Splitting your Ansible playbook into multiple files and organizing them into different folders can significantly enhance the maintainability, readability, and scalability of your infrastructure code. Whether you need to split this specific playbook depends on several factors, including the complexity of your environment, the reusability of your tasks, and your team's working style. Here's a general guide on how and when to consider splitting your playbook:
+Splitting your Ansible playbook into multiple files and organizing them into different folders can significantly enhance the maintainability, readability, and scalability of your infrastructure code. Whether you need to split this specific playbook depends on several factors,  the complexity of your environment, the reusability of your tasks, and your team's working style. Here's a general guide on how and when to consider splitting your playbook:
 
 ### Advantages of Splitting Playbooks:
 
@@ -131,7 +131,7 @@ If you have a single server and its hostname or IP address is known, you can dir
     # Tasks here
 ```
 
-Replace `your_server_ip_or_hostname` with the actual IP address or hostname of your server.
+Replace `your_server_ip_or_hostname` with the  IP address or hostname of your server.
 
 ### 2. Using an Inventory Group
 
@@ -241,7 +241,7 @@ This structure simplifies the playbook and makes the `redis` role reusable in ot
 
 The `redis/defaults/main.yml` file within an Ansible role is intended to store default variables for that role. These variables are the lowest priority in the hierarchy of variable precedence in Ansible, meaning they can be easily overridden by other variables defined elsewhere, such as in the playbook or passed at the command line.
 
-For the Redis role, `defaults/main.yml` might include variables that are commonly changed or need to be configurable to suit different environments. Since the original tasks you provided configure Redis with some specific settings, let's consider what variables could be useful to define in the `defaults/main.yml` file.
+For the Redis role, `defaults/main.yml` might include variables that are  changed or need to be configurable to suit different environments. Since the original tasks you provided configure Redis with some specific settings, let's consider what variables could be useful to define in the `defaults/main.yml` file.
 
 Here's an example of what might be inside `redis/defaults/main.yml`:
 
@@ -347,7 +347,7 @@ Ensure the script is executable and available in the context where Packer runs i
 
 Both methods aim to streamline your Packer template by reducing redundancy and making the provisioning process more manageable and maintainable.
 
-The error you're encountering typically occurs when trying to use `import_playbook` within the `tasks` section of an Ansible playbook, which is not allowed. The `import_playbook` directive cannot be used as part of a task list; it's intended to be used at the playbook level, not nested inside `tasks`.
+The error you're encountering  occurs when trying to use `import_playbook` within the `tasks` section of an Ansible playbook, which is not allowed. The `import_playbook` directive cannot be used as part of a task list; it's intended to be used at the playbook level, not nested inside `tasks`.
 
 ### Correcting the Master Playbook
 
@@ -366,7 +366,7 @@ This structure tells Ansible to run each listed playbook in sequence, which is t
 
 ### Alternative Approach: Using Roles
 
-If your playbooks are closely related and you're looking to organize shared tasks, you might consider restructuring your playbooks into roles and then including those roles within a single playbook. For example, each of your current playbooks (`packages.yml`, `fail2ban.yml`, etc.) could be converted into a role, and you could have a master playbook that includes these roles:
+If your playbooks are closely related and you're looking to organize shared tasks, you might consider restructuring your playbooks into roles and then  those roles within a single playbook. For example, each of your current playbooks (`packages.yml`, `fail2ban.yml`, etc.) could be converted into a role, and you could have a master playbook that includes these roles:
 
 ```yaml
 ---
@@ -468,4 +468,4 @@ build {
 }
 ```
 
-This HCL template sets up an EC2 instance (or your specific builder), configures passwordless sudo for the `ubuntu` user, and then runs an Ansible playbook against it. Adjust the `source` block as needed for your specific use case, and replace `"path/to/your/ansible/playbook.yml"` with the actual path to your playbook.
+This HCL template sets up an EC2 instance (or your specific builder), configures passwordless sudo for the `ubuntu` user, and then runs an Ansible playbook against it. Adjust the `source` block as needed for your specific use case, and replace `"path/to/your/ansible/playbook.yml"` with the  path to your playbook.

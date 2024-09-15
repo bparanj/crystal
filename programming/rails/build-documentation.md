@@ -1,6 +1,6 @@
 ## Build Documentation
 
-The Rails documentation is built using a combination of automated tools and manual processes to ensure that it is comprehensive, up-to-date, and accessible. Here's how the documentation process typically works:
+The Rails documentation is built using a combination of automated tools and manual processes to ensure that it is comprehensive, up-to-date, and accessible. Here's how the documentation process  works:
 
 1. **Source Code Comments**: 
    - Much of the Rails documentation is written as comments directly in the source code. These comments use the RDoc formatting, a Ruby documentation tool.

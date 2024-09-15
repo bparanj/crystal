@@ -17,7 +17,7 @@ Bug bounty hunting encompasses various security areas, each with its own set of 
    - Includes testing for firmware vulnerabilities, cryptographic flaws, and physical tamper resistance.
 
 5. **Cloud Security**:
-   - Targets misconfigurations and vulnerabilities in cloud platforms and services, including AWS, Azure, and Google Cloud.
+   - Targets misconfigurations and vulnerabilities in cloud platforms and services,  AWS, Azure, and Google Cloud.
    - Important as more organizations migrate to cloud environments.
 
 6. **Cryptocurrency and Blockchain Security**:
@@ -33,7 +33,7 @@ Bug bounty hunting covers a wide range of security areas, and focusing on one sp
    - This area is often the most common and beginner-friendly in bug bounty programs.
 
 2. Mobile Application Security:
-   - Specialize in testing mobile apps for vulnerabilities, including insecure data storage, improper authentication, and insecure communication.
+   - Specialize in testing mobile apps for vulnerabilities,  insecure data storage, improper authentication, and insecure communication.
    - This area requires knowledge of mobile app architectures, APIs, and platform-specific security best practices.
 
 3. API Security:

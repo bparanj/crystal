@@ -39,7 +39,7 @@ Before running this playbook, ensure you have:
 - The `amazon.aws` collection installed (`ansible-galaxy collection install amazon.aws`).
 - Your AWS credentials configured properly for Ansible to use.
 
-Replace `/path/to/your/local/key.pem` with the actual path to your PEM file and `MyImportedKeyPair` with your desired key pair name in AWS. This playbook will import your PEM file into AWS, making it available for use when launching EC2 instances.
+Replace `/path/to/your/local/key.pem` with the  path to your PEM file and `MyImportedKeyPair` with your desired key pair name in AWS. This playbook will import your PEM file into AWS, making it available for use when launching EC2 instances.
 
 ## Remove Key Pair from Instance
 
@@ -52,7 +52,7 @@ When creating a custom image (AMI) in AWS that will be shared with or sold to cu
    rm ~/sensitive-info.txt
    ```
 
-3. **Clean Up**: Ensure no remnants of the file remain, including backups or shell history. For shell history, you can clear it by running:
+3. **Clean Up**: Ensure no remnants of the file remain,  backups or shell history. For shell history, you can clear it by running:
    ```bash
    history -c && history -w
    ```

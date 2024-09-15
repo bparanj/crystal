@@ -2,11 +2,11 @@ EC2 Image Builder and HashiCorp Packer are both tools used for creating machine 
 
 1. Purpose:
    - EC2 Image Builder: It is a managed service provided by AWS that simplifies the creation, maintenance, and deployment of custom Amazon Machine Images (AMIs).
-   - HashiCorp Packer: It is an open-source tool that allows you to create machine images for multiple platforms, including AWS EC2, from a single source configuration.
+   - HashiCorp Packer: It is an open-source tool that allows you to create machine images for multiple platforms,  AWS EC2, from a single source configuration.
 
 2. Platform Support:
    - EC2 Image Builder: It is specifically designed for creating AMIs on AWS EC2.
-   - HashiCorp Packer: It supports multiple platforms, including AWS EC2, Google Cloud Platform, Microsoft Azure, VMware, and more.
+   - HashiCorp Packer: It supports multiple platforms,  AWS EC2, Google Cloud Platform, Microsoft Azure, VMware, and more.
 
 3. Configuration:
    - EC2 Image Builder: It uses a declarative approach where you define the desired state of your AMI using YAML or JSON files. You can use AWS-provided components or create your own.

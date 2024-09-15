@@ -9,7 +9,7 @@ A block device is a type of computer storage device that provides buffered acces
    - They support random access, meaning data can be read from or written to any block in any order. This capability is crucial for efficient file system operations.
 
 3. **Fixed Block Size**:
-   - Data is managed in fixed-size blocks, typically 512 bytes, 1 KB, 2 KB, or more, depending on the device and file system.
+   - Data is managed in fixed-size blocks,  512 bytes, 1 KB, 2 KB, or more, depending on the device and file system.
 
 4. **Device Examples**:
    - Hard Disk Drives (HDDs)

@@ -19,7 +19,7 @@ To use a Kali Linux image created with Packer in AWS for installing Kali on a la
         ```bash
         sudo dd if=/dev/nvme0n1 of=/mnt/extra_volume/kali-disk.img bs=1M
         ```
-        - `/dev/nvme0n1` is typically the root device; confirm this with `lsblk`.
+        - `/dev/nvme0n1` is  the root device; confirm this with `lsblk`.
         - `/mnt/extra_volume/kali-disk.img` is where you want to save the image.
 
    3. **Copy the Image Locally**:

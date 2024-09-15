@@ -25,9 +25,9 @@ print(f"Association successful. Association ID: {association_id}")
 
 ### Key Components:
 
-- **Route Table ID (`route_table_id`)**: This is the ID of the route table you created previously. Replace `'your-route-table-id'` with the actual ID of your route table.
+- **Route Table ID (`route_table_id`)**: This is the ID of the route table you created previously. Replace `'your-route-table-id'` with the  ID of your route table.
   
-- **Subnet ID (`subnet_id`)**: This is the ID of the public subnet ("RailsPublicSubnet") you wish to associate with the route table. Replace `'your-subnet-id'` with the actual ID of your subnet.
+- **Subnet ID (`subnet_id`)**: This is the ID of the public subnet ("RailsPublicSubnet") you wish to associate with the route table. Replace `'your-subnet-id'` with the  ID of your subnet.
 
 - **Association**: The `associate_route_table` call links the route table to the subnet, applying the route table's rules to the subnet's traffic.
 
@@ -45,7 +45,7 @@ else:
     print("Subnet not found.")
 ```
 
-Replace `'rails-public-subnet'` with the actual tag value you used for your subnet. Similar logic can be applied to find the route table ID.
+Replace `'rails-public-subnet'` with the  tag value you used for your subnet. Similar logic can be applied to find the route table ID.
 
 ### Important Notes:
 - Ensure your AWS credentials have the necessary permissions to associate route tables with subnets.
@@ -124,7 +124,7 @@ Inside the function:
 
 In the example usage, we specify the route table ID (`rt_id`) and the subnet ID (`subnet_id`). We then call the `associate_route_table_to_subnet()` function with these arguments.
 
-Make sure to replace `'rtb-xxxxxxxx'` with the actual ID of your route table and `'subnet-xxxxxxxx'` with the actual ID of your Rails public subnet.
+Make sure to replace `'rtb-xxxxxxxx'` with the  ID of your route table and `'subnet-xxxxxxxx'` with the  ID of your Rails public subnet.
 
 Ensure that you have the necessary permissions to modify route table associations in your AWS account. You may need to configure the appropriate IAM permissions for your AWS account or the IAM user/role associated with your boto3 session.
 

@@ -61,7 +61,7 @@ Subclasses in Haskell's type class system offer a powerful way to organize and s
 
 ## Cook like Gordon Ramsey
 
-As of my last update in December 2023, AI technology has made significant advances in various fields, including culinary arts, but creating food that matches the skill and finesse of renowned chefs like Gordon Ramsay involves complexities that extend beyond current AI capabilities in certain aspects. However, AI has been utilized in the culinary world in various innovative ways:
+As of my last update in December 2023, AI technology has made significant advances in various fields,  culinary arts, but creating food that matches the skill and finesse of renowned chefs like Gordon Ramsay involves complexities that extend beyond current AI capabilities in certain aspects. However, AI has been utilized in the culinary world in various innovative ways:
 
 1. **Recipe Creation**: AI systems can generate recipes by analyzing vast databases of existing recipes, flavor compounds, and food pairing principles. IBM's Chef Watson is an example of such a system, capable of creating novel and unique recipes.
 

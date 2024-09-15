@@ -89,7 +89,7 @@ Here is an example playbook that demonstrates how to automate adding the `sshd` 
 
 - **Security Considerations**: Be cautious with patterns like `curl | sh` and adjust based on your security policies. Consider downloading and reviewing scripts before execution, especially in production environments.
 - **Goss Tests Directory**: The example assumes you have a specific directory for your Goss tests. Adjust the `chdir` path in the Goss add task as necessary.
-- **Idempotency**: The `changed_when: "'Added' in goss_add_output.stdout"` line attempts to make the task idempotent by only marking the task as changed if new tests were actually added. You may need to adjust this based on the exact output of your Goss version.
+- **Idempotency**: The `changed_when: "'Added' in goss_add_output.stdout"` line attempts to make the task idempotent by only marking the task as changed if new tests were ly added. You may need to adjust this based on the exact output of your Goss version.
 
 This playbook provides a basic framework for automating the addition of services to Goss tests within Ansible, streamlining your configuration testing process.
 
@@ -195,7 +195,7 @@ While you've decided to run Goss tests manually after AMI creation, for others i
 
 ### Manual Execution Post-AMI Creation
 
-For manual execution post-AMI creation, ensure to document the process clearly, including:
+For manual execution post-AMI creation, ensure to document the process clearly, :
 
 - Steps to install Goss.
 - Commands to run or add tests.
@@ -255,4 +255,4 @@ To integrate `goss autoadd` into the Packer build process for automatic `goss.ya
 - **Version Control**: Consider version-controlling the generated `goss.yaml` file. This allows you to track changes over time and understand how your system's configuration evolves.
 - **Documentation**: Document the process, especially how to retrieve and use the generated `goss.yaml` file for testing instances created from the AMI.
 
-This approach ensures that your infrastructure testing is both reflective of the actual system state and automatically incorporated into your CI/CD pipeline, enhancing the reliability and consistency of your deployments.
+This approach ensures that your infrastructure testing is both reflective of the  system state and automatically incorporated into your CI/CD pipeline, enhancing the reliability and consistency of your deployments.

@@ -1,4 +1,4 @@
-To format an Ansible playbook YAML based on a JSON schema, we would typically use a Python script since Python has robust libraries for handling both JSON and YAML. However, it's important to note that YAML formatting for Ansible playbooks doesn't typically rely on a JSON schema directly because JSON schemas define the structure and validation rules for JSON data, not YAML formatting. 
+To format an Ansible playbook YAML based on a JSON schema, we would  use a Python script since Python has robust libraries for handling both JSON and YAML. However, it's important to note that YAML formatting for Ansible playbooks doesn't  rely on a JSON schema directly because JSON schemas define the structure and validation rules for JSON data, not YAML formatting. 
 
 Instead, if you're looking to ensure your Ansible playbook YAML files follow best practices in structure and formatting, you might be more interested in linting (with tools like `ansible-lint`) or in applying consistent styling (which can be somewhat achieved by parsing and re-dumping YAML with Python libraries).
 
@@ -33,9 +33,9 @@ format_ansible_playbook(playbook_path, output_path)
 - **Advanced Formatting**: For more advanced formatting needs (e.g., aligning lists or dictionaries, ordering keys), you might need to extend this script or use a dedicated YAML formatter that supports such features.
 - **YAML vs. JSON Schema**: Directly applying a JSON schema for YAML formatting is not straightforward because schemas define data structure, not presentation. For data validation, consider tools designed for Ansible playbook validation like `ansible-lint` or custom scripts that enforce your specific rules.
 
-This script provides a starting point for standardizing the formatting of your Ansible playbooks. For more complex scenarios, including adhering to a specific style guide or enforcing custom rules, you might need to extend this approach or use additional tools.
+This script provides a starting point for standardizing the formatting of your Ansible playbooks. For more complex scenarios,  adhering to a specific style guide or enforcing custom rules, you might need to extend this approach or use additional tools.
 
-Yes, the script provided does perform a function similar to code formatting tools in VS Code and other editors, but with some limitations. Code formatting tools integrated within editors like VS Code typically offer more advanced features, such as real-time linting, syntax highlighting, and the ability to customize formatting rules extensively. These tools can automatically format YAML, JSON, Python, and other languages according to predefined or customizable styles and standards.
+Yes, the script provided does perform a function similar to code formatting tools in VS Code and other editors, but with some limitations. Code formatting tools integrated within editors like VS Code  offer more advanced features, such as real-time linting, syntax highlighting, and the ability to customize formatting rules extensively. These tools can automatically format YAML, JSON, Python, and other languages according to predefined or customizable styles and standards.
 
 The Python script for formatting an Ansible playbook:
 
@@ -43,7 +43,7 @@ The Python script for formatting an Ansible playbook:
 - **Improves Readability**: By re-dumping the YAML content, it can improve the overall readability of the playbook, making it easier to understand and maintain.
 - **Lacks Advanced Features**: Unlike integrated development environment (IDE) tools, the script does not provide real-time feedback, syntax highlighting, or advanced customization options for formatting rules. It simply reads a YAML file, formats it according to basic standards, and writes it back to a file.
 
-IDEs and code editors, including VS Code, often use extensions or built-in features for code formatting. For instance, VS Code has extensions like `Prettier`, `YAML`, and `Ansible` extensions that can format YAML files and offer much more, such as:
+IDEs and code editors,  VS Code, often use extensions or built-in features for code formatting. For instance, VS Code has extensions like `Prettier`, `YAML`, and `Ansible` extensions that can format YAML files and offer much more, such as:
 
 - **Custom Formatting Rules**: Allowing users to specify their formatting preferences, such as line width, quote style, and key ordering.
 - **Linting and Validation**: Identifying syntax errors, deprecated syntax, or practices not recommended by Ansible best practices.

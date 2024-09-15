@@ -41,7 +41,7 @@ A chipset driver is a software program that allows the operating system to commu
    - Some manufacturers provide utilities that automatically detect and update drivers, such as Intel Driver & Support Assistant or AMD Ryzen Master.
 
 4. **Install the Driver**:
-   - Follow the instructions provided with the driver download to install the updated chipset driver. This typically involves running an installer program and restarting your computer.
+   - Follow the instructions provided with the driver download to install the updated chipset driver. This  involves running an installer program and restarting your computer.
 
 ### Conclusion
 

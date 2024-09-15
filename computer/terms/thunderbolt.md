@@ -4,7 +4,7 @@ Thunderbolt is a high-speed hardware interface developed by Intel in collaborati
 
 1. High speed: Thunderbolt 3 and 4 can transfer data at up to 40 Gbps, which is significantly faster than most other interfaces.
 
-2. Versatility: It can carry multiple types of data simultaneously, including video, audio, data, and power.
+2. Versatility: It can carry multiple types of data simultaneously,  video, audio, data, and power.
 
 3. Power delivery: Can provide up to 100W of power to connected devices, allowing for charging of laptops and powering of peripherals.
 
@@ -29,7 +29,7 @@ Thunderbolt is a high-speed hardware interface developed by Intel in collaborati
 
 Thunderbolt has become increasingly common in high-end laptops and desktops, particularly those used for professional work requiring high-speed data transfer or support for multiple displays.
 
-Thunderbolt is a high-speed hardware interface developed by Intel in collaboration with Apple. It combines several functionalities, including data transfer, video output, and power delivery, into a single compact port. Thunderbolt is known for its versatility, speed, and ability to support multiple types of devices and protocols through a single connection.
+Thunderbolt is a high-speed hardware interface developed by Intel in collaboration with Apple. It combines several functionalities,  data transfer, video output, and power delivery, into a single compact port. Thunderbolt is known for its versatility, speed, and ability to support multiple types of devices and protocols through a single connection.
 
 ### Key Features
 
@@ -38,7 +38,7 @@ Thunderbolt is a high-speed hardware interface developed by Intel in collaborati
    - **Thunderbolt 2**: Up to 20 Gbps
    - **Thunderbolt 3 and 4**: Up to 40 Gbps
 
-2. **Versatility**: Supports multiple protocols over a single cable, including PCI Express (PCIe), DisplayPort, HDMI, and USB.
+2. **Versatility**: Supports multiple protocols over a single cable,  PCI Express (PCIe), DisplayPort, HDMI, and USB.
 
 3. **Daisy-Chaining**: Allows multiple devices (up to six) to be connected in a series (daisy-chain) to a single Thunderbolt port on a computer.
 
@@ -51,7 +51,7 @@ Thunderbolt is a high-speed hardware interface developed by Intel in collaborati
 ### Uses
 
 - **External Storage**: High-speed external hard drives and SSDs use Thunderbolt for rapid data transfer.
-- **Displays**: Connects high-resolution monitors and displays, including 4K and 5K screens.
+- **Displays**: Connects high-resolution monitors and displays,  4K and 5K screens.
 - **Docking Stations**: Expands the connectivity of laptops by providing multiple ports (USB, Ethernet, HDMI, etc.) through a single Thunderbolt connection.
 - **Professional Audio/Video**: Used in professional audio and video equipment for fast and reliable data transfer.
 
@@ -64,7 +64,7 @@ Thunderbolt is a high-speed hardware interface developed by Intel in collaborati
 
 ### Summary
 
-Thunderbolt is a versatile, high-speed interface that combines data transfer, video output, and power delivery into a single port. Its ability to support multiple protocols and high performance makes it a popular choice for connecting a wide range of peripherals, including external storage devices, displays, and docking stations. Thunderbolt's evolution has consistently improved its speed, functionality, and compatibility, making it a robust solution for modern computing needs.
+Thunderbolt is a versatile, high-speed interface that combines data transfer, video output, and power delivery into a single port. Its ability to support multiple protocols and high performance makes it a popular choice for connecting a wide range of peripherals,  external storage devices, displays, and docking stations. Thunderbolt's evolution has consistently improved its speed, functionality, and compatibility, making it a robust solution for modern computing needs.
 
 The existence of multiple interface standards like USB, FireWire, and Thunderbolt is a result of technological evolution, diverse needs, and market competition. While having a single universal standard would be ideal, there are several reasons why multiple standards have coexisted:
 
@@ -140,6 +140,6 @@ Here's a table that compares and contrasts USB, FireWire, and Thunderbolt:
 | **Special Features**  | Widely adopted, cost-effective, versatile | Continuous data streaming, stable for video/audio | Combines multiple protocols (PCIe, DisplayPort, USB), high speed, versatile |
 
 ### Summary
-- **USB**: Widely used, cost-effective, versatile, suitable for most peripheral devices, but typically slower than Thunderbolt.
+- **USB**: Widely used, cost-effective, versatile, suitable for most peripheral devices, but  slower than Thunderbolt.
 - **FireWire**: Preferred in the past for video/audio due to continuous data streaming capabilities, but declining in use.
 - **Thunderbolt**: High-speed, versatile, supports multiple protocols, ideal for high-performance applications and professional use, but more expensive.

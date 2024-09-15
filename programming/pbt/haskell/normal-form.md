@@ -69,11 +69,11 @@ An expression is in **beta normal form** if it cannot be further reduced using *
 
 ### Normal Form
 
-The term **normal form** without qualification generally implies that the expression cannot be reduced or simplified any further using any of the reduction rules applicable in the context. In pure lambda calculus, this typically means beta reduction, as it's the primary mechanism for simplification. However, in broader discussions or more complex systems that include additional forms of reductions (like alpha conversion for renaming variables or eta conversion for function simplification), an expression being in "normal form" might imply it's fully reduced in all applicable senses.
+The term **normal form** without qualification generally implies that the expression cannot be reduced or simplified any further using any of the reduction rules applicable in the context. In pure lambda calculus, this  means beta reduction, as it's the primary mechanism for simplification. However, in broader discussions or more complex systems that include additional forms of reductions (like alpha conversion for renaming variables or eta conversion for function simplification), an expression being in "normal form" might imply it's fully reduced in all applicable senses.
 
 ### Are They the Same?
 
 - In the strict context of pure lambda calculus, where beta reduction is the primary (or only) form of simplification considered, "beta normal form" and "normal form" effectively mean the same thing: the expression cannot be simplified any further by applying functions to their arguments.
-- In contexts or discussions where additional types of reductions or transformations are considered (beyond just beta reduction), the term "normal form" might imply a broader criterion for simplification, including other types of reductions.
+- In contexts or discussions where additional types of reductions or transformations are considered (beyond just beta reduction), the term "normal form" might imply a broader criterion for simplification,  other types of reductions.
 
 In most practical discussions regarding lambda calculus, especially at an introductory level, the distinction is subtle, and the terms can be used interchangeably. The important concept to grasp is that an expression in normal form (or beta normal form) has been simplified as much as possible under the rules being considered.

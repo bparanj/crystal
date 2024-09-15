@@ -97,7 +97,7 @@ Understand how to use the `sort` command to alphabetically and numerically sort 
    - Sort `counts.txt` using the default `sort` command and observe how it treats the numbers as strings.
 
 3. **Sort `counts.txt` Numerically**
-   - Use `sort -n` to sort `counts.txt` by actual numerical values.
+   - Use `sort -n` to sort `counts.txt` by  numerical values.
 
 #### Key Takeaways:
 - `sort` sorts alphabetically or lexicographically by default.

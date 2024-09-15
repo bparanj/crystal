@@ -108,7 +108,7 @@ This playbook configures a cron job that prints the timestamp into a log file lo
 
 ## CloudWatch Event
 
-In AWS, the equivalent of CRON is AWS CloudWatch Events. CloudWatch Events allows you to schedule and trigger automated actions based on a variety of events, including time-based schedules similar to CRON.
+In AWS, the equivalent of CRON is AWS CloudWatch Events. CloudWatch Events allows you to schedule and trigger automated actions based on a variety of events,  time-based schedules similar to CRON.
 
 With CloudWatch Events, you can create rules that run on a regular schedule or in response to specific events. These rules can trigger various actions, such as invoking AWS Lambda functions, sending messages to Amazon SNS topics, or starting AWS Step Functions state machines.
 
@@ -160,7 +160,7 @@ Using Ansible to manage CRON jobs versus using AWS CloudWatch Events (now part o
 ### **Environment and Scope**
 
 **Ansible with CRON:**
-- **Local or Cloud-Independent:** Ansible with CRON is environment-agnostic. It can be used on any Unix-like server, whether it's hosted on-premises, in a private data center, or in any cloud environment including AWS, Azure, or Google Cloud.
+- **Local or Cloud-Independent:** Ansible with CRON is environment-agnostic. It can be used on any Unix-like server, whether it's hosted on-premises, in a private data center, or in any cloud environment  AWS, Azure, or Google Cloud.
 - **OS-Specific:** This method depends on the server's operating system capabilities (Linux in this case) and is limited to actions that can be performed within the server itself.
 
 **AWS CloudWatch Events/EventBridge:**
@@ -199,7 +199,7 @@ Using Ansible to manage CRON jobs versus using AWS CloudWatch Events (now part o
 
 ### **Conclusion**
 
-Choosing between Ansible with CRON jobs and AWS CloudWatch Events/EventBridge typically depends on your specific environment and needs. If you are fully integrated into the AWS ecosystem and need cross-service orchestration, CloudWatch Events/EventBridge is incredibly powerful. Conversely, if you need a solution that works across different environments or outside of AWS, or if you require direct control over individual servers, Ansible with CRON might be more appropriate.
+Choosing between Ansible with CRON jobs and AWS CloudWatch Events/EventBridge  depends on your specific environment and needs. If you are fully integrated into the AWS ecosystem and need cross-service orchestration, CloudWatch Events/EventBridge is incredibly powerful. Conversely, if you need a solution that works across different environments or outside of AWS, or if you require direct control over individual servers, Ansible with CRON might be more appropriate.
 
 The main difference between using Ansible to set up a CRON job on an Ubuntu instance and using AWS CloudWatch Events is the level of management and the scope of the solution.
 
@@ -208,7 +208,7 @@ The main difference between using Ansible to set up a CRON job on an Ubuntu inst
    - CloudWatch Events: AWS CloudWatch Events is a fully managed service that allows you to create rules to trigger actions based on events or schedules. It operates at a higher level and can trigger actions across multiple services and resources within your AWS environment.
 
 2. Management and Maintenance:
-   - Ansible CRON job: With Ansible, you are responsible for managing and maintaining the CRON job configuration on the instance. If you need to make changes or updates to the CRON job, you would typically update the Ansible playbook and re-run it.
+   - Ansible CRON job: With Ansible, you are responsible for managing and maintaining the CRON job configuration on the instance. If you need to make changes or updates to the CRON job, you would  update the Ansible playbook and re-run it.
    - CloudWatch Events: CloudWatch Events is a managed service, so AWS takes care of the underlying infrastructure and maintenance. You define rules and targets using the AWS Management Console, CLI, or SDKs, and AWS handles the execution and reliability of the events.
 
 3. Flexibility and Integration:

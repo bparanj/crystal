@@ -9,7 +9,7 @@ Yes, you can set up a PXE boot from a ThinkPad to allow other machines on the sa
 
 3. **Configure the PXE Boot Environment**:
    - Place the ShredOS boot image in the TFTP server directory.
-   - Configure the DHCP server to point to the TFTP server and the ShredOS boot image. This typically involves editing the `dhcpd.conf` file to include the necessary boot parameters¹.
+   - Configure the DHCP server to point to the TFTP server and the ShredOS boot image. This  involves editing the `dhcpd.conf` file to include the necessary boot parameters¹.
 
 4. **Boot Client Machines**:
    - Ensure that the client machines are set to boot from the network (PXE boot). This usually involves changing the boot order in the BIOS/UEFI settings.

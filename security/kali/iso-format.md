@@ -6,9 +6,9 @@ An **.iso file** is a type of disk image file that contains an exact copy of the
 
 ### Key Characteristics of an .iso File:
 
-- **Complete Disk Image**: It includes all the data on the original disc, including the file system information, bootable sections, and any other content that was present.
+- **Complete Disk Image**: It includes all the data on the original disc,  the file system information, bootable sections, and any other content that was present.
   
-- **Usage**: `.iso` files are commonly used for distributing operating systems, software packages, and media content. They can be burned to physical discs or mounted as virtual drives on a computer.
+- **Usage**: `.iso` files are  used for distributing operating systems, software packages, and media content. They can be burned to physical discs or mounted as virtual drives on a computer.
 
 - **Bootable Media**: Many `.iso` files, especially those containing operating systems, are designed to be bootable, meaning you can boot your computer directly from the .iso file when it's burned to a CD/DVD or written to a USB drive.
 
@@ -21,4 +21,4 @@ An **.iso file** is a type of disk image file that contains an exact copy of the
 - **Create Bootable USB**: You can use tools like `Rufus` (Windows) or `dd` (Linux/Mac) to create a bootable USB drive from an `.iso` file, which is often used for installing operating systems.
 
 ### Summary:
-An **.iso file** is a disk image file that stands for **International Organization for Standardization**, reflecting its adherence to the ISO 9660 standard. It contains an exact replica of the contents of a physical disc and is commonly used for software distribution and creating bootable media.
+An **.iso file** is a disk image file that stands for **International Organization for Standardization**, reflecting its adherence to the ISO 9660 standard. It contains an exact replica of the contents of a physical disc and is  used for software distribution and creating bootable media.

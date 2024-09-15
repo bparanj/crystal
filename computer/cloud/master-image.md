@@ -59,7 +59,7 @@ If you have a large number of laptops and a network infrastructure, consider set
 
 By following these steps, you can efficiently replicate your Kali Linux installation across multiple laptops, saving time and ensuring consistency across your deployment.
 
-When selling laptops to different individuals, it's important to ensure that each laptop is uniquely identifiable and properly configured for use in a new environment. Here’s a step-by-step guide on how to set up the laptops, including whether they need different hostnames.
+When selling laptops to different individuals, it's important to ensure that each laptop is uniquely identifiable and properly configured for use in a new environment. Here’s a step-by-step guide on how to set up the laptops,  whether they need different hostnames.
 
 ### Why Unique Hostnames are Important
 
@@ -440,7 +440,7 @@ If you want to have a single boot solution, meaning you only want to install eit
    - Boot each laptop to ensure it operates correctly and the OS is functioning as expected.
    
 2. **Package Securely**:
-   - Package each laptop securely for shipping, including any accessories and documentation.
+   - Package each laptop securely for shipping,  any accessories and documentation.
 
 ### References
 

@@ -148,7 +148,7 @@ To use this script:
 2. Give it execute permissions with `chmod +x check_code_standards.sh`.
 3. Run the script in the terminal with `./check_code_standards.sh`.
 
-This script should be run from a directory that has access to the `src` directory containing the source files. Adjust the `SOURCE_DIR` variable as needed to point to the actual source files location.
+This script should be run from a directory that has access to the `src` directory containing the source files. Adjust the `SOURCE_DIR` variable as needed to point to the  source files location.
 
 **Violations Caught**:
 - Use of tabs instead of spaces (coding standards may require spaces for indentation).
@@ -157,8 +157,8 @@ This script should be run from a directory that has access to the `src` director
 
 **Spurious Noise**:
 - **Tabs**: If tabs are used within comments for alignment or in string literals, these would be reported as violations but might be acceptable per the project's standards.
-- **Trailing Whitespace**: Whitespace at the end of lines could be part of multi-line macro definitions or in comments for formatting, which might not be actual violations.
-- **Function Length**: The script does not differentiate between code and comments or recognize nested blocks, so it may report long functions that are actually well-structured or contain embedded documentation.
+- **Trailing Whitespace**: Whitespace at the end of lines could be part of multi-line macro definitions or in comments for formatting, which might not be  violations.
+- **Function Length**: The script does not differentiate between code and comments or recognize nested blocks, so it may report long functions that are ly well-structured or contain embedded documentation.
 
 This script is quite basic and serves as a starting point. In practice, more sophisticated tools and linters, such as `clang-tidy`, `cpplint`, or static analysis tools, should be used for comprehensive coding standard checks, as they can provide more context-sensitive analysis and reduce noise.
 

@@ -24,7 +24,7 @@ Setting up your own VPN using OpenVPN can provide you with enhanced privacy and 
      ```
 
 3. **Configure the OpenVPN Server**:
-   - Create a server configuration file, typically located at `/etc/openvpn/server.conf`. Here’s a basic example:
+   - Create a server configuration file,  located at `/etc/openvpn/server.conf`. Here’s a basic example:
      ```conf
      port 1194
      proto udp
@@ -150,10 +150,10 @@ Yes, using a VPN like OpenVPN can help hide your physical location from internet
 ### How a VPN Provides Privacy
 
 1. **IP Address Masking**:
-   - When you connect to the internet through a VPN, your traffic is routed through the VPN server. This means that websites and online services see the IP address of the VPN server, not your actual home IP address. This helps to mask your physical location.
+   - When you connect to the internet through a VPN, your traffic is routed through the VPN server. This means that websites and online services see the IP address of the VPN server, not your  home IP address. This helps to mask your physical location.
 
 2. **Encryption**:
-   - VPNs encrypt your internet traffic, making it difficult for anyone (including your ISP) to see what you're doing online. This adds an extra layer of privacy and security.
+   - VPNs encrypt your internet traffic, making it difficult for anyone ( your ISP) to see what you're doing online. This adds an extra layer of privacy and security.
 
 3. **Location Spoofing**:
    - By connecting to a VPN server in a different geographic location, you can make it appear as though you are browsing from that location. This can be useful for accessing region-restricted content or services.
@@ -234,7 +234,7 @@ Yes, you can definitely dedicate an 8 GB ThinkPad running Ubuntu as your VPN ser
      ```
 
 7. **Configure the OpenVPN Server**:
-   - Create a server configuration file, typically located at `/etc/openvpn/server.conf`. Here’s a basic example:
+   - Create a server configuration file,  located at `/etc/openvpn/server.conf`. Here’s a basic example:
      ```conf
      port 1194
      proto udp
@@ -326,7 +326,7 @@ Using a minimal Ubuntu Server installation is a great choice for setting up an O
      ```
 
 8. **Configure the OpenVPN Server**:
-   - Create a server configuration file, typically located at `/etc/openvpn/server.conf`. Here’s a basic example:
+   - Create a server configuration file,  located at `/etc/openvpn/server.conf`. Here’s a basic example:
      ```conf
      port 1194
      proto udp

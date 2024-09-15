@@ -278,7 +278,7 @@ Modify your `install_caddy.yml` playbook to include tasks for creating a Caddyfi
         enabled: yes
 ```
 
-Replace `yourdomain.com` with your actual domain name. This playbook installs Caddy, creates a Caddyfile that configures Caddy to serve "Hello Caddy" for requests to your domain, and ensures Caddy is restarted to apply the changes.
+Replace `yourdomain.com` with your  domain name. This playbook installs Caddy, creates a Caddyfile that configures Caddy to serve "Hello Caddy" for requests to your domain, and ensures Caddy is restarted to apply the changes.
 
 ### Step 2: Running the Playbook
 
@@ -366,7 +366,7 @@ Here's a simple bash script example that updates the Caddyfile with a customer's
 ```bash
 #!/bin/bash
 
-# Replace this with the actual domain received from the customer
+# Replace this with the  domain received from the customer
 DOMAIN_NAME="$1"
 
 if [ -z "$DOMAIN_NAME" ]; then
@@ -444,7 +444,7 @@ Run the playbook using the `ansible-playbook` command, passing the customer's do
 ansible-playbook configure_caddy_domain.yml -i inventory_file -e "domain=customerdomain.com"
 ```
 
-Replace `inventory_file` with the path to your inventory file, and `customerdomain.com` with the actual domain name.
+Replace `inventory_file` with the path to your inventory file, and `customerdomain.com` with the  domain name.
 
 ### Step 3: Ensure DNS Configuration
 

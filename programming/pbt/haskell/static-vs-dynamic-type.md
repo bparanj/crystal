@@ -2,7 +2,7 @@ Static typing and dynamic typing are two fundamental approaches to handling type
 
 ### Static Typing
 
-In static typing, the type of every variable is known at compile time, before the program runs. This means that you must declare the type of variables, or the compiler must be able to infer them, before executing the program. The main advantage of static typing is that it allows for type errors to be caught early in the development process, typically during compilation. This can lead to fewer bugs at runtime because many issues are resolved before the program is even run. It also aids in optimizations that make programs run faster and use less memory.
+In static typing, the type of every variable is known at compile time, before the program runs. This means that you must declare the type of variables, or the compiler must be able to infer them, before executing the program. The main advantage of static typing is that it allows for type errors to be caught early in the development process,  during compilation. This can lead to fewer bugs at runtime because many issues are resolved before the program is even run. It also aids in optimizations that make programs run faster and use less memory.
 
 **Examples of statically typed languages**: Java, C, C++, Rust, Haskell.
 

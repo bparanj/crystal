@@ -1,6 +1,6 @@
 ## Verifying package installation with Goss
 
-Verifying package installation with Goss can be tailored to your specific needs, including checking for the presence of a package or verifying that a specific version of a package is installed. Whether you should verify a specific version of a package depends on the requirements of your environment or application.
+Verifying package installation with Goss can be tailored to your specific needs,  checking for the presence of a package or verifying that a specific version of a package is installed. Whether you should verify a specific version of a package depends on the requirements of your environment or application.
 
 ### Scenarios Where Version Verification Might Be Necessary:
 

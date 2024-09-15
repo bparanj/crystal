@@ -1,6 +1,6 @@
 ### What is a Virtual Filesystem in Linux?
 
-A Virtual Filesystem (VFS) in Linux is an abstraction layer that provides a uniform interface for interacting with different types of filesystems. It allows the operating system to support multiple filesystem types and present them to users and applications in a consistent way. The VFS sits between the user space and the actual filesystem implementations, making it easier to develop and integrate new filesystems without modifying user applications.
+A Virtual Filesystem (VFS) in Linux is an abstraction layer that provides a uniform interface for interacting with different types of filesystems. It allows the operating system to support multiple filesystem types and present them to users and applications in a consistent way. The VFS sits between the user space and the  filesystem implementations, making it easier to develop and integrate new filesystems without modifying user applications.
 
 ### Key Features of VFS:
 
@@ -18,7 +18,7 @@ A Virtual Filesystem (VFS) in Linux is an abstraction layer that provides a unif
 
 ### Why is it Named "Virtual"?
 
-The term "virtual" is used because the VFS provides a virtualized view of the various physical filesystems. This virtualization means that the specifics of the underlying filesystems are hidden from the user and applications, providing a consistent and unified interface. The actual physical storage details are abstracted away, allowing the same commands and system calls to work across different filesystems.
+The term "virtual" is used because the VFS provides a virtualized view of the various physical filesystems. This virtualization means that the specifics of the underlying filesystems are hidden from the user and applications, providing a consistent and unified interface. The  physical storage details are abstracted away, allowing the same commands and system calls to work across different filesystems.
 
 ### How VFS Works:
 
@@ -26,7 +26,7 @@ The term "virtual" is used because the VFS provides a virtualized view of the va
    - When an application makes a system call related to file operations, the call goes through the VFS layer. The VFS translates these calls into the appropriate actions for the underlying filesystem.
 
 2. **Filesystem Drivers**:
-   - Each filesystem type has its own driver that implements the specific details of how to manage files and directories on that filesystem. The VFS interacts with these drivers to perform the actual operations.
+   - Each filesystem type has its own driver that implements the specific details of how to manage files and directories on that filesystem. The VFS interacts with these drivers to perform the  operations.
 
 3. **Mounting Filesystems**:
    - The VFS supports mounting different filesystems at different points in the directory hierarchy. When a filesystem is mounted, it is attached to a directory, and the VFS manages the integration of this filesystem into the existing directory structure.
@@ -56,8 +56,8 @@ The term "virtual" is used because the VFS provides a virtualized view of the va
 ### References:
 
 - **"Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati**: Provides an in-depth explanation of the VFS and its role in the Linux kernel.
-- **"Linux Kernel Development" by Robert Love**: Offers insights into the development and functioning of the Linux kernel, including the VFS.
-- **The Linux Documentation Project**: Detailed documentation on various aspects of Linux, including filesystems and VFS.
+- **"Linux Kernel Development" by Robert Love**: Offers insights into the development and functioning of the Linux kernel,  the VFS.
+- **The Linux Documentation Project**: Detailed documentation on various aspects of Linux,  filesystems and VFS.
   - [Linux Documentation Project](https://www.tldp.org/)
 - **Kernel.org: Virtual Filesystem**: Official documentation of the Linux kernel, explaining the VFS layer.
   - [Kernel.org VFS Documentation](https://www.kernel.org/doc/html/latest/filesystems/vfs.html)

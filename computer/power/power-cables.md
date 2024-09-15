@@ -3,10 +3,10 @@ To determine which power cable to use with a specific model of Lenovo laptop, fo
 ### Step-by-Step Guide
 
 1. **Identify the Laptop Model**:
-   - Locate the model number on the bottom of the laptop. Lenovo laptops typically have a label or sticker that includes the model number and other relevant details.
+   - Locate the model number on the bottom of the laptop. Lenovo laptops  have a label or sticker that includes the model number and other relevant details.
 
 2. **Check the Power Requirements**:
-   - Look for the power requirements on the label or in the user manual. This information typically includes the voltage (V) and amperage (A) required by the laptop.
+   - Look for the power requirements on the label or in the user manual. This information  includes the voltage (V) and amperage (A) required by the laptop.
 
 3. **Match the Power Adapter Specifications**:
    - Ensure that the power adapter you are considering matches the voltage and amperage specifications listed for the laptop. Using an adapter with the incorrect specifications can damage the laptop or result in it not charging properly.
@@ -17,11 +17,11 @@ To determine which power cable to use with a specific model of Lenovo laptop, fo
 ### Tools and Resources
 
 1. **Lenovo Support Website**:
-   - Use the Lenovo support website to search for your specific laptop model. The support page for your model will provide detailed information about compatible accessories, including power adapters.
+   - Use the Lenovo support website to search for your specific laptop model. The support page for your model will provide detailed information about compatible accessories,  power adapters.
    - [Lenovo Support](https://support.lenovo.com/)
 
 2. **User Manual**:
-   - Refer to the user manual that came with the laptop. The manual typically includes specifications for the power adapter and other accessories.
+   - Refer to the user manual that came with the laptop. The manual  includes specifications for the power adapter and other accessories.
 
 3. **Power Adapter Labels**:
    - Examine the label on the power adapter itself. It should list the voltage, amperage, and model number. Ensure this matches the requirements of your laptop.
@@ -43,7 +43,7 @@ To determine which power cable to use with a specific model of Lenovo laptop, fo
    - Older Lenovo models often use round barrel connectors. Ensure the diameter and pin configuration match your laptop’s input.
 
 2. **Rectangular Connectors**:
-   - Newer Lenovo models, including many ThinkPads, use rectangular connectors. These are sometimes referred to as "slim-tip" or "rectangular" connectors.
+   - Newer Lenovo models,  many ThinkPads, use rectangular connectors. These are sometimes referred to as "slim-tip" or "rectangular" connectors.
 
 ### Additional Tips
 
@@ -72,7 +72,7 @@ To ensure you are using the correct power cable for your Lenovo laptop model, ch
 
 3. Laptop Model and Power Cable Compatibility: Lenovo provides a support page where you can search for your laptop model and find the compatible power cable. Visit the Lenovo support site, enter your laptop model number, and browse the listed compatible accessories.
 
-4. User Manual: Refer to your laptop's user manual, as it typically specifies the power requirements and compatible cable types for your specific model.
+4. User Manual: Refer to your laptop's user manual, as it  specifies the power requirements and compatible cable types for your specific model.
 
 5. Original Charger: If you still have the original charger that came with your laptop, use that as a reference to find a matching replacement cable.
 
@@ -102,7 +102,7 @@ If the laptops do not have any hard drives and you need to identify the model to
    - If you see a prompt like "Press [key] to enter Setup" during startup, press that key.
 
 2. **Locate System Information**:
-   - In the BIOS/UEFI menu, look for a section labeled "System Information," "Main," or "About." This section typically contains details about the laptop, including the model number, serial number, and other specifications.
+   - In the BIOS/UEFI menu, look for a section labeled "System Information," "Main," or "About." This section  contains details about the laptop,  the model number, serial number, and other specifications.
 
 ### Method 2: Physical Inspection of Hardware
 1. **Battery Compartment**:

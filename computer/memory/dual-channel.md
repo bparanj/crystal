@@ -1,6 +1,6 @@
 ### What is Dual Channel in Computer Hardware?
 
-**Dual channel** is a technology used in computer systems to increase the data transfer rate between the memory (RAM) and the memory controller, which is typically part of the CPU. By using two memory channels instead of one, dual channel effectively doubles the bandwidth available for memory operations, improving system performance.
+**Dual channel** is a technology used in computer systems to increase the data transfer rate between the memory (RAM) and the memory controller, which is  part of the CPU. By using two memory channels instead of one, dual channel effectively doubles the bandwidth available for memory operations, improving system performance.
 
 ### How Dual Channel Works:
 
@@ -8,7 +8,7 @@
    - Dual channel architecture uses two separate channels to communicate with memory modules. This allows the system to access data in parallel, increasing the amount of data that can be read or written simultaneously.
 
 2. **Symmetrical Memory Configuration**:
-   - For dual channel to function, memory modules must be installed in pairs with matching capacities, speeds, and ideally, the same manufacturer and model. These pairs are typically installed in specific slots, which are often color-coded on the motherboard to indicate channel pairs.
+   - For dual channel to function, memory modules must be installed in pairs with matching capacities, speeds, and ideally, the same manufacturer and model. These pairs are  installed in specific slots, which are often color-coded on the motherboard to indicate channel pairs.
 
 3. **Interleaving**:
    - Data is interleaved between the two channels, meaning consecutive chunks of data are alternately placed in each channel. This improves efficiency and the system better utilizes the available bandwidth.

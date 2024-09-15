@@ -39,12 +39,12 @@ Within a VPC, you can create subnets, which are ranges of IP addresses. Subnets 
 1. Public Subnet:
    - A public subnet is a subnet that is associated with a route table that has a route to an Internet Gateway (IGW).
    - Instances launched in a public subnet can have public IP addresses and can be directly accessible from the internet.
-   - Public subnets are typically used for resources that need to be publicly accessible, such as web servers or bastion hosts.
+   - Public subnets are  used for resources that need to be publicly accessible, such as web servers or bastion hosts.
 
 2. Private Subnet:
    - A private subnet is a subnet that does not have a direct route to an Internet Gateway.
    - Instances launched in a private subnet do not have public IP addresses and cannot be directly accessed from the internet.
-   - Private subnets are typically used for resources that do not need direct internet access, such as databases or application servers.
+   - Private subnets are  used for resources that do not need direct internet access, such as databases or application servers.
 
 The concept of public and private subnets is specific to AWS and is used to control the accessibility and security of resources within a VPC. By strategically placing resources in public or private subnets, you can define the desired level of internet accessibility and isolate sensitive resources from direct public access.
 

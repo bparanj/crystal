@@ -1,4 +1,4 @@
-The simplest electronic circuit to learn about relays typically involves using a relay to control a higher-power device with a lower-power signal. Let's design a basic circuit that demonstrates the fundamental operation of a relay.
+The simplest electronic circuit to learn about relays  involves using a relay to control a higher-power device with a lower-power signal. Let's design a basic circuit that demonstrates the fundamental operation of a relay.
 
 
 
@@ -78,7 +78,7 @@ Components needed:
 3. SPST (Single Pole Single Throw) switch
 4. Relay (5V coil voltage, contacts rated for at least 12V)
 5. LED
-6. Resistor (appropriate for the LED, typically 220Ω to 1kΩ)
+6. Resistor (appropriate for the LED,  220Ω to 1kΩ)
 7. Breadboard and jumper wires
 
 Key learning points:
@@ -166,7 +166,7 @@ This PySpice script simulates our relay circuit.
 
 6. We plot the results using Matplotlib, showing both the coil voltage and LED voltage over time.
 
-7. Finally, we print some key values, including steady-state voltages and currents.
+7. Finally, we print some key values,  steady-state voltages and currents.
 
 To run this simulation:
 

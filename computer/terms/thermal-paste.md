@@ -1,6 +1,6 @@
 ### What is Thermal Paste?
 
-Thermal paste, also known as thermal compound, thermal grease, or thermal interface material (TIM), is a thermally conductive compound used to improve the heat transfer between two surfaces. It typically consists of a polymerizable liquid matrix and thermally conductive fillers.
+Thermal paste, also known as thermal compound, thermal grease, or thermal interface material (TIM), is a thermally conductive compound used to improve the heat transfer between two surfaces. It  consists of a polymerizable liquid matrix and thermally conductive fillers.
 
 ### Why Do We Need Thermal Paste?
 

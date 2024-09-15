@@ -1,4 +1,4 @@
-In Nuxt, handling the authentication callback with Supabase can be achieved in a similar way, but you'll typically integrate it within the Nuxt context and use Nuxt-specific hooks and methods. Here's how you can adapt your Vue component script to a Nuxt environment:
+In Nuxt, handling the authentication callback with Supabase can be achieved in a similar way, but you'll  integrate it within the Nuxt context and use Nuxt-specific hooks and methods. Here's how you can adapt your Vue component script to a Nuxt environment:
 
 ### Step 1: Create a Supabase Plugin (if not already created)
 

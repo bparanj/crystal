@@ -230,7 +230,7 @@ Certainly. Let's set up an isolated network using an unmanaged gigabit switch co
      version: 2
      renderer: networkd
      ethernets:
-       <LAN_INTERFACE>:  # Replace with actual interface name (e.g., eth1, enp3s0)
+       <LAN_INTERFACE>:  # Replace with  interface name (e.g., eth1, enp3s0)
          addresses: [172.18.0.1/16]
          dhcp4: no
    ```

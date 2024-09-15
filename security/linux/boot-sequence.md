@@ -11,7 +11,7 @@ The sequence "BIOS/UEFI -> Boot loader -> Linux Kernel" outlines the core steps 
 
 3. **Boot Loader**:
    - The boot loader (such as GRUB, LILO, or Syslinux) is loaded from the boot sector (MBR/GPT).
-   - The boot loader loads the initial RAM disk (`initrd` or `initramfs`) into memory. This disk contains temporary root file system and essential drivers needed to access the actual root filesystem.
+   - The boot loader loads the initial RAM disk (`initrd` or `initramfs`) into memory. This disk contains temporary root file system and essential drivers needed to access the  root filesystem.
    - The boot loader then loads the Linux kernel into memory and passes control to it.
 
 4. **Linux Kernel Initialization**:

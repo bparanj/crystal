@@ -69,7 +69,7 @@ Distinguishing between the **electric field in a capacitor** and the **general e
    - **General Electrostatics**: The electrostatic field concept applies broadly to any stationary charge configuration, from simple point charges to complex systems. This broader understanding is essential for applications like electrostatic shielding, capacitive sensing, and understanding how electric fields influence materials.
 
 ### 2. **Field Behavior and Analysis**:
-   - **Uniform vs. Non-Uniform Fields**: The electric field in a parallel-plate capacitor is typically uniform between the plates, which simplifies analysis and calculations in circuit design. In contrast, general electrostatic fields can be non-uniform, requiring more complex analysis, especially in irregular charge distributions.
+   - **Uniform vs. Non-Uniform Fields**: The electric field in a parallel-plate capacitor is  uniform between the plates, which simplifies analysis and calculations in circuit design. In contrast, general electrostatic fields can be non-uniform, requiring more complex analysis, especially in irregular charge distributions.
    - **Boundary Conditions**: In capacitors, the field is often analyzed with specific boundary conditions (like the distance between plates and the dielectric material), which directly affect capacitance and energy storage. In broader electrostatics, boundary conditions can vary widely, affecting how fields interact with surrounding environments and materials.
 
 ### 3. **Energy Storage and Circuit Behavior**:

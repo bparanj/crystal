@@ -63,9 +63,9 @@ This Ansible playbook consists of two tasks that work together to install the Aq
      - `assessment_tool_archive_src`: This variable specifies the URL of the Aquatone release archive that needs to be downloaded. In this case, it points to the ZIP file of Aquatone version 1.7.0 for Linux AMD64 architecture, hosted on the GitHub releases page.
      - `assessment_tool_install_dir`: This variable specifies the directory where Aquatone will be installed on the target system. In this case, it is set to "/tools/aquatone".
 
-The "assessment_tool" role mentioned in the playbook is likely a custom role created to handle the installation of various assessment tools. This role would typically handle tasks such as downloading the specified archive, extracting its contents, and setting up the tool in the specified installation directory.
+The "assessment_tool" role mentioned in the playbook is likely a custom role created to handle the installation of various assessment tools. This role would  handle tasks such as downloading the specified archive, extracting its contents, and setting up the tool in the specified installation directory.
 
-By including the "assessment_tool" role with the provided variables, the playbook ensures that Aquatone is downloaded from the specified URL and installed in the designated directory on the target system.
+By  the "assessment_tool" role with the provided variables, the playbook ensures that Aquatone is downloaded from the specified URL and installed in the designated directory on the target system.
 
 Overall, this playbook automates the process of installing Aquatone and its dependencies (in this case, chromium) on the target system, making it easier to set up the tool for security assessments or other purposes.
 
@@ -93,7 +93,7 @@ When to use Aquatone:
 
 4. Identifying Potential Vulnerabilities: By visually inspecting the captured screenshots, security professionals can identify potential vulnerabilities or misconfigurations, such as exposed administrative interfaces, default web pages, or outdated software versions.
 
-Aquatone is a reconnaissance tool and should be used ethically and with proper authorization. It is typically employed by security professionals, penetration testers, or organizations assessing their own web presence for security vulnerabilities and improvements.
+Aquatone is a reconnaissance tool and should be used ethically and with proper authorization. It is  employed by security professionals, penetration testers, or organizations assessing their own web presence for security vulnerabilities and improvements.
 
 ### What is Aquatone?
 

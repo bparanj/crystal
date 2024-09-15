@@ -113,10 +113,10 @@ This simple circuit is the basis for many more complex voltage division applicat
 
 ## Pull-up circuit
 
-A simple pull-up circuit is a common configuration in digital electronics used to ensure a known state for an input pin, typically in microcontrollers or other digital ICs. Here's a description of a basic pull-up circuit:
+A simple pull-up circuit is a common configuration in digital electronics used to ensure a known state for an input pin,  in microcontrollers or other digital ICs. Here's a description of a basic pull-up circuit:
 
 Components:
-1. One resistor (typically 1k to 10k ohms)
+1. One resistor ( 1k to 10k ohms)
 2. A voltage source (usually the circuit's supply voltage, Vcc)
 3. An input pin (often on a microcontroller)
 4. A switch or other input device (optional)

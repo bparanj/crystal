@@ -6,7 +6,7 @@
    - In non-linear elements, Ohm's Law (\( V = IR \)) does not apply directly because the resistance (R) is not constant. Instead, the resistance changes with the applied voltage or current, resulting in a non-linear V-I curve.
 
 2. **V-I Characteristics**:
-   - The V-I characteristic of a non-linear element is typically a curve rather than a straight line. This curve shows how the current varies with the applied voltage, reflecting the non-linear behavior of the element.
+   - The V-I characteristic of a non-linear element is  a curve rather than a straight line. This curve shows how the current varies with the applied voltage, reflecting the non-linear behavior of the element.
 
 3. **Examples of Non-Linear Elements**:
    - **Diodes**: A diode is a classic example of a non-linear element. In a diode, current flows easily in one direction (forward bias) but is blocked in the opposite direction (reverse bias). The V-I curve of a diode shows very little current until a certain threshold voltage is reached, after which the current increases rapidly.
@@ -32,7 +32,7 @@
      where \( I_S \) is the saturation current, \( V \) is the voltage across the diode, \( n \) is the ideality factor, and \( V_T \) is the thermal voltage.
 
 ### Summary:
-Non-linear elements are components in electronic circuits where the relationship between voltage and current is not linear. These elements, such as diodes, transistors, and Zener diodes, exhibit non-linear V-I characteristics, which make them crucial for a wide range of applications, including rectification, amplification, and voltage regulation. Due to their non-linear behavior, these elements add complexity to circuit analysis and design, but they are essential for controlling and manipulating electrical signals in modern electronics.
+Non-linear elements are components in electronic circuits where the relationship between voltage and current is not linear. These elements, such as diodes, transistors, and Zener diodes, exhibit non-linear V-I characteristics, which make them crucial for a wide range of applications,  rectification, amplification, and voltage regulation. Due to their non-linear behavior, these elements add complexity to circuit analysis and design, but they are essential for controlling and manipulating electrical signals in modern electronics.
 
 Non-linear elements are components in electrical or electronic circuits whose behavior does not follow a linear relationship between input and output. This means that changes in the input do not result in proportional changes in the output. 
 

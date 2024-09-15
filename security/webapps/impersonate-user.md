@@ -40,7 +40,7 @@ In this diagram:
       - The WebApp recognizes the login attempt as unauthorized and rejects it.
       - The User's account remains secure, and the Attacker is unable to impersonate the user.
 
-To prevent user impersonation via insecure login, it's crucial to implement secure authentication practices, including:
+To prevent user impersonation via insecure login, it's crucial to implement secure authentication practices, :
 
 - Enforcing strong password policies and validating password strength.
 - Implementing rate limiting and account lockout mechanisms to prevent brute-force attacks.

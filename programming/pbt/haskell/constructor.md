@@ -1,4 +1,4 @@
-In Haskell, a constructor is a special function used to create values of a particular type. Constructors play a crucial role in defining and working with data types in Haskell, including both simple algebraic data types (ADTs) and more complex structures. Haskell features two main kinds of constructors: **value constructors** and **type constructors**.
+In Haskell, a constructor is a special function used to create values of a particular type. Constructors play a crucial role in defining and working with data types in Haskell,  both simple algebraic data types (ADTs) and more complex structures. Haskell features two main kinds of constructors: **value constructors** and **type constructors**.
 
 ### Value Constructors
 

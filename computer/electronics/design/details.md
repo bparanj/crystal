@@ -1,4 +1,4 @@
-Textbooks on electronics often delve into detailed aspects of components like resistors—including materials, construction, and characteristics—because these details are crucial for a deeper understanding of how components behave in different situations. Here's why this level of detail is important:
+Textbooks on electronics often delve into detailed aspects of components like resistors— materials, construction, and characteristics—because these details are crucial for a deeper understanding of how components behave in different situations. Here's why this level of detail is important:
 
 ### 1. **Understanding Performance Characteristics**:
    - **Material Impact**: The material used in a resistor (e.g., carbon, metal film, wire-wound) affects its performance characteristics, such as temperature coefficient, noise, and tolerance. Understanding these details helps engineers select the right resistor for specific applications, especially where precision or stability is critical.

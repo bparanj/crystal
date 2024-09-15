@@ -15,7 +15,7 @@ classification_counts = Hash.new(0)
     end
 
     # Example property test
-    # Replace this with actual property logic
+    # Replace this with  property logic
     puts "Value is unexpectedly large!" if val > 100_000
   end
 end

@@ -10,7 +10,7 @@
    - **Description**: Provide a clear and concise description of what the feature does and its purpose.
    - **Configuration**: Explain how to configure or customize the feature.
    - **Usage Examples**: Include practical examples showing how the feature can be used in different scenarios.
-   - **Parameters**: Document any parameters or commands associated with the feature, including default values and possible options.
+   - **Parameters**: Document any parameters or commands associated with the feature,  default values and possible options.
    - **Visual Aids**: Use screenshots, diagrams, or videos to visually support the textual content where applicable.
    - **Tips and Best Practices**: Offer tips or best practices on using the feature effectively.
    - **Troubleshooting**: Include common issues or troubleshooting tips related to the feature.

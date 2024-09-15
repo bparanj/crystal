@@ -74,7 +74,7 @@ This process illustrates how to safely and effectively incorporate a polarized c
    Research how polarized capacitors contribute to smoothing voltage in renewable energy applications, such as solar power systems, and what innovations could enhance their effectiveness in energy storage.
 
 Overview:
-A polarized capacitor, also known as an electrolytic capacitor, functions as an electronic component designed to store and release electrical energy. It differs from non-polarized capacitors by having a specific polarity, meaning it has distinct positive and negative terminals. This polarity results from its construction, which typically involves an electrolyte and a thin oxide layer. Polarized capacitors generally offer higher capacitance values in smaller packages compared to non-polarized types, making them valuable in various electronic applications.
+A polarized capacitor, also known as an electrolytic capacitor, functions as an electronic component designed to store and release electrical energy. It differs from non-polarized capacitors by having a specific polarity, meaning it has distinct positive and negative terminals. This polarity results from its construction, which  involves an electrolyte and a thin oxide layer. Polarized capacitors generally offer higher capacitance values in smaller packages compared to non-polarized types, making them valuable in various electronic applications.
 
 Atomic Ideas:
 
@@ -84,7 +84,7 @@ Analogy: The polarity of a polarized capacitor resembles a one-way street. Just 
 Example: To identify and use the polarity of a polarized capacitor, follow these steps: 1) Locate the capacitor in your circuit or component box. 2) Look for polarity markings on the capacitor body. The negative terminal is often indicated by a stripe, a "-" symbol, or a shorter lead. The positive terminal may have a "+" symbol or a longer lead. 3) In your circuit, connect the positive terminal to the more positive voltage potential and the negative terminal to the more negative voltage potential. For instance, in a simple LED circuit with a battery, connect the capacitor's positive terminal towards the battery's positive terminal and the negative towards the battery's negative terminal.
 
 2. Question: How does the construction of a polarized capacitor differ from a non-polarized capacitor?
-Atomic Idea: A polarized capacitor typically consists of an electrolyte and a thin oxide layer on a metal foil, creating an asymmetric internal structure that results in its polarized nature.
+Atomic Idea: A polarized capacitor  consists of an electrolyte and a thin oxide layer on a metal foil, creating an asymmetric internal structure that results in its polarized nature.
 Analogy: The construction of a polarized capacitor is like a roll of paper towels with one side treated with a special coating. The treated side (analogous to the oxide layer) can absorb more liquid (charge) when oriented correctly, but if used backwards, it doesn't work effectively and may even be damaged.
 Example: To understand the construction of a polarized capacitor, one can create a simple model: 1) Take a strip of aluminum foil (representing the anode) and another of paper (representing the electrolyte-soaked separator). 2) On one side of the aluminum foil, create a thin layer of oxide by exposing it to air or a mild acid (this represents the dielectric layer). 3) Place the paper strip on top of the oxidized side of the foil. 4) Roll these layers together tightly. 5) Insert this roll into a small cylinder (representing the capacitor's casing) with the non-oxidized end of the foil sticking out one end (positive terminal) and a wire touching the paper at the other end (negative terminal). This model illustrates how the asymmetric construction creates the polarized nature of the capacitor.
 
@@ -109,7 +109,7 @@ No solution is necessary for this topic as it primarily involves understanding c
 Related Atomic Ideas:
 1. Dielectric materials in capacitors: Understanding dielectric materials provides insight into how capacitors store charge and why polarized capacitors can achieve higher capacitance. This concept links to polarized capacitors by explaining the role of the oxide layer in their construction.
 
-2. Capacitor leakage current: This concept relates closely to polarized capacitors, as they typically have higher leakage currents than non-polarized types. Understanding leakage current helps in selecting appropriate capacitors for different applications and in diagnosing capacitor-related issues in circuits.
+2. Capacitor leakage current: This concept relates closely to polarized capacitors, as they  have higher leakage currents than non-polarized types. Understanding leakage current helps in selecting appropriate capacitors for different applications and in diagnosing capacitor-related issues in circuits.
 
 3. Capacitor voltage derating: This principle is crucial for the safe and reliable use of polarized capacitors. It involves using capacitors at voltages lower than their rated maximum to extend their lifespan and improve reliability, directly connecting to the safety considerations of polarized capacitors.
 

@@ -1,11 +1,11 @@
 Binaries
 
-In Linux, the term **binaries** refers to executable files that contain compiled code. These files are essential for running programs, scripts, and commands on the system. When you execute a command like `ls` to list directory contents or `cp` to copy files, you're actually running binaries that reside in directories such as `/bin`, `/usr/bin`, and `/sbin`¹².
+In Linux, the term **binaries** refers to executable files that contain compiled code. These files are essential for running programs, scripts, and commands on the system. When you execute a command like `ls` to list directory contents or `cp` to copy files, you're ly running binaries that reside in directories such as `/bin`, `/usr/bin`, and `/sbin`¹².
 
 Here's a quick breakdown:
 - **/bin**: Contains essential command binaries needed for the system to function, like `ls`, `cp`, and `mv`.
-- **/sbin**: Holds system binaries, typically used by the root user for administrative tasks.
-- **/usr/bin**: Stores user binaries, which are non-essential but commonly used commands and applications.
+- **/sbin**: Holds system binaries,  used by the root user for administrative tasks.
+- **/usr/bin**: Stores user binaries, which are non-essential but  used commands and applications.
 - **/usr/sbin**: Contains non-essential system binaries used by the root user.
 
 Binaries allow the operating system to perform a wide range of tasks, from basic file manipulations to running complex applications¹³.
@@ -51,8 +51,8 @@ The binaries that are shipped with the any Linux distro distribution is already 
 Yes, that's correct! When you install a Linux distribution, it comes with a set of pre-compiled binaries that are ready to use. These binaries are stored in standard directories, making it easy for users to run them from the command line. Here are some of the common directories where these binaries are stored:
 
 - **/bin**: Contains essential command binaries needed for the system to function, like `ls`, `cp`, and `mv`.
-- **/sbin**: Holds system binaries, typically used by the root user for administrative tasks.
-- **/usr/bin**: Stores user binaries, which are non-essential but commonly used commands and applications.
+- **/sbin**: Holds system binaries,  used by the root user for administrative tasks.
+- **/usr/bin**: Stores user binaries, which are non-essential but  used commands and applications.
 - **/usr/sbin**: Contains non-essential system binaries used by the root user.
 - **/usr/local/bin**: Used for binaries that are installed locally, often by the system administrator or user.
 

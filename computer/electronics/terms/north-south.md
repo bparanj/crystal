@@ -1,4 +1,4 @@
-The traditional Northbridge and Southbridge architecture is no longer commonly found in modern motherboards. Here's an overview of the evolution:
+The traditional Northbridge and Southbridge architecture is no longer  found in modern motherboards. Here's an overview of the evolution:
 
 ### Traditional Architecture
 

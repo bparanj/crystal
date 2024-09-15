@@ -1,4 +1,4 @@
-When provisioning infrastructure in customer AWS accounts using your account, there are specific steps and considerations to ensure security and proper access control. This scenario typically involves cross-account access, where your AWS account needs permission to create and manage resources in your customers' AWS accounts. Here's how to approach it:
+When provisioning infrastructure in customer AWS accounts using your account, there are specific steps and considerations to ensure security and proper access control. This scenario  involves cross-account access, where your AWS account needs permission to create and manage resources in your customers' AWS accounts. Here's how to approach it:
 
 ### 1. Customer Account Setup
 

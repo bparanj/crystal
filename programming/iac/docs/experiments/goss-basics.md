@@ -1,6 +1,6 @@
 ## Goss Basics
 
-Goss is a quick and easy server validation tool that you can use to verify if specific packages are installed on your system. It allows you to define the desired state of your system in a YAML or JSON format and then checks the actual state against this specification. Here's how to use Goss for verifying the installed packages, assuming you've already installed the necessary packages using Ansible or another method.
+Goss is a quick and easy server validation tool that you can use to verify if specific packages are installed on your system. It allows you to define the desired state of your system in a YAML or JSON format and then checks the  state against this specification. Here's how to use Goss for verifying the installed packages, assuming you've already installed the necessary packages using Ansible or another method.
 
 ### Step 1: Install Goss
 
@@ -157,7 +157,7 @@ You'll need to create or modify a Packer template file (e.g., `packer.json` or `
 }
 ```
 
-Replace `"path/to/your_ansible_playbook.yml"` with the actual path to your Ansible playbook. Adjust the builder configuration as needed for your specific requirements.
+Replace `"path/to/your_ansible_playbook.yml"` with the  path to your Ansible playbook. Adjust the builder configuration as needed for your specific requirements.
 
 ### 3. Running the Packer Build
 
@@ -223,7 +223,7 @@ Modify your Packer template to include two Ansible provisioners. Here’s an exa
 }
 ```
 
-Replace `path/to/package_installation_playbook.yml` and `path/to/package_verification_playbook.yml` with the actual paths to your playbooks.
+Replace `path/to/package_installation_playbook.yml` and `path/to/package_verification_playbook.yml` with the  paths to your playbooks.
 
 ### Step 3: Running the Packer Build
 
@@ -238,7 +238,7 @@ Replace `your_packer_template.json` with the name of your Packer template file.
 ### Reporting Final Results
 
 - **Success Path**: If all tasks in both playbooks execute successfully, Packer will report the build as successful. The output of the `goss validate` command from the verification playbook will be visible in the Packer build output, showing the results of the tests.
-- **Failure Path**: If any task in either playbook fails (including a failed verification test), Packer will report the build as failed. The specific error or test failure will be shown in the output, providing insights into what went wrong.
+- **Failure Path**: If any task in either playbook fails ( a failed verification test), Packer will report the build as failed. The specific error or test failure will be shown in the output, providing insights into what went wrong.
 
 ### Additional Notes
 
@@ -295,7 +295,7 @@ With this, I can give you the most streamlined solution!
 
 ## CI/CD and Debugging Issues
 
-When running the described Packer build process as part of a CI/CD pipeline, the details of the verification step, including any debug messages or information about failed installations, can be found in the CI/CD pipeline's log output. Here's how you can access and interpret these details:
+When running the described Packer build process as part of a CI/CD pipeline, the details of the verification step,  any debug messages or information about failed installations, can be found in the CI/CD pipeline's log output. Here's how you can access and interpret these details:
 
 ### Accessing Logs in CI/CD
 
@@ -309,7 +309,7 @@ When running the described Packer build process as part of a CI/CD pipeline, the
 
 - **Debug Messages**: If the verification step fails, the output will include error messages or failure details provided by `goss`. This information can be crucial for debugging issues, as it will specify which tests failed and why.
 
-- **Exit Codes**: Pay attention to the exit codes reported by the Ansible tasks. A non-zero exit code typically indicates a failure that can help pinpoint where the process went awry.
+- **Exit Codes**: Pay attention to the exit codes reported by the Ansible tasks. A non-zero exit code  indicates a failure that can help pinpoint where the process went awry.
 
 ### Best Practices for Debugging
 
@@ -470,7 +470,7 @@ After running Packer, you will have the `goss.yaml` file on your local machine, 
 
 Yes, that's correct. The `goss autoadd` command is designed to automatically capture the state of the system it is running on and generate tests based on that state. It does not require any additional arguments.
 
-When you run `goss autoadd`, Goss will automatically detect and capture various aspects of the system, including:
+When you run `goss autoadd`, Goss will automatically detect and capture various aspects of the system, :
 
 - Installed packages and their versions
 - File and directory properties (existence, permissions, ownership, content)
@@ -538,7 +538,7 @@ build {
 
 In this HCL configuration:
 
-1. We define an Amazon EBS source block (`source.amazon-ebs.example`) that specifies the configuration for the EC2 instance, including the AMI name, instance type, region, source AMI, and SSH username.
+1. We define an Amazon EBS source block (`source.amazon-ebs.example`) that specifies the configuration for the EC2 instance,  the AMI name, instance type, region, source AMI, and SSH username.
 
 2. In the `build` block, we specify the source to use (`source.amazon-ebs.example`).
 

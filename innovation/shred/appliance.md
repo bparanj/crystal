@@ -5,7 +5,7 @@ In essence:
 - It is generally placed in environments like data centers or IT offices and operates on the network, communicating with client machines to facilitate disk wiping.
 - It is designed to be **headless** (no monitor, keyboard, or mouse), and administrators manage it remotely, often through a web portal or command-line interface.
 
-The appliance typically connects to the local network and works by booting client machines via PXE (network boot) to initiate the disk wiping process. It's specialized hardware or software pre-configured to handle these operations efficiently.
+The appliance  connects to the local network and works by booting client machines via PXE (network boot) to initiate the disk wiping process. It's specialized hardware or software pre-configured to handle these operations efficiently.
 
 Yes, you can use a ThinkPad running Ubuntu to implement the functionality of a WipeOS appliance. The core requirements of a WipeOS appliance are its ability to manage data wiping tasks over a network, such as booting client machines via PXE and running disk wiping operations. These functionalities can be achieved on an Ubuntu-based machine.
 

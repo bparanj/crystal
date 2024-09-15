@@ -66,7 +66,7 @@ The default egress rule allowing all outbound traffic is automatically added whe
 
 ### Replacing Placeholder Values
 
-Replace `'your-vpc-id-here'` and the CIDR blocks with your actual VPC ID and desired IP ranges for each rule. The CIDR blocks for internal services like PostgreSQL and Redis typically reflect your VPC's CIDR if they're only accessible within the VPC.
+Replace `'your-vpc-id-here'` and the CIDR blocks with your  VPC ID and desired IP ranges for each rule. The CIDR blocks for internal services like PostgreSQL and Redis  reflect your VPC's CIDR if they're only accessible within the VPC.
 
 This demonstrates how to create a security group and configure it with specific ingress rules as per your requirements, closely following the structure and intent of your Terraform definition.
 
@@ -223,7 +223,7 @@ Inside the function:
 
 In the example usage, we specify the VPC ID (`vpc_id`), security group name (`sg_name`), description (`sg_description`), and the CIDR blocks for each ingress rule. We then call the `create_rails_security_group()` function with these arguments.
 
-Make sure to replace `'vpc-xxxxxxxx'` with the actual ID of your VPC and adjust the CIDR blocks according to your desired access rules.
+Make sure to replace `'vpc-xxxxxxxx'` with the  ID of your VPC and adjust the CIDR blocks according to your desired access rules.
 
 Note: Ensure that you have the necessary permissions to create and modify security groups in your AWS account. You may need to configure the appropriate IAM permissions for your AWS account or the IAM user/role associated with your boto3 session.
 
@@ -284,7 +284,7 @@ egress {
 
 This egress rule allows all outbound traffic from resources associated with the security group to any destination IP address (`0.0.0.0/0`) on any port (`from_port = 0` and `to_port = 0`) and any protocol (`protocol = "-1"`).
 
-The main reasons for including an egress rule in a security group are:
+The main reasons for  an egress rule in a security group are:
 
 1. Internet Access: If your resources (e.g., EC2 instances) within the security group need to access the internet or external services, an egress rule is necessary. Without an egress rule allowing outbound traffic, your resources would not be able to initiate outbound connections to the internet, even if they have a public IP address.
 

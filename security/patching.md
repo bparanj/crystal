@@ -65,7 +65,7 @@ To find the supported versions of a Rails project using source control, you can 
    This indicates that the project is compatible with Ruby version 2.7.2.
 
 5. Check the project's `Gemfile.lock`:
-   The `Gemfile.lock` file contains the exact versions of all the gems used in the project, including Rails. Open the `Gemfile.lock` file and look for the `rails` gem entry. It will specify the exact version of Rails used in the project. For example:
+   The `Gemfile.lock` file contains the exact versions of all the gems used in the project,  Rails. Open the `Gemfile.lock` file and look for the `rails` gem entry. It will specify the exact version of Rails used in the project. For example:
    ```
    rails (6.1.3)
    ```
@@ -82,7 +82,7 @@ By following these steps, you should be able to determine the supported Rails ve
 To find the supported versions of a Rails project using source control, you can follow these steps:
 
 ### 1. Check the `Gemfile` and `Gemfile.lock`
-The `Gemfile` specifies the dependencies for the project, including the version of Rails. The `Gemfile.lock` provides the exact versions of all dependencies installed.
+The `Gemfile` specifies the dependencies for the project,  the version of Rails. The `Gemfile.lock` provides the exact versions of all dependencies installed.
 
 1. Open the `Gemfile` and look for the line specifying the Rails version:
    ```ruby
@@ -226,7 +226,7 @@ By using these methods, you can identify the direct library dependencies of a Ra
 
 It's also worth noting that the `Gemfile.lock` file in the project's root directory contains the exact versions of all the gems (direct and transitive) used in the project. You can open this file to see a complete list of all the gems and their versions that are currently being used by the project.
 
-To find the direct library dependencies of a Rails project, you typically look at the `Gemfile` and the `Gemfile.lock` files. The `Gemfile` lists the libraries (gems) that the project directly depends on, while the `Gemfile.lock` provides a snapshot of all dependencies, including transitive ones. Here’s how to identify the direct dependencies:
+To find the direct library dependencies of a Rails project, you  look at the `Gemfile` and the `Gemfile.lock` files. The `Gemfile` lists the libraries (gems) that the project directly depends on, while the `Gemfile.lock` provides a snapshot of all dependencies,  transitive ones. Here’s how to identify the direct dependencies:
 
 ### Step-by-Step Guide
 
@@ -256,7 +256,7 @@ Each `gem` line is a direct dependency. In this example, the direct dependencies
 - jbuilder
 
 #### 2. Check the `Gemfile.lock` for Confirmation
-The `Gemfile.lock` file lists all dependencies, including direct and transitive dependencies. To verify direct dependencies, you can look at the top of the `Gemfile.lock`, under the `DEPENDENCIES` section.
+The `Gemfile.lock` file lists all dependencies,  direct and transitive dependencies. To verify direct dependencies, you can look at the top of the `Gemfile.lock`, under the `DEPENDENCIES` section.
 
 Example `Gemfile.lock` (partial):
 ```
@@ -304,7 +304,7 @@ By following these steps, you can identify the direct library dependencies of a 
 
 How to Use Bundler for more detailed analysis?
 
-Bundler is a powerful tool for managing dependencies in Ruby projects, including Rails applications. It provides several commands and features that allow you to perform more detailed analysis of your project's dependencies. Here are some ways to use Bundler for detailed dependency analysis:
+Bundler is a powerful tool for managing dependencies in Ruby projects,  Rails applications. It provides several commands and features that allow you to perform more detailed analysis of your project's dependencies. Here are some ways to use Bundler for detailed dependency analysis:
 
 1. `bundle outdated` command:
    Running the `bundle outdated` command will show you a list of gems that have newer versions available than the ones currently specified in your `Gemfile.lock`. This helps you identify gems that may need updating. The output will include the gem name, current version, latest version, and the source of the update. For example:
@@ -320,7 +320,7 @@ Bundler is a powerful tool for managing dependencies in Ruby projects, including
    ```
 
 2. `bundle viz` command:
-   The `bundle viz` command generates a visual dependency graph of your project's gems. It creates an image file that shows the relationships between gems, including their dependencies. To use this command, you need to have the `graphviz` library installed on your system. Run the following command to generate the dependency graph:
+   The `bundle viz` command generates a visual dependency graph of your project's gems. It creates an image file that shows the relationships between gems,  their dependencies. To use this command, you need to have the `graphviz` library installed on your system. Run the following command to generate the dependency graph:
    ```
    $ bundle viz
    ```
@@ -339,19 +339,19 @@ Bundler is a powerful tool for managing dependencies in Ruby projects, including
    ```
 
 4. `bundle show` command with dependencies:
-   You can use the `bundle show` command with the `--paths` flag to display the paths of all the gems in your bundle, including their dependencies. This gives you a complete list of all the gems used in your project. Run the following command:
+   You can use the `bundle show` command with the `--paths` flag to display the paths of all the gems in your bundle,  their dependencies. This gives you a complete list of all the gems used in your project. Run the following command:
    ```
    $ bundle show --paths
    ```
    The output will include the gem names and their corresponding paths.
 
 5. Analyzing the `Gemfile.lock`:
-   The `Gemfile.lock` file contains detailed information about the exact versions of all the gems used in your project, including their dependencies. You can open this file and examine its contents to understand the complete dependency tree. The file lists the gems, their versions, and the dependencies they require.
+   The `Gemfile.lock` file contains detailed information about the exact versions of all the gems used in your project,  their dependencies. You can open this file and examine its contents to understand the complete dependency tree. The file lists the gems, their versions, and the dependencies they require.
 
 6. Using third-party tools:
    There are several third-party tools and plugins available that provide additional dependency analysis capabilities for Bundler. Some popular ones include:
    - `bundler-audit`: Checks for known security vulnerabilities in your project's gem dependencies.
-   - `fasterer`: Suggests faster alternatives to some commonly used Ruby idioms.
+   - `fasterer`: Suggests faster alternatives to some  used Ruby idioms.
    - `ruby-lint`: Performs static code analysis and identifies potential issues in your Ruby code.
 
 By leveraging these Bundler features and tools, you can gain a deeper understanding of your project's dependencies, identify potential issues, and make informed decisions about updating or optimizing your gem dependencies.
@@ -359,14 +359,14 @@ By leveraging these Bundler features and tools, you can gain a deeper understand
 Bundler provides several commands and options to help you analyze your project's dependencies in detail. Here are some useful commands and techniques:
 
 ### 1. List All Gems
-To list all gems that are part of your project, including their versions and sources, you can use:
+To list all gems that are part of your project,  their versions and sources, you can use:
 ```bash
 bundle list
 ```
 This command will show all the gems installed for the project, both direct and transitive dependencies.
 
 ### 2. Show Details of a Specific Gem
-To see detailed information about a specific gem, including its dependencies and installed versions, you can use:
+To see detailed information about a specific gem,  its dependencies and installed versions, you can use:
 ```bash
 bundle show <gem_name>
 ```
@@ -401,7 +401,7 @@ To get detailed information about all installed gems, you can use:
 ```bash
 bundle info
 ```
-This command provides a summary of all gems, including their versions and dependencies.
+This command provides a summary of all gems,  their versions and dependencies.
 
 ### 6. Using `Bundler::LockfileParser`
 For a more programmatic approach, you can use the `Bundler::LockfileParser` class to parse the `Gemfile.lock` file and extract detailed information about dependencies.
@@ -425,7 +425,7 @@ end
 ```
 
 ### 7. Exploring `Gemfile` and `Gemfile.lock` Manually
-The `Gemfile` specifies direct dependencies, and the `Gemfile.lock` contains a more detailed snapshot, including both direct and transitive dependencies.
+The `Gemfile` specifies direct dependencies, and the `Gemfile.lock` contains a more detailed snapshot,  both direct and transitive dependencies.
 
 #### `Gemfile` Example:
 ```ruby
@@ -481,24 +481,24 @@ To find the transitive library dependencies in a Rails project, you can use Bund
    ```
    $ bundle show
    ```
-   This command will display a list of all the gems used in your project, including both direct and transitive dependencies. Each gem will be listed along with its version and the path where it is installed.
+   This command will display a list of all the gems used in your project,  both direct and transitive dependencies. Each gem will be listed along with its version and the path where it is installed.
 
 2. Using `bundle list` command:
    Run the following command in your Rails project's root directory:
    ```
    $ bundle list
    ```
-   This command will display a list of all the gems used in your project, including transitive dependencies. However, unlike `bundle show`, it does not provide the installation path for each gem.
+   This command will display a list of all the gems used in your project,  transitive dependencies. However, unlike `bundle show`, it does not provide the installation path for each gem.
 
 3. Examining the `Gemfile.lock`:
-   The `Gemfile.lock` file in your Rails project contains detailed information about all the gems and their dependencies. Open the `Gemfile.lock` file and examine its contents. You will see a list of all the gems, including transitive dependencies, along with their exact versions.
+   The `Gemfile.lock` file in your Rails project contains detailed information about all the gems and their dependencies. Open the `Gemfile.lock` file and examine its contents. You will see a list of all the gems,  transitive dependencies, along with their exact versions.
 
    Each gem in the `Gemfile.lock` is listed under a specific group (e.g., `default`, `development`, `test`). The gems listed under each group include both direct and transitive dependencies.
 
    For example, if you have a gem named `devise` as a direct dependency, you will see it listed in the `Gemfile.lock`. Below `devise`, you will find its transitive dependencies, such as `bcrypt`, `orm_adapter`, etc.
 
 4. Using `bundle viz` command:
-   The `bundle viz` command generates a visual dependency graph of your project's gems. It shows the relationships between gems, including transitive dependencies. To use this command, you need to have the `graphviz` library installed on your system.
+   The `bundle viz` command generates a visual dependency graph of your project's gems. It shows the relationships between gems,  transitive dependencies. To use this command, you need to have the `graphviz` library installed on your system.
 
    Run the following command in your Rails project's root directory:
    ```
@@ -507,7 +507,7 @@ To find the transitive library dependencies in a Rails project, you can use Bund
    This command will create a file named `gem_graph.png` in the current directory, representing the dependency graph. You can open this file to visualize the dependencies and their relationships.
 
 5. Using third-party tools:
-   There are several third-party tools available that can help you analyze your project's dependencies, including transitive dependencies. Some popular tools include:
+   There are several third-party tools available that can help you analyze your project's dependencies,  transitive dependencies. Some popular tools include:
    - `bundler-stats`: Provides a web-based interface to visualize and analyze your project's gem dependencies.
    - `deppractice`: A command-line tool that identifies unused and outdated dependencies in your project.
 
@@ -515,7 +515,7 @@ To find the transitive library dependencies in a Rails project, you can use Bund
 
 By using these methods, you can effectively identify the transitive library dependencies in your Rails project. Understanding the complete dependency tree is important for managing your project's dependencies, identifying potential conflicts, and keeping your project up to date with the latest gem versions.
 
-To find the transitive library dependencies in a Rails project, you primarily use the `Gemfile.lock` file. The `Gemfile.lock` file provides a detailed snapshot of all the gems installed, including both direct and transitive dependencies. Here are the steps to identify these dependencies:
+To find the transitive library dependencies in a Rails project, you primarily use the `Gemfile.lock` file. The `Gemfile.lock` file provides a detailed snapshot of all the gems installed,  both direct and transitive dependencies. Here are the steps to identify these dependencies:
 
 ### 1. Inspect the `Gemfile.lock` File
 
@@ -591,7 +591,7 @@ bundle list
 
 #### `bundle show <gem_name>`
 
-This command shows detailed information about a specific gem, including its dependencies.
+This command shows detailed information about a specific gem,  its dependencies.
 ```bash
 bundle show rails
 ```

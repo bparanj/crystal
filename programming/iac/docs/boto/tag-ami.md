@@ -45,7 +45,7 @@ In this code:
 
 5. Finally, we retrieve the instance ID from the response and print it.
 
-Make sure to replace `'ami-0c55b159cbfafe1f0'` with the actual AMI ID you want to use for the EC2 instance.
+Make sure to replace `'ami-0c55b159cbfafe1f0'` with the  AMI ID you want to use for the EC2 instance.
 
 With this code, when the EC2 instance is created, it will have the specified tags associated with it. The tags will be visible in the AWS Management Console and can be used for various purposes, such as identifying and filtering instances based on tags.
 
@@ -108,6 +108,6 @@ This script does the following:
 
 ### Note:
 
-- Replace `ImageId` with the actual AMI ID you want to use for launching the instance.
+- Replace `ImageId` with the  AMI ID you want to use for launching the instance.
 - The instance is launched immediately and runs until you stop or terminate it, which may incur AWS charges.
 - Adjust the instance type and other parameters as needed for your specific use case.

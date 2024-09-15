@@ -31,7 +31,7 @@ Understanding the decomposition of system elements from the perspective of the R
    - Includes helpers for HTML generation and other view-related utilities.
 
 3. **Action Controller**:
-   - Manages controller logic, including request handling, response rendering, and action processing.
+   - Manages controller logic,  request handling, response rendering, and action processing.
    - Integrates with other components for session management and redirect handling.
 
 4. **Action Mailer**:
@@ -60,7 +60,7 @@ Understanding the decomposition of system elements from the perspective of the R
 10. **Action Cable**:
     - Manages WebSockets for real-time features in Rails applications.
 
-Contributors to the Rails codebase typically work within these components, enhancing and maintaining the functionalities specific to each module. Understanding the roles and interactions of these components is crucial for contributing effectively to Rails' development and evolution.
+Contributors to the Rails codebase  work within these components, enhancing and maintaining the functionalities specific to each module. Understanding the roles and interactions of these components is crucial for contributing effectively to Rails' development and evolution.
 
 - How are the objects organized into hierarchies?
 - How is common behavior factored out?

@@ -10,7 +10,7 @@ To implement the "Login With Magic Link" feature using Supabase in a Nuxt.js app
    npm install @supabase/supabase-js
    ```
 
-In a Nuxt.js project, the `plugins` directory is typically at the root level of your project structure. When you create a new Nuxt.js project, the standard directory structure looks something like this:
+In a Nuxt.js project, the `plugins` directory is  at the root level of your project structure. When you create a new Nuxt.js project, the standard directory structure looks something like this:
 
 ```
 project/
@@ -39,7 +39,7 @@ project/
   }
   ```
 
-  Replace `your-plugin.js` with the actual name of your plugin file.
+  Replace `your-plugin.js` with the  name of your plugin file.
 
 This setup allows Nuxt.js to recognize and load your plugins as part of the application's initialization process.
 
@@ -59,7 +59,7 @@ In this code:
 - `plugins` is an array where each item is a path to a JavaScript file in the `plugins` directory.
 - `~/` is an alias to the root directory of your project, and `plugins/example.js` is the path to your plugin file relative to the root.
 
-Make sure that the path you provide matches the actual location and name of your plugin file within your project's directory structure. If your plugin file is named differently or located in a subdirectory within the `plugins` folder, adjust the path accordingly.
+Make sure that the path you provide matches the  location and name of your plugin file within your project's directory structure. If your plugin file is named differently or located in a subdirectory within the `plugins` folder, adjust the path accordingly.
 
 2. **Initialize Supabase**: Create a file, e.g., `supabaseClient.js` in your `plugins` directory:
 
@@ -176,7 +176,7 @@ To implement the "Login With Magic Link" feature in your Nuxt.js app using the m
 
 The `data` variable in the code snippet you provided from the `loginWithEmail` method is part of the destructured response from the `signInWithOtp` method of the Supabase Auth API. In this context:
 
-- `data`: Contains the response from the Supabase server after attempting to sign in. For the "Login With Magic Link" feature, this typically doesn't include meaningful information, as the important part of the process is sending the magic link to the user's email.
+- `data`: Contains the response from the Supabase server after attempting to sign in. For the "Login With Magic Link" feature, this  doesn't include meaningful information, as the important part of the process is sending the magic link to the user's email.
 - `error`: Holds any error that might occur during the sign-in process.
 
 In the provided code, `data` is included as part of the standard structure of a JavaScript async function's response but is not used because the crucial part of this function is handling errors (e.g., if the email is invalid or there's a problem with the Supabase service). The success scenario is simply the absence of an error, indicated by a console log message "Magic link sent to your email!".

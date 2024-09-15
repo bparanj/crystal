@@ -16,7 +16,7 @@ To build a minimal prototype for WipeOS, focusing on the core feature of securel
 
 ### 2. **Install Nwipe**
 
-Nwipe is a simple command-line tool that can securely erase disks based on various standards, including NIST SP 800-88r1.
+Nwipe is a simple command-line tool that can securely erase disks based on various standards,  NIST SP 800-88r1.
 
 #### 2.1 **Installation Steps**
    - On the appliance machine, install Nwipe:
@@ -49,7 +49,7 @@ Nwipe is a simple command-line tool that can securely erase disks based on vario
    - `/dev/sda`: Specifies the disk to be wiped.
 
 #### 3.2 **Monitor the Process**
-   - As there is no UI, monitor the terminal for progress updates. Nwipe will display the wipe status, including completion percentage, speed, and any errors encountered.
+   - As there is no UI, monitor the terminal for progress updates. Nwipe will display the wipe status,  completion percentage, speed, and any errors encountered.
 
 ---
 

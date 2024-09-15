@@ -51,7 +51,7 @@ Optionally, if you want to list subnets within a specific VPC, you can add a fil
 aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxxxxx" --query "Subnets[].{ID:SubnetId,CIDR:CidrBlock,VPC:VpcId}" --output table
 ```
 
-Replace `vpc-xxxxxx` with your actual VPC ID. This command uses the `describe-subnets` operation with an optional filter to only show subnets that belong to a specific VPC. The `--query` option formats the output to include the subnet ID, CIDR block, and associated VPC ID.
+Replace `vpc-xxxxxx` with your  VPC ID. This command uses the `describe-subnets` operation with an optional filter to only show subnets that belong to a specific VPC. The `--query` option formats the output to include the subnet ID, CIDR block, and associated VPC ID.
 
 ```bash
 aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-0164b34c20f8a3819" --query "Subnets[].{ID:SubnetId,CIDR:CidrBlock,VPC:VpcId}" --output table
@@ -98,7 +98,7 @@ Here's how you might integrate these IDs into an Ansible playbook:
      ec2_group:
        name: my_security_group
        description: Security group for my application
-       vpc_id: vpc-12345678 # Replace with your actual VPC ID
+       vpc_id: vpc-12345678 # Replace with your  VPC ID
        rules:
          - proto: tcp
            from_port: 22
@@ -114,7 +114,7 @@ Here's how you might integrate these IDs into an Ansible playbook:
        key_name: my_keypair
        instance_type: t2.micro
        image: ami-12345678
-       vpc_subnet_id: subnet-87654321 # Replace with your actual subnet ID
+       vpc_subnet_id: subnet-87654321 # Replace with your  subnet ID
        assign_public_ip: yes
    ```
 

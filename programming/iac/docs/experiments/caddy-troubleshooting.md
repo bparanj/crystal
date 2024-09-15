@@ -1,4 +1,4 @@
-The error indicates that the attempt to restart the Caddy service failed. This can happen for various reasons, including misconfigurations in the `Caddyfile`, missing dependencies, or permission issues. Here's how you can troubleshoot and potentially resolve the issue:
+The error indicates that the attempt to restart the Caddy service failed. This can happen for various reasons,  misconfigurations in the `Caddyfile`, missing dependencies, or permission issues. Here's how you can troubleshoot and potentially resolve the issue:
 
 ### Step 1: Check Caddy's Service Status
 Log into the instance and check the status of the Caddy service to get more detailed error messages:

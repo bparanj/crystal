@@ -99,7 +99,7 @@ In summary, `newtype` and ADTs serve different needs in Haskell programming: `ne
 
 ## RGB - Example
 
-Representing an RGB color value, which consists of three components (Red, Green, Blue), each typically ranging from 0 to 255, is best suited as an algebraic data type (ADT) rather than a `newtype`. This choice is due to the need to bundle three separate values together into a single entity, which aligns with the use case for product types within ADTs.
+Representing an RGB color value, which consists of three components (Red, Green, Blue), each  ranging from 0 to 255, is best suited as an algebraic data type (ADT) rather than a `newtype`. This choice is due to the need to bundle three separate values together into a single entity, which aligns with the use case for product types within ADTs.
 
 ### Using an ADT for RGB
 

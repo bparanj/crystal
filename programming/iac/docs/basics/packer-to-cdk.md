@@ -65,7 +65,7 @@ class MyStack extends cdk.Stack {
 }
 ```
 
-In this example, the EC2 instance is defined using the desired configurations, including the provisioning steps from the Packer template in the `UserData` property. Then, a custom AMI is created based on the EC2 instance using the `ec2.AmazonLinuxImage` construct. Finally, an `ec2.CfnImage` construct is used to create the actual AMI.
+In this example, the EC2 instance is defined using the desired configurations,  the provisioning steps from the Packer template in the `UserData` property. Then, a custom AMI is created based on the EC2 instance using the `ec2.AmazonLinuxImage` construct. Finally, an `ec2.CfnImage` construct is used to create the  AMI.
 
 Remember to adjust the example based on your specific Packer template and AWS CDK setup. You may need to map the provisioning steps, configurations, and other elements from the Packer template to the corresponding AWS CDK constructs.
 
@@ -179,7 +179,7 @@ By using `ec2.CfnImage` and specifying the Ubuntu EC2 instance ID, we ensure tha
 
 In this converted code:
 
-1. The necessary AWS CDK modules are imported, including `aws_ec2` for EC2 resources and `aws_iam` for IAM roles.
+1. The necessary AWS CDK modules are imported,  `aws_ec2` for EC2 resources and `aws_iam` for IAM roles.
 
 2. The variables from the Packer template are defined at the beginning of the stack.
 

@@ -2,7 +2,7 @@ LED (Light Emitting Diode) has polarity. This means it has a positive and a nega
 
 ### Understanding LED Polarity
 
-1. **Anode (Positive Side):** The longer lead of an LED is typically the anode, or the positive side. This is the side that should be connected to the positive terminal of a power source.
+1. **Anode (Positive Side):** The longer lead of an LED is  the anode, or the positive side. This is the side that should be connected to the positive terminal of a power source.
 
 2. **Cathode (Negative Side):** The shorter lead is usually the cathode, or the negative side. This side should be connected to the negative terminal of the power source.
 
@@ -14,7 +14,7 @@ LED (Light Emitting Diode) has polarity. This means it has a positive and a nega
 
 If you connect an LED with incorrect polarity (reverse bias), it will not light up, and if a high enough reverse voltage is applied, the LED could be damaged. Therefore, it is crucial to connect an LED correctly to ensure it functions properly and avoid potential damage.
 
-The next step after the basic "Hello World" circuit would typically be a circuit that introduces a new concept or component while still being relatively simple. A perfect example of this is the LED circuit with a current-limiting resistor. Let's explore this:
+The next step after the basic "Hello World" circuit would  be a circuit that introduces a new concept or component while still being relatively simple. A perfect example of this is the LED circuit with a current-limiting resistor. Let's explore this:
 
 
 ```svg
@@ -60,7 +60,7 @@ This LED circuit introduces several new concepts while building on the "Hello Wo
 
 2. Current-Limiting Resistor: This resistor is crucial as it limits the current flowing through the LED, preventing it from burning out. It introduces the idea of component protection and current control.
 
-3. Voltage Drop: LEDs have a characteristic voltage drop (typically around 2V for red LEDs). This introduces the concept of voltage division in a circuit.
+3. Voltage Drop: LEDs have a characteristic voltage drop ( around 2V for red LEDs). This introduces the concept of voltage division in a circuit.
 
 4. Visible Output: Unlike the "Hello World" circuit where nothing visibly happens, this circuit produces light, providing immediate feedback and a sense of accomplishment for beginners.
 
@@ -83,7 +83,7 @@ After understanding the basic series resistor circuit, the next circuit that beg
 
 ### Components:
 1. **Power Source**: A battery (e.g., 9V) or a DC power supply.
-2. **Resistor**: A fixed resistor to limit current (typically between 220Ω and 1kΩ depending on the LED and power source).
+2. **Resistor**: A fixed resistor to limit current ( between 220Ω and 1kΩ depending on the LED and power source).
 3. **LED**: A Light Emitting Diode that emits light when current flows through it.
 4. **Wires**: To connect the components.
 
@@ -104,7 +104,7 @@ After understanding the basic series resistor circuit, the next circuit that beg
 - The resistor ensures that the current is at a safe level for the LED.
 
 ### Choosing the Resistor Value:
-To calculate the appropriate resistor value, you can use Ohm's Law, taking into account the forward voltage of the LED (typically around 2V for red LEDs, but it varies by color) and the desired current (usually around 20mA or 0.02A for standard LEDs).
+To calculate the appropriate resistor value, you can use Ohm's Law, taking into account the forward voltage of the LED ( around 2V for red LEDs, but it varies by color) and the desired current (usually around 20mA or 0.02A for standard LEDs).
 
 - **Formula**: \( R = \frac{V_{supply} - V_{LED}}{I_{LED}} \)
 - **Example**: If using a 9V battery and an LED with a forward voltage of 2V and a desired current of 20mA:
@@ -128,7 +128,7 @@ For a typical beginner's circuit, let's consider these parameters:
 
 1. Battery voltage: A common choice for beginners is a 9V battery. It's readily available and safe for most basic circuits.
 
-2. Desired current: For a simple LED circuit, we typically aim for around 20mA (0.02A) current. This is suitable for most standard LEDs.
+2. Desired current: For a simple LED circuit, we  aim for around 20mA (0.02A) current. This is suitable for most standard LEDs.
 
 Now, let's calculate:
 

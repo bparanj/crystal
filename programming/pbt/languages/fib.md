@@ -1,6 +1,6 @@
 ## Fibonacci
 
-Computing Fibonacci numbers efficiently often involves iterative or memoized solutions for performance reasons. However, expressing this in a concise, one-liner format across different languages, especially in a way that emphasizes efficiency, can be challenging due to syntax and language capabilities. The most efficient one-liners typically use recursion with memoization or iterative approaches, but for the sake of simplicity and brevity, here are concise examples for each language, focusing on clarity and directness rather than optimizing for performance.
+Computing Fibonacci numbers efficiently often involves iterative or memoized solutions for performance reasons. However, expressing this in a concise, one-liner format across different languages, especially in a way that emphasizes efficiency, can be challenging due to syntax and language capabilities. The most efficient one-liners  use recursion with memoization or iterative approaches, but for the sake of simplicity and brevity, here are concise examples for each language, focusing on clarity and directness rather than optimizing for performance.
 
 Note: These solutions are not always the most efficient in terms of execution time, especially for large Fibonacci numbers, due to the limitations of expressing the solution as a one-liner and without explicit memoization or iterative optimization.
 

@@ -16,7 +16,7 @@ Given your definition of `aws_access_key` and `aws_secret_key` variables in `var
 
 ### Setting Environment Variables
 
-Open your terminal and set the `TF_VAR_aws_access_key` and `TF_VAR_aws_secret_key` environment variables to the values of your AWS access key and secret key, respectively. Replace the placeholders with your actual AWS credentials:
+Open your terminal and set the `TF_VAR_aws_access_key` and `TF_VAR_aws_secret_key` environment variables to the values of your AWS access key and secret key, respectively. Replace the placeholders with your  AWS credentials:
 
 ```bash
 export TF_VAR_aws_access_key="your_aws_access_key_here"

@@ -48,6 +48,6 @@ aws ec2 authorize-security-group-ingress --group-name MySingleTierAppSG --protoc
 aws ec2 authorize-security-group-ingress --group-name MySingleTierAppSG --protocol tcp --port 22 --cidr YOUR_MANAGEMENT_IP/32
 ```
 
-Replace `vpc-xxxxxx` with your VPC ID and `YOUR_MANAGEMENT_IP` with your actual IP address.
+Replace `vpc-xxxxxx` with your VPC ID and `YOUR_MANAGEMENT_IP` with your  IP address.
 
 By following these steps, you create a secure environment for your single-tier application, allowing only the necessary traffic and minimizing potential attack surfaces.

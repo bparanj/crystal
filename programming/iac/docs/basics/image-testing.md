@@ -107,7 +107,7 @@ While automated tests cover a broad range of issues, some scenarios might requir
 ### Key Takeaways
 
 - Testing in isolation is essential for ensuring the reliability and security of your Packer images before deployment.
-- Utilize Packer's provisioners for basic testing, and then leverage more specialized tools for in-depth testing, including security assessments.
+- Utilize Packer's provisioners for basic testing, and then leverage more specialized tools for in-depth testing,  security assessments.
 - Integrating testing into your CI/CD workflows ensures continuous assessment and improvement of your images.
 
 By following these guidelines, you can effectively test your Packer images in isolation, ensuring they meet your standards for security, performance, and reliability before they are deployed.

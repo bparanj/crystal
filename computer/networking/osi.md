@@ -12,7 +12,7 @@
 
 The essence of each layer is described in just a few words to capture its core function:
 
-1. Physical: Focuses on the actual physical medium of data transmission.
+1. Physical: Focuses on the  physical medium of data transmission.
 2. Data Link: Ensures reliable data transfer between directly connected nodes.
 3. Network: Handles routing and addressing for data packets across different networks.
 4. Transport: Manages end-to-end communication between source and destination.
@@ -32,7 +32,7 @@ The essence of each layer is described in just a few words to capture its core f
 | 1. Physical | Convert to binary and transmit signals |
 
 
-This table shows how data moves down the OSI layers on the server side, with encryption typically occurring at the Presentation layer.
+This table shows how data moves down the OSI layers on the server side, with encryption  occurring at the Presentation layer.
 
 | Layer | Process on Client |
 |-------|-------------------|
@@ -45,14 +45,14 @@ This table shows how data moves down the OSI layers on the server side, with enc
 | 7. Application | Process and present data to user |
 
 
-This table illustrates how the encrypted data moves up the OSI layers on the client side, with decryption typically occurring at the Presentation layer.
+This table illustrates how the encrypted data moves up the OSI layers on the client side, with decryption  occurring at the Presentation layer.
 
 Key Takeaways:
 
 1. The process flows from top to bottom on the server side, and from bottom to top on the client side.
 2. Encryption and decryption usually occur at layer 6 (Presentation) using protocols like SSL/TLS.
 3. Each layer adds its own headers or processing on the server side, which are then checked and removed in reverse order on the client side.
-4. The actual transmission occurs at the Physical layer (layer 1).
+4. The  transmission occurs at the Physical layer (layer 1).
 5. The Session layer (layer 5) ensures the connection remains active throughout the process.
 6. The Transport layer (layer 4) handles segmentation on the server side and reassembly on the client side.
 
@@ -64,7 +64,7 @@ SSH client side:
 | 7. Application | User initiates SSH connection, provides credentials |
 | 6. Presentation | Encryption of data (e.g., AES), compression |
 | 5. Session | SSH protocol negotiation, authentication |
-| 4. Transport | TCP connection establishment (typically to port 22) |
+| 4. Transport | TCP connection establishment ( to port 22) |
 | 3. Network | IP packet routing |
 | 2. Data Link | Framing of data for network interface |
 | 1. Physical | Bits transmitted over physical medium |
@@ -93,10 +93,10 @@ Key points:
    - Both sides handle encryption/decryption (e.g., using AES) and potentially compression.
 
 3. Session Layer (5):
-   - Manages the SSH protocol, including version negotiation and authentication methods.
+   - Manages the SSH protocol,  version negotiation and authentication methods.
 
 4. Transport Layer (4):
-   - Uses TCP, typically on port 22, for reliable, ordered data delivery.
+   - Uses TCP,  on port 22, for reliable, ordered data delivery.
 
 5. Network Layer (3):
    - Handles IP routing between client and server.
@@ -105,7 +105,7 @@ Key points:
    - Manages the framing of data for the specific network interface.
 
 7. Physical Layer (1):
-   - Represents the actual transmission medium (e.g., Ethernet, Wi-Fi).
+   - Represents the  transmission medium (e.g., Ethernet, Wi-Fi).
 
 SSH, like many modern protocols, doesn't strictly adhere to the OSI model. It primarily operates at the Application layer but incorporates functions that span multiple layers, particularly in its handling of encryption and authentication.
 
@@ -116,7 +116,7 @@ Tables showing how HTTP (Hypertext Transfer Protocol) operates through the OSI l
 | 7. Application | User requests webpage, HTTP request formation (GET, POST, etc.) |
 | 6. Presentation | Optional encryption (HTTPS), data formatting |
 | 5. Session | Not explicitly used in HTTP (stateless), but may use cookies |
-| 4. Transport | TCP connection establishment (typically to port 80 or 443) |
+| 4. Transport | TCP connection establishment ( to port 80 or 443) |
 | 3. Network | IP packet routing |
 | 2. Data Link | Framing of data for network interface |
 | 1. Physical | Bits transmitted over physical medium |
@@ -130,7 +130,7 @@ Now, let's create a table for the HTTP server side:
 | 1. Physical | Bits received from physical medium |
 | 2. Data Link | Frame check and data extraction |
 | 3. Network | IP packet processing |
-| 4. Transport | TCP connection acceptance (typically on port 80 or 443) |
+| 4. Transport | TCP connection acceptance ( on port 80 or 443) |
 | 5. Session | Not explicitly used in HTTP (stateless), but may use cookies |
 | 6. Presentation | Optional decryption (HTTPS), data interpretation |
 | 7. Application | HTTP request processing, response generation |
@@ -151,7 +151,7 @@ Key points about HTTP operation through the OSI layers:
    - However, session management can be implemented using cookies or other methods at the application level.
 
 4. Transport Layer (4):
-   - Uses TCP, typically on port 80 for HTTP or 443 for HTTPS.
+   - Uses TCP,  on port 80 for HTTP or 443 for HTTPS.
    - Ensures reliable, ordered data delivery.
 
 5. Network Layer (3):
@@ -161,7 +161,7 @@ Key points about HTTP operation through the OSI layers:
    - Manages the framing of data for the specific network interface.
 
 7. Physical Layer (1):
-   - Represents the actual transmission medium (e.g., Ethernet, Wi-Fi).
+   - Represents the  transmission medium (e.g., Ethernet, Wi-Fi).
 
 While HTTP primarily operates at the Application layer, the use of HTTPS (HTTP Secure) incorporates functions that span multiple layers, particularly in its handling of encryption.
 
@@ -191,7 +191,7 @@ This table provides a more detailed look at the elements and operations involved
 
 6. Data Link Layer: Ethernet frames are created, embedding the MAC addresses of the source and destination for local network transmission.
 
-7. Physical Layer: The actual transmission of bits occurs here, whether through electrical signals in cables or radio waves for Wi-Fi.
+7. Physical Layer: The  transmission of bits occurs here, whether through electrical signals in cables or radio waves for Wi-Fi.
 
 
 | OSI Layer | Protocols/Technologies Used |
@@ -222,4 +222,4 @@ This table provides a more detailed look at the elements and operations involved
 4. Transport Layer: Uses ports to ensure data reaches the correct application.
 5. Network Layer: Deals with logical addressing (IP) and routing.
 6. Data Link Layer: Uses MAC addresses for physical addressing on a local network.
-7. Physical Layer: Consists of the actual hardware that transmits the raw bit stream.
+7. Physical Layer: Consists of the  hardware that transmits the raw bit stream.

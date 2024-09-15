@@ -41,7 +41,7 @@ Several open-source tools provide data wiping standards like NIST 800-88r1 Clear
      - DoD 5220.22-M (3-Pass)
      - DoD 5220.28-STD (7-Pass)
    - **Overview**:
-     - Nwipe is a disk-wiping tool that originated from the DBAN project but is actively maintained. It supports a variety of secure data erasure standards, including those required by NIST and DoD.
+     - Nwipe is a disk-wiping tool that originated from the DBAN project but is actively maintained. It supports a variety of secure data erasure standards,  those required by NIST and DoD.
    - **How to Use**:
      - Nwipe can be run from the command line or integrated into a bootable Linux system like ShredOS. You can specify the desired wiping method by using its flags when invoking the tool on a disk.
    - **Website**: [Nwipe on GitHub](https://github.com/PartialVolume/nwipe)
@@ -53,7 +53,7 @@ Several open-source tools provide data wiping standards like NIST 800-88r1 Clear
    - **Overview**:
      - DBAN is one of the original tools for secure disk erasure and supports several wiping standards. While it is no longer actively maintained, it is still used for basic secure wiping tasks.
    - **How to Use**:
-     - DBAN boots from a USB or CD and offers menu-driven options to select the wiping standard, including DoD and custom overwriting methods.
+     - DBAN boots from a USB or CD and offers menu-driven options to select the wiping standard,  DoD and custom overwriting methods.
    - **Website**: [DBAN Official](https://dban.org/)
 
 ### 3. **Blancco Drive Eraser** (Open-source alternative: Nwipe or DBAN)
@@ -88,7 +88,7 @@ Several open-source tools provide data wiping standards like NIST 800-88r1 Clear
      ```
 
 ### Summary:
-- **Nwipe** (via ShredOS or directly) is the closest open-source equivalent supporting multiple erasure standards, including NIST 800-88r1 and DoD 5220.22-M.
+- **Nwipe** (via ShredOS or directly) is the closest open-source equivalent supporting multiple erasure standards,  NIST 800-88r1 and DoD 5220.22-M.
 - **DBAN** is an older but still usable option for DoD standards.
 - **Secure Erase** (`hdparm`) can be used for NIST 800-88r1 Clear operations, especially for SSDs.
 

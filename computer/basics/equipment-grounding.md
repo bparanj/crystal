@@ -22,7 +22,7 @@ Equipment grounding in electronics is a safety measure designed to protect peopl
    - **International Standards**: Various countries have their own standards and codes for grounding, such as the IEC standards.
 
 6. **Common Practices**:
-   - **Grounding Outlets**: Electrical outlets typically have a ground pin or slot connected to the grounding system.
+   - **Grounding Outlets**: Electrical outlets  have a ground pin or slot connected to the grounding system.
    - **Grounding Electronic Devices**: Electronic devices often have a grounding point or terminal that should be connected to the grounding system.
 
 7. **Benefits**:

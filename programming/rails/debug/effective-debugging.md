@@ -8,7 +8,7 @@
 
 ### Taking Notes
 
-- Document progress by documenting the steps for investigating and fixing the bug including dead ends. Write down the comands used to log or trace the program.
+- Document progress by documenting the steps for investigating and fixing the bug  dead ends. Write down the comands used to log or trace the program.
 
 ### Interface
 

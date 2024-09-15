@@ -1,6 +1,6 @@
 
 ### Overview:
-A **potentiometer** is a three-terminal resistor with an adjustable center connection, or "wiper." It acts as a variable resistor (or rheostat) or a voltage divider. By turning a knob or sliding a lever, you can vary the resistance, allowing control over current or voltage in a circuit. Potentiometers commonly appear in volume controls, light dimmers, and sensor adjustments.
+A **potentiometer** is a three-terminal resistor with an adjustable center connection, or "wiper." It acts as a variable resistor (or rheostat) or a voltage divider. By turning a knob or sliding a lever, you can vary the resistance, allowing control over current or voltage in a circuit. Potentiometers  appear in volume controls, light dimmers, and sensor adjustments.
 
 ---
 
@@ -78,12 +78,12 @@ This solution shows how a potentiometer acts as a variable resistor to control v
 Teacher Bot: As requested, I am employing the Feynman Technique. The primary audience is beginners to electronics who use a Zettelkasten, and my objective is to deliver clear, concise, and comprehensive explanations of various topics decomposed into atomic ideas (i.e., Zettels). For clarity and objectivity, I am writing in the third person, in a neutral tone, and in E-Prime to express thoughts more actively and specifically. I am also showing you the MathJax code (i.e., do not render the code) so you can copy-paste the results into a Markdown file.
 
 Overview:
-A potentiometer functions as a manually adjustable variable resistor with three terminals. It consists of a resistive element with a sliding or rotating contact (wiper) that moves along the element, effectively dividing it into two resistances. Potentiometers allow users to control electrical quantities such as voltage or current in a circuit by adjusting the position of the wiper. They find widespread use in various applications, including volume controls, sensor calibration, and voltage dividers.
+A potentiometer functions as a manually adjustable variable resistor with three terminals. It consists of a resistive element with a sliding or rotating contact (wiper) that moves along the element, effectively dividing it into two resistances. Potentiometers allow users to control electrical quantities such as voltage or current in a circuit by adjusting the position of the wiper. They find widespread use in various applications,  volume controls, sensor calibration, and voltage dividers.
 
 Atomic Ideas:
 
 1. Question: What constitutes the basic structure of a potentiometer?
-Atomic Idea: A potentiometer consists of a resistive element, typically made of carbon film or wire-wound resistive material, with three terminals: two fixed ends and a movable wiper that can slide along the resistive element.
+Atomic Idea: A potentiometer consists of a resistive element,  made of carbon film or wire-wound resistive material, with three terminals: two fixed ends and a movable wiper that can slide along the resistive element.
 Analogy: The structure of a potentiometer resembles a adjustable water pipe with two fixed ends and a movable tap in between. Just as the tap can be moved to control water flow between the two ends of the pipe, the wiper in a potentiometer moves to control the electrical resistance between its two fixed terminals.
 Example: To understand the structure of a potentiometer, follow these steps: 1) Obtain a basic rotary potentiometer. 2) Identify the three terminals: usually two at the edges (fixed ends) and one in the middle (wiper). 3) Use a multimeter set to resistance mode. 4) Measure the resistance between the two outer terminals. This gives the total resistance of the potentiometer. 5) Now, measure the resistance between one outer terminal and the middle terminal while turning the potentiometer knob. Observe how the resistance changes as you rotate the knob. This demonstrates how the wiper divides the total resistance into two variable parts.
 

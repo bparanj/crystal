@@ -1,4 +1,4 @@
-In lambda calculus, a **combinator** is a lambda expression that does not contain any free variables. This means every variable used in the expression is defined or "bound" within the expression itself, typically as a parameter of the lambda function.
+In lambda calculus, a **combinator** is a lambda expression that does not contain any free variables. This means every variable used in the expression is defined or "bound" within the expression itself,  as a parameter of the lambda function.
 
 Let's examine each of the given lambda expressions to determine if they are combinators:
 

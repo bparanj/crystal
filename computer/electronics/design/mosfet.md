@@ -9,7 +9,7 @@ MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) are essential compo
 
 ### 3. **Scalability and Integration**:
    - **Small Size**: MOSFETs can be made very small, which allows them to be densely packed onto integrated circuits (ICs). This is critical for the miniaturization of electronic devices, enabling the creation of complex ICs like microprocessors and memory chips with millions or billions of transistors.
-   - **Integration**: Because of their size and efficiency, MOSFETs are the building blocks of modern digital ICs, including CPUs, GPUs, and RAM. They are fundamental to the operation of all digital electronics.
+   - **Integration**: Because of their size and efficiency, MOSFETs are the building blocks of modern digital ICs,  CPUs, GPUs, and RAM. They are fundamental to the operation of all digital electronics.
 
 ### 4. **Versatility**:
    - **Dual Operation Modes**: MOSFETs can operate in two regions: the linear (or ohmic) region and the saturation region. This allows them to function as both analog devices (for amplification) and digital devices (for switching).

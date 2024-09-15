@@ -12,7 +12,7 @@ To output the AWS account ID that the AWS CLI is currently configured to use, yo
 aws sts get-caller-identity --query "Account" --output text
 ```
 
-This command uses the AWS Security Token Service (STS) to retrieve details about the credentials used to call the AWS CLI, including the account ID. The `--query "Account"` parameter extracts just the account ID from the response, and `--output text` formats the output as plain text.
+This command uses the AWS Security Token Service (STS) to retrieve details about the credentials used to call the AWS CLI,  the account ID. The `--query "Account"` parameter extracts just the account ID from the response, and `--output text` formats the output as plain text.
 
 ## Terraform
 
@@ -52,7 +52,7 @@ After applying your Terraform configuration, the output will display the AWS acc
 
 Yes, separating concerns by having an `outputs.tf` file for outputs and using the `data` blocks within your `main.tf` (or any other Terraform configuration file) is a good practice for organizing your Terraform code. This makes your infrastructure code more maintainable and easier to understand.
 
-- **Outputs.tf**: This file typically contains output variables that you want to display after Terraform applies your configurations. Outputs can be useful for extracting specific values from your resources, like IP addresses, DNS names, etc.
+- **Outputs.tf**: This file  contains output variables that you want to display after Terraform applies your configurations. Outputs can be useful for extracting specific values from your resources, like IP addresses, DNS names, etc.
 
 - **Main.tf**: This is often the primary entry file for Terraform configurations. It can include `resource`, `provider`, `variable`, and `data` blocks, among others. Using `data` blocks here allows you to fetch and use information about resources that are either managed outside of Terraform or created in other parts of your Terraform code.
 

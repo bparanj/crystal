@@ -2,7 +2,7 @@ A network segment is a portion of a computer network that is separated from the 
 
 1. Definition: It's a section of a network that shares a common physical medium or logical division.
 
-2. Boundaries: Segments are typically bounded by network devices that can filter or direct traffic between segments.
+2. Boundaries: Segments are  bounded by network devices that can filter or direct traffic between segments.
 
 3. Traffic isolation: Each segment can have its own traffic, which doesn't necessarily affect other segments directly.
 

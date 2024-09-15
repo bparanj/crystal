@@ -1,6 +1,6 @@
 ## Code as Exemplar
 
-Sometimes, when trying to understand how a particular feature in software works, you can find explanations in textbooks or articles. But often, the best way to learn “how it's done” is by reading the actual code. This approach is not only useful for understanding the functionality but also essential for developing software that needs to be compatible with that existing code.
+Sometimes, when trying to understand how a particular feature in software works, you can find explanations in textbooks or articles. But often, the best way to learn “how it's done” is by reading the  code. This approach is not only useful for understanding the functionality but also essential for developing software that needs to be compatible with that existing code.
 
 Be flexible. Use a number of different strategies to understand how the code works. Start with any documentation. Use the system to get a feel for its external interfaces. Understand what you are looking for:
 

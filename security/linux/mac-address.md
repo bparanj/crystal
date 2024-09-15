@@ -56,7 +56,7 @@ A **MAC (Media Access Control) address** is a unique identifier assigned to netw
    - [IEEE Standards Association](https://standards.ieee.org/)
 
 2. **Cisco**:
-   - Cisco provides detailed guides on networking concepts, including MAC addresses and their role in network communication.
+   - Cisco provides detailed guides on networking concepts,  MAC addresses and their role in network communication.
    - [Cisco Networking Academy](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-ethernet.html)
 
 3. **Techopedia**:

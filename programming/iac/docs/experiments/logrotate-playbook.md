@@ -41,7 +41,7 @@ Here's a basic example of how such a playbook might look:
 
 2. **Setup custom logrotate configuration**: This task uses a Jinja2 template file (`custom_logrotate.conf.j2`) to create a custom logrotate configuration. You'll need to create this template based on your specific log rotation needs.
 
-3. **Handlers - force log rotation**: Optionally, you can immediately force log rotation to test your configuration. This handler runs `logrotate -f`, which forces rotation based on your custom configuration. `changed_when: false` is used to prevent Ansible from reporting this task as a change on subsequent playbook runs if the actual state hasn't changed.
+3. **Handlers - force log rotation**: Optionally, you can immediately force log rotation to test your configuration. This handler runs `logrotate -f`, which forces rotation based on your custom configuration. `changed_when: false` is used to prevent Ansible from reporting this task as a change on subsequent playbook runs if the  state hasn't changed.
 
 ### Custom Logrotate Configuration Template
 
@@ -158,7 +158,7 @@ Ensure the Ansible playbook is correctly pointing to this Jinja2 template for th
 
 After setting up the playbook and Jinja2 template, run the playbook against your servers to deploy the custom logrotate configuration. Monitor the log directories to ensure logs are being rotated as expected and services continue to operate without interruption.
 
-For managing Rails application log files with logrotate, you can customize the logrotate configuration to include rules specific to your Rails logs. Rails applications typically log to one or more files in the `log` directory within the application root, such as `production.log`, `development.log`, etc. You'll want to ensure these logs are rotated regularly to prevent them from consuming too much disk space, while also preserving enough historical log data for troubleshooting.
+For managing Rails application log files with logrotate, you can customize the logrotate configuration to include rules specific to your Rails logs. Rails applications  log to one or more files in the `log` directory within the application root, such as `production.log`, `development.log`, etc. You'll want to ensure these logs are rotated regularly to prevent them from consuming too much disk space, while also preserving enough historical log data for troubleshooting.
 
 Here's how you can adjust the `custom_logrotate.conf.j2` template to include a section for Rails log rotation:
 
@@ -186,7 +186,7 @@ Modify your `custom_logrotate.conf.j2` Jinja2 template to include a section for 
 }
 ```
 
-- **Path Adjustment**: Replace `/path/to/your/rails_app/log/*.log` with the actual path to your Rails application's log directory.
+- **Path Adjustment**: Replace `/path/to/your/rails_app/log/*.log` with the  path to your Rails application's log directory.
 - **User and Group**: Replace `{{ rails_user }}` and `{{ rails_group }}` with the user and group that your Rails application runs as. This ensures that logrotate has the proper permissions to create and manage the log files.
 - **Rotation Policy**: This example rotates logs weekly, keeps 5 old log files, compresses old versions, and ensures the log files are created with the correct permissions if a new one needs to be started.
 - **Postrotate Script**: The `postrotate` script is crucial for gracefully reloading the application or web server (e.g., Puma, Unicorn, Passenger) to ensure it starts writing to the newly rotated log file. The example shown sends the `USR1` signal to Puma, which is one way to achieve log rotation without restarting the server. Adjust the signal and process identification method according to your specific application server and setup.
@@ -196,4 +196,4 @@ Modify your `custom_logrotate.conf.j2` Jinja2 template to include a section for 
 - **Signal Handling**: Ensure your application server is configured to handle the signal sent in the `postrotate` script correctly. For Puma, `USR1` is used by default to rotate logs, but this may vary between application servers and configurations.
 - **Process Identification**: The `pgrep -f` command is used to find the process ID of your application server (Puma, in the example). You may need to adjust the pattern to match your server process name or use a different method to identify the correct PID for signaling.
 
-After updating the template, re-run your Ansible playbook to apply the new logrotate configuration. It's a good practice to manually run `logrotate` with the `-d` (debug) option to verify your configuration without actually rotating the logs, ensuring everything is set up as expected before it goes into effect automatically.
+After updating the template, re-run your Ansible playbook to apply the new logrotate configuration. It's a good practice to manually run `logrotate` with the `-d` (debug) option to verify your configuration without ly rotating the logs, ensuring everything is set up as expected before it goes into effect automatically.

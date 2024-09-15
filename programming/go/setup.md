@@ -58,7 +58,7 @@ After setting `GOPATH`, verify that it's correctly set by running:
 echo $GOPATH
 ```
 
-This should output the directory you set, typically `$HOME/go`. The `GOPATH` is now defined, and Go will look for projects and packages in that directory.
+This should output the directory you set,  `$HOME/go`. The `GOPATH` is now defined, and Go will look for projects and packages in that directory.
 
 Since you're using the `.bashrc` file and encountering the "command not found" error for `go`, it suggests that Go is either not installed correctly or its installation path is not included in your `PATH`. Here's how to resolve this:
 

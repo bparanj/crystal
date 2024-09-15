@@ -66,7 +66,7 @@ This `goss.yaml` file in the tests directory specifies that each listed package 
 
 This approach allows you to systematically verify the setup of your systems, ensuring that all necessary packages are installed according to your specifications.
 
-The location of the `goss.yaml` file within your project directory should be structured based on how you organize your Packer and Ansible configurations, as well as how you plan to execute Goss tests. A common approach is to place test files, including `goss.yaml`, in a directory dedicated to testing or validation scripts. This helps maintain a clean project structure and simplifies the process of specifying the path to the `goss.yaml` file in your automation scripts.
+The location of the `goss.yaml` file within your project directory should be structured based on how you organize your Packer and Ansible configurations, as well as how you plan to execute Goss tests. A common approach is to place test files,  `goss.yaml`, in a directory dedicated to testing or validation scripts. This helps maintain a clean project structure and simplifies the process of specifying the path to the `goss.yaml` file in your automation scripts.
 
 Given a project with both Packer and Ansible, a suggested project structure might look like this:
 
@@ -90,7 +90,7 @@ In this structure:
 
 - The `packer/` directory contains your Packer templates and related files.
 - The `ansible/` directory holds Ansible playbooks and roles.
-- The `tests/` directory is dedicated to testing scripts and files, including your `goss.yaml`.
+- The `tests/` directory is dedicated to testing scripts and files,  your `goss.yaml`.
 
 This setup allows you to easily reference the `goss.yaml` file from your Packer or Ansible scripts, knowing it's located in the `tests/` directory relative to the root of your project.
 
@@ -175,7 +175,7 @@ Here's a summary of the key parts and their correctness:
 - **Run Goss Validation**: Uses the `chdir` argument to switch to the directory containing `goss.yaml` before running the validation, ensuring Goss can find the test file. This is the correct approach to resolving the earlier issue.
 - **List Contents of Goss Test Directory**: This debugging task will list the contents of the Goss test directory, helping verify that the `goss.yaml` file is in the expected location before validation.
 - **Show Contents of Goss Test Directory**: Displays the output from listing the directory contents, which is useful for debugging.
-- **Show Goss Validation Results and Errors**: These tasks will output the results of the Goss validation, including any errors if the validation fails (`when: test_result.rc != 0`), which is essential for troubleshooting failed validations.
+- **Show Goss Validation Results and Errors**: These tasks will output the results of the Goss validation,  any errors if the validation fails (`when: test_result.rc != 0`), which is essential for troubleshooting failed validations.
 
 Overall, your playbook is well-structured for the task of deploying Goss to a remote system, running validations, and providing useful debug information in case of issues. Ensure the paths used in the playbook accurately reflect your project's directory structure, and adjust as necessary based on where the playbook is executed from within your project.
 

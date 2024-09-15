@@ -4,7 +4,7 @@ Ansible is organized into collections, which are a distribution format for Ansib
 
 To find the dependency declaration for Boto3 in the `amazon.aws` collection, you can follow these steps:
 
-1. Navigate to the `amazon.aws` collection directory in the Ansible codebase. The path may vary depending on your Ansible installation, but it is typically located in the `ansible_collections/amazon/aws` directory.
+1. Navigate to the `amazon.aws` collection directory in the Ansible codebase. The path may vary depending on your Ansible installation, but it is  located in the `ansible_collections/amazon/aws` directory.
 
 2. Look for the `requirements.txt` file within the `amazon.aws` collection directory. This file contains the Python dependencies required by the collection.
 

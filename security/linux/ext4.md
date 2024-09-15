@@ -14,7 +14,7 @@
    - Ext4 uses extents to improve the performance of large files. An extent is a range of contiguous physical blocks, making it more efficient to store large files and reducing fragmentation.
 
 4. **Delayed Allocation**:
-   - This feature improves performance and reduces fragmentation by delaying the allocation of disk blocks until data is actually written to the disk.
+   - This feature improves performance and reduces fragmentation by delaying the allocation of disk blocks until data is ly written to the disk.
 
 5. **Multiblock Allocation**:
    - Allows for allocating multiple blocks at once, improving the performance of operations that require writing a lot of data.
@@ -49,7 +49,7 @@ The numerical sequence in the name reflects the evolution and enhancements intro
    - [Arch Linux Wiki: ext4](https://wiki.archlinux.org/title/ext4)
 
 4. **"Linux Kernel Development" by Robert Love**:
-   - This book provides insights into the development and functionality of the Linux kernel, including file systems like ext4.
+   - This book provides insights into the development and functionality of the Linux kernel,  file systems like ext4.
 
 ext4 improves the performance, reliability, and scalability of file storage in Linux systems. The name signifies its place as the latest iteration in the extended filesystem series, building on the capabilities of its predecessors.
 

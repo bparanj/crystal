@@ -1,6 +1,6 @@
 Integrating Supabase Authentication with Ruby on Rails: Securely Matching JWT Tokens to Users
 
-To ensure your Ruby on Rails API recognizes which user a valid token belongs to, you'll need to extract and verify the user's information embedded within the token. Supabase uses JWT (JSON Web Tokens) for authentication, and these tokens typically contain identifiable user information, such as a user ID. Here's how you can extract and utilize this information in your Rails API:
+To ensure your Ruby on Rails API recognizes which user a valid token belongs to, you'll need to extract and verify the user's information embedded within the token. Supabase uses JWT (JSON Web Tokens) for authentication, and these tokens  contain identifiable user information, such as a user ID. Here's how you can extract and utilize this information in your Rails API:
 
 ### 1. **Decode the JWT**
 
@@ -27,7 +27,7 @@ end
 
 ### 2. **Extract User Information**
 
-The payload (`user_info` in the above code) will typically include the user's ID as assigned by Supabase. This ID is unique to each user. 
+The payload (`user_info` in the above code) will  include the user's ID as assigned by Supabase. This ID is unique to each user. 
 
 ```ruby
 user_id = user_info['sub'] # 'sub' is a standard claim in JWTs representing the subject (or user ID)
@@ -43,7 +43,7 @@ For each API request, after decoding the token and extracting the user ID, query
 
 ### 5. **Handle Exceptions**
 
-If the token is invalid, expired, or doesn't have the required information, your middleware should handle these exceptions appropriately, typically by sending a 401 Unauthorized response.
+If the token is invalid, expired, or doesn't have the required information, your middleware should handle these exceptions appropriately,  by sending a 401 Unauthorized response.
 
 ### 6. **Secure User Data**
 

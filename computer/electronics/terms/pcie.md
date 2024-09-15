@@ -8,7 +8,7 @@
 
 4. **Backward Compatibility**: PCIe is backward compatible, meaning you can use a PCIe 3.0 card in a PCIe 4.0 slot, but it will operate at the lower speed of the PCIe 3.0 standard.
 
-5. **Versatility**: PCIe is used in a variety of devices beyond just computers, including servers, set-top boxes, and gaming consoles⁴.
+5. **Versatility**: PCIe is used in a variety of devices beyond just computers,  servers, set-top boxes, and gaming consoles⁴.
 
 Overall, PCIe's flexibility and high-speed capabilities make it a crucial component in modern computing.
 

@@ -1,4 +1,4 @@
-Terratest is a popular testing framework in the Go programming language that is often used for testing infrastructure code, including Terraform configurations, Packer templates, and other infrastructure-as-code tools. However, it's important to note that Terratest is not specifically designed for testing Packer images but rather for testing infrastructure code in general.
+Terratest is a popular testing framework in the Go programming language that is often used for testing infrastructure code,  Terraform configurations, Packer templates, and other infrastructure-as-code tools. However, it's important to note that Terratest is not specifically designed for testing Packer images but rather for testing infrastructure code in general.
 
 When it comes to testing Packer images, there are a few common approaches and tools:
 
@@ -15,7 +15,7 @@ When it comes to testing Packer images, there are a few common approaches and to
 
 3. Serverspec or InSpec:
 
-   - Serverspec and InSpec are popular testing frameworks used for infrastructure testing, including testing server configurations and images.
+   - Serverspec and InSpec are popular testing frameworks used for infrastructure testing,  testing server configurations and images.
    - These frameworks allow you to write tests in a declarative manner, specifying the desired state and configuration of the image.
    - You can use these frameworks to write tests that verify the presence of specific files, packages, services, or configuration settings within the Packer-built image.
 
@@ -23,6 +23,6 @@ When it comes to testing Packer images, there are a few common approaches and to
    - You can also write custom scripts or test suites in any programming language to perform specific tests on the Packer-built image.
    - These tests can be integrated into your continuous integration and deployment (CI/CD) pipeline to automatically test the image after it is built.
 
-While Terratest can be used to test Packer templates and the infrastructure code around them, it may not be the most common or specialized tool specifically for testing Packer images. Serverspec and InSpec are more commonly used for infrastructure and image testing due to their declarative nature and focus on configuration testing.
+While Terratest can be used to test Packer templates and the infrastructure code around them, it may not be the most common or specialized tool specifically for testing Packer images. Serverspec and InSpec are more  used for infrastructure and image testing due to their declarative nature and focus on configuration testing.
 
 Ultimately, the choice of testing framework or approach depends on your specific requirements, the complexity of your Packer templates, and the level of automation and coverage you desire in your testing process. It's important to choose a testing approach that aligns with your team's skills, project needs, and infrastructure ecosystem.

@@ -87,7 +87,7 @@ In the context of the Packer template you provided, the `owners` field within th
 
 In this case, the `owners` field is set to `["099720109477"]`. This means that Packer will filter the AMIs and select the most recent one owned by the account with the ID `099720109477`.
 
-This account ID is commonly used in Packer templates because it's the ID for the official Canonical account. Canonical is the company that produces and maintains Ubuntu, so this ID is used to filter for official Ubuntu AMIs.
+This account ID is  used in Packer templates because it's the ID for the official Canonical account. Canonical is the company that produces and maintains Ubuntu, so this ID is used to filter for official Ubuntu AMIs.
 
 Here's the relevant part of the code:
 

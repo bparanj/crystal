@@ -12,7 +12,7 @@ In Debian, `/dev/sda` represents the first SCSI (or SATA) disk drive on your sys
   ```bash
   lsblk
   ```
-  This command will show all block devices and their partitions, including `/dev/sda` and its partitions.
+  This command will show all block devices and their partitions,  `/dev/sda` and its partitions.
 
 - **Checking Disk Information**:
   ```bash
@@ -20,7 +20,7 @@ In Debian, `/dev/sda` represents the first SCSI (or SATA) disk drive on your sys
   ```
   This command provides detailed information about the disk and its partitions.
 
-Yes, the naming convention `/dev/sdX` is still applicable even if the hardware is not using SCSI or SATA. This is because the Linux kernel uses the same naming scheme for various types of storage devices, including:
+Yes, the naming convention `/dev/sdX` is still applicable even if the hardware is not using SCSI or SATA. This is because the Linux kernel uses the same naming scheme for various types of storage devices, :
 
 - **SCSI** (Small Computer System Interface)
 - **SATA** (Serial ATA)

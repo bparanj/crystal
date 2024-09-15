@@ -72,7 +72,7 @@ Select a learge software system, locate where arrays are used and categorize the
 
 Fixed-length arrays notoriously impose arbitrary limits to a program's operation. Locate 10 instances of such limits in existing code and check whether these are documented in the respective system's documentation.
 
-Buffer overflow, a common issue in lower-level languages like C, is much less likely in Ruby due to its high-level nature and built-in memory management. In Ruby, memory allocation and size management for data structures (like arrays and strings) are handled automatically, reducing the risk of buffer overflows, which typically occur when a program writes more data to a buffer than it can hold.
+Buffer overflow, a common issue in lower-level languages like C, is much less likely in Ruby due to its high-level nature and built-in memory management. In Ruby, memory allocation and size management for data structures (like arrays and strings) are handled automatically, reducing the risk of buffer overflows, which  occur when a program writes more data to a buffer than it can hold.
 
 However, buffer overflow can still be a concern in Ruby in certain situations:
 

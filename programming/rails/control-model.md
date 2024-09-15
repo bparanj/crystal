@@ -3,7 +3,7 @@
 A system's control model describes how its constituent subsystems interact with each other. Many systems adopt a simple, centralized, single-threaded call and return control model. Some of the system structures are implicitly based on a specific control model: 
 
 - In a data-flow structure subsystems are controlled by the flow of data
-- In an object-oriented structure control is typically coordinated through method invocations
+- In an object-oriented structure control is  coordinated through method invocations
 - Event-driven
 - System manager 
 - State transitions

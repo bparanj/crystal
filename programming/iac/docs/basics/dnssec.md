@@ -30,7 +30,7 @@ The general process involves:
 - Configuring your DNS zone to sign DNS records with the private key. This is often handled automatically by your DNS provider when you enable DNSSEC.
 
 ### 3. Publish DS Records with Your Domain Registrar
-Once DNSSEC is enabled on your DNS hosting side, you typically need to provide the DS record to your domain registrar, who will then publish it in the parent zone. Some DNS providers and registrars automate this exchange, but in other cases, you may need to manually input the DS record details through your registrar's control panel.
+Once DNSSEC is enabled on your DNS hosting side, you  need to provide the DS record to your domain registrar, who will then publish it in the parent zone. Some DNS providers and registrars automate this exchange, but in other cases, you may need to manually input the DS record details through your registrar's control panel.
 
 ### 4. Test Your DNSSEC Implementation
 After enabling DNSSEC and publishing the DS record, it's crucial to test and ensure everything is working correctly. Tools like `dig` (with the `+dnssec` option) can verify DNSSEC signatures. Additionally, online tools like Verisign's DNSSEC Analyzer (https://dnssec-analyzer.verisignlabs.com/) can provide a visual report on the DNSSEC status of your domain.
@@ -44,18 +44,18 @@ Enabling DNSSEC is a significant step towards securing your domain and protectin
 
 Use https://dnsmadeeasy.com/post/how-to-use-dns-to-prevent-security-issues-dnssec or AWS Route 53:
 
-As of my last update in April 2023, AWS Route 53 supports DNSSEC for domain registration and DNS service, which adds a layer of security by enabling you to sign your domain's DNS responses. However, regarding API support for DNSSEC in Route 53, AWS does provide APIs that can be used to manage various aspects of your DNS, including some DNSSEC operations.
+As of my last update in April 2023, AWS Route 53 supports DNSSEC for domain registration and DNS service, which adds a layer of security by enabling you to sign your domain's DNS responses. However, regarding API support for DNSSEC in Route 53, AWS does provide APIs that can be used to manage various aspects of your DNS,  some DNSSEC operations.
 
-The Route 53 API allows for programmatically interacting with the service, including operations like creating, listing, and deleting hosted zones, and managing DNS records within those zones. For DNSSEC specifically, Route 53 supports the management of DNSSEC signing for domains registered with Route 53 and those using Route 53 as their DNS service. This includes the ability to enable DNSSEC signing, disable it, and manage key signing keys (KSKs) through the AWS Management Console, AWS CLI, or Route 53 API.
+The Route 53 API allows for programmatically interacting with the service,  operations like creating, listing, and deleting hosted zones, and managing DNS records within those zones. For DNSSEC specifically, Route 53 supports the management of DNSSEC signing for domains registered with Route 53 and those using Route 53 as their DNS service. This includes the ability to enable DNSSEC signing, disable it, and manage key signing keys (KSKs) through the AWS Management Console, AWS CLI, or Route 53 API.
 
 To use DNSSEC with Route 53:
 
 1. **Enable DNSSEC Signing**: For domains that support DNSSEC, you can enable signing through the AWS Management Console or by using the AWS CLI or SDKs. The process involves creating a hosted zone for your domain and then enabling DNSSEC signing for that zone.
 
-2. **Manage Key Signing Keys (KSKs)**: AWS Route 53 allows you to manage your KSKs, including creating new keys, rotating keys, and setting the status of keys. These operations can be performed through the AWS Management Console or programmatically via the AWS CLI or SDKs, using the appropriate API calls.
+2. **Manage Key Signing Keys (KSKs)**: AWS Route 53 allows you to manage your KSKs,  creating new keys, rotating keys, and setting the status of keys. These operations can be performed through the AWS Management Console or programmatically via the AWS CLI or SDKs, using the appropriate API calls.
 
 3. **DS Records**: When you enable DNSSEC for a domain, Route 53 generates DS records that you need to register with the domain's registrar (unless Route 53 is the registrar, in which case this step is handled automatically). This is crucial for establishing the chain of trust necessary for DNSSEC to function.
 
-It's important to refer to the AWS documentation for the most current information and detailed guides on how to manage DNSSEC with Route 53, including API references and examples. The AWS documentation provides comprehensive details on the available API actions, data types, and errors for Route 53, which would be the authoritative source for any updates or changes to the service's capabilities regarding DNSSEC.
+It's important to refer to the AWS documentation for the most current information and detailed guides on how to manage DNSSEC with Route 53,  API references and examples. The AWS documentation provides comprehensive details on the available API actions, data types, and errors for Route 53, which would be the authoritative source for any updates or changes to the service's capabilities regarding DNSSEC.
 
 To get started with the API for DNSSEC-related tasks or any other Route 53 operations, you'll need to familiarize yourself with the AWS SDK for your programming language of choice or use the AWS CLI, ensuring you have the necessary permissions to perform DNSSEC operations.

@@ -123,7 +123,7 @@ By choosing the right clothing materials and ensuring proper grounding, you can 
 To avoid electrostatic discharge (ESD), it's important to wear shoes specifically designed to dissipate static electricity. Here are the types of shoes that are safe to use:
 
 1. **ESD-Safe Shoes**:
-   - **Conductive Shoes**: These shoes are made with conductive materials that help dissipate static electricity quickly and safely to the ground. They typically have conductive soles and sometimes include conductive threads in the upper part of the shoe.
+   - **Conductive Shoes**: These shoes are made with conductive materials that help dissipate static electricity quickly and safely to the ground. They  have conductive soles and sometimes include conductive threads in the upper part of the shoe.
    - **Static-Dissipative (SD) Shoes**: These shoes provide a controlled rate of discharge, which is slower than conductive shoes. They are designed to reduce the risk of sparking by slowly dissipating static charges through the sole.
 
 2. **Materials**:

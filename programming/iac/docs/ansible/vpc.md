@@ -127,7 +127,7 @@ When specifying the IP address range for a VPC (Virtual Private Cloud), you shou
 
 1. 10.0.0.0/8 (10.0.0.0 - 10.255.255.255):
    - This is a large address space that provides 16,777,216 available IP addresses.
-   - It is commonly used for large networks or when you need a significant number of IP addresses.
+   - It is  used for large networks or when you need a significant number of IP addresses.
 
 2. 172.16.0.0/12 (172.16.0.0 - 172.31.255.255):
    - This range provides 1,048,576 available IP addresses.
@@ -135,7 +135,7 @@ When specifying the IP address range for a VPC (Virtual Private Cloud), you shou
 
 3. 192.168.0.0/16 (192.168.0.0 - 192.168.255.255):
    - This range provides 65,536 available IP addresses.
-   - It is commonly used for small networks or home networks.
+   - It is  used for small networks or home networks.
 
 When choosing the IP address range for your VPC, consider the following guidelines:
 

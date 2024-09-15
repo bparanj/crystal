@@ -1,12 +1,12 @@
-For a public subnet on AWS, the custom route table should include specific routes that allow for proper management of traffic to and from instances within the subnet. Here's an overview of what this typically involves:
+For a public subnet on AWS, the custom route table should include specific routes that allow for proper management of traffic to and from instances within the subnet. Here's an overview of what this  involves:
 
 ### Essential Routes for a Public Subnet's Route Table
 
-1. **Internet Gateway Route**: The most critical route in a public subnet's route table is the one that directs internet-bound traffic to the Internet Gateway (IGW) of your VPC. This allows instances in the public subnet to communicate with the internet, both for inbound and outbound connections. The route is typically configured as follows:
+1. **Internet Gateway Route**: The most critical route in a public subnet's route table is the one that directs internet-bound traffic to the Internet Gateway (IGW) of your VPC. This allows instances in the public subnet to communicate with the internet, both for inbound and outbound connections. The route is  configured as follows:
    - **Destination**: `0.0.0.0/0` (represents all IPv4 addresses, effectively matching any internet-bound traffic).
    - **Target**: The ID of your VPC's Internet Gateway (e.g., `igw-123abc`).
 
-2. **Local Route**: AWS automatically includes a local route in every route table, which enables communication within the VPC without the need for NAT or an internet gateway. This route cannot be modified or deleted. It is typically configured as follows:
+2. **Local Route**: AWS automatically includes a local route in every route table, which enables communication within the VPC without the need for NAT or an internet gateway. This route cannot be modified or deleted. It is  configured as follows:
    - **Destination**: The CIDR block of your VPC (e.g., `10.0.0.0/16` if that's the CIDR block of your VPC).
    - **Target**: `local`.
 
@@ -34,7 +34,7 @@ This configuration ensures that instances in the public subnet can initiate conn
 ### Additional Considerations
 
 - **Security Groups and Network ACLs**: Remember, route tables determine where network traffic is directed, but it's security groups and network ACLs that permit or deny traffic. Ensure your security group rules align with your intended access patterns.
-- **NAT Devices for Private Subnets**: If you have private subnets, they will need a different route table configuration, typically including a route that directs internet-bound traffic from instances in private subnets to a NAT Gateway or NAT Instance in a public subnet.
+- **NAT Devices for Private Subnets**: If you have private subnets, they will need a different route table configuration,   a route that directs internet-bound traffic from instances in private subnets to a NAT Gateway or NAT Instance in a public subnet.
 
 By carefully configuring your public subnet's route table and understanding its role within your VPC, you can effectively manage traffic flow and maintain a secure and efficient network architecture on AWS.
 

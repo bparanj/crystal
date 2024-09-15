@@ -1,4 +1,4 @@
-The shift from imperative to object-oriented programming (OOP) around the 1990s can be attributed to several factors, including the evolution of software complexity, the rise of user interface-driven applications, and the growing need for reusable and maintainable code.
+The shift from imperative to object-oriented programming (OOP) around the 1990s can be attributed to several factors,  the evolution of software complexity, the rise of user interface-driven applications, and the growing need for reusable and maintainable code.
 
 ### Evolution from Imperative to Object-Oriented Programming
 

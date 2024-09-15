@@ -32,7 +32,7 @@ Teenager:
 Current is the flow of electric charge through a circuit. In a simple circuit with a battery and a light bulb, current flows out of the battery, through the wires, through the light bulb, and back to the battery. The amount of current is determined by the voltage (pushing force) of the battery and the resistance of the light bulb and wires. Current is measured in amperes (amps) and is the same at all points in a series circuit.
 
 Undergraduate EE Student:
-In a circuit, current is the rate of flow of electric charge, typically carried by electrons, and is measured in amperes (coulombs/second). In a DC circuit with resistive elements, the current at any point can be determined using Ohm's Law: I = V/R, where I is current, V is voltage, and R is resistance. In AC circuits, current varies sinusoidally and can be represented as a phasor with magnitude and phase angle. Kirchhoff's Current Law states that the sum of currents entering a node equals the sum of currents leaving the node.
+In a circuit, current is the rate of flow of electric charge,  carried by electrons, and is measured in amperes (coulombs/second). In a DC circuit with resistive elements, the current at any point can be determined using Ohm's Law: I = V/R, where I is current, V is voltage, and R is resistance. In AC circuits, current varies sinusoidally and can be represented as a phasor with magnitude and phase angle. Kirchhoff's Current Law states that the sum of currents entering a node equals the sum of currents leaving the node.
 
 Graduate Student:
 Current flow in a circuit is governed by the principles of charge conservation and the electromotive force (EMF) provided by voltage sources. In complex circuits with multiple branches, current distribution can be analyzed using Kirchhoff's Laws and network theorems such as Thévenin's and Norton's. In non-linear circuits with components like diodes and transistors, current-voltage relationships are described by device-specific equations. Transient current behaviors arise from energy storage elements like capacitors and inductors, leading to time-dependent responses governed by differential equations.
@@ -89,6 +89,6 @@ When the losses become significant, more advanced techniques are used to analyze
 2. Using PSpice or other simulation software that can model non-ideal components
 3. Employing transmission line theory for high-frequency or long-distance circuits
 4. Considering the effects of parasitic capacitances and inductances
-5. Measuring actual voltage drops and power losses in the physical circuit
+5. Measuring  voltage drops and power losses in the physical circuit
 
 In summary, while Kirchhoff's Laws provide a solid theoretical foundation, practical circuit analysis must consider the physical limitations and non-ideal behaviors of real components. The laws serve as a useful starting point, but engineers must be aware of their limitations and use appropriate techniques to account for losses and other non-ideal factors in their designs.

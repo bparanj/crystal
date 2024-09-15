@@ -136,7 +136,7 @@ To generate unique SSH PEM files for every customer after creating the base imag
 
 #### Step 1: Create the Base Image with Packer
 
-- Follow the standard procedure to create a base image using Packer, without including the SSH PEM file generation in the build process.
+- Follow the standard procedure to create a base image using Packer, without  the SSH PEM file generation in the build process.
 
 #### Step 2: Post-Deployment Ansible Playbook for PEM Generation
 
@@ -270,13 +270,13 @@ After generating the secure download link, notify the customer with the link to 
 - **Encryption in Transit**: Ensure the download link uses HTTPS to protect the file during transit.
 - **Access Control**: Strictly control who can generate and access the download links.
 - **Audit Logs**: Maintain logs of when and by whom the PEM files are accessed.
-- **PEM File Handling**: Advise customers on securely handling the PEM file upon download, including setting appropriate file permissions and storing it securely on their system.
+- **PEM File Handling**: Advise customers on securely handling the PEM file upon download,  setting appropriate file permissions and storing it securely on their system.
 
 By following these steps, you can securely automate the distribution of PEM files to customers, ensuring that sensitive information is handled and transferred securely throughout the process.
 
 ## Upload Generated PEM File
 
-To modify the Ansible playbook to upload the generated PEM file to S3, you'll need to use the `aws_s3` module from the `amazon.aws` collection. This module allows you to manage objects in S3, including uploading files. Here's how you could extend the playbook to include the upload step:
+To modify the Ansible playbook to upload the generated PEM file to S3, you'll need to use the `aws_s3` module from the `amazon.aws` collection. This module allows you to manage objects in S3,  uploading files. Here's how you could extend the playbook to include the upload step:
 
 ### Step 0: Prerequisites
 
@@ -330,7 +330,7 @@ ansible-galaxy collection install amazon.aws
 
 ### Explanation
 
-- **Variables**: `s3_bucket`, `s3_key_private`, `s3_key_public`, `local_path_private`, and `local_path_public` are variables for the S3 bucket name, the S3 object keys for the private and public keys, and the local paths where the keys are stored, respectively. Replace these with actual values suitable for your environment.
+- **Variables**: `s3_bucket`, `s3_key_private`, `s3_key_public`, `local_path_private`, and `local_path_public` are variables for the S3 bucket name, the S3 object keys for the private and public keys, and the local paths where the keys are stored, respectively. Replace these with  values suitable for your environment.
 
 - **Generate RSA Private Key**: This task remains unchanged, generating the private key on the target instance.
 

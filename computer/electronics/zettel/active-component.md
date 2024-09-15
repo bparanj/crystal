@@ -104,7 +104,7 @@ d) Connect headphones or a speaker to the output.
 e) Play audio and observe how the transistor (active component) amplifies the weak input signal to a louder output, using power from the battery.
 
 2. How do diodes function as active components?
-Diodes allow current to flow in one direction while blocking it in the opposite direction. This non-linear behavior requires a minimum forward voltage to conduct, typically 0.7V for silicon diodes. The diode equation relates current (I) to voltage (V): $I = I_s(e^{\frac{V}{nV_T}} - 1)$, where $I_s$ is the reverse saturation current, n is the ideality factor, and $V_T$ is the thermal voltage.
+Diodes allow current to flow in one direction while blocking it in the opposite direction. This non-linear behavior requires a minimum forward voltage to conduct,  0.7V for silicon diodes. The diode equation relates current (I) to voltage (V): $I = I_s(e^{\frac{V}{nV_T}} - 1)$, where $I_s$ is the reverse saturation current, n is the ideality factor, and $V_T$ is the thermal voltage.
 Analogy: A diode functions like a one-way valve in a pipe. Just as the valve allows water to flow in only one direction, a diode permits electric current to flow predominantly in one direction.
 Example: To observe diode behavior:
 a) Set up a circuit with a battery, LED (a type of diode), and resistor in series.
@@ -137,7 +137,7 @@ Integrated circuits combine multiple transistors, diodes, resistors, and capacit
 Analogy: An integrated circuit resembles a pre-fabricated house with all utilities and furnishings included. Just as the house combines many elements into a functional unit, an IC integrates numerous electronic components to perform complex tasks.
 Example: To explore IC functionality:
 a) Obtain a 555 timer IC and necessary components for an astable multivibrator circuit.
-b) Set up the circuit on a breadboard, including LEDs for output visualization.
+b) Set up the circuit on a breadboard,  LEDs for output visualization.
 c) Power the circuit and observe the LEDs blinking alternately.
 d) Modify the timing resistors or capacitor.
 e) Observe how these changes affect the blinking frequency, demonstrating the IC's ability to perform timing functions with minimal external components.

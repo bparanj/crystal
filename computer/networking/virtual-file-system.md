@@ -1,7 +1,7 @@
-The Virtual Filesystem (VFS) in Linux solves several key problems related to file system management and abstraction:
+The Virtual Filesystem (VFS) in Linux solves several problems related to file system management and abstraction:
 
 ### 1. **Uniform Interface for Different File Systems:**
-   VFS provides a uniform API (Application Programming Interface) for interacting with different file systems. This allows applications and users to perform file operations (like read, write, open, close) without needing to know the details of the underlying file system (e.g., ext4, NTFS, FAT32). It abstracts the details, presenting a consistent interface to the operating system.
+   VFS provides a uniform API for interacting with different file systems. This allows applications and users to perform file operations (like read, write, open, close) without needing to know the details of the underlying file system (e.g., ext4, NTFS, FAT32). It abstracts the details, presenting a consistent interface to the operating system.
 
 ### 2. **Support for Multiple File Systems:**
    With VFS, Linux can support multiple file systems simultaneously. This means you can have different file systems mounted at different locations in a single directory tree. For example, a system could have an ext4 partition for the root directory (`/`), a FAT32 partition for an external USB drive, and an NFS mount for a networked file system, all accessible seamlessly.

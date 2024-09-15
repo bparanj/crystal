@@ -38,7 +38,7 @@ The principle that energy can neither be created nor destroyed is known as the *
    - The conservation of energy has been repeatedly confirmed through countless experiments and observations across different fields of physics. No experiment has ever shown a violation of this principle, making it a reliable foundation for scientific understanding.
 
 ### 5. **Mathematical Framework**
-   - In physics, the conservation laws, including the conservation of energy, can be derived from fundamental symmetries in nature. According to **Noether's Theorem**, for every symmetry in the laws of physics, there is a corresponding conservation law. The conservation of energy corresponds to the time invariance symmetry—meaning the laws of physics do not change over time.
+   - In physics, the conservation laws,  the conservation of energy, can be derived from fundamental symmetries in nature. According to **Noether's Theorem**, for every symmetry in the laws of physics, there is a corresponding conservation law. The conservation of energy corresponds to the time invariance symmetry—meaning the laws of physics do not change over time.
 
 ### 6. **Implications in Various Fields**
    - In mechanics, conservation of energy explains phenomena such as why a pendulum swings back and forth without gaining or losing energy (ignoring air resistance and friction). In electrical circuits, it ensures that all energy supplied by a power source is converted into other forms (e.g., light, heat) without any loss of energy from the system.

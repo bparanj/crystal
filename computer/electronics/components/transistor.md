@@ -45,7 +45,7 @@ Yes, a **transistor** can function as a switch, and this is one of its primary a
 ### Summary:
 A transistor acts like a switch by controlling the flow of current between two terminals based on an input signal (current or voltage). It can turn circuits on or off, making it fundamental to digital electronics, signal control, and power management. Unlike mechanical switches, transistors offer high-speed operation, reliability, and the ability to be integrated into small, complex circuits.
 
-Here are three simple experiments designed to demonstrate the basics of transistors, including their switching and amplification properties:
+Here are three simple experiments designed to demonstrate the basics of transistors,  their switching and amplification properties:
 
 ### 1. **Experiment 1: Transistor as a Switch**
 **Objective**: Demonstrate how a transistor can be used as a switch to control a light bulb or LED.
@@ -127,4 +127,4 @@ Here are three simple experiments designed to demonstrate the basics of transist
 - **Experiment 2**: Demonstrates the amplification property of a transistor, turning a small audio signal into a larger one.
 - **Experiment 3**: Illustrates the use of a transistor in an oscillator circuit, generating periodic signals.
 
-These experiments provide practical demonstrations of the basic functions of a transistor, including switching, amplification, and oscillation.
+These experiments provide practical demonstrations of the basic functions of a transistor,  switching, amplification, and oscillation.

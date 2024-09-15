@@ -38,9 +38,9 @@ To demonstrate electromagnetic induction in a transformer, showing that electric
 ### Explanation:
 This experiment illustrates how a transformer transfers electrical energy between two circuits without direct electrical contact. The AC current flowing through the primary coil generates a changing magnetic field around the iron core. This changing magnetic field induces a voltage in the secondary coil, which lights up the LED or bulb. The amount of voltage induced in the secondary coil depends on the ratio of the number of turns between the primary and secondary coils, demonstrating the basic principle of how transformers work to step up or step down voltage levels while maintaining electrical isolation between circuits.
 
-A transformer in electronics is a passive device that transfers electrical energy between two or more circuits through electromagnetic induction. It consists of two or more coils of wire wound around a core, typically made of iron. The primary coil receives an alternating current, creating a changing magnetic field in the core. This field then induces a voltage in the secondary coil(s). Transformers can increase (step up) or decrease (step down) voltage levels, isolate circuits, and match impedances. They're crucial in power distribution, voltage regulation, and signal coupling in various electronic applications.
+A transformer in electronics is a passive device that transfers electrical energy between two or more circuits through electromagnetic induction. It consists of two or more coils of wire wound around a core,  made of iron. The primary coil receives an alternating current, creating a changing magnetic field in the core. This field then induces a voltage in the secondary coil(s). Transformers can increase (step up) or decrease (step down) voltage levels, isolate circuits, and match impedances. They're crucial in power distribution, voltage regulation, and signal coupling in various electronic applications.
 
-Transformers solve several key problems in electrical and electronic systems:
+Transformers solve several problems in electrical and electronic systems:
 
 1. Voltage conversion: They allow changing AC voltage levels efficiently, enabling power transmission at high voltages and usage at lower voltages.
 

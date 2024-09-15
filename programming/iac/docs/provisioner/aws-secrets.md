@@ -1,4 +1,4 @@
-To create an EC2 instance from an AMI created by Packer, generate a PEM file (SSH key pair), store the private key in AWS Secrets Manager, and allow customers to access their secrets using their AWS Secret and Access Keys, you would typically follow these steps:
+To create an EC2 instance from an AMI created by Packer, generate a PEM file (SSH key pair), store the private key in AWS Secrets Manager, and allow customers to access their secrets using their AWS Secret and Access Keys, you would  follow these steps:
 
 ### Step 1: Create the Key Pair and Store the Private Key in AWS Secrets Manager
 
@@ -63,7 +63,7 @@ You can manage access to the secret in AWS Secrets Manager by attaching an IAM p
 }
 ```
 
-Replace the `Resource` ARN with the actual ARN of your secret. Attach this policy to the customer's IAM user or role.
+Replace the `Resource` ARN with the  ARN of your secret. Attach this policy to the customer's IAM user or role.
 
 ### Step 3: Customers Access Their Secret
 
@@ -83,7 +83,7 @@ This command will return the secret value, which includes the private key they c
 
 This approach integrates Terraform with AWS Secrets Manager to manage EC2 SSH keys securely, providing a scalable way to handle access to EC2 instances provisioned for customers.
 
-To view and download a PEM file (or any secret) from the AWS Secrets Manager via the AWS Management Console (UI), follow these steps. This process assumes that the PEM file has already been stored in AWS Secrets Manager, typically as part of an automated process or script.
+To view and download a PEM file (or any secret) from the AWS Secrets Manager via the AWS Management Console (UI), follow these steps. This process assumes that the PEM file has already been stored in AWS Secrets Manager,  as part of an automated process or script.
 
 ### Step 1: Navigate to AWS Secrets Manager
 
@@ -99,7 +99,7 @@ To view and download a PEM file (or any secret) from the AWS Secrets Manager via
 
 ### Step 3: Retrieve the Secret Value
 
-1. On the secret details page, you will see various information about the secret, including its rotation configuration and ARN.
+1. On the secret details page, you will see various information about the secret,  its rotation configuration and ARN.
 2. To view the secret's value, click on the **"Retrieve secret value"** button.
 3. You will see the contents of the secret displayed, either as key-value pairs or plaintext. If your PEM file was stored as plaintext, it should be visible here.
 
@@ -119,7 +119,7 @@ If you plan to use the PEM file for SSH access, ensure it has the correct permis
 chmod 400 /path/to/your/downloaded-file.pem
 ```
 
-Replace `/path/to/your/downloaded-file.pem` with the actual path to where you saved the PEM file.
+Replace `/path/to/your/downloaded-file.pem` with the  path to where you saved the PEM file.
 
 ### Giving Customers Access to Their Secrets
 
@@ -133,6 +133,6 @@ To allow customers to access their secrets using their AWS Secret and Access key
 aws secretsmanager get-secret-value --secret-id YourSecretId --region YourAWSRegion
 ```
 
-Replace `YourSecretId` with the actual secret ID or name and `YourAWSRegion` with the AWS region.
+Replace `YourSecretId` with the  secret ID or name and `YourAWSRegion` with the AWS region.
 
 This process ensures that PEM files and other sensitive information can be securely managed and accessed by authorized users only.

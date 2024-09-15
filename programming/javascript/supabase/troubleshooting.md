@@ -12,7 +12,7 @@ Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'a
 
 Resolution:
 
-The error message `Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'auth')` suggests that `this.$supabase` is `undefined` in your Vue component. This typically happens when the Supabase client is not properly initialized or integrated into your Nuxt application. Here’s how to troubleshoot and fix this issue:
+The error message `Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'auth')` suggests that `this.$supabase` is `undefined` in your Vue component. This  happens when the Supabase client is not properly initialized or integrated into your Nuxt application. Here’s how to troubleshoot and fix this issue:
 
 ### 1. **Ensure Supabase Client Initialization**
 

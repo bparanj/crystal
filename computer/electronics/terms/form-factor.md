@@ -11,7 +11,7 @@ The latest form factor of PC motherboards is ATX (Advanced Technology eXtended),
 2. **1983 - IBM PC/AT (AT)**: Introduced with the IBM AT, it was larger than XT and set the stage for future designs.
 3. **1995 - ATX**: Developed by Intel, the ATX form factor became the standard due to its improved layout for airflow, expansion slots, and ease of assembly.
 4. **1997 - microATX**: A smaller version of ATX, designed to fit in smaller cases while maintaining compatibility with standard ATX components.
-5. **2001 - FlexATX**: An even smaller version, aimed at compact systems, but less commonly used today.
+5. **2001 - FlexATX**: An even smaller version, aimed at compact systems, but less  used today.
 6. **2001 - mini-ITX**: Introduced by VIA Technologies, this form factor is designed for very compact systems, popular in HTPCs and small form-factor PCs.
 7. **2004 - BTX (Balanced Technology eXtended)**: Also developed by Intel to improve thermal management, but it didn't gain widespread adoption and was eventually phased out.
 8. **Extended ATX (EATX)**: A larger version of ATX for high-end motherboards with additional features, often used in workstations and gaming rigs.
@@ -42,4 +42,4 @@ However, some laptop motherboards may share similar design principles or power c
 
 2. The Mobile-ITX form factor, introduced by VIA Technologies in 2009, was designed for small, low-power laptops and mobile devices. However, it did not gain widespread adoption.
 
-In general, laptop motherboards are not standardized like desktop form factors, as they are designed to fit specific laptop models and are not typically interchangeable between different laptops or brands.
+In general, laptop motherboards are not standardized like desktop form factors, as they are designed to fit specific laptop models and are not  interchangeable between different laptops or brands.

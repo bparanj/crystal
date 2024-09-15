@@ -64,7 +64,7 @@ In this example, `Zero`, `Succ`, `One`, and `Two` are types that represent natur
 
 In type-level programming, types are not just annotations or constraints; they are active participants in the program's logic, enabling computations, enforcing constraints, and ensuring correctness at compile time. This elevates types from merely categorizing data to being integral components of program logic and design in Haskell.
 
-In the context of type-level programming, especially within languages like Haskell, the term "term" refers to the values, variables, expressions, and functions that exist and are manipulated at the runtime level. Terms are what most programmers deal with on a day-to-day basis when writing standard code: they're the actual "stuff" a program uses and produces as it runs. In contrast to type-level constructs, which are evaluated and checked by the compiler at compile time, terms are evaluated at runtime.
+In the context of type-level programming, especially within languages like Haskell, the term "term" refers to the values, variables, expressions, and functions that exist and are manipulated at the runtime level. Terms are what most programmers deal with on a day-to-day basis when writing standard code: they're the  "stuff" a program uses and produces as it runs. In contrast to type-level constructs, which are evaluated and checked by the compiler at compile time, terms are evaluated at runtime.
 
 ### Distinction Between Terms and Types
 
@@ -83,7 +83,7 @@ add x y = x + y
 
 - **Type Level**: The signature `Int -> Int -> Int` is at the type level. It describes the types of the terms: `add` takes two integers as input and produces an integer as output. The types `Int` and the arrow `->` exist only at compile time, helping the compiler understand and check the use of `add`.
 
-- **Term Level**: The function definition `add x y = x + y` is at the term level. `x`, `y`, and the expression `x + y` are terms. They represent actual values and computations that occur when the program runs.
+- **Term Level**: The function definition `add x y = x + y` is at the term level. `x`, `y`, and the expression `x + y` are terms. They represent  values and computations that occur when the program runs.
 
 ### Role of Terms in Type-Level Programming
 

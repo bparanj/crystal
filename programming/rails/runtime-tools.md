@@ -1,6 +1,6 @@
 ## Runtime Tools
 
-Often you can gain valuable insight on how the program operates by actually executing it. This is especially true for programs that lack adequate documentation or whose documentation is out-of-date. In this case, instead of trying to understand the code line by line, you can run the program on test data and observe its external behavior.
+Often you can gain valuable insight on how the program operates by ly executing it. This is especially true for programs that lack adequate documentation or whose documentation is out-of-date. In this case, instead of trying to understand the code line by line, you can run the program on test data and observe its external behavior.
 
 ### Contributor View
 
@@ -85,7 +85,7 @@ Running a Rails application with test data and observing its behavior is an effe
 
 10. **ActionMailer Preview**:
     - **Description**: A feature to preview email templates in the browser.
-    - **Usage**: Check how emails will look without sending actual emails.
+    - **Usage**: Check how emails will look without sending  emails.
 
 11. **Third-Party Tools (New Relic, Scout, etc.)**:
     - **Description**: Performance monitoring and error tracking services.
@@ -95,12 +95,12 @@ Using these tools, you can gain a deeper understanding of how a Rails applicatio
 
 ### Profiling
 
-`gprof`, the GNU Profiler, is a profiling tool specifically designed for programs compiled with GCC (GNU Compiler Collection). It is typically used for profiling applications written in languages like C and C++. Since Ruby is an interpreted language and not typically compiled with GCC, `gprof` cannot be directly used with Ruby in its standard form.
+`gprof`, the GNU Profiler, is a profiling tool specifically designed for programs compiled with GCC (GNU Compiler Collection). It is  used for profiling applications written in languages like C and C++. Since Ruby is an interpreted language and not  compiled with GCC, `gprof` cannot be directly used with Ruby in its standard form.
 
 However, Ruby has its own set of profiling tools suited to its interpreted nature. Here are some alternatives for Ruby profiling:
 
 1. **Ruby-prof**:
-   - A fast code profiler for Ruby. It’s a C extension and provides various reports, including call graphs, flat profiles, and more.
+   - A fast code profiler for Ruby. It’s a C extension and provides various reports,  call graphs, flat profiles, and more.
    - Usage: Simply require `ruby-prof`, wrap the code you want to profile in a `RubyProf.profile` block, and print the results.
 
 2. **Rack-mini-profiler**:
@@ -143,7 +143,7 @@ In Ruby, and specifically when using Pry (an interactive Ruby shell), setting a 
     ```
 
 2. **Use TracePoint to Monitor Variable Changes**:
-   - Ruby's TracePoint class allows you to trace certain events in the execution of Ruby code, including line execution. You can set up a TracePoint to monitor the variable of interest and break execution when it changes.
+   - Ruby's TracePoint class allows you to trace certain events in the execution of Ruby code,  line execution. You can set up a TracePoint to monitor the variable of interest and break execution when it changes.
 
     ```ruby
     TracePoint.new(:line) do |tp|
@@ -203,8 +203,8 @@ Yes, the concept of a stack dump is applicable to a Ruby codebase. In Ruby, a st
    - In a debugging session (for instance, using Pry or Byebug), you can issue commands to print the current stack trace.
 
 3. **Arguments in the Stack Trace**:
-   - While the Ruby stack trace provides method names and locations (file and line number), it does not typically include the arguments passed to each method. This is a notable difference from some other languages' stack dumps.
-   - To inspect the arguments, you would typically use a debugger to pause execution and examine the current state or modify the code to log or output argument values at critical points.
+   - While the Ruby stack trace provides method names and locations (file and line number), it does not  include the arguments passed to each method. This is a notable difference from some other languages' stack dumps.
+   - To inspect the arguments, you would  use a debugger to pause execution and examine the current state or modify the code to log or output argument values at critical points.
 
 4. **Use in Debugging**:
    - Analyzing stack traces is a fundamental part of debugging in Ruby. It helps in pinpointing where in the codebase an error or unexpected behavior originated.
@@ -220,7 +220,7 @@ Stack dumps in Ruby provide a snapshot of the call history at a specific executi
 
 Run a program under a system call monitor and reason about the operating system calls made.
 
-Running a program under a system call monitor to observe operating system calls can be a useful technique in certain debugging scenarios, including some aspects of debugging a Rails framework codebase. However, its applicability and usefulness depend on the nature of the problem you're trying to fix. Here's a more detailed look at when and how this approach might be applicable in the context of Rails:
+Running a program under a system call monitor to observe operating system calls can be a useful technique in certain debugging scenarios,  some aspects of debugging a Rails framework codebase. However, its applicability and usefulness depend on the nature of the problem you're trying to fix. Here's a more detailed look at when and how this approach might be applicable in the context of Rails:
 
 ### When It's Applicable:
 
@@ -252,7 +252,7 @@ Running a program under a system call monitor to observe operating system calls 
 - **Volume of Data**:
   - System call monitors can generate a large volume of data, which can be overwhelming and may require significant effort to sift through and interpret meaningfully.
 
-While system call monitoring can be a valuable tool in certain debugging scenarios, especially those involving low-level system interactions, it's not typically the first tool reached for when debugging standard Rails application issues. Understanding when to use this approach is key – it's most effective for specific types of problems where the interaction between the Rails application and the operating system is directly relevant.
+While system call monitoring can be a valuable tool in certain debugging scenarios, especially those involving low-level system interactions, it's not  the first tool reached for when debugging standard Rails application issues. Understanding when to use this approach is key – it's most effective for specific types of problems where the interaction between the Rails application and the operating system is directly relevant.
 
 ## Program Structure Chart
 
@@ -272,7 +272,7 @@ Yes, it is possible to use profiling data from the execution of Rails code to dr
 
 3. **Creating the Chart**:
    - Use visualization tools or libraries to create a chart or graph from the profiling data. Tools like `gprof2dot` or online flame graph generators can convert profiling output into graphical representations.
-   - The chart typically represents methods as nodes and calls between methods as edges, with metrics like call frequency or execution time dictating the size or color of the nodes/edges.
+   - The chart  represents methods as nodes and calls between methods as edges, with metrics like call frequency or execution time dictating the size or color of the nodes/edges.
 
 4. **Interpreting the Chart**:
    - Use the chart to understand the program structure. Look for patterns, bottlenecks, and the flow of execution through different parts of the Rails application.

@@ -21,7 +21,7 @@ The term "MAC address" stands for "Media Access Control address". It's name is d
    - They are used for addressing and delivery of data packets at the Data Link Layer (Layer 2) of the OSI model.
 
 6. Relationship to network protocols:
-   - The MAC layer sits between the physical layer (the actual hardware) and the higher-level protocols like IP.
+   - The MAC layer sits between the physical layer (the  hardware) and the higher-level protocols like IP.
    - It provides addressing and channel access control mechanisms that make it possible for several network nodes to communicate within a multiple access network.
 
 The name "Media Access Control" encapsulates the primary functions of this address: it controls how devices access and use the network media, ensuring orderly communication in a shared network environment. The MAC address is a key component in this process, serving as a unique identifier for each network interface.

@@ -1,6 +1,6 @@
 ## Configuration
 
-Following the principle of dependency isolation, the configuration elements are typically isolated in a few files.
+Following the principle of dependency isolation, the configuration elements are  isolated in a few files.
 
 ## Exercises
 
@@ -8,11 +8,11 @@ Read the source code of a configuration script, explaining how two different con
 
 How is Rake used to configure Rails before release?
 
-Rake, a Ruby build tool, is used extensively in the Rails framework for various tasks, including configuring and preparing Rails for release. Here’s how Rake contributes to the process:
+Rake, a Ruby build tool, is used extensively in the Rails framework for various tasks,  configuring and preparing Rails for release. Here’s how Rake contributes to the process:
 
 1. **Running Tests**: 
    - One of the most crucial steps before any release is to ensure that all tests pass. Rake is used to run the entire test suite of Rails, which includes unit tests, integration tests, and others. 
-   - The command `rake test` is typically used for this purpose.
+   - The command `rake test` is  used for this purpose.
 
 2. **Database Migrations and Schema Management**:
    - Rake tasks handle database-related setup, which includes creating, updating, and resetting databases. This ensures that the database schema is in the correct state before the release.

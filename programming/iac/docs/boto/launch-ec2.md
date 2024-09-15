@@ -1,6 +1,6 @@
 When using Packer by HashiCorp to create an Amazon Machine Image (AMI) on AWS EC2, the following tasks are performed:
 
-1. Configuration: You define a Packer configuration file (usually in JSON format) that specifies the desired image configuration, including the base AMI, provisioning steps, and post-processing actions.
+1. Configuration: You define a Packer configuration file (usually in JSON format) that specifies the desired image configuration,  the base AMI, provisioning steps, and post-processing actions.
 
 2. Launching an EC2 instance: Packer launches a new EC2 instance based on the specified base AMI. This instance serves as a temporary build environment.
 
@@ -92,6 +92,6 @@ In this program:
    - We send the provisioning command to the instance using the `send_command` method, specifying the instance ID and the shell script.
    - We retrieve the command ID for reference.
 
-Note: Make sure to replace the placeholders (`ami-0c55b159cbfafe1f0`, `'your-key-pair-name'`, `'sg-0123456789abcdef0'`, `'subnet-0123456789abcdef0'`) with your actual values.
+Note: Make sure to replace the placeholders (`ami-0c55b159cbfafe1f0`, `'your-key-pair-name'`, `'sg-0123456789abcdef0'`, `'subnet-0123456789abcdef0'`) with your  values.
 
 This program demonstrates the basic steps of launching an EC2 instance and provisioning it using a shell script. You can extend this program to include additional provisioning steps, system configuration, and post-processing actions as needed.

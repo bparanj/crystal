@@ -45,7 +45,7 @@ Libraries:
 
 Packages:
 
-1. Definition: Bundled software distributions, often including executables, configuration files, and documentation.
+1. Definition: Bundled software distributions, often  executables, configuration files, and documentation.
 2. File types: Usually .deb (Debian-based systems) or .rpm (Red Hat-based systems).
 3. Usage: Installed system-wide using package managers (apt, yum, dnf, etc.).
 4. Scope: Provide complete applications or sets of related tools.
@@ -54,7 +54,7 @@ Packages:
 Key differences:
 
 1. Granularity: Libraries are more fine-grained, while packages are broader units of software.
-2. Installation: Libraries are typically linked or loaded by programs; packages are installed system-wide.
+2. Installation: Libraries are  linked or loaded by programs; packages are installed system-wide.
 3. Management: Libraries are managed by the dynamic linker; packages are managed by package managers.
 4. Dependencies: Packages often list other packages as dependencies, which may include libraries.
 5. Content: Packages can contain libraries, but also include executables, configuration files, and more.
@@ -64,7 +64,7 @@ In practice, many libraries are distributed as packages for easier installation 
 
 | Aspect | Libraries | Packages |
 |--------|-----------|----------|
-| Definition | Collections of pre-compiled code providing reusable functionality | Bundled software distributions including executables, configuration files, and documentation |
+| Definition | Collections of pre-compiled code providing reusable functionality | Bundled software distributions  executables, configuration files, and documentation |
 | File types | .so (shared objects), .a (static archives) | .deb (Debian-based), .rpm (Red Hat-based) |
 | Usage | Linked directly by programs at compile-time or run-time | Installed system-wide using package managers |
 | Scope | Provide specific functions or routines | Provide complete applications or sets of related tools |

@@ -20,7 +20,7 @@ For building tools for troubleshooting and repairing laptops, both Arduino and R
 ### When to Choose Raspberry Pi
 
 **Pros:**
-- **Powerful Processing**: Suitable for more complex software applications, including running diagnostic software and user interfaces.
+- **Powerful Processing**: Suitable for more complex software applications,  running diagnostic software and user interfaces.
 - **Multitasking Capabilities**: Can handle multiple tasks simultaneously, making it suitable for comprehensive troubleshooting tools.
 - **Connectivity**: Built-in Wi-Fi, Bluetooth, and Ethernet for remote diagnostics and internet-based tools.
 

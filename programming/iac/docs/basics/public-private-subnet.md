@@ -149,7 +149,7 @@ If you're deploying a monolithic MVC web application and want to avoid the compl
 
 ### 4. **Security Considerations:**
 
-- **Security Groups:** Configure the instance's security group to allow inbound traffic on the ports Caddy is listening on (typically 80 for HTTP and 443 for HTTPS). Be very cautious about exposing database ports; since your application and database are on the same instance, external access to the database port should not be necessary.
+- **Security Groups:** Configure the instance's security group to allow inbound traffic on the ports Caddy is listening on ( 80 for HTTP and 443 for HTTPS). Be very cautious about exposing database ports; since your application and database are on the same instance, external access to the database port should not be necessary.
 - **Updates and Backups:** Regularly update your application, Caddy, PostgreSQL, and the underlying operating system to keep them secure. Implement a robust backup strategy for your database to prevent data loss.
 
 ### 5. **Monitoring and Management:**

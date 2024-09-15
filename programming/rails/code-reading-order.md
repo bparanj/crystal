@@ -1,6 +1,6 @@
 ## Code Reading Order
 
-When learning a large codebase like Rails, reading the code from top to bottom isn't typically the most effective or efficient method. Large codebases can be complex and overwhelming, making it hard to grasp the overall architecture and specific functionalities by linear reading. Here’s a more strategic approach to understand a specific aspect of the codebase:
+When learning a large codebase like Rails, reading the code from top to bottom isn't  the most effective or efficient method. Large codebases can be complex and overwhelming, making it hard to grasp the overall architecture and specific functionalities by linear reading. Here’s a more strategic approach to understand a specific aspect of the codebase:
 
 1. **Start with Documentation**:
    - Begin by reading the official documentation, READMEs, and any architectural overviews available. This gives you a high-level understanding of the codebase structure, design patterns, and key components.

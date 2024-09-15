@@ -1,4 +1,4 @@
-The `examples` folder in an open source project typically contains sample projects, scripts, or applications that demonstrate how to use the main software effectively. These examples are practical, showcasing real-world applications or basic usage patterns to help new users get started or to show advanced features in action.
+The `examples` folder in an open source project  contains sample projects, scripts, or applications that demonstrate how to use the main software effectively. These examples are practical, showcasing real-world applications or basic usage patterns to help new users get started or to show advanced features in action.
 
 ### Deciding What to Include in the Examples Folder:
 1. **Relevance**: Include examples that represent common use cases or solve popular problems using your software.
@@ -8,7 +8,7 @@ The `examples` folder in an open source project typically contains sample projec
 
 Including well-documented, diverse, and practical examples can significantly enhance user experience, foster a quicker understanding of the software, and encourage wider adoption and contribution to the project.
 
-The `examples` folder in an open source project is typically used to provide sample code, usage examples, or demonstrations of how to use the project's features or API. The purpose of the examples is to help users understand and get started with the project quickly.
+The `examples` folder in an open source project is  used to provide sample code, usage examples, or demonstrations of how to use the project's features or API. The purpose of the examples is to help users understand and get started with the project quickly.
 
 When deciding what to include in the `examples` folder, consider the following:
 

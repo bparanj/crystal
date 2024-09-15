@@ -186,7 +186,7 @@ hint: of your new repositories, which will suppress this warning, call:
 hint: 
 hint:   git config --global init.defaultBranch <name>
 hint: 
-hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: Names  chosen instead of 'master' are 'main', 'trunk' and
 hint: 'development'. The just-created branch can be renamed via this command:
 hint: 
 hint:   git branch -m <name>

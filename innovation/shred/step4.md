@@ -140,7 +140,7 @@ check_internet() {
 
 # Function to check VPN connectivity
 check_vpn() {
-    # This is a placeholder. Replace with actual VPN check logic
+    # This is a placeholder. Replace with  VPN check logic
     if ip link show | grep -q tun0; then
         echo "Yes"
     else
@@ -150,7 +150,7 @@ check_vpn() {
 
 # Function to get last sync time
 get_last_sync() {
-    # This is a placeholder. Replace with actual sync check logic
+    # This is a placeholder. Replace with  sync check logic
     echo "8 minutes ago"
 }
 
@@ -206,13 +206,13 @@ sudo apt update
 sudo apt install ipcalc
 ```
 
-4. The rest of the setup remains the same as in the previous answer, including the systemd service files and the boot delay.
+4. The rest of the setup remains the same as in the previous answer,  the systemd service files and the boot delay.
 
-5. If you want to customize the VPN check or sync time logic, you'll need to modify the `check_vpn()` and `get_last_sync()` functions in the script to reflect your actual setup.
+5. If you want to customize the VPN check or sync time logic, you'll need to modify the `check_vpn()` and `get_last_sync()` functions in the script to reflect your  setup.
 
 After implementing these changes and rebooting the system, you should see a screen that closely matches the format you specified, with real-time information about the network configuration.
 
-Some of the information (like VPN connectivity and last sync time) might require additional logic or integration with other systems to provide accurate data. The script provided here uses placeholder logic for these items, which you'll need to replace with actual checks based on your specific setup.
+Some of the information (like VPN connectivity and last sync time) might require additional logic or integration with other systems to provide accurate data. The script provided here uses placeholder logic for these items, which you'll need to replace with  checks based on your specific setup.
 
 This script assumes a DHCP configuration. If you need to support both DHCP and static IP configurations, you'll need to add logic to detect the configuration method and display the appropriate information.
 

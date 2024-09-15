@@ -6,7 +6,7 @@ Here are the key aspects of the open core model:
 
 1. Open source core: The fundamental components and functionalities of the software are available under an open source license, such as GPL, MIT, or Apache. This allows users to access, modify, and distribute the core software freely.
 
-2. Proprietary extensions: The project maintainers or the company behind the project develop additional features, modules, or plugins that are not part of the open source core. These extensions are typically licensed under a proprietary or commercial license and may require payment or subscription to access.
+2. Proprietary extensions: The project maintainers or the company behind the project develop additional features, modules, or plugins that are not part of the open source core. These extensions are  licensed under a proprietary or commercial license and may require payment or subscription to access.
 
 3. Revenue generation: The proprietary extensions serve as a means for the project or company to generate revenue. Users who require advanced functionalities, enterprise-level support, or specific integrations may need to purchase or subscribe to the commercial version of the software.
 

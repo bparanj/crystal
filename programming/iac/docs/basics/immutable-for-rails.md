@@ -137,7 +137,7 @@ Designing infrastructure for a Rails application while adhering to the principle
 
 ### 2. **Infrastructure Provisioning with Terraform**
 
-- **Purpose**: Use Terraform to provision the AWS infrastructure components needed for the Rails application, including compute instances, networking resources, and databases.
+- **Purpose**: Use Terraform to provision the AWS infrastructure components needed for the Rails application,  compute instances, networking resources, and databases.
 - **Components**:
   1. **Networking**: Define your VPC, subnets, Internet Gateway, and Route Tables to ensure your network is secure and scalable.
   2. **Compute**: Use the AMI created by Packer to launch EC2 instances in an Auto Scaling Group across multiple Availability Zones for high availability.
@@ -149,7 +149,7 @@ Designing infrastructure for a Rails application while adhering to the principle
 
 - While Packer uses Ansible for initial setup, you can also utilize Ansible for runtime configuration and deployments, ensuring your application deployment is automated and consistent with your infrastructure's immutable nature.
 - **Process**:
-  1. Create Ansible playbooks for the Rails application deployment, including tasks for pulling the latest code from your repository, running database migrations, and pre-compiling assets.
+  1. Create Ansible playbooks for the Rails application deployment,  tasks for pulling the latest code from your repository, running database migrations, and pre-compiling assets.
   2. Although the primary focus is on immutable infrastructure, Ansible can be used for ad-hoc management tasks or orchestrating zero-downtime deployments by interacting with the AWS API or Terraform outputs.
 
 ### 4. **Continuous Integration/Continuous Deployment (CI/CD)**

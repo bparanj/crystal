@@ -8,7 +8,7 @@ Instead of allowing ICMP, you should focus on allowing the necessary inbound tra
 
 2. HTTPS (port 443): If your web application uses HTTPS for secure communication, you should allow inbound traffic on port 443.
 
-3. SSH (port 22): If you need to connect to your EC2 instance via SSH for administration or management purposes, you should allow inbound SSH traffic, typically on port 22. However, it's recommended to restrict SSH access to specific IP ranges or use other secure access methods like VPN or bastion hosts.
+3. SSH (port 22): If you need to connect to your EC2 instance via SSH for administration or management purposes, you should allow inbound SSH traffic,  on port 22. However, it's recommended to restrict SSH access to specific IP ranges or use other secure access methods like VPN or bastion hosts.
 
 4. Any other ports specific to your application: If your web application uses additional ports or services, you'll need to allow inbound traffic on those specific ports as well.
 

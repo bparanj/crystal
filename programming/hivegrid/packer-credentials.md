@@ -12,7 +12,7 @@ Here are a few methods to verify which AWS credentials Packer is using:
 
 ### 1. **Environment Variables**
 
-Packer uses the AWS SDK for Go, which looks for credentials in a specific order, including environment variables such as `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`. You can check which credentials are set in your environment by running the following commands in your terminal (not recommended in shared or public environments due to security concerns):
+Packer uses the AWS SDK for Go, which looks for credentials in a specific order,  environment variables such as `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`. You can check which credentials are set in your environment by running the following commands in your terminal (not recommended in shared or public environments due to security concerns):
 
 ```bash
 echo $AWS_ACCESS_KEY_ID

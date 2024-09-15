@@ -8,7 +8,7 @@ A function or expression is **referentially transparent** if it can be replaced 
 
 ### Idempotence
 
-An operation or function is **idempotent** if applying it multiple times has the same effect as applying it once. This concept is relevant in various areas of computer science, including HTTP methods in web development, where it ensures that the same request can be made multiple times without changing the result beyond the initial application. Idempotence is crucial for reliability and fault tolerance in distributed systems.
+An operation or function is **idempotent** if applying it multiple times has the same effect as applying it once. This concept is relevant in various areas of computer science,  HTTP methods in web development, where it ensures that the same request can be made multiple times without changing the result beyond the initial application. Idempotence is crucial for reliability and fault tolerance in distributed systems.
 
 **Example:** An HTTP `GET` request is idempotent because making the same `GET` request many times will not change the server's state beyond the initial request. Similarly, a function `f(x) = 1` is idempotent because applying `f` to `x` any number of times will always result in `1`.
 

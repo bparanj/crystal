@@ -101,7 +101,7 @@ Differences:
 
 2. Image Support:
    - Multipass: Multipass primarily focuses on running Ubuntu instances, although it supports other Linux distributions as well.
-   - Lima: Lima supports a wider range of operating system images, including Ubuntu, Fedora, Arch Linux, and more.
+   - Lima: Lima supports a wider range of operating system images,  Ubuntu, Fedora, Arch Linux, and more.
 
 3. Command-line Interface:
    - Multipass: Multipass provides a user-friendly command-line interface with simple commands for managing instances.

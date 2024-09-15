@@ -21,7 +21,7 @@ The relationship between dpkg and apt, and why both are needed.
    - apt provides simpler commands for common tasks like installation and system upgrades.
 
 6. Underlying mechanism:
-   - apt actually uses dpkg to perform the final installation steps.
+   - apt ly uses dpkg to perform the final installation steps.
 
 7. Use cases:
    - dpkg is useful for installing local .deb files or in situations where fine-grained control is needed.
@@ -29,7 +29,7 @@ The relationship between dpkg and apt, and why both are needed.
 
 dpkg is still needed because:
 
-1. It's the core package management tool that actually performs installations.
+1. It's the core package management tool that ly performs installations.
 2. It's useful for advanced users and scripts that need low-level package control.
 3. apt relies on dpkg for the final steps of package installation and removal.
 

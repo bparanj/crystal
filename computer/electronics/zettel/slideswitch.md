@@ -27,7 +27,7 @@ A **slide switch** is a mechanical switch that opens or closes an electrical cir
    **Example:** In an audio device, a DPDT switch could be used to change both the input and output signal paths simultaneously when switching between different audio modes.
 
 5. **What are common applications of slide switches?**  
-   Slide switches are used in a variety of devices, including toys, small appliances, audio equipment, and battery-powered gadgets to control power, mode selection, or signal routing.  
+   Slide switches are used in a variety of devices,  toys, small appliances, audio equipment, and battery-powered gadgets to control power, mode selection, or signal routing.  
    **Analogy:** A slide switch is like a gatekeeper, deciding whether to allow something to pass or not, and which path it should take when multiple options are available.  
    **Example:** In a remote-controlled car, a slide switch might be used to turn the car on and off, or to change between forward and reverse directions.
 

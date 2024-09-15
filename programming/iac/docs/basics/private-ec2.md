@@ -22,6 +22,6 @@ Creating a private EC2 instance, one that's not directly accessible from the int
 ### Disaster Recovery
 - **Isolation**: Private instances can be part of a disaster recovery strategy, where critical systems are replicated or backed up to isolated instances that are not directly affected by front-facing system failures.
 
-To implement a private EC2 instance, you typically place the instance in a private subnet within an Amazon VPC (Virtual Private Cloud). This subnet does not have a route to the internet gateway, but it can access or be accessed by other instances within the VPC through internal routes. Access from outside the VPC can be facilitated through NAT gateways (for outbound access from the instance) and VPNs or Direct Connect (for inbound access to the instance), among other strategies.
+To implement a private EC2 instance, you  place the instance in a private subnet within an Amazon VPC (Virtual Private Cloud). This subnet does not have a route to the internet gateway, but it can access or be accessed by other instances within the VPC through internal routes. Access from outside the VPC can be facilitated through NAT gateways (for outbound access from the instance) and VPNs or Direct Connect (for inbound access to the instance), among other strategies.
 
 This setup enables organizations to build secure, scalable, and resilient application environments that align with their operational, compliance, and security requirements.

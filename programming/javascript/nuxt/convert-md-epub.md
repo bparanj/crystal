@@ -2,7 +2,7 @@
 
 To convert Markdown files to Kindle book format, especially with code syntax highlighting, you can use several open-source tools. Here's a brief overview:
 
-1. **Pandoc**: A versatile document converter, Pandoc can convert Markdown to various formats including ePub, which is Kindle compatible. It supports code syntax highlighting.
+1. **Pandoc**: A versatile document converter, Pandoc can convert Markdown to various formats  ePub, which is Kindle compatible. It supports code syntax highlighting.
 
 2. **Calibre**: Primarily an eBook management tool, Calibre also has powerful conversion capabilities. It can convert Markdown to ePub or directly to Kindle's MOBI format. However, for syntax highlighting, you might need to preprocess the Markdown.
 
@@ -40,7 +40,7 @@ pandoc input.md --toc --epub-stylesheet=style.css -o output.epub
 Here:
 
 - `--toc` adds a table of contents.
-- `--epub-stylesheet=style.css` allows you to specify a CSS file to style the ePub, including code syntax highlighting.
+- `--epub-stylesheet=style.css` allows you to specify a CSS file to style the ePub,  code syntax highlighting.
 
 To apply syntax highlighting, Pandoc uses highlighting-kate by default, or you can specify a style with `--highlight-style`.
 

@@ -11,7 +11,7 @@
 ### Level 3: Explaining to an Undergradute Student Majoring in Electronics
 
 **Understanding variable resistors technically**
-- A variable resistor, or potentiometer, is a three-terminal device where the resistance between two of the terminals can be adjusted by moving a wiper along a resistive element. This adjustment changes the resistance in the circuit, allowing control over current flow and voltage division. The resistance is varied mechanically by rotating a knob or sliding a control. They are commonly used for tuning and calibration purposes in circuits.
+- A variable resistor, or potentiometer, is a three-terminal device where the resistance between two of the terminals can be adjusted by moving a wiper along a resistive element. This adjustment changes the resistance in the circuit, allowing control over current flow and voltage division. The resistance is varied mechanically by rotating a knob or sliding a control. They are  used for tuning and calibration purposes in circuits.
 
 ### Level 4:  Graduate Student
 

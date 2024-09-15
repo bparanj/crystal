@@ -16,7 +16,7 @@ Here's an example snippet from a Packer template showing how `ami_groups` might 
 }
 ```
 
-By setting `"ami_groups": ["all"]`, you're effectively allowing anyone with an AWS account to use your AMI. This is commonly done for community AMIs that are intended to be shared publicly. However, for private AMIs intended only for personal or internal organizational use, you would not include "all" in the `ami_groups` or might omit the `ami_groups` setting entirely, depending on the specific Packer builder and version you're using.
+By setting `"ami_groups": ["all"]`, you're effectively allowing anyone with an AWS account to use your AMI. This is  done for community AMIs that are intended to be shared publicly. However, for private AMIs intended only for personal or internal organizational use, you would not include "all" in the `ami_groups` or might omit the `ami_groups` setting entirely, depending on the specific Packer builder and version you're using.
 
 It's important to be cautious with this setting to avoid unintentionally making sensitive data or configurations public.
 
@@ -130,7 +130,7 @@ ec2.modify_image_attribute(
 This script performs the following actions:
 
 1. Initializes the Boto3 client for EC2, which enables you to interact with the AWS EC2 service.
-2. Specifies the AMI ID of the AMI you wish to modify. You need to replace `'ami-0123456789abcdef0'` with the actual ID of your AMI.
+2. Specifies the AMI ID of the AMI you wish to modify. You need to replace `'ami-0123456789abcdef0'` with the  ID of your AMI.
 3. Calls the `modify_image_attribute` method to modify the launch permissions of the specified AMI. Setting `'Group': 'all'` under `'Add'` makes the AMI publicly available, allowing any AWS user to launch instances from this AMI.
 
 ### Important Considerations

@@ -2,7 +2,7 @@ To become the `deploy` user when you are logged in as the `ubuntu` user on an EC
 
 ### Using `sudo`
 
-The `sudo` command is used to run commands as another user, typically the root user. However, you can specify any user with the `-u` option. This method is preferred when you have `sudo` privileges but not the password of the target user.
+The `sudo` command is used to run commands as another user,  the root user. However, you can specify any user with the `-u` option. This method is preferred when you have `sudo` privileges but not the password of the target user.
 
 ```bash
 sudo -u deploy -i
@@ -22,7 +22,7 @@ The `-` option provides an environment similar to what the user would expect had
 
 ### Note
 
-- You may need to adjust permissions or group memberships to allow switching users without a password. This typically involves adding the `ubuntu` user to a group that has `sudo` or `su` permissions for the `deploy` user without requiring a password. This setup requires editing the `/etc/sudoers` file through the `visudo` command for safety.
+- You may need to adjust permissions or group memberships to allow switching users without a password. This  involves adding the `ubuntu` user to a group that has `sudo` or `su` permissions for the `deploy` user without requiring a password. This setup requires editing the `/etc/sudoers` file through the `visudo` command for safety.
 - For automated scripts or Ansible playbooks, it's common to use `sudo` for its flexibility and logging capabilities. To allow the `ubuntu` user to switch to the `deploy` user without a password, you might add a line like this to the `/etc/sudoers` file (using `visudo` to edit):
   ```sudoers
   ubuntu ALL=(deploy) NOPASSWD: ALL
@@ -107,7 +107,7 @@ To use the PEM file for SSH login, the "deploy" user can run the following comma
 ssh -i /home/deploy/.ssh/id_rsa deploy@<ec2-instance-ip>
 ```
 
-Make sure to replace `<ec2-instance-ip>` with the actual IP address or hostname of your EC2 instance.
+Make sure to replace `<ec2-instance-ip>` with the  IP address or hostname of your EC2 instance.
 
 Also, ensure that the security group associated with the EC2 instance allows inbound SSH traffic (port 22) from the appropriate IP range or security group.
 

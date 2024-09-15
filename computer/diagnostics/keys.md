@@ -93,7 +93,7 @@ Deciding whether to replace the entire keyboard or just the keys that are not wo
 
 2. **Replacing the Entire Keyboard**:
    - **Skill Level**: Requires more advanced technical skills. You may need to open the laptop casing, disconnect the old keyboard, and install the new one.
-   - **Tools**: Requires more tools, including screwdrivers and possibly a spudger or other prying tool.
+   - **Tools**: Requires more tools,  screwdrivers and possibly a spudger or other prying tool.
 
 ### Steps for Each Option
 

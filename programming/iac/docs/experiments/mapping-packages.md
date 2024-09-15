@@ -1,6 +1,6 @@
 ## Mapping Package Names to Command Names for Verification using Goss
 
-When verifying the installation of packages with tools like Goss, the discrepancy between package names used by package managers (like `apt` for Ubuntu) and the actual command or program names can indeed pose a challenge. This discrepancy arises because a package may install a program with a different name, or a single package might install multiple binaries.
+When verifying the installation of packages with tools like Goss, the discrepancy between package names used by package managers (like `apt` for Ubuntu) and the  command or program names can indeed pose a challenge. This discrepancy arises because a package may install a program with a different name, or a single package might install multiple binaries.
 
 To handle such cases, especially for creating verification scripts or Goss test configurations, you need a mapping between package names and the commands or programs they install. Here's how you can approach this:
 
@@ -19,7 +19,7 @@ package_to_command = {
 
 ### 2. **Use the Mapping for Verification**
 
-When preparing your Goss tests or any script that verifies package installations, use the mapped command or program names instead of the package names for actual verification.
+When preparing your Goss tests or any script that verifies package installations, use the mapped command or program names instead of the package names for  verification.
 
 **Example for Goss:**
 

@@ -7,13 +7,13 @@ Yes, pattern matching in Haskell shares similarities with switch-case statements
 
 ### Differences
 
-- **Expressiveness**: Haskell's pattern matching can deconstruct complex data types (like lists, tuples, and user-defined types) directly in the pattern. This deconstruction isn't directly supported in the switch-case statements of many other languages, where the cases can typically only match on simple values like integers, enums, or strings.
+- **Expressiveness**: Haskell's pattern matching can deconstruct complex data types (like lists, tuples, and user-defined types) directly in the pattern. This deconstruction isn't directly supported in the switch-case statements of many other languages, where the cases can  only match on simple values like integers, enums, or strings.
   
 - **Default Case**: In Haskell, a wildcard pattern (`_`) serves as a catch-all, similar to the `default` case in switch-case statements. However, Haskell enforces exhaustiveness in pattern matching, where all possible cases must be covered or the compiler will warn about non-exhaustive patterns. Some languages with switch-case statements do not require a `default` case.
 
-- **Where Used**: In Haskell, pattern matching is commonly used in function definitions and `case` expressions. In imperative languages, switch-case statements are a control flow mechanism and do not directly define functions.
+- **Where Used**: In Haskell, pattern matching is  used in function definitions and `case` expressions. In imperative languages, switch-case statements are a control flow mechanism and do not directly define functions.
 
-- **Side Effects**: Haskell functions, including those using pattern matching, are pure and do not have side effects (unless explicitly designed to do so using monads, for example). In contrast, switch-case statements in imperative languages often contain imperative actions that cause side effects.
+- **Side Effects**: Haskell functions,  those using pattern matching, are pure and do not have side effects (unless explicitly designed to do so using monads, for example). In contrast, switch-case statements in imperative languages often contain imperative actions that cause side effects.
 
 ### Example Comparison
 

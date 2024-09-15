@@ -7,7 +7,7 @@ To create a single Ansible playbook that launches an EC2 instance and then runs 
   gather_facts: false
   vars:
     instance_type: t2.micro
-    image_id: ami-123456 # Replace with the actual AMI ID for Ubuntu 22.04
+    image_id: ami-123456 # Replace with the  AMI ID for Ubuntu 22.04
     region: us-east-1
     keypair: my-keypair # Replace with your key pair name
     security_group: my-security-group # Replace with your security group name

@@ -50,7 +50,7 @@ If the EIP `eipalloc-057fe4dc2631b26e3` exists in the correct region and you're 
    aws ec2 describe-addresses --allocation-ids eipalloc-057fe4dc2631b26e3 --region us-west-2
    ```
 
-   Replace `your-region` with the actual AWS region. This command helps verify that the EIP exists and is accessible with your current AWS credentials.
+   Replace `your-region` with the  AWS region. This command helps verify that the EIP exists and is accessible with your current AWS credentials.
 
 2. **Terraform State**: Sometimes, Terraform's state might not be fully in sync with your AWS environment. You can try refreshing Terraform's state by running:
 

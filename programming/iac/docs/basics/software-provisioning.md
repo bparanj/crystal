@@ -1,6 +1,6 @@
 Software provisioning refers to the process of setting up software on computers, servers, or other devices so that it's ready to be used. It involves several steps to ensure that software runs properly, from installation to configuration. Here’s a simple breakdown:
 
-1. **Installation**: This is the first step where the software is actually put onto the device. This could be installing an app on a smartphone, a program on a laptop, or server software in a data center.
+1. **Installation**: This is the first step where the software is ly put onto the device. This could be installing an app on a smartphone, a program on a laptop, or server software in a data center.
 
 2. **Configuration**: After the software is installed, it often needs to be set up according to the needs of the user or the organization. This can include setting preferences, adjusting settings to match the local environment, and integrating with other software.
 
@@ -12,7 +12,7 @@ Overall, software provisioning is about getting software from its source to bein
 
 Software provisioning is the process of preparing a system or environment by installing and configuring the necessary software components to make it ready for use. It involves setting up the required software, libraries, dependencies, and configurations on a target machine or infrastructure.
 
-Think of it like setting up a new computer for someone to use. When you get a new computer, it usually comes with a basic operating system, but you need to install additional software, such as a web browser, productivity tools, or development environments, to make it functional for your specific needs. Software provisioning automates this process of installing and configuring software on a larger scale, typically for servers or cloud environments.
+Think of it like setting up a new computer for someone to use. When you get a new computer, it usually comes with a basic operating system, but you need to install additional software, such as a web browser, productivity tools, or development environments, to make it functional for your specific needs. Software provisioning automates this process of installing and configuring software on a larger scale,  for servers or cloud environments.
 
 In the context of deploying applications or services, software provisioning ensures that the target environment has all the necessary software components and configurations in place to run the application correctly. This can include installing programming languages, frameworks, libraries, databases, and other dependencies that the application relies on.
 

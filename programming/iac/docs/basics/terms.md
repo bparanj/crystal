@@ -4,7 +4,7 @@ Infrastructure as Code (IaC) is a key practice in modern software development an
 
 1. **Configuration Management**: Tools and practices for maintaining and managing the state of infrastructure in a desired, consistent configuration. Examples include Ansible, Chef, Puppet, and SaltStack.
 
-2. **Provisioning**: The process of setting up and configuring the infrastructure resources (servers, networks, storage, etc.) required for applications to run. Tools like Terraform, CloudFormation (AWS), and ARM templates (Azure) are commonly used for provisioning.
+2. **Provisioning**: The process of setting up and configuring the infrastructure resources (servers, networks, storage, etc.) required for applications to run. Tools like Terraform, CloudFormation (AWS), and ARM templates (Azure) are  used for provisioning.
 
 3. **Declarative Configuration**: A method where the desired state of the infrastructure is specified, and the tooling automatically makes the necessary changes to achieve that state, without specifying how to do it.
 
@@ -28,6 +28,6 @@ Infrastructure as Code (IaC) is a key practice in modern software development an
 
 13. **Containers and Container Orchestration**: Technologies like Docker allow applications to be packaged with their dependencies, and orchestration tools like Kubernetes manage these containers at scale, which is often managed through IaC.
 
-14. **YAML and JSON**: Markup languages commonly used to write configuration files for IaC. They allow for the clear definition of infrastructure as code in a readable format.
+14. **YAML and JSON**: Markup languages  used to write configuration files for IaC. They allow for the clear definition of infrastructure as code in a readable format.
 
 These terms represent the foundational concepts and tools that underpin Infrastructure as Code, highlighting its role in automating and managing modern infrastructure efficiently and reliably.

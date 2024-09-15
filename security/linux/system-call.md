@@ -16,7 +16,7 @@ A system call in Linux is a mechanism that allows user-space applications to req
 ### How System Calls Work:
 
 1. **Invocation**:
-   - When an application needs to make a system call, it typically uses a wrapper function provided by the standard C library (glibc). For example, calling `printf` may internally use the `write` system call to output text.
+   - When an application needs to make a system call, it  uses a wrapper function provided by the standard C library (glibc). For example, calling `printf` may internally use the `write` system call to output text.
 
 2. **Mode Switching**:
    - The system call triggers a switch from user mode to kernel mode, where the requested operation can be performed with the necessary privileges.
@@ -66,6 +66,6 @@ In this example:
 ### Sources:
 - **"Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati**: This book provides an in-depth explanation of how system calls are implemented and used in the Linux kernel.
 - **Linux Manual Pages (man pages)**: These provide detailed documentation on individual system calls and their usage. For example, `man 2 write` gives details about the `write` system call.
-- **"Linux System Programming" by Robert Love**: Offers a comprehensive overview of system programming, including the use of system calls.
+- **"Linux System Programming" by Robert Love**: Offers a comprehensive overview of system programming,  the use of system calls.
 
 System calls are essential for the functioning of applications on Linux, providing the necessary interface for performing privileged operations securely and efficiently.

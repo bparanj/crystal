@@ -103,7 +103,7 @@ Creating a VPC with an internet gateway, subnet, security groups, and routing co
 
 - This playbook creates a VPC, an internet gateway, a subnet, and a route table for outbound connections through the internet gateway.
 - It also sets up security groups for different purposes: one for traffic from web servers to the database, one for internet access to web servers, one for SSH access, and one with outbound rules to allow installing packages.
-- Replace `YOUR_SSH_ACCESS_IP_HERE` with your actual IP address for SSH access.
+- Replace `YOUR_SSH_ACCESS_IP_HERE` with your  IP address for SSH access.
 - The `amazon.aws.ec2_group` module is used for creating security groups with specific ingress and egress rules based on the requirements.
 - Ensure the `amazon.aws` collection is installed (`ansible-galaxy collection install amazon.aws`), and your AWS credentials are configured for Ansible to use.
 

@@ -1,4 +1,4 @@
-It is possible to create a Packer image to set up a Kali Linux EC2 instance with XFCE installed. Packer is a tool from HashiCorp that automates the creation of any type of machine image. It integrates with various platforms including AWS EC2. Here’s a basic outline on how to do this:
+It is possible to create a Packer image to set up a Kali Linux EC2 instance with XFCE installed. Packer is a tool from HashiCorp that automates the creation of any type of machine image. It integrates with various platforms  AWS EC2. Here’s a basic outline on how to do this:
 
 1. **Install Packer**: Make sure Packer is installed on your system. You can download it from the HashiCorp website or install it via a package manager if you're using Linux.
 
@@ -51,13 +51,13 @@ build {
 
 4. **Launch an EC2 Instance**: Once the AMI is created, you can launch an EC2 instance using this new AMI through the AWS Management Console or via the AWS CLI.
 
-Ensure you replace placeholders such as `YOUR_AWS_ACCESS_KEY` and `YOUR_AWS_SECRET_KEY` with your actual AWS credentials. Also, adjust other parameters like `region` and `instance_type` as necessary to fit your requirements.
+Ensure you replace placeholders such as `YOUR_AWS_ACCESS_KEY` and `YOUR_AWS_SECRET_KEY` with your  AWS credentials. Also, adjust other parameters like `region` and `instance_type` as necessary to fit your requirements.
 
 This setup provides a powerful environment for security testing and other tasks directly from your cloud infrastructure, leveraging the versatility of Kali Linux and the lightness of XFCE for a good remote desktop experience.
 
 ### Steps to Use This Template:
 
-1. **Replace Credentials**: Insert your actual AWS access key and secret key where indicated.
+1. **Replace Credentials**: Insert your  AWS access key and secret key where indicated.
 
 2. **Adjust Settings**: Modify the `region`, `instance_type`, or any other configurations to suit your needs.
 
@@ -69,7 +69,7 @@ This setup provides a powerful environment for security testing and other tasks 
 
 This script will launch an EC2 instance, install the XFCE desktop environment, and then create a new AMI from the configured instance. You can then use this AMI to launch new instances with the desktop environment already set up.
 
-When setting up an EC2 instance with Kali Linux and XFCE, the instance typically uses SSH key authentication for initial access, rather than a password. If you set up the XFCE desktop environment and want to use it remotely (e.g., via VNC), you would need to configure a password for the user account you intend to use for graphical login.
+When setting up an EC2 instance with Kali Linux and XFCE, the instance  uses SSH key authentication for initial access, rather than a password. If you set up the XFCE desktop environment and want to use it remotely (e.g., via VNC), you would need to configure a password for the user account you intend to use for graphical login.
 
 Here’s how you can set or change the user password in Kali Linux, which is a step you might want to include in your Packer script if you need a GUI access with a password:
 

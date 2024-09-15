@@ -118,7 +118,7 @@ app.synth()
 
 In this converted code:
 
-1. The necessary AWS CDK modules are imported, including `aws_ec2` for EC2 resources, `aws_secretsmanager` for Secrets Manager, `core` for CDK core constructs, and `aws_iam` for IAM.
+1. The necessary AWS CDK modules are imported,  `aws_ec2` for EC2 resources, `aws_secretsmanager` for Secrets Manager, `core` for CDK core constructs, and `aws_iam` for IAM.
 
 2. The `RailsAppStack` class is defined, which represents the stack for the Rails application.
 

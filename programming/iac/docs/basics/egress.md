@@ -2,7 +2,7 @@ Yes, the word "egress" also has its origins in Latin. It comes from the Latin wo
 
 Similar to "ingress," the word "egress" is used in various contexts beyond networking and security. In architecture, it refers to the act of leaving a building or a space, often in the context of emergency exits or evacuation routes.
 
-In networking and security, including in AWS, "egress" specifically refers to the outbound traffic or the traffic that leaves a resource or a network. It is used to describe the flow of data or packets originating from within a resource or network and going outside of it.
+In networking and security,  in AWS, "egress" specifically refers to the outbound traffic or the traffic that leaves a resource or a network. It is used to describe the flow of data or packets originating from within a resource or network and going outside of it.
 
 Both "ingress" and "egress" have maintained their Latin roots and are used in English as nouns to describe the act of entering (ingress) and leaving (egress), as well as adjectives to describe things related to entering (ingress rules) or leaving (egress traffic).
 
@@ -16,7 +16,7 @@ You need an egress rule when you want to:
 2. Restrict access from your resources to external networks or services.
 3. Limit the protocols and ports that your resources can use for outbound communication.
 
-Egress rules are typically used to:
+Egress rules are  used to:
 - Allow your resources to communicate with other resources within the VPC.
 - Permit outbound internet access for software updates, patches, or external service dependencies.
 - Control outbound traffic to specific IP addresses or security groups for security purposes.

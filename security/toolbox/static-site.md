@@ -100,7 +100,7 @@ This script will create a Bleve index named `hugo_index.bleve` that contains all
 
 ### Step 3: Serve the Index
 
-You need a way to serve the Bleve index to your Hugo site. This typically involves creating a small HTTP server. Here’s an example using Go:
+You need a way to serve the Bleve index to your Hugo site. This  involves creating a small HTTP server. Here’s an example using Go:
 
 ```go
 package main

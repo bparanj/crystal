@@ -67,7 +67,7 @@ To install Ruby 3.3.0 from source using an Ansible playbook that can be run by P
 
 ### How to Run This Playbook with Packer:
 
-To run this playbook as part of a Packer build, you would typically define a provisioner in your Packer template JSON or HCL file. Here's an example in JSON syntax:
+To run this playbook as part of a Packer build, you would  define a provisioner in your Packer template JSON or HCL file. Here's an example in JSON syntax:
 
 ```json
 {
@@ -76,14 +76,14 @@ To run this playbook as part of a Packer build, you would typically define a pro
 }
 ```
 
-Ensure you adjust `"path/to/install_ruby_from_source.yml"` to the actual path where your playbook is located.
+Ensure you adjust `"path/to/install_ruby_from_source.yml"` to the  path where your playbook is located.
 
 ### Note:
 
 - The playbook assumes you are running it on a Debian or Ubuntu system, as it uses the `apt` module for installing packages. If you're targeting a different system, you may need to adjust the package installation task accordingly.
 - After installation, you can verify Ruby installation by running `ruby -v` to see if Ruby 3.3.0 is correctly installed. This command might not be available until you log out and log back in or source your profile again, depending on your environment.
 
-The necessity of installing version managers like RVM (Ruby Version Manager) or asdf on a production server for managing Ruby installations depends on several factors, including your deployment strategy, environment requirements, and the complexity of managing multiple language versions. When using Infrastructure as Code (IaC) tools for provisioning and managing production servers, the decision boils down to a few key considerations:
+The necessity of installing version managers like RVM (Ruby Version Manager) or asdf on a production server for managing Ruby installations depends on several factors,  your deployment strategy, environment requirements, and the complexity of managing multiple language versions. When using Infrastructure as Code (IaC) tools for provisioning and managing production servers, the decision boils down to a few key considerations:
 
 ### Simplicity and Standardization
 
@@ -95,7 +95,7 @@ The necessity of installing version managers like RVM (Ruby Version Manager) or 
 
 - **Idempotency and Reproducibility**: IaC principles emphasize the importance of creating reproducible and idempotent configurations. Directly installing a specific version of Ruby can align well with these principles by ensuring that the Ruby runtime environment is consistent across deployments. Version managers can introduce variability if not carefully managed within IaC scripts.
 
-- **Complexity vs. Control**: Version managers add a layer of abstraction that can be beneficial for development environments but may introduce unnecessary complexity in production environments. For production, the priority often lies in stability, predictability, and minimizing moving parts, which direct Ruby installation can offer. However, if you require the level of control and flexibility that version managers provide, including them in your IaC scripts can be justified.
+- **Complexity vs. Control**: Version managers add a layer of abstraction that can be beneficial for development environments but may introduce unnecessary complexity in production environments. For production, the priority often lies in stability, predictability, and minimizing moving parts, which direct Ruby installation can offer. However, if you require the level of control and flexibility that version managers provide,  them in your IaC scripts can be justified.
 
 ### Automating Installation with IaC Tools
 

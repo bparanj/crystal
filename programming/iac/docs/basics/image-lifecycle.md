@@ -2,7 +2,7 @@ Managing the image lifecycle effectively is crucial for streamlining operations,
 
 **1. Planning and Definition:**
 
-* **Image Standards:** Establish a clear set of standards and requirements for your images, including:
+* **Image Standards:** Establish a clear set of standards and requirements for your images, :
     * Base operating systems
     * Required software and configurations
     * Security baseline (hardening, compliance)
@@ -64,7 +64,7 @@ Managing the image lifecycle effectively is crucial for maintaining security, ef
 
 ### 1. **Planning and Configuration**
 
-- **Define Requirements**: Start by identifying the requirements for your images, including the operating system, software packages, configurations, security standards, and compliance needs.
+- **Define Requirements**: Start by identifying the requirements for your images,  the operating system, software packages, configurations, security standards, and compliance needs.
 - **Select Tools**: Choose tools like Packer for image creation and Terraform for infrastructure as code (IaC) to automate deployment. Consider integrating security tools for scanning and compliance checks.
 - **Write Templates**: Create templates for your images in Packer, specifying builders, provisioners, and post-processors. Use version control to manage changes to these templates.
 
@@ -94,7 +94,7 @@ Managing the image lifecycle effectively is crucial for maintaining security, ef
 
 ### 7. **Documentation and Compliance**
 
-- **Keep Documentation Updated**: Document the image creation process, including configurations, applied patches, and customizations. This documentation is crucial for audits and compliance checks.
+- **Keep Documentation Updated**: Document the image creation process,  configurations, applied patches, and customizations. This documentation is crucial for audits and compliance checks.
 - **Compliance Checks**: Regularly review images for compliance with industry standards and regulations. Automated compliance tools can help streamline this process.
 
 ### Best Practices

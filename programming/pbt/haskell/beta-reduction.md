@@ -3,8 +3,8 @@ Beta reduction in lambda calculus is a rule that explains how to simplify expres
 Here's how it works in simple terms:
 
 1. You have a function that does something to an input (we call this input a parameter).
-2. You have an actual value you want to use with this function (we call this an argument).
-3. Beta reduction is the process of replacing the function's parameter with the actual value (the argument) and then simplifying the expression if possible.
+2. You have an  value you want to use with this function (we call this an argument).
+3. Beta reduction is the process of replacing the function's parameter with the  value (the argument) and then simplifying the expression if possible.
 
 ### Example:
 
@@ -96,5 +96,5 @@ Given the expression: \((\lambda abc.cba)zz(\lambda wv.w)\)
 3. **Third Argument \((\lambda wv.w)\) Applied to \(c\)**:
    - This lambda function replaces \(c\). In the function body \(cba\), \(c\) is substituted with \((\lambda wv.w)\), which is a function taking two arguments and returning the first.
 
-After these substitutions, the actual simplification process involves applying these arguments directly, without the need for an evaluative context like in imperative programming. The reduction should directly address how each argument replaces its corresponding parameter in the lambda function's body.
+After these substitutions, the  simplification process involves applying these arguments directly, without the need for an evaluative context like in imperative programming. The reduction should directly address how each argument replaces its corresponding parameter in the lambda function's body.
 

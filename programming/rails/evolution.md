@@ -34,7 +34,7 @@ Once you have located the feature, study its implementation by following relevan
 
 Refer page 53 of Code Reading Open Source Perspective: Using compiler to locate the relevant code that will be impacted. Note:
 
-"Follow the string messages" typically means to trace or track the flow of text messages or strings within a program or system. This can involve understanding how these strings are created, modified, and used throughout the application, often for the purpose of debugging, localizing, or comprehensively understanding the system's operations. It's about paying attention to how textual data is handled and processed.
+"Follow the string messages"  means to trace or track the flow of text messages or strings within a program or system. This can involve understanding how these strings are created, modified, and used throughout the application, often for the purpose of debugging, localizing, or comprehensively understanding the system's operations. It's about paying attention to how textual data is handled and processed.
 
 "Code parts" generally refers to various segments or components of a programming code. This can include functions, classes, modules, or any distinct sections within a larger codebase. Each part usually serves a specific purpose or function within the program. 
 

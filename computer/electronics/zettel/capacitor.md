@@ -2,7 +2,7 @@
 ---
 
 ## Overview: Capacitor
-A **capacitor** is a passive electronic component that stores electrical energy in an electric field. It consists of two conductive plates separated by an insulating material, called a **dielectric**. When a voltage is applied across the plates, an electric charge builds up, creating a potential difference between them. Capacitors do not allow direct current (DC) to flow through them but can allow alternating current (AC) to pass, depending on the frequency. They are commonly used in circuits for energy storage, filtering, and timing applications.
+A **capacitor** is a passive electronic component that stores electrical energy in an electric field. It consists of two conductive plates separated by an insulating material, called a **dielectric**. When a voltage is applied across the plates, an electric charge builds up, creating a potential difference between them. Capacitors do not allow direct current (DC) to flow through them but can allow alternating current (AC) to pass, depending on the frequency. They are  used in circuits for energy storage, filtering, and timing applications.
 
 ---
 
@@ -40,7 +40,7 @@ A **capacitor** is a passive electronic component that stores electrical energy 
 
 5. **What are common applications of capacitors?**
    - **Question**: What are some common uses for capacitors in electronic circuits?
-   - **Atomic Idea**: Capacitors are used in a wide range of applications, including energy storage, signal filtering, and timing circuits. They stabilize power supply voltages, remove noise from signals, and create delays in electronic circuits.
+   - **Atomic Idea**: Capacitors are used in a wide range of applications,  energy storage, signal filtering, and timing circuits. They stabilize power supply voltages, remove noise from signals, and create delays in electronic circuits.
    - **Analogy**: In a circuit, a capacitor can act like a sponge that absorbs and releases charge, smoothing out fluctuations in the voltage or providing a brief power backup.
    - **Example**: In a power supply circuit, capacitors are used to smooth out the ripple voltage from a rectifier, providing a steady DC output.
 

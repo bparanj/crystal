@@ -131,7 +131,7 @@ To create a benchmark for product listings of used laptops that you have repaire
      - Hardinfo: A system profiler and benchmark tool for Linux.
      - UnixBench: A widely used benchmark suite for Unix-like systems.
      - Geekbench: A cross-platform benchmark tool that measures CPU and memory performance.
-   - Consider including tests for CPU performance, memory speed, disk I/O, and graphics performance, depending on the intended use of the laptops.
+   - Consider  tests for CPU performance, memory speed, disk I/O, and graphics performance, depending on the intended use of the laptops.
 
 3. Establish a testing methodology:
    - Develop a consistent and repeatable testing methodology to ensure fair and accurate benchmarking across different laptop models.
@@ -142,7 +142,7 @@ To create a benchmark for product listings of used laptops that you have repaire
 4. Perform the benchmarks:
    - Install and configure the selected benchmark tools on each laptop with Kali Linux.
    - Run the benchmark tests according to your established methodology.
-   - Record the results, including relevant metrics and scores, for each laptop model.
+   - Record the results,  relevant metrics and scores, for each laptop model.
 
 5. Analyze and interpret the results:
    - Review the benchmark results and analyze the performance data.

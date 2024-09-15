@@ -4,7 +4,7 @@ After a user clicks on the magic link in their email for the `signInWithOtp` cal
 
 Here’s how you can handle it in a typical client-side application (like a Nuxt.js SPA):
 
-In Nuxt, handling the authentication callback with Supabase can be achieved in a similar way, but you'll typically integrate it within the Nuxt context and use Nuxt-specific hooks and methods. Here's how you can adapt your Vue component script to a Nuxt environment:
+In Nuxt, handling the authentication callback with Supabase can be achieved in a similar way, but you'll  integrate it within the Nuxt context and use Nuxt-specific hooks and methods. Here's how you can adapt your Vue component script to a Nuxt environment:
 
 ### Handle Auth State Change in Nuxt
 
@@ -76,7 +76,7 @@ onMounted(() => {
 </script>
 ```
 
-In this example, `useSupabase` is a hypothetical utility to get the Supabase client instance. Replace it with how you actually access your Supabase client in your app.
+In this example, `useSupabase` is a hypothetical utility to get the Supabase client instance. Replace it with how you ly access your Supabase client in your app.
 
 ### 2. **Handling the Auth State in Nuxt.js**
 

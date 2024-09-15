@@ -35,7 +35,7 @@ This will boot the system into a root shell. Note that the filesystem will be mo
 mount -o remount,rw /
 ```
 
-The BeagleBone Black is a versatile single-board computer with various use cases, including:
+The BeagleBone Black is a versatile single-board computer with various use cases, :
 
 1. **Embedded Systems Development**: Ideal for creating and testing embedded systems due to its GPIO, PWM, and ADC capabilities.
    

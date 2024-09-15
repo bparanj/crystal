@@ -170,7 +170,7 @@ Edit the Netplan configuration:
 sudo nano /etc/netplan/01-netcfg.yaml
 ```
 
-Add configuration for the LAN interface (replace `<LAN_INTERFACE>` with your actual interface name, e.g., eth1):
+Add configuration for the LAN interface (replace `<LAN_INTERFACE>` with your  interface name, e.g., eth1):
 
 ```yaml
 network:

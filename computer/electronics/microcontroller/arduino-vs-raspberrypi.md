@@ -2,7 +2,7 @@ Arduino and Raspberry Pi are both popular platforms for electronics projects, bu
 
 ### 1. **Purpose and Use Cases**
 - **Arduino**:
-  - **Microcontroller**: Arduino is a microcontroller platform, typically used for simple, real-time control tasks.
+  - **Microcontroller**: Arduino is a microcontroller platform,  used for simple, real-time control tasks.
   - **Use Cases**: Ideal for projects involving sensors, motors, and other peripherals where precise timing and low power consumption are critical, such as automation, robotics, and basic IoT applications.
 
 - **Raspberry Pi**:
@@ -19,7 +19,7 @@ Arduino and Raspberry Pi are both popular platforms for electronics projects, bu
   - **Processor**: Uses more powerful processors (e.g., ARM Cortex-A series).
   - **Memory**: Much more RAM (e.g., 1 GB to 8 GB, depending on the model).
   - **Storage**: Uses SD cards for storage, allowing for larger and expandable storage capacity.
-  - **I/O**: Offers a variety of I/O options, including HDMI, USB, Ethernet, audio, and GPIO pins.
+  - **I/O**: Offers a variety of I/O options,  HDMI, USB, Ethernet, audio, and GPIO pins.
 
 ### 3. **Operating System**
 - **Arduino**:
@@ -28,7 +28,7 @@ Arduino and Raspberry Pi are both popular platforms for electronics projects, bu
 
 - **Raspberry Pi**:
   - **Linux-Based Operating Systems**: Typically runs a full operating system, such as Raspbian (now Raspberry Pi OS), allowing for multitasking and a wide range of software applications.
-  - **Programming**: Supports multiple programming languages, including Python, C++, Java, and more, and can be programmed using various IDEs.
+  - **Programming**: Supports multiple programming languages,  Python, C++, Java, and more, and can be programmed using various IDEs.
 
 ### 4. **Power Consumption**
 - **Arduino**:
@@ -68,10 +68,10 @@ Arduino and Raspberry Pi are both popular platforms for electronics projects, bu
 
 2. Processing Power:
    - Arduino boards generally have less processing power compared to Raspberry Pi.
-   - Raspberry Pi has a more powerful processor and can handle complex tasks, including running a desktop environment.
+   - Raspberry Pi has a more powerful processor and can handle complex tasks,  running a desktop environment.
 
 3. Memory:
-   - Arduino boards have limited memory, typically in the range of kilobytes (KB).
+   - Arduino boards have limited memory,  in the range of kilobytes (KB).
    - Raspberry Pi has significantly more memory, usually in gigabytes (GB), and can be expanded with external storage.
 
 4. Operating System:
@@ -80,11 +80,11 @@ Arduino and Raspberry Pi are both popular platforms for electronics projects, bu
 
 5. Programming Language:
    - Arduino uses a simplified version of C/C++ programming language.
-   - Raspberry Pi supports multiple programming languages, including Python, C/C++, Java, and more.
+   - Raspberry Pi supports multiple programming languages,  Python, C/C++, Java, and more.
 
 6. Hardware Interfaces:
    - Arduino boards have built-in support for analog and digital I/O, PWM, and serial communication.
-   - Raspberry Pi provides a wider range of interfaces, including USB, Ethernet, HDMI, and GPIO pins.
+   - Raspberry Pi provides a wider range of interfaces,  USB, Ethernet, HDMI, and GPIO pins.
 
 7. Power Consumption:
    - Arduino boards generally have lower power consumption compared to Raspberry Pi.

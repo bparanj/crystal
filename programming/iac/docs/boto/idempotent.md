@@ -3,7 +3,7 @@ To make your boto3 code idempotent, you can follow these guidelines:
 1. Use conditional checks:
    - Before creating or modifying resources, check if they already exist or are in the desired state.
    - Use boto3's `describe_*` or `get_*` methods to retrieve information about existing resources.
-   - Compare the desired configuration with the actual configuration and only make changes if necessary.
+   - Compare the desired configuration with the  configuration and only make changes if necessary.
 
 2. Use unique identifiers:
    - When creating resources, assign unique identifiers or names to them.
@@ -16,7 +16,7 @@ To make your boto3 code idempotent, you can follow these guidelines:
 
 4. Use idempotent operations:
    - Prefer using idempotent operations provided by boto3 and AWS services.
-   - For example, use `put_*` methods instead of `create_*` methods when updating resources, as `put_*` methods are typically idempotent.
+   - For example, use `put_*` methods instead of `create_*` methods when updating resources, as `put_*` methods are  idempotent.
 
 Here's an example of making the EC2 instance launching code idempotent:
 

@@ -2,7 +2,7 @@ To protect pages in your Nuxt application that require a user to be logged in, y
 
 1. **Token Storage**:
    - When the user is authenticated via the Supabase Magic Link and the callback in your frontend extracts user details, it should also receive an authentication token (from your Rails backend) indicating the user's logged-in state.
-   - Store this token securely in the client's browser, typically in `localStorage`, `sessionStorage`, or using a client-side state management library like Vuex.
+   - Store this token securely in the client's browser,  in `localStorage`, `sessionStorage`, or using a client-side state management library like Vuex.
 
 2. **Middleware for Authenticated Routes**:
    - In Nuxt.js, you can use middleware to protect routes that require authentication.
@@ -20,7 +20,7 @@ To protect pages in your Nuxt application that require a user to be logged in, y
    - Implement logic to handle token expiry. This could involve prompting the user to re-authenticate or automatically renewing the token, if applicable.
 
 6. **Secure Token Transmission**:
-   - Ensure that the transmission of tokens between your frontend and backend is secure, typically by using HTTPS to prevent token theft.
+   - Ensure that the transmission of tokens between your frontend and backend is secure,  by using HTTPS to prevent token theft.
 
 7. **SSR Considerations**:
    - If your Nuxt app uses Server-Side Rendering (SSR), ensure that the authentication state is correctly managed between the client and server. You might need to use `nuxtServerInit` in your Vuex store to manage the auth state when the application is rendered on the server.

@@ -1,4 +1,4 @@
-A **good conductor** of electricity allows electric current to flow easily due to its low resistance. **Examples** include **copper**, **silver**, and **gold**, with copper being the most commonly used due to its balance of conductivity and cost.
+A **good conductor** of electricity allows electric current to flow easily due to its low resistance. **Examples** include **copper**, **silver**, and **gold**, with copper being the most  used due to its balance of conductivity and cost.
 
 A **bad conductor** (or **insulator**) has high resistance, making it difficult for electric current to flow. **Examples** include **rubber**, **glass**, and **plastic**, which are often used to prevent the unwanted flow of electricity in circuits and devices.
 
@@ -41,4 +41,4 @@ A **transistor** falls under the category of **semiconductors**. It can switch a
 
 An **inductor** falls under the category of **resistive conductors**. While it conducts electricity, it also stores energy in the form of a magnetic field when current flows through it. Inductors have resistance due to their wire coil but primarily function to oppose changes in current, making them neither a perfect conductor nor an insulator.
 
-**Wires** used to connect electronic components fall under the category of **good conductors**. They are typically made from materials like copper or aluminum, which allow electricity to flow with minimal resistance. This ensures efficient transmission of current between components in a circuit.
+**Wires** used to connect electronic components fall under the category of **good conductors**. They are  made from materials like copper or aluminum, which allow electricity to flow with minimal resistance. This ensures efficient transmission of current between components in a circuit.

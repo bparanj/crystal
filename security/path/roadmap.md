@@ -37,7 +37,7 @@ Transitioning from web application development to bug bounty hunting can be over
    - Understand the principles of secure coding practices and the importance of input validation and output encoding.
 
 2. Hacking Methodology and Tools:
-   - Familiarize yourself with the standard bug bounty hunting methodology, including reconnaissance, vulnerability assessment, and exploitation.
+   - Familiarize yourself with the standard bug bounty hunting methodology,  reconnaissance, vulnerability assessment, and exploitation.
    - Learn to use essential tools like Burp Suite, OWASP ZAP, and browser developer tools for web application testing.
    - Explore other useful tools like subdomain enumeration tools (e.g., Amass, Subfinder), directory brute-forcing tools (e.g., Dirsearch, Gobuster), and vulnerability scanners (e.g., Nessus, Acunetix).
 

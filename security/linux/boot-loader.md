@@ -6,7 +6,7 @@ A boot loader is a small program that initiates the booting process of a compute
    - The boot loader is responsible for initializing the hardware components of the computer, such as the CPU, memory, and peripheral devices.
 
 2. **Loading the OS Kernel**:
-   - It locates the OS kernel, typically stored on the hard drive or SSD, and loads it into memory.
+   - It locates the OS kernel,  stored on the hard drive or SSD, and loads it into memory.
 
 3. **Executing the OS Kernel**:
    - After loading, the boot loader transfers control to the OS kernel, which then takes over to complete the boot process.
@@ -20,7 +20,7 @@ A boot loader is a small program that initiates the booting process of a compute
    - When the computer is powered on, the BIOS (Basic Input/Output System) or UEFI (Unified Extensible Firmware Interface) firmware initializes the hardware and performs a Power-On Self Test (POST).
 
 2. **BIOS/UEFI Hand-off**:
-   - The BIOS/UEFI locates the boot loader, typically stored in the Master Boot Record (MBR) or the EFI System Partition (ESP), and loads it into memory.
+   - The BIOS/UEFI locates the boot loader,  stored in the Master Boot Record (MBR) or the EFI System Partition (ESP), and loads it into memory.
 
 3. **Boot Loader Execution**:
    - The boot loader then executes and begins the process of loading the OS kernel.

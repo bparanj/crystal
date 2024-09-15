@@ -31,7 +31,7 @@ If you're following these steps and still can't install `postgresql-16`, conside
 
 - **Running `sudo apt update`** after adding the repository and before trying to install PostgreSQL. This step is crucial as it updates your package lists with the newly added repository.
 - **Verifying PostgreSQL Version Availability**: As of my last training data, PostgreSQL 16 might not be released yet, or if it was recently released, it may not yet be available in the PGDG repository for all distributions. Check the [PostgreSQL Linux downloads page](https://www.postgresql.org/download/linux/ubuntu/) for the latest instructions and available versions.
-- **Distribution Codename Mismatch**: If your distribution's codename isn't correctly identified by `lsb_release -cs`, manually replace `$(lsb_release -cs)` with your actual codename in the repository line.
+- **Distribution Codename Mismatch**: If your distribution's codename isn't correctly identified by `lsb_release -cs`, manually replace `$(lsb_release -cs)` with your  codename in the repository line.
 
 If you've run `sudo apt update` and continue to receive errors about being unable to locate the `postgresql-16` package, double-check the PGDG repository's availability for your specific Ubuntu version and the availability of the PostgreSQL version you're attempting to install.
 

@@ -65,7 +65,7 @@ packer -autocomplete-install
 If autocompletion was already turned on, this command will indicate that it is already installed.
 
 ### Task 4: Explore Subcommands and Flags
-Like many other command-line tools, the packer tool takes a subcommand to execute, and that subcommand may have additional options as well. Subcommands are executed with packer SUBCOMMAND, where "SUBCOMMAND" is the actual command you wish to execute.
+Like many other command-line tools, the packer tool takes a subcommand to execute, and that subcommand may have additional options as well. Subcommands are executed with packer SUBCOMMAND, where "SUBCOMMAND" is the  command you wish to execute.
 
 You can run any packer command with the -h flag to output more detailed help for a specific subcommand.
 
@@ -125,7 +125,7 @@ aws-ubuntu.pkr.hcl
 ```
 
 ### Task 6: Packer Inspect
-The `packer inspect` command shows all components of a Packer template including variables, builds, sources, provisioners and post-processsors.
+The `packer inspect` command shows all components of a Packer template  variables, builds, sources, provisioners and post-processsors.
 
 ```bash
 packer inspect aws-ubuntu.pkr.hcl

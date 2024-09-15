@@ -241,12 +241,12 @@ Here's a basic example of an Ansible playbook that uses the `amazon.aws.ec2_inst
 - **`key_name`**: The name of the key pair to use. Ensure this key pair exists in your AWS account.
 - **`image_id`**: The AMI ID of the image you want to use. This varies by region and your requirements.
 - **`instance_type`**: The type of instance (e.g., t2.micro). This determines the hardware of the host computer used for your instance.
-- **`network`**: Network configuration, including the subnet ID. Optionally, `assign_public_ip` can be set to `true` to assign a public IP address.
+- **`network`**: Network configuration,  the subnet ID. Optionally, `assign_public_ip` can be set to `true` to assign a public IP address.
 - **`wait`**: If set to `true`, Ansible waits until the instance is in the running state.
 - **`state`**: `present` to create the instance, `absent` to terminate it.
 - **`tags`**: Optional tags to assign to the instance for identification and management purposes.
 
-Before executing this playbook, replace placeholder values (e.g., `"ami-1234567890abcdef0"`, `"subnet-12345678"`, `"my-keypair"`) with actual values from your AWS account. Ensure the `amazon.aws` collection is installed by running `ansible-galaxy collection install amazon.aws`, and configure your AWS access credentials (e.g., via environment variables, `~/.aws/credentials`, or Ansible vault).
+Before executing this playbook, replace placeholder values (e.g., `"ami-1234567890abcdef0"`, `"subnet-12345678"`, `"my-keypair"`) with  values from your AWS account. Ensure the `amazon.aws` collection is installed by running `ansible-galaxy collection install amazon.aws`, and configure your AWS access credentials (e.g., via environment variables, `~/.aws/credentials`, or Ansible vault).
 
 No, you cannot directly use a local PEM file by replacing the `key_name` in the playbook with the PEM file's name. The `key_name` parameter requires the name of an SSH key pair that is already registered with your AWS account. To use your local PEM file, you first need to import it into AWS EC2 as a key pair and then use the name you assigned it during the import in your playbook.
 
@@ -308,7 +308,7 @@ To use Ansible for creating an Amazon EC2 instance, first, you need to install t
 
 1. **Install the `amazon.aws` Collection**:
    
-   Open your terminal and run the following command to install the `amazon.aws` collection. This collection includes modules and plugins required to interact with AWS services, including EC2.
+   Open your terminal and run the following command to install the `amazon.aws` collection. This collection includes modules and plugins required to interact with AWS services,  EC2.
 
    ```shell
    ansible-galaxy collection install amazon.aws
@@ -348,7 +348,7 @@ To use Ansible for creating an Amazon EC2 instance, first, you need to install t
        register: ec2
    ```
 
-   Replace `your_keypair_name`, `ami-12345678`, `your_security_group`, and `your_subnet_id` with your actual AWS key pair name, AMI ID, security group ID, and subnet ID, respectively.
+   Replace `your_keypair_name`, `ami-12345678`, `your_security_group`, and `your_subnet_id` with your  AWS key pair name, AMI ID, security group ID, and subnet ID, respectively.
 
 4. **Run the Playbook**:
 
@@ -508,7 +508,7 @@ No, you don't necessarily have to create the VPC and subnet manually if you're w
 - **AMI ID and Instance Type**: Specify the appropriate AMI ID and instance type.
 - **Key Pair**: Ensure you have an SSH key pair created in the specified AWS region and provide its name in the playbook.
 
-Using this approach, you can fully automate your AWS environment setup, including network and instance creation, with Ansible. This is useful for creating reproducible environments or for managing infrastructure as code.
+Using this approach, you can fully automate your AWS environment setup,  network and instance creation, with Ansible. This is useful for creating reproducible environments or for managing infrastructure as code.
 
 ## Creating the AWS Resources
 
@@ -529,7 +529,7 @@ For automation or script use, you can also use the AWS CLI to query for the late
 aws ec2 describe-images --filters "Name=name,Values=ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*" "Name=state,Values=available" --query 'Images[*].[ImageId,CreationDate]' --output text --region your-region | sort -k2 -r | head -n1
 ```
 
-Replace `your-region` with your actual AWS region. This command filters available images for Ubuntu 22.04, sorts them by the creation date to get the latest one, and outputs the most recent AMI ID.
+Replace `your-region` with your  AWS region. This command filters available images for Ubuntu 22.04, sorts them by the creation date to get the latest one, and outputs the most recent AMI ID.
 
 For tasks like creating a VPC, subnets, or finding the correct AMI ID, automating these can save time and reduce the potential for human error, making it a good practice for software engineers interested in infrastructure automation and cloud computing.
 

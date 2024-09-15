@@ -64,17 +64,17 @@ When Rails maintainers communicate with contributors, their word choices tend to
 
 1. **Encouraging**: They often use positive and encouraging language to foster a welcoming environment for contributors.
 2. **Constructive**: Feedback on contributions is usually constructive, focusing on how to improve the contribution rather than just pointing out flaws.
-3. **Clear and Direct**: Maintainers typically use clear and direct language to ensure that their instructions or feedback are easily understood.
+3. **Clear and Direct**: Maintainers  use clear and direct language to ensure that their instructions or feedback are easily understood.
 4. **Respectful and Polite**: Professionalism and respect are key, especially in open source communities, to maintain a healthy collaborative environment.
 5. **Inclusive**: Language that promotes inclusivity and diversity is often preferred to ensure all contributors feel valued.
 
 These communication styles help in building a positive and productive open-source community.
 
-Discussions in the Ruby on Rails community typically happen in several key places:
+Discussions in the Ruby on Rails community  happen in several key places:
 
 1. **GitHub**: The Rails GitHub repository is a primary platform for discussion, especially regarding bug reports, feature requests, and pull requests.
 2. **Rails Forums**: The official Rails forums are a place for broader discussions about the framework.
-3. **Mailing Lists**: Rails has mailing lists for various topics, including core development and usage questions.
+3. **Mailing Lists**: Rails has mailing lists for various topics,  core development and usage questions.
 4. **Stack Overflow**: Many Rails developers use Stack Overflow for asking and answering questions.
 5. **IRC Channels and Slack**: Real-time discussions often occur on IRC channels and in the Rails Slack community.
 
@@ -106,7 +106,7 @@ These platforms facilitate conversations ranging from development queries to con
 
 To clean up deprecations in a Rails codebase:
 
-1. **Identify Deprecations**: Check logs for deprecation warnings while running your application or tests. Rails typically logs a warning when deprecated features are used.
+1. **Identify Deprecations**: Check logs for deprecation warnings while running your application or tests. Rails  logs a warning when deprecated features are used.
 
 2. **Understand the Changes**: Refer to the Rails release notes or documentation to understand the recommended replacements for deprecated features.
 
@@ -135,7 +135,7 @@ Patterns in merged PRs for Rails core often include:
 1. **Quality Code**: Adherence to coding standards and high-quality code are key.
 2. **Well-Tested**: PRs usually include thorough tests for new features or bug fixes.
 3. **Documentation**: Good PRs often update or add necessary documentation.
-4. **Community Agreement**: Changes typically align with the broader Rails community's needs and opinions.
+4. **Community Agreement**: Changes  align with the broader Rails community's needs and opinions.
 5. **Issue Relevance**: PRs often address open issues or widely acknowledged enhancements.
 6. **Maintainer Approval**: Core team reviews and agrees with the changes.
 
@@ -185,7 +185,7 @@ Take notes on key details.
 
 ## Reproducing Bugs
 
-1. Missing expected vs actual result
+1. Missing expected vs  result
 
 Explain to the poster the importance of reproducing an issue and that the behavior they are describing is unclear.
 

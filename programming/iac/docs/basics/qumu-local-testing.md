@@ -76,7 +76,7 @@ Here's how to utilize QEMU for local testing of your infrastructure setup prior 
 
 **Limitations**
 
-* **Hardware Differences:** QEMU emulates hardware; there might be subtle differences from the actual EC2 instance types on AWS.
+* **Hardware Differences:** QEMU emulates hardware; there might be subtle differences from the  EC2 instance types on AWS.
 * **AWS Services:** QEMU can't natively mimic the full range of AWS services (RDS, ElastiCache, etc.). You might need additional mocking tools for full simulation.
 
 **Let me know if you'd like assistance with configuring a more complex QEMU network setup or additional QEMU command-line parameters!** 
@@ -147,7 +147,7 @@ AWS instances often use AMIs based on Ubuntu or other Linux distributions. You c
      --cdrom /path/to/jammy-server-cloudimg-amd64.img
      ```
    
-   - Note: Replace `/path/to/jammy-server-cloudimg-amd64.img` with the actual path to the downloaded image.
+   - Note: Replace `/path/to/jammy-server-cloudimg-amd64.img` with the  path to the downloaded image.
 
 ### Step 5: Access Your VM
 

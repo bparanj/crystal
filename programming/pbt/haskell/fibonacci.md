@@ -65,7 +65,7 @@ fibonacci n = fibs !! n
 - **Implementation:**
   - `fibs = 0 : 1 : zipWith (+) fibs (tail fibs)` creates an infinite list of Fibonacci numbers. This list starts with the first two Fibonacci numbers, 0 and 1.
   - `zipWith (+) fibs (tail fibs)` takes the list `fibs` and its tail (all elements except the first one), then adds corresponding elements together. This operation effectively computes each subsequent Fibonacci number by adding the two preceding numbers.
-  - The `fibs` list is infinite, but Haskell's lazy evaluation ensures that only the parts of the list that are needed are actually computed.
+  - The `fibs` list is infinite, but Haskell's lazy evaluation ensures that only the parts of the list that are needed are ly computed.
   - `fibonacci n = fibs !! n` accesses the \(n\)th element of the `fibs` list, which is the \(n\)th Fibonacci number. The use of `!!` is a list indexing operation, which in this context retrieves the \(n\)th Fibonacci number from the list.
 
 ### Memoization:

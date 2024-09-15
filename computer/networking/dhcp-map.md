@@ -3,7 +3,7 @@ Yes, there are a few ways to map a changing DHCP IP address on a home network to
 1. Use mDNS (Multicast DNS):
    Many modern operating systems support mDNS, which allows devices to be addressed by a local domain name without needing a centralized DNS server. This is often referred to as "Zero-configuration networking" or "Bonjour" (Apple's implementation).
 
-   - On Linux and macOS, this is typically built-in.
+   - On Linux and macOS, this is  built-in.
    - On Windows, you may need to install Bonjour Print Services.
 
    With mDNS, devices can be accessed using a ".local" domain, like "mycomputer.local".
@@ -39,7 +39,7 @@ Yes, there are a few ways to map a changing DHCP IP address on a home network to
    This example uses dnsmasq, which can serve as both a DHCP and DNS server. It will assign IP addresses and automatically create DNS entries for the devices.
 
 3. Use Dynamic DNS (DDNS) with your router:
-   Some routers support DDNS services, which can update a public domain name with your current IP address. While this is typically used for external access, some routers allow local resolution of this domain name.
+   Some routers support DDNS services, which can update a public domain name with your current IP address. While this is  used for external access, some routers allow local resolution of this domain name.
 
 4. Static DHCP leases:
    Instead of using truly dynamic IP addresses, you could configure your router to always assign the same IP to specific devices based on their MAC address. Then you could manually maintain a hosts file on each device or use a simple local DNS server.

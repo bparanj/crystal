@@ -6,7 +6,7 @@ Records are defined within a `data` declaration, using curly braces `{}` to encl
 
 #### Example of a Record
 
-Consider a data type for representing a person, including their name and age:
+Consider a data type for representing a person,  their name and age:
 
 ```haskell
 data Person = Person { name :: String, age :: Int }

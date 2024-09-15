@@ -48,7 +48,7 @@ For larger or more complex projects, you might introduce additional layers of or
 - **Environment-specific configuration files** or directories within `config/` to manage settings for different deployment environments more cleanly.
 - **A `lib/` or `utils/` directory** within `src/` for shared utilities and helper functions that aren't specific to any single AWS service.
 - **Separate directories for different application components** or functionalities within `src/`, especially if your project interacts with many AWS services or has distinct functional areas.
-- **CI/CD integration**, including directories or configuration files for tools like GitHub Actions, GitLab CI, or AWS CodePipeline.
+- **CI/CD integration**,  directories or configuration files for tools like GitHub Actions, GitLab CI, or AWS CodePipeline.
 
 ### Best Practices
 
@@ -108,7 +108,7 @@ Let's go through each directory and file:
 - `docs/`: This directory contains documentation files for your project.
   - `README.md`: A markdown file that provides an overview of your project, installation instructions, usage examples, and other relevant information.
 
-- `requirements.txt`: This file lists the dependencies required by your Boto3 project. It typically includes the `boto3` package and any other libraries your project depends on.
+- `requirements.txt`: This file lists the dependencies required by your Boto3 project. It  includes the `boto3` package and any other libraries your project depends on.
 
 This directory structure separates the source code, tests, and documentation, making it easier to navigate and maintain your project. The `src/` directory is further organized based on AWS services, allowing you to group related functionality together.
 

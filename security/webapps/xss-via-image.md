@@ -19,7 +19,7 @@ In this diagram:
 
 1. The Attacker crafts a malicious image file that contains embedded JavaScript code. This code is designed to execute when the image is rendered in a user's browser.
 
-2. The Attacker uploads the malicious image to the WebApp, typically through a feature that allows user-generated content, such as user profiles, comments, or image galleries.
+2. The Attacker uploads the malicious image to the WebApp,  through a feature that allows user-generated content, such as user profiles, comments, or image galleries.
 
 3. The WebApp stores the uploaded image without proper validation or sanitization. It fails to check for any malicious code embedded within the image file.
 
@@ -36,11 +36,11 @@ In this diagram:
 
 8. The Attacker receives the User's sensitive data sent by the malicious JavaScript code, allowing them to potentially compromise the User's account, steal personal information, or perform further attacks.
 
-To prevent XSS attacks via images, it's important to implement proper security measures, including:
+To prevent XSS attacks via images, it's important to implement proper security measures, :
 
 - Validating and sanitizing user-uploaded images to ensure they do not contain malicious code.
 - Implementing content security policies (CSP) to restrict the execution of inline JavaScript code and limit the sources of executable scripts.
-- Encoding user-generated content, including image file names and metadata, to prevent the injection of malicious code.
+- Encoding user-generated content,  image file names and metadata, to prevent the injection of malicious code.
 - Regularly updating and patching the WebApp to address known vulnerabilities that could be exploited for XSS attacks.
 - Educating users about the risks of uploading untrusted images and encouraging them to be cautious when interacting with user-generated content.
 

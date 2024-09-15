@@ -2,7 +2,7 @@
 
 How is the build process managed in Rails?
 
-From the perspective of a Rails core contributor, the build process in Rails is managed through a combination of automated tasks, testing frameworks, and dependency management tools. Here's an overview of how this process typically works:
+From the perspective of a Rails core contributor, the build process in Rails is managed through a combination of automated tasks, testing frameworks, and dependency management tools. Here's an overview of how this process  works:
 
 1. **Source Code Management**: The Rails source code is managed using Git, hosted on GitHub. This allows for version control, pull requests, issue tracking, and collaborative development.
 

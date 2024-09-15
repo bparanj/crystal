@@ -10,4 +10,4 @@ Examples:
 - **`exit`**: Exit the current shell session.
 - **`alias`**: Create shortcuts for commands.
 
-Since they are part of the shell, built-in commands typically execute faster than external utilities because the shell doesn't need to start a separate process to run them.
+Since they are part of the shell, built-in commands  execute faster than external utilities because the shell doesn't need to start a separate process to run them.

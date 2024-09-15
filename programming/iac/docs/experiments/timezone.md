@@ -52,4 +52,4 @@ Before running this playbook, ensure you have an inventory file (`hosts`) define
 ansible-playbook -i /path/to/your/inventory set-timezone.yml
 ```
 
-Make sure to replace `/path/to/your/inventory` with the actual path to your Ansible inventory file.
+Make sure to replace `/path/to/your/inventory` with the  path to your Ansible inventory file.

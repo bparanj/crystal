@@ -1,4 +1,4 @@
-In the context of Packer, a system image (often referred to as a machine image) is a single static snapshot of a machine's environment and configuration at a specific point in time. This image contains everything needed to boot and run a system, including the operating system, installed software, configuration settings, and sometimes preloaded data. Packer automates the creation of these system images, allowing them to be reproduced and deployed across various platforms and environments consistently and efficiently.
+In the context of Packer, a system image (often referred to as a machine image) is a single static snapshot of a machine's environment and configuration at a specific point in time. This image contains everything needed to boot and run a system,  the operating system, installed software, configuration settings, and sometimes preloaded data. Packer automates the creation of these system images, allowing them to be reproduced and deployed across various platforms and environments consistently and efficiently.
 
 ### Key Characteristics of a System Image Created by Packer:
 
@@ -12,7 +12,7 @@ In the context of Packer, a system image (often referred to as a machine image) 
 
 ### Packer's Role in Creating System Images:
 
-Packer takes a configuration file (template) that describes the desired state of the system image, including the base OS, configuration scripts, and provisioning tools (such as shell scripts, Ansible, Chef, or Puppet). Packer then automates the process of creating this image by:
+Packer takes a configuration file (template) that describes the desired state of the system image,  the base OS, configuration scripts, and provisioning tools (such as shell scripts, Ansible, Chef, or Puppet). Packer then automates the process of creating this image by:
 
 1. **Launching a Temporary Instance**: Packer starts a temporary instance (or VM) based on the specified base OS in the configuration.
 2. **Provisioning**: Packer executes the defined provisioning steps on this instance, such as installing software or applying configurations.

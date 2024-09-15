@@ -99,7 +99,7 @@ Using `nmap` can trigger alarms in security systems and may be considered hostil
 
 This overview covers the basics of using `nmap`. `nmap` has a wide range of options and capabilities, so consider referring to the official documentation or the `nmap` man page (`man nmap`) for more advanced features and techniques.
 
-Goss is a quick and easy server validation tool, and `nmap` is a network scanning tool. They serve different purposes but can complement each other in a testing and validation workflow for an Ubuntu server. To use `nmap` with Goss to automatically generate tests for an Ubuntu server, you'd typically go through a process where `nmap` is used to gather information about the server, such as open ports and services, and then use that information to create Goss tests.
+Goss is a quick and easy server validation tool, and `nmap` is a network scanning tool. They serve different purposes but can complement each other in a testing and validation workflow for an Ubuntu server. To use `nmap` with Goss to automatically generate tests for an Ubuntu server, you'd  go through a process where `nmap` is used to gather information about the server, such as open ports and services, and then use that information to create Goss tests.
 
 Here’s a basic outline of how you could integrate `nmap` with Goss for generating tests:
 
@@ -136,7 +136,7 @@ To fully automate the generation of Goss tests based on `nmap` scans requires cu
 
 Goss has a feature called `autoadd` that simplifies the process of adding tests by automatically creating them for a specified service or file. However, integrating `nmap` directly with the `autoadd` command in Goss to scan network services and then automatically generate tests based on the scan results is not a built-in feature of Goss as of my last update. The `autoadd` command is primarily designed to work with local system resources like processes, services, packages, etc., and not directly with network scan outputs.
 
-That said, to leverage both `nmap` for network scanning and Goss for validation in a cohesive workflow, you'd typically follow a two-step process where each tool is used for its strengths, but manually connect the dots:
+That said, to leverage both `nmap` for network scanning and Goss for validation in a cohesive workflow, you'd  follow a two-step process where each tool is used for its strengths, but manually connect the dots:
 
 1. **Use Nmap to Identify Services**: Run `nmap` to scan your server and identify running services and open ports. This step is manual and requires you to interpret the `nmap` output to decide what services you want to ensure are running and accessible.
 

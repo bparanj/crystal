@@ -32,4 +32,4 @@ In this diagram:
 
 This diagram illustrates a potential vulnerability where the server-side session is not properly invalidated when a user logs out. If the session token remains valid on the server-side, an attacker who obtains the token can gain unauthorized access to the user's account, even after the user has logged out.
 
-To mitigate this risk, it's important to implement proper session management, including server-side session invalidation upon logout and using secure session token generation and storage mechanisms.
+To mitigate this risk, it's important to implement proper session management,  server-side session invalidation upon logout and using secure session token generation and storage mechanisms.

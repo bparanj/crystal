@@ -1,6 +1,6 @@
 ## Top 10 Languages
 
-The most commonly used programming languages in open source projects:
+The most  used programming languages in open source projects:
 
 1. **JavaScript**: Widely used for web development.
 2. **Python**: Known for its simplicity and versatility.
@@ -9,7 +9,7 @@ The most commonly used programming languages in open source projects:
 5. **C++**: Known for performance-critical applications.
 6. **Ruby**: Favored for its elegant syntax, often used in web development.
 7. **PHP**: Commonly used for server-side web development.
-8. **C#**: Used in a variety of applications, including game development.
+8. **C#**: Used in a variety of applications,  game development.
 9. **TypeScript**: A superset of JavaScript, adding static types.
 10. **Go**: Known for its simplicity and efficiency in system and network programming.
 

@@ -118,7 +118,7 @@ Moreover, emerging areas like integrated passive devices (IPDs) and passive comp
 Understanding these subtle behaviors is crucial for pushing the boundaries of electronic design, especially as we move towards higher frequencies, greater power densities, and more extreme operating conditions.
 
 
-A **passive device** in electronics is a component that does not require an external power source to operate and does not amplify or generate energy. Instead, passive devices rely solely on the energy present in the circuit to perform their functions, which typically involve controlling, storing, or dissipating electrical energy.
+A **passive device** in electronics is a component that does not require an external power source to operate and does not amplify or generate energy. Instead, passive devices rely solely on the energy present in the circuit to perform their functions, which  involve controlling, storing, or dissipating electrical energy.
 
 ### Characteristics of Passive Devices:
 

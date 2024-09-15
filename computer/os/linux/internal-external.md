@@ -27,6 +27,6 @@ External commands are separate programs or binaries stored in the file system (u
 
 ### Key Differences:
 - **Internal commands** are faster and are focused on managing the shell and its environment.
-- **External commands** are typically more powerful and versatile since they are standalone programs but take slightly longer to execute due to the overhead of starting a new process.
+- **External commands** are  more powerful and versatile since they are standalone programs but take slightly longer to execute due to the overhead of starting a new process.
 
 This distinction helps manage the shell's internal workings efficiently while allowing more flexibility through external programs.

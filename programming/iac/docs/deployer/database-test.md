@@ -11,7 +11,7 @@ ActiveRecord::Base.connected?
 
 If the method returns `true`, it means that your application has successfully connected to the database. If it returns `false`, the application is not connected to the database.
 
-For more detailed information about the current connection, including the database adapter being used and the connection parameters, you can inspect the `ActiveRecord::Base.connection` object. For example:
+For more detailed information about the current connection,  the database adapter being used and the connection parameters, you can inspect the `ActiveRecord::Base.connection` object. For example:
 
 ```ruby
 ActiveRecord::Base.connection

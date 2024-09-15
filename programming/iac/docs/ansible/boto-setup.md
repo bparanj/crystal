@@ -43,7 +43,7 @@ To ensure AWS CLI is properly configured with your credentials, run:
 aws sts get-caller-identity
 ```
 
-This command returns details about the credentials you're currently using, including the AWS account ID, user or role name, and user or role ID. If your credentials are not set correctly, this command will produce an error indicating that AWS was unable to authenticate the request.
+This command returns details about the credentials you're currently using,  the AWS account ID, user or role name, and user or role ID. If your credentials are not set correctly, this command will produce an error indicating that AWS was unable to authenticate the request.
 
 $ pip3.12 install boto3
 error: externally-managed-environment

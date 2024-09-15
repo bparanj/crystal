@@ -5,13 +5,13 @@
 ### Key Features of SIMMs:
 
 1. **Form Factor**:
-   - SIMMs are small circuit boards that hold memory chips. They typically come in 30-pin and 72-pin configurations.
+   - SIMMs are small circuit boards that hold memory chips. They  come in 30-pin and 72-pin configurations.
 
 2. **Single Data Path**:
    - Unlike DIMMs, which have separate electrical contacts on each side of the module, SIMMs have contacts that are redundant on both sides of the module, meaning each side of the contact is connected to the same data path.
 
 3. **Capacity**:
-   - SIMMs were available in various capacities, typically ranging from 256 KB to 64 MB.
+   - SIMMs were available in various capacities,  ranging from 256 KB to 64 MB.
 
 4. **Voltage**:
    - SIMMs usually operate at a voltage of 5V.
@@ -22,7 +22,7 @@
 ### Usage and Evolution:
 
 1. **30-pin SIMMs**:
-   - These were the first widely used memory modules, commonly found in computers during the 1980s. Each 30-pin SIMM could typically hold 8 or 9 bits of data (with parity).
+   - These were the first widely used memory modules,  found in computers during the 1980s. Each 30-pin SIMM could  hold 8 or 9 bits of data (with parity).
 
 2. **72-pin SIMMs**:
    - Introduced in the early 1990s, these modules provided a larger data path (32 or 36 bits, with parity). They were used in more advanced computers and could accommodate higher memory capacities.

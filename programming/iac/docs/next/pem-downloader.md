@@ -50,7 +50,7 @@ Storing the PEM file in AWS Secrets Manager and using a JavaScript script to dow
 
 1. Storing the PEM file in AWS Secrets Manager:
 
-   - AWS Secrets Manager is a secure vault for storing and managing secrets, including PEM files.
+   - AWS Secrets Manager is a secure vault for storing and managing secrets,  PEM files.
    - You can create a new secret in Secrets Manager and upload the PEM file as the secret value.
    - Secrets Manager encrypts the PEM file at rest using AWS Key Management Service (KMS) and provides secure access control.
 

@@ -1,4 +1,4 @@
-**Electromagnetism** is a fundamental branch of physics that studies the interaction between electric charges and magnetic fields. It is one of the four fundamental forces of nature and is responsible for many physical phenomena, including the behavior of electric and magnetic fields and their interactions with matter.
+**Electromagnetism** is a fundamental branch of physics that studies the interaction between electric charges and magnetic fields. It is one of the four fundamental forces of nature and is responsible for many physical phenomena,  the behavior of electric and magnetic fields and their interactions with matter.
 
 ### Key Concepts of Electromagnetism:
 

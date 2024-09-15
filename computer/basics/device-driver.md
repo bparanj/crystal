@@ -22,13 +22,13 @@ A **device driver** in an operating system is called a "device driver" because i
 
 The name "device driver" reflects its core role in computing: **driving** (controlling and managing) the operation of a hardware **device** by acting as an intermediary between the device and the operating system, allowing software applications to communicate effectively with hardware components.
 
-Yes, when a device driver is installed on a computer, it is typically stored on the **hard drive** (or other types of storage, such as an SSD). Here’s how this process works:
+Yes, when a device driver is installed on a computer, it is  stored on the **hard drive** (or other types of storage, such as an SSD). Here’s how this process works:
 
 ### Where and How Device Drivers are Stored
 
 1. **Installation Location**:
    - When you install a device driver, the installation files (usually a combination of executable files, libraries, configuration files, and other necessary resources) are copied to specific locations on the hard drive or SSD.
-   - The most common location for driver files in Windows, for example, is the **System32** folder, specifically in `C:\Windows\System32\drivers` for the driver files, and `C:\Windows\inf` for driver information files. On Linux, drivers are typically stored in the `/lib/modules/` directory.
+   - The most common location for driver files in Windows, for example, is the **System32** folder, specifically in `C:\Windows\System32\drivers` for the driver files, and `C:\Windows\inf` for driver information files. On Linux, drivers are  stored in the `/lib/modules/` directory.
 
 2. **Persistent Storage**:
    - The driver files are stored in persistent storage (hard drive or SSD) so that they remain available even after the computer is turned off and on again. This ensures that the operating system can load the necessary drivers every time the computer boots up.

@@ -21,7 +21,7 @@ This integration has several benefits:
 
 While the terms "north bridge" and "south bridge" are still sometimes used colloquially, they don't accurately describe the architecture of current motherboards.
 
-No, the traditional Northbridge and Southbridge architecture is no longer commonly found in modern motherboards. This shift has occurred due to advancements in CPU and chipset design. Here's a more detailed explanation:
+No, the traditional Northbridge and Southbridge architecture is no longer  found in modern motherboards. This shift has occurred due to advancements in CPU and chipset design. Here's a more detailed explanation:
 
 ### Traditional Architecture
 
@@ -44,7 +44,7 @@ No, the traditional Northbridge and Southbridge architecture is no longer common
 ### AMD's Equivalent
 
 **AMD Fusion and Infinity Fabric**:
-- AMD's modern architectures integrate many Northbridge functions into the CPU as well. Their Ryzen and EPYC processors, for example, use Infinity Fabric to interconnect various components on the die, including memory controllers and PCIe lanes.
+- AMD's modern architectures integrate many Northbridge functions into the CPU as well. Their Ryzen and EPYC processors, for example, use Infinity Fabric to interconnect various components on the die,  memory controllers and PCIe lanes.
 - AMD also uses a similar single-chip solution for other functions, known as the chipset, which connects to the CPU.
 
 ### Benefits of the Modern Architecture

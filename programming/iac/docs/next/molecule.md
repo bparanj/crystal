@@ -51,7 +51,7 @@ With your scenario configured and tests written, you can now run your Molecule t
 molecule test
 ```
 
-This command will run through the Molecule test sequence which typically includes linting, creating instances, applying your role, running tests, and then cleaning up instances.
+This command will run through the Molecule test sequence which  includes linting, creating instances, applying your role, running tests, and then cleaning up instances.
 
 ### Step 6: Debugging (Optional)
 
@@ -86,11 +86,11 @@ Whether you need Molecule tests in addition to Goss depends on your specific tes
 ### Molecule
 
 - **Purpose**: Molecule is designed for testing Ansible roles and playbooks. It provides a framework for developing and testing Ansible roles that can include linting, syntax checks, creating instances, applying roles, and running test assertions.
-- **Use Case**: Molecule shines in a development workflow for creating reusable Ansible roles. It supports multiple testing strategies, including Testinfra or Goss, and can manage multi-platform testing scenarios using Docker, Vagrant, or cloud providers.
+- **Use Case**: Molecule shines in a development workflow for creating reusable Ansible roles. It supports multiple testing strategies,  Testinfra or Goss, and can manage multi-platform testing scenarios using Docker, Vagrant, or cloud providers.
 
 ### Integrating Goss with Molecule
 
-- **Hybrid Approach**: You can actually use Goss as a verifier within Molecule. This approach allows you to leverage Molecule's infrastructure setup, role application, and teardown capabilities, while using Goss's syntax for writing tests. It's a way to get the best of both worlds - Molecule's Ansible-focused testing framework and Goss's simple, server-state validation language.
+- **Hybrid Approach**: You can ly use Goss as a verifier within Molecule. This approach allows you to leverage Molecule's infrastructure setup, role application, and teardown capabilities, while using Goss's syntax for writing tests. It's a way to get the best of both worlds - Molecule's Ansible-focused testing framework and Goss's simple, server-state validation language.
 
 ### Decision Factors
 
@@ -101,5 +101,5 @@ Whether you need Molecule tests in addition to Goss depends on your specific tes
 ### Conclusion
 
 - If your primary need is to validate the state of servers post-configuration with quick checks, Goss might suffice for your use case.
-- If you're developing Ansible roles or playbooks and need a comprehensive testing lifecycle (including linting, syntax checks, and support for multiple platforms or environments), Molecule — possibly integrated with Goss for verification — would be beneficial.
-- Consider the broader context of your infrastructure code testing needs, including development workflows, CI/CD integration, and maintenance overhead, to make the best choice for your project.
+- If you're developing Ansible roles or playbooks and need a comprehensive testing lifecycle ( linting, syntax checks, and support for multiple platforms or environments), Molecule — possibly integrated with Goss for verification — would be beneficial.
+- Consider the broader context of your infrastructure code testing needs,  development workflows, CI/CD integration, and maintenance overhead, to make the best choice for your project.

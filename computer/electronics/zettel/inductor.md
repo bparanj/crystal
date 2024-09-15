@@ -28,7 +28,7 @@ An **inductor** is a passive electronic component that stores energy in a magnet
    **Example:** In switching power supplies, inductors help regulate current, but if a switch is turned off too suddenly, the inductor can generate a high-voltage spike that needs to be managed by other circuit components.
 
 5. **What are the common applications of inductors?**  
-   Inductors are used in a variety of circuits, including **filters** (to block or pass certain frequencies), **transformers** (to transfer energy between circuits), and **energy storage** devices in power supplies.  
+   Inductors are used in a variety of circuits,  **filters** (to block or pass certain frequencies), **transformers** (to transfer energy between circuits), and **energy storage** devices in power supplies.  
    **Analogy:** Inductors are like traffic regulators—they control the flow of current (traffic) by slowing down rapid changes and keeping the system smooth.  
    **Example:** In a low-pass filter, an inductor allows low-frequency signals to pass through while blocking high-frequency noise, helping to clean up the signal in audio circuits.
 
@@ -83,7 +83,7 @@ This solution demonstrates how an inductor can be used to filter out unwanted hi
    Research how inductors can be optimized for use in wireless power transfer systems, where they are critical for generating and capturing magnetic fields to transfer energy across distances.
 
 Overview:
-An inductor functions as a passive electronic component that stores energy in a magnetic field when an electric current flows through it. It typically consists of a coil of wire, often wrapped around a core material. Inductors resist changes in electric current passing through them, a property known as inductance. This characteristic makes inductors valuable in various applications, including filtering, energy storage, and signal processing in electronic circuits.
+An inductor functions as a passive electronic component that stores energy in a magnetic field when an electric current flows through it. It  consists of a coil of wire, often wrapped around a core material. Inductors resist changes in electric current passing through them, a property known as inductance. This characteristic makes inductors valuable in various applications,  filtering, energy storage, and signal processing in electronic circuits.
 
 Atomic Ideas:
 
@@ -124,7 +124,7 @@ Related Atomic Ideas:
 
 4. Skin Effect in Inductors: This phenomenon, where high-frequency currents tend to flow on the surface of conductors, affects inductor performance at high frequencies, linking to concepts of inductor design and frequency response.
 
-5. Inductors in AC Circuits: Understanding how inductors behave in alternating current circuits, including concepts like inductive reactance and phase shift, extends the basic principles of inductance to practical AC applications.
+5. Inductors in AC Circuits: Understanding how inductors behave in alternating current circuits,  concepts like inductive reactance and phase shift, extends the basic principles of inductance to practical AC applications.
 
 Potential Research:
 1. Problem Statement: How can nanotechnology be applied to develop inductors with significantly higher energy density and lower losses for power electronic applications?

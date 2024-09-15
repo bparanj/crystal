@@ -120,7 +120,7 @@ build {
 }
 ```
 
-This Packer template defines a source configuration for an Amazon EBS-backed AMI, using Amazon Linux 2 as the base. It specifies the AWS credentials, region, and instance type, among other parameters. Note that you should replace `"your-access-key"` and `"your-secret-key"` with your actual AWS credentials or, preferably, use environment variables to avoid hardcoding sensitive information.
+This Packer template defines a source configuration for an Amazon EBS-backed AMI, using Amazon Linux 2 as the base. It specifies the AWS credentials, region, and instance type, among other parameters. Note that you should replace `"your-access-key"` and `"your-secret-key"` with your  AWS credentials or, preferably, use environment variables to avoid hardcoding sensitive information.
 
 ### Step 2: Use Terraform to Deploy an EC2 Instance and Assign a Static IP
 
@@ -136,7 +136,7 @@ resource "aws_eip" "example" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-123456" # Replace this with your actual AMI ID from Packer
+  ami           = "ami-123456" # Replace this with your  AMI ID from Packer
   instance_type = "t2.micro"
 
   tags = {
@@ -150,7 +150,7 @@ resource "aws_eip_association" "example" {
 }
 ```
 
-After creating your AMI with Packer, replace `"ami-123456"` with the actual AMI ID you receive. This Terraform configuration will create an EC2 instance from your custom AMI and associate an Elastic IP with it.
+After creating your AMI with Packer, replace `"ami-123456"` with the  AMI ID you receive. This Terraform configuration will create an EC2 instance from your custom AMI and associate an Elastic IP with it.
 
 ### Key Takeaways
 
@@ -170,7 +170,7 @@ Here's a Terraform HCL template that demonstrates how to assign a static IP addr
 
 ```hcl
 provider "aws" {
-  region = "your-aws-region" # Replace with your actual region
+  region = "your-aws-region" # Replace with your  region
 }
 
 # Data sources to fetch existing resources

@@ -36,4 +36,4 @@ Yes, the term **network architecture** can encompass **isolation, integration, a
 - **Integration** refers to the seamless communication between different network components.
 - **Security** is built into the architecture to protect data and resources.
 
-**Network architecture** refers to the overall design and organization of a network, including how isolation, integration, and security measures are implemented to meet specific requirements.
+**Network architecture** refers to the overall design and organization of a network,  how isolation, integration, and security measures are implemented to meet specific requirements.

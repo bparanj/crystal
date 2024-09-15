@@ -123,7 +123,7 @@ The following playbook outlines the steps to:
 
 **Instructions:**
 
-1. **Customize Variables**: Replace `redis_bind_ip`, `redis_password`, and `application_server_ip` with the actual private IP of your Redis server, your chosen Redis password, and the IP address of your application server.
+1. **Customize Variables**: Replace `redis_bind_ip`, `redis_password`, and `application_server_ip` with the  private IP of your Redis server, your chosen Redis password, and the IP address of your application server.
 
 2. **Running the Playbook**: Use this playbook with Ansible to configure your server. Ensure you have Ansible installed and configured to communicate with your server.
 
@@ -144,11 +144,11 @@ By following these steps, you create a base image with Redis installed, configur
 
 ## Rails Connection to Redis
 
-When a Rails application running on the same EC2 instance needs to connect to a Redis server that requires a password, you must configure the Rails application to supply this password when attempting to establish a connection to Redis. This is typically done within the application's configuration files where you specify the Redis server URL.
+When a Rails application running on the same EC2 instance needs to connect to a Redis server that requires a password, you must configure the Rails application to supply this password when attempting to establish a connection to Redis. This is  done within the application's configuration files where you specify the Redis server URL.
 
 ### Configuring Redis Connection in Rails
 
-In Rails, the connection to Redis is often configured in various places depending on what you're using Redis for (e.g., caching, Action Cable, session store, Sidekiq background jobs). You generally specify the Redis server URL, including the password, in these configurations. The Redis server URL format with a password is:
+In Rails, the connection to Redis is often configured in various places depending on what you're using Redis for (e.g., caching, Action Cable, session store, Sidekiq background jobs). You generally specify the Redis server URL,  the password, in these configurations. The Redis server URL format with a password is:
 
 ```
 redis://:password@hostname:port/db_number
@@ -206,7 +206,7 @@ Rails.application.config.session_store :redis_store, servers: ['redis://:YourStr
 
 ### Key Points
 
-- **Password Placeholder**: Replace `YourStrongRedisPassword` with the actual password you've set for your Redis instance.
+- **Password Placeholder**: Replace `YourStrongRedisPassword` with the  password you've set for your Redis instance.
 - **Host and Port**: Use `localhost` and port `6379` (default Redis port) if Redis is running on the same EC2 instance. Adjust if your setup differs.
 - **Database Index**: The `/0`, `/1`, `/2`, etc., at the end of the URLs denote different Redis databases. You can use these to separate data logically if needed.
 
@@ -222,7 +222,7 @@ Create an environment that mirrors your production setup as closely as possible.
 
 - **Redis Password**: Configure Redis with a password as described in your Redis configuration file (`redis.conf`), using the `requirepass` directive.
 - **Network Restrictions**: Apply network-level restrictions using security groups or firewall rules to ensure only your application can communicate with Redis.
-- **Bind Address**: Ensure Redis is configured to listen on the appropriate interface, typically the localhost (`127.0.0.1`) for testing.
+- **Bind Address**: Ensure Redis is configured to listen on the appropriate interface,  the localhost (`127.0.0.1`) for testing.
 
 ### 3. Update Rails Configuration
 
@@ -247,7 +247,7 @@ Modify your Rails application's configuration to include the Redis password and 
 
 ### 7. Update Documentation
 
-Ensure that all changes to your Redis and Rails configurations are properly documented, including the rationale for security settings and any necessary steps to replicate the configuration in other environments.
+Ensure that all changes to your Redis and Rails configurations are properly documented,  the rationale for security settings and any necessary steps to replicate the configuration in other environments.
 
 ### 8. Plan for Rollback
 

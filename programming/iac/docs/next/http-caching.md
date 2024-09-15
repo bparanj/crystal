@@ -26,10 +26,10 @@ example.com {
 
 In this configuration:
 
-- The `root` directive points Caddy to the root directory where it should look for static files, typically the `public` directory of your Rails application.
+- The `root` directive points Caddy to the root directory where it should look for static files,  the `public` directory of your Rails application.
 - The `@staticAssets` named matcher uses the `path` directive to match requests for static assets, such as those in the `/assets`, `/packs`, and `/images` directories.
 - The `header` directive sets the `Cache-Control` header for matched requests, specifying that these assets can be cached by browsers and intermediaries. The `public, max-age=604800, immutable` value indicates that the assets are public, can be cached for a week (`604800` seconds), and are immutable (won't change for the specified duration).
-- The `encode` directive enables response compression for all responses, including static assets and dynamic content served through the reverse proxy.
+- The `encode` directive enables response compression for all responses,  static assets and dynamic content served through the reverse proxy.
 - The `file_server` directive with no additional configuration serves files from the root directory and employs the cache-control headers as specified.
 
 ### Important Notes:

@@ -9,7 +9,7 @@ A solid-state device is an electronic component that controls the flow of electr
 
 ### 3. **To an Undergraduate Student **
 
-A solid-state device refers to electronic components that operate using the electrical properties of solid materials, typically semiconductors like silicon. These devices, such as diodes, transistors, and integrated circuits, rely on the movement of electrons and holes within the solid material to perform functions like switching, amplifying, and controlling electrical signals. The absence of moving parts in solid-state devices contributes to their durability, speed, and efficiency, making them fundamental to modern electronics.
+A solid-state device refers to electronic components that operate using the electrical properties of solid materials,  semiconductors like silicon. These devices, such as diodes, transistors, and integrated circuits, rely on the movement of electrons and holes within the solid material to perform functions like switching, amplifying, and controlling electrical signals. The absence of moving parts in solid-state devices contributes to their durability, speed, and efficiency, making them fundamental to modern electronics.
 
 ### 4. **To a Graduate Student:**
 
@@ -81,7 +81,7 @@ At this level, understanding solid state devices involves a deep dive into quant
 
 3. Carrier transport phenomena:
    - Boltzmann transport equation
-   - Mobility models (including high-field effects)
+   - Mobility models ( high-field effects)
    - Hot carrier effects and velocity saturation
 
 4. Recombination-generation mechanisms:
@@ -173,7 +173,7 @@ The term "solid-state" highlights the fact that these devices function using the
 
 The term "solid state" refers to the physical state of the materials used in these devices. Here's why it's called "solid state":
 
-1. Material composition: Solid state devices are made from solid materials, typically semiconductors like silicon or germanium. These materials maintain their solid form during normal operation.
+1. Material composition: Solid state devices are made from solid materials,  semiconductors like silicon or germanium. These materials maintain their solid form during normal operation.
 
 2. Historical context: The term gained popularity to distinguish these devices from earlier electronics that used vacuum tubes. Vacuum tubes contained gases or a vacuum, while solid state devices are entirely solid.
 

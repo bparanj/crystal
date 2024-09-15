@@ -1,4 +1,4 @@
-An **analog device** is an electronic component or system that processes analog signals. Analog signals are continuous signals that can represent a wide range of values and vary smoothly over time, as opposed to digital signals, which have discrete values (typically representing binary states).
+An **analog device** is an electronic component or system that processes analog signals. Analog signals are continuous signals that can represent a wide range of values and vary smoothly over time, as opposed to digital signals, which have discrete values ( representing binary states).
 
 ### Key Characteristics of Analog Devices:
 
@@ -43,7 +43,7 @@ Key characteristics of analog devices:
 
 1. Continuous signals: They work with signals that can take on any value within a given range, not just discrete levels.
 
-2. Real-time processing: Analog devices typically process signals in real-time, without the need for sampling or quantization.
+2. Real-time processing: Analog devices  process signals in real-time, without the need for sampling or quantization.
 
 3. Infinite resolution: In theory, analog signals can have infinite resolution, though practical limitations apply.
 

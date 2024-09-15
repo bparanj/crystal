@@ -10,7 +10,7 @@ You must specify a region. You can also configure your region by running "aws co
 
 This command returns a JSON object that contains the secret value. If the secret is a string, it can be found in the `SecretString` field of the output. For binary secrets, the `SecretBinary` field will be populated instead.
 
-Replace `"ror_key_secret-pqc11in5"` with your actual secret name.
+Replace `"ror_key_secret-pqc11in5"` with your  secret name.
 
 Also, ensure your AWS CLI is configured with the appropriate credentials and region to access the Secrets Manager service. If you need to specify a region different from your default configuration, you can add the `--region` flag to your command, like so:
 
@@ -53,7 +53,7 @@ This command does the following:
 
 To use AWS Secrets that are defined as environment variables in your JavaScript code, especially when working with Node.js, you can use the `process.env` object. This object provides access to the environment variables set in the environment where the Node.js application is running.
 
-If you have AWS Secrets like AWS Access Key ID and AWS Secret Access Key stored in environment variables (commonly named `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`), you can access these within your JavaScript code to configure the AWS SDK as follows:
+If you have AWS Secrets like AWS Access Key ID and AWS Secret Access Key stored in environment variables ( named `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`), you can access these within your JavaScript code to configure the AWS SDK as follows:
 
 First, ensure your environment variables are set. You can set them temporarily in the terminal (for the current session only) or permanently by adding them to your shell profile file (e.g., `~/.bash_profile`, `~/.bashrc`, `~/.zshrc`).
 

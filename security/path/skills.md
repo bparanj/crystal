@@ -52,7 +52,7 @@ To be successful in earning money through security bug bounty programs, you need
 
 Bug bounty hunting is a competitive field, and success often comes with experience and dedication. Start by focusing on learning and developing your skills, and gradually work your way up to more complex and high-paying programs. Participating in CTFs, online labs, and practice platforms can help you gain practical experience and improve your skills before engaging in real-world bug bounty programs.
 
-To succeed in making money through security bug bounties, you need a variety of skills, including:
+To succeed in making money through security bug bounties, you need a variety of skills, :
 
 1. **Web and Network Security Knowledge**: Understand common security vulnerabilities and threats.
 2. **Programming Skills**: Knowledge of programming languages like JavaScript, Python, or PHP is often necessary to identify and exploit weaknesses.

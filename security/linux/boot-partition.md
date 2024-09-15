@@ -18,7 +18,7 @@ In Debian, the **boot partition** is a dedicated partition on your hard drive th
 - **Standard BIOS System**:
   - `/boot` partition might be around 500MB.
 - **UEFI System**:
-  - `/boot/efi` partition is typically around 100-200MB.
+  - `/boot/efi` partition is  around 100-200MB.
 
 ### **Creating a Boot Partition**
 When installing Debian, you can create a boot partition during the partitioning step. Here’s a basic outline:

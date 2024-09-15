@@ -7,7 +7,7 @@ A **diode** can be thought of as a type of electronic **switch** with specific c
 Diode experiment demonstrates this idea.
 
 ### 2. **Threshold Behavior**:
-   - Unlike a mechanical switch that changes state instantly, a diode requires a certain threshold voltage (typically 0.7V for a silicon diode) in forward bias to start conducting. Below this threshold, the diode remains "off," and above it, the diode turns "on."
+   - Unlike a mechanical switch that changes state instantly, a diode requires a certain threshold voltage ( 0.7V for a silicon diode) in forward bias to start conducting. Below this threshold, the diode remains "off," and above it, the diode turns "on."
 
 This needs a variable power supply to demonstrate.
 

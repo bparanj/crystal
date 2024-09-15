@@ -61,7 +61,7 @@ Ansible playbook template to deploy code to an Ubuntu server, restart the Puma a
         daemon_reload: yes
 ```
 
-Please replace `your_server_group`, `/path/to/your/app`, `git@your.repository.url:your_repo.git`, `master`, and `your_deploy_user` with your actual server group, application directory path, repository URL, branch name, and deploy user, respectively. Also, adjust the `puma@your_app` service name according to your configuration.
+Please replace `your_server_group`, `/path/to/your/app`, `git@your.repository.url:your_repo.git`, `master`, and `your_deploy_user` with your  server group, application directory path, repository URL, branch name, and deploy user, respectively. Also, adjust the `puma@your_app` service name according to your configuration.
 
 This playbook performs the following actions:
 
@@ -83,7 +83,7 @@ This playbook performs the following actions:
 
 To deploy your Rails project directly from your local machine to a server, you can use Ansible's `synchronize` module, which wraps `rsync` to efficiently transfer files. The playbook below assumes your Rails project is in the current working directory from where you run the Ansible command, and it will upload the project to your Ubuntu server.
 
-Please adjust the placeholders (`your_server_group`, `/path/to/your/app/on/server`, `your_deploy_user`, etc.) to match your actual deployment setup. This playbook includes tasks to copy your code, run `bundle install`, and handle database creation and migration, along with restarting the Puma server.
+Please adjust the placeholders (`your_server_group`, `/path/to/your/app/on/server`, `your_deploy_user`, etc.) to match your  deployment setup. This playbook includes tasks to copy your code, run `bundle install`, and handle database creation and migration, along with restarting the Puma server.
 
 ```yaml
 ---
@@ -139,7 +139,7 @@ Please adjust the placeholders (`your_server_group`, `/path/to/your/app/on/serve
 - Update the Puma service name (`puma@your_app`) to match your configuration.
 - Ensure all necessary environment variables are properly set for Rails and database connectivity.
 
-Replace placeholder values with your actual configuration details before running the playbook.
+Replace placeholder values with your  configuration details before running the playbook.
 
 ## Iteration #3
 
@@ -178,7 +178,7 @@ For a quick one-off task or when testing, you might also define the host directl
 
 ## Iteration #4
 
-The typical path for deploying a Rails application on a server often follows a structured directory layout used by many deployment tools, including Capistrano, which is one of the most popular deployment tools for Rails applications. The standard path used by Capistrano and adopted by various other tools for deployment is located in the `/var/www/` directory, with a structure somewhat like this:
+The typical path for deploying a Rails application on a server often follows a structured directory layout used by many deployment tools,  Capistrano, which is one of the most popular deployment tools for Rails applications. The standard path used by Capistrano and adopted by various other tools for deployment is located in the `/var/www/` directory, with a structure somewhat like this:
 
 ```
 /var/www/myapp_name/
@@ -198,7 +198,7 @@ This structure helps in maintaining a clean organization of application releases
 
 For your Rails application, you can adopt a similar structure. The exact path might vary based on your server configuration, preferences, and whether you're using a deployment tool. If you're not using Capistrano or a similar tool, you might not need all these directories, but the general idea of separating current releases, shared data, and logs can still be beneficial.
 
-If deploying manually or through another automation tool, you might use a simplified version of this structure, but `/var/www/myapp_name/` or a similar path is a commonly used standard for web applications on Linux servers.
+If deploying manually or through another automation tool, you might use a simplified version of this structure, but `/var/www/myapp_name/` or a similar path is a  used standard for web applications on Linux servers.
 
 ## Iteration #5
 
@@ -377,7 +377,7 @@ Or, if you're using the IP address directly without a group:
 44.238.195.175 ansible_user=ubuntu ansible_ssh_private_key_file=path/to/rails.pem
 ```
 
-Replace `ubuntu` with your server's username and `path/to/rails.pem` with the actual path to your SSH private key.
+Replace `ubuntu` with your server's username and `path/to/rails.pem` with the  path to your SSH private key.
 
 4. **Verify Inventory File Location and Name**: Double-check the command you used to run the playbook and ensure the inventory file's path and name are correct.
 
@@ -387,7 +387,7 @@ ansible-playbook -i host.ini deploy.yml
 
 Ensure that `host.ini` is the correct name and that the file is in the current directory from which you're running the command. If the file is elsewhere, specify the full path.
 
-5. **Permissions**: Ensure that the `rails.pem` file and your inventory file have appropriate permissions. The `.pem` file should typically have `400` permissions to restrict it to read-only by the file's owner:
+5. **Permissions**: Ensure that the `rails.pem` file and your inventory file have appropriate permissions. The `.pem` file should  have `400` permissions to restrict it to read-only by the file's owner:
 
 ```bash
 chmod 400 path/to/rails.pem
@@ -432,7 +432,7 @@ host3
 
 This setup ensures that Ansible knows to connect to `host2` on port `2222`, while it will attempt to connect to `host1` and `host3` using the default SSH port (`22`).
 
-Remember to replace `44.238.195.175`, `host1`, `host2`, `host3`, and `2222` with your actual host IP addresses and the SSH port you want to use.
+Remember to replace `44.238.195.175`, `host1`, `host2`, `host3`, and `2222` with your  host IP addresses and the SSH port you want to use.
 
 The error message indicates that `sudo` on the remote host requires a password to execute commands. By default, Ansible attempts to execute some commands with `sudo`, which may require a password.
 
@@ -446,7 +446,7 @@ Ensure the remote user Ansible is using can execute `sudo` commands without a pa
   ```sh
   sudo visudo
   ```
-- Add a line for your user (replace `youruser` with the actual username) to allow passwordless sudo:
+- Add a line for your user (replace `youruser` with the  username) to allow passwordless sudo:
   ```sh
   youruser ALL=(ALL) NOPASSWD: ALL
   ```
@@ -468,7 +468,7 @@ If you cannot or prefer not to allow passwordless sudo, you can specify the sudo
 
 ### 3. Adjust Your Playbook to Avoid Unnecessary Sudo
 
-If your task does not actually require `sudo`, you might want to adjust your playbook to not escalate privileges. You can control this with the `become` parameter in your tasks or at the playbook level.
+If your task does not ly require `sudo`, you might want to adjust your playbook to not escalate privileges. You can control this with the `become` parameter in your tasks or at the playbook level.
 
 - To disable privilege escalation for a specific task:
   ```yaml

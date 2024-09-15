@@ -27,7 +27,7 @@ Getting started with bug bounty hunting and earning money by finding security fl
 
 6. Document and report findings:
    - Keep detailed notes and screenshots of your findings.
-   - Write clear and concise reports, including steps to reproduce the vulnerability and its potential impact.
+   - Write clear and concise reports,  steps to reproduce the vulnerability and its potential impact.
    - Submit your reports to the bug bounty program, following their reporting guidelines.
 
 7. Collaborate and learn from the community:
@@ -48,7 +48,7 @@ To get started in making money through bug bounty programs for identifying secur
 
 1. **Learn the Basics**: Understand the fundamentals of web security, network security, and common vulnerabilities (such as SQL injection, XSS, CSRF).
 2. **Pick a Platform**: Join platforms like HackerOne, Bugcrowd, or Synack that connect security researchers with companies offering bug bounties.
-3. **Study Existing Reports**: Review disclosed bug bounty reports to understand what types of vulnerabilities are typically rewarded.
+3. **Study Existing Reports**: Review disclosed bug bounty reports to understand what types of vulnerabilities are  rewarded.
 4. **Practice**: Use platforms like OWASP Juice Shop, Hack The Box, or VulnHub to practice your hacking skills in a legal environment.
 5. **Focus on Scope**: Always adhere to the scope defined by the bug bounty program to avoid legal issues.
 6. **Report Clearly**: When you find a vulnerability, document it clearly and thoroughly. Detailed, reproducible steps are crucial.

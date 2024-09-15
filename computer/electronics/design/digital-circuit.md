@@ -1,4 +1,4 @@
-A **digital circuit** is an electronic circuit designed to process digital signals, which are signals that represent data in binary form—using only two distinct voltage levels, typically labeled as "0" and "1." These circuits are the foundation of all modern digital electronics, including computers, smartphones, and many other devices.
+A **digital circuit** is an electronic circuit designed to process digital signals, which are signals that represent data in binary form—using only two distinct voltage levels,  labeled as "0" and "1." These circuits are the foundation of all modern digital electronics,  computers, smartphones, and many other devices.
 
 ### Key Characteristics of Digital Circuits:
 
@@ -20,7 +20,7 @@ A **digital circuit** is an electronic circuit designed to process digital signa
 
 4. **Applications**:
    - **Computing**: Digital circuits are the core of processors, memory units, and other components in computers, enabling tasks such as arithmetic operations, data storage, and program execution.
-   - **Communication**: Digital circuits encode, transmit, and decode data in communication systems, including telecommunication and data networks.
+   - **Communication**: Digital circuits encode, transmit, and decode data in communication systems,  telecommunication and data networks.
    - **Control Systems**: Used in automation, digital circuits process inputs from sensors and generate outputs to control machines, robots, and other devices.
    - **Consumer Electronics**: Found in everyday devices like smartphones, TVs, and gaming consoles, where they manage user interfaces, media playback, and connectivity.
 
@@ -50,7 +50,7 @@ They process and manipulate binary information (0s and 1s) using logic gates and
 - Encoders and decoders
 
 2. Key characteristics:
-- Operate using discrete voltage levels (typically high and low)
+- Operate using discrete voltage levels ( high and low)
 - Use Boolean algebra for logical operations
 - Can be combined to create more complex functions
 

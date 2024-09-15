@@ -16,7 +16,7 @@ Set the goal that is specific. Typical software evolution activities will requir
 
 Notice how, in the context of software evolution, code reading is an opportunistic, goal- directed activity. In most cases, we simply cannot afford to read and understand the code of an entire software system. 
 
-Any attempt to precisely analyze code will typically branch into numerous other classes, files, and modules and quickly overwhelm us; we therefore actively try to limit the extent of code we have to understand to the absolutely necessary minimum. 
+Any attempt to precisely analyze code will  branch into numerous other classes, files, and modules and quickly overwhelm us; we therefore actively try to limit the extent of code we have to understand to the absolutely necessary minimum. 
 
 Instead of striving for a global and complete understanding of the code, we try to find heuristic shortcuts and employ the build process and the execution of the running system to direct us to the code areas that require our attention. 
 
@@ -90,7 +90,7 @@ Minimizing the risk of starting on the wrong path when fixing a bug in the Rails
 
 1. **Understand the Bug Completely**:
    - **Reproduce the Bug**: Ensure you can consistently reproduce the bug. Understanding the exact conditions under which the bug occurs is crucial.
-   - **Gather Information**: Collect as much information as possible about the bug, including error messages, stack traces, environment conditions, and user reports.
+   - **Gather Information**: Collect as much information as possible about the bug,  error messages, stack traces, environment conditions, and user reports.
 
 2. **Review Related Documentation and Code**:
    - Understand the part of the Rails framework where the bug occurs. Read the relevant documentation and code comments to get a clear picture of the intended behavior.

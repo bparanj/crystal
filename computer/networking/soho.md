@@ -1,4 +1,4 @@
-To express a /24 network prefix as a dotted decimal subnet mask, we need to convert the prefix notation to the more traditional subnet mask format. Let's break this down:
+To express a /24 network prefix as a dotted decimal subnet mask, we convert the prefix notation to subnet mask format. Let's break this down:
 
 1. Understanding /24:
    - In CIDR (Classless Inter-Domain Routing) notation, /24 means that the first 24 bits of the IP address are used for the network portion.
@@ -22,7 +22,7 @@ To express a /24 network prefix as a dotted decimal subnet mask, we need to conv
 
 This subnet mask allows for 256 total addresses (254 usable host addresses, plus network and broadcast addresses) in the local network.
 
-The technology commonly used by routers to forward packets from privately addressed LAN hosts over the WAN interface is Network Address Translation (NAT).
+The technology  sed by routers to forward packets from privately addressed LAN hosts over the WAN interface is Network Address Translation (NAT).
 
 NAT allows a router to translate between private IP addresses used on the internal network and public IP addresses used on the internet. Here's a brief overview of how it works:
 
@@ -38,13 +38,13 @@ NAT allows a router to translate between private IP addresses used on the intern
 
 This process allows multiple devices with private IP addresses to share a single public IP address, which is crucial given the limited number of available public IPv4 addresses.
 
-There are several types of NAT, including:
+There are several types of NAT:
 
 1. Static NAT: One-to-one mapping between private and public IP addresses.
 2. Dynamic NAT: A pool of public IP addresses is shared among private IP addresses.
 3. Port Address Translation (PAT) or Network Address Port Translation (NAPT): Multiple private IP addresses share a single public IP address by using different ports.
 
-To configure a PC host with static addressing on a LAN, the gateway parameter should be set to the IP address of the router's LAN interface. This address is typically the first usable IP address in the subnet.
+To configure a PC host with static addressing on a LAN, the gateway parameter should be set to the IP address of the router's LAN interface. This address is the first usable IP address in the subnet.
 
 Common default gateway addresses for home and small office networks include:
 
@@ -52,7 +52,7 @@ Common default gateway addresses for home and small office networks include:
 2. 192.168.1.1
 3. 10.0.0.1
 
-To find the correct gateway address, you could:
+To find the correct gateway address:
 
 1. Check your router's configuration page
 2. Look at the network settings of a device that's already correctly configured on the network

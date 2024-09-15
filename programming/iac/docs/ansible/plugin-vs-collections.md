@@ -13,7 +13,7 @@ Plugins are primarily used to extend Ansible at a granular level, offering speci
 
 ### Collections
 
-Collections are a distribution format for delivering Ansible content, including but not limited to plugins. A collection can contain:
+Collections are a distribution format for delivering Ansible content,  but not limited to plugins. A collection can contain:
 
 - **Modules**: Standalone scripts that can be used in Ansible playbooks.
 - **Plugins**: As described above, but bundled within the collection.
@@ -25,8 +25,8 @@ Collections allow users to package, distribute, and install Ansible content in a
 
 ### Key Differences
 
-- **Scope**: Plugins are individual extensions of Ansible's functionality, whereas collections are packages of Ansible content (including plugins) that can be easily shared and reused.
-- **Distribution**: Plugins are typically developed and distributed as standalone entities or as part of modules, while collections are distributed through Ansible Galaxy or Automation Hub, supporting versioning and dependencies.
-- **Usage**: A plugin is used to extend the capabilities of Ansible in a specific area (e.g., adding a new filter or connection method). In contrast, a collection is used to encapsulate and distribute a broader set of Ansible content, including roles, modules, and possibly multiple plugins, to address a wider range of automation scenarios.
+- **Scope**: Plugins are individual extensions of Ansible's functionality, whereas collections are packages of Ansible content ( plugins) that can be easily shared and reused.
+- **Distribution**: Plugins are  developed and distributed as standalone entities or as part of modules, while collections are distributed through Ansible Galaxy or Automation Hub, supporting versioning and dependencies.
+- **Usage**: A plugin is used to extend the capabilities of Ansible in a specific area (e.g., adding a new filter or connection method). In contrast, a collection is used to encapsulate and distribute a broader set of Ansible content,  roles, modules, and possibly multiple plugins, to address a wider range of automation scenarios.
 
-Plugins are the building blocks that provide specific functionalities within Ansible, whereas collections are packages that bundle various types of Ansible content, including plugins, to facilitate sharing and reusability. Collections offer a higher-level abstraction for managing Ansible content, making it easier for users to consume a wide range of functionalities packaged together.
+Plugins are the building blocks that provide specific functionalities within Ansible, whereas collections are packages that bundle various types of Ansible content,  plugins, to facilitate sharing and reusability. Collections offer a higher-level abstraction for managing Ansible content, making it easier for users to consume a wide range of functionalities packaged together.

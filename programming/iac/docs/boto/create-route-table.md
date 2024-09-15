@@ -82,7 +82,7 @@ A route table is essential in a network, especially within cloud environments li
 
 1. **Directs Traffic:** The route table determines where network traffic from your VPC's subnets should be directed. It contains a set of rules, called routes, that define the destinations for network traffic.
 
-2. **Internet Connectivity:** For a subnet to communicate with the internet, the route table associated with that subnet must have a route that directs internet-bound traffic to an internet gateway or a virtual private gateway. This is typically done by adding a route for `0.0.0.0/0` (representing all IP addresses) that points to an internet gateway (for public subnets) or a NAT gateway/NAT instance (for private subnets).
+2. **Internet Connectivity:** For a subnet to communicate with the internet, the route table associated with that subnet must have a route that directs internet-bound traffic to an internet gateway or a virtual private gateway. This is  done by adding a route for `0.0.0.0/0` (representing all IP addresses) that points to an internet gateway (for public subnets) or a NAT gateway/NAT instance (for private subnets).
 
 3. **Inter-Subnet Communication:** Route tables are used to control how traffic is routed between the subnets within a VPC. By default, AWS enables full communication between subnets within a VPC, but custom route tables can be used to modify or restrict this behavior.
 
@@ -132,7 +132,7 @@ Here are the main reasons why we need a route table:
 
 2. Internet Access: In the specific example of creating the "rails_public_rt" route table, the route table is used to enable internet access for instances in the associated subnet(s). By adding a route with a destination CIDR block of "0.0.0.0/0" and specifying the Internet Gateway as the target, any traffic destined for the internet will be directed to the Internet Gateway, allowing the instances to communicate with the internet.
 
-3. Separation of Public and Private Subnets: Route tables are used to create a logical separation between public and private subnets within a VPC. Public subnets typically have a route table that directs internet-bound traffic to an Internet Gateway, allowing instances in those subnets to have direct internet access. Private subnets, on the other hand, may have a route table that does not have a route to the internet, keeping the instances in those subnets isolated from direct internet access.
+3. Separation of Public and Private Subnets: Route tables are used to create a logical separation between public and private subnets within a VPC. Public subnets  have a route table that directs internet-bound traffic to an Internet Gateway, allowing instances in those subnets to have direct internet access. Private subnets, on the other hand, may have a route table that does not have a route to the internet, keeping the instances in those subnets isolated from direct internet access.
 
 4. Network Address Translation (NAT): Route tables are also used in conjunction with NAT (Network Address Translation) services, such as NAT Gateways or NAT Instances. These services allow instances in private subnets to initiate outbound internet access while keeping them protected from direct inbound access. The route table associated with the private subnets directs internet-bound traffic to the NAT service, which then forwards the traffic to the internet.
 
@@ -207,7 +207,7 @@ Inside the function:
 
 In the example usage, we specify the VPC ID (`vpc_id`), the Internet Gateway ID (`igw_id`), and the desired name for the route table (`rt_name`). We then call the `create_rails_public_route_table()` function with these arguments.
 
-Make sure to replace `'vpc-xxxxxxxx'` with the actual ID of your VPC and `'igw-xxxxxxxx'` with the actual ID of your Internet Gateway.
+Make sure to replace `'vpc-xxxxxxxx'` with the  ID of your VPC and `'igw-xxxxxxxx'` with the  ID of your Internet Gateway.
 
 Note: Ensure that you have the necessary permissions to create and modify route tables in your AWS account. You may need to configure the appropriate IAM permissions for your AWS account or the IAM user/role associated with your boto3 session.
 

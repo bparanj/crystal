@@ -77,7 +77,7 @@ A **discrete passive circuit** refers to an electronic circuit made up of indivi
    - This is in contrast to integrated circuits (ICs), where many components are fabricated together on a single semiconductor chip.
 
 4. **Applications**:
-   - **Filtering**: Discrete passive circuits are commonly used in filters, where resistors, capacitors, and inductors work together to block certain frequencies and allow others to pass. For example, low-pass filters allow low-frequency signals to pass while blocking high-frequency signals.
+   - **Filtering**: Discrete passive circuits are  used in filters, where resistors, capacitors, and inductors work together to block certain frequencies and allow others to pass. For example, low-pass filters allow low-frequency signals to pass while blocking high-frequency signals.
    - **Power Distribution**: Resistors are used to divide voltage, while capacitors smooth out voltage fluctuations. Inductors can be used to filter out AC components in power supply circuits.
    - **Signal Processing**: In analog circuits, discrete passive components are used to shape, attenuate, or delay signals.
 

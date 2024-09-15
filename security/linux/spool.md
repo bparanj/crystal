@@ -1,6 +1,6 @@
 ### What is a Spool in Linux?
 
-A spool in Linux refers to a specialized directory where data is temporarily stored for processing by a specific system service. This concept is most commonly associated with printing and email services, where jobs are queued up for processing. The term "spool" stands for "Simultaneous Peripheral Operations On-Line," reflecting its function of managing multiple operations at once.
+A spool in Linux refers to a specialized directory where data is temporarily stored for processing by a specific system service. This concept is most  associated with printing and email services, where jobs are queued up for processing. The term "spool" stands for "Simultaneous Peripheral Operations On-Line," reflecting its function of managing multiple operations at once.
 
 ### Common Uses of Spools:
 
@@ -56,6 +56,6 @@ The term "spool" comes from the acronym **S**imultaneous **P**eripheral **O**per
 
 ### References:
 
-- **"Advanced Programming in the UNIX Environment" by W. Richard Stevens and Stephen A. Rago**: This book provides a comprehensive overview of Unix system programming, including concepts like spooling.
-- **The Linux Documentation Project**: Offers detailed guides and documentation on various aspects of Linux, including system administration tasks like spooling.
-- **"Unix and Linux System Administration Handbook" by Evi Nemeth, Garth Snyder, Trent R. Hein, and Ben Whaley**: A practical guide that covers system administration topics, including spooling.
+- **"Advanced Programming in the UNIX Environment" by W. Richard Stevens and Stephen A. Rago**: This book provides a comprehensive overview of Unix system programming,  concepts like spooling.
+- **The Linux Documentation Project**: Offers detailed guides and documentation on various aspects of Linux,  system administration tasks like spooling.
+- **"Unix and Linux System Administration Handbook" by Evi Nemeth, Garth Snyder, Trent R. Hein, and Ben Whaley**: A practical guide that covers system administration topics,  spooling.

@@ -4,7 +4,7 @@ Determining the right amount of RAM for an EC2 instance running Caddy, Redis, Po
 
 - **Caddy**: As a lightweight web server, Caddy's memory footprint is relatively small. For most basic configurations, a few tens of MBs should suffice. However, if you're serving a large number of sites or using many plugins, this could increase.
 
-- **Redis**: Memory usage is directly related to the size of the data you store in Redis. For a small to medium dataset, starting with 1-2 GB could be enough, but you'll need to monitor and adjust based on actual usage.
+- **Redis**: Memory usage is directly related to the size of the data you store in Redis. For a small to medium dataset, starting with 1-2 GB could be enough, but you'll need to monitor and adjust based on  usage.
 
 - **PostgreSQL**: The memory needs depend on the database size, the number of connections, and the workload. A minimum of 2 GB is recommended for small applications, but production databases with moderate activity will benefit from 4 GB or more.
 

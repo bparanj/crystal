@@ -38,7 +38,7 @@ This will output the package name and version if it's installed, or state that t
 
 ### Alternative: Using `apt` on Debian or Ubuntu:
 
-Another method for Debian-based systems including Ubuntu, is to use `apt`:
+Another method for Debian-based systems  Ubuntu, is to use `apt`:
 
 ```bash
 apt list --installed | grep postgresql-client-16

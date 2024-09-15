@@ -383,7 +383,7 @@ Great! To use Authelia with Caddy as the reverse proxy, you'll need to configure
 
 In this updated playbook:
 
-1. We've added variables for Caddy, including the version, configuration directory, and data directory.
+1. We've added variables for Caddy,  the version, configuration directory, and data directory.
 
 2. The tasks for installing Authelia remain the same as in the previous playbook.
 
@@ -391,7 +391,7 @@ In this updated playbook:
 
 4. We create the Caddy configuration directory (`/etc/caddy`) and data directory (`/var/lib/caddy`) with the appropriate permissions.
 
-5. We copy the Caddy configuration file from a Jinja2 template (`Caddyfile.j2`) to the configuration directory. You'll need to create this template file with your desired Caddy configuration, including the integration with Authelia for authentication.
+5. We copy the Caddy configuration file from a Jinja2 template (`Caddyfile.j2`) to the configuration directory. You'll need to create this template file with your desired Caddy configuration,  the integration with Authelia for authentication.
 
 6. Finally, we enable and start both the Authelia and Caddy services.
 

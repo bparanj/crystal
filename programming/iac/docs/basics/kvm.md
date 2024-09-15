@@ -10,7 +10,7 @@ KVM is a virtualization module in the Linux kernel that allows the kernel to fun
 
 - **Key Features**:
   - **Performance**: Since KVM is part of the Linux kernel, it benefits from every update and improvement to the kernel. This integration can lead to better performance and stability.
-  - **Flexibility**: KVM supports various guest operating systems, including Linux, Windows, and macOS.
+  - **Flexibility**: KVM supports various guest operating systems,  Linux, Windows, and macOS.
   - **Scalability**: It can scale to support a large number of VMs, making it suitable for environments ranging from small deployments to enterprise-level data centers.
 
 ### HVM (Hardware-assisted Virtual Machine)
@@ -58,9 +58,9 @@ Yes, libvirt, a toolkit to interact with the virtualization capabilities of rece
 
 ### Understanding Libvirt and HVM
 
-Libvirt is designed as a management layer that abstracts and facilitates the management of virtualization technologies, including both hardware-assisted virtualization (HVM) and other forms of virtualization like paravirtualization. It supports various hypervisors, including but not limited to:
+Libvirt is designed as a management layer that abstracts and facilitates the management of virtualization technologies,  both hardware-assisted virtualization (HVM) and other forms of virtualization like paravirtualization. It supports various hypervisors,  but not limited to:
 
-- **KVM (Kernel-based Virtual Machine)**: Libvirt is commonly used to manage KVM instances, which can operate in HVM mode when the underlying hardware supports virtualization extensions (Intel VT-x or AMD-V).
+- **KVM (Kernel-based Virtual Machine)**: Libvirt is  used to manage KVM instances, which can operate in HVM mode when the underlying hardware supports virtualization extensions (Intel VT-x or AMD-V).
 - **Xen**: Xen supports running VMs in both paravirtualized (PV) and fully virtualized (HVM) modes. Libvirt can manage Xen VMs in either mode, providing a unified interface for VM management.
 - **QEMU**: While QEMU can be used independently for emulation, it's often paired with KVM for full virtualization. Libvirt can manage QEMU VMs, benefiting from hardware acceleration when available.
 

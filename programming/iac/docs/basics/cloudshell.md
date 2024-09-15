@@ -14,6 +14,6 @@ No, AWS CloudShell and SSH terminal are not the same, although they serve simila
    - It allows you to establish a secure connection to a remote machine and access its command-line interface.
    - SSH requires you to have the necessary credentials (e.g., private key, username, password) to authenticate and access the remote machine.
    - You need to manage the security and configuration of the SSH server on the remote machine.
-   - SSH terminals are typically accessed using SSH client software installed on your local machine.
+   - SSH terminals are  accessed using SSH client software installed on your local machine.
 
 In summary, AWS CloudShell is a managed, browser-based shell environment specific to AWS, while an SSH terminal is a generic way to securely access the command-line interface of any remote machine over the SSH protocol.

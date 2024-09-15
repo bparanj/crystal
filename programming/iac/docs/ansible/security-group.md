@@ -76,7 +76,7 @@ To configure a security group via an Ansible playbook using the `amazon.aws.ec2_
 ### Key Points:
 
 - **Security Group Name and Description**: Customize the `security_group_name` and `description` to fit your project.
-- **VPC ID**: Replace `"vpc-12345678"` with your actual VPC ID.
+- **VPC ID**: Replace `"vpc-12345678"` with your  VPC ID.
 - **Rules**: Defines the ports and protocols for your services. Adjust the `cidr_ip` values to more restrictive ranges based on your network architecture to enhance security, especially for sensitive services like Redis and PostgreSQL.
 - **SSH Access**: The SSH rule allows access from any IP address (`0.0.0.0/0`). It's recommended to restrict this to known IPs for better security.
 
@@ -84,7 +84,7 @@ Before running this playbook, you must have the necessary permissions in AWS IAM
 
 ## Egress
 
-The `rules_egress` parameter in a security group configuration, including in Ansible playbooks using the `amazon.aws.ec2_group` module, specifies outbound traffic rules for the security group. While I didn't explicitly include `rules_egress` in the provided playbook, by default, AWS security groups allow all outbound traffic if no `rules_egress` are specified. This default behavior facilitates most applications' needs, allowing them to communicate with the outside world without detailed outbound configurations.
+The `rules_egress` parameter in a security group configuration,  in Ansible playbooks using the `amazon.aws.ec2_group` module, specifies outbound traffic rules for the security group. While I didn't explicitly include `rules_egress` in the provided playbook, by default, AWS security groups allow all outbound traffic if no `rules_egress` are specified. This default behavior facilitates most applications' needs, allowing them to communicate with the outside world without detailed outbound configurations.
 
 However, specifying `rules_egress` is crucial when you need to restrict what outbound traffic can leave your EC2 instances for security or regulatory reasons. For example, you might want to ensure that a database server can only initiate connections to certain endpoints, or you might want to prevent data exfiltration by tightly controlling outbound traffic.
 

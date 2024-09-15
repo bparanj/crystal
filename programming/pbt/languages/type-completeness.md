@@ -14,7 +14,7 @@ The type completeness principle in the context of programming language design re
 
 - **Type Polymorphism**: The principle naturally leads to the support for polymorphism, allowing functions and operations to be defined in a type-generic way. This can be achieved through features like generics in Java or C#, or type classes in Haskell.
 
-- **Operator Overloading**: Some languages implement the type completeness principle by allowing operator overloading, where the same operation (like `+`) can be defined for different types, including user-defined types.
+- **Operator Overloading**: Some languages implement the type completeness principle by allowing operator overloading, where the same operation (like `+`) can be defined for different types,  user-defined types.
 
 - **Consistency and Predictability**: By following this principle, languages can offer more consistent and predictable behavior to programmers, reducing the number of special cases they need to remember.
 

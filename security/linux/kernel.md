@@ -91,9 +91,9 @@ The kernel in Linux, as in other operating systems, is called a "kernel" because
    - Ensures secure operations by isolating processes and managing user privileges.
 
 ### Sources:
-- **Operating Systems: Design and Implementation** by Andrew S. Tanenbaum: Provides a historical context and technical details on operating system design, including the kernel.
+- **Operating Systems: Design and Implementation** by Andrew S. Tanenbaum: Provides a historical context and technical details on operating system design,  the kernel.
 - **Understanding the Linux Kernel** by Daniel P. Bovet and Marco Cesati: Offers in-depth technical insights into the Linux kernel and its functions.
-- **The Linux Programming Interface** by Michael Kerrisk: Discusses various aspects of Linux, including kernel interaction and system calls.
+- **The Linux Programming Interface** by Michael Kerrisk: Discusses various aspects of Linux,  kernel interaction and system calls.
 
 ## Exporting Data
 
@@ -133,11 +133,11 @@ The kernel exports data to user space for several reasons, primarily related to 
    - **mmap**: The `mmap` system call allows user space applications to map files or devices into memory, facilitating efficient data sharing between processes and the kernel.
 
 ### References
-- **"Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati**: This book provides in-depth insights into the inner workings of the Linux kernel, including data management between kernel and user space.
-- **"Linux System Programming" by Robert Love**: This book covers Linux system programming, including the use of system calls to interact with kernel data from user space.
-- **The Linux Documentation Project**: Comprehensive guides and documentation on various aspects of Linux, including kernel-user space interactions.
+- **"Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati**: This book provides in-depth insights into the inner workings of the Linux kernel,  data management between kernel and user space.
+- **"Linux System Programming" by Robert Love**: This book covers Linux system programming,  the use of system calls to interact with kernel data from user space.
+- **The Linux Documentation Project**: Comprehensive guides and documentation on various aspects of Linux,  kernel-user space interactions.
   - [The Linux Documentation Project](https://www.tldp.org/)
-- **Linux Kernel Development by Robert Love**: Discusses the development of the Linux kernel, including how and why data is exported to user space.
+- **Linux Kernel Development by Robert Love**: Discusses the development of the Linux kernel,  how and why data is exported to user space.
   - [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468)
 
 By exporting data to user space, the kernel enables applications to function efficiently and securely, leveraging a modular and flexible system design.

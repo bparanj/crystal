@@ -61,7 +61,7 @@ If these steps don't resolve the issue:
 3. Check warranty status:
    - If under warranty, Lenovo may repair or replace the laptop
 
-A laptop screen that flashes or becomes dark intermittently can be caused by several factors, including software issues, hardware problems, or loose connections. Here are some steps to diagnose and fix this issue:
+A laptop screen that flashes or becomes dark intermittently can be caused by several factors,  software issues, hardware problems, or loose connections. Here are some steps to diagnose and fix this issue:
 
 ### 1. Check for Software Issues
 
@@ -131,6 +131,6 @@ A laptop screen that flashes or becomes dark intermittently can be caused by sev
 
 1. **Inverter/Backlight Replacement**:
    - If the screen flickers due to a failing inverter or backlight, these components may need replacement.
-   - This typically requires professional repair unless you are experienced with laptop hardware.
+   - This  requires professional repair unless you are experienced with laptop hardware.
 
 By following these steps, you can identify and potentially resolve the issue causing your Lenovo laptop screen to flash and become dark.

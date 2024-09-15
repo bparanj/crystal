@@ -97,7 +97,7 @@ In Ruby, as an interpreted language without a compile step, you would use differ
      ```bash
      grep -rnw 'path/to/project' -e 'identifier'
      ```
-   - **Limitation**: This method doesn't understand the code structure and may return references that are not actual uses of the identifier.
+   - **Limitation**: This method doesn't understand the code structure and may return references that are not  uses of the identifier.
 
 2. **IDEs and Editors**:
    - **Method**: Use features in IDEs or code editors like RubyMine, Visual Studio Code with Ruby extensions, or Atom with Ruby plugins.
@@ -107,7 +107,7 @@ In Ruby, as an interpreted language without a compile step, you would use differ
 3. **Renaming Technique**:
    - **Method**: Temporarily rename the identifier in your code and run your test suite or use a Ruby interpreter.
    - **Process**: Rename the variable, method, type, or class and execute your code or tests. Ruby will throw errors or exceptions where the original identifier is used.
-   - **Benefit**: This method ensures you find actual usages of the identifier within the executed code paths.
+   - **Benefit**: This method ensures you find  usages of the identifier within the executed code paths.
 
 4. **Static Analysis Tools**:
    - **Method**: Use tools like RuboCop or other static analysis tools.

@@ -89,7 +89,7 @@ The term "thyristor" is a portmanteau (a blend of words) created from two parts:
 
 1. "Thyr-" comes from the Greek word "thyra" (θύρα), which means "door" or "gate."
 
-2. "-istor" is a suffix commonly used in electronics for semiconductor devices, like transistor or varistor.
+2. "-istor" is a suffix  used in electronics for semiconductor devices, like transistor or varistor.
 
 So, put together, "thyristor" essentially means "gate-controlled semiconductor device."
 
@@ -122,4 +122,4 @@ History of the thyristor or how its naming compares to other electronic componen
      A thyristor is a solid-state semiconductor device with a four-layer structure (PNPN), forming three junctions. It operates as a latch, triggered into conduction by a gate pulse. Once the device is on, it remains in conduction due to the regenerative feedback within its internal structure, which resembles two cross-coupled transistors. The device remains on as long as the current through it exceeds the holding current, and it turns off when the current falls below this level. The thyristor’s ability to control high-power AC signals makes it ideal for applications like phase-controlled rectifiers and AC power switching.
 
 ### 5. **To a Colleague :**
-     A thyristor is a bistable, four-layer PNPN semiconductor device that exploits regenerative feedback for latching behavior. The device is triggered into its conductive state by a gate current, initiating carrier injection in the P1N1P2N2 structure, leading to positive feedback that sustains the on state even after the gate signal is removed. The turn-off mechanism depends on reducing the anode current below the holding current, necessitating methods like natural or forced commutation in AC applications. Thyristors are integral to high-power electronics, including controlled rectifiers, AC power controllers, and inverter circuits, where they provide efficient and reliable switching capabilities. Understanding the trade-offs between turn-on time, holding current, and dv/dt sensitivity is crucial for optimizing performance in specific applications.
+     A thyristor is a bistable, four-layer PNPN semiconductor device that exploits regenerative feedback for latching behavior. The device is triggered into its conductive state by a gate current, initiating carrier injection in the P1N1P2N2 structure, leading to positive feedback that sustains the on state even after the gate signal is removed. The turn-off mechanism depends on reducing the anode current below the holding current, necessitating methods like natural or forced commutation in AC applications. Thyristors are integral to high-power electronics,  controlled rectifiers, AC power controllers, and inverter circuits, where they provide efficient and reliable switching capabilities. Understanding the trade-offs between turn-on time, holding current, and dv/dt sensitivity is crucial for optimizing performance in specific applications.

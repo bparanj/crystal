@@ -10,7 +10,7 @@ The Lenovo ThinkPad T490s is generally compatible with a wider range of NVMe SSD
    The T490s supports PCIe 3.0 x4 NVMe SSDs.
 
 4. Capacity:
-   It can support high-capacity drives, typically up to 2TB or more.
+   It can support high-capacity drives,  up to 2TB or more.
 
 5. Compatibility:
    The T490s is generally more flexible with third-party SSDs compared to older ThinkPad models.
@@ -21,7 +21,7 @@ A compatible NVMe card for the T490s would have these specifications:
 - PCIe 3.0 x4 NVMe interface
 - Capacity up to 2TB or more (depending on your needs and budget)
 
-Most modern NVMe SSDs from reputable manufacturers should work, including brands like Samsung, Western Digital, Crucial, Intel, and others.
+Most modern NVMe SSDs from reputable manufacturers should work,  brands like Samsung, Western Digital, Crucial, Intel, and others.
 
 To ensure the best compatibility and performance:
 
@@ -60,7 +60,7 @@ The Lenovo ThinkPad T490s supports NVMe SSDs, making it capable of utilizing hig
    - **PCIe 3.0 x4**: The laptop supports PCIe 3.0 x4 NVMe SSDs, allowing for high-speed data transfer.
 
 3. **Capacity**:
-   - The T490s can typically support NVMe SSDs up to 2TB, but always check the latest specifications or your specific model's user manual for confirmation.
+   - The T490s can  support NVMe SSDs up to 2TB, but always check the latest specifications or your specific model's user manual for confirmation.
 
 ### Recommended NVMe SSDs for Lenovo ThinkPad T490s
 

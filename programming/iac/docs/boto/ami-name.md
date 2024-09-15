@@ -47,17 +47,17 @@ In this code:
 
 4. We pass the `TagSpecifications` parameter to the `run_instances` method, specifying the `tags` list.
 
-5. The `run_instances` method creates the EC2 instance with the specified tags, including the "Name" tag.
+5. The `run_instances` method creates the EC2 instance with the specified tags,  the "Name" tag.
 
 6. Finally, we retrieve the instance ID from the response and print it along with the AMI name.
 
 When the EC2 instance is created, it will have the specified name tag associated with it. The name tag will be visible in the AWS Management Console and can be used to easily identify and manage the instance.
 
-Make sure to replace `'ami-0c55b159cbfafe1f0'` with the actual AMI ID you want to use for the EC2 instance.
+Make sure to replace `'ami-0c55b159cbfafe1f0'` with the  AMI ID you want to use for the EC2 instance.
 
 By using the timestamp in the AMI name, each instance created with this code will have a unique name based on the creation time. This can be helpful for tracking and identifying instances based on when they were created.
 
-In Boto3, when launching an EC2 instance, you don't directly specify an `ami_name` because the name attribute isn't part of the instance launch parameters. Instead, you assign a name to an EC2 instance by creating a tag with the key `Name`. This tag's value can be any string you choose, including dynamic content like a timestamp.
+In Boto3, when launching an EC2 instance, you don't directly specify an `ami_name` because the name attribute isn't part of the instance launch parameters. Instead, you assign a name to an EC2 instance by creating a tag with the key `Name`. This tag's value can be any string you choose,  dynamic content like a timestamp.
 
 Here's how you can launch an EC2 instance with a dynamically generated name that includes a timestamp, using Boto3:
 
@@ -106,5 +106,5 @@ In this script:
 - The `ec2.create_instances` method launches a new EC2 instance with the specified AMI ID and instance type. The `TagSpecifications` parameter includes a tag with the key `Name` and the dynamically generated `instance_name` as its value.
 - Finally, the script prints the ID of the launched instance.
 
-Replace `'ami-xxxxxxxxxxxxxxxxx'` with the actual AMI ID you wish to use for launching your instance. This approach allows you to dynamically name your EC2 instances with a unique identifier based on the current timestamp, facilitating better management and identification of your instances.
+Replace `'ami-xxxxxxxxxxxxxxxxx'` with the  AMI ID you wish to use for launching your instance. This approach allows you to dynamically name your EC2 instances with a unique identifier based on the current timestamp, facilitating better management and identification of your instances.
 

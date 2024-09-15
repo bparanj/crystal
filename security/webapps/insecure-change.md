@@ -37,7 +37,7 @@ This diagram highlights several potential vulnerabilities in an insecure passwor
 - Absence of password confirmation: The WebApp does not require users to provide their current password or a confirmation of the new password, making it easier for attackers to change passwords without proper authorization.
 - Insufficient password hashing: The WebApp may store passwords in plain text or use weak hashing algorithms, making them vulnerable to database breaches or password cracking attempts.
 
-To mitigate these risks, it's important to implement secure password change mechanisms, including:
+To mitigate these risks, it's important to implement secure password change mechanisms, :
 
 - Enforcing strong password policies and validating password strength.
 - Requiring users to provide their current password and a confirmation of the new password.

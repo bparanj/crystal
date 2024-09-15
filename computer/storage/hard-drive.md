@@ -31,7 +31,7 @@ This is aside from all the other methods you can use to determine if a storage d
 1. **Turn Off the Laptop**: Power down the laptop and disconnect it from any power source.
 2. **Locate the Hard Drive Bay**: Flip the laptop over and locate the hard drive bay. This is often secured by a panel or screws.
 3. **Open the Hard Drive Bay**: Carefully remove the panel or screws to access the hard drive compartment.
-4. **Check for Hard Drive**: Look inside to see if a hard drive or SSD is installed. It will typically be held in place by a bracket or screws.
+4. **Check for Hard Drive**: Look inside to see if a hard drive or SSD is installed. It will  be held in place by a bracket or screws.
 
 ### Method 5: Using System Information Tool
 1. **Open System Information**: Press `Windows + R` to open the Run dialog, type `msinfo32`, and press Enter.
@@ -129,7 +129,7 @@ If you've purchased the laptop from a recycling company, it's possible that the 
 
 6. Inspect the hard drive bay:
    - Look inside the hard drive bay to see if a hard drive is installed.
-   - If a hard drive is present, it will typically be a rectangular metal or plastic box with a SATA connector and power connector attached.
+   - If a hard drive is present, it will  be a rectangular metal or plastic box with a SATA connector and power connector attached.
    - If the bay is empty, the hard drive has likely been removed.
 
 7. Reassemble the laptop:

@@ -1,6 +1,6 @@
 What language is pwd, ls, cat and other commands in Linux implemented?
 
-The `pwd`, `ls`, `cat`, and many other basic Linux commands are implemented in **C**. These commands are part of the GNU core utilities, and C is commonly used because it's a low-level language that provides high performance and direct interaction with the operating system's kernel.
+The `pwd`, `ls`, `cat`, and many other basic Linux commands are implemented in **C**. These commands are part of the GNU core utilities, and C is  used because it's a low-level language that provides high performance and direct interaction with the operating system's kernel.
 
 What are utilities in Linux?
 

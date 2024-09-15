@@ -30,15 +30,15 @@ In this diagram:
 
 6. The malicious script, now running in the User's browser, steals the user's cookie. Cookies often contain sensitive information, such as session tokens or authentication credentials.
 
-7. The stolen cookie is sent from the User's browser to the Attacker's server, typically through an HTTP request initiated by the malicious script.
+7. The stolen cookie is sent from the User's browser to the Attacker's server,  through an HTTP request initiated by the malicious script.
 
 8. The Attacker now possesses the User's stolen cookie and can use it to impersonate the User.
 
-9. The Attacker sends a request to the WebApp, including the stolen cookie, effectively impersonating the User.
+9. The Attacker sends a request to the WebApp,  the stolen cookie, effectively impersonating the User.
 
 10. The WebApp, unaware that the request is coming from the Attacker, grants access to the User's account based on the valid cookie.
 
-To prevent XSS attacks via cookies, it's important to implement proper security measures, including:
+To prevent XSS attacks via cookies, it's important to implement proper security measures, :
 
 - Validating and sanitizing user input to prevent the injection of malicious scripts.
 - Implementing proper output encoding to ensure that user-generated content is rendered as text and not executed as code.

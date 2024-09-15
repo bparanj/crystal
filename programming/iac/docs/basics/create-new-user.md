@@ -39,7 +39,7 @@ After you've successfully created the `deploy` user, there are a couple of ways 
 - **User Exists but Can't Switch**: If you're certain the `deploy` user exists but still face issues switching to it, ensure there are no typos in the username and that the user has not been locked or disabled.
 - **PostgreSQL User vs. Linux User**: Keep in mind the distinction between PostgreSQL users (roles) and Linux system users. PostgreSQL users are used to control access within the PostgreSQL system, while Linux users are part of the operating system's user management. They can have the same names but are managed separately.
 
-By following these steps, you should be able to create the `deploy` user on your system and use it as needed, including accessing PostgreSQL.
+By following these steps, you should be able to create the `deploy` user on your system and use it as needed,  accessing PostgreSQL.
 
 ### Common Errors
 
@@ -48,7 +48,7 @@ psql -U deploy
 psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  Peer authentication failed for user "deploy"
 ```
 
-The error you're encountering, `FATAL: Peer authentication failed for user "deploy"`, typically occurs because of how PostgreSQL's authentication is configured in the `pg_hba.conf` file for local connections. By default, PostgreSQL uses 'peer' authentication for local connections, which requires the system user's name to be the same as the database user's name you're trying to log in as.
+The error you're encountering, `FATAL: Peer authentication failed for user "deploy"`,  occurs because of how PostgreSQL's authentication is configured in the `pg_hba.conf` file for local connections. By default, PostgreSQL uses 'peer' authentication for local connections, which requires the system user's name to be the same as the database user's name you're trying to log in as.
 
 Since you're likely running `psql -U deploy` as a different system user (not as a system user named `deploy`), PostgreSQL's peer authentication is failing. Here's how you can resolve the issue:
 
@@ -77,7 +77,7 @@ This command assumes a system user named `deploy` exists and is also a PostgreSQ
 
 For more flexibility, especially if you cannot or prefer not to use the same names for system and database users, you might want to change the authentication method from 'peer' to 'md5' (password authentication) for local connections.
 
-1. **Edit the `pg_hba.conf` File**: Locate and edit the `pg_hba.conf` file, which is typically found in the PostgreSQL data directory. Its location varies depending on the installation method and the operating system. Common paths include `/etc/postgresql/<version>/main/pg_hba.conf` for Ubuntu and similar distributions.
+1. **Edit the `pg_hba.conf` File**: Locate and edit the `pg_hba.conf` file, which is  found in the PostgreSQL data directory. Its location varies depending on the installation method and the operating system. Common paths include `/etc/postgresql/<version>/main/pg_hba.conf` for Ubuntu and similar distributions.
 
 2. **Change Authentication Method**: Find the line(s) related to local connections. It might look something like this:
 
@@ -223,7 +223,7 @@ Remember, storing and handling database credentials securely is crucial. Always 
 
 ## Database User and Ubuntu User
 
-The authentication of a PostgreSQL database user to access the `psql` prompt is independent of the Unix/Linux system user's group memberships, including whether or not the system user is in the `sudo` group. PostgreSQL uses its own authentication system, defined in the `pg_hba.conf` file, to control database access.
+The authentication of a PostgreSQL database user to access the `psql` prompt is independent of the Unix/Linux system user's group memberships,  whether or not the system user is in the `sudo` group. PostgreSQL uses its own authentication system, defined in the `pg_hba.conf` file, to control database access.
 
 ### PostgreSQL User Authentication
 

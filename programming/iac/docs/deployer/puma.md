@@ -30,7 +30,7 @@ sudo systemctl restart puma
 sudo systemctl enable puma
 ```
 
-This setup tells systemd to start your Rails application using Puma in production mode. Remember to ensure that your Rails application is fully configured for production use, including precompiled assets, database configuration for production, and proper environment variables set (such as `SECRET_KEY_BASE`).
+This setup tells systemd to start your Rails application using Puma in production mode. Remember to ensure that your Rails application is fully configured for production use,  precompiled assets, database configuration for production, and proper environment variables set (such as `SECRET_KEY_BASE`).
 
 To create an Ansible playbook that sets up a systemd service for a Puma HTTP Server with the provided unit file configuration, follow these steps. This playbook will create the service file, enable, and start the Puma service.
 
@@ -102,7 +102,7 @@ By splitting these into two tasks, you ensure that the daemon-reload operation i
 
 The Ansible task you've shown is for managing a `systemd` service named "puma." This task doesn't directly control the port on which Puma (or any application) runs. Instead, it tells `systemd` to start, restart, or manage the Puma service according to the service unit file definition (`puma.service`).
 
-For the Puma service to run a Rails app on port 3000, the service unit file (`/etc/systemd/system/puma.service` or a similar location) must be configured correctly to start Puma with the desired options, including the working directory of the Rails app and the port. Here's a simplified example of what the `[Service]` section of a `puma.service` file might look like for running a Rails app on port 3000:
+For the Puma service to run a Rails app on port 3000, the service unit file (`/etc/systemd/system/puma.service` or a similar location) must be configured correctly to start Puma with the desired options,  the working directory of the Rails app and the port. Here's a simplified example of what the `[Service]` section of a `puma.service` file might look like for running a Rails app on port 3000:
 
 ```ini
 [Service]
@@ -155,4 +155,4 @@ sudo systemctl restart puma
 sudo systemctl enable puma
 ```
 
-This setup tells systemd to start your Rails application using Puma in production mode. Remember to ensure that your Rails application is fully configured for production use, including precompiled assets, database configuration for production, and proper environment variables set (such as `SECRET_KEY_BASE`).
+This setup tells systemd to start your Rails application using Puma in production mode. Remember to ensure that your Rails application is fully configured for production use,  precompiled assets, database configuration for production, and proper environment variables set (such as `SECRET_KEY_BASE`).

@@ -13,7 +13,7 @@ Locating recursive functions in a Rails codebase involves a few steps, particula
    - Use the search feature to look for keywords like `def` along with the name of the function being called within the same function, which is a sign of recursion.
 
 3. **Understanding Code Logic**:
-   - Familiarize yourself with the parts of the application where recursion might be commonly used, such as tree-like data structures, algorithm implementations, or complex data processing.
+   - Familiarize yourself with the parts of the application where recursion might be  used, such as tree-like data structures, algorithm implementations, or complex data processing.
    - Manually review these areas to identify recursive patterns.
 
 4. **Documentation and Naming Conventions**:
@@ -34,7 +34,7 @@ Locate a Ruby function calling sequence that signals errors through exceptions, 
 Creating a drawing of an exception propagation tree for a Rails codebase involves mapping out how exceptions are raised, handled, and propagated through different layers and components of the application. Here's a step-by-step approach to create this drawing:
 
 1. **Understand the Codebase**:
-   - Familiarize yourself with the key components of your Rails application, including models, controllers, views, and any middleware.
+   - Familiarize yourself with the key components of your Rails application,  models, controllers, views, and any middleware.
    - Identify where exceptions are likely to be raised (e.g., database operations, external API calls).
 
 2. **Trace Exception Flow**:

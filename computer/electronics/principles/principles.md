@@ -83,7 +83,7 @@ In electronics, several fundamental principles and laws govern the behavior of c
 ### 8. **Impedance (AC Circuits)**:
    - **Principle**: Impedance is the total opposition that a circuit presents to the flow of alternating current (AC). It extends the concept of resistance to AC circuits and includes both resistance (R) and reactance (X).
    - **Formula**: \( Z = R + jX \), where \( Z \) is impedance, \( R \) is resistance, and \( X \) is reactance.
-   - **Application**: Used in AC circuit analysis, including resonance, filtering, and impedance matching.
+   - **Application**: Used in AC circuit analysis,  resonance, filtering, and impedance matching.
 
 ### 9. **Resonance**:
    - **Principle**: In an AC circuit, resonance occurs when the inductive reactance equals the capacitive reactance, resulting in maximum voltage or current at a particular frequency.

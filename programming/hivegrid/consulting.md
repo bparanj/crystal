@@ -27,7 +27,7 @@ Dear [Startup Name] Team,
 
 I hope this message finds you thriving. I am an experienced developer and the creator of a respected open-source project designed to automate cloud infrastructure tasks. My expertise lies in streamlining complex systems, significantly reducing the manual effort and potential for errors in cloud environments.
 
-I am reaching out to offer my consulting services specifically tailored for startups looking to enhance their infrastructure efficiency without the high costs typically associated with such advancements. My approach allows for flexible pricing—feel free to set the rate that works for your budget. While you might find lower rates offshore, I guarantee a level of quality and reliability that will bring greater value to your projects.
+I am reaching out to offer my consulting services specifically tailored for startups looking to enhance their infrastructure efficiency without the high costs  associated with such advancements. My approach allows for flexible pricing—feel free to set the rate that works for your budget. While you might find lower rates offshore, I guarantee a level of quality and reliability that will bring greater value to your projects.
 
 I would love the opportunity to discuss how my services can specifically benefit [Startup Name]. Please let me know a convenient time for a brief call or meeting.
 

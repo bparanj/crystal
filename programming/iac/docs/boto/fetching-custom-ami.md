@@ -104,7 +104,7 @@ This script performs these steps:
 - This script assumes you are looking for the most recent AMI based on its creation date. Adjust the sorting logic if you need to prioritize other attributes.
 - Ensure your AWS credentials are correctly configured for Boto3, either via environment variables, AWS credentials file, or IAM roles if running on an EC2 instance or AWS Lambda.
 
-To retrieve a custom Amazon Machine Image (AMI) using boto3 with specific tag filters, such as a tag for the name and version, you can use the `describe_images` method of the EC2 client. This method allows filtering based on various criteria, including tags. Tags are specified as a combination of a key (`Key`) and a value (`Value`), which in your case could be something like `Name` and `Version`.
+To retrieve a custom Amazon Machine Image (AMI) using boto3 with specific tag filters, such as a tag for the name and version, you can use the `describe_images` method of the EC2 client. This method allows filtering based on various criteria,  tags. Tags are specified as a combination of a key (`Key`) and a value (`Value`), which in your case could be something like `Name` and `Version`.
 
 Here’s a simple example to demonstrate how you might retrieve AMIs based on custom tags for name and version:
 
@@ -118,11 +118,11 @@ ec2 = boto3.client('ec2')
 tag_filters = [
     {
         'Name': 'tag:Name',  # Assumes your tag key for the AMI name is 'Name'
-        'Values': ['your-custom-ami-name']  # Replace with your AMI's actual name tag value
+        'Values': ['your-custom-ami-name']  # Replace with your AMI's  name tag value
     },
     {
         'Name': 'tag:Version',  # Assumes your tag key for the AMI version is 'Version'
-        'Values': ['your-version-value']  # Replace with your AMI's actual version tag value
+        'Values': ['your-version-value']  # Replace with your AMI's  version tag value
     }
 ]
 
@@ -137,10 +137,10 @@ for ami in custom_amis['Images']:
 ### Key Points:
 
 - **Client Creation:** The script begins by creating a client for the EC2 service using boto3.
-- **Filters Setup:** It then sets up filters based on the tags. The `Filters` argument takes a list of dictionaries, each specifying a filter. Here, you're filtering based on the `tag:Name` and `tag:Version` keys, looking for specific values that you'll need to replace with your actual tag values.
+- **Filters Setup:** It then sets up filters based on the tags. The `Filters` argument takes a list of dictionaries, each specifying a filter. Here, you're filtering based on the `tag:Name` and `tag:Version` keys, looking for specific values that you'll need to replace with your  tag values.
 - **Retrieving and Printing AMIs:** Finally, it calls `describe_images` with these filters to retrieve the AMIs that match. It iterates through the `Images` list in the response and prints out relevant details for each AMI.
 
-Make sure to replace `'your-custom-ami-name'` and `'your-version-value'` with the actual values you've used to tag your AMI. This script will retrieve all AMIs that match both the specified name and version tags.
+Make sure to replace `'your-custom-ami-name'` and `'your-version-value'` with the  values you've used to tag your AMI. This script will retrieve all AMIs that match both the specified name and version tags.
 
 Claude response
 
@@ -191,7 +191,7 @@ In this code:
 
 By running this code, you will retrieve the ID of the most recently created AMI owned by your AWS account that matches the specified name pattern.
 
-Make sure to replace `'my-custom-ami-*'` with the actual name pattern of your custom AMIs.
+Make sure to replace `'my-custom-ami-*'` with the  name pattern of your custom AMIs.
 
 Note: This code assumes that you have properly configured your AWS credentials and have the necessary permissions to describe images in your AWS account.
 
@@ -248,6 +248,6 @@ In the example usage, we set the `tag_name` to `'Name'` and the `tag_value` to `
 
 Finally, we print a message indicating whether an AMI was found with the specified tag or not.
 
-Make sure to replace `'MyCustomAMI'` with the actual tag value you used for your custom AMI.
+Make sure to replace `'MyCustomAMI'` with the  tag value you used for your custom AMI.
 
 Note: This code assumes that you have already configured your AWS credentials properly, either through environment variables, AWS configuration files, or IAM roles, as mentioned in the previous response.

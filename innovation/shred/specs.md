@@ -27,7 +27,7 @@ The device has a blue casing, and the ports are located on a black panel. The ov
 Here are the ports identified on the machine from the provided image:
 
 1. **SD Card Slot**:
-   - This is used for reading and writing to SD cards, commonly used for portable storage or system recovery.
+   - This is used for reading and writing to SD cards,  used for portable storage or system recovery.
 
 2. **USB 3.0 Port (Type-A)**:
    - A high-speed USB 3.0 port for connecting peripherals like external hard drives, flash drives, or other USB devices.

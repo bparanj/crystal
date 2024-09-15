@@ -36,7 +36,7 @@ When managing Ruby versions on production servers, especially in the context of 
 
 This approach emphasizes the importance of automation, testing, and careful planning in managing Ruby versions and other dependencies in a production environment. It reflects a shift towards more robust, predictable deployment and maintenance processes that can adapt to changes and upgrades in the technology stack.
 
-Yes, the steps for upgrading or installing a new version of ImageMagick or any other software dependency in a production environment using immutable infrastructure principles are essentially the same as those for upgrading Ruby. The key principle is to avoid making changes directly to running production servers. Instead, you create a new, updated base image with the desired changes and then replace the old infrastructure with the new one. This approach applies to most software dependencies, including system libraries, programming languages, and tools like ImageMagick.
+Yes, the steps for upgrading or installing a new version of ImageMagick or any other software dependency in a production environment using immutable infrastructure principles are essentially the same as those for upgrading Ruby. The key principle is to avoid making changes directly to running production servers. Instead, you create a new, updated base image with the desired changes and then replace the old infrastructure with the new one. This approach applies to most software dependencies,  system libraries, programming languages, and tools like ImageMagick.
 
 ### Generalized Process for Updating Software Dependencies
 
@@ -67,7 +67,7 @@ Yes, the steps for upgrading or installing a new version of ImageMagick or any o
 
 - **Compatibility Checks**: Especially for dependencies like ImageMagick that might be closely tied to the application's functionality (e.g., image processing), ensure compatibility with the new version. Test all relevant features thoroughly.
 - **Configuration Management**: Keep your configuration scripts or IaC definitions up-to-date to reflect the changes made. This ensures reproducibility and consistency across deployments.
-- **Documentation and Communication**: Document the changes and communicate with relevant stakeholders, including development and operations teams, about the new versions being deployed. This ensures everyone is prepared for any potential impacts.
+- **Documentation and Communication**: Document the changes and communicate with relevant stakeholders,  development and operations teams, about the new versions being deployed. This ensures everyone is prepared for any potential impacts.
 - **Monitoring and Rollback Plans**: Monitor the performance and functionality closely after the switch to detect any unforeseen issues. Have a rollback plan ready in case the new version introduces problems that weren't caught during testing.
 
 By following these steps, you can maintain a robust, flexible, and secure infrastructure that adapts to new software versions and dependencies with minimal disruption to your production environment.

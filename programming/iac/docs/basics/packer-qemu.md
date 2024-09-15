@@ -52,6 +52,6 @@ build {
 - **Output Directory**: Adjusted to reflect QEMU output, specifying a directory where the output files will be placed.
 - **VM Name**: The name of the output file now reflects the QEMU disk image format (`qcow2`).
 
-Please adjust the `iso_checksum` and any specific boot commands or provisioning details according to your actual requirements. The Kickstart file URL and any other configurations should be verified to ensure they are compatible with your target deployment environment and the CentOS Stream version you're using.
+Please adjust the `iso_checksum` and any specific boot commands or provisioning details according to your  requirements. The Kickstart file URL and any other configurations should be verified to ensure they are compatible with your target deployment environment and the CentOS Stream version you're using.
 
 This example assumes you have a Kickstart configuration accessible at the specified URL and a local file named `motd` for the file provisioner. Adjust these to fit your setup.

@@ -115,7 +115,7 @@ Inside the function:
 
 In the example usage, we specify the path to the PEM file (`pem_file_path`), the desired secret name (`secret_name`), and a description for the secret (`secret_description`). We then call the `store_pem_file_in_secrets_manager()` function with these arguments.
 
-Make sure to replace `/path/to/your/pem/file.pem` with the actual path to your PEM file on your local machine.
+Make sure to replace `/path/to/your/pem/file.pem` with the  path to your PEM file on your local machine.
 
 Note: Ensure that you have the necessary permissions to create secrets in AWS Secrets Manager. You may need to configure the appropriate IAM permissions for your AWS account or the IAM user/role associated with your boto3 session.
 

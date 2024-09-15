@@ -2,8 +2,8 @@
 
 ### 1. **Testing Out of Circuit**:
    - **Definition**: Testing out of circuit involves removing a component from the circuit board and testing it separately, outside the circuit.
-   - **Purpose**: This method is used to measure the component's characteristics (like resistance, capacitance, or current gain) without interference from the surrounding circuit elements. It provides a more accurate reading of the component's actual condition.
-   - **When Used**: This approach is typically used when there is a need to isolate a component to check for faults or verify its specifications. It is common in situations where in-circuit measurements might be influenced by parallel or series circuit elements.
+   - **Purpose**: This method is used to measure the component's characteristics (like resistance, capacitance, or current gain) without interference from the surrounding circuit elements. It provides a more accurate reading of the component's  condition.
+   - **When Used**: This approach is  used when there is a need to isolate a component to check for faults or verify its specifications. It is common in situations where in-circuit measurements might be influenced by parallel or series circuit elements.
    - **Tools Used**: Common tools for out-of-circuit testing include multimeters, capacitance meters, ESR meters, and transistor testers.
 
 ### 2. **Testing In Circuit**:

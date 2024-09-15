@@ -23,7 +23,7 @@ a. If you want to add tags to the IAM user, you can do so on this page. Tags are
 b. Click on the "Next: Review" button.
 
 Step 4: Review and create the IAM user
-a. Review the details of the IAM user, including the user name and the attached policies.
+a. Review the details of the IAM user,  the user name and the attached policies.
 b. If everything looks correct, click on the "Create user" button.
 
 Step 5: Securely store the access key ID and secret access key
@@ -204,7 +204,7 @@ def launch_ec2_instance(ami_id, instance_type, key_name):
         return None
 
 # Specify the base AMI ID, instance type, and key pair name
-base_ami_id = 'ami-0c94855ba95c71c99'  # Replace with the actual base AMI ID
+base_ami_id = 'ami-0c94855ba95c71c99'  # Replace with the  base AMI ID
 instance_type = 't2.micro'  # Replace with the desired instance type
 key_name = 'my-new-key-pair'  # Replace with your desired key pair name
 
@@ -247,7 +247,7 @@ Steps:
    <EC2_INSTANCE_PUBLIC_IP_ADDRESS> ansible_user=ubuntu
    ```
 
-   Replace `<EC2_INSTANCE_PUBLIC_IP_ADDRESS>` with the actual public IP address of your EC2 instance. Adjust the `ansible_user` value based on the AMI you used (e.g., `ec2-user` for Amazon Linux).
+   Replace `<EC2_INSTANCE_PUBLIC_IP_ADDRESS>` with the  public IP address of your EC2 instance. Adjust the `ansible_user` value based on the AMI you used (e.g., `ec2-user` for Amazon Linux).
 
 3. Ensure that the EC2 instance has Python installed. Most AMIs come with Python pre-installed, but you can check by running the following command:
 
@@ -274,7 +274,7 @@ Steps:
          command: ansible-playbook /home/ubuntu/master_playbook.yml
    ```
 
-   Replace `/path/to/master/playbook.yml` with the actual path to your master playbook on your local machine or Ansible control node. Adjust the `dest` path if needed.
+   Replace `/path/to/master/playbook.yml` with the  path to your master playbook on your local machine or Ansible control node. Adjust the `dest` path if needed.
 
 5. Run the `run_master_playbook.yml` playbook to execute the master playbook on the EC2 instance:
 
@@ -311,7 +311,7 @@ Steps:
    <EC2_INSTANCE_PUBLIC_IP_ADDRESS> ansible_user=ubuntu
    ```
 
-   Replace `<EC2_INSTANCE_PUBLIC_IP_ADDRESS>` with the actual public IP address of your EC2 instance. Adjust the `ansible_user` value based on the AMI you used (e.g., `ec2-user` for Amazon Linux).
+   Replace `<EC2_INSTANCE_PUBLIC_IP_ADDRESS>` with the  public IP address of your EC2 instance. Adjust the `ansible_user` value based on the AMI you used (e.g., `ec2-user` for Amazon Linux).
 
 3. Ensure that the EC2 instance has Python installed. Most AMIs come with Python pre-installed, but you can check by running the following command:
 
@@ -327,7 +327,7 @@ Steps:
    ansible-playbook -i inventory.ini /path/to/master/playbook.yml
    ```
 
-   Replace `/path/to/master/playbook.yml` with the actual path to your master playbook on your local machine or Ansible control node.
+   Replace `/path/to/master/playbook.yml` with the  path to your master playbook on your local machine or Ansible control node.
 
 5. Monitor the output of the Ansible playbook execution to ensure that the master playbook and its included playbooks run successfully on the EC2 instance.
 

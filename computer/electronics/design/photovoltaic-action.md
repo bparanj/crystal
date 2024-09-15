@@ -9,10 +9,10 @@ Photovoltaic action is what happens in solar panels. When sunlight hits the pane
 Photovoltaic action occurs in semiconductor materials when photons from sunlight strike the material and transfer their energy to electrons, freeing them from their atomic bonds. This creates electron-hole pairs in the semiconductor. The built-in electric field at the junction of a p-n diode then separates these charge carriers, generating a flow of current. This process is the fundamental principle behind solar cells, which convert light energy directly into electrical energy.
 
 ### 4. **To a Graduate Student:**
-Photovoltaic action in a solar cell involves the excitation of electrons in a semiconductor material, typically silicon, when exposed to photons with energy greater than the bandgap. The photovoltaic effect is driven by the generation of electron-hole pairs and the separation of these carriers by the internal electric field at the p-n junction. The efficiency of this process depends on factors like the material’s bandgap, carrier lifetime, and the quality of the junction, as well as external factors such as light intensity and wavelength.
+Photovoltaic action in a solar cell involves the excitation of electrons in a semiconductor material,  silicon, when exposed to photons with energy greater than the bandgap. The photovoltaic effect is driven by the generation of electron-hole pairs and the separation of these carriers by the internal electric field at the p-n junction. The efficiency of this process depends on factors like the material’s bandgap, carrier lifetime, and the quality of the junction, as well as external factors such as light intensity and wavelength.
 
 ### 5. **To a Colleague :**
-Photovoltaic action in a p-n junction device involves the absorption of photons with energies exceeding the semiconductor bandgap, leading to the generation of electron-hole pairs. The internal electric field at the junction facilitates the separation of these charge carriers, contributing to a photocurrent under illumination. Key factors influencing the efficiency of photovoltaic conversion include the material’s absorption coefficient, carrier diffusion length, surface recombination velocities, and the architecture of the cell, such as passivation layers and anti-reflective coatings. Advanced photovoltaic technologies, including multi-junction cells and thin-film materials, seek to optimize these parameters for higher conversion efficiencies and broader spectral absorption.
+Photovoltaic action in a p-n junction device involves the absorption of photons with energies exceeding the semiconductor bandgap, leading to the generation of electron-hole pairs. The internal electric field at the junction facilitates the separation of these charge carriers, contributing to a photocurrent under illumination. Key factors influencing the efficiency of photovoltaic conversion include the material’s absorption coefficient, carrier diffusion length, surface recombination velocities, and the architecture of the cell, such as passivation layers and anti-reflective coatings. Advanced photovoltaic technologies,  multi-junction cells and thin-film materials, seek to optimize these parameters for higher conversion efficiencies and broader spectral absorption.
 
 This progression breaks down the concept of photovoltaic action into increasingly detailed explanations, making it accessible to various audiences, from young children to experienced engineers.
 
@@ -70,7 +70,7 @@ Imagine the sun is like a big, bright friend who gives away tiny bits of light c
 Photovoltaic action is how solar panels turn sunlight into electricity. The panels are made of special materials called semiconductors, usually silicon. When light hits these materials, it gives energy to the electrons inside. This extra energy allows the electrons to break free and move, creating an electric current. The panel has two layers with different properties that help guide the electrons in one direction, creating a useful flow of electricity we can use to power devices.
 
 3. Explaining to an undergraduate student:
-Photovoltaic action occurs in semiconductor materials, typically silicon doped to form a p-n junction. When photons with energy greater than the bandgap of the semiconductor are absorbed, they create electron-hole pairs. The built-in electric field at the p-n junction separates these charge carriers, with electrons moving to the n-type region and holes to the p-type region. This separation of charges creates a potential difference across the cell.
+Photovoltaic action occurs in semiconductor materials,  silicon doped to form a p-n junction. When photons with energy greater than the bandgap of the semiconductor are absorbed, they create electron-hole pairs. The built-in electric field at the p-n junction separates these charge carriers, with electrons moving to the n-type region and holes to the p-type region. This separation of charges creates a potential difference across the cell.
 
 Key concepts to understand:
 - Band theory of solids
@@ -150,7 +150,7 @@ Expected results:
 - Different colors of light might produce varying outputs.
 
 Explanation:
-This experiment demonstrates the basic principle of photovoltaic action. The solar cell contains semiconductor materials (typically silicon) that generate an electric current when exposed to light. Photons from the light source excite electrons in the semiconductor, creating electron-hole pairs. The cell's internal structure separates these charges, producing a voltage across its terminals.
+This experiment demonstrates the basic principle of photovoltaic action. The solar cell contains semiconductor materials ( silicon) that generate an electric current when exposed to light. Photons from the light source excite electrons in the semiconductor, creating electron-hole pairs. The cell's internal structure separates these charges, producing a voltage across its terminals.
 
 The experiment shows how:
 1. Light intensity affects voltage output

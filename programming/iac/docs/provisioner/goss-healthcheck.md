@@ -49,7 +49,7 @@ Restart=always
 WantedBy=multi-user.target
 ```
 
-Replace `/path/to/your/goss.yaml` with the actual path to your `goss.yaml` file. Adjust the listen address and port as needed.
+Replace `/path/to/your/goss.yaml` with the  path to your `goss.yaml` file. Adjust the listen address and port as needed.
 
 2. **Enable and start the Goss service**:
 
@@ -269,7 +269,7 @@ To automate starting Goss in serve mode with your Ansible playbook, add a task l
 
 This setup provides a basic overview of using Goss to create health check endpoints for Caddy, PostgreSQL, and Redis in an Ubuntu environment on EC2. Adjust configurations based on your specific infrastructure and security requirements.
 
-Configuring security groups to allow access to necessary ports for services like Caddy (80, 443), PostgreSQL, and Redis is typically done during the customer provisioning step later by Terraform, rather than during the base image creation step with Packer. 
+Configuring security groups to allow access to necessary ports for services like Caddy (80, 443), PostgreSQL, and Redis is  done during the customer provisioning step later by Terraform, rather than during the base image creation step with Packer. 
 
 **Reasons to Configure Security Groups During Provisioning:**
 

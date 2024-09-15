@@ -59,7 +59,7 @@ else:
 
 3. **Enable Auto-Assign Public IP**: After creating the subnet, we modify its attribute to enable automatic assignment of public IP addresses to instances launched within this subnet, mirroring the `map_public_ip_on_launch = true` setting in Terraform.
 
-Replace the placeholder values (like `your-vpc-id-here` and the CIDR block if different from your plan) with actual values relevant to your AWS setup. This script will create a public subnet within your specified VPC and configure it to assign public IP addresses to instances upon launch, akin to your Terraform resource definition for "RailsPublicSubnet".
+Replace the placeholder values (like `your-vpc-id-here` and the CIDR block if different from your plan) with  values relevant to your AWS setup. This script will create a public subnet within your specified VPC and configure it to assign public IP addresses to instances upon launch, akin to your Terraform resource definition for "RailsPublicSubnet".
 
 To create the RailsPublicSubnet resource using boto3, you can use the `create_subnet()` method of the EC2 client. Here's an example code snippet that demonstrates how to create the subnet:
 
@@ -127,7 +127,7 @@ Inside the function:
 
 In the example usage, we specify the VPC ID (`vpc_id`), the CIDR block (`cidr_block`), the availability zone (`availability_zone`), and the desired name for the subnet (`subnet_name`). We then call the `create_rails_public_subnet()` function with these arguments.
 
-Make sure to replace `'vpc-xxxxxxxx'` with the actual ID of your VPC.
+Make sure to replace `'vpc-xxxxxxxx'` with the  ID of your VPC.
 
 Note: Ensure that you have the necessary permissions to create subnets in your AWS account. You may need to configure the appropriate IAM permissions for your AWS account or the IAM user/role associated with your boto3 session.
 
@@ -160,7 +160,7 @@ In this example, the `aws_subnet` resource named `public_subnet` is created with
 
  enabling `map_public_ip_on_launch` does not automatically make the instances publicly accessible. You still need to configure the appropriate security group rules and network ACLs to allow the desired inbound traffic to reach the instances.
 
-Also, keep in mind that enabling `map_public_ip_on_launch` is typically used for public-facing subnets where instances need to be directly accessible from the internet. For private subnets that do not require direct internet access, you would usually set `map_public_ip_on_launch` to `false` and use other mechanisms like NAT Gateways or VPN connections for outbound internet access.
+Also, keep in mind that enabling `map_public_ip_on_launch` is  used for public-facing subnets where instances need to be directly accessible from the internet. For private subnets that do not require direct internet access, you would usually set `map_public_ip_on_launch` to `false` and use other mechanisms like NAT Gateways or VPN connections for outbound internet access.
 
 Yes, the boto3 code I provided in the previous example does enable the "auto-assign public IP" feature for the subnet, which is equivalent to setting `map_public_ip_on_launch` to `true` in Terraform.
 

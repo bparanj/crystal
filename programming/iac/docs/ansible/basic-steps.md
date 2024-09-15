@@ -10,7 +10,7 @@ Your steps outline a process for creating and using a PEM file in AWS, configuri
 
 5. **Create Custom AMI Using That PEM File**: The PEM file itself is not used in the AMI creation process. The step should focus on preparing the instance (e.g., cleanup and removing unnecessary files) before creating the AMI.
 
-6. **Remove PEM File from the EC2 Instance**: Correct. It's crucial to remove sensitive files, including the PEM file if it was transferred to the instance, and any other sensitive information before creating the AMI.
+6. **Remove PEM File from the EC2 Instance**: Correct. It's crucial to remove sensitive files,  the PEM file if it was transferred to the instance, and any other sensitive information before creating the AMI.
 
 7. **Create Custom AMI**: After cleaning up the instance, create the AMI from the EC2 console or using the AWS CLI. This step formalizes the creation of your custom AMI.
 

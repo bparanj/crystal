@@ -1,4 +1,4 @@
-It is generally not considered a best practice to deploy Rails applications in the `/var/www` directory. The `/var/www` directory is commonly used for serving static files and is often associated with Apache web server's default document root.
+It is generally not considered a best practice to deploy Rails applications in the `/var/www` directory. The `/var/www` directory is  used for serving static files and is often associated with Apache web server's default document root.
 
 Here are a few reasons why deploying Rails apps in `/var/www` is not recommended:
 

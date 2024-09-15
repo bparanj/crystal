@@ -41,7 +41,7 @@ The `ANSIBLE_HOST_KEY_CHECKING=False` flag is specific to Ansible and is used to
 
 In the context of using boto3 to manage AWS resources, you don't need to set the `ANSIBLE_HOST_KEY_CHECKING` flag. Boto3 uses a different mechanism for authentication and secure communication with AWS services.
 
-When using boto3, you typically configure your AWS credentials and region in one of the following ways:
+When using boto3, you  configure your AWS credentials and region in one of the following ways:
 
 1. Environment variables:
    - Set the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` environment variables with your AWS access key ID and secret access key, respectively.

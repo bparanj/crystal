@@ -13,7 +13,7 @@ An external data bus in computer hardware is a communication system that transfe
 
 4. Types:
    - Address bus: Carries memory addresses
-   - Data bus: Carries actual data
+   - Data bus: Carries  data
    - Control bus: Carries control signals
 
 5. Speed:
@@ -41,7 +41,7 @@ The external data bus (EDB) in computer hardware is a set of physical connection
 
 3. **Speed**: The speed of the data bus, often measured in megahertz (MHz) or gigahertz (GHz), affects how quickly data can be transferred. Higher speeds result in faster data transfer rates.
 
-4. **Components**: The EDB connects the CPU to various external components, including:
+4. **Components**: The EDB connects the CPU to various external components, :
    - **Memory (RAM)**: For temporary data storage and quick access.
    - **Storage Devices**: Such as hard drives, SSDs, and NVMe drives for long-term data storage.
    - **Input/Output Devices**: Including keyboards, mice, printers, and network interfaces.

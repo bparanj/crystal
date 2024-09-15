@@ -10,7 +10,7 @@
    - **Dynamic Updates**: Flash memory allows for BIOS updates to be downloaded and installed via software, such as during a system update, providing a more flexible and user-friendly approach to keeping the BIOS current.
 
 4. **Improved Functionality**:
-   - **Enhanced Features**: Flash memory can store more data than traditional ROM chips, allowing for more complex and feature-rich BIOS firmware. This enables modern BIOS versions (like UEFI) to provide enhanced functionality, including graphical interfaces, mouse support, network capabilities, and larger storage support.
+   - **Enhanced Features**: Flash memory can store more data than traditional ROM chips, allowing for more complex and feature-rich BIOS firmware. This enables modern BIOS versions (like UEFI) to provide enhanced functionality,  graphical interfaces, mouse support, network capabilities, and larger storage support.
 
 5. **Security Enhancements**:
    - **Security Features**: Flash memory allows for better security measures, such as digitally signed BIOS updates, ensuring that only authorized updates can be applied. This helps protect the BIOS from malware or unauthorized modifications.
@@ -31,7 +31,7 @@ ROM (Read-Only Memory) chips for BIOS (Basic Input/Output System) were replaced 
 
 4. Manufacturing efficiency: Using flash memory simplifies the manufacturing process, as the same chip can be used across different models and easily programmed as needed.
 
-5. Power efficiency: Modern flash memory typically consumes less power than traditional ROM chips.
+5. Power efficiency: Modern flash memory  consumes less power than traditional ROM chips.
 
 6. Reliability: Flash memory is more resistant to environmental factors like heat and electromagnetic interference.
 

@@ -23,7 +23,7 @@
 - **DC Voltage**:
   - **Electronics**: Most electronic devices, such as computers, smartphones, and LED lights, operate on DC voltage.
   - **Storage**: Batteries store and provide power in DC form.
-  - **Portable Devices**: Portable and low-power devices typically use DC voltage due to the ease of battery integration.
+  - **Portable Devices**: Portable and low-power devices  use DC voltage due to the ease of battery integration.
 
 - **AC Voltage**:
   - **Power Transmission**: AC voltage is used for transmitting electricity over long distances. It can be easily transformed to higher or lower voltages using transformers.
@@ -57,7 +57,7 @@ DC Voltage:
 
 AC Voltage:
 - In an AC circuit, the electric current periodically reverses direction, flowing back and forth between the terminals.
-- The voltage in an AC circuit changes polarity over time, typically following a sine wave pattern.
+- The voltage in an AC circuit changes polarity over time,  following a sine wave pattern.
 - The frequency of the AC voltage indicates how many times the polarity reverses per second, measured in hertz (Hz).
 - Examples of AC voltage sources include the power grid (wall outlets), generators, and transformers.
 
