@@ -27,7 +27,8 @@ The relationship between dpkg and apt, and why both are needed.
    - dpkg is useful for installing local .deb files or in situations where fine-grained control is needed.
    - apt is preferred for day-to-day package management tasks.
 
-In essence, dpkg is still needed because:
+dpkg is still needed because:
+
 1. It's the core package management tool that actually performs installations.
 2. It's useful for advanced users and scripts that need low-level package control.
 3. apt relies on dpkg for the final steps of package installation and removal.

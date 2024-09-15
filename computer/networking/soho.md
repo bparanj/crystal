@@ -52,11 +52,8 @@ Common default gateway addresses for home and small office networks include:
 2. 192.168.1.1
 3. 10.0.0.1
 
-However, without specific information about your network configuration, I can't provide the exact dotted decimal value you should use. The correct gateway address depends on how your network is set up.
-
 To find the correct gateway address, you could:
 
 1. Check your router's configuration page
 2. Look at the network settings of a device that's already correctly configured on the network
 3. Use the "ipconfig" command (on Windows) or "ifconfig" (on Mac/Linux) on a working machine to see the gateway address
-

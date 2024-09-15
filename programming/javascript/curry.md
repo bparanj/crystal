@@ -19,7 +19,7 @@ Currying in JavaScript is a functional programming technique that transforms a f
    - In scenarios with functions having multiple parameters, currying allows you to simplify these functions into chained unary functions (functions with a single argument), which can be easier to understand and manage.
 
 7. **Partial Application**:
-   - Currying is closely related to partial application, where a function is partially applied with some arguments fixed, returning a new function that takes the remaining arguments. This is particularly useful in configuration scenarios.
+   - Currying is closely related to partial application, where a function is partially applied with some arguments fixed, returning a new function that takes the remaining arguments. This is useful in configuration scenarios.
 
 **Example of Currying in JavaScript**:
 ```javascript
@@ -40,4 +40,4 @@ console.log(double(5)); // Outputs: 10
 
 In this example, `curriedMultiply` is a curried version of the `multiply` function. It allows you to create specialized functions like `double` which keeps part of the logic (multiplication by 2) pre-applied.
 
-Currying is particularly useful in functional programming paradigms, and in JavaScript, it helps in writing cleaner, more modular code, especially when dealing with higher-order functions and complex data transformations.
+Currying is useful in functional programming paradigms, and in JavaScript, it helps in writing cleaner, more modular code, especially when dealing with higher-order functions and complex data transformations.

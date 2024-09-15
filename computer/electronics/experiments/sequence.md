@@ -1,9 +1,15 @@
+1. Polarized Capacitor
+2. Inductor
+3. Zener Diode
+
+
+
 Here's an arrangement of the components from simplest to most complicated, based on their complexity, functionality, and typical usage in electronic circuits:
 
 1. Resistor
 2. Capacitor
 3. Polarized Capacitor - Pending
-4. Inductor - Pending 
+4. Inductor - Pending
 5. Diode
 6. Zener Diode - Pending
 7. LED

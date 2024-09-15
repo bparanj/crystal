@@ -294,7 +294,7 @@ The main reasons for including an egress rule in a security group are:
 
 4. Outbound Traffic Logging: Including an egress rule in your security group enables you to monitor and log outbound traffic from your resources. This can be useful for security auditing, troubleshooting, and compliance purposes.
 
-It's important to note that the egress rule in the example (`0.0.0.0/0` on any port and any protocol) is very permissive and allows all outbound traffic. In a production environment, you may want to restrict the egress rule to specific destination IP ranges, ports, and protocols based on your application's requirements and security best practices.
+ the egress rule in the example (`0.0.0.0/0` on any port and any protocol) is very permissive and allows all outbound traffic. In a production environment, you may want to restrict the egress rule to specific destination IP ranges, ports, and protocols based on your application's requirements and security best practices.
 
 For example, if your resources only need to access specific external services, you can modify the egress rule to allow outbound traffic only to those specific IP addresses or CIDR blocks, rather than allowing all outbound traffic.
 

@@ -5,13 +5,13 @@
 ### 2. **To a Teenager:**
      The piezoelectric effect happens in certain crystals and materials. When you squeeze or press on these materials, they generate electricity. It also works the other way around—if you apply electricity to them, they can change shape or vibrate. This effect is used in things like quartz watches to keep time and in tiny speakers to make sound.
 
-### 3. **To an Undergraduate Student (Electronics Major):**
+### 3. **To an Undergraduate Student **
      The piezoelectric effect occurs in certain materials, such as quartz, where mechanical stress (like squeezing or stretching) generates an electrical charge. Conversely, applying an electrical field to these materials causes them to deform mechanically. This effect is harnessed in a variety of applications, such as in piezoelectric sensors, actuators, and resonators. The direct piezoelectric effect is used for sensing and energy harvesting, while the converse effect is used for actuation and precise control in devices like ultrasonic transducers.
 
 ### 4. **To a Graduate Student:**
      The piezoelectric effect arises in non-centrosymmetric crystals, where the absence of a center of symmetry allows mechanical stress to displace charge centers within the crystal lattice, creating a dipole moment and generating an electrical voltage. The effect is mathematically described by the piezoelectric coefficients, which relate the applied stress to the induced electric field (direct effect) and the applied electric field to the induced strain (converse effect). Piezoelectric materials are employed in precision devices such as micropositioners, high-frequency resonators, and in energy harvesting systems where mechanical energy is converted into electrical energy.
 
-### 5. **To a Colleague (Expert Engineer):**
+### 5. **To a Colleague :**
      The piezoelectric effect in non-centrosymmetric materials, governed by the third-rank tensor relationship \(D_i = d_{ijk} T_{jk}\) for the direct effect and \(S_{ij} = d_{ijk} E_k\) for the converse effect, plays a crucial role in advanced electromechanical systems. The coupling between mechanical and electrical domains enables high-precision actuation and sensing, with applications spanning from MEMS devices to medical ultrasound transducers. Optimizing material properties such as the piezoelectric charge constant \(d_{33}\), and minimizing losses due to dielectric and mechanical damping, is essential for enhancing the efficiency and performance of piezoelectric components in both resonant and non-resonant applications. The development of novel piezoelectric materials, such as lead-free ceramics and polymer composites, is also advancing the field, enabling new functionalities and higher environmental compliance.
 
 A simple experiment to illustrate the **piezoelectric effect**:
@@ -42,10 +42,10 @@ To demonstrate how mechanical pressure on a piezoelectric material generates an 
 ### Explanation:
 This experiment demonstrates the **piezoelectric effect**, where mechanical pressure applied to a piezoelectric material generates an electrical voltage. When pressure is applied, it deforms the crystal structure within the material, causing a displacement of charge and generating a voltage across the material. This simple setup shows how mechanical energy can be converted directly into electrical energy, illustrating the fundamental principle behind piezoelectric sensors, microphones, and other devices.
 
-1.  child (5-8 years old):
+1.  child :
 Imagine you have a special crystal that's like magic. When you squeeze it, it makes a tiny spark of electricity. And if you give it electricity, it wiggles a little bit. It's like the crystal is ticklish! We use these special crystals in things like birthday cards that play music when you open them.
 
-2.  teenager (13-16 years old):
+2.  teenager :
 The piezoelectric effect is a property of certain materials, usually crystals, that can generate an electric charge when mechanical stress is applied to them. This works both ways: if you apply an electric field to these materials, they will change shape slightly. This effect is used in many devices, like electric lighters, speakers in headphones, and even some types of sensors in phones and game controllers.
 
 3. Explaining to an undergraduate student:

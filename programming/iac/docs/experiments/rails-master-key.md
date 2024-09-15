@@ -180,7 +180,7 @@ ansible-playbook your_playbook.yml --ask-vault-pass
 
 Using Ansible Vault offers a straightforward and integrated way to manage sensitive information such as the Rails master key without relying on external services, making it a suitable approach for scenarios where using cloud-based secrets managers is not preferred or possible.
 
-Yes, Ansible Vault can be used for storing a customer's Rails app master key securely. This method is particularly useful if you manage or deploy Rails applications on behalf of customers and need a secure way to handle sensitive information like the Rails master key. Using Ansible Vault allows you to encrypt the master key file and then use it within your Ansible playbooks without exposing the key in plain text.
+Yes, Ansible Vault can be used for storing a customer's Rails app master key securely. This method is useful if you manage or deploy Rails applications on behalf of customers and need a secure way to handle sensitive information like the Rails master key. Using Ansible Vault allows you to encrypt the master key file and then use it within your Ansible playbooks without exposing the key in plain text.
 
 Here’s how to adapt the process specifically for handling a customer's Rails app master key:
 

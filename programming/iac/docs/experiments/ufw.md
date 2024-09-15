@@ -204,7 +204,7 @@ Using AWS WAF (Web Application Firewall) and configuring a server-level firewall
 ### AWS WAF
 
 - **Layer 7 Protection**: AWS WAF provides protection at the application layer (Layer 7 in the OSI model). It is designed to protect your web applications from common web exploits that could affect application availability, compromise security, or consume excessive resources.
-- **Custom Rules**: You can create custom rules to block or allow traffic based on conditions such as IP addresses, HTTP headers, HTTP body, or custom URIs. This is particularly useful for protecting against SQL injection, cross-site scripting, and other application-specific attacks.
+- **Custom Rules**: You can create custom rules to block or allow traffic based on conditions such as IP addresses, HTTP headers, HTTP body, or custom URIs. This is useful for protecting against SQL injection, cross-site scripting, and other application-specific attacks.
 - **Integration**: AWS WAF is directly integrated with Amazon CloudFront, the Application Load Balancer (ALB), Amazon API Gateway, and AWS AppSync, making it easy to deploy application-level protection.
 
 ### UFW (On an EC2 Instance)

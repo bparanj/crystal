@@ -46,7 +46,7 @@ source "amazon-ebs" "example" {
 }
 ```
 
-It's important to note that making an AMI publicly accessible can have security implications. It allows anyone with an AWS account to launch instances using your AMI, which may not always be desired. In most cases, you would want to restrict the launch permissions to specific AWS accounts or IAM users/roles that should have access to the AMI.
+ making an AMI publicly accessible can have security implications. It allows anyone with an AWS account to launch instances using your AMI, which may not always be desired. In most cases, you would want to restrict the launch permissions to specific AWS accounts or IAM users/roles that should have access to the AMI.
 
 If you want to limit the launch permissions to specific AWS accounts or groups, you can specify their IDs or group names instead of using `["all"]`. For example:
 

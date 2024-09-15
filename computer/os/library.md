@@ -1,4 +1,4 @@
-A library in Linux (and in computing in general) is a collection of pre-compiled code that can be reused by programs. Here's a more detailed explanation:
+A library in Linux (and in computing in general) is a collection of pre-compiled code that can be reused by programs.
 
 1. Purpose:
    - Libraries provide reusable functionality to programs.
@@ -75,4 +75,3 @@ In practice, many libraries are distributed as packages for easier installation 
 | Content | Compiled code | Can include libraries, executables, config files, documentation |
 | Examples | libc.so, libssl.so | nginx, python3, gcc |
 | Typical locations | /lib, /usr/lib, /usr/local/lib | Distributed across the file system based on FHS |
-

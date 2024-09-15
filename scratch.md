@@ -1,3 +1,4 @@
+
 Running all docker process for websploit makes Thinkpad heat up and blow hot air through the fan. Stop all Docker processes :
 
 ```
@@ -86,3 +87,34 @@ Here’s a basic outline to set up Samba:
    ```
 
 You can now access the shared directory from other devices on your network by connecting to the BeagleBone Black’s IP address.
+
+Search for an exact match of a flag in man page:
+
+Ex:
+
+```
+dpkg -s
+```
+
+To search for the -s flag.
+
+```
+man dpkg
+```
+
+```
+/-s\b
+```
+
+Find the path of the given file:
+
+```
+sudo find / -name timesyncd.conf
+```
+
+Lateral movement attack
+
+netfilter
+
+
+

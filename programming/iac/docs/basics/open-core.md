@@ -18,4 +18,4 @@ The open core model aims to strike a balance between the benefits of open source
 
 Examples of projects that follow the open core model include GitLab, MySQL (with the Enterprise edition), and Elasticsearch (with the X-Pack extensions).
 
-It's important to note that the open core model is different from a fully proprietary or closed-source model, as the core software remains open source and freely available.
+ the open core model is different from a fully proprietary or closed-source model, as the core software remains open source and freely available.

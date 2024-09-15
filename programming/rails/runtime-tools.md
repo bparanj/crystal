@@ -192,7 +192,7 @@ This approach is a bit of a workaround and might require some adjustment based o
 
 A stack dump provides you with a trace of the call history that led to the current execution point. The stack dump contains each routine and its arguments.
 
-Yes, the concept of a stack dump is applicable to a Ruby codebase. In Ruby, a stack dump (or stack trace) provides a detailed trace of the call history leading up to the current point of execution. It's particularly useful for debugging purposes, especially when dealing with errors or exceptions. Here's how it relates to Ruby:
+Yes, the concept of a stack dump is applicable to a Ruby codebase. In Ruby, a stack dump (or stack trace) provides a detailed trace of the call history leading up to the current point of execution. It's useful for debugging purposes, especially when dealing with errors or exceptions. Here's how it relates to Ruby:
 
 1. **Stack Trace in Exceptions**:
    - In Ruby, when an exception is raised, it's accompanied by a stack trace. This stack trace lists the methods or routines that were called, in the order they were called, leading up to the point where the exception occurred.

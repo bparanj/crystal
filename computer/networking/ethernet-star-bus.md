@@ -16,6 +16,7 @@ The term **Ethernet Star-Bus** refers to a network topology that combines elemen
    - Early Ethernet networks often used coaxial cables in a bus topology. As network technology evolved, star topologies with hubs and switches became more common, but the underlying logical structure of data transmission retained characteristics of the original Ethernet bus systems.
 
 ### Summary:
+
 The term **Ethernet Star-Bus** includes "bus" because, despite its star-shaped physical layout, the network can operate with a logical structure similar to a bus topology. This reflects how data transmission and collision domains are managed, particularly in hub-based networks where all devices share the communication medium.
 
 The term "Ethernet Star Bus" combines two network topologies, and the inclusion of "bus" in its name reflects its historical evolution and some of its characteristics. Let's break this down:
@@ -46,4 +47,4 @@ The term "Ethernet Star Bus" combines two network topologies, and the inclusion 
 7. Hybrid nature:
    - "Star Bus" accurately describes the dual nature: physically a star, logically retaining some bus-like characteristics.
 
-In summary, while modern Ethernet networks physically resemble a star topology, the inclusion of "bus" in "Ethernet Star Bus" acknowledges its historical roots, some of its logical behaviors, and the conceptual model of a shared communication medium. This terminology helps network professionals understand both the physical structure and the underlying principles of how data moves through the network.
+While modern Ethernet networks physically resemble a star topology, the inclusion of "bus" in "Ethernet Star Bus" acknowledges its historical roots, some of its logical behaviors, and the conceptual model of a shared communication medium. This terminology helps network professionals understand both the physical structure and the underlying principles of how data moves through the network.

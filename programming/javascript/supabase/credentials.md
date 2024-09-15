@@ -146,7 +146,7 @@ In Nuxt 3.x, you can access environment variables directly in your application w
 
 ### 4. **Runtime Config (Optional)**
 
-- For more advanced configurations, you can use Nuxt 3's [runtime config](https://v3.nuxtjs.org/guide/features/runtime-config/). This is particularly useful for variables that you might need to change without redeploying your app.
+- For more advanced configurations, you can use Nuxt 3's [runtime config](https://v3.nuxtjs.org/guide/features/runtime-config/). This is useful for variables that you might need to change without redeploying your app.
 - Define these in `nuxt.config.ts`:
 
   ```javascript

@@ -158,7 +158,7 @@ resource "aws_subnet" "public_subnet" {
 
 In this example, the `aws_subnet` resource named `public_subnet` is created within the specified VPC. The `map_public_ip_on_launch` attribute is set to `true`, indicating that instances launched into this subnet will automatically receive a public IP address.
 
-It's important to note that enabling `map_public_ip_on_launch` does not automatically make the instances publicly accessible. You still need to configure the appropriate security group rules and network ACLs to allow the desired inbound traffic to reach the instances.
+ enabling `map_public_ip_on_launch` does not automatically make the instances publicly accessible. You still need to configure the appropriate security group rules and network ACLs to allow the desired inbound traffic to reach the instances.
 
 Also, keep in mind that enabling `map_public_ip_on_launch` is typically used for public-facing subnets where instances need to be directly accessible from the internet. For private subnets that do not require direct internet access, you would usually set `map_public_ip_on_launch` to `false` and use other mechanisms like NAT Gateways or VPN connections for outbound internet access.
 

@@ -12,7 +12,7 @@ HVM stands for Hardware Virtual Machine. It is a type of virtualization technolo
 
 - **Performance**: By leveraging hardware extensions for virtualization, HVM can offer better performance compared to purely software-based virtualization techniques, especially for operations that are resource-intensive or require direct access to physical hardware.
 
-- **Compatibility**: HVM allows for running a wide range of operating systems without modification because it provides a virtual environment that closely mimics physical hardware. This is particularly useful for running legacy applications or operating systems.
+- **Compatibility**: HVM allows for running a wide range of operating systems without modification because it provides a virtual environment that closely mimics physical hardware. This is useful for running legacy applications or operating systems.
 
 - **Security and Isolation**: Like other virtualization technologies, HVM ensures a high degree of isolation between VMs, which enhances security. Hardware extensions further augment this by providing features like Extended Page Tables (EPT) and I/O virtualization, which help in managing memory access and device assignments securely.
 

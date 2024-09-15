@@ -33,8 +33,6 @@ A subnetwork, often abbreviated as subnet, is a logical subdivision of an IP net
 
 Subnetting is a fundamental skill in network administration and design, allowing for more flexible and efficient use of IP address space and network resources.
 
-
-
 | Aspect | Network Segment | Subnetwork |
 |--------|-----------------|------------|
 | Definition | A portion of a network separated by a network device | A logical subdivision of an IP network |
@@ -49,10 +47,8 @@ Subnetting is a fundamental skill in network administration and design, allowing
 | Traffic Isolation | Isolates traffic at Layer 2 | Isolates traffic at Layer 3 |
 | Example | All devices connected to a single switch | All devices with IP addresses in the range 192.168.1.0/24 |
 
-
 1. Overlap: In practice, a subnetwork often corresponds to a network segment, but this isn't always the case.
 2. Flexibility: Subnetworks offer more flexibility in terms of logical network design, while segments are often tied to physical topology.
 3. Management: Subnetworks provide more granular control over IP address allocation and routing.
 4. Performance: Both concepts aim to improve network performance, but through different mechanisms.
 5. Security: Both can enhance security, but subnetworks offer more sophisticated options for access control and isolation.
-

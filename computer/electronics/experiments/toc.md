@@ -3,6 +3,7 @@
 3. Slideswitch
 4. Pushbutton
 5. Potentiometer
+    - Voltage divider
 6. Capacitor
     - Polarized capacitor - Pending
 7. Diode
