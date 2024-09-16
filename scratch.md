@@ -34,7 +34,67 @@ sudo nft -f /etc/nftables.conf
 
 This will apply the new rules.
 
+auditd tool
+remote journaling
 
+df
+
+The `df` command in Linux stands for **"disk free"**. It's used to display information about the file systems on your system, including the total space, used space, available space, and the percentage of use for each mounted file system.
+
+dd
+
+The `dd` command in Linux stands for **"data duplicator"** or **"disk dump"**³⁵. It's a powerful utility used for low-level data copying and conversion, often employed to create exact copies of files, partitions, or entire disks. This makes it useful for tasks like creating backups, cloning drives, or writing disk images to physical media.
+
+What is /dev/zero stream in Debian?
+What is SIEM ?
+
+Emulation refers to the process of imitating or replicating the functionality of one system using another system. This can be applied in various contexts:
+
+1. **Computing**: In the realm of computers, emulation involves using software or hardware to mimic the behavior of another system. For example, a program that allows a computer to run software designed for a different operating system or hardware platform is an emulator⁴. This is commonly used for running old video games on modern systems or for testing software across different environments.
+
+2. **General Usage**: Emulation can also mean striving to match or surpass someone else's achievements or qualities. This form of emulation is often driven by admiration and the desire to achieve similar success¹.
+
+
+
+
+Monitoring System Calls
+
+Yes, you can configure the monitoring of system calls in a configuration file using tools like **auditd** or **Wazuh**. These tools allow you to set up rules that specify which system calls to monitor and log.
+
+### Using auditd
+With **auditd**, you can define rules in the `/etc/audit/audit.rules` file. For example, to monitor all `open` system calls, you can add the following rule:
+
+```bash
+-a always,exit -F arch=b64 -S open -k open_monitor
+```
+
+This rule logs every `open` system call on a 64-bit architecture and tags the log entries with the key `open_monitor`.
+
+### Using Wazuh
+**Wazuh** also supports monitoring system calls through its configuration. You can add rules to the Wazuh configuration file to monitor specific system calls. For example, you can add a rule to monitor `execve` system calls:
+
+```xml
+<localfile>
+    <log_format>audit</log_format>
+    <location>/var/log/audit/audit.log</location>
+</localfile>
+```
+
+Then, create an audit rule to monitor `execve`:
+
+```bash
+auditctl -a always,exit -F arch=b64 -S execve -k exec_monitor
+```
+
+This setup will log all `execve` system calls and tag them with the key `exec_monitor`.
+
+ list the audit rules using auditctl
+
+sudo auditctl -l
+
+What key word would we search for to detect a filesystem mount?
+
+mount
 
 
 
