@@ -1,6 +1,6 @@
 ### What is DIMM in Computer Hardware?
 
-**DIMM** stands for **Dual In-line Memory Module**. It is a type of computer memory module used in desktop PCs, laptops, and servers. DIMMs are the successors to SIMMs (Single In-line Memory Modules) and provide significant advancements in terms of speed, capacity, and overall performance.
+**DIMM** stands for **Dual In-line Memory Module**. It is a type of computer memory module used in desktop PCs, laptops, and servers. DIMMs are the successors to SIMMs (Single In-line Memory Modules) and provide advancements in terms of speed, capacity, and overall performance.
 
 ### Key Features of DIMMs:
 
@@ -42,17 +42,6 @@
 
 3. **Improved Reliability**:
    - ECC DIMMs and advancements in memory technology enhance the reliability and stability of computer systems.
-
-### Sources:
-
-1. **Kingston Technology: Understanding RAM**:
-   - [Kingston Technology](https://www.kingston.com/en/memory/desktop-laptop-memory)
-
-2. **Crucial: What is DDR Memory?**:
-   - [Crucial](https://www.crucial.com/articles/about-memory/ddr-memory)
-
-3. **TechTarget: DIMM Definition**:
-   - [TechTarget](https://www.techtarget.com/searchstorage/definition/DIMM-dual-in-line-memory-module)
 
 ### Conclusion:
 

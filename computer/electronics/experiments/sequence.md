@@ -2,7 +2,7 @@
 2. Inductor
 3. Zener Diode
 
-
+Refer building-blocks.md
 
 Here's an arrangement of the components from simplest to most complicated, based on their complexity, functionality, and typical usage in electronic circuits:
 

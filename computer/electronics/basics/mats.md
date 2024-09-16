@@ -50,7 +50,7 @@ The resistivity of a soldering mat and an ESD (Electrostatic Discharge) mat vari
 
 When choosing a mat for electronics work, it's crucial to select the appropriate type based on your needs—either for soldering protection or ESD protection or a combination mat that offers both features if necessary.
 
-If you are experimenting with electronics using a breadboard, you should use an **ESD (Electrostatic Discharge) mat**. Here's why:
+If you are experimenting with electronics using a breadboard, you should use an **ESD (Electrostatic Discharge) mat**.
 
 ### Why Use an ESD Mat for Electronics Experimentation
 

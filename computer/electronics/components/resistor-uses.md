@@ -171,3 +171,23 @@ Considerations:
 3. Not suitable for high-speed switching applications
 
 This simple circuit is widely used in digital electronics to ensure reliable input states and prevent floating inputs, which can cause erratic behavior in digital systems.
+
+## Terms
+
+- Pull Up Circuit
+- Current Limiting
+- Voltage Division
+- Biasing
+- Pull Up
+- Pull Down
+- Feedback
+- Filtering
+- Timing
+- Power Dissipation
+- Impedance Matching
+- Voltage Sensing
+- Attenuator
+- Dummy Load
+- Temperature Sensing
+- Balancing
+

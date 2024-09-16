@@ -40,11 +40,6 @@
 - **Limited Capacity**: The maximum capacity of SIMMs was relatively low compared to modern memory modules.
 - **Single Data Path**: The redundant contacts limited the performance and scalability compared to the independent contacts of DIMMs.
 
-### Sources:
-1. **[Kingston Technology: SIMM Memory](https://www.kingston.com/unitedstates/us/memory/simm)** - Provides detailed information on SIMM memory technology and its evolution.
-2. **[Computer Hope: SIMM](https://www.computerhope.com/jargon/s/simm.htm)** - A comprehensive glossary entry explaining the characteristics and usage of SIMMs.
-3. **[TechTarget: SIMM Definition](https://www.techtarget.com/searchstorage/definition/SIMM-single-in-line-memory-module)** - Offers an overview of SIMM technology and its significance in computer hardware history.
-
 ### Conclusion:
 
 SIMMs were a significant step in the evolution of computer memory, providing a standardized, compact solution for increasing memory capacity in early personal computers. Their design and functionality laid the groundwork for future advancements in memory technology, leading to the development of DIMMs, which continue to be the standard in modern computing.

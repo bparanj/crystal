@@ -36,15 +36,6 @@
 
 If a motherboard has four DIMM slots, labeled A1, A2, B1, and B2, a dual channel configuration would involve installing one memory module in A1 and another in B1. Installing memory in A1 and A2 without corresponding modules in B1 and B2 would not enable dual channel mode.
 
-### Sources:
-
-1. **Crucial**:
-   - "What is Dual Channel Memory?" [Crucial](https://www.crucial.com/articles/about-memory/what-is-dual-channel-memory)
-2. **Kingston Technology**:
-   - "How Dual Channel Memory Works" [Kingston](https://www.kingston.com/unitedstates/us/blog/pc-performance/dual-channel-memory)
-3. **PC Gamer**:
-   - "RAM explained: What do all those numbers mean and how much memory do you need?" [PC Gamer](https://www.pcgamer.com/ram-explained/)
-
 ### Conclusion
 
 Dual channel memory technology is a way to enhance memory bandwidth and overall system performance. By understanding how to properly configure and utilize dual channel memory, users can take advantage of the speed and efficiency for their computer systems.

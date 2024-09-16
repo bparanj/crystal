@@ -1,6 +1,6 @@
 ### Does a Laptop Have to Be Compatible to Work with DDR4 RAM?
 
-Yes, a laptop must be compatible with DDR4 RAM to work properly. Compatibility is determined by several factors  the laptop's motherboard, chipset, and BIOS/UEFI firmware. Here are the key considerations:
+Yes, a laptop must be compatible with DDR4 RAM to work properly. Compatibility is determined by several factors such as the laptop's motherboard, chipset, and BIOS/UEFI firmware. Here are the key considerations:
 
 1. **Motherboard and Chipset Compatibility**:
    - **Physical Slot**: DDR4 RAM modules have a different notch position compared to DDR3 and other types of RAM, ensuring that they can only fit into DDR4-compatible slots.
@@ -31,12 +31,6 @@ Yes, a laptop must be compatible with DDR4 RAM to work properly. Compatibility i
 1. **Dell**: Dell's support site  provides detailed specs and compatible memory modules for their laptops.
 2. **HP**: HP’s online support documents list compatible RAM types for each laptop model.
 3. **Lenovo**: Lenovo's support page includes detailed specifications and compatibility information for their ThinkPad and IdeaPad series.
-
-### Sources:
-
-- **[Kingston Technology: Memory Compatibility](https://www.kingston.com/en/memory/search)**: Offers a tool to check compatibility of Kingston memory with different laptop models.
-- **[Crucial System Scanner](https://www.crucial.com/products/memory)**: Crucial provides a system scanner tool to detect and suggest compatible memory upgrades for your laptop.
-- **[TechSpot: RAM Guide](https://www.techspot.com/article/1039-ddr3-vs-ddr4-ram/)**: Detailed comparison and guide on DDR3 vs DDR4 memory.
 
 ### Conclusion
 

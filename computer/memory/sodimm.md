@@ -41,20 +41,6 @@
 3. **Flexibility**:
    - SO-DIMMs allow for easy upgrades and replacements, providing flexibility to enhance the performance of laptops and other compact devices.
 
-### Sources:
-
-1. **Kingston Technology: SO-DIMM Memory**:
-   - [Kingston Technology](https://www.kingston.com/en/memory/so-dimm)
-   - Kingston provides detailed information about SO-DIMM memory modules, their specifications, and their uses in various devices.
-
-2. **Crucial: Understanding SO-DIMMs**:
-   - [Crucial](https://www.crucial.com/articles/about-memory/what-is-a-sodimm)
-   - Crucial offers insights into the benefits and applications of SO-DIMMs, explaining their importance in portable computing.
-
-3. **TechTarget: SO-DIMM Definition**:
-   - [TechTarget](https://www.techtarget.com/searchstorage/definition/SO-DIMM-small-outline-dual-in-line-memory-module)
-   - TechTarget provides a comprehensive overview of SO-DIMM technology,  its development and applications in modern computing.
-
 ### Conclusion
 
 SO-DIMMs are essential components in the design and functionality of modern laptops, small form factor PCs, and other compact devices. Their small size and high performance make them an ideal choice for space-constrained environments, ensuring that devices can maintain high memory capacities and fast data transfer rates without compromising on form factor.
