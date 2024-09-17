@@ -1,4 +1,4 @@
-Table highlighting the key differences and similarities between a **resistor** and a **diode**:
+Differences and similarities between a **resistor** and a **diode**:
 
 | **Feature**              | **Resistor**                                       | **Diode**                                          |
 |--------------------------|---------------------------------------------------|----------------------------------------------------|
@@ -16,4 +16,4 @@ Table highlighting the key differences and similarities between a **resistor** a
 | **Types**                | Fixed, variable, thermistor, light-dependent resistor (LDR) | Standard diode, Zener diode, Schottky diode, LED, photodiode |
 | **Current-Voltage Characteristics Curve** | A straight line (Ohmic behavior) | A curve showing exponential increase in forward bias and near-zero current in reverse bias (until breakdown) |
 
-This table highlights the fundamental differences and similarities between resistors and diodes, providing a comparison of their characteristics and applications.
+This table shows the differences and similarities between resistors and diodes, providing a comparison of their characteristics and applications.
