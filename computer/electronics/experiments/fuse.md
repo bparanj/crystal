@@ -1,7 +1,7 @@
 Here are the steps to create a simple circuit demonstrating how a fuse works:
 
 ### Materials Needed:
-- Breadboard or circuit board
+- Breadboard
 - 9V battery
 - Battery connector
 - Fuse (appropriate for the battery voltage and current rating)
@@ -14,7 +14,7 @@ Here are the steps to create a simple circuit demonstrating how a fuse works:
 ### Steps:
 
 1. **Connect the Battery**: Attach the 9V battery to the breadboard using the battery connector.
-   
+
 2. **Add the Fuse**: Insert the fuse between the positive terminal of the battery and the positive rail on the breadboard. This ensures that the fuse will protect the circuit from excess current.
 
 3. **Add Resistor and LED**:

@@ -3,7 +3,7 @@ A form factor refers to the physical size, shape, and layout of a device or comp
 
 For example, in computers, form factors can dictate the dimensions and mounting points of motherboards, the size and shape of hard drives, and the overall design of cases. This standardization ensures compatibility between different components from various manufacturers.
 
-The latest form factor of PC motherboards is ATX (Advanced Technology eXtended), with some newer variations like microATX, mini-ITX, and extended ATX (EATX) catering to different needs in terms of size and functionality. The ATX form factor, introduced by Intel in 1995, has become the most common and versatile standard, offering a balanced layout for performance, expansion, and cooling.
+The latest form factor of PC motherboards is ATX (Advanced Technology eXtended), with newer variations like microATX, mini-ITX, and extended ATX (EATX) catering to different needs in terms of size and functionality. The ATX form factor, introduced by Intel in 1995, has become the most common and versatile standard, offering a balanced layout for performance, expansion, and cooling.
 
 ### Timeline of PC Motherboard Form Factors
 
@@ -32,7 +32,7 @@ Here's a timeline of the major PC motherboard form factors:
 8. Mini-STX: Introduced by Intel in 2015 for small form factor PCs.
 9. ATX12VO: Introduced by Intel in 2019, with a focus on improved power efficiency.
 
-It's worth noting that while ATX12VO is the latest form factor, ATX and its variations (microATX and Mini-ITX) are still widely used in modern PCs due to their compatibility with a wide range of components and cases.
+While ATX12VO is the latest form factor, ATX and its variations (microATX and Mini-ITX) are still widely used in modern PCs due to their compatibility with a wide range of components and cases.
 
 None of the form factors mentioned above are directly used in laptops. Laptops use proprietary motherboard designs that are specifically tailored to fit the chassis and components of each laptop model. These motherboards are designed to be compact, lightweight, and power-efficient to meet the unique requirements of portable computers.
 

@@ -1,12 +1,12 @@
 # Cathodes Explained in 5 Levels of Complexity
 
-## Level 1: Explanation for a Child
+## Level 1: Child
 
 Imagine you have a tiny door that lets special invisible friends called electrons out. This door is called a cathode. It's like the starting line in a race, where all the electron friends begin their journey. In things like batteries or some kinds of lights, the cathode helps the electrons move and do their job, which can be making light or helping toys work!
 
-## Level 2: Explanation for a Teenager
+## Level 2: Teenager
 
-A cathode is one of the two main parts in certain types of electronic devices, with the other being the anode. The cathode is  the negative terminal, and it's where electrons leave the device. Here are some key points about cathodes:
+A cathode is one of the two main parts in certain types of electronic devices, with the other being the anode. The cathode is the negative terminal, and it's where electrons leave the device. Here are some key points about cathodes:
 
 1. In a battery: The cathode is where a reduction reaction occurs, accepting electrons during discharge.
 2. In a diode: It's the negative terminal where current flows out of the device.
@@ -14,7 +14,7 @@ A cathode is one of the two main parts in certain types of electronic devices, w
 
 Cathodes are essential in many devices we use daily, like batteries in phones, LED lights, and even in some industrial processes like metal plating.
 
-## Level 3: Explanation for an Undergraduate Student
+## Level 3: Undergraduate Student
 
 This involves delving into their behavior in various devices and the underlying principles:
 
@@ -42,8 +42,6 @@ This involves delving into their behavior in various devices and the underlying 
 Understanding cathodes at this level involves studying electron energy levels, band theory in semiconductors, and basic electrochemistry principles.
 
 ## Level 4: Explanation for a Graduate Student
-
-At this level, it involves advanced concepts:
 
 1. Quantum Mechanical Aspects:
    - Tunneling effects in cold cathode emission
@@ -80,8 +78,6 @@ At this level, it involves advanced concepts:
 Understanding cathodes at this level requires in-depth knowledge of solid-state physics, quantum mechanics, and often specialized numerical methods for modeling complex systems.
 
 ## Level 5: Explanation for a Colleague
-
-As colleagues in the field, let's discuss some cutting-edge research areas and challenges related to cathodes:
 
 1. Ultra-high Brightness Cathodes:
    - Pushing the limits of current density in photocathodes
@@ -141,8 +137,6 @@ The term "cathode" has an interesting etymological history:
 6. Contrast with anode: The term "anode" was also introduced by Faraday, from "ano-" meaning "up," as he conceived it as where the current entered or went "up" into the device.
 
 This naming reflects the historical development of our understanding of electricity. It's a good example of how scientific terminology can sometimes preserve earlier concepts, even as our understanding evolves.
-
-Would you like to know more about how the concept of cathodes has evolved over time, or how it relates to specific applications in modern electronics?
 
 The term "anode" has a similar etymological background to "cathode":
 

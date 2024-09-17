@@ -7,7 +7,7 @@ Imagine a toy that has no moving parts inside, but it can still do cool things l
 
 A solid-state device is an electronic component that controls the flow of electricity using materials like silicon, without any moving parts. Unlike older technology that relied on mechanical switches or vacuum tubes, solid-state devices are smaller, faster, and more reliable. Examples include things like transistors in your smartphone that help it process information and LEDs that light up when you turn on your computer.
 
-### 3. **To an Undergraduate Student **
+### 3. **Undergraduate Student **
 
 A solid-state device refers to electronic components that operate using the electrical properties of solid materials,  semiconductors like silicon. These devices, such as diodes, transistors, and integrated circuits, rely on the movement of electrons and holes within the solid material to perform functions like switching, amplifying, and controlling electrical signals. The absence of moving parts in solid-state devices contributes to their durability, speed, and efficiency, making them fundamental to modern electronics.
 
@@ -23,11 +23,11 @@ This progression illustrates how the concept of a solid-state device can be tail
 
 # Solid State Devices Explained in 5 Levels of Complexity
 
-## Level 1: Explanation for a Child
+## Level 1: Child
 
 Have you ever seen a toy that lights up or makes sounds? Inside those toys are tiny things called solid state devices. They're like magic boxes that can control electricity. They don't have any moving parts, but they can make lights turn on and off, or help your tablet show pictures and play games. They're called "solid state" because they're made of solid materials, unlike old radios that had special glass tubes in them.
 
-## Level 2: Explanation for a Teenager
+## Level 2: Teenager
 
 Solid state devices are electronic components made from semiconductor materials, usually silicon. These devices control the flow of electricity without any moving parts. Some common examples you might be familiar with are:
 
@@ -37,7 +37,7 @@ Solid state devices are electronic components made from semiconductor materials,
 
 These devices work because of the special properties of semiconductor materials. By adding tiny amounts of other elements to silicon (a process called doping), we can create materials that conduct electricity in very specific ways. This allows us to build complex electronic circuits that power everything from smartphones to televisions.
 
-## Level 3: Explanation for an Undergraduate Student
+## Level 3: Undergraduate Student
 
 Solid state devices are electronic components based on semiconductor materials, primarily silicon. They operate by controlling the movement of charge carriers (electrons and holes) within the solid material. The key to their function is the band structure of semiconductors:
 
@@ -65,7 +65,7 @@ Understanding these devices requires knowledge of:
 
 Solid state devices form the foundation of modern electronics, enabling the development of integrated circuits and microprocessors.
 
-## Level 4: Explanation for a Graduate Student
+## Level 4: Graduate Student
 
 At this level, understanding solid state devices involves a deep dive into quantum mechanics, statistical mechanics, and device physics. Key areas of focus include:
 
@@ -109,7 +109,7 @@ At this level, understanding solid state devices involves a deep dive into quant
 
 Understanding these advanced concepts is crucial for designing and optimizing modern solid state devices, particularly as we push the boundaries of scaling and explore novel materials and structures.
 
-## Level 5: Explanation for a Colleague
+## Level 5: Colleague
 
 As colleagues in the field, let's discuss some cutting-edge topics and challenges in solid state devices:
 

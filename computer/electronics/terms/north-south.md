@@ -1,4 +1,4 @@
-The traditional Northbridge and Southbridge architecture is no longer  found in modern motherboards. Here's an overview of the evolution:
+The traditional Northbridge and Southbridge architecture is no longer found in modern motherboards.
 
 ### Traditional Architecture
 
@@ -21,8 +21,8 @@ The traditional Northbridge and Southbridge architecture is no longer  found in 
 ### AMD Architecture
 
 **Fusion Controllers**:
-- AMD has also integrated many functions traditionally managed by the Northbridge into their CPUs, particularly with their APU (Accelerated Processing Unit) line.
-- AMD uses a similar architecture with a single chipset that connects to the CPU, often referred to as the FCH (Fusion Controller Hub).
+- AMD has also integrated many functions traditionally managed by the Northbridge into their CPUs, with their APU (Accelerated Processing Unit) line.
+- AMD uses a similar architecture with a single chipset that connects to the CPU, referred to as the FCH (Fusion Controller Hub).
 
 ### Modern Motherboard Layout
 

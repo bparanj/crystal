@@ -10,6 +10,6 @@
 
 5. **Versatility**: PCIe is used in a variety of devices beyond just computers,  servers, set-top boxes, and gaming consoles⁴.
 
-Overall, PCIe's flexibility and high-speed capabilities make it a crucial component in modern computing.
+PCIe's flexibility and high-speed capabilities make it a crucial component in modern computing.
 
 **PCIe (Peripheral Component Interconnect Express)** is a hardware interface standard. It defines how various components like graphics cards, SSDs, and other peripherals connect to and communicate with the motherboard of a computer. The standard specifies the physical and electrical connections, as well as the data transfer protocols used to ensure high-speed communication between devices.

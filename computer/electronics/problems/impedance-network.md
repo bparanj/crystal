@@ -1,4 +1,4 @@
-Impedance network problems involve analyzing or designing electrical circuits with complex impedances. Here's an explanation:
+Impedance network problems involve analyzing or designing electrical circuits with complex impedances.
 
 1. Definition:
    - Impedance networks are circuits containing resistors, capacitors, and inductors.

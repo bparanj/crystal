@@ -1,4 +1,4 @@
-A discrete passive circuit is a type of electrical circuit that consists of individual, separate components that do not require an external power source to operate. Let's break this down:
+A discrete passive circuit is a type of electrical circuit that consists of individual, separate components that do not require an external power source to operate.
 
 1. Discrete:
    This means the circuit is made up of separate, distinct components rather than integrated circuits or microchips. Each component is a standalone element.

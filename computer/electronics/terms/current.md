@@ -1,26 +1,21 @@
 ### Level 1:  Child
 
-**What is current?**
 - Imagine electricity is like water flowing through a pipe. Current is the amount of water flowing through the pipe. Just like water flows, electricity flows through wires.
 
 ### Level 2:  Teenager
 
-**What is current in electronics?**
 - Current is the flow of electric charge through a conductor, like a wire. It's similar to how water flows through a river. We measure this flow in amperes (amps). When you turn on a light switch, you allow electric current to flow through the light bulb, making it light up.
 
 ### Level 3: Undergraduate Student
 
-**Understanding current in a technical context**
 - Electric current (I) is the rate of flow of electric charge (Q) through a conductor. It's measured in amperes (A), where 1 ampere equals 1 coulomb of charge passing through a point in one second. Ohm's Law (V = IR) describes the relationship between voltage (V), current (I), and resistance (R) in a circuit.
 
 ### Level 4:  Graduate Student
 
-**Advanced concepts of electric current**
 - Electric current is the movement of free electrons in a conductor due to an applied electric field. It can be described by the continuity equation, and its behavior is governed by Maxwell's equations. In AC circuits, current varies sinusoidally and is characterized by amplitude and phase. Impedance (Z) replaces resistance in AC analysis, considering both resistive and reactive components.
 
 ### Level 5:  Colleague
 
-**In-depth discussion on electric current**
 - Electric current, defined as the rate of charge flow (I = dQ/dt), is a fundamental parameter in circuit analysis. Its behavior in conductive materials can be modeled using drift velocity and carrier density. In semiconductor physics, current arises from both electron and hole movement, with contributions quantified by mobility and diffusion coefficients. For AC analysis, complex impedance (Z = R + jX) and phasor representation facilitate the analysis of circuits under sinusoidal excitation, considering both magnitude and phase angles. Advanced topics might include current density (J), continuity equations, and current's role in electromagnetic wave propagation as described by Maxwell's equations.
 
 1. Child:

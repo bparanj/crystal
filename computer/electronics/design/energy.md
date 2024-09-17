@@ -10,7 +10,7 @@ In an ideal world, all of the chemical energy would be converted to electrical e
 
 3. Heat Generation in Batteries:
 
-Some energy is inevitably lost as heat due to several factors:
+Some energy is lost as heat due to several factors:
 
 a) Internal Resistance: Every battery has some internal resistance. As current flows through this resistance, some energy is converted to heat. This is described by the equation P = I²R, where P is power (heat), I is current, and R is resistance.
 

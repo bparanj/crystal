@@ -1,26 +1,21 @@
 ### Level 1:  Child
 
-**What is alternating current (AC)?**
 - Imagine you have a toy train that moves back and forth on the track instead of going in one direction. Alternating current (AC) is like that; it's electricity that changes direction back and forth very quickly.
 
 ### Level 2:  Teenager
 
-**What is alternating current (AC)?**
 - Alternating current (AC) is a type of electricity where the flow of electric charge changes direction periodically. Unlike direct current (DC), which flows in one direction, AC switches direction many times per second. This makes it very efficient for sending electricity over long distances, like the power that comes into your home from the power plant.
 
 ### Level 3: Undergraduate Student
 
-**Understanding alternating current (AC) in a technical context**
 - Alternating current (AC) is an electric current that periodically reverses direction, in contrast to direct current (DC) which flows only in one direction. The most common waveform of AC is the sinusoidal wave, characterized by its frequency (measured in hertz, Hz) and amplitude. AC is widely used in power distribution systems because it can be easily transformed to different voltages using transformers, making it efficient for long-distance transmission.
 
 ### Level 4:  Graduate Student
 
-**Advanced understanding of alternating current (AC)**
 - Alternating current (AC) is characterized by its sinusoidal waveform, represented mathematically as \( V(t) = V_m \sin(\omega t + \phi) \), where \( V_m \) is the peak voltage, \( \omega \) is the angular frequency, and \( \phi \) is the phase angle. The effective value of AC, known as the root mean square (RMS) value, is crucial for power calculations, given by \( V_{rms} = V_m / \sqrt{2} \). AC systems facilitate efficient energy transfer via transformers, which operate on the principle of electromagnetic induction, enabling voltage step-up and step-down transformations. The impedance of AC circuits, incorporating resistance, inductance, and capacitance, determines the phase relationship between voltage and current.
 
 ### Level 5:  Colleague
 
-**In-depth discussion on alternating current (AC)**
 - Alternating current (AC) is fundamentally described by its time-varying sinusoidal waveform, \( V(t) = V_m \sin(\omega t + \phi) \), where \( \omega = 2\pi f \). The analysis of AC circuits involves phasor representation and complex impedance \( Z = R + jX \), allowing for the characterization of resistive and reactive components' behavior under steady-state conditions. Fourier analysis decomposes complex AC waveforms into harmonic components, facilitating signal processing and power quality assessment. Power in AC circuits is expressed through real, reactive, and apparent power, encapsulated in the complex power vector \( S = P + jQ \). The role of transformers, governed by Faraday's Law, is pivotal in AC power distribution, enabling voltage level adjustments and isolation. Additionally, the skin effect and proximity effect in conductors must be considered in high-frequency AC applications, impacting current distribution and conductor design.
 
 Here is an explanation of alternating current (AC) in electronics at five different levels of complexity:
@@ -31,7 +26,7 @@ Alternating current is like a swing that goes back and forth. In electronics, th
 Teenager:
 AC is a type of electrical current that periodically changes direction. Unlike direct current (DC), which flows in one direction, AC alternates between flowing forward and backward. The direction of the current changes based on a set frequency, which is measured in Hertz (Hz). In the United States, household electricity is  60 Hz AC, meaning the current changes direction 60 times per second.
 
-Undergraduate EE Student:
+Undergraduate:
 Alternating current is a time-varying current that follows a sinusoidal waveform. It is characterized by its amplitude, frequency, and phase. The amplitude represents the maximum current during each cycle, the frequency determines how many cycles occur per second, and the phase indicates the timing of the waveform relative to a reference. AC circuits include components like capacitors and inductors, which respond differently to changing currents than to steady DC. Analysis of AC circuits involves using phasors, complex numbers that represent the magnitude and phase of the sinusoidal waveforms.
 
 Graduate Student:
@@ -50,7 +45,7 @@ No, this is not correct. In alternating current (AC), both the polarity of the v
 
 In an alternating current (AC) system, even though the direction of the current flow reverses periodically, the direction of energy flow remains consistently from the power supply company to the home. This is due to the way power is transferred in AC systems, where energy is delivered to the load (your home) during each cycle, regardless of the current's instantaneous direction. The energy transfer can be understood through the concept of instantaneous power, which, despite the oscillating current, results in a net flow of energy in the direction of the load over time.
 
-The  work of energy transmission in an AC system is done by the electromagnetic field. Here’s a more detailed explanation:
+The work of energy transmission in an AC system is done by the electromagnetic field. Here’s a detailed explanation:
 
 In an AC power system, energy is transmitted from the power supply to the load (such as a home) through the creation and propagation of electromagnetic fields around the conductors. These fields oscillate with the alternating current, but the overall effect is a net transfer of energy in one direction—from the power plant to the end user.
 
