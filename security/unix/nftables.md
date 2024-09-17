@@ -25,3 +25,8 @@ sudo nft -f /etc/nftables.conf
 ```
 
 This will apply the new rules.
+
+
+When using nftables what network protocol family name do we use to indicate both IPv4 and IPv6?
+
+inet
