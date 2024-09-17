@@ -4,7 +4,7 @@ A **diode** can be thought of as a type of electronic **switch** with specific c
    - **Forward Bias (Switch "On")**: When a diode is forward-biased (positive voltage applied to the anode and negative to the cathode), it allows current to flow through it. This is similar to closing a switch, which allows current to pass through a circuit.
    - **Reverse Bias (Switch "Off")**: When a diode is reverse-biased (positive voltage applied to the cathode and negative to the anode), it blocks current from flowing, just like an open switch that prevents current flow.
 
-Diode experiment demonstrates this idea.
+Diode experiment demonstrates this idea. Copy it here.
 
 ### 2. **Threshold Behavior**:
    - Unlike a mechanical switch that changes state instantly, a diode requires a certain threshold voltage ( 0.7V for a silicon diode) in forward bias to start conducting. Below this threshold, the diode remains "off," and above it, the diode turns "on."
@@ -30,6 +30,13 @@ A diode behaves like a switch by allowing or blocking current flow based on the 
 
 - Forward Bias
 - Reverse Bias
-- Nonlinear
+- Nonlinear Transition
 - Rectification
+- Threshold Voltage
+- Reverse Voltage
+- Voltage Polarity
+- Signal Clipping
+- Signal Clamping
+- Directional Conductivity
+  
  
