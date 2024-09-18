@@ -39,4 +39,4 @@ To mitigate the risk of Dictionary Attacks, it's important to:
 - Implement additional security measures, such as two-factor authentication, to provide an extra layer of protection beyond passwords.
 - Regularly educate users about the importance of using strong passwords and the risks associated with using common or easily guessable passwords.
 
-By adopting these security measures, the impact of Dictionary Attacks can be significantly reduced, making it more difficult for attackers to gain unauthorized access to systems and user accounts.
+By adopting these security measures, the impact of Dictionary Attacks can be reduced, making it difficult for attackers to gain unauthorized access to systems and user accounts.
