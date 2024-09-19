@@ -1,6 +1,6 @@
 ## Service vs Process
 
-While the terms "service" and "process" are related, they refer to different concepts in the context of operating systems like Linux:
+Terms "service" and "process" are related. They refer to different concepts in the context of operating systems like Linux:
 
 ### **Process**
 - **Definition**: A process is an instance of a running program. It includes the program code and its current activity.
@@ -12,4 +12,4 @@ While the terms "service" and "process" are related, they refer to different con
 - **Characteristics**: Services are typically started at boot time and run continuously to provide system functionalities like networking, logging, or scheduling tasks.
 - **Examples**: Common services include `sshd` (for SSH access), `httpd` (web server), and `cron` (task scheduler).
 
-In summary, while all services are processes, not all processes are services. Services are specialized processes designed to run in the background and provide ongoing system functions.
+While all services are processes, not all processes are services. Services are specialized processes designed to run in the background and provide ongoing system functions.

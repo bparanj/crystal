@@ -1,15 +1,17 @@
-What is tty in Linux?
+## tty
 
 In Linux, **`tty`** stands for "teletypewriter," which historically referred to physical terminals connected to a computer. Today, it represents any terminal device that interacts with the system.
 
 A **`tty`** in modern Linux systems refers to a text input/output environment, whether it's a physical terminal, a virtual console (like those accessed via `Ctrl+Alt+F1`), or a pseudo-terminal (used by terminal emulators like `gnome-terminal` or `xterm`).
 
-Uses of `tty`:
+## Uses
 
 1. **Identifying terminals**: Running the `tty` command in a terminal will tell you which terminal device you're using (e.g., `/dev/tty1`, `/dev/pts/0`).
 2. **Pseudo-terminals (PTY)**: Terminal emulators use PTYs to provide terminal-like functionality for user applications.
 
 The `tty` system manages terminal input and output for processes, helping them communicate with users.
+
+## The Look
 
 What does a teletype look like?
 

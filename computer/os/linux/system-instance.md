@@ -1,6 +1,6 @@
 ## System Instance
 
-In Linux, the term **system instance** can refer to a few different concepts depending on the context:
+In Linux, the term **system instance** can refer to different concepts depending on the context:
 
 ### **Systemd Instance**
 - **Definition**: Systemd is a system and service manager for Linux operating systems. It initializes the system and manages system processes after booting. A system instance of systemd is the primary instance that starts during the boot process and manages system-wide services³.

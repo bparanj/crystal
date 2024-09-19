@@ -1,6 +1,6 @@
 ## User Instance
 
-In Linux, a **user instance** typically refers to a specific instance of a user account or a user session. Here are a couple of contexts where this term might be used:
+In Linux, a **user instance** refers to a specific instance of a user account or a user session. Here are the contexts where this term is used:
 
 ### **User Account Instance**
 - **Definition**: This is an individual user account created on the system. Each user account has unique properties such as a username, user ID (UID), group ID (GID), home directory, and default shell.
