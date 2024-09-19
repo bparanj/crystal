@@ -1,4 +1,4 @@
-The `/etc/fstab` file in Debian is a critical system configuration file that defines how disk partitions, storage devices, and other file systems should be mounted and integrated into the system's file structure at boot time. Here are some key points:
+The `/etc/fstab` file in Debian is a system configuration file that defines how disk partitions, storage devices, and other file systems should be mounted and integrated into the system's file structure at boot time.
 
 ### **Purpose of `/etc/fstab`**
 - **Mounting**: Specifies which file systems should be mounted automatically at boot.

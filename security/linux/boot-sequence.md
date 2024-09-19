@@ -1,6 +1,6 @@
 Linux boot process, from power-on to user login.
 
-The sequence "BIOS/UEFI -> Boot loader -> Linux Kernel" outlines the core steps involved in booting a Linux system, but there are additional components and steps within this process that are important to understand. Here's a more detailed sequence:
+The sequence "BIOS/UEFI -> Boot loader -> Linux Kernel" outlines the core steps involved in booting a Linux system, but there are additional components and steps within this process that are important to understand.
 
 1. **BIOS/UEFI Initialization**:
    - **BIOS (Basic Input/Output System)** or **UEFI (Unified Extensible Firmware Interface)** initializes the hardware and performs a Power-On Self Test (POST) to ensure hardware components are functioning properly.
@@ -36,11 +36,3 @@ The sequence "BIOS/UEFI -> Boot loader -> Linux Kernel" outlines the core steps 
 6. **Execution of `init` or `systemd`**
 7. **Service Initialization and Daemons Startup**
 8. **Display Manager/Console Login Prompt**
-
-### References:
-- **"Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati**: Provides an in-depth explanation of the Linux boot process.
-- **"Linux Kernel Development" by Robert Love**: Discusses the intricacies of kernel initialization and system startup.
-- **The Linux Documentation Project**: Offers comprehensive guides and documentation on Linux system initialization and management.
-  - [Linux Documentation Project](https://www.tldp.org/)
-- **Red Hat Enterprise Linux Documentation**: Details on the Linux boot process and the role of systemd.
-  - [Red Hat Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/chap-getting_started_with_systemd)

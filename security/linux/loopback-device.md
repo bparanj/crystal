@@ -65,18 +65,6 @@ A **loopback device** in computer networking and storage is a virtual device tha
 - Psedo Device
 - ISO Image
 
-### Sources:
-
-1. **Linux Kernel Documentation**:
-   - [Linux Kernel Documentation on Network Devices](https://www.kernel.org/doc/html/latest/networking/loopback.html)
-   - [Linux Kernel Documentation on Loop Devices](https://www.kernel.org/doc/html/latest/admin-guide/loopdev.html)
-
-2. **TechTarget**:
-   - [TechTarget: Loopback Address](https://www.techtarget.com/searchnetworking/definition/loopback-address)
-
-3. **Red Hat Documentation**:
-   - [Red Hat: Loop Devices](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-loop_devices)
-
 ### Conclusion
 
 Loopback devices are essential tools in both networking and storage, offering a virtualized environment for testing, development, and diagnostics. Whether using the loopback network interface for internal communication or loopback block devices for managing disk images, these tools provide flexibility and efficiency without the need for additional physical hardware.

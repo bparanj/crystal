@@ -49,20 +49,6 @@ A **MAC (Media Access Control) address** is a unique identifier assigned to netw
   - Format: IPv4 (32 bits), IPv6 (128 bits)
   - Example: `192.168.1.1` (IPv4), `2001:0db8:85a3:0000:0000:8a2e:0370:7334` (IPv6)
 
-### Sources:
-
-1. **IEEE**:
-   - IEEE is responsible for assigning OUI portions of MAC addresses and has comprehensive documentation on the standards and practices surrounding MAC addresses.
-   - [IEEE Standards Association](https://standards.ieee.org/)
-
-2. **Cisco**:
-   - Cisco provides detailed guides on networking concepts,  MAC addresses and their role in network communication.
-   - [Cisco Networking Academy](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-ethernet.html)
-
-3. **Techopedia**:
-   - Offers definitions and detailed explanations of MAC addresses and their functions in computer networking.
-   - [Techopedia: MAC Address](https://www.techopedia.com/definition/5417/media-access-control-address-mac-address)
-
 ### Conclusion
 
 A MAC address enables the identification and addressing of devices within a local network. Its unique and permanent nature, along with its role in directing network traffic and maintaining security, underscores its importance in efficient network operations.

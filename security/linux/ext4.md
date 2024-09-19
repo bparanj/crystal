@@ -35,22 +35,6 @@ The name "ext4" stands for the **fourth extended filesystem**. It follows the na
 
 The numerical sequence in the name reflects the evolution and enhancements introduced with each new version of the extended filesystem.
 
-### Sources:
-1. **Kernel.org Documentation**:
-   - Provides detailed technical documentation and explanations about ext4 and other filesystems in the Linux kernel.
-   - [ext4 Filesystem on Kernel.org](https://www.kernel.org/doc/html/latest/filesystems/ext4/index.html)
-
-2. **Red Hat Documentation**:
-   - Offers comprehensive guides and information on managing ext4 filesystems within Red Hat Enterprise Linux.
-   - [Red Hat Documentation on ext4](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-ext4)
-
-3. **Arch Linux Wiki**:
-   - Contains practical information on setting up and using ext4 in Linux.
-   - [Arch Linux Wiki: ext4](https://wiki.archlinux.org/title/ext4)
-
-4. **"Linux Kernel Development" by Robert Love**:
-   - This book provides insights into the development and functionality of the Linux kernel,  file systems like ext4.
-
 ext4 improves the performance, reliability, and scalability of file storage in Linux systems. The name signifies its place as the latest iteration in the extended filesystem series, building on the capabilities of its predecessors.
 
 The **ext4** (fourth extended filesystem) is a widely used file system in Debian and other Linux distributions. Here are some key points about ext4:

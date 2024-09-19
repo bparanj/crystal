@@ -38,14 +38,10 @@ DRAM is called "dynamic" because the stored data must be refreshed dynamically t
 - **Power Consumption**: The need for constant refreshing increases power consumption.
 - **Latency**: The refresh cycles introduce latency, affecting performance.
 
-### Sources:
-- [The Linux Information Project: Dynamic RAM](http://www.linfo.org/dram.html)
-- [Micron: Understanding the Different Types of DRAM](https://www.micron.com/about/blog/2020/february/understanding-different-types-of-dram)
-- [Computer Organization and Design by David A. Patterson and John L. Hennessy](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
 
 DRAM provides the memory for a wide range of devices, from computers to smartphones. Its dynamic nature, requiring constant refreshing, is a fundamental aspect that impacts its design and performance.
 
-Here is a table comparing Dynamic RAM (DRAM) and Static RAM (SRAM):
+Dynamic RAM (DRAM) vs Static RAM (SRAM):
 
 | Feature                | DRAM (Dynamic RAM)                          | SRAM (Static RAM)                        |
 |------------------------|---------------------------------------------|------------------------------------------|
@@ -60,10 +56,5 @@ Here is a table comparing Dynamic RAM (DRAM) and Static RAM (SRAM):
 | **Access Time**        | Longer access time                          | Shorter access time                      |
 | **Physical Size**      | Smaller (more memory in less space)         | Larger (less memory in more space)       |
 | **Applications**       | General-purpose computing                   | High-speed, performance-critical tasks   |
-
-### Sources:
-- [The Linux Information Project: Dynamic RAM](http://www.linfo.org/dram.html)
-- [Micron: Understanding the Different Types of DRAM](https://www.micron.com/about/blog/2020/february/understanding-different-types-of-dram)
-- [Computer Organization and Design by David A. Patterson and John L. Hennessy](https://www.amazon.com/Computer-Organization-Design-RISC-V-Architecture/dp/0128122757)
 
 This table provides a comparison between DRAM and SRAM, highlighting their key differences in terms of structure, performance, cost, and typical use cases.

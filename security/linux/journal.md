@@ -1,6 +1,6 @@
 ### What is a Journal in Linux?
 
-A journal in Linux  refers to two main concepts: the journal in journaling filesystems and the system journal managed by `systemd-journald`.
+A journal in Linux refers to two main concepts: the journal in journaling filesystems and the system journal managed by `systemd-journald`.
 
 ### Journaling Filesystems
 
@@ -43,13 +43,3 @@ The term "journal" is used because both journaling filesystems and `systemd-jour
    - The term comes from the concept of a logbook or diary, where events are recorded chronologically.
 2. **Data Integrity**:
    - Just like a journal keeps a reliable record of events, a journaling filesystem or system log ensures that events (file operations or system logs) are recorded reliably.
-
-### References:
-
-- **Journaling Filesystem**:
-  - "Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati: Discusses the internals of Linux filesystems,  journaling.
-  - Red Hat Documentation on [Journaling Filesystems](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/storage_administration_guide/ch-journaling_file_systems)
-
-- **systemd-journald**:
-  - Arch Linux Wiki on [systemd-journald](https://wiki.archlinux.org/title/Systemd/Journal)
-  - "The Linux Programming Interface" by Michael Kerrisk: Provides an overview of system logging in Linux.

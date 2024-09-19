@@ -1,4 +1,4 @@
-A boot loader is a small program that initiates the booting process of a computer's operating system (OS) when the system is powered on or restarted. It bridges the gap between the hardware initialization and the launching of the OS. 
+A boot loader is a small program that initiates the booting process of an operating system when the system is powered on or restarted. It bridges the gap between the hardware initialization and the launching of the OS. 
 
 ### Functions of a Boot Loader:
 
@@ -58,8 +58,3 @@ A boot loader is a small program that initiates the booting process of a compute
 ### Conclusion:
 
 The boot loader is a critical component in the startup process of a computer, responsible for loading the operating system into memory and handing over control to it. Understanding its role and functionality helps in managing and troubleshooting the boot process, especially in multi-OS environments or when dealing with boot issues.
-
-For further detailed reading, you can refer to the following sources:
-- [GRUB Documentation](https://www.gnu.org/software/grub/manual/grub/grub.html)
-- [Windows Boot Manager Overview](https://docs.microsoft.com/en-us/windows-hardware/drivers/devtest/windows-boot-manager)
-- [Syslinux Project](https://www.syslinux.org/wiki/index.php?title=The_Syslinux_Project)

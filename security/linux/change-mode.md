@@ -27,9 +27,4 @@ The term **`chmod`** in Linux stands for **"change mode"**. This command is used
      chmod 644 filename    # Sets read and write permissions for owner, and read permissions for group and others
      ```
 
-### Sources:
-- [GNU `chmod` Manual](https://www.gnu.org/software/coreutils/manual/html_node/chmod-invocation.html)
-- [Linux Command Reference: chmod](https://linux.die.net/man/1/chmod)
-- [The Linux Documentation Project: chmod](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/x9545.htm)
-
 The `chmod` command is used to manage file permissions and ensure proper access control in a Linux system, which is important for system security and functionality.

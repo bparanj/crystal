@@ -1,6 +1,6 @@
 What is extended type device?
 
-In Debian, an "extended type device"  refers to an **extended partition**. Here's a brief overview:
+In Debian, an "extended type device"  refers to an **extended partition**. 
 
 ### **Extended Partition**
 - **Purpose**: Allows you to bypass the limitation of having only four primary partitions on a disk.

@@ -58,10 +58,4 @@ The term "environment variable" is used because these variables define the envir
   ```
   This command appends `/usr/local/myapp/bin` to the existing `PATH` variable, allowing executables in that directory to be found by the shell.
 
-### Sources:
-
-- **[Linux Documentation Project](https://www.tldp.org/LDP/abs/html/localvar.html)**: Comprehensive guide on environment variables and their usage.
-- **[GNU Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html#Shell-Variables)**: Detailed information on shell variables in the Bash shell.
-- **[Red Hat Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/s1-using_environment_variables)**: Explanation of environment variables in Red Hat Enterprise Linux.
-
 Environment variables are a fundamental aspect of configuring and managing the Linux operating environment, enabling both system-wide and user-specific settings that shape the behavior of processes and applications.
