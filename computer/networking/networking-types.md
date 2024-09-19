@@ -28,6 +28,8 @@ Networking Terms:
 
 These terms reflect key principles in network design and management.
 
+## Network Architecture
+
 Is there one term that represents isolation, integration and security?
 
 Yes, the term **network architecture** can encompass **isolation, integration, and security**. 

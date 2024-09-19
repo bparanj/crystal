@@ -47,12 +47,6 @@
 8. **Use Power Management Settings**:
    - Adjust the power settings to reduce performance and heat generation. Use power saver or balanced mode instead of high-performance mode when high performance is not required.
 
-### References
-- [PCWorld - How to Keep Your Laptop Cool](https://www.pcworld.com/article/203214/how-to-keep-your-laptop-cool.html)
-- [TechRepublic - How to prevent your laptop from overheating](https://www.techrepublic.com/article/how-to-prevent-your-laptop-from-overheating/)
-- [Lifewire - What to Do When Your Laptop Overheats](https://www.lifewire.com/what-to-do-when-your-laptop-overheats-4175665)
-- [How-To Geek - Why Your Laptop Is Overheating and How to Fix It](https://www.howtogeek.com/394062/why-your-laptop-is-overheating-and-how-to-fix-it/)
-
 By addressing these issues, you can effectively manage and reduce the risk of overheating in your laptop, ensuring better performance and longevity.
 
 There are several reasons why a laptop may overheat, and resolving the issue depends on the specific cause. Here are some common reasons for laptop overheating and their potential solutions:

@@ -42,6 +42,4 @@ Here are the step-by-step instructions to test a charger for a Lenovo computer:
    - If the voltage is within the margin of error (e.g., 19.04 volts for an 18.5-volt charger), the charger is working properly.
    - If the voltage is significantly different from the expected value, the charger may be faulty.
 
-Note: If you don't have the necessary tools or feel uncomfortable testing the charger, you can always purchase a replacement charger. They are readily available and relatively inexpensive (around $10 on eBay).
-
 If testing the charger doesn't resolve the issue with your Lenovo computer (e.g., battery not charging, computer turning on and off, freezing, or not turning on at all), proceed to the next troubleshooting step listed in the video description.

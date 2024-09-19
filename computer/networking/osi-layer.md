@@ -1,4 +1,4 @@
-The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and standardize the functions of a telecommunication or networking system, independently of the underlying structure and technology. Each layer of the OSI model has a specific name that reflects its functionality within the network communication process. Here's an explanation of the naming and reasoning for each of the seven OSI layers:
+The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and standardize the functions of a telecommunication or networking system, independently of the underlying structure and technology. Each layer of the OSI model has a specific name that reflects its functionality within the network communication process. Explanation of the naming and reasoning for each of the seven OSI layers:
 
 ### 1. **Physical Layer**
 The term "Physical" refers to the tangible, hardware elements of the network. This layer deals with the physical connection between devices.

@@ -1,4 +1,4 @@
-Here is a concise table showing the OSI model layers and the terms used for data at each layer:
+Here is a table showing the OSI model layers and the terms used for data at each layer:
 
 | OSI Layer           | Data Term              |
 |---------------------|------------------------|
@@ -11,6 +11,8 @@ Here is a concise table showing the OSI model layers and the terms used for data
 | Physical Layer       | Bits                   |
 
 This table summarizes the different terms used to describe the data at each layer as it moves through the OSI model.
+
+## Terms in OSI Model
 
 In the **OSI model**, data is encapsulated and transformed as it moves through each layer from the bottom (physical layer) to the top (application layer). Here are the terms used at each layer to describe the data:
 
@@ -36,6 +38,7 @@ In the **OSI model**, data is encapsulated and transformed as it moves through e
    - **Data unit**: **Data** or **Messages**
 
 ### Recap of Data Units at Each Layer:
+
 1. **Physical**: Bits
 2. **Data Link**: Frames
 3. **Network**: Packets
@@ -45,6 +48,8 @@ In the **OSI model**, data is encapsulated and transformed as it moves through e
 7. **Application**: Data/Messages
 
 As data moves **down** the OSI model, it is encapsulated into the appropriate unit (e.g., bits, frames, packets). When moving **up** the OSI model, each layer decapsulates its respective unit to retrieve the higher-level data.
+
+## Data Difference
 
 Here's a breakdown of how **Data/Messages** differ between the layers where they seem similar but serve different purposes, particularly focusing on encryption, formatting, and other transformations.
 

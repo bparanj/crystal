@@ -95,5 +95,3 @@ Next Action Item:
 
 https://github.com/devanshbatham/Awesome-Bugbounty-Writeups
 
-
-

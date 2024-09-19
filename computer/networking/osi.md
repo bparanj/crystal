@@ -122,7 +122,7 @@ Tables showing how HTTP (Hypertext Transfer Protocol) operates through the OSI l
 | 1. Physical | Bits transmitted over physical medium |
 
 
-Now, let's create a table for the HTTP server side:
+Table for the HTTP server side:
 
 
 | OSI Layer | HTTP Server Operations |
@@ -177,7 +177,7 @@ While HTTP primarily operates at the Application layer, the use of HTTPS (HTTP S
 | 1. Physical | - Network Interface Cards (NICs)<br>- Cables (Ethernet, fiber optic)<br>- Wireless signals (Wi-Fi)<br>- Hubs and repeaters<br>- Bit-level data transmission |
 
 
-This table provides a more detailed look at the elements and operations involved in HTTP communication at each OSI layer. Here's a brief explanation of how some key operations are performed:
+This table provides a detailed look at the elements and operations involved in HTTP communication at each OSI layer. 
 
 1. Application Layer: HTTP requests and responses are formed here. The client sends methods like GET or POST, while the server responds with status codes and requested data.
 

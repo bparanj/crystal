@@ -87,8 +87,6 @@ Using mDNS on a Mac is quite straightforward, as macOS has built-in support for 
 6. Advanced usage:
 
    For developers or advanced users, macOS provides command-line tools for working with mDNS:
-   
-   
 
    ```bash
 # Discover mDNS services

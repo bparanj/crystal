@@ -52,11 +52,6 @@ When a person adds a second 8-GB 288-pin DIMM to their PC but only 8 GB of RAM i
 5. **Check Windows Settings**:
    - Ensure that Windows is not limiting the amount of usable memory. This can be checked under `System Configuration` -> `Boot` -> `Advanced options`.
 
-### References:
-- **[Crucial: Troubleshooting Memory Problems](https://www.crucial.com/support/troubleshooting-memory)**
-- **[Intel: Ensuring Memory Compatibility](https://www.intel.com/content/www/us/en/support/articles/000025812/memory-and-storage.html)**
-- **[Tom's Hardware: RAM Troubleshooting](https://www.tomshardware.com/reviews/ram-installation-overclocking,1680.html)**
-
 By following these troubleshooting steps, the issue of the newly installed RAM not being recognized should be identified and resolved.
 
 In this case is it DDR4 in a DD3 slot?
@@ -82,10 +77,5 @@ Yes, if the user has installed DDR4 RAM in a DDR3 slot, this would cause the sys
 
 3. **Inspect the RAM Slots**:
    - Look closely at the slots on the motherboard and the notches on the RAM modules. Ensure they align correctly, confirming that you are using the right type of RAM.
-
-### Reference Sources:
-- **[Crucial: Memory Buying Guide](https://www.crucial.com/articles/about-memory/difference-between-ddr3-and-ddr4)**: Provides details on the differences between DDR3 and DDR4 memory.
-- **[Kingston: DDR3 vs. DDR4](https://www.kingston.com/en/blog/pc-performance/ddr3-vs-ddr4)**: Explains the key differences and why they are not interchangeable.
-- **[PCWorld: RAM Guide](https://www.pcworld.com/article/2984593/everything-you-need-to-know-about-ddr4-ram.html)**: Discusses the differences between various types of RAM and their compatibility.
 
 Use correct type of RAM to avoid issues where the system fails to recognize newly installed memory. If DDR4 is installed in a system designed for DDR3, the system will not recognize it, and physical damage could occur if forcefully inserted. Double-check compatibility before purchasing or installing new RAM modules.
