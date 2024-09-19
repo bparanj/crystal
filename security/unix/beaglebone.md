@@ -1,6 +1,6 @@
 What are the use cases for BeagleBone Black?
 
-The BeagleBone Black is a versatile single-board computer with various use cases, :
+The BeagleBone Black is a versatile single-board computer with various use cases:
 
 1. **Embedded Systems Development**: Ideal for creating and testing embedded systems due to its GPIO, PWM, and ADC capabilities.
    
