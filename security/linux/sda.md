@@ -1,6 +1,6 @@
 ## sda
 
-In Debian, `/dev/sda` represents the first SCSI (or SATA) disk drive on your system. Here's a bit more detail:
+In Debian, `/dev/sda` represents the first SCSI (or SATA) disk drive on your system.
 
 ### **Understanding `/dev/sda`**
 - **Device Naming**: The naming convention `/dev/sda` is used for the first disk, `/dev/sdb` for the second, and so on.

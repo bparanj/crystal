@@ -13,9 +13,4 @@ An instance of a program that is running is called a "process" because of how th
    - **Early Computing**: In the early days of computing, the term was used to describe the execution of jobs in batch processing systems. Over time, as interactive computing became more prevalent, the term "process" continued to be used to describe active job execution.
    - **Operating System Design**: The design and terminology of modern operating systems (such as Unix) have cemented the term "process" as a fundamental concept in computer science. The process model became a standard way to describe executing programs because it clearly differentiates between the static program code and the dynamic, resource-managing execution entity.
 
-### Sources:
-- **Operating System Concepts by Silberschatz, Galvin, and Gagne**: This foundational text provides a detailed explanation of processes in the context of operating system design and function.
-- **The Linux Programming Interface by Michael Kerrisk**: This book discusses processes in Unix and Linux, emphasizing how the concept is used to manage running programs.
-- **Historical Papers on Time-sharing Systems and Process Management**: Many early papers on operating systems design (such as those discussing the Multics project) describe the development of process management concepts.
-
 By using the term "process," we capture the essence of a running program as a dynamic entity that interacts with the system and manages resources, highlighting the contrast with static, non-executing program code.

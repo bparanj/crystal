@@ -122,10 +122,6 @@ sudo mount /dev/sdb1 /mnt/usb
 mount | grep /mnt/usb
 ```
 
-### Sources:
-- [The Linux Documentation Project: Mounting and Unmounting](https://tldp.org/HOWTO/Partition/setting_up_partitions.html)
-- [Red Hat Documentation: Understanding Mounting](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/managing_file_systems/assembly_mounting-file-systems_managing-file-systems)
-
 By understanding and performing the mounting process, you ensure that filesystems on various storage devices are accessible and integrated into the system’s directory structure.
 
 The physical device has to be mapped to a logical location in a directory structure during the mount. Is this correct?
@@ -187,10 +183,5 @@ To automatically mount a filesystem at boot time, you can add an entry to the `/
 ```bash
 /dev/sda1  /mnt/mydrive  ext4  defaults  0  2
 ```
-
-### Sources:
-- [Linux Documentation Project: Mounting and Unmounting](https://tldp.org/LDP/intro-linux/html/sect_03_04.html)
-- [Red Hat Documentation: Mounting File Systems](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-mounting_file_systems)
-- [Ubuntu Documentation: Mounting](https://help.ubuntu.com/community/Mount)
 
 By mapping a physical device to a logical location in the directory structure during the mount process, you make the device’s filesystem accessible to users and applications, integrating it seamlessly into the operating system’s file hierarchy.

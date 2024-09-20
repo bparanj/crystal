@@ -41,15 +41,3 @@ The term "shell" is used because it acts as a "shell" or outer layer that encase
 
 3. **Evolution**:
    - The concept of the shell evolved with early Unix systems, where the shell was one of the first user interfaces developed for interacting with the operating system.
-
-### References:
-
-- **"Operating System Concepts" by Silberschatz, Galvin, and Gagne**: Provides an in-depth explanation of operating systems,  shells.
-- **"The Linux Programming Interface" by Michael Kerrisk**: Discusses various aspects of Linux,  shell programming and usage.
-- **"Unix Shell Programming" by Stephen G. Kochan and Patrick Wood**: Offers insights into the functionality and programming aspects of Unix shells.
-
-### Sources:
-
-- [Operating System Concepts](https://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1118063333)
-- [The Linux Programming Interface](https://www.amazon.com/Linux-Programming-Interface-System-Handbook/dp/1593272200)
-- [Unix Shell Programming](https://www.amazon.com/Unix-Shell-Programming-Stephen-Kochan/dp/0672324903)

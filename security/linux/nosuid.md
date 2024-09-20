@@ -1,4 +1,4 @@
-In Debian, the `nosuid` option is used when mounting a file system to enhance security. Here's what it does:
+In Debian, the `nosuid` option is used when mounting a file system to enhance security. 
 
 ### **Function of `nosuid`**
 - **Disables SUID/SGID Bits**: The `nosuid` option prevents the execution of programs with the **set-user-identifier (SUID)** and **set-group-identifier (SGID)** bits set. These bits allow a program to run with the privileges of the file's owner or group, which can be a security risk if misused¹.
