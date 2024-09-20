@@ -91,11 +91,6 @@ The kernel in Linux, as in other operating systems, is called a "kernel" because
    - Manages user permissions and access controls.
    - Ensures secure operations by isolating processes and managing user privileges.
 
-### Sources:
-- **Operating Systems: Design and Implementation** by Andrew S. Tanenbaum: Provides a historical context and technical details on operating system design,  the kernel.
-- **Understanding the Linux Kernel** by Daniel P. Bovet and Marco Cesati: Offers in-depth technical insights into the Linux kernel and its functions.
-- **The Linux Programming Interface** by Michael Kerrisk: Discusses various aspects of Linux,  kernel interaction and system calls.
-
 ## Exporting Data
 
 The kernel exports data to user space for several reasons, primarily related to functionality, performance, security, and system design.

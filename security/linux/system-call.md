@@ -63,9 +63,4 @@ In this example:
 - The `write` system call writes data to the file.
 - The `close` system call closes the file descriptor.
 
-### Sources:
-- **"Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati**: This book provides an in-depth explanation of how system calls are implemented and used in the Linux kernel.
-- **Linux Manual Pages (man pages)**: These provide detailed documentation on individual system calls and their usage. For example, `man 2 write` gives details about the `write` system call.
-- **"Linux System Programming" by Robert Love**: Offers a comprehensive overview of system programming,  the use of system calls.
-
 System calls are essential for the functioning of applications on Linux, providing the necessary interface for performing privileged operations securely and efficiently.

@@ -34,9 +34,4 @@ NAT (Network Address Translation) mode is a networking method used to modify net
 2. **Virtual Machines**:
    - In virtualization environments, NAT mode allows virtual machines to access external networks (such as the Internet) using the host's IP address.
 
-### Sources:
-- [Cisco: Introduction to NAT](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipaddr_nat/configuration/15-mt/nat-15-mt-book/iadnat-overview.html)
-- [Microsoft: NAT Overview](https://docs.microsoft.com/en-us/windows-server/networking/technologies/nat/nat-overview)
-- [Network World: What is NAT?](https://www.networkworld.com/article/3232777/what-is-nat-and-how-it-works.html)
-
 NAT mode is a networking term. It enables efficient IP address usage, enhancing security, and simplifying network management, particularly in environments where multiple devices need to access external networks through a single public IP address.

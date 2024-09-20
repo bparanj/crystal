@@ -49,11 +49,3 @@ The term "system resources" is used because these components and assets are esse
 
 4. **Device Management**:
    - The kernel interacts with device drivers to manage hardware devices, handling I/O operations and ensuring proper device functioning.
-
-### Sources:
-
-- **"Operating System Concepts" by Silberschatz, Galvin, and Gagne**: This book provides comprehensive coverage of operating system principles,  resource management.
-- **"The Linux Programming Interface" by Michael Kerrisk**: This book covers the Linux operating system in detail,  how it manages system resources.
-- **"Linux Kernel Development" by Robert Love**: This book offers insights into how the Linux kernel manages system resources,  memory, CPU, and I/O.
-- **The Linux Documentation Project**: A valuable resource for understanding various aspects of Linux,  resource management. [The Linux Documentation Project](https://www.tldp.org/)
-- **Red Hat Documentation**: Provides detailed guides and manuals on managing Linux systems and resources. [Red Hat Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/)

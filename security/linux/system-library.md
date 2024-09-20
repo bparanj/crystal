@@ -45,19 +45,6 @@ A system library is a collection of pre-compiled routines that a program can use
 3. **Library Functions**:
    - When a program calls a function provided by a system library, the operating system ensures that the library code is executed, providing the requested service to the program.
 
-### Sources:
-1. **[GNU C Library (glibc) Documentation](https://www.gnu.org/software/libc/manual/)**
-   - Provides detailed information on the functions and usage of the GNU C Library.
-
-2. **[Linux Programmer's Manual](https://man7.org/linux/man-pages/)**
-   - Offers comprehensive documentation on system libraries and their functions, accessible via man pages (e.g., `man 3 printf` for the `printf` function).
-
-3. **"Advanced Programming in the UNIX Environment" by W. Richard Stevens and Stephen A. Rago**:
-   - This book is a classic reference that covers system libraries in detail, providing examples and explanations of their usage in Unix-like operating systems.
-
-4. **"Linux System Programming" by Robert Love**:
-   - Provides insights into system programming,  the use of system libraries and how they interact with the Linux kernel.
-
 System libraries are fundamental to the operation and development of software on an operating system, providing building blocks that simplify and standardize development of applications.
 
 ## Terms

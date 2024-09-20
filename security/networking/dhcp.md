@@ -44,11 +44,6 @@
 3. **Flexibility**:
    - DHCP supports both static and dynamic IP address assignment, providing flexibility for different network environments.
 
-### Sources:
-- [Cisco: Understanding DHCP](https://www.cisco.com/c/en/us/support/docs/ip/dynamic-host-configuration-protocol-dhcp/13788-9.html)
-- [Microsoft Docs: DHCP Overview](https://docs.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-overview)
-- [RFC 2131: Dynamic Host Configuration Protocol](https://tools.ietf.org/html/rfc2131)
-
 DHCP is a protocol in IP networking that simplifies the configuration and management of network devices by dynamically assigning IP addresses and other necessary parameters. This improves network efficiency and reduces the administrative overhead associated with manual IP address assignment.
 
 DHCP reservation, also sometimes called static DHCP assignment or DHCP static mapping.

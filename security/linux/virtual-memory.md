@@ -38,11 +38,4 @@ Virtual memory in Linux is a memory management technique that provides an "ideal
 3. **Flexibility**:
    - Programs can be written to use more memory than is physically available on the system, as the operating system will manage the movement of data between RAM and disk.
 
-### Sources:
-- **Linux Kernel Documentation: Virtual Memory**: This source provides detailed information on how the Linux kernel handles virtual memory.
-  - [Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/vm/index.html)
-- **"Understanding the Linux Kernel" by Daniel P. Bovet and Marco Cesati**: This book gives an in-depth look at the mechanisms behind virtual memory in the Linux operating system.
-- **Red Hat Enterprise Linux Documentation**: Red Hat provides comprehensive documentation on virtual memory management in Linux.
-  - [Red Hat Documentation](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/managing_monitoring_and_updating_the_kernel/assembly_kernel-memory-allocation_managing-monitoring-and-updating-the-kernel)
-
 Virtual memory enhances system stability, performance, and flexibility by abstracting the physical memory and enabling more efficient management of memory resources.
