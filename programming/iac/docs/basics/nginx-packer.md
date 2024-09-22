@@ -104,7 +104,7 @@ packer build packer_template.pkr.hcl
 
 This command will create an AWS AMI with Ubuntu 22.04 installed and Nginx set up and running.
 
-Absolutely! Let's modify your Packer template to incorporate an Ansible provisioner for Nginx installation. Here's a breakdown of the changes and considerations:
+ Let's modify your Packer template to incorporate an Ansible provisioner for Nginx installation. Here's a breakdown of the changes and considerations:
 
 **Modified Packer Template**
 
