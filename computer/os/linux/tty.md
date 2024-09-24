@@ -36,4 +36,4 @@ The teletype served as:
 1. **Input**: Users could type commands, programs, or data on the teletype's keyboard to interact with the mainframe.
 2. **Output**: The results from the mainframe were printed on paper by the teletype, as screens were not yet widely used for displaying information.
 
-As computing technology advanced, teletypes were gradually replaced by **video display terminals (VDTs)** and more sophisticated input/output devices, but they played a crucial role in the early days of computing.
+As computing technology advanced, teletypes were replaced by **video display terminals (VDTs)** and sophisticated input/output devices, but they were used in the early days of computing.

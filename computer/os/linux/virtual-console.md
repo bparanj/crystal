@@ -9,3 +9,10 @@ It’s called **virtual** because, unlike a physical terminal, it doesn't have d
 - **Use case**: Before graphical user interfaces (GUIs) became common, virtual consoles were a way to multitask in a purely text-based environment.
 
 They remain useful today for system administration, troubleshooting, and environments where GUI is not used.
+
+## Terms
+
+- Terminal Session
+- Physical Display
+- Physical Terminal
+- Teletype

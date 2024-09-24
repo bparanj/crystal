@@ -1,4 +1,4 @@
-Separating user space from kernel space in Linux is crucial for **security** and **stability**. This separation prevents user applications from directly accessing and potentially corrupting kernel memory or code, protecting the system from crashes and malicious activities. It also ensures that the kernel can manage hardware resources and system processes efficiently without interference from user programs.
+User space and kernel space is separated in Linux due to **security** and **stability**. This prevents user applications from directly accessing and corrupting kernel memory or code. This protects the system from crashes and malicious activities. It also ensures that the kernel can manage hardware resources and system processes efficiently without interference from user programs.
 
 The separation of user space and kernel space protects kernel processes in the following ways:
 

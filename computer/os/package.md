@@ -45,4 +45,3 @@ dpkg is still needed because:
 | Typical use cases | Installing local .deb files, fine-grained control | Day-to-day package management tasks |
 | Underlying mechanism | Core tool for package operations | Uses dpkg for final installation steps |
 | Command examples | `dpkg -i package.deb`, `dpkg -r package` | `apt install package`, `apt update` |
-
