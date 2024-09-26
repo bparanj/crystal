@@ -1,4 +1,4 @@
-The **law of conservation of energy** states that energy cannot be created or destroyed, only converted from one form to another. In electronics, this fundamental principle plays a crucial role in the design, analysis, and operation of circuits and devices. Here’s how it applies:
+The **law of conservation of energy** states that energy cannot be created or destroyed, only converted from one form to another. In electronics, this fundamental principle is applied in the design, analysis, and operation of circuits and devices.
 
 ### 1. **Energy Conversion in Components**:
    - **Resistors**: Convert electrical energy into heat. The power dissipated as heat is given by \( P = I^2R \), where \( P \) is power, \( I \) is current, and \( R \) is resistance.

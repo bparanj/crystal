@@ -24,9 +24,37 @@ In electronics, there are several fundamental principles similar to the law of c
    - **Concept**: Every electrical property or theorem has a dual counterpart. For example, voltage is dual to current, series circuits are dual to parallel circuits, and capacitance is dual to inductance.
    - **Application in Electronics**: This principle allows engineers to apply known solutions to analogous problems, simplifying the design and analysis of circuits. For example, the duality principle can help in converting an impedance network problem into an admittance network problem.
 
+Voltage - Current
+Series  - Parallel
+Capacitance - Inductance
+
+The **duality principle** in electronics suggests that certain pairs of quantities or components in electrical circuits can be transformed into their "dual" counterparts by exchanging specific variables, while keeping the form of the equations or behavior of the system intact.
+
+When applying the duality principle to a **resistor**, which is defined by the relationship \( V = IR \) (Ohm's Law), you would typically swap voltage (V) with current (I), and resistance (R) with its dual counterpart, **conductance (G)**, where \( G = \frac{1}{R} \). Conductance measures how easily electricity flows through a component and is measured in siemens (S).
+
+### Dual relationship for a resistor:
+
+- **Resistance (R)** → **Conductance (G)**
+- **Voltage (V)** → **Current (I)**
+  
+Therefore, using the duality principle:
+- Instead of the voltage-current relationship \( V = IR \), we get \( I = VG \), where \( G = \frac{1}{R} \) is the conductance.
+
+In summary, applying the duality principle to a resistor yields **conductance** as the dual of resistance, and the circuit equation \( V = IR \) transforms into \( I = VG \).
+
+The electronic component used for **conductance** is the **resistor** itself, but when viewed in terms of conductance rather than resistance. 
+
+In the context of conductance:
+- **Conductance (G)** is the inverse of **resistance (R)**, where \( G = \frac{1}{R} \).
+- Conductance is measured in **siemens (S)**, which represents how easily electric current flows through a component.
+
+While resistors are usually described in terms of resistance (ohms), the same physical component can be described in terms of conductance. There isn’t a separate physical component called a "conductance" element, but some specific components, such as **MOSFETs** (in their active region) and certain **semiconductor devices**, can be modeled or controlled based on their conductance rather than their resistance.
+
+In short, conductance is a property, and the **resistor** is the common electronic component that embodies this concept when interpreted as the inverse of resistance.
+
 ### 7. **Principle of Electromagnetic Induction**:
    - **Concept**: A change in magnetic flux through a circuit induces an electromotive force (EMF) in the circuit.
-   - **Application in Electronics**: This principle is the basis for the operation of transformers, inductors, and many types of sensors. It's crucial in power generation, signal processing, and communication systems.
+   - **Application in Electronics**: This principle is the basis for the operation of transformers, inductors, and many types of sensors. It's used in power generation, signal processing, and communication systems.
 
 ### 8. **Principle of Wave-Particle Duality**:
    - **Concept**: Electrons and other particles exhibit both wave-like and particle-like properties.
@@ -34,7 +62,7 @@ In electronics, there are several fundamental principles similar to the law of c
 
 ### 9. **Principle of Signal Integrity**:
    - **Concept**: The integrity of a signal must be preserved as it propagates through a circuit or system.
-   - **Application in Electronics**: This principle is critical in high-speed digital design, where maintaining the quality of signals (minimizing noise, distortion, and interference) is essential to ensure reliable operation of electronic systems.
+   - **Application in Electronics**: This principle is applied in high-speed digital design, where maintaining the quality of signals (minimizing noise, distortion, and interference) is necessary to ensure reliable operation of electronic systems.
 
 ### 10. **Principle of Feedback**:
    - **Concept**: A portion of the output of a system is fed back into the input, which can stabilize or destabilize the system depending on the type of feedback (negative or positive).
@@ -102,3 +130,8 @@ In electronics, several fundamental principles and laws govern the behavior of c
 
 ### Summary:
 These fundamental principles form the foundation of electronics, enabling the design and analysis of circuits and systems. Understanding these concepts is essential for anyone working in or studying electronics, as they apply to virtually all electronic devices and technologies.
+
+## Terms
+
+- Closed System
+- Isolated System
