@@ -20,4 +20,4 @@ The simplest circuit to illustrate the **Principle of Electromagnetic Induction*
 - **Direction of Current**: The direction of the induced current depends on the direction of the magnet's motion. Moving the magnet towards the coil induces current in one direction, while moving it away induces current in the opposite direction. This is consistent with Lenz's Law, which states that the induced EMF will always oppose the change in flux.
 
 ### Summary:
-This simple setup of a coil, galvanometer, and moving magnet is the most basic and effective way to illustrate the Principle of Electromagnetic Induction. It demonstrates how the movement of a magnetic field relative to a conductor induces a voltage and current in that conductor.
+This simple setup of a coil, galvanometer, and moving magnet is the basic way to illustrate the Principle of Electromagnetic Induction. It demonstrates how the movement of a magnetic field relative to a conductor induces a voltage and current in that conductor.
