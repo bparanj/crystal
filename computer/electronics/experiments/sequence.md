@@ -1,3 +1,26 @@
+
+Chapters
+
+- Work
+- Energy
+- Safety
+
+Experiments
+
+- Short Circuit
+- LED Damage
+- Wiring Circuit (Basics - Keep the circuit open)
+- LED Circuit
+- Pushbutton
+- Slideswitch
+- Potentiometer
+- Capacitor
+- Diode
+- Transistor
+- Fuse
+
+Components
+
 1. Polarized Capacitor
 2. Inductor
 3. Zener Diode
