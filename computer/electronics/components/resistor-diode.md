@@ -17,3 +17,8 @@ Differences and similarities between a **resistor** and a **diode**:
 | **Current-Voltage Characteristics Curve** | A straight line (Ohmic behavior) | A curve showing exponential increase in forward bias and near-zero current in reverse bias (until breakdown) |
 
 This table shows the differences and similarities between resistors and diodes, providing a comparison of their characteristics and applications.
+
+
+- What is bias in forward bias?
+- Include diagram for linear and non-linear relationship.
+- What experiments can be designed to plot the linear and non-linear relationships of resistor and diode

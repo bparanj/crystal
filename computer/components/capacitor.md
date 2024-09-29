@@ -229,3 +229,5 @@ Here are three simple experiments designed to illustrate the concept of **capaci
 - **Experiment 3**: Demonstrates the role of capacitors in AC circuits, showing how they can filter signals based on frequency.
 
 These experiments provide a practical understanding of capacitance and its effects in different electrical contexts.
+
+MOVE  to electronics folder.

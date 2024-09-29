@@ -1,4 +1,3 @@
-**static electric effect** can be explained at five different levels of complexity:
 
 ### 1. **Child:**
      Imagine you rub a balloon on your hair, and then your hair starts to stand up and stick to the balloon. That’s because the balloon gets a special kind of energy called static electricity. It makes things stick together, like magic!

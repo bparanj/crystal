@@ -1,6 +1,12 @@
+Define electrical voltage. This needs to be explained before explaining DC voltage.
+
 ### What is DC Voltage?
 
 **Direct Current (DC) voltage** is a type of electrical voltage where the current flows in a single direction. The voltage level remains constant over time.
+
+Which direction? From where to where?
+
+[ ] Diagram goes here
 
 #### Characteristics of DC Voltage:
 - **Unidirectional**: Current flows in one direction.
@@ -10,6 +16,16 @@
 ### What is AC Voltage?
 
 **Alternating Current (AC) voltage** is a type of electrical voltage where the current periodically changes direction. The voltage level oscillates between positive and negative values over time.
+
+What is positive value?
+What is negative value?
+What are the value in numbers?
+Is it always equal in positive and negative?
+How can you say it is birectional? Maybe in the case of discrete values? If it is a curve it is constantly changing direction.
+Why does the electronic devices operate on DC and not AC?
+
+Why is AC voltage is not buried under the ground?
+What is meant by efficiency in AC voltage?
 
 #### Characteristics of AC Voltage:
 - **Bidirectional**: Current changes direction periodically.
@@ -49,6 +65,10 @@
 Understanding the differences and applications of AC and DC voltages helps in designing and using electrical systems more effectively and efficiently.
 
 DC (Direct Current) and AC (Alternating Current) are two different types of electrical voltage and current. The main difference between them lies in the direction of the current flow and how the voltage changes over time.
+
+- what is a positive terminal?
+- What is a negative terminal?
+- Is negative and ground terminal the same?
 
 DC Voltage:
 - In a DC circuit, the electric current flows in only one direction, from the positive terminal to the negative terminal.

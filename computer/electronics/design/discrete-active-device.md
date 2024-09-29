@@ -1,10 +1,15 @@
 A discrete active device is an individual electronic component that can control electric current flow and has the ability to provide power gain. Unlike passive devices, active devices can increase the power of a signal. Here's a breakdown of the key aspects:
 
+Need diagram for discrete.
+
 1. Discrete:
    This means the device is a separate, individual component, as opposed to being part of an integrated circuit.
 
 2. Active:
    These devices can control the flow of electric current and provide power gain. They  require an external power source to operate.
+
+Need diagram from active.
+Need diagrsm for power gain and all the concepts explained in this article.
 
 Key characteristics of discrete active devices:
 
@@ -85,4 +90,4 @@ A **discrete active device** refers to an individual electronic component that c
 - **Complexity**: Designing circuits with many discrete components can be more complex and labor-intensive.
 
 ### Summary:
-A discrete active device is an individual electronic component, like a transistor or a diode, that can control electrical signals within a circuit. These devices require an external power source and are capable of amplifying, switching, or modifying signals. They are fundamental building blocks in both analog and digital circuits, used in a wide range of applications from signal amplification to logical processing.
+A discrete active device is an individual electronic component, like a transistor or a diode, that can control electrical signals within a circuit. These devices require an external power source and are capable of amplifying, switching, or modifying signals. They are building blocks in both analog and digital circuits, used in a wide range of applications from signal amplification to logical processing.

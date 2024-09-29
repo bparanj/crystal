@@ -3,7 +3,6 @@ Here are the step-by-step instructions to clean your laptop:
 1. Power down your laptop, unplug it from the charger, and remove the battery (if removable) for safety.
 
 2. Clean the outside of the laptop:
-   a. Mix a couple of drops of dishwashing liquid in a couple of cups of warm water.
    b. Dip a lint-free cloth into the soapy water, give it a good squeeze, and wring it out.
    c. Give the laptop case a good rub down with the damp cloth.
    d. Rinse out the cloth with clean water and wipe the case down again.
@@ -68,8 +67,6 @@ Your laptop should now be clean and ready to use. If you have any additional cle
 
 Items for cleaning the laptop:
 
-1. Dishwashing liquid (any brand will do)
-2. Warm water
 3. Lint-free cloths (multiple)
 4. Microfiber cloth (often included with TVs or computers, or available from an eye doctor)
 5. Isopropyl alcohol
@@ -91,8 +88,6 @@ Optional:
 
 These items will help you effectively clean the exterior, screen, keyboard, and vents of your laptop.
 
-
-Proper cleaning techniques are essential for electronics repair to ensure that the devices function correctly and are not damaged during the process. Here are the recommended techniques:
 
 ### Basic Cleaning Supplies
 - **Compressed Air**: Used for blowing dust and debris out of hard-to-reach areas.

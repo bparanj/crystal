@@ -6,17 +6,31 @@ Imagine you have a special light switch in your room. This switch is magical bec
 
 ## Level 2: Explanation for a Teenager
 
-A thyristor is like a smart electronic switch. It has three main parts: an anode, a cathode, and a gate. When you send a small electrical signal to the gate, it allows electricity to flow from the anode to the cathode. The cool thing is, once it starts conducting electricity, it keeps going even if you remove the signal from the gate. It only stops when the main current flow is interrupted. This makes thyristors really useful in controlling power in circuits, especially for things that need to stay on for a while.
+A thyristor is like a smart electronic switch. It has three main parts:
+
+- an anode
+- a cathode
+- a gate.
+
+When you send a small electrical signal to the gate, it allows electricity to flow from the anode to the cathode. The cool thing is, once it starts conducting electricity, it keeps going even if you remove the signal from the gate. It only stops when the main current flow is interrupted. This makes thyristors useful in controlling power in circuits, especially for things that need to stay on for a while.
 
 ## Level 3: Explanation for an Undergraduate Student
 
-A thyristor, also known as a Silicon Controlled Rectifier (SCR), is a four-layer semiconductor device with three terminals: anode, cathode, and gate. It's composed of four alternating layers of P-type and N-type semiconductor material (P-N-P-N).
+A thyristor, also known as a Silicon Controlled Rectifier (SCR), is a four-layer semiconductor device with three terminals:
+
+- anode
+- cathode
+- gate.
+
+It's composed of four alternating layers of P-type and N-type semiconductor material (P-N-P-N).
 
 The thyristor operates in two states:
+
 1. Forward blocking state (off)
 2. Forward conducting state (on)
 
 To turn on, it needs:
+
 1. Forward voltage across anode and cathode
 2. A positive gate current pulse
 
@@ -82,7 +96,7 @@ Let's delve into some advanced aspects of thyristor physics and applications:
 
 These advanced topics highlight the ongoing relevance of thyristors in power electronics research and industrial applications, despite the rise of fully controllable switches like IGBTs and MOSFETs.
 
-The name "thyristor" has an interesting origin that relates to its function and history.
+The name "thyristor" has an origin that relates to its function and history.
 
 
 The term "thyristor" is a portmanteau (a blend of words) created from two parts:
@@ -103,11 +117,7 @@ This name was chosen because:
 
 The name encapsulates both the device's function (as a controllable "door" for current) and its place in the evolution of electronic components (as a solid-state version of the thyratron).
 
-
-
 History of the thyristor or how its naming compares to other electronic components?
-
-
 
 ### 1. **Child:**
      Imagine you have a special switch that only turns on when you press a button really hard, and it stays on even after you stop pressing the button. But to turn it off, you need to cut the power completely. A thyristor is like that special switch in an electronic circuit. It can turn on and stay on until you stop the electricity going to it.

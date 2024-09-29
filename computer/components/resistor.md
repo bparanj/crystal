@@ -146,3 +146,5 @@ In a simple circuit with an LED and a microcontroller:
 ### Conclusion
 
 Managing the current and voltage for each component in a circuit is crucial for ensuring that the circuit operates correctly, safely, and reliably. Proper design and the use of regulating components are essential for achieving this.
+
+MOVE  to electronics folder.

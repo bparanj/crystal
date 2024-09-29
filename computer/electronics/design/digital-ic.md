@@ -2,7 +2,7 @@ A digital integrated circuit (IC) is a miniaturized electronic circuit fabricate
 
 Key characteristics:
 
-1. Digital signals: Process discrete, binary signals ( represented as 0s and 1s).
+1. Digital signals: Process discrete, binary signals (represented as 0s and 1s).
 
 2. Integration: Multiple circuit elements (transistors, resistors, capacitors) combined on a single chip.
 
