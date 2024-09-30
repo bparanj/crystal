@@ -120,7 +120,7 @@ Understanding cathodes at this level requires in-depth knowledge of solid-state 
 
 These topics represent some of the most exciting and challenging areas in cathode research, pushing the boundaries of materials science, device physics, and quantum engineering.
 
-The term "cathode" has an interesting etymological history:
+The etymological history of the term "cathode" :
 
 1. Greek origin: The word "cathode" comes from the Greek "kathodos" (κάθοδος), which means "descent" or "way down."
 

@@ -1,4 +1,3 @@
-**Teacher Bot:** As requested, I am employing the Feynman Technique. The primary audience is beginners to electronics who use a Zettelkasten, and my objective is to deliver clear, concise, and comprehensive explanations of various topics decomposed into atomic ideas (i.e., Zettels). For clarity and objectivity, I am writing in the third person, in a neutral tone, and in E-Prime to express thoughts more actively and specifically. I am also showing you the MathJax code (i.e., do not render the code) so you can copy-paste the results into a Markdown file.
 
 ### Overview:  
 A **Zener diode** behaves like a regular diode in one direction, but in reverse, it allows current to flow once the voltage reaches a specific point, known as the **Zener breakdown voltage**. Its primary use comes from its ability to maintain a constant voltage in circuits, making it useful for voltage regulation.

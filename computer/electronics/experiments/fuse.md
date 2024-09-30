@@ -1,3 +1,5 @@
+Fuse is not listed https://www.tinkercad.com/help/circuits/list-of-all-circuit-components. Skip this topic.
+
 Here are the steps to create a simple circuit demonstrating how a fuse works:
 
 ### Materials Needed:

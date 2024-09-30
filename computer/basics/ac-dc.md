@@ -1,10 +1,12 @@
-Define electrical voltage. This needs to be explained before explaining DC voltage.
+Electrical voltage is the **push** that makes electric charges move through a wire or circuit. It’s like the pressure that pushes water through a pipe. The higher the voltage, the stronger the push to move the charges (electricity). Voltage is measured in **volts (V)**.
 
 ### What is DC Voltage?
 
 **Direct Current (DC) voltage** is a type of electrical voltage where the current flows in a single direction. The voltage level remains constant over time.
 
-Which direction? From where to where?
+In a direct current (DC) circuit, electric current flows from the **positive terminal** to the **negative terminal** of a power source, such as a battery. This is known as **conventional current** direction. However, the actual flow of electrons (which carry the charge) is in the opposite direction—from the **negative terminal** to the **positive terminal**—but conventional current refers to the flow as positive to negative.
+
+Direct current (DC) is called "direct" because the electric charge flows in **one direction** only. Unlike alternating current (AC), which changes direction periodically, DC maintains a constant, unidirectional flow of electricity. This steady, direct movement is why it’s called "direct" current.
 
 [ ] Diagram goes here
 
@@ -17,15 +19,64 @@ Which direction? From where to where?
 
 **Alternating Current (AC) voltage** is a type of electrical voltage where the current periodically changes direction. The voltage level oscillates between positive and negative values over time.
 
-What is positive value?
-What is negative value?
-What are the value in numbers?
-Is it always equal in positive and negative?
-How can you say it is birectional? Maybe in the case of discrete values? If it is a curve it is constantly changing direction.
-Why does the electronic devices operate on DC and not AC?
+### What is a Positive Value?
+In the context of **AC voltage**, a positive value refers to the voltage when the electrical potential is higher at one terminal compared to the other. During this phase, conventional current flows in one direction (from positive to negative).
 
-Why is AC voltage is not buried under the ground?
-What is meant by efficiency in AC voltage?
+### What is a Negative Value?
+A negative value occurs when the electrical potential is reversed, meaning the previously higher terminal is now lower, and current flows in the opposite direction. 
+
+### What Are the Values in Numbers?
+AC voltage values continuously fluctuate between a maximum positive value and a maximum negative value. For example, in the U.S., standard AC voltage oscillates between approximately **+170V** and **-170V**, though we commonly refer to the **RMS (Root Mean Square)** value of 120V or 240V.
+
+### Is It Always Equal in Positive and Negative?
+In an ideal AC wave, such as a **sine wave**, the positive and negative values are usually equal in magnitude but opposite in direction. For example, if the maximum positive voltage is +170V, the maximum negative voltage will typically be -170V.
+
+### How Can You Say It Is Bidirectional?
+AC is bidirectional because the current reverses direction periodically. During the positive phase of the wave, current flows one way, and during the negative phase, it flows in the opposite direction. Even though the voltage forms a smooth wave (like a sine wave), the flow of current flips between directions as the voltage crosses zero, making it bidirectional.
+
+- For discrete values, you could imagine sampling the AC wave at regular intervals, and you'd observe alternating positive and negative values at different points in time.
+- If you look at the continuous curve, the current flow direction flips every time the voltage crosses zero, so it’s changing direction as the wave oscillates between positive and negative values.
+
+### Why Do Electronic Devices Operate on DC and Not AC?
+Most electronic devices operate on **DC (Direct Current)** for several reasons:
+
+1. **Stable Voltage**: DC provides a steady, constant voltage, which is essential for powering sensitive components like microprocessors, memory, and sensors.
+   
+2. **Component Design**: Many electronic components, such as transistors and integrated circuits, are designed to work with DC. They require a continuous flow of current in one direction for proper operation.
+
+3. **AC Noise**: AC voltage, because of its fluctuating nature, can introduce electrical noise and instability in sensitive circuits, leading to malfunction or damage.
+
+4. **Rectification**: While electrical grids deliver AC because it's more efficient to transmit over long distances, electronic devices convert AC to DC using rectifiers (e.g., in power supplies) to get the stable voltage they need.
+
+In summary, AC is ideal for power transmission, while DC is better for precise, reliable operation in most electronic circuits.
+
+### Why Is AC Voltage Not Buried Underground?
+
+AC voltage is usually transmitted **above ground** via power lines instead of being buried for several reasons:
+
+1. **Cost**: Installing power lines underground is significantly more expensive than overhead lines. It requires digging trenches, using specialized insulation, and more robust infrastructure to protect the cables from moisture and environmental damage.
+
+2. **Maintenance**: Overhead lines are easier and cheaper to inspect, repair, and replace. When issues arise, such as a power line failure, it is simpler and quicker to access overhead lines than underground ones.
+
+3. **Heat Dissipation**: Power lines generate heat due to electrical resistance. Overhead lines are exposed to air, allowing natural cooling. Underground cables, however, are surrounded by soil, which doesn't dissipate heat as efficiently, making them more prone to overheating.
+
+4. **Environmental Conditions**: Underground cables are susceptible to damage from flooding, soil erosion, and shifting ground, which can complicate maintenance and reliability.
+
+However, in certain urban areas where aesthetics or space constraints are a priority, high-voltage AC transmission lines may be buried, but with added costs and precautions.
+
+---
+
+### What Is Meant by Efficiency in AC Voltage?
+
+**Efficiency in AC voltage transmission** refers to how effectively electrical power is delivered from the power plant to the end users with minimal losses. Several factors impact AC voltage efficiency:
+
+1. **Transmission Losses**: Electrical energy is lost as heat due to resistance in power lines. Using **high voltage** helps reduce current and minimizes losses. This is why AC voltage is transmitted at high voltages (e.g., 110 kV or more) over long distances, increasing efficiency.
+
+2. **Power Factor**: In AC systems, efficiency is also related to the **power factor**, which measures how effectively the voltage and current are aligned. A low power factor means more power is lost in the system, reducing efficiency.
+
+3. **Transformer Efficiency**: AC voltage can be easily stepped up or down using transformers, which enhances efficiency. Stepping up voltage for long-distance transmission reduces current, minimizing energy loss due to heat.
+
+In short, AC voltage efficiency is about **minimizing energy losses** during transmission to deliver the maximum usable power to consumers. High-voltage AC transmission combined with efficient transformers helps achieve this goal.
 
 #### Characteristics of AC Voltage:
 - **Bidirectional**: Current changes direction periodically.
@@ -66,9 +117,20 @@ Understanding the differences and applications of AC and DC voltages helps in de
 
 DC (Direct Current) and AC (Alternating Current) are two different types of electrical voltage and current. The main difference between them lies in the direction of the current flow and how the voltage changes over time.
 
-- what is a positive terminal?
-- What is a negative terminal?
-- Is negative and ground terminal the same?
+### What Is a Positive Terminal?
+A **positive terminal** is the point in a circuit or power source (such as a battery) where there is a higher electric potential. In **DC (Direct Current)**, current flows out of the positive terminal, through the circuit, and toward the negative terminal. In circuits, this terminal is often marked with a **"+"** sign.
+
+### What Is a Negative Terminal?
+A **negative terminal** is the point in a circuit or power source where there is a lower electric potential. In a **DC circuit**, current flows toward the negative terminal. This terminal is usually marked with a **"–"** sign. In conventional current flow, current moves from the positive terminal to the negative terminal, although the actual flow of electrons is in the opposite direction.
+
+### Is Negative and Ground Terminal the Same?
+**No, the negative terminal and ground terminal are not always the same.** 
+
+- The **negative terminal** refers specifically to the lower potential side of a power source (like a battery) in a **DC circuit**.
+  
+- **Ground** is a reference point in an electrical circuit. It may or may not be connected to the negative terminal, depending on the design of the circuit.
+
+In many cases, especially in simple battery-operated circuits, the **negative terminal** of the power source is connected to ground, and they are effectively the same. However, in more complex systems, ground may be separate from the negative terminal and used as a **common return path** for current or as a safety feature in power systems.
 
 DC Voltage:
 - In a DC circuit, the electric current flows in only one direction, from the positive terminal to the negative terminal.

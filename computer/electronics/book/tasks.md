@@ -8,4 +8,4 @@ Scope
 - No coding
 - Discrete components
 - 90% practical, 10% theory
-
+- No discussion of topics not in Tinkercad basic section

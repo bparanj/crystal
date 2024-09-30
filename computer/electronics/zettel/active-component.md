@@ -85,8 +85,6 @@ Thus, the current gain (β) of the transistor is **100**.
 3. **Improving Diode Efficiency in Power Conversion**:
    - Problem: Research how different materials used in diodes (e.g., silicon carbide) impact efficiency in power conversion circuits. How can these materials be optimized for use in renewable energy systems?
 
-Teacher Bot: As requested, I am employing the Feynman Technique. The primary audience is beginners to electronics who use a Zettelkasten, and my objective is to deliver clear, concise, and comprehensive explanations of various topics decomposed into atomic ideas (i.e., Zettels). For clarity and objectivity, I am writing in the third person, in a neutral tone, and in E-Prime to express thoughts more actively and specifically. I am also showing you the MathJax code (i.e., do not render the code) so you can copy-paste the results into a Markdown file.
-
 Overview:
 Active electronic components constitute fundamental elements in electronic circuits that can control electron flow and amplify electrical signals. Unlike passive components, active components require an external power source to function. These components can increase the power of a signal and generally exhibit nonlinear behavior. Common examples include diodes, transistors, and integrated circuits. Active components play crucial roles in signal processing, amplification, and switching operations within electronic systems.
 

@@ -1,4 +1,3 @@
-**Teacher Bot:** As requested, I am employing the Feynman Technique. The primary audience is beginners to electronics who use a Zettelkasten, and my objective is to deliver clear, concise, and comprehensive explanations of various topics decomposed into atomic ideas (i.e., Zettels). For clarity and objectivity, I am writing in the third person, in a neutral tone, and in E-Prime to express thoughts more actively and specifically. I am also showing you the MathJax code (i.e., do not render the code) so you can copy-paste the results into a Markdown file.
 
 ### Overview:  
 An **inductor** is a passive electronic component that stores energy in a magnetic field when electrical current flows through it. Inductors oppose changes in current and are used in filtering, energy storage, and tuning circuits. The amount of inductance depends on factors such as the coil’s number of turns, the core material, and the shape and size of the coil.

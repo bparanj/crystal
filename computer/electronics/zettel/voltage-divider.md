@@ -1,6 +1,6 @@
 
 ### Overview:
-A **voltage divider** is a simple circuit that reduces the input voltage to a lower output voltage. It  consists of two resistors connected in series across a voltage source. The output voltage is taken from the connection between the two resistors. The voltage division follows the ratio of the resistances, making it useful for scaling down voltages in circuits.
+A **voltage divider** is a circuit that reduces the input voltage to a lower output voltage. It  consists of two resistors connected in series across a voltage source. The output voltage is taken from the connection between the two resistors. The voltage division follows the ratio of the resistances, making it useful for scaling down voltages in circuits.
 
 ---
 

@@ -140,6 +140,117 @@ Here's an arrangement of the components from simplest to most complicated, based
 
 This arrangement considers the components' complexity in terms of their internal structure, functionality, and typical application in circuits. It starts with basic passive components and progresses through various sensors, actuators, integrated circuits, and more complex systems. The most advanced items are microcontrollers and sophisticated test equipment.
 
+| Number | Name                              | Status    | Needs Programming |
+|--------|-----------------------------------|-----------|-------------------|
+| 1      | Resistor                          | Complete  | No                |
+| 2      | Capacitor                         | Complete  | No                |
+| 3      | Polarized Capacitor               | Pending   | Yes               |
+| 4      | Inductor                          | Pending   | Yes               |
+| 5      | Diode                             | Complete  | No                |
+| 6      | Zener Diode                       | Pending   | Yes               |
+| 7      | LED                               | Complete  | No                |
+| 8      | Light bulb                        | Pending   | Yes               |
+| 9      | Pushbutton                        | Complete  | No                |
+| 10     | Slideswitch                       | Complete  | No                |
+| 11     | Tilt Sensor                       | Pending   | Yes               |
+| 12     | Photoresistor                     | Pending   | Yes               |
+| 13     | 1.5V Battery                      | Complete  | No                |
+| 14     | 9V Battery                        | Complete  | No                |
+| 15     | Coin Cell 3V Battery              | Complete  | No                |
+| 16     | Potato Battery                    | Complete  | No                |
+| 17     | Lemon Battery                     | Complete  | No                |
+| 18     | Piezo                             | Pending   | Yes               |
+| 19     | Breadboard Mini                   | Complete  | No                |
+| 20     | Breadboard Small                  | Complete  | No                |
+| 21     | Breadboard                        | Complete  | No                |
+| 22     | 8 Pin Header                      | Complete  | No                |
+| 23     | USB standard A                    | Complete  | No                |
+| 24     | Vibration Motor                   | Pending   | Yes               |
+| 25     | DC Motor                          | Pending   | Yes               |
+| 26     | Micro Servo                       | Pending   | Yes               |
+| 27     | Hobby Gearmotor                   | Pending   | Yes               |
+| 28     | Potentiometer                     | Complete  | No                |
+| 29     | Flex Sensor                       | Pending   | Yes               |
+| 30     | Force Sensor                      | Pending   | Yes               |
+| 31     | IR sensor                         | Pending   | Yes               |
+| 32     | Photodiode                        | Pending   | Yes               |
+| 33     | LED RGB                           | Complete  | No                |
+| 34     | 7 Segment Display                 | Pending   | Yes               |
+| 35     | Tilt Sensor 4-pin                 | Pending   | Yes               |
+| 36     | Temperature Sensor [TMP36]        | Pending   | Yes               |
+| 37     | Gas Sensor                        | Pending   | Yes               |
+| 38     | Ambient Light Sensor [Phototransistor] | Pending | Yes           |
+| 39     | IR remote                         | Pending   | Yes               |
+| 40     | NPN Transistor (BJT)              | Complete  | No                |
+| 41     | PNP Transistor (BJT)              | Pending   | Yes               |
+| 42     | Small Signal nMOS Transistor      | Pending   | Yes               |
+| 43     | Small Signal pMOS Transistor      | Pending   | Yes               |
+| 44     | nMOS Transistor (MOSFET)          | Pending   | Yes               |
+| 45     | pMOS Transistor (MOSFET)          | Pending   | Yes               |
+| 46     | TIP120                            | Pending   | Yes               |
+| 47     | 5V Regulator [LM7805]             | Pending   | Yes               |
+| 48     | 3.3V Regulator [LD1117V33]        | Pending   | Yes               |
+| 49     | Optocoupler                       | Pending   | Yes               |
+| 50     | Relay SPDT                        | Pending   | Yes               |
+| 51     | Relay DPDT                        | Pending   | Yes               |
+| 52     | Timer                             | Pending   | Yes               |
+| 53     | Dual Timer                        | Pending   | Yes               |
+| 54     | 741 Operational Amplifier         | Pending   | Yes               |
+| 55     | Quad comparator                   | Pending   | Yes               |
+| 56     | Dual comparator                   | Pending   | Yes               |
+| 57     | Quad NAND gate                    | Pending   | Yes               |
+| 58     | Quad NOR gate                     | Pending   | Yes               |
+| 59     | Quad AND gate                     | Pending   | Yes               |
+| 60     | Quad OR gate                      | Pending   | Yes               |
+| 61     | Quad XOR gate                     | Pending   | Yes               |
+| 62     | Hex Inverter                      | Pending   | Yes               |
+| 63     | Inverting Schmitt Trigger         | Pending   | Yes               |
+| 64     | Quad NAND Schmitt Trigger         | Pending   | Yes               |
+| 65     | Triple 3-Input NAND gate          | Pending   | Yes               |
+| 66     | Triple 3-Input AND gate           | Pending   | Yes               |
+| 67     | Triple 3-Input NOR gate           | Pending   | Yes               |
+| 68     | Dual 4-Input NAND gate            | Pending   | Yes               |
+| 69     | Dual 4-Input AND gate             | Pending   | Yes               |
+| 70     | Dual J-K Flip-Flop                | Pending   | Yes               |
+| 71     | Dual D Flip-Flop                  | Pending   | Yes               |
+| 72     | 4-Bit Latch                       | Pending   | Yes               |
+| 73     | 4-Bit Binary Counter              | Pending   | Yes               |
+| 74     | 4-Bit Adder                       | Pending   | Yes               |
+| 75     | 8-Bit Shift Register              | Pending   | Yes               |
+| 76     | Johnson Decade Counter            | Pending   | Yes               |
+| 77     | 7-Segment Decoder                 | Pending   | Yes               |
+| 78     | DIP Switch SPST x 4               | Pending   | Yes               |
+| 79     | DIP Switch SPST x 6               | Pending   | Yes               |
+| 80     | DIP Switch DPST                   | Pending   | Yes               |
+| 81     | Keypad 4x4                        | Pending   | Yes               |
+| 82     | LCD 16 x 2                        | Pending   | Yes               |
+| 83     | Ultrasonic Distance Sensor        | Pending   | Yes               |
+| 84     | Ultrasonic Distance Sensor (4-pin)| Pending   | Yes               |
+| 85     | PIR Sensor                        | Pending   | Yes               |
+| 86     | NeoPixel                          | Pending   | Yes               |
+| 87     | NeoPixel Jewel                    | Pending   | Yes               |
+| 88     | NeoPixel Ring 12                  | Pending   | Yes               |
+| 89     | NeoPixel Ring 16                  | Pending   | Yes               |
+| 90     | NeoPixel Ring 24                  | Pending   | Yes               |
+| 91     | NeoPixel Strip 4                  | Pending   | Yes               |
+| 92     | NeoPixel Strip 6                  | Pending   | Yes               |
+| 93     | NeoPixel Strip 8                  | Pending   | Yes               |
+| 94     | NeoPixel Strip 10                 | Pending   | Yes               |
+| 95     | NeoPixel Strip 12                 | Pending   | Yes               |
+| 96     | NeoPixel Strip 16                 | Pending   | Yes               |
+| 97     | NeoPixel Strip 20                 | Pending   | Yes               |
+| 98     | DC Motor with encoder             | Pending   | Yes               |
+| 99     | H-bridge Motor Driver             | Pending   | Yes               |
+| 100    | Pololu Simple Motor Controller    | Pending   | Yes               |
+| 101    | ATtiny                            | Pending   | Yes               |
+| 102    | micro:bit                         | Pending   | Yes               |
+| 103    | micro:bit with Breakout           | Pending   | Yes               |
+| 104    | Arduino Uno R3                    | Complete  | No                |
+| 105    | Multimeter                        | Complete  | No                |
+| 106    | Power Supply                      | Pending   | Yes               |
+| 107    | Function Generator                | Pending   | Yes               |
+| 108    | Oscilloscope                      | Pending   | Yes               |
+
 Here is an arrangement of the components, from simplest to most complicated:
 
 - Resistor

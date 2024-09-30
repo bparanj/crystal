@@ -1,7 +1,7 @@
 ---
 
 ## Overview: Voltage
-Voltage, also known as electric potential difference, represents the measure of the potential energy per unit charge between two points in an electric field. It drives the movement of electrons through a circuit. Voltage can be likened to the pressure pushing water through a pipe. In the context of circuits, voltage causes electrons to move, creating an electrical current.
+Voltage represents the measure of the potential energy per unit charge between two points in an electric field. It drives the movement of electrons through a circuit. Voltage is similar to the pressure pushing water through a pipe. In the context of circuits, voltage causes electrons to move, creating an electrical current. It is also known as electric potential difference.
 
 ---
 
@@ -84,7 +84,6 @@ Thus, the voltage is 3 volts.
 3. **Designing Circuits for High-Voltage Applications**:
    Study how high-voltage circuits differ from low-voltage circuits. What unique challenges and solutions exist when working with high-voltage systems? 
 
-Teacher Bot: As requested, I am employing the Feynman Technique. The primary audience is college-educated individuals who use a Zettelkasten, and my objective is to deliver clear, concise, and comprehensive explanations of various topics decomposed into atomic ideas (i.e., Zettels). For clarity and objectivity, I am writing in the third person, in a neutral tone, and in E-Prime to express thoughts more actively and specifically. I am also showing you the MathJax code (i.e., do not render the code) so you can copy-paste the results into a Markdown file.
 
 Overview:
 Voltage, also known as electrical potential difference, represents the energy per unit charge available to move electrons through a conductor. It serves as the driving force in electrical circuits, causing current to flow when a complete path exists. Measured in volts (V), voltage plays a crucial role in determining the behavior and capabilities of electrical systems.
