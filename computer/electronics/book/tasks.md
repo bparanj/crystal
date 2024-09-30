@@ -1,3 +1,5 @@
+- Work backwards from experiments 
+		- Order existing experiments from simple to complex
 - Review instructables for hackerboxes and take notes about using breadboard. Create diagrams to illustrate the connections.
 - Review Zettels and extract basic level content for different chapters
 
