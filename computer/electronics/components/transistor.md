@@ -1,11 +1,16 @@
-The name **"transistor"** is a combination of two words: **"transfer"** and **"resistor."** The name reflects the device's fundamental function of transferring or controlling the flow of electrical current between two points in a circuit while also having the ability to resist or modulate that flow. Here's a breakdown of the reasoning behind the name:
+The name **"transistor"** is a combination of two words:
+
+- **"transfer"** and
+- **"resistor."**
+
+The name reflects the device's function of transferring or controlling the flow of electrical current between two points in a circuit while also having the ability to resist or modulate that flow. Reasoning behind the name:
 
 ### 1. **Transfer**:
-   - **Meaning**: The "transfer" part of the name refers to the transistor's ability to transfer an input signal from one terminal to another, controlling the output current or voltage based on the input.
+   - **Meaning**: The "transfer" refers to the transistor's ability to transfer an input signal from one terminal to another, controlling the output current or voltage based on the input.
    - **Function**: In a transistor, a small input current or voltage applied to the base (in a bipolar junction transistor, or BJT) or the gate (in a field-effect transistor, or FET) can control a much larger current flowing between the other two terminals (collector and emitter in a BJT, or drain and source in a FET).
 
 ### 2. **Resistor**:
-   - **Meaning**: The "resistor" part of the name highlights the transistor's ability to resist or regulate the current flow. It implies that the transistor can act like a variable resistor, adjusting the flow of current through the circuit based on the input signal.
+   - **Meaning**: The "resistor" highlights the transistor's ability to resist or regulate the current flow. It implies that the transistor can act like a variable resistor, adjusting the flow of current through the circuit based on the input signal.
    - **Function**: In essence, the transistor can modulate the resistance between its terminals, allowing it to amplify or switch electronic signals. The resistance is controlled by the small input signal, enabling the transistor to function as an amplifier or a switch.
 
 ### 3. **Historical Context**:
@@ -59,7 +64,7 @@ Here are three simple experiments designed to demonstrate the basics of transist
 - Wires for connections
 
 **Procedure**:
-1. **Set Up the Circuit**: 
+1. **Set Up the Circuit**:
    - Connect the collector of the NPN transistor to the positive terminal of the battery through the LED (with a series resistor if needed).
    - Connect the emitter directly to the negative terminal of the battery.
    - Connect the base of the transistor to the positive terminal of the battery through the 1 kΩ resistor.
