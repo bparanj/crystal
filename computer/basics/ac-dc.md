@@ -139,7 +139,7 @@ DC Voltage:
 
 AC Voltage:
 - In an AC circuit, the electric current periodically reverses direction, flowing back and forth between the terminals.
-- The voltage in an AC circuit changes polarity over time,  following a sine wave pattern.
+- The voltage in an AC circuit changes polarity over time, following a sine wave pattern.
 - The frequency of the AC voltage indicates how many times the polarity reverses per second, measured in hertz (Hz).
 - Examples of AC voltage sources include the power grid (wall outlets), generators, and transformers.
 

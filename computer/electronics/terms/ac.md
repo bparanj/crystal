@@ -18,7 +18,7 @@
 
 - Alternating current (AC) is fundamentally described by its time-varying sinusoidal waveform, \( V(t) = V_m \sin(\omega t + \phi) \), where \( \omega = 2\pi f \). The analysis of AC circuits involves phasor representation and complex impedance \( Z = R + jX \), allowing for the characterization of resistive and reactive components' behavior under steady-state conditions. Fourier analysis decomposes complex AC waveforms into harmonic components, facilitating signal processing and power quality assessment. Power in AC circuits is expressed through real, reactive, and apparent power, encapsulated in the complex power vector \( S = P + jQ \). The role of transformers, governed by Faraday's Law, is pivotal in AC power distribution, enabling voltage level adjustments and isolation. Additionally, the skin effect and proximity effect in conductors must be considered in high-frequency AC applications, impacting current distribution and conductor design.
 
-Here is an explanation of alternating current (AC) in electronics at five different levels of complexity:
+Explanation of alternating current (AC) in electronics at five different levels of complexity:
 
 Child:
 Alternating current is like a swing that goes back and forth. In electronics, the electricity can flow in one direction, then switch and flow in the opposite direction, over and over again. This is different from a slide, where you always go down. The electricity in your house is like a swing, constantly changing direction.

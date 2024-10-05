@@ -117,7 +117,23 @@ This name was chosen because:
 
 The name encapsulates both the device's function (as a controllable "door" for current) and its place in the evolution of electronic components (as a solid-state version of the thyratron).
 
-History of the thyristor or how its naming compares to other electronic components?
+### History of the Thyristor
+The **thyristor** is a solid-state semiconductor device that was invented in the late 1950s. It was developed by a team of engineers at **Bell Laboratories**, and the first commercial thyristor (also known as a **silicon-controlled rectifier**, or SCR) was introduced in **1957**. The invention of the thyristor marked a major milestone in power electronics, as it allowed for efficient control of high-voltage and high-current applications, such as motor control, lighting, and power conversion.
+
+Key developments in the history of the thyristor:
+1. **1957**: The thyristor was introduced as a revolutionary power-switching device, providing a much more efficient alternative to mechanical relays.
+2. **1960s**: Thyristors gained widespread use in industrial applications like motor speed controls, light dimmers, and AC-to-DC converters.
+3. **1970s–1980s**: Improvements in thyristor technology led to more compact designs, with better efficiency and greater power-handling capacity, making them essential in power transmission systems and electric vehicles.
+
+### Naming of the Thyristor
+The name **thyristor** is derived from a combination of "thyratron" (a type of gas tube that the thyristor functionally replaced) and "transistor" (reflecting its solid-state nature). This hybrid naming indicates that the thyristor has characteristics of both devices—like the thyratron's ability to control large amounts of power and the transistor’s solid-state construction.
+
+### Comparison to Other Electronic Components Naming
+1. **Transistor**: The name **transistor** comes from a combination of "transfer" and "resistor," reflecting its role in transferring signals between low- and high-resistance states.
+2. **Diode**: The word **diode** comes from "di-" meaning two, and "ode" from "electrode," referring to its two-terminal design.
+3. **Triac**: This is a specific type of thyristor, and its name comes from **tri** (meaning three) and **AC**, indicating its ability to control alternating current in both directions with three terminals.
+
+The naming of the **thyristor** reflects its relationship to earlier technologies and its role in power control, similar to how the names of other electronic components highlight their fundamental characteristics or functions.
 
 ### 1. **Child:**
      Imagine you have a special switch that only turns on when you press a button really hard, and it stays on even after you stop pressing the button. But to turn it off, you need to cut the power completely. A thyristor is like that special switch in an electronic circuit. It can turn on and stay on until you stop the electricity going to it.
