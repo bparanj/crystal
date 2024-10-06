@@ -2,7 +2,7 @@
 1. Child:
 A Zener diode is like a special guard for electricity. It lets electricity flow one way, but if too much tries to go the other way, it lets just enough through to keep things safe. It's like a safety valve for electrical circuits, making sure nothing gets too powerful and breaks your toys.
 
-2. Teenager (13-17 years old):
+2. Teenager:
 A Zener diode is a type of diode that allows current to flow in the forward direction like a normal diode, but also in the reverse direction when the voltage reaches a specific value called the "Zener voltage". This special property makes it useful for regulating voltage in circuits. It's often used in power supplies to keep the voltage steady, even if the input voltage changes.
 
 3. Undergraduate student:
@@ -31,7 +31,7 @@ Advanced applications include:
 - Level shifting in analog circuits
 - Bootstrapping in high-voltage circuits
 
-5. Colleague (Expert level):
+5. Colleague:
 The physics of Zener breakdown involves complex quantum mechanical effects. In heavily doped junctions, the depletion region becomes thin enough (< 10^-6 cm) for significant band-to-band tunneling to occur. The tunneling probability can be modeled using the WKB approximation, considering the electric field distribution across the junction.
 
 For higher voltages, the avalanche process is described by impact ionization rates and the ionization integral. Accurate modeling requires solving the coupled continuity and Poisson equations, often necessitating numerical methods.

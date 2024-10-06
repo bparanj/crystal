@@ -1,4 +1,4 @@
-Joules are used as a unit in electronics to measure energy. Understanding and measuring energy is fundamental in various aspects of electronics and electrical engineering. Here's why joules are important:
+Joules are used as a unit in electronics to measure energy. Understanding and measuring energy is fundamental in various aspects of electronics engineering.
 
 ### Understanding Energy in Electronics
 

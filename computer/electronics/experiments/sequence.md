@@ -2,7 +2,13 @@
 Chapters
 
 - Work
+	- Real world examples (work.md)
+
 - Energy
+	- Forms of energy (joules.md)
+	- Law of conservation of energy
+	- Useful appliances
+	
 - Safety
 
 Experiments

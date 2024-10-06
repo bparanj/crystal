@@ -29,7 +29,43 @@ Ensure the capacitor’s voltage rating is higher than the maximum voltage it wi
 Example
 Here’s a simple example of how a polarized capacitor might be used in a power supply circuit:
 
-MISSING EXPERIMENT...
+## Experiment
+
+The simplest experiment to demonstrate the use of a **polarized capacitor** is by building a **basic RC (Resistor-Capacitor) charging and discharging circuit**. This setup shows how a polarized capacitor (like an electrolytic capacitor) charges and discharges in a DC circuit.
+
+### Materials:
+- Polarized capacitor (e.g., 100 µF electrolytic capacitor)
+- Resistor (e.g., 1 kΩ)
+- DC power supply (e.g., 9V battery)
+- Breadboard and connecting wires
+- Multimeter (to measure voltage)
+
+### Steps:
+
+1. **Build the Circuit**:
+   - Connect the **positive leg** of the polarized capacitor (longer leg) to the **positive terminal** of the battery or power supply.
+   - Connect the **negative leg** of the capacitor (shorter leg) to one side of the resistor.
+   - Connect the other side of the resistor to the **negative terminal** of the power supply to form a series circuit.
+
+2. **Measure Voltage Across the Capacitor**:
+   - Use the multimeter to measure the voltage across the capacitor's terminals.
+   - Initially, the voltage will be 0V, but once you connect the circuit to the power supply, the voltage across the capacitor will gradually rise as it charges.
+
+3. **Observe Charging**:
+   - Watch how the voltage across the capacitor increases over time as it charges. It should gradually approach the voltage of the power supply (e.g., 9V).
+   - This process is slower due to the resistor, which limits the current.
+
+4. **Observe Discharging**:
+   - Once the capacitor is fully charged (voltage reaches near the supply voltage), disconnect the power supply.
+   - Connect the two terminals of the capacitor through the resistor to form a discharge path. 
+   - Observe the voltage across the capacitor as it **gradually decreases** back to 0V as it discharges through the resistor.
+
+### Explanation:
+- A **polarized capacitor** must be connected with the correct polarity (positive to positive, negative to negative) in a DC circuit.
+- The capacitor stores electrical energy when charging and releases it when discharging. This experiment demonstrates the capacitor's ability to hold and release energy in a controlled manner.
+- The slow rise and fall in voltage show how the capacitor charges and discharges, with the resistor controlling the rate.
+
+This simple experiment highlights the core function of a polarized capacitor in storing and releasing electrical energy.
 
 ## Terms
 
