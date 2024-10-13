@@ -40,3 +40,11 @@ A simple experiment to demonstrate the use of a **variable capacitor** involves 
 ### Explanation:
 - The circuit resonates at a frequency determined by the values of the inductor and the capacitor. When you adjust the variable capacitor, the capacitance changes, and this, in turn, changes the resonant frequency of the circuit.
 - This experiment demonstrates how variable capacitors are used to tune circuits to specific frequencies, such as in radios.
+
+No, **variable capacitors** are not commonly used in most modern electronic circuits. They are primarily found in **specialized applications** where precise tuning or frequency adjustment is needed. Common uses include:
+
+1. **Radio Tuners**: Variable capacitors adjust the tuning frequency, allowing users to select different radio stations.
+2. **RF (Radio Frequency) Circuits**: Used in RF circuits to fine-tune resonant frequencies in oscillators and filters.
+3. **Calibration**: Employed in lab equipment or test circuits where exact capacitance adjustments are necessary.
+
+In most everyday electronics, **fixed capacitors** are preferred due to their stability, reliability, and compact size, as they provide a constant capacitance value, which is sufficient for typical applications.
