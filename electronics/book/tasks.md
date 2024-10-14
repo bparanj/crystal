@@ -1,4 +1,5 @@
 - Draw circuit diagram by hand for each experiment
+- Create diagrams for mats.md
 - Refer experiments.md to create the simulations for experiment 10, 11 and 12.
 - Work backwards from experiments
 		- Order existing experiments from simple to complex. First pass done.

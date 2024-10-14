@@ -46,3 +46,29 @@ The work done (in joules) is calculated as:
 
 ### Explanation:
 In this case, the person performs **4.448 joules** of work to lift the 1 lb box **1 meter**. The unit **joules** measures the energy required to move the box a certain distance, where **1 joule** represents the energy needed to exert **1 newton** of force over **1 meter**. So, the higher the weight (force) or the greater the distance, the more joules of energy are required.
+
+## Power and Work
+
+In electronics, *power* and *work* are closely related through the concept of energy transfer.
+
+1. **Work** refers to the energy transferred when a force acts over a distance. In electronics, this is the energy needed to move electric charges through a circuit.
+   
+2. **Power** is the rate at which this work is done, or energy is transferred. It's the amount of energy used per unit of time.
+
+The relationship can be summarized with the formula:
+
+\[
+\text{Power (P)} = \frac{\text{Work (W)}}{\text{Time (t)}}
+\]
+
+In electrical terms, power (measured in watts) is calculated as:
+
+\[
+P = V \times I
+\]
+
+where:
+- \( V \) is the voltage (potential difference),
+- \( I \) is the current (flow of charge).
+
+Here, voltage provides the energy (or work) per unit charge, and current indicates how many charges pass through per second. So, power measures how quickly energy (or work) is done in a circuit.
