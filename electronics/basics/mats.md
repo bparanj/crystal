@@ -1,3 +1,13 @@
+Soldering mat and an ESD (Electrostatic Discharge) mat are different.
+
+Soldering Mat
+
+A soldering mat protects work surface from heat damage and solder splashes. It is used when soldering electronic components. They are made from heat-resistant materials like silicone which can withstand high temperatures without burning, melting or sticking.
+
+
+
+
+
 No, a soldering mat and an ESD (Electrostatic Discharge) mat are not the same, although they can sometimes serve overlapping purposes, especially in electronics work.
 
 ### Differences Between Soldering Mat and ESD Mat
