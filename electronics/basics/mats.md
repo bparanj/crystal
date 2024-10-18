@@ -4,8 +4,17 @@ Soldering Mat
 
 A soldering mat protects work surface from heat damage and solder splashes. It is used when soldering electronic components. They are made from heat-resistant materials like silicone which can withstand high temperatures without burning, melting or sticking.
 
+They have have compartments to hold small components, screws or tools. They may be marked with grids for measurement or placement guides.
 
+ESD Mat
 
+An ESD mat is designed to dissipate static electricity. It prevents static discharge from damaging sensitive electronic components. It is used when working with electronic devices to avoid electrostatic discharge.
+
+They are made from materials like conductive rubber or vinyl. These materials allow static electricity to safely discharge through a grounding point.
+
+what is grounding point? goes here.
+
+They are connected to a grounding wire or point to safely discharge static electricity. They are not heat resistant.
 
 
 No, a soldering mat and an ESD (Electrostatic Discharge) mat are not the same, although they can sometimes serve overlapping purposes, especially in electronics work.

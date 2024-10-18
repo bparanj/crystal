@@ -1,3 +1,9 @@
+A push button makes contact only when pressed and disconnects when released. This is used when momentary activation is needes such as resetting a device, doorbell or keyboards.
+
+A slide switch stays in either on or off position. This is used when you want to turn a device on or off, like a lamp switch.
+
+
+
 We use both **push buttons** and **slide switches** in electronic circuits because they serve **different functions and interaction styles**:
 
 1. **Push Button**:

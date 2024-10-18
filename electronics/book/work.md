@@ -1,4 +1,14 @@
 
+Let us consider the example of lifting an apple. Let us assume it weighs 100 grams. The force of gravity on the apple is approximately 1 newton because 1 newton is roughly the force needed to hold a 100-gram object.
+
+When you lift the apple 1 meter straight up from the ground, the work done (in joules) to lift the apple is calculated as:
+
+...
+
+Lifting an apple 1 meter requires 1 joule of energy. 1 joule of energy is required to lift an apple weighing 100 grams 1 meter in the air.
+
+
+
 ## Lifting an Apple
 
 Consider the example of lifting an **apple**.
@@ -6,7 +16,7 @@ Consider the example of lifting an **apple**.
 ### Example:
 - A typical apple weighs about **100 grams** or **0.1 kg**.
 - The force of gravity on the apple is approximately **1 newton** (because \( 1 \, \text{N} \) is roughly the force needed to hold a 100-gram object).
-  
+
 Now, imagine you lift the apple **1 meter** straight up from the ground.
 
 ### Work Done:
@@ -20,13 +30,26 @@ Lifting an apple **1 meter** requires **1 joule** of energy. In other words, **1
 
 This simple action makes the concept of a joule more tangible: it represents a small but real amount of work that can be easily visualized.
 
+
+Let us consider moving a box that weighs 1 lb, what is the work done in lifting the box?
+
+1 joule is defined as the amount of work done when a force of 1 newton moves an object 1 meter.
+
+First, convert the weight of the box from pounds to newtons (N). 1 lb = 4.448 N. So 1 lb box exerts a force of approximately 4.448 newtons due to gravity.
+
+If you lift the box 1 meter off the ground, the force required to lift this box is 4.448 newtons due to gravity. The work done in joules:
+
+...
+
+
+
 ## Carrying a Box
 
 To explain the **joules** unit using the example of moving a box that weighs **1 lb**, we can relate it to the **work** done by the person in lifting the box.
 
 ### Understanding Joules:
 - **1 joule** is defined as the amount of work done when a force of **1 newton** moves an object **1 meter**.
-- Work is calculated as:  
+- Work is calculated as:
   \[
   \text{Work} (Joules) = \text{Force} \times \text{Distance}
   \]
@@ -52,7 +75,7 @@ In this case, the person performs **4.448 joules** of work to lift the 1 lb box 
 In electronics, *power* and *work* are closely related through the concept of energy transfer.
 
 1. **Work** refers to the energy transferred when a force acts over a distance. In electronics, this is the energy needed to move electric charges through a circuit.
-   
+
 2. **Power** is the rate at which this work is done, or energy is transferred. It's the amount of energy used per unit of time.
 
 The relationship can be summarized with the formula:

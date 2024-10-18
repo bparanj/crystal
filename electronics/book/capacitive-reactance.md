@@ -14,3 +14,5 @@ where:
 - **AC vs. DC**: In DC circuits (where \( f = 0 \)), capacitive reactance is infinite, effectively blocking current. In AC circuits, the capacitor allows current to flow based on the reactance value.
 
 Capacitive reactance plays a key role in controlling AC current flow in circuits with capacitors.
+
+- Why does high-frequency signals pass through a capacitor more easily than low-frequency ones?

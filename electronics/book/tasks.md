@@ -26,4 +26,5 @@ Scope
 - Discrete components
 - 90% practical, 10% theory
 - No discussion of topics not in Tinkercad basic section
-
+- Basics of physics in the context of electronics
+- Basics of TRIZ in the context of electronics

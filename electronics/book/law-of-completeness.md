@@ -7,9 +7,11 @@ In the context of a simple electronic circuit with a battery, resistor, and LED:
 3. **Working Unit (LED):** The LED is the primary component that performs the intended function—emitting light when current flows through it.
 4. **Control Unit (Circuit Path):** The circuit path (wiring) and connections control the direction of current flow, ensuring the energy moves through each component in sequence.
 
+How is the circuit path a control unit?
+
 By having all these elements, the circuit completes a functional system as defined by TRIZ. The battery powers the LED, the resistor regulates the current to protect the LED, and the wiring controls the flow, allowing the LED to perform its task effectively.
 
-
+Why is the wiring not the transmission?
 
 Let's examine the electronic circuit consisting of a battery, resistor, and LED through the lens of the Law of System Completeness from TRIZ (Theory of Inventive Problem Solving). This law states that a complete technical system should have four essential parts: an engine, a transmission, a working unit, and a control unit. Let's break down our circuit in this context:
 
@@ -18,6 +20,8 @@ Now, let's analyze each component of the circuit in terms of the Law of System C
 1. Engine (Energy Source): The battery
    - Function: Provides the electrical energy to power the system
    - In TRIZ terms: This is the engine or energy source of the system
+
+   Is engine and energy source the same?
 
 2. Transmission: The resistor
    - Function: Controls the flow of current in the circuit
@@ -31,8 +35,12 @@ Now, let's analyze each component of the circuit in terms of the Law of System C
    - In a simple circuit like this, there's no separate control unit
    - The resistor partly serves a control function by limiting current
 
+   If you use a switch. Does it become a control unit?
+
 5. Interface: The wires connecting components
    - While not one of the four main parts in the Law of System Completeness, the wires serve as interfaces between components
+
+   Why is wire an interface. This seems wrong. It is more like transmission.
 
 This circuit demonstrates most elements of a complete technical system according to TRIZ:
 
