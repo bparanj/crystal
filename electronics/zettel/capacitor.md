@@ -1,3 +1,12 @@
+The term "capacitor" comes from the Latin word *capacitas*, meaning "capacity" or "ability to hold." A capacitor is a device that has the ability to "hold" or store electric charge. 
+
+The name reflects its primary function: storing electrical energy in the form of an electric field between two conductive plates separated by an insulating material (dielectric). When connected to a power source, the capacitor accumulates and stores charge, which it can release when needed. 
+
+Initially, capacitors were called **condensers**, derived from the Latin *condensare*, meaning "to condense," as they were thought to "condense" the electric charge. The term "capacitor" became more common over time as its ability to store charge was emphasized.
+
+Capacitors are electronic components that store electrical energy as electrical energy in the form of an electric field. They can release this stored energy when needed in a circuit.
+
+
 
 ---
 

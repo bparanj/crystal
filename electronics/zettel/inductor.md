@@ -1,3 +1,6 @@
+The term "inductor" comes from the word "induce," which originates from the Latin word *inducere*, meaning "to lead into" or "bring in." 
+
+In the context of electrical engineering, an inductor "induces" an electromotive force (EMF) in a circuit when the current flowing through it changes. This phenomenon is described by **Faraday's Law of Induction**, where a changing magnetic field within a coil of wire generates an induced voltage. The term "inductor" reflects this ability to induce voltage and oppose changes in current flow through electromagnetic effects.
 
 ### Overview:  
 An **inductor** is a passive electronic component that stores energy in a magnetic field when electrical current flows through it. Inductors oppose changes in current and are used in filtering, energy storage, and tuning circuits. The amount of inductance depends on factors such as the coil’s number of turns, the core material, and the shape and size of the coil.

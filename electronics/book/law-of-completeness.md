@@ -51,3 +51,34 @@ This circuit demonstrates most elements of a complete technical system according
 However, it lacks a dedicated control unit, which in more complex circuits might be represented by a switch or a microcontroller. This simplicity makes the circuit reliable and efficient for its purpose, but also limits its functionality.
 
 Understanding this circuit through the Law of System Completeness can help in identifying potential areas for improvement or innovation, such as adding control elements or optimizing the interaction between components.
+
+The Law of System Completeness in TRIZ states that for a technical system to function, it needs at least four essential components:
+
+1. **Engine** (energy source),
+2. **Transmission** (element that carries the energy),
+3. **Working Unit** (where the action occurs),
+4. **Control** (something that regulates the action).
+
+Let’s map these to a simple circuit with a battery, resistor, push button, and LED.
+
+### Circuit Components:
+
+1. **Battery (Engine)**: The battery supplies energy to the circuit, fulfilling the role of the “Engine” in the TRIZ system.
+
+2. **Resistor (Transmission)**: The resistor controls the current, ensuring it flows at a safe level for the LED. In TRIZ, this acts as the “Transmission” by adjusting the energy flow to avoid damaging the working unit (LED).
+
+3. **Push Button (Control)**: The push button allows the user to control when the LED turns on. In TRIZ terms, this is the “Control” component, allowing regulation of the system's operation.
+
+4. **LED (Working Unit)**: The LED is the “Working Unit,” where the intended action—light production—takes place when the system is activated.
+
+### Application of the Law of System Completeness
+
+According to the Law of System Completeness, each component plays a critical role, and the system wouldn’t function as intended if any one component was missing:
+
+- Without the **Battery**, there’s no power source.
+- Without the **Resistor**, the LED could burn out due to excessive current.
+- Without the **Push Button**, the LED would stay on continuously (if directly connected) or wouldn’t turn on at all (if open).
+- Without the **LED**, there’s no visible output of the system's function.
+
+This basic circuit illustrates how a complete system requires all essential components to work cohesively for the system to perform its intended function.
+
