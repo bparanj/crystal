@@ -41,7 +41,7 @@ If you lift the box 1 meter off the ground, the force required to lift this box 
 
 ...
 
-
+The following is still pending. reduce it.
 
 ## Carrying a Box
 

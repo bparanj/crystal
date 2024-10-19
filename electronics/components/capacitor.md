@@ -11,9 +11,8 @@ Batteries:
 3. Typically charge and discharge more slowly than capacitors.
 4. Can store more energy than capacitors of similar size.
 
-The correct statement about capacitors would be:
 
-"A capacitor stores electrical energy as an electric field and can release it as electrical energy later."
+A capacitor stores electrical energy as an electric field and can release it as electrical energy later.
 
 This storage occurs between two conductive plates separated by an insulating material (dielectric). When a voltage is applied, positive charge accumulates on one plate and negative charge on the other, creating an electric field. This field represents the stored energy, which can be released when the capacitor is discharged.
 
@@ -22,6 +21,8 @@ A capacitor is a passive electronic component that stores electrical energy in a
 1. Energy storage: Capacitors can store and release electrical energy quickly. They are used in power supplies, flash units in cameras, and backup power systems.
 
 2. Filtering: Capacitors can filter out unwanted AC signals while allowing DC signals to pass. They are used in power supply circuits to reduce ripple and noise.
+
+What is a simple filter circuit that can demonstrate this concept.
 
 3. Coupling: Capacitors can block DC signals while allowing AC signals to pass. This is useful for coupling amplifier stages or separating DC bias from AC signals.
 
