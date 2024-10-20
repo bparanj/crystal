@@ -31,10 +31,10 @@ Create Simulation
 
 Refer the links. Run simulation. Take screenshots of every step in the simulation
 
-10. Inductor (Demo: https://www.tinkercad.com/things/jw2rfdSUsWg-inductordemonstration)
-11. Variable Capacitor (LC Tuning Circuit) (LC - Inductor-Capacitor) https://www.tinkercad.com/things/bNBojeH8c6s-frequency-generator
+11. Inductor (Demo: https://www.tinkercad.com/things/jw2rfdSUsWg-inductordemonstration)
+12. Variable Capacitor (LC Tuning Circuit) (LC - Inductor-Capacitor) https://www.tinkercad.com/things/bNBojeH8c6s-frequency-generator
 		This should go after experiment #8.
-12. Polarized Capacitor (see components/polarized-capacitor) https://www.tinkercad.com/things/6Z4EWNufnXG-polarized-capacitor
+13. Polarized Capacitor (see components/polarized-capacitor) https://www.tinkercad.com/things/6Z4EWNufnXG-polarized-capacitor
 
 Experiment #1:
 
