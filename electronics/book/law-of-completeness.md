@@ -81,4 +81,3 @@ According to the Law of System Completeness, each component plays a critical rol
 - Without the **LED**, there’s no visible output of the system's function.
 
 This basic circuit illustrates how a complete system requires all essential components to work cohesively for the system to perform its intended function.
-

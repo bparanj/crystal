@@ -17,3 +17,16 @@ In electronics, the concepts of energy, frequency, and vibration relate primaril
    - **Piezoelectric Effect**: Some materials (like piezoelectric crystals) convert mechanical vibrations into electrical signals and vice versa, which is useful in sensors and actuators.
 
 These concepts are interconnected in electronic devices, especially in oscillators, resonators, and communication systems where energy conversion, frequency tuning, and signal propagation are key.
+
+The word that ties together the concepts of **energy, frequency, and vibration** is **"resonance."**
+
+Here's how resonance connects these ideas:
+
+1. **Energy**: Resonance involves the efficient transfer or buildup of energy within a system, such as an electrical circuit, mechanical structure, or even sound waves.
+   
+2. **Frequency**: Resonance occurs at a specific **natural frequency**, where the system vibrates or oscillates with maximum amplitude due to the energy input matching the system's inherent frequency.
+
+3. **Vibration**: Resonance amplifies vibrations or oscillations in a system. At resonance, even small external forces can cause large vibrations or movements in mechanical and electronic systems.
+
+In summary, resonance is a key concept in physics and engineering that represents the interaction of energy, frequency, and vibration, leading to amplified effects at a specific frequency.
+
