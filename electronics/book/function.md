@@ -8,8 +8,8 @@ In TRIZ, the **Object-Tool-Function** model helps identify and define the relati
 
 For a resistor in an electronic circuit, let’s apply this model:
 
-- **Tool**: The resistor itself acts as the tool, as it influences the current in the circuit.
-  
+- **Tool**: The resistor acts as the tool, as it influences the current in the circuit.
+
 - **Object**: The current or voltage that flows through the circuit becomes the “object” influenced by the resistor.
 
 - **Function**: The resistor limits or regulates the current flow, preventing other components (e.g., LEDs, transistors) from damage. This regulation is the resistor's function in the circuit.
@@ -21,6 +21,8 @@ For a resistor in an electronic circuit, let’s apply this model:
 - **Function (Regulation)**: Controls the amount of current, ensuring it stays within safe levels.
 
 By applying this model, we see the resistor’s role more clearly: it’s not merely a component but a “tool” used to fulfill a critical function (regulation) to achieve stability and safety within an electronic circuit. This perspective helps analyze and optimize designs by examining how well each component’s function aligns with system needs.
+
+## Work Done vs Function
 
 In TRIZ, the term **function** refers broadly to any intended action or purpose a component performs within a system. This isn’t exactly the same as "work done by using energy," though it’s related.
 

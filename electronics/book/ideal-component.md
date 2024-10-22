@@ -1,10 +1,12 @@
-From the perspective of TRIZ (Theory of Inventive Problem Solving), an ideal resistor would embody the concept of *Ideality*, where the system delivers the maximum useful function with minimal drawbacks or resources. 
+## Ideal Resistor
 
-In the context of resistors:
+From the perspective of TRIZ (Theory of Inventive Problem Solving), an ideal resistor would embody the concept of *Ideality*, where the system delivers the maximum useful function with minimal drawbacks or resources.
+
 - **Useful function**: A resistor's primary function is to limit current in a circuit while ensuring proper voltage division.
 - **Harmful effects**: Real resistors generate heat, consume power, and have limitations like tolerance variations, aging, and noise.
 
 An ideal resistor in TRIZ terms would:
+
 - Perform the function of resistance without generating heat or wasting power.
 - Have zero tolerance (i.e., perfect precision in resistance value).
 - Be durable, with no degradation over time or due to environmental conditions.
@@ -13,9 +15,12 @@ An ideal resistor in TRIZ terms would:
 
 This aligns with the TRIZ ideality principle of maximizing the benefits while minimizing the negative effects or resources used.
 
+## Ideal Capacitor
+
 From a TRIZ perspective, an ideal capacitor would follow the principle of *Ideality*, where it provides its desired function while minimizing any negative side effects or resource use.
 
 For a capacitor, the ideal characteristics would be:
+
 - **Primary function**: Store and release energy efficiently.
 - **Harmful effects**: Real capacitors have limitations such as leakage currents, equivalent series resistance (ESR), finite lifespan, and size constraints.
 
@@ -29,13 +34,18 @@ An ideal capacitor in TRIZ terms would:
 
 This ideal capacitor maximizes the useful function while minimizing the negative effects, following the TRIZ approach of solving technical contradictions.
 
+## Ideal Inductor
+
 From a TRIZ perspective, an ideal inductor would be designed according to the principle of *Ideality*, which seeks to maximize useful functions while minimizing negative effects, resources, and complexities.
 
 For an inductor, the key considerations are:
-- **Primary function**: Store energy in a magnetic field and oppose changes in current.
-- **Harmful effects**: Real inductors have limitations like energy loss due to resistance (in the form of heat), core saturation, size constraints, and electromagnetic interference (EMI).
+
+The primary function of an inductor is to store energy in a magnetic field and oppose changes in current.
+
+The harmful effects of real inductors are limitations like energy loss due to resistance (in the form of heat), core saturation, size constraints, and electromagnetic interference (EMI).
 
 An ideal inductor, according to TRIZ, would:
+
 - Store and release magnetic energy without any resistive losses or heat generation (zero winding resistance).
 - Be immune to core saturation, meaning it could handle any current level without performance degradation.
 - Have zero electromagnetic interference (EMI), meaning it doesn't radiate noise or affect nearby components.
@@ -45,13 +55,18 @@ An ideal inductor, according to TRIZ, would:
 
 This ideal inductor aligns with TRIZ's objective of delivering the desired function (inductance) while eliminating the harmful effects (heat, EMI, size, material use) and achieving a perfect system.
 
+## Ideal Diode
+
 From the TRIZ perspective, an ideal diode would follow the principle of *Ideality*, which aims to deliver maximum useful function with minimal negative effects, resource use, or complexity.
 
 For a diode, the key considerations are:
-- **Primary function**: Allow current to flow in one direction (forward) while blocking it in the reverse direction.
-- **Harmful effects**: Real diodes have limitations such as forward voltage drop, reverse leakage current, switching delays, and heat generation.
+
+The primary function is to allow current to flow in one direction (forward) while blocking it in the reverse direction.
+
+The harmful effects of real diodes are limitations such as forward voltage drop, reverse leakage current, switching delays, and heat generation.
 
 An ideal diode in TRIZ terms would:
+
 - Allow current to flow in one direction with no forward voltage drop, meaning there is no energy loss when conducting.
 - Block reverse current perfectly, with zero reverse leakage current, regardless of voltage levels.
 - Switch instantly between conducting and non-conducting states, eliminating any delays or switching losses.
@@ -61,6 +76,8 @@ An ideal diode in TRIZ terms would:
 - Be manufactured with minimal cost and resource use, using materials that are easy to obtain and eco-friendly.
 
 This ideal diode would achieve the goal of delivering the essential function (unidirectional current flow) while eliminating or minimizing all negative factors, aligning with TRIZ's concept of ideality.
+
+## Ideal Power Source
 
 From the TRIZ perspective, an ideal power source would embody the principle of *Ideality*, providing the necessary energy with maximum efficiency and minimal negative effects, resource consumption, or complexity.
 

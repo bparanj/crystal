@@ -1,4 +1,5 @@
 - Draw circuit diagram by hand for each experiment
+- What problem does thyristor solve?
 - Create diagrams for mats.md
 - Refer experiments.md to create the simulations for experiment 10, 11 and 12.
 - Work backwards from experiments
@@ -28,3 +29,12 @@ Scope
 - No discussion of topics not in Tinkercad basic section
 - Basics of physics in the context of electronics
 - Basics of TRIZ in the context of electronics
+
+
+Author
+
+- Design experiments
+- Sequence of experiments
+- Insights from basic principles
+- Using innovation in the context of electronics
+

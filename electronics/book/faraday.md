@@ -1,4 +1,6 @@
-The Faraday unit (symbol: F) is a unit of electric charge, used mainly in electrochemistry. It represents the amount of charge carried by one mole of electrons. Here's how you can visualize it:
+The Faraday unit (symbol: F) is a unit of electric charge, used mainly in electrochemistry. It represents the amount of charge carried by one mole of electrons.
+
+## Visualizing Faraday Unit
 
 1. **Electrons Transferred in Chemical Reactions**:
    - One faraday equals approximately 96,485 coulombs. This is the total charge carried by 6.022 × 10²³ electrons (Avogadro's number). Imagine an immense number of electrons moving through a circuit or involved in a chemical reaction—enough to plate out one mole of metal ions, such as copper, from a solution in an electroplating process.

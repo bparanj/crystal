@@ -1,4 +1,4 @@
-In electronics, the concepts of energy, frequency, and vibration relate primarily to the behavior of signals, circuits, and components. Here's a basic breakdown:
+In electronics, the concepts of energy, frequency, and vibration relate to the behavior of signals, circuits, and components.
 
 1. **Energy**:
    - **Electrical Energy**: In electronics, energy is the capacity to do work and is carried by electric current (moving electrons). It’s usually measured in **joules** or **watt-hours**.
@@ -23,7 +23,7 @@ The word that ties together the concepts of **energy, frequency, and vibration**
 Here's how resonance connects these ideas:
 
 1. **Energy**: Resonance involves the efficient transfer or buildup of energy within a system, such as an electrical circuit, mechanical structure, or even sound waves.
-   
+
 2. **Frequency**: Resonance occurs at a specific **natural frequency**, where the system vibrates or oscillates with maximum amplitude due to the energy input matching the system's inherent frequency.
 
 3. **Vibration**: Resonance amplifies vibrations or oscillations in a system. At resonance, even small external forces can cause large vibrations or movements in mechanical and electronic systems.
