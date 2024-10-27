@@ -154,3 +154,48 @@ In a simple circuit with an LED and a microcontroller:
 ### Conclusion
 
 Managing the current and voltage for each component in a circuit is crucial for ensuring that the circuit operates correctly, safely, and reliably. Proper design and the use of regulating components are essential.
+
+Yes, that's correct. A **resistor** controls the current in a circuit, and this control also results in a **voltage drop** across the resistor. This relationship is described by **Ohm's Law**, which states:
+
+\[
+V = I \cdot R
+\]
+
+### Breakdown:
+- \( V \) is the voltage drop across the resistor.
+- \( I \) is the current flowing through the resistor.
+- \( R \) is the resistance value (in ohms).
+
+### Key Points:
+1. **Current Control**:
+   - A resistor limits the flow of current in a circuit. For a given applied voltage, increasing the resistance will decrease the current, and decreasing the resistance will increase the current.
+
+2. **Voltage Drop**:
+   - The voltage drop across a resistor is directly proportional to the current flowing through it, assuming the resistance value is constant. As current increases, the voltage drop across the resistor increases, and vice versa.
+   - This means if you measure the voltage across a resistor in a circuit, you’ll see a voltage drop that depends on the current and the resistor value.
+
+3. **Direct Proportionality**:
+   - Since the resistor’s value (\( R \)) is constant, **if the current (\( I \)) increases, the voltage drop (\( V \)) also increases proportionally**. This is why controlling current through a resistor also affects the voltage.
+
+In summary, a resistor not only controls current but also results in a voltage drop because of this direct relationship between current and voltage when resistance is fixed.
+
+Yes, the relationship between voltage and current across a **resistor** is a **linear relationship**, as described by **Ohm's Law**:
+
+\[
+V = I \cdot R
+\]
+
+### Why It's Linear:
+- In this equation, \(V\) (voltage) is directly proportional to \(I\) (current), with \(R\) (resistance) being a constant. This means if you plot **voltage** on the y-axis and **current** on the x-axis, the result is a straight line, where the slope of the line is the resistance \(R\).
+
+### Characteristics of a Linear Relationship:
+- **Proportionality**: For a fixed resistance, doubling the current will double the voltage drop across the resistor. Similarly, halving the current will halve the voltage drop.
+- **Straight Line**: The voltage-current graph for a resistor will always be a straight line through the origin, with the slope representing the resistance value.
+
+### Exceptions:
+- This linear relationship holds true for **ohmic devices**, like resistors, where the resistance remains constant regardless of the applied voltage or current.
+- In **non-ohmic devices** (such as diodes or transistors), the voltage-current relationship is **non-linear**, meaning the current does not change proportionally with voltage.
+
+For resistors, though, the voltage-current relationship is indeed linear.
+
+Create a table for voltage, current and keep resistor value constant to show the linear relationship
