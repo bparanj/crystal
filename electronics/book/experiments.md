@@ -50,36 +50,3 @@ In normal operation, a resistor provides a specific resistance to limit current 
 
 Other components, such as **fuses**, **inductors**, and certain **semiconductors** (e.g., transistors), can also fail as open circuits under specific conditions. However, resistors are frequently associated with open-circuit failures in electronics.
 
-## Missing Capacitor Experiment
-
-A simple experiment to demonstrate the problem caused by not using a **capacitor** involves using an **LED** with a **switch** connected to a DC power supply. This setup shows how **capacitors help stabilize voltage** and prevent flickering or noise in circuits.
-
-### Materials:
-- **LED**
-- **Resistor** (e.g., 220Ω to protect the LED)
-- **Switch** (push button or slide switch)
-- **Power supply** (e.g., 5V battery or DC source)
-- **Capacitor** (e.g., 100 µF electrolytic capacitor)
-- Connecting wires
-
-### Steps:
-
-1. **Build the Circuit Without a Capacitor**:
-   - Connect the LED in series with the resistor and switch to the power supply.
-   - The circuit should be: **Power supply -> Resistor -> LED -> Switch -> Power supply**.
-
-2. **Operate the Switch**:
-   - Toggle the switch on and off quickly. Observe the LED as you repeatedly switch the power.
-
-3. **Observe Flickering**:
-   - Without a capacitor, the LED may flicker or blink slightly as you toggle the switch. This happens because there is no smoothing component to stabilize the voltage fluctuations.
-
-4. **Add a Capacitor and Repeat**:
-   - Connect the capacitor in parallel with the LED and resistor (positive side to positive supply, negative side to ground).
-   - Toggle the switch on and off as before, but now observe how the LED behaves with the capacitor in place.
-
-5. **Observe the Stabilizing Effect**:
-   - With the capacitor, the LED will remain stable, and any flickering or noise will be reduced. The capacitor smooths out the fluctuations by temporarily storing and releasing energy as needed.
-
-### Explanation:
-Without a capacitor, quick voltage changes can cause flickering, especially in circuits with sensitive components. Adding a capacitor acts as a **voltage stabilizer**, storing charge to maintain a steady output, which prevents flickering and ensures smooth operation. This experiment demonstrates the capacitor's role in **smoothing out voltage fluctuations** in circuits.
