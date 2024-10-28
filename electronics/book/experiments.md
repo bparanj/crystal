@@ -1,4 +1,4 @@
-Progmatic Electronics
+Pragmatic Electronics
 
 Foundations through Experimentation
 
