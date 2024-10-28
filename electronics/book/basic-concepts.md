@@ -10,9 +10,9 @@ Here are the basic concepts in electronics:
 
 5. **Power (P)**: The rate at which electrical energy is consumed or produced, measured in watts (W). It is calculated as \( P = V \times I \).
 
-6. **Capacitance (C)**: The ability of a component (capacitor) to store electrical energy in an electric field, measured in farads (F).
+6. **Capacitance (C)**: The ability of a capacitor to store electrical energy in an electric field, measured in farads (F).
 
-7. **Inductance (L)**: The ability of a component (inductor) to store energy in a magnetic field, measured in henrys (H).
+7. **Inductance (L)**: The ability of an inductor to store energy in a magnetic field, measured in henrys (H).
 
 8. **Charge (Q)**: The fundamental property of particles that causes them to experience a force in an electric field, measured in coulombs (C).
 

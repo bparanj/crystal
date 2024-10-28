@@ -21,6 +21,13 @@
 - Review Zettels and extract basic level content for different chapters
 - Refer electronics encyclopedia book and note down categorization
 
+- need circuit diagram for inductor, led circuit, short circuit
+
+
+PENDING
+
+- Where does semiconductor fall in good conductor, insulator spectrum?
+
 Scope
 
 - No discussuion of any laws (only basic high level principles)
