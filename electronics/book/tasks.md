@@ -1,4 +1,6 @@
 - Draw circuit diagram by hand for each experiment
+- Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
+- Redo LED circuit Tinkercad simulation
 - What problem does thyristor solve?
 - Create diagrams for mats.md
 - Refer experiments.md to create the simulations for experiment 10, 11 and 12.
