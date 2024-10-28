@@ -3,6 +3,8 @@ The name **"transistor"** is a combination of two words:
 - **"transfer"** and
 - **"resistor."**
 
+What does modulate the flow mean?
+
 The name reflects the device's function of transferring or controlling the flow of electrical current between two points in a circuit while also having the ability to resist or modulate that flow. Reasoning behind the name:
 
 ### 1. **Transfer**:
@@ -52,6 +54,10 @@ A transistor acts like a switch by controlling the flow of current between two t
 
 Here are three simple experiments designed to demonstrate the basics of transistors,  their switching and amplification properties:
 
+PENDING
+
+- Is this experiment already in the Tinkercad simulation and covered in the current experiment?
+
 ### 1. **Experiment 1: Transistor as a Switch**
 **Objective**: Demonstrate how a transistor can be used as a switch to control a light bulb or LED.
 
@@ -63,18 +69,16 @@ Here are three simple experiments designed to demonstrate the basics of transist
 - Switch
 - Wires for connections
 
-**Procedure**:
-1. **Set Up the Circuit**:
+**Set Up the Circuit**:
    - Connect the collector of the NPN transistor to the positive terminal of the battery through the LED (with a series resistor if needed).
    - Connect the emitter directly to the negative terminal of the battery.
    - Connect the base of the transistor to the positive terminal of the battery through the 1 kΩ resistor.
    - Place the switch in series with the base resistor.
 
-2. **Operation**:
+**Operation**:
    - When the switch is open, no current flows to the base of the transistor, so the LED remains off.
    - When the switch is closed, a small current flows into the base, allowing a larger current to flow from the collector to the emitter, lighting up the LED.
 
-3. **Explain**:
    - This experiment shows how a small current at the base of the transistor can control a larger current flowing through the collector-emitter path, effectively acting as a switch.
 
 ### 2. **Experiment 2: Transistor as an Amplifier**

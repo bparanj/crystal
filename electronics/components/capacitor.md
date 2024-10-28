@@ -124,7 +124,7 @@ Capacitors serve several functions in electronic circuits:
 
 Capacitors serve a wide range of functions from energy storage to signal filtering and timing.
 
-Capacitors solve a variety of problems in electronic circuits by performing several crucial functions. Here are the key issues they address:
+Capacitors solve a variety of problems in electronic circuits by performing several functions. Here are the issues they address:
 
 ### 1. **Energy Storage and Release**
 **Problem**: Inconsistent power supply and energy demands.
@@ -176,7 +176,7 @@ Supply voltage can drop for several reasons, affecting the performance and stabi
 
 By understanding these causes and implementing appropriate solutions, you can minimize supply voltage drops in electronic circuits.
 
-Here are three simple experiments designed to illustrate the concept of **capacitance** and how it behaves in electrical circuits:
+Here are three experiments designed to illustrate the concept of **capacitance** and how it behaves in electrical circuits:
 
 ### 1. **Experiment 1: Charging and Discharging a Capacitor**
 **Objective**: Demonstrate the charging and discharging process of a capacitor and how it stores electrical energy.

@@ -1,18 +1,23 @@
+
+Electric current is flow of electrons.
+
 In electronics, the concepts of energy, frequency, and vibration relate to the behavior of signals, circuits, and components.
 
 1. **Energy**:
-   - **Electrical Energy**: In electronics, energy is the capacity to do work and is carried by electric current (moving electrons). It’s usually measured in **joules** or **watt-hours**.
+   - **Electrical Energy**: In electronics, energy is the capacity to do work and is carried by electric current. It’s measured in **joules** or **watt-hours**.
    - **Power (P)**: Power is the rate at which energy is used or transferred in a circuit, measured in **watts (W)**. It is related to energy as \(P = \frac{E}{t}\), where \(E\) is energy in joules and \(t\) is time in seconds.
    - **Voltage (V)**: Voltage represents the potential energy per unit charge, acting as a "force" pushing electrons through a circuit.
-   - **Current (I)**: This is the flow of electrical energy (or electrons) in a circuit, measured in **amperes (A)**.
+   - **Current (I)**: This is the flow of electrical energy in a circuit, measured in **amperes (A)**.
 
 2. **Frequency**:
-   - **Alternating Current (AC)**: Frequency is critical in AC circuits and represents the number of cycles of a wave that occur per second, measured in **hertz (Hz)**.
+   - **Alternating Current (AC)**: Frequency in AC circuits represents the number of cycles of a wave that occur per second. It is measured in **hertz (Hz)**.
    - **Signal Frequency**: In electronics, frequency often refers to the rate at which a signal oscillates. Higher frequencies are used in radio, wireless communication, and digital signals.
    - **Resonance**: Components like capacitors and inductors in circuits can resonate at a specific frequency, where the energy exchange between them is maximized. This is key in filters and oscillators.
 
+What does resonate mean when you say capacitors and inductorsin circuits resonate at a specific frequency. How can we visualize this concept? Design an experiment to demonstrate this concept.
+
 3. **Vibration**:
-   - **Mechanical Vibration in Devices**: While not purely electrical, some electronic components, like quartz crystals, use mechanical vibrations to maintain a stable frequency (used in clocks and oscillators).
+   - **Mechanical Vibration in Devices**: Some electronic components, like quartz crystals, use mechanical vibrations to maintain a stable frequency. This is used in clocks and oscillators.
    - **Electromagnetic Waves**: In circuits and communication systems, electromagnetic waves can propagate vibrations at specific frequencies, which are used for signal transmission (like radio waves).
    - **Piezoelectric Effect**: Some materials (like piezoelectric crystals) convert mechanical vibrations into electrical signals and vice versa, which is useful in sensors and actuators.
 

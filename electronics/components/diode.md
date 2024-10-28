@@ -1,5 +1,7 @@
 A **diode** can be thought of as a type of electronic **switch** with specific characteristics. Here's how a diode functions similarly to a switch:
 
+Explain forward bias without adding anything else. What is forward bias? What electronic components can we forward bias?
+
 ### 1. **Directional Current Flow**:
    - **Forward Bias (Switch "On")**: When a diode is forward-biased (positive voltage applied to the anode and negative to the cathode), it allows current to flow through it. This is similar to closing a switch, which allows current to pass through a circuit.
    - **Reverse Bias (Switch "Off")**: When a diode is reverse-biased (positive voltage applied to the cathode and negative to the anode), it blocks current from flowing, just like an open switch that prevents current flow.
@@ -17,6 +19,8 @@ This needs a variable power supply to demonstrate.
 ### 4. **Application as a Switch**:
    - **Rectification**: In power supplies, diodes are used to switch AC (alternating current) to DC (direct current), effectively allowing current to flow in only one direction, similar to a switch.
    - **Signal Clipping/Clamping**: Diodes are used to "switch off" parts of a signal that exceed a certain voltage, acting like a switch that limits or redirects excess voltage.
+
+Need diagrams for rectification and clipping.
 
 ### Differences from a Mechanical Switch:
    - **No Moving Parts**: A diode has no physical moving parts, unlike a mechanical switch.
@@ -48,7 +52,7 @@ When a **diode** is missing from a circuit, problems can arise if there is a nee
 
 3. **Flyback Protection**: In circuits with inductive loads (e.g., motors, relays), sudden current changes cause voltage spikes (back EMF) that can damage other components. A diode across the inductive load (called a **flyback diode**) absorbs these spikes, protecting the circuit.
 
-Without a diode in these cases, the circuit can experience **component damage**, **ineffective power conversion**, or **voltage spikes** that lead to malfunctions. Adding a diode in the correct orientation addresses these issues effectively.
+Without a diode in these cases, the circuit can experience **component damage**, **ineffective power conversion**, or **voltage spikes** that lead to malfunctions. Adding a diode in the correct orientation addresses these issues.
 
 A simple experiment to demonstrate the problem caused by not using a diode involves a **DC motor** connected to a power supply without a **flyback diode**. This setup shows how voltage spikes from the motor can damage other components when the diode is missing.
 

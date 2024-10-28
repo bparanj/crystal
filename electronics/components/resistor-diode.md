@@ -18,6 +18,7 @@ Differences and similarities between a **resistor** and a **diode**:
 
 This table shows the differences and similarities between resistors and diodes, providing a comparison of their characteristics and applications.
 
+PENDING
 
 - What is bias in forward bias?
 - Include diagram for linear and non-linear relationship.

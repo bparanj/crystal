@@ -1,4 +1,5 @@
 - Draw circuit diagram by hand for each experiment
+- Extract summarized content from components folder and add to each experiment explanation. Add history of the term also.
 - Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
 - Redo LED circuit Tinkercad simulation
 - What problem does thyristor solve?
