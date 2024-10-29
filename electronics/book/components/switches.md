@@ -1,6 +1,6 @@
-A push button makes contact only when pressed and disconnects when released. This is used when momentary activation is needes such as resetting a device, doorbell or keyboards.
+A push button makes contact only when pressed and disconnects when released. This is used when momentary activation is needes such as resetting a device, doorbell or keyboards. This is useful for short actions.
 
-A slide switch stays in either on or off position. This is used when you want to turn a device on or off, like a lamp switch.
+A slide switch stays in either on or off position. This is used when you want to turn a device on or off, like a lamp switch. This is for long-term actions.
 
 
 

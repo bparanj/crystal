@@ -1,3 +1,5 @@
+Is Zener diode commonly used? If not, mark this OUT OF SCOPE
+
 
 1. Child:
 A Zener diode is like a special guard for electricity. It lets electricity flow one way, but if too much tries to go the other way, it lets just enough through to keep things safe. It's like a safety valve for electrical circuits, making sure nothing gets too powerful and breaks your toys.

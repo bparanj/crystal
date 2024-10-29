@@ -1,8 +1,11 @@
-Electromotive force (EMF) can be visualized as the "pressure" that pushes electrical charges through a circuit, similar to how water pressure pushes water through a pipe. Here are a few ways to picture it:
+Electromotive force (EMF) can be visualized as the "pressure" that pushes electrical charges through a circuit, similar to how water pressure pushes water through a pipe.
 
 1. **Battery as a Water Pump**:
    - Imagine a battery as a water pump that creates a pressure difference, pushing water (analogous to electric charges) through a pipe (the circuit). The EMF is like the pressure the pump generates. In electrical terms, this pressure drives current through the circuit, even when there’s resistance.
    - For example, in a 1.5V battery, the EMF is 1.5 volts, which is the force driving the charges.
+PENDING
+
+Draw a diagram.
 
 2. **Height and Gravity Analogy**:
    - Think of EMF as the height difference between two points on a hill. A ball at the top of the hill (representing electric charge) naturally rolls down because of gravity (analogous to the force from EMF). The higher the hill (greater the EMF), the more force is available to move the ball. In an electrical circuit, EMF provides the energy to move charges through the circuit.

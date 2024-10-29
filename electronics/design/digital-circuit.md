@@ -1,4 +1,6 @@
-Digital signals represent data in binary form usin gonly two voltage levels, labeled as 0 and 1.
+OUT OF SCOPE
+
+Digital signals represent data in binary form using only two voltage levels, labeled as 0 and 1.
 
 A **digital circuit** is an electronic circuit designed to process digital signals, which are signals that represent data in binary form—using only two distinct voltage levels, labeled as "0" and "1." These circuits are the foundation of all modern digital electronics, computers, smartphones, and many other devices.
 

@@ -1,4 +1,9 @@
-A newton (N) is a unit of force, and it can be visualized using simple, physical examples of pushing or pulling objects. Here are a few ways to picture it:
+A newton (N) is a unit of force, and it can be visualized using simple, physical examples of pushing or pulling objects.
+
+
+PENDING
+
+Picky only one example from below and summarize it in concise way.
 
 1. **Lifting an Apple**:
    - A force of about 1 newton is roughly what you need to hold a small apple (weighing about 100 grams) in your hand against the pull of Earth's gravity. If you imagine lifting that apple, you're applying approximately 1 newton of upward force.

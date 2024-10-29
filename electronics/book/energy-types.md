@@ -5,12 +5,11 @@
 5. Fridge
 6. Door bell
 
-Explain these every day things and how it transfers one form of energy to another form. Be concise. Start the response with: Real world examples
-
-
 **Real-world examples of energy transformation:**
 
 1. **Iron Box**: **Electrical energy** is converted into **heat energy** as current passes through a resistive coil, heating the surface for ironing clothes.
+
+PENDING
 
 What is a resistive coil? What does it look like? Need an image.
 

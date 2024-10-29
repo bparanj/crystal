@@ -1,4 +1,4 @@
-A watt (W) is a unit of power, representing the rate of energy transfer. Here are a few ways to visualize it:
+A watt (W) is a unit of power. It represents the rate of energy transfer.
 
 1. **Light Bulbs**:
    - A 60-watt light bulb uses 60 joules of energy per second to produce light and heat. If you think about how bright a 60W bulb is, you’re seeing a direct representation of 60 watts of power being consumed continuously.

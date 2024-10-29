@@ -1,3 +1,5 @@
+OUT OF SCOPE
+
 A digital integrated circuit (IC) is a miniaturized electronic circuit fabricated on a single semiconductor chip that processes digital signals.
 
 Key characteristics:
