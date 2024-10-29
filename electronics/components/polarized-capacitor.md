@@ -41,6 +41,27 @@ Here’s a simple example of how a polarized capacitor might be used in a power 
 
 ## Experiment
 
+Refer this: https://www.youtube.com/watch?v=CVywtFTEz3I
+His channel: https://www.youtube.com/@Ohmify
+
+
+## Terms
+
+- Power Supply Filtering Circuit
+- Voltage Stabilizer
+- Noise Filter
+- Coupling Signal
+- Decoupling Signal
+- Voltage Raing
+
+PENDING
+
+Run the polarized capacitor experiment in Tinkercad. This seems to be the simplest.
+https://www.tinkercad.com/things/6Z4EWNufnXG-polarized-capacitor This is not the simplest experiment.
+
+
+Not using this:
+
 The simplest experiment to demonstrate the use of a **polarized capacitor** is by building a **basic RC (Resistor-Capacitor) charging and discharging circuit**. This setup shows how a polarized capacitor (like an electrolytic capacitor) charges and discharges in a DC circuit.
 
 ### Materials:
@@ -76,17 +97,3 @@ The simplest experiment to demonstrate the use of a **polarized capacitor** is b
 - The slow rise and fall in voltage show how the capacitor charges and discharges, with the resistor controlling the rate.
 
 This simple experiment highlights the core function of a polarized capacitor in storing and releasing electrical energy.
-
-## Terms
-
-- Power Supply Filtering Circuit
-- Voltage Stabilizer
-- Noise Filter
-- Coupling Signal
-- Decoupling Signal
-- Voltage Raing
-
-PENDING
-
-Run the polarized capacitor experiment in Tinkercad. This seems to be the simplest.
-https://www.tinkercad.com/things/6Z4EWNufnXG-polarized-capacitor This is not the simplest experiment.
