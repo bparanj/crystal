@@ -210,7 +210,6 @@ For our basic LED circuit, any of these voltages would work, but we'd need to re
     <text x="85" y="60" font-family="Arial" font-size="10">47Ω</text>
   </g>
 </svg>
-
 ```
 
 This diagram shows how the resistor value changes with different battery voltages, all driving the same LED with approximately 20mA of current.

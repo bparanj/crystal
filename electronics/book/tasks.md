@@ -1,4 +1,4 @@
-- Refer led-circuit.md and extract some content for the led experiment
+- Review Zettels and extract basic level content for different chapters
 - Modify the basic capacitor experiment by replacing the capacitor with polarized capacitor
 - Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
 - Use the polarized capacitor in a new experiment with LED to show the discharge of power from capacitor
@@ -22,7 +22,6 @@
 		- How does this circuit map to a system?
 - Refer simulation, run real experiments, take photos
 - Review instructables for hackerboxes and take notes about using breadboard. Create diagrams to illustrate the connections.
-- Review Zettels and extract basic level content for different chapters
 - Refer electronics encyclopedia book and note down categorization
 
 - need circuit diagram for inductor, led circuit, short circuit
