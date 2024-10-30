@@ -1,4 +1,8 @@
 
+PENDING
+
+- Move the experiment in this document to a new document
+
 ### 1. **Child:**
 Imagine you have a tiny flashlight and a light sensor inside a box. When you turn on the flashlight, the light shines on the sensor, and this tells another part of the box to do something, like turning on a toy. The flashlight and the sensor are inside the same box but they don’t touch each other. An optocoupler works like this—it uses light to send a signal from one side to the other without touching.
 
@@ -37,7 +41,7 @@ Yes, optocouplers (also called optical isolators) are frequently used in electro
 Key applications include:
 
 1. Signal isolation in power supplies and motor control circuits
-2. Level shifting between circuits operating at different voltages 
+2. Level shifting between circuits operating at different voltages
 3. Noise isolation in sensitive measurement circuits
 4. Protection from high voltage spikes and ground loops
 5. Digital communication between circuits with different ground references

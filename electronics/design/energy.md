@@ -1,3 +1,7 @@
+PENDING
+
+- Review this document and create concise notes
+
 energy conversion and efficiency.
 
 1. Energy Conversion in Batteries:

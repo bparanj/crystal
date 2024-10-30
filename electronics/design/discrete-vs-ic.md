@@ -1,3 +1,5 @@
+OUT OF SCOPE
+
 Discrete components, such as resistors, capacitors, inductors, diodes, and transistors, are used in electronics even when integrated circuits (ICs) can include them for several important reasons. Here’s why discrete components are still relevant and widely used:
 
 ### 1. **Flexibility in Design**:

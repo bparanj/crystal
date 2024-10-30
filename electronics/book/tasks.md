@@ -1,4 +1,8 @@
 - Review Zettels and extract basic level content for different chapters
+- Look at the passive-device.md table in browser and review.
+- Move all OUT OF SCOPE to a different folder
+- Review discrete-passive-circuit.md
+- Review and condense load.md
 - Modify the basic capacitor experiment by replacing the capacitor with polarized capacitor
 - Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
 - Use the polarized capacitor in a new experiment with LED to show the discharge of power from capacitor

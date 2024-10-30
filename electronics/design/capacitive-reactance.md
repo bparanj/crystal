@@ -17,3 +17,9 @@
 **Explanation**: Capacitive reactance (\( X_C \)) decreases with frequency (\( X_C = \frac{1}{2\pi f C} \)), causing the current to increase as the frequency increases.
 
 These experiments help visualize how inductors and capacitors react differently to changes in frequency, illustrating the concept of reactance in AC circuits.
+
+PENDING
+
+Ask Claude:
+I still don't understand how the increase in frequency is increasing the current.
+I still don't understand capacitive reactance

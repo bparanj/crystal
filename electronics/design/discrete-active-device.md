@@ -1,4 +1,4 @@
-A discrete active device is an individual electronic component that can control electric current flow and has the ability to provide power gain. Unlike passive devices, active devices can increase the power of a signal. Here's a breakdown of the key aspects:
+A discrete active device is an individual electronic component that can control electric current flow and has the ability to provide power gain. Unlike passive devices, active devices can increase the power of a signal.
 
 Need diagram for discrete.
 

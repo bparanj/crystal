@@ -1,3 +1,7 @@
+PENDING
+
+- Search youtube for this experiment
+
 ### Revised RC Circuit Experiment (for 5V battery)
 
 #### Materials:
@@ -39,26 +43,26 @@ The simplest electronic circuit to learn about capacitors is a basic RC (Resisto
   <line x1="50" y1="50" x2="50" y2="150" stroke="black" stroke-width="2"/>
   <line x1="60" y1="70" x2="60" y2="130" stroke="black" stroke-width="2"/>
   <text x="30" y="100" font-size="14">9V</text>
-  
+
   <!-- Resistor -->
   <line x1="100" y1="50" x2="130" y2="50" stroke="black" stroke-width="2"/>
   <path d="M130 50 Q140 30 150 50 Q160 70 170 50 Q180 30 190 50" fill="none" stroke="black" stroke-width="2"/>
   <line x1="190" y1="50" x2="220" y2="50" stroke="black" stroke-width="2"/>
   <text x="155" y="30" font-size="14">1kΩ</text>
-  
+
   <!-- Capacitor -->
   <line x1="220" y1="50" x2="220" y2="70" stroke="black" stroke-width="2"/>
   <line x1="200" y1="70" x2="240" y2="70" stroke="black" stroke-width="2"/>
   <line x1="200" y1="80" x2="240" y2="80" stroke="black" stroke-width="2"/>
   <line x1="220" y1="80" x2="220" y2="150" stroke="black" stroke-width="2"/>
   <text x="245" y="80" font-size="14">100µF</text>
-  
+
   <!-- Switch -->
   <circle cx="100" cy="50" r="3" fill="black"/>
   <line x1="50" y1="50" x2="97" y2="50" stroke="black" stroke-width="2"/>
   <line x1="100" y1="50" x2="120" y2="30" stroke="black" stroke-width="2"/>
   <text x="80" y="30" font-size="14">S</text>
-  
+
   <!-- Ground -->
   <line x1="50" y1="150" x2="220" y2="150" stroke="black" stroke-width="2"/>
   <line x1="125" y1="150" x2="145" y2="150" stroke="black" stroke-width="4"/>

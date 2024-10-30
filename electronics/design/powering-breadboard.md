@@ -1,3 +1,5 @@
+OUT OF SCOPE
+
 Using the power supply circuit from a Lenovo laptop to power a breadboard for electronics experiments is not advisable for several reasons:
 
 ### 1. **Voltage and Current Specifications**:

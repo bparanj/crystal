@@ -1,5 +1,9 @@
 An experiment to visualize magnetic fields using common materials:
 
+PENDING
+
+- Search for youtube video of this experiment
+
 ### Experiment: Visualizing Magnetic Fields with Iron Filings
 
 **Objective**: To observe the magnetic field lines around a magnet.

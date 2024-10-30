@@ -1,3 +1,5 @@
+OUT OF SCOPE
+
 Textbooks on electronics often delve into detailed aspects of components like resistors— materials, construction, and characteristics—because these details are crucial for a deeper understanding of how components behave in different situations. Here's why this level of detail is important:
 
 ### 1. **Understanding Performance Characteristics**:

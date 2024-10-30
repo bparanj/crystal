@@ -2,7 +2,10 @@ PENDING
 
 NEEDS DIAGRAMS
 
-- Real world seems to be naturally consist of analog signals
+What is an analog signal?
+What are the examples of analog signals?
+
+- Real world seems to be naturally consist of analog signals. Copy the response. To analog-sginals.md file.
 
 An analog device processes analog signals. Analog signals are continuous signals that can represent a wide range of values and vary smoothly over time, as opposed to digital signals, which have discrete values (representing binary states).
 

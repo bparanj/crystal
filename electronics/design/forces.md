@@ -1,3 +1,7 @@
+PENDING
+
+- Split this document into two documents: In SCOPE and OUT OF SCOPE
+
 The basic forces of nature, also known as the fundamental forces, are the four fundamental interactions that govern how particles and objects interact in the universe. They are:
 
 1. **Gravitational Force**:
@@ -5,6 +9,9 @@ The basic forces of nature, also known as the fundamental forces, are the four f
 
 2. **Electromagnetic Force**:
    - This force occurs between electrically charged particles. It is responsible for electricity, magnetism, and light, and governs the behavior of charged particles in atoms and molecules. It has an infinite range and is much stronger than gravity.
+
+
+OUT OF SCOPE
 
 3. **Strong Nuclear Force**:
    - This force binds protons and neutrons together in an atom’s nucleus. It is the strongest of the four forces but has a very short range, acting only over distances the size of an atomic nucleus (about \(10^{-15}\) meters).
