@@ -1,3 +1,6 @@
+- Modify the basic capacitor experiment by replacing the capacitor with polarized capacitor
+- Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
+- Use the polarized capacitor in a new experiment with LED to show the discharge of power from capacitor
 - Draw circuit diagram by hand for each experiment
 - Extract summarized content from components folder and add to each experiment explanation. Add history of the term also.
 - Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
