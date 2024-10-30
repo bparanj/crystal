@@ -2,7 +2,6 @@
 - Extract summarized content from components folder and add to each experiment explanation. Add history of the term also.
 - Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
 - Redo LED circuit Tinkercad simulation
-- What problem does thyristor solve?
 - Create diagrams for mats.md
 - Refer experiments.md to create the simulations for experiment 10, 11 and 12.
 - Work backwards from experiments
@@ -24,11 +23,6 @@
 
 - need circuit diagram for inductor, led circuit, short circuit
 
-
-PENDING
-
-- Where does semiconductor fall in good conductor, insulator spectrum?
-
 Scope
 
 - No discussuion of any laws (only basic high level principles)
@@ -47,4 +41,3 @@ Author
 - Sequence of experiments
 - Insights from basic principles
 - Using innovation in the context of electronics
-
