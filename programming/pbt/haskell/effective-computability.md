@@ -1,7 +1,0 @@
-Alonzo Church introduced the concept of effective computability to tackle a big question: "How do we know if a problem can be solved by a step-by-step procedure or algorithm?" In simple terms, he wanted to define what it means for a task to be computable, that is, something that can be figured out by following a set of rules or steps, much like a recipe in a cookbook.
-
-To do this, Church developed a system called lambda calculus, which is like a mathematical language or tool that helps describe these step-by-step procedures. Imagine you have a magic notebook where you can write down recipes for solving math problems. But instead of food recipes, you write down very specific instructions on how to solve these problems using symbols and rules. Lambda calculus was Church's version of this magic notebook.
-
-The idea was to show that if you can write down a clear, detailed "recipe" in this language for solving a problem, then the problem is effectively computable. It means there's a guaranteed method to get an answer if you follow the steps correctly, just like following a recipe guarantees you'll end up with a cake (hopefully).
-
-Church's work on effective computability was groundbreaking because it gave us a formal way to think about what computers can and cannot do. It laid the foundation for computer science, showing that certain problems can indeed be solved by machines, as long as we can describe how to solve them using a precise set of instructions.
