@@ -18,6 +18,10 @@ An **optocoupler** solves the problem of **electrical isolation** between differ
 
 A simple experiment to illustrate the concept of an **optocoupler**:
 
+PENDING
+
+Is optocoupler frequently used in electronic circuits
+
 ### Objective:
 To demonstrate how an optocoupler transfers signals between two electrically isolated circuits using light.
 

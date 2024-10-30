@@ -47,7 +47,7 @@ Referring back to our LED circuit diagram:
 - Battery designs aim to minimize internal resistance and optimize chemical reactions to reduce heat generation.
 - In larger systems, thermal management is crucial to maintain efficiency and safety.
 
-This interplay between chemical, electrical, and thermal energy is a key consideration in electrical engineering and energy systems design. It's why energy efficiency is such an important topic in technology development.
+This interplay between chemical, electrical, and thermal energy is a key consideration in electrical engineering.
 
 Let's explore how energy is converted in an LED circuit, the production of light.
 
