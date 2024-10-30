@@ -50,6 +50,14 @@ No, **variable capacitors** are not commonly used in most modern electronic circ
 
 In most everyday electronics, **fixed capacitors** are preferred due to their stability, reliability, and compact size, as they provide a constant capacitance value, which is sufficient for typical applications.
 
-PENDING
-
 - Claude - Is variable capacitor commonly used in electronic circuits
+
+Variable capacitors are less common in modern electronic circuits compared to past usage. They were widely used in radio tuning circuits but have largely been replaced by electronic alternatives like varactors and digital tuning.
+
+Main current applications:
+- Amateur radio equipment
+- Antenna tuning units
+- Test/measurement equipment
+- Some specialized RF circuits
+
+Most modern circuits use fixed capacitors or voltage-controlled capacitors (varactors) instead, as they're more compact, reliable, and suitable for automated/digital control.
