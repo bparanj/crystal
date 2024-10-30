@@ -1,3 +1,5 @@
+Notes from Basics Workshop
+
 jumper wire connections
 Breadboard are used to prototype and experiment with electronic circuits.
 
