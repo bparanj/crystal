@@ -16,11 +16,11 @@ In an ideal world, all of the chemical energy would be converted to electrical e
 
 Some energy is lost as heat due to several factors:
 
-a) Internal Resistance: Every battery has some internal resistance. As current flows through this resistance, some energy is converted to heat. This is described by the equation P = I²R, where P is power (heat), I is current, and R is resistance.
+Internal Resistance: Every battery has some internal resistance. As current flows through this resistance, some energy is converted to heat. This is described by the equation P = I²R, where P is power (heat), I is current, and R is resistance.
 
-b) Chemical Reactions: The electrochemical reactions themselves aren't perfectly efficient and can generate heat.
+Chemical Reactions: The electrochemical reactions themselves aren't perfectly efficient and can generate heat.
 
-c) Ion Movement: As ions move through the electrolyte in the battery, they encounter resistance, which generates heat.
+Ion Movement: As ions move through the electrolyte in the battery, they encounter resistance, which generates heat.
 
 4. Consequences of Heat Generation:
 

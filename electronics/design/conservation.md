@@ -31,9 +31,8 @@ First Law of Thermodynamics
 
 The total energy of an isolated system is constant. It implies that the energy lost in one form is gained in another form. For example, mechanical work is converted to heat energy.
 
-PENDING
 
-read kcl.md and then this:
+OUT OF SCOPE
 
 By understanding that Kirchhoff's Laws are grounded in these fundamental conservation principles, one can see that these laws are not just arbitrary rules but are essential reflections of the natural laws governing charge and energy.
 
