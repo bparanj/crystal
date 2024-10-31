@@ -231,5 +231,3 @@ def plot_frequency_response():
 
 # Generate the plots
 fig = plot_frequency_response()
-
-

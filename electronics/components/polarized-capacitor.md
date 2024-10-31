@@ -54,13 +54,13 @@ His channel: https://www.youtube.com/@Ohmify
 - Decoupling Signal
 - Voltage Raing
 
-PENDING
+PENDING Tinkercad
 
 Run the polarized capacitor experiment in Tinkercad.
 https://www.tinkercad.com/things/6Z4EWNufnXG-polarized-capacitor This is not the simplest experiment.
 
 
-I'll help you design an experiment to demonstrate capacitor charging and discharging using an LED indicator.
+Design an experiment to demonstrate capacitor charging and discharging using an LED indicator.
 
 
 

@@ -18,8 +18,24 @@
 
 These experiments help visualize how inductors and capacitors react differently to changes in frequency, illustrating the concept of reactance in AC circuits.
 
-PENDING
+Capacitive reactance (Xc) is the opposition a capacitor offers to alternating current (AC). It varies inversely with frequency and capacitance:
 
-Ask Claude:
-I still don't understand how the increase in frequency is increasing the current.
-I still don't understand capacitive reactance
+Xc = 1/(2πfC)
+where:
+- Xc is capacitive reactance in ohms (Ω)
+- f is frequency in hertz (Hz)
+- C is capacitance in farads (F)
+
+Key points:
+- Decreases as frequency increases
+- Decreases as capacitance increases
+- Acts like a variable resistor that depends on frequency
+- Causes current to lead voltage by 90 degrees in AC circuits
+
+As frequency increases, capacitive reactance (Xc) decreases according to Xc = 1/(2πfC). By Ohm's law, I = V/Xc, so when Xc decreases, current increases.
+
+Think of it this way: Higher frequency means the voltage changes direction more often, giving electrons less time to build up on the capacitor plates. This allows more current to flow through the circuit.
+
+Example: If frequency doubles:
+- Reactance becomes half (Xc = 1/2)
+- Current doubles (I = 2)

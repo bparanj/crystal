@@ -8,12 +8,17 @@ A transistor is a three terminal device. It has a base, collector and an emitter
 
 A diode allows current to flow in one direction. It blocks current in the opposite direction. This propery is used to convert alternating current (AC) to direct current (DC) in rectifier circuits. A diode is like a one-way valve in a plumbing system, where a water can only flow in one direction. In a power supply circuit, a diode is used to convert AC from a wall outles into DC that powers electronic devices such as a phone charger.
 
-NEEDS DIAGRAMS
-
-PENDING
+PENDING DIAGRAMS
 
 What is an electrical signal?
+
+An electrical signal is a time-varying voltage or current that carries information, typically represented as variations in electrical properties (amplitude, frequency, or phase) through a conductor or transmission medium.
+
+No, DC (Direct Current) alone is not an electrical signal since it maintains a constant voltage/current level and doesn't vary with time. However, when DC is modulated or varied, it becomes a signal that can carry information.
+
 Is inductive coupling used in wireless chargers of the phones?
+
+Yes, wireless phone chargers use inductive coupling. They create an alternating magnetic field in the charging pad's coil which induces a voltage in the receiving coil in the phone, enabling wireless power transfer.
 
 ## Overview: Active Electronic Component
 

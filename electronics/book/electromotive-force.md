@@ -3,7 +3,8 @@ Electromotive force (EMF) can be visualized as the "pressure" that pushes electr
 1. **Battery as a Water Pump**:
    - Imagine a battery as a water pump that creates a pressure difference, pushing water (analogous to electric charges) through a pipe (the circuit). The EMF is like the pressure the pump generates. In electrical terms, this pressure drives current through the circuit, even when there’s resistance.
    - For example, in a 1.5V battery, the EMF is 1.5 volts, which is the force driving the charges.
-PENDING
+
+PENDING DIAGRAM
 
 Draw a diagram.
 

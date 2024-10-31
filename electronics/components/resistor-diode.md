@@ -304,7 +304,7 @@ def real_experiment_setup():
 # Run simulation
 fig = run_experiments()
 
-PENDING
+PENDING DIAGRAM
 
 - Include diagram for linear and non-linear relationship.
 

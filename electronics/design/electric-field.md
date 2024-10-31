@@ -1,6 +1,6 @@
 A simple experiment to illustrate the concept of an electric field using common materials:
 
-PENDING
+PENDING SEARCH
 
 - Search for youtube video of this experiment
 

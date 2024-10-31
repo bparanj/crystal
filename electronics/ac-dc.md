@@ -1,3 +1,5 @@
+Both AC and DC can carry information over long distances. The key is modulation - varying some characteristic of either AC or DC (amplitude, frequency, or phase) to encode information. However, AC is preferred for power transmission over long distances because it's easier to change voltage levels using transformers, which reduces transmission losses.
+
 Electrical voltage is the **push** that makes electric charges move through a wire or circuit. It’s like the pressure that pushes water through a pipe. The higher the voltage, the stronger the push to move the charges (electricity). Voltage is measured in **volts (V)**.
 
 ### What is DC Voltage?

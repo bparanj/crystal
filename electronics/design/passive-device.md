@@ -10,11 +10,142 @@ signal conditioning, noise filtering, and power management, current and voltage 
 PENDING
 
 What are linear and time invariant principles in the context of electronic circuits?
+
+Linear and Time Invariant (LTI) principles in electronic circuits are:
+
+Linearity:
+- Output is proportional to input (scaling property)
+- Superposition applies - response to sum of inputs equals sum of individual responses
+
+Time Invariance:
+- Circuit behavior doesn't change with time
+- Delaying the input causes same delay in output with no other changes
+
+Example: A basic RC or RL circuit is LTI because:
+- Doubling input voltage doubles output voltage (linear)
+- Response is same regardless of when signal is applied (time invariant)
+
+Common non-LTI cases:
+- Diodes (non-linear)
+- Circuits with time-varying components (not time invariant)
+
 Create a list of passive devices
+
+Passive electronic devices (no external power required):
+
+1. Resistors
+   - Fixed resistors
+   - Variable resistors (potentiometers)
+   - Thermistors
+
+2. Capacitors
+   - Fixed capacitors
+   - Variable capacitors
+   - Ceramic
+   - Electrolytic
+   - Film
+
+3. Inductors
+   - Air core
+   - Iron core
+   - Ferrite core
+   - RF chokes
+
+4. Transformers
+   - Step-up/down
+   - Isolation
+   - Auto-transformers
+
+5. Other
+   - Crystals
+   - Fuses
+   - Connectors
+   - Switches
+
 Create a list of active devices
-frequency-dependent characteristics and non-ideal behaviors, such as parasitic effects and thermal drift,
+
+Active electronic devices (require external power):
+
+1. Transistors
+   - Bipolar Junction Transistors (BJT)
+   - Field Effect Transistors (FET)
+   - MOSFETs
+   - IGBTs
+
+2. Diodes
+   - Rectifier diodes
+   - Zener diodes
+   - LEDs
+   - Photodiodes
+   - Schottky diodes
+
+3. Integrated Circuits (ICs)
+   - Operational Amplifiers
+   - Microcontrollers
+   - Memory chips
+   - Logic gates
+   - Timers
+
+4. Vacuum Tubes
+   - Triodes
+   - Pentodes
+   - Cathode Ray Tubes
+
+5. Other
+   - Thyristors
+   - SCRs
+   - TRIACs
+   - Optocouplers
+   
+frequency-dependent characteristics and non-ideal behaviors, such as parasitic effects and thermal drift
+
+This statement refers to two key challenges in electronic systems:
+
+1. Frequency-dependent characteristics: The behavior of electronic components changes as the frequency of signals changes. For example, capacitors become less effective at blocking AC signals at higher frequencies.
+
+2. Non-ideal behaviors:
+- Parasitic effects: Unwanted electrical properties that exist naturally in components. For example, a wire isn't just a conductor - it also has tiny amounts of capacitance and inductance.
+- Thermal drift: Changes in component performance as temperature varies. For instance, resistor values can shift as they heat up.
+
+These effects become important when designing precise electronic systems, especially at high frequencies or temperatures.
+
 What is current division in electronics
+
+Current division is the principle where total current divides between parallel branches inversely proportional to their resistance:
+
+Formula:
+- For a branch: In = (RT/Rn) × IT
+Where:
+- In = Current in the branch
+- RT = Total parallel resistance
+- Rn = Branch resistance
+- IT = Total current
+
+Example:
+- If 10mA flows into two parallel resistors (100Ω and 200Ω):
+- First branch gets 6.67mA (⅔ of current)
+- Second branch gets 3.33mA (⅓ of current)
+
+This follows from Kirchhoff's Current Law and Ohm's Law.
+
 What is voltage division in electronics
+
+Voltage division is the principle where total voltage divides between series components proportionally to their resistance:
+
+Formula:
+- For a component: Vn = (Rn/RT) × VT
+Where:
+- Vn = Voltage across component
+- Rn = Component resistance
+- RT = Total series resistance
+- VT = Total voltage
+
+Example:
+- If 12V is applied across two series resistors (100Ω and 200Ω):
+- First resistor gets 4V (⅓ of voltage)
+- Second resistor gets 8V (⅔ of voltage)
+
+This follows from Kirchhoff's Voltage Law and Ohm's Law.
 
 ### 1. **Child:**
 Imagine you have a toy that doesn’t need batteries to work, but it can still do something when you push it or when you connect it to another toy that has batteries. A passive device is like that—it doesn’t need its own power, but it can still help in an electronic circuit that does have power.

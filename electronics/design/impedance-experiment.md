@@ -1,8 +1,12 @@
-PENDING
+PENDING SEARCH
 
 - Search for youtube video for this experiment
 
 A simple experiment to illustrate the concept of **impedance**:
+
+PENDING REVISION
+
+- Review the following experiments and revise them
 
 ### Objective:
 To demonstrate how impedance affects the flow of alternating current (AC) in a circuit containing resistive and reactive components (inductors or capacitors).

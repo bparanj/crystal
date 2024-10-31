@@ -54,7 +54,7 @@ A transistor acts like a switch by controlling the flow of current between two t
 
 Here are three simple experiments designed to demonstrate the basics of transistors,  their switching and amplification properties:
 
-PENDING
+PENDING Tinkercad
 
 - Is this experiment already in the Tinkercad simulation and covered in the current experiment?
 

@@ -1,6 +1,6 @@
 An experiment to visualize magnetic fields using common materials:
 
-PENDING
+PENDING SEARCH
 
 - Search for youtube video of this experiment
 
