@@ -44,8 +44,21 @@ Need an image.
 
 These devices we encounter in everyday life are examples of transforming one form of energy into another form of energy to perform useful function.
 
-I'll explain the different types of energy that interact in electronic circuits.
+**Real-world examples of energy transformation:**
 
+1. **Iron Box**: **Electrical energy** is converted into **heat energy** as current passes through a resistive coil, heating the surface for ironing clothes.
+
+2. **Heater**: **Electrical energy** is transformed into **heat energy** via a resistive heating element to warm a space.
+
+3. **Fan**: **Electrical energy** converts to **mechanical energy** as the motor drives the fan blades, creating airflow.
+
+4. **Bulb**: **Electrical energy** is transformed into **light energy** (with some heat) as current flows through the filament or LED, illuminating the area.
+
+5. **Fridge**: **Electrical energy** powers a compressor, which transfers **thermal energy** from inside to outside the fridge, keeping food cool.
+
+6. **Door Bell**: **Electrical energy** is converted to **sound energy** as the circuit activates an electromagnet or buzzer, producing the ringing sound.
+
+These everyday devices demonstrate how energy is transformed from one form to another to perform useful tasks.
 
 
 ```python
@@ -55,7 +68,7 @@ import matplotlib.pyplot as plt
 def visualize_circuit_energy():
     # Create figure with multiple subplots
     fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 12))
-    
+
     # Plot 1: Energy Distribution in Common Circuits
     components = ['Resistor', 'Inductor', 'Capacitor', 'LED', 'Transistor']
     thermal = [95, 10, 5, 70, 30]  # %
@@ -63,7 +76,7 @@ def visualize_circuit_energy():
     electric = [0, 0, 90, 0, 0]    # %
     light = [0, 0, 0, 25, 0]       # %
     other = [5, 5, 5, 5, 70]       # %
-    
+
     width = 0.35
     ax1.bar(components, thermal, width, label='Thermal', color='red')
     ax1.bar(components, magnetic, width, bottom=thermal, label='Magnetic', color='blue')
@@ -73,55 +86,55 @@ def visualize_circuit_energy():
             label='Light', color='green')
     ax1.bar(components, other, width, bottom=np.array(thermal)+np.array(magnetic)+np.array(electric)+np.array(light),
             label='Other', color='gray')
-    
+
     ax1.set_ylabel('Energy Distribution (%)')
     ax1.set_title('Energy Types in Circuit Components')
     ax1.legend()
-    
+
     # Plot 2: Capacitor Energy Storage
     voltage = np.linspace(0, 10, 100)
     capacitances = [1e-6, 2e-6, 5e-6]  # Farads
-    
+
     for C in capacitances:
         energy = 0.5 * C * voltage**2
         ax2.plot(voltage, energy * 1e6, label=f'{C*1e6}µF')
-    
+
     ax2.set_xlabel('Voltage (V)')
     ax2.set_ylabel('Energy (µJ)')
     ax2.set_title('Capacitor Energy Storage')
     ax2.grid(True)
     ax2.legend()
-    
+
     # Plot 3: Inductor Energy Storage
     current = np.linspace(0, 2, 100)
     inductances = [1e-3, 2e-3, 5e-3]  # Henries
-    
+
     for L in inductances:
         energy = 0.5 * L * current**2
         ax3.plot(current, energy * 1e3, label=f'{L*1e3}mH')
-    
+
     ax3.set_xlabel('Current (A)')
     ax3.set_ylabel('Energy (mJ)')
     ax3.set_title('Inductor Energy Storage')
     ax3.grid(True)
     ax3.legend()
-    
+
     # Plot 4: Heat Generation in Resistors
     time = np.linspace(0, 10, 100)
     currents = [0.1, 0.2, 0.5]  # Amperes
     R = 100  # Ohms
-    
+
     for I in currents:
         power = I**2 * R
         energy = power * time
         ax4.plot(time, energy, label=f'{I}A')
-    
+
     ax4.set_xlabel('Time (s)')
     ax4.set_ylabel('Thermal Energy (J)')
     ax4.set_title('Resistor Heat Generation')
     ax4.grid(True)
     ax4.legend()
-    
+
     plt.tight_layout()
     return fig
 
@@ -137,59 +150,59 @@ def explain_circuit_energy():
        - Measured in Joules (J)
        - Voltage × Current × Time
        - Present in all active circuits
-       
+
     2. Thermal Energy (Heat):
        Common Sources:
        - Resistor heating (I²R losses)
        - Junction heating in semiconductors
        - Contact resistance
        - Wire resistance
-       
+
     3. Magnetic Field Energy:
        Found in:
        - Inductors
        - Transformers
        - Motors/Generators
        - Formula: ½LI²
-       
+
     4. Electric Field Energy:
        Stored in:
        - Capacitors
        - Insulation
        - PCB substrates
        - Formula: ½CV²
-       
+
     5. Light Energy:
        Conversions in:
        - LEDs
        - Photodiodes
        - Displays
        - Optocouplers
-       
+
     6. Chemical Energy:
        Present in:
        - Batteries
        - Fuel cells
        - Electrolytic capacitors
        - Chemical sensors
-       
+
     7. Energy Conservation:
        - Total energy is conserved
        - Often converts to heat
        - Efficiency matters
        - Power management important
-       
+
     8. Energy Storage Elements:
        a) Capacitors:
           - Store electric field energy
           - Quick discharge
           - High power density
-          
+
        b) Inductors:
           - Store magnetic field energy
           - Current smoothing
           - Energy transfer
-          
+
        c) Batteries:
           - Chemical energy storage
           - Long-term storage
@@ -262,7 +275,7 @@ import matplotlib.pyplot as plt
 def visualize_circuit_energy():
     # Create figure with multiple subplots
     fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 12))
-    
+
     # Plot 1: Energy Distribution in Common Circuits
     components = ['Resistor', 'Inductor', 'Capacitor', 'LED', 'Transistor']
     thermal = [95, 10, 5, 70, 30]  # %
@@ -270,7 +283,7 @@ def visualize_circuit_energy():
     electric = [0, 0, 90, 0, 0]    # %
     light = [0, 0, 0, 25, 0]       # %
     other = [5, 5, 5, 5, 70]       # %
-    
+
     width = 0.35
     ax1.bar(components, thermal, width, label='Thermal', color='red')
     ax1.bar(components, magnetic, width, bottom=thermal, label='Magnetic', color='blue')
@@ -280,55 +293,55 @@ def visualize_circuit_energy():
             label='Light', color='green')
     ax1.bar(components, other, width, bottom=np.array(thermal)+np.array(magnetic)+np.array(electric)+np.array(light),
             label='Other', color='gray')
-    
+
     ax1.set_ylabel('Energy Distribution (%)')
     ax1.set_title('Energy Types in Circuit Components')
     ax1.legend()
-    
+
     # Plot 2: Capacitor Energy Storage
     voltage = np.linspace(0, 10, 100)
     capacitances = [1e-6, 2e-6, 5e-6]  # Farads
-    
+
     for C in capacitances:
         energy = 0.5 * C * voltage**2
         ax2.plot(voltage, energy * 1e6, label=f'{C*1e6}µF')
-    
+
     ax2.set_xlabel('Voltage (V)')
     ax2.set_ylabel('Energy (µJ)')
     ax2.set_title('Capacitor Energy Storage')
     ax2.grid(True)
     ax2.legend()
-    
+
     # Plot 3: Inductor Energy Storage
     current = np.linspace(0, 2, 100)
     inductances = [1e-3, 2e-3, 5e-3]  # Henries
-    
+
     for L in inductances:
         energy = 0.5 * L * current**2
         ax3.plot(current, energy * 1e3, label=f'{L*1e3}mH')
-    
+
     ax3.set_xlabel('Current (A)')
     ax3.set_ylabel('Energy (mJ)')
     ax3.set_title('Inductor Energy Storage')
     ax3.grid(True)
     ax3.legend()
-    
+
     # Plot 4: Heat Generation in Resistors
     time = np.linspace(0, 10, 100)
     currents = [0.1, 0.2, 0.5]  # Amperes
     R = 100  # Ohms
-    
+
     for I in currents:
         power = I**2 * R
         energy = power * time
         ax4.plot(time, energy, label=f'{I}A')
-    
+
     ax4.set_xlabel('Time (s)')
     ax4.set_ylabel('Thermal Energy (J)')
     ax4.set_title('Resistor Heat Generation')
     ax4.grid(True)
     ax4.legend()
-    
+
     plt.tight_layout()
     return fig
 
@@ -344,59 +357,59 @@ def explain_circuit_energy():
        - Measured in Joules (J)
        - Voltage × Current × Time
        - Present in all active circuits
-       
+
     2. Thermal Energy (Heat):
        Common Sources:
        - Resistor heating (I²R losses)
        - Junction heating in semiconductors
        - Contact resistance
        - Wire resistance
-       
+
     3. Magnetic Field Energy:
        Found in:
        - Inductors
        - Transformers
        - Motors/Generators
        - Formula: ½LI²
-       
+
     4. Electric Field Energy:
        Stored in:
        - Capacitors
        - Insulation
        - PCB substrates
        - Formula: ½CV²
-       
+
     5. Light Energy:
        Conversions in:
        - LEDs
        - Photodiodes
        - Displays
        - Optocouplers
-       
+
     6. Chemical Energy:
        Present in:
        - Batteries
        - Fuel cells
        - Electrolytic capacitors
        - Chemical sensors
-       
+
     7. Energy Conservation:
        - Total energy is conserved
        - Often converts to heat
        - Efficiency matters
        - Power management important
-       
+
     8. Energy Storage Elements:
        a) Capacitors:
           - Store electric field energy
           - Quick discharge
           - High power density
-          
+
        b) Inductors:
           - Store magnetic field energy
           - Current smoothing
           - Energy transfer
-          
+
        c) Batteries:
           - Chemical energy storage
           - Long-term storage
@@ -406,36 +419,3 @@ def explain_circuit_energy():
 
 # Generate the visualization
 fig = visualize_circuit_energy()
-
-
-# Filament
-
-A **filament** in a bulb is a thin wire, usually made of tungsten, that produces light when electricity passes through it.
-
-Tungsten is used for filaments because it has a high melting point (over 3,400°C) and can withstand the intense heat generated by the electrical current.
-
-When current flows through the filament, its resistance to the current causes it to heat up to a high temperature. At such high temperatures, the filament glows, emitting visible light. This process is called *incandescence*.
-
-The filament is enclosed in a glass bulb that’s either vacuum-sealed or filled with an inert gas, like argon or nitrogen, to prevent the tungsten from burning out quickly due to oxidation.
-
-**Real-world examples of energy transformation:**
-
-1. **Iron Box**: **Electrical energy** is converted into **heat energy** as current passes through a resistive coil, heating the surface for ironing clothes.
-
-2. **Heater**: **Electrical energy** is transformed into **heat energy** via a resistive heating element to warm a space.
-
-3. **Fan**: **Electrical energy** converts to **mechanical energy** as the motor drives the fan blades, creating airflow.
-
-4. **Bulb**: **Electrical energy** is transformed into **light energy** (with some heat) as current flows through the filament or LED, illuminating the area.
-
-5. **Fridge**: **Electrical energy** powers a compressor, which transfers **thermal energy** from inside to outside the fridge, keeping food cool.
-
-6. **Door Bell**: **Electrical energy** is converted to **sound energy** as the circuit activates an electromagnet or buzzer, producing the ringing sound.
-
-
-These everyday devices demonstrate how energy is transformed from one form to another to perform useful tasks.
-
-
-### Function in a Bulb
-The filament is the primary light-producing component in incandescent bulbs. Its high resistance converts electrical energy into both heat and light energy, creating the familiar warm glow.
-
