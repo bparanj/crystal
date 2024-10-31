@@ -1,4 +1,10 @@
 
+PENDING
+
+- Explain the history of electronics to understand the term solid state. What was electronics like before solid state was used?
+- Functions: switching, amplifying and controlling electrical signals
+- What does controlling electrical signals mean?
+
 ### 1. **Child:**
 
 Imagine a toy that has no moving parts inside, but it can still do cool things like make lights turn on or play sounds when you press a button. A solid-state device is like that toy—it does things with electricity, but without any parts moving around inside.
@@ -9,7 +15,7 @@ A solid-state device is an electronic component that controls the flow of electr
 
 ### 3. **Undergraduate Student **
 
-A solid-state device refers to electronic components that operate using the electrical properties of solid materials,  semiconductors like silicon. These devices, such as diodes, transistors, and integrated circuits, rely on the movement of electrons and holes within the solid material to perform functions like switching, amplifying, and controlling electrical signals. The absence of moving parts in solid-state devices contributes to their durability, speed, and efficiency, making them fundamental to modern electronics.
+A solid-state device refers to electronic components that operate using the electrical properties of solid materials, semiconductors like silicon. These devices, such as diodes, transistors, and integrated circuits, rely on the movement of electrons and holes within the solid material to perform functions like switching, amplifying, and controlling electrical signals. The absence of moving parts in solid-state devices contributes to their durability, speed, and efficiency, making them fundamental to modern electronics.
 
 ### 4. **Graduate Student:**
 
@@ -19,7 +25,9 @@ A solid-state device is an electronic component that leverages the properties of
 
 Solid-state devices are fundamental components of modern electronics, characterized by their reliance on the quantum mechanical behavior of charge carriers within a crystalline semiconductor lattice. These devices operate based on the manipulation of electron and hole densities across p-n junctions or metal-oxide-semiconductor interfaces, enabling functions such as current rectification, amplification, and digital logic. The evolution from discrete solid-state components like BJTs and diodes to highly integrated systems-on-chip (SoCs) reflects advances in semiconductor fabrication techniques, doping profiles, and material science. Solid-state physics underpins the operation of these devices, from carrier dynamics in low-dimensional structures to the influence of defects and interfaces on device performance. The continued scaling down of solid-state devices in accordance with Moore's Law presents ongoing challenges in managing quantum effects, heat dissipation, and power integrity in ultra-large-scale integration (ULSI) systems.
 
-This progression illustrates how the concept of a solid-state device can be tailored to different levels of understanding, from a very basic explanation to a detailed, technical discussion suitable for experts in the field.
+PENDING
+
+- Review the following content
 
 # Solid State Devices Explained in 5 Levels of Complexity
 
@@ -111,7 +119,7 @@ Understanding these advanced concepts is crucial for designing and optimizing mo
 
 ## Level 5: Colleague
 
-As colleagues in the field, let's discuss some cutting-edge topics and challenges in solid state devices:
+let's discuss some cutting-edge topics and challenges in solid state devices:
 
 1. Beyond Silicon:
    - Wide bandgap semiconductors (SiC, GaN): Challenges in defect control and interface engineering

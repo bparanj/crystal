@@ -8,23 +8,34 @@
 - Multimeter (to measure voltage)
 
 **Procedure**:
-1. **Connect the Circuit**: Connect the capacitor to the battery using the wires. Ensure that the positive terminal of the battery is connected to one plate of the capacitor and the negative terminal to the other plate.
-2. **Observe the Voltage**: Use the multimeter to measure the voltage across the capacitor's terminals. This voltage creates an electric field between the plates of the capacitor.
-3. **Explain**: The electric field is established between the plates due to the potential difference provided by the battery. This field exists only as long as the capacitor is connected to the battery.
+
+**Connect the Circuit**:
+
+Connect the capacitor to the battery using the wires. Ensure that the positive terminal of the battery is connected to one plate of the capacitor and the negative terminal to the other plate.
+
+**Observe the Voltage**:
+
+Use the multimeter to measure the voltage across the capacitor's terminals. This voltage creates an electric field between the plates of the capacitor.
+
+The electric field is established between the plates due to the potential difference provided by the battery. This field exists only as long as the capacitor is connected to the battery.
 
 ### 2. **Experiment 2: Electrostatic Field Inside a Circuit (Charged Capacitor)**
+
 **Objective**: Demonstrate the presence of an electrostatic field in a charged capacitor disconnected from the circuit.
 
 **Materials**:
+
 - Capacitor (charged from Experiment 1)
 - Insulated tweezers
 - Electroscope (optional, to detect charge)
 
 **Procedure**:
+
 1. **Charge the Capacitor**: Using the setup from Experiment 1, charge the capacitor by connecting it to the battery. Disconnect the capacitor carefully using insulated tweezers.
 2. **Isolate the Capacitor**: Place the charged capacitor on an insulated surface to prevent it from discharging.
 3. **Detect the Electrostatic Field**: Use an electroscope or similar charge detector near the capacitor’s terminals to detect the presence of a static electric field.
-4. **Explain**: The charges on the capacitor’s plates are stationary, creating an electrostatic field between the plates. This field is static and will remain until the capacitor discharges.
+
+The charges on the capacitor’s plates are stationary, creating an electrostatic field between the plates. This field is static and will remain until the capacitor discharges.
 
 ### 3. **Experiment 3: Electric Field in the Real World (Van de Graaff Generator)**
 **Objective**: Demonstrate the presence of an electric field in the real world outside of circuits.
@@ -35,9 +46,16 @@
 - Insulating platform
 
 **Procedure**:
-1. **Generate the Electric Field**: Turn on the Van de Graaff generator to accumulate charge on the dome.
-2. **Observe the Effects**: Place small metallic objects like aluminum foil strips on top of the dome. The electric field around the dome will cause the strips to repel each other and stand up.
-3. **Explain**: The Van de Graaff generator creates a strong electric field around its dome. This field influences nearby charges, causing the metallic strips to repel each other and align with the field lines.
+
+**Generate the Electric Field**:
+
+Turn on the Van de Graaff generator to accumulate charge on the dome.
+
+**Observe the Effects**:
+
+Place small metallic objects like aluminum foil strips on top of the dome. The electric field around the dome will cause the strips to repel each other and stand up.
+
+The Van de Graaff generator creates a strong electric field around its dome. This field influences nearby charges, causing the metallic strips to repel each other and align with the field lines.
 
 ### 4. **Experiment 4: Electrostatic Field in the Real World (Balloon and Hair)**
 **Objective**: Demonstrate the presence of an electrostatic field in the real world.
@@ -48,11 +66,19 @@
 - Woolen cloth (for rubbing)
 
 **Procedure**:
-1. **Charge the Balloon**: Rub the balloon vigorously against the woolen cloth to transfer electrons from the cloth to the balloon, charging the balloon negatively.
-2. **Observe the Electrostatic Field**: Bring the charged balloon close to your hair or small pieces of paper. Notice how your hair strands stand up or how the paper pieces are attracted to the balloon.
-3. **Explain**: The static charges on the balloon create an electrostatic field around it. This field exerts a force on the charges in your hair or the paper, causing attraction or repulsion.
+
+**Charge the Balloon**:
+
+Rub the balloon vigorously against the woolen cloth to transfer electrons from the cloth to the balloon, charging the balloon negatively.
+
+**Observe the Electrostatic Field**:
+
+Bring the charged balloon close to your hair or small pieces of paper. Notice how your hair strands stand up or how the paper pieces are attracted to the balloon.
+
+The static charges on the balloon create an electrostatic field around it. This field exerts a force on the charges in your hair or the paper, causing attraction or repulsion.
 
 ### Summary of Concepts Demonstrated:
+
 - **Experiment 1**: Electric field inside a circuit, created by a voltage across a capacitor.
 - **Experiment 2**: Electrostatic field inside a circuit, in a charged but isolated capacitor.
 - **Experiment 3**: Electric field in the real world, demonstrated by a Van de Graaff generator.
