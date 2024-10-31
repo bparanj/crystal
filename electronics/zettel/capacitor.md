@@ -1,12 +1,26 @@
-The term "capacitor" comes from the Latin word *capacitas*, meaning "capacity" or "ability to hold." A capacitor is a device that has the ability to "hold" or store electric charge. 
+Capacity - What is the dictionary definition?
 
-The name reflects its primary function: storing electrical energy in the form of an electric field between two conductive plates separated by an insulating material (dielectric). When connected to a power source, the capacitor accumulates and stores charge, which it can release when needed. 
+The term "capacitor" comes from the Latin word *capacitas*, meaning "capacity" or "ability to hold." A capacitor is a device that has the ability to "hold" or store electric charge.
+
+The name reflects its primary function: storing electrical energy in the form of an electric field between two conductive plates separated by an insulating material (dielectric). When connected to a power source, the capacitor accumulates and stores charge, which it can release when needed.
+
+Copy the link to Capacitor youtube video. Watch and summarize the main points.
+
+SNIP
 
 Initially, capacitors were called **condensers**, derived from the Latin *condensare*, meaning "to condense," as they were thought to "condense" the electric charge. The term "capacitor" became more common over time as its ability to store charge was emphasized.
 
+SNIP
+
 Capacitors are electronic components that store electrical energy as electrical energy in the form of an electric field. They can release this stored energy when needed in a circuit.
 
+You have to explain electric field before explaining capacitor.
 
+A capacitor is a passive electronic component. It stores electrical energy in an electric field. They block direct current (DC) from flowing through them. They allow alternating current (AC) to pass through them. They are used to store energy, filtering and timing applications.
+
+PENDING
+
+What does depending on frequency mean here? What range of frequency do they allow to pass through.
 
 ---
 
@@ -26,14 +40,31 @@ A **capacitor** is a passive electronic component that stores electrical energy 
 2. **How does a capacitor store energy?**
    - **Question**: How does a capacitor store electrical energy?
    - **Atomic Idea**: A capacitor stores energy by creating an electric field between its two plates. The energy stored depends on the charge on the plates and the voltage across the capacitor. The relationship is given by the formula:
-   
+
    $$ E = \frac{1}{2}CV^2 $$
-   
+
    where $E$ is energy (in joules), $C$ is capacitance (in farads), and $V$ is voltage (in volts).
    - **Analogy**: A capacitor is like a compressed spring. Just as a spring stores mechanical energy when compressed, a capacitor stores electrical energy when its plates hold opposite charges.
    - **Example**: If you have a 10µF capacitor charged to 5V, the energy stored is:
-   
+
    $$ E = \frac{1}{2} \times 10 \times 10^{-6} \times 5^2 = 0.125 \, \text{joules} $$
+
+
+Capacitance is the ability of a capacitor to store charge per unit voltage. Capacitance is measured in farads (F symbol). Higher capacitance means more charge can be stored for a given voltage. Capacitance is like the size of a water tank. A larger tank can hold more water for the same pressure. The water corresponds to charge and pressure corresponds to voltage in a circuit. A capacitor with 100 micro F capacitance can store more charge at the same voltage than a capacitor with 10 micro F.
+
+When connected to a DC source, the capacitor charges until its voltage reaches the source and then stops the current. In an AC circuit, the capacitor continuously charges and discharges as the current changes direction.
+
+In a DC circuit, a capacitor is like a dam that holds water. In an AC circuit, the capacitor is like a swinging gate that opens and closes, allowing some water to pass through.
+
+In an AC circuit with 1 kHz signal, a 10 micro F capacitor will allow the current to pass, but with a lower-frequency signal such as 10 Hz, the capacitor will block most of the current.
+
+They stabilize power supply voltages, remove noise from signals and create delays in electronic circuits. In a circuit, a capacitor acts like a sponge that absorbs and release charge. This smoothes out fluctuations in the voltage. This provides a short power backup. In a power supply circuit, they are used to smooth out the ripple voltage from a rectifier. This provides a steady DC output.
+
+What does source mean here?
+
+PENDING
+
+What does charge per unit voltage mean?
 
 3. **What is capacitance?**
    - **Question**: What is capacitance in a capacitor, and how is it measured?
