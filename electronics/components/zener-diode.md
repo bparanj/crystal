@@ -32,13 +32,71 @@ Yes, for drawing circuit diagrams, there's a widely-used standard called **schem
 
 PENDING
 
-Evaluate the following tools to see if it is better than Tinkercad
-Get step by step instructions from Claude for using KiCad
 Quick read: https://ultimateelectronicsbook.com/introduction/
 Good tool if you know how to design a circuit and simulate: https://www.circuitlab.com/
 
+Here's a step-by-step guide for using KiCad:
 
+1. Initial Setup:
+- Install KiCad from official website
+- Create new project (File > New Project)
+- Name your project and choose location
 
+2. Schematic Editor (eeschema):
+- Open schematic editor
+- Add components:
+  * Press 'A' to open symbol library
+  * Search and select components
+  * Place on schematic
+- Connect components:
+  * Press 'W' to start wiring
+  * Click start and end points
+  * Press 'Escape' to stop wiring
+- Add power symbols:
+  * Press 'P' for power symbols
+  * Add GND, VCC, etc.
+- Label nets:
+  * Press 'L' to add labels
+  * Name important connections
+
+3. Assign Component Footprints:
+- Run Annotate schematic (Tools > Annotate)
+- Open Footprint Assignment tool
+- Match each component to PCB footprint
+- Save changes
+
+4. PCB Layout (pcbnew):
+- Generate netlist from schematic
+- Import netlist to PCB editor
+- Place components:
+  * 'M' to move
+  * 'R' to rotate
+  * Space to set
+- Route tracks:
+  * Press 'X' for track tool
+  * Follow design rules
+  * Use layers as needed
+- Add mounting holes if needed
+- Add text/labels as needed
+
+5. Design Rule Check:
+- Run DRC (Inspect > Design Rules Checker)
+- Fix any errors/violations
+- Verify clearances
+
+6. Generate Output Files:
+- Create Gerber files
+- Generate drill files
+- Make PDFs if needed
+
+Tips:
+- Use hotkeys for efficiency
+- Save work frequently
+- Check design rules early
+- Use grid snap for alignment
+- Verify footprints before ordering
+
+Would you like me to explain any of these steps in more detail?
 
 ### Tools for Drawing Circuit Diagrams:
 
@@ -68,8 +126,9 @@ A resistor, capacitor, and inductor connected in series, with each component rep
 
 PENDING
 
-Signup for https://www.overleaf.com/learn/latex/CircuiTikz_package#Diodes
-Test this code and see if this diagram can be used.
+Work through tutorials on https://www.overleaf.com/
+
+This code generates a resistor, capacitor and inductor in series.
 
 ```latex
 \documentclass{standalone}

@@ -197,9 +197,115 @@ They stabilize power supply voltages, remove noise from signals and create delay
 
 What does source mean here?
 
-PENDING
-
 What does charge per unit voltage mean?
+
+Charge per unit voltage refers to capacitance - it's actually the definition of capacitance in electronics. Let me explain:
+
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <!-- Grid -->
+    <path d="M 50 50 L 350 50" stroke="#ccc" stroke-dasharray="2" stroke-width="1"/>
+    <path d="M 50 150 L 350 150" stroke="#ccc" stroke-width="1"/>
+    <path d="M 50 250 L 350 250" stroke="#ccc" stroke-dasharray="2" stroke-width="1"/>
+    
+    <!-- Axes -->
+    <path d="M 50 30 L 50 270" stroke="black" stroke-width="2"/>
+    <path d="M 30 250 L 370 250" stroke="black" stroke-width="2"/>
+    
+    <!-- Linear relationship line -->
+    <path d="M 50 250 L 350 50" stroke="blue" stroke-width="2"/>
+    
+    <!-- Labels -->
+    <text x="360" y="265" font-size="14">Voltage (V)</text>
+    <text x="30" y="40" font-size="14">Charge (Q)</text>
+    
+    <!-- Capacitance slope -->
+    <text x="200" y="100" fill="blue" font-size="12" transform="rotate(-30, 200, 100)">Slope = C (Capacitance)</text>
+    
+    <!-- Formula -->
+    <text x="60" y="290" font-size="14">C = Q/V (Farads)</text>
+    
+    <!-- Points -->
+    <circle cx="150" cy="190" r="3" fill="red"/>
+    <text x="160" y="190" font-size="10">1V, 1C</text>
+    
+    <circle cx="250" cy="130" r="3" fill="red"/>
+    <text x="260" y="130" font-size="10">2V, 2C</text>
+</svg>
+
+```
+
+The Formula: C = Q/V where:
+- C = Capacitance (measured in Farads)
+- Q = Charge (measured in Coulombs)
+- V = Voltage (measured in Volts)
+
+Key Points:
+1. Linear Relationship:
+   - More voltage = more charge stored
+   - Double the voltage = double the charge
+   - The slope represents capacitance
+
+2. Real-world Example:
+   - 1 Farad capacitor at 1 volt holds 1 Coulomb of charge
+   - At 2 volts, it holds 2 Coulombs
+   - At 3 volts, 3 Coulombs, and so on
+
+3. Practical Units:
+   - Farad is very large unit
+   - Common units are:
+     * Microfarad (µF) = 10⁻⁶ F
+     * Nanofarad (nF) = 10⁻⁹ F
+     * Picofarad (pF) = 10⁻¹² F
+
+4. Applications:
+   - Energy storage
+   - Filtering
+   - Timing circuits
+   - Coupling/decoupling
+   - Power supply smoothing
+
+Looking at the graph:
+- X-axis shows voltage
+- Y-axis shows charge
+- The straight line shows the linear relationship
+- Steeper slope = larger capacitance
+- Flatter slope = smaller capacitance
+
+Would you like me to explain more about how capacitors use this principle in practical circuits?
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <!-- Grid -->
+    <path d="M 50 50 L 350 50" stroke="#ccc" stroke-dasharray="2" stroke-width="1"/>
+    <path d="M 50 150 L 350 150" stroke="#ccc" stroke-width="1"/>
+    <path d="M 50 250 L 350 250" stroke="#ccc" stroke-dasharray="2" stroke-width="1"/>
+    
+    <!-- Axes -->
+    <path d="M 50 30 L 50 270" stroke="black" stroke-width="2"/>
+    <path d="M 30 250 L 370 250" stroke="black" stroke-width="2"/>
+    
+    <!-- Linear relationship line -->
+    <path d="M 50 250 L 350 50" stroke="blue" stroke-width="2"/>
+    
+    <!-- Labels -->
+    <text x="360" y="265" font-size="14">Voltage (V)</text>
+    <text x="30" y="40" font-size="14">Charge (Q)</text>
+    
+    <!-- Capacitance slope -->
+    <text x="200" y="100" fill="blue" font-size="12" transform="rotate(-30, 200, 100)">Slope = C (Capacitance)</text>
+    
+    <!-- Formula -->
+    <text x="60" y="290" font-size="14">C = Q/V (Farads)</text>
+    
+    <!-- Points -->
+    <circle cx="150" cy="190" r="3" fill="red"/>
+    <text x="160" y="190" font-size="10">1V, 1C</text>
+    
+    <circle cx="250" cy="130" r="3" fill="red"/>
+    <text x="260" y="130" font-size="10">2V, 2C</text>
+</svg>
+
 
 3. What is capacitance?
    What is capacitance in a capacitor, and how is it measured?

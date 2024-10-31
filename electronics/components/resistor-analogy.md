@@ -1,6 +1,4 @@
-PENDING
-
-Need diagram for:
+PENDING DIAGRAM
 
 Imagine a highway with multiple lanes (representing an electrical wire with minimal resistance) where traffic flows smoothly. When there’s a lane closure due to roadwork, cars must merge into fewer lanes, leading to slower traffic and increased congestion. This is similar to adding resistance in a circuit.
 

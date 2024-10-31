@@ -14,9 +14,36 @@ A coulomb (C) is a unit of electric charge.
 
 In summary, visualizing a coulomb can be linked to the flow of charge in a wire, the sheer number of electrons involved, and real-world examples like static electricity and capacitors. These metaphors help ground the abstract concept of charge in more tangible experiences.
 
-PENDING
-
 How is coulomb different from Faraday unit?
+
+Let me explain the difference between Coulomb and Faraday as electrical charge units:
+
+Coulomb (C):
+- Basic SI unit of electrical charge
+- 1 Coulomb = charge of 6.242 × 10¹⁸ electrons
+- Named after Charles-Augustin de Coulomb
+- Used for smaller amounts of charge
+- Common in general electrical calculations
+
+Faraday (F):
+- Used in electrochemistry
+- 1 Faraday = 96,485 Coulombs
+- Named after Michael Faraday
+- Represents charge of 1 mole of electrons
+- Used for electrochemical calculations
+
+Relationship:
+1 Faraday = 96,485 Coulombs
+             = charge needed to:
+             - deposit/produce 1 gram equivalent of substance
+             - during electrolysis
+
+Common Usage:
+- Coulombs: everyday electronics, circuit analysis
+- Faradays: electrochemistry, electrolysis calculations
+
+Don't confuse Faraday (charge unit) with Farad (capacitance unit).
+
 
 ```python
 import numpy as np
