@@ -22,6 +22,28 @@ PENDING
 
 What does depending on frequency mean here? What range of frequency do they allow to pass through.
 
+
+
+High-frequency signals pass through a capacitor more easily than low-frequency ones due to the **capacitive reactance** property of the capacitor. Capacitive reactance is the opposition that a capacitor provides to an AC signal, and it depends on the frequency of the signal:
+
+\[
+X_C = \frac{1}{2 \pi f C}
+\]
+
+Where:
+- \( X_C \) is the capacitive reactance (in ohms, Ω).
+- \( f \) is the frequency of the signal (in hertz, Hz).
+- \( C \) is the capacitance (in farads, F).
+
+### Key Points
+1. **Inverse Relationship**: Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
+  
+2. **Low Reactance at High Frequency**: For high-frequency signals, \( X_C \) becomes very low, effectively making the capacitor behave more like a short circuit, allowing the signal to pass through easily.
+
+3. **High Reactance at Low Frequency**: For low-frequency signals, \( X_C \) is high, acting more like an open circuit, which blocks or attenuates the low-frequency components.
+
+This frequency-dependent behavior makes capacitors useful for **filtering applications**, where they block DC or low-frequency signals while allowing high-frequency AC signals to pass through.
+
 ---
 
 ## Overview: Capacitor

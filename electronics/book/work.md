@@ -2,6 +2,35 @@ Energy, in all its forms, can perform work because it has the capacity to apply 
 
 What does change in the state of an object mean?
 
+A change in the state of an object refers to any alteration in its physical or chemical properties. Let me break this down with some clear examples:
+
+Physical state changes include:
+1. Changes in phase/form (solid → liquid → gas)
+   - Ice melting to water (solid to liquid)
+   - Water boiling to steam (liquid to gas)
+
+2. Changes in temperature
+   - A cold drink warming up
+   - A hot metal rod cooling down
+
+3. Changes in position/motion
+   - A stationary ball starting to roll
+   - A moving car coming to a stop
+
+4. Changes in shape/size
+   - A spring being compressed or stretched
+   - A balloon being inflated
+
+Chemical state changes include:
+1. Chemical reactions
+   - Wood burning to ash
+   - Iron rusting
+   - Food being cooked
+
+In each case, energy is what enables these changes to occur. For example, thermal energy causes ice to melt, mechanical energy causes a ball to roll, and chemical energy enables wood to burn.
+
+Would you like me to elaborate on any of these types of state changes?
+
 1. **Kinetic Energy**:
 
 The energy of motion. When an object is moving, it can exert a force on another object, causing displacement. For instance, a rolling ball that pushes another ball it collides with.
@@ -226,6 +255,8 @@ Does not exchange energy or matter with its surroundings. An ideal thermos or a 
 
 In summary, a **system** is any specific portion we choose to study within the boundaries we define, with its classification (open, closed, or isolated) based on how it interacts with its surroundings.
 
+PENDING
+
 The concept of newton is not clear here...
 
 Let us consider the example of lifting an apple. Let us assume it weighs 100 grams. The force of gravity on the apple is approximately 1 newton because 1 newton is roughly the force needed to hold a 100-gram object.
@@ -236,6 +267,15 @@ When you lift the apple 1 meter straight up from the ground, the work done (in j
 
 Lifting an apple 1 meter requires 1 joule of energy. 1 joule of energy is required to lift an apple weighing 100 grams 1 meter in the air.
 
+
+A Newton is a unit of force - it's how hard you're pushing or pulling something. 
+
+Think of it this way:
+- 1 Newton ≈ the force of holding a small apple in your palm (the Earth pulling down on it)
+- 10 Newtons ≈ the force of holding a 1kg bag of sugar
+- 500 Newtons ≈ the force needed to lift a medium-sized adult
+
+Force is simply a push or pull that can change how something moves or stays still.
 
 ## Lifting an Apple
 
@@ -271,7 +311,25 @@ If you lift the box 1 meter off the ground, the force required to lift this box 
 
 ...
 
+PENDING
+
 The following is still pending. reduce it.
+
+A Joule is a unit of energy that measures how much work is done. Simply put:
+1 Joule = the energy needed to lift a small apple (100 grams) up by 1 meter
+
+Common examples:
+- Walking up one stair step uses about 20 Joules
+- A banana contains about 500,000 Joules of food energy
+- A phone screen uses about 1 Joule per second
+
+The 100 grams comes from the precise definition of a Joule: it's the energy required to apply a force of 1 Newton over a distance of 1 meter. 
+
+1 Newton is the force needed to accelerate 1 kilogram at 1 meter per second squared. Due to Earth's gravity (approximately 9.8 m/s²), a 100-gram object experiences about 1 Newton of gravitational force.
+
+We could define it using any mass - it's just that 100 grams works out nicely for explanation purposes since it:
+1. Results in about 1 Newton of force under Earth's gravity
+2. Is about the mass of a small apple, making it easy to visualize
 
 ## Carrying a Box
 
