@@ -1,4 +1,5 @@
 - Review Zettels and extract basic level content for different chapters
+- Use coin cell battery with 3 volt to turn on LED (another way to solve the led damage problem)
 - Look at the passive-device.md table in browser and review.
 - Move all OUT OF SCOPE to a different folder
 - Review discrete-passive-circuit.md
