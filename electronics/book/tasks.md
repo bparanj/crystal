@@ -30,6 +30,9 @@
 - Refer electronics encyclopedia book and note down categorization
 
 - need circuit diagram for inductor, led circuit, short circuit
+- Figure 1-1 Encyclopedia of Electronics
+- Convert hand drawn diagrams to CircuitTiz diagrams
+- Render the svg using the html and take screenshots
 
 Scope
 
