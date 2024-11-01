@@ -40,6 +40,9 @@ Current or voltage is called a "signal" because it carries information or serves
 
 Would you like me to elaborate on any particular type of signal or how they're processed in electronic systems?
 
+PENDING
+
+Illustrate this concept using a diagram.
 
 The name reflects the device's function of transferring the flow of electrical current between two points in a circuit while also having the ability to resist or modulate that flow. Reasoning behind the name:
 
