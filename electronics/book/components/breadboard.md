@@ -1,6 +1,6 @@
-Image 1 shows the negative terminal. You can see the negative sign in black. All the dots in the horizontal line at the top shown with green circles around the dots are connected together. They all provide connection for negative terminal.
+Image 1 shows the negative terminal. You can see the negative sign in black. All the dots in the horizontal line at the top shown with green circles around the dots are connected together. They all provide connection for negative terminal. This is called the power rail.
 
-Image 2 shows the positive terminal. You can see the positive sign in red. All the dots in this horizontal line are shown with green circles round them. These dots are connected together. They all provide connection for positive terminal.
+Image 2 shows the positive terminal. You can see the positive sign in red. All the dots in this horizontal line are shown with green circles round them. These dots are connected together. They all provide connection for positive terminal. This is called the power rail.
 
 Image 3 shows the negative terminal at the bottom of the breadboard. It is similar to the negative terminal at the top.
 

@@ -15,4 +15,7 @@
 12. Resistor - series - Pending
 13. Resistor - parallel - Pending
 
-https://www.youtube.com/watch?v=Mi1-IV0vMCw&list=PLeVrdakJu3M43jB2WqKEL4_Hhn94LpOMT
+
+PENDING
+
+Move this to experiments sequence document
