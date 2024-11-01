@@ -76,7 +76,9 @@ A diode allows current to flow in one direction. It blocks current in the opposi
     </defs>
 </svg>
 
-PENDING DIAGRAMS
+PENDING 
+
+Review diagrams and revise
 
 What is an electrical signal?
 
@@ -176,4 +178,3 @@ Active electronic components are devices that can control or amplify electrical 
 Transistors are key active components that control large currents using a smaller input current. Diodes allow current to flow in one direction, making them useful for converting AC to DC. Integrated circuits combine multiple active elements to perform complex functions such as computation and signal processing.
 
 In electronic circuits, active components like transistors and op-amps amplify signals, while diodes are used for directional control. These components, which require external power, are essential in both simple and complex electronic systems.
-
