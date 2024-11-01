@@ -2,7 +2,6 @@
 - Buy battery case on Amazon. This is needed to take photo for the book cover.
 - Use coin cell battery with 3 volt to turn on LED (another way to solve the led damage problem)
 - Look at the passive-device.md table in browser and review.
-- Move all OUT OF SCOPE to a different folder
 - Review discrete-passive-circuit.md
 - Review and condense load.md
 - Modify the basic capacitor experiment by replacing the capacitor with polarized capacitor

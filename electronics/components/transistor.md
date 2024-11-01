@@ -1,8 +1,7 @@
 The name "transistor" is a combination of two words:
 
 - "transfer" and
-- "resistor."
-
+- "resistor"
 
 PENDING
 
@@ -47,10 +46,12 @@ Illustrate this concept using a diagram.
 The name reflects the device's function of transferring the flow of electrical current between two points in a circuit while also having the ability to resist or modulate that flow. Reasoning behind the name:
 
 Transfer:
+
    - Meaning: The "transfer" refers to the transistor's ability to transfer an input signal from one terminal to another, controlling the output current or voltage based on the input.
    - Function: In a transistor, a small input current or voltage applied to the base (in a bipolar junction transistor, or BJT) or the gate (in a field-effect transistor, or FET) can control a much larger current flowing between the other two terminals (collector and emitter in a BJT, or drain and source in a FET).
 
 Resistor:
+
    - Meaning: The "resistor" highlights the transistor's ability to resist or regulate the current flow. It implies that the transistor can act like a variable resistor, adjusting the flow of current through the circuit based on the input signal.
    - Function: The transistor can modulate the resistance between its terminals, allowing it to amplify or switch electronic signals. The resistance is controlled by the small input signal, enabling the transistor to function as an amplifier or a switch.
 
@@ -61,6 +62,7 @@ The name "transistor" was coined in 1947 by John R. Pierce, a colleague of the i
 The term transistor was chosen to describe the device's ability to transfer an electrical signal across a circuit while providing resistance, combining the words "transfer" and "resistor" to reflect this dual capability.
 
 ### Summary:
+
 The name "transistor" is derived from the combination of "transfer" and "resistor," reflecting the device's role in transferring electrical signals and modulating current flow within a circuit. This naming captures the essence of the transistor's functionality as a key component in amplifying and switching electronic signals.
 
 Yes, a transistor can function as a switch, and this is one of its primary applications in electronic circuits. Here's how a transistor operates like a switch:

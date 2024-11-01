@@ -76,8 +76,6 @@ Resistors are fundamental components in electronics with numerous applications. 
 
 These applications demonstrate the versatility and importance of resistors in electronic design. Their ability to control current, divide voltage, and dissipate power makes them essential in virtually all electronic circuits.
 
-
-
 ## Terms
 
 - Pull Up Circuit
