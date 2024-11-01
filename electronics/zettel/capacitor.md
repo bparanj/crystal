@@ -9,11 +9,13 @@ the maximum amount that something can contain.
 A capacitor's "capacity" (more commonly called "capacitance") has a few relevant definitions:
 
 1. Technical/Physics Definition:
+
 - The ability to store an electric charge
 - Specifically: The ratio of stored electric charge to the voltage difference between conductors
 - Measured in farads (F), where 1 farad = 1 coulomb of charge per volt
 
 2. General Dictionary Definition:
+
 - The ability to contain, hold, or store something
 - The maximum amount that something can contain or hold
 - The amount that can be held, stored, or processed
@@ -21,10 +23,13 @@ A capacitor's "capacity" (more commonly called "capacitance") has a few relevant
 In the context of capacitors, it's important to note that while "capacity" is sometimes used colloquially, "capacitance" is the correct technical term. This measures how much electric charge the capacitor can store for a given voltage.
 
 For reference:
+
 - A 1 farad capacitor can store 1 coulomb of charge at 1 volt
 - Most practical capacitors are much smaller, using units like:
   - microfarads (µF) = 10⁻⁶ farads
   - picofarads (pF) = 10⁻¹² farads
+
+PENDING
 
 Would you like me to elaborate on how capacitance is calculated or used in circuits?
 
@@ -110,18 +115,21 @@ Let me elaborate with a more detailed analogy that might help visualize this beh
 Think of a capacitor like two rooms connected by a swinging door, and electrons like a crowd of people:
 
 1. DC (0 Hz) case:
+
 - It's like trying to push the crowd through in one direction constantly
 - People pile up at the door (like charges on the plates)
 - Eventually, the pressure of people on both sides equalizes
 - No more movement possible (DC doesn't pass through)
 
 2. Very Low Frequency AC:
+
 - Now you're trying to push the crowd back and forth very slowly
 - There's still time for many people to pile up at the door
 - This pile-up creates strong resistance to movement
 - Most of the pushing force is wasted fighting this pile-up
 
 3. Higher Frequency AC:
+
 - Now you're swinging the door back and forth quickly
 - People don't have time to pile up at the door
 - They just keep moving back and forth with the door
@@ -129,6 +137,7 @@ Think of a capacitor like two rooms connected by a swinging door, and electrons 
 - More "flow" appears to happen through the capacitor
 
 4. The Energy Perspective:
+
 - Energy in a capacitor is stored in the electric field between plates
 - At high frequencies, energy spends less time stored in the field
 - More energy passes through rather than being stored
@@ -153,12 +162,12 @@ Where:
 - \( C \) is the capacitance (in farads, F).
 
 ### Key Points
+
 1. Inverse Relationship: Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
-  
+
 2. Low Reactance at High Frequency: For high-frequency signals, \( X_C \) becomes very low, effectively making the capacitor behave more like a short circuit, allowing the signal to pass through easily.
 
 3. High Reactance at Low Frequency: For low-frequency signals, \( X_C \) is high, acting more like an open circuit, which blocks or attenuates the low-frequency components.
 
 This frequency-dependent behavior makes capacitors useful for filtering applications, where they block DC or low-frequency signals while allowing high-frequency AC signals to pass through.
-
 

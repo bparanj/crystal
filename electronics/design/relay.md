@@ -1,5 +1,4 @@
-The simplest electronic circuit to learn about relays involves using a relay to control a higher-power device with a lower-power signal. Let's design a basic circuit that demonstrates the fundamental operation of a relay.
-
+The simplest electronic circuit to learn about relays is using a relay to control a higher-power device with a lower-power signal. Let's design a basic circuit that demonstrates the basic operation of a relay.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">

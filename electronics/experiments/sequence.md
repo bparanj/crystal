@@ -8,8 +8,27 @@ Chapters
 	- Forms of energy (joules.md)
 	- Law of conservation of energy
 	- Useful appliances
-	
+
 - Safety
+
+
+1. Short Circuit
+2. LED Circuit
+3. Slideswitch
+4. Pushbutton
+5. Potentiometer
+    - Voltage divider
+6. Capacitor
+    - Polarized capacitor - Pending
+7. Diode
+    - Zener Diode - Pending
+8. Fuse - Pending
+9. Relay - Pending
+10. Tranistor
+11. Inductor - Pending
+12. Resistor - series - Pending
+13. Resistor - parallel - Pending
+
 
 Experiments
 
@@ -17,6 +36,7 @@ Experiments
 - LED Damage
 - Wiring Circuit (Basics - Keep the circuit open)
 - LED Circuit
+- Voltage Drop (refer voltage-drop-experiment.md)
 - Pushbutton
 - Slideswitch
 - Potentiometer

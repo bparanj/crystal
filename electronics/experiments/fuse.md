@@ -1,4 +1,7 @@
+OUT OF SCOPE
 Fuse is not listed https://www.tinkercad.com/help/circuits/list-of-all-circuit-components. Skip this topic.
+
+This experiment will blow up the fuse.
 
 Here are the steps to create a simple circuit demonstrating how a fuse works:
 
