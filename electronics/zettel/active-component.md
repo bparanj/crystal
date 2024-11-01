@@ -8,6 +8,74 @@ A transistor is a three terminal device. It has a base, collector and an emitter
 
 A diode allows current to flow in one direction. It blocks current in the opposite direction. This propery is used to convert alternating current (AC) to direct current (DC) in rectifier circuits. A diode is like a one-way valve in a plumbing system, where a water can only flow in one direction. In a power supply circuit, a diode is used to convert AC from a wall outles into DC that powers electronic devices such as a phone charger.
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+    <!-- 1. Active vs Passive Components Analogy -->
+    <rect x="50" y="30" width="700" height="150" fill="#f5f5f5" stroke="gray"/>
+    <text x="60" y="50" font-size="14" font-weight="bold">Active vs Passive Components Analogy</text>
+    
+    <!-- Water pump (Active) -->
+    <circle cx="150" cy="100" r="25" fill="none" stroke="blue" stroke-width="2"/>
+    <path d="M 125 100 L 175 100 M 150 75 L 150 125" stroke="blue" stroke-width="2"/>
+    <text x="130" y="140" font-size="12">Pump (Active)</text>
+    
+    <!-- Pipe (Passive) -->
+    <path d="M 250 90 L 350 90 L 350 110 L 250 110 Z" fill="none" stroke="gray" stroke-width="2"/>
+    <text x="280" y="140" font-size="12">Pipe (Passive)</text>
+    
+    <!-- Flow arrows -->
+    <path d="M 200 100 L 240 100" stroke="blue" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 360 100 L 400 100" stroke="blue" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- 2. Transistor Structure -->
+    <rect x="50" y="200" width="700" height="180" fill="#f5f5f5" stroke="gray"/>
+    <text x="60" y="220" font-size="14" font-weight="bold">Transistor Structure and Operation</text>
+    
+    <!-- Transistor symbol -->
+    <circle cx="150" cy="280" r="30" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M 150 250 L 150 310" stroke="black" stroke-width="2"/>
+    <path d="M 135 265 L 165 295" stroke="black" stroke-width="2"/>
+    <path d="M 135 295 L 165 265" stroke="black" stroke-width="2"/>
+    
+    <!-- Labels -->
+    <text x="170" y="260" font-size="12">Collector</text>
+    <text x="170" y="280" font-size="12">Base</text>
+    <text x="170" y="300" font-size="12">Emitter</text>
+    
+    <!-- Current flow illustration -->
+    <path d="M 250 260 L 350 260" stroke="red" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <text x="270" y="250" font-size="10">Large Current</text>
+    <path d="M 250 300 L 350 300" stroke="blue" stroke-width="1" marker-end="url(#arrowhead)"/>
+    <text x="270" y="320" font-size="10">Small Control Current</text>
+    
+    <!-- 3. Diode Operation -->
+    <rect x="50" y="400" width="700" height="180" fill="#f5f5f5" stroke="gray"/>
+    <text x="60" y="420" font-size="14" font-weight="bold">Diode Operation and Water Valve Analogy</text>
+    
+    <!-- Diode symbol -->
+    <path d="M 150 480 L 200 480" stroke="black" stroke-width="2"/>
+    <path d="M 200 460 L 200 500 L 240 480 Z" fill="none" stroke="black" stroke-width="2"/>
+    <path d="M 240 480 L 290 480" stroke="black" stroke-width="2"/>
+    
+    <!-- Water valve analogy -->
+    <circle cx="400" cy="480" r="20" fill="none" stroke="blue" stroke-width="2"/>
+    <path d="M 380 480 L 420 480" stroke="blue" stroke-width="2"/>
+    <path d="M 400 460 L 400 500" stroke="blue" stroke-width="2"/>
+    
+    <!-- AC to DC conversion -->
+    <path d="M 500 480 C 520 460, 540 460, 560 480 C 580 500, 600 500, 620 480" 
+          stroke="red" fill="none" stroke-width="1"/>
+    <path d="M 650 480 L 700 480" stroke="red" fill="none" stroke-width="1"/>
+    <text x="500" y="520" font-size="10">AC to DC Conversion</text>
+    
+    <!-- Arrowheads definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="black"/>
+        </marker>
+    </defs>
+</svg>
+
 PENDING DIAGRAMS
 
 What is an electrical signal?
@@ -16,154 +84,96 @@ An electrical signal is a time-varying voltage or current that carries informati
 
 No, DC (Direct Current) alone is not an electrical signal since it maintains a constant voltage/current level and doesn't vary with time. However, when DC is modulated or varied, it becomes a signal that can carry information.
 
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Grid -->
+    <defs>
+        <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ddd" stroke-width="0.5"/>
+        </pattern>
+    </defs>
+    <rect width="400" height="300" fill="url(#grid)" />
+
+    <!-- Time axis -->
+    <line x1="0" y1="150" x2="400" y2="150" stroke="black" stroke-width="1"/>
+    <text x="380" y="170">Time</text>
+
+    <!-- DC Signal -->
+    <line x1="0" y1="50" x2="400" y2="50" stroke="blue" stroke-width="2"/>
+    <text x="10" y="40">DC Level</text>
+
+    <!-- Sine Wave Signal -->
+    <path d="M 0 150 C 25 50, 75 50, 100 150 C 125 250, 175 250, 200 150 C 225 50, 275 50, 300 150 C 325 250, 375 250, 400 150" 
+          fill="none" stroke="red" stroke-width="2"/>
+    <text x="10" y="200">Signal (Sine Wave)</text>
+
+    <!-- Modulated DC -->
+    <path d="M 0 250 C 25 220, 75 220, 100 250 C 125 280, 175 280, 200 250 C 225 220, 275 220, 300 250 C 325 280, 375 280, 400 250" 
+          fill="none" stroke="green" stroke-width="2"/>
+    <text x="10" y="290">Modulated DC</text>
+</svg>
+
+```mermaid
+graph TB
+    subgraph "Electrical Signals vs DC Current"
+        subgraph "Electrical Signals (Time-varying)"
+            A1[Sine Wave]
+            A2[Square Wave]
+            A3[Modulated Signal]
+            
+            style A1 fill:#f9f,stroke:#333
+            style A2 fill:#f9f,stroke:#333
+            style A3 fill:#f9f,stroke:#333
+        end
+        
+        subgraph "DC (Constant Level)"
+            B1[Constant Voltage/Current]
+            B2[Not a Signal]
+            
+            style B1 fill:#bbf,stroke:#333
+            style B2 fill:#bbf,stroke:#333
+        end
+        
+        subgraph "DC as Signal (When Modulated)"
+            C1[DC + Modulation]
+            C2[Carries Information]
+            
+            style C1 fill:#bfb,stroke:#333
+            style C2 fill:#bfb,stroke:#333
+        end
+    end
+```
+
 Is inductive coupling used in wireless chargers of the phones?
 
 Yes, wireless phone chargers use inductive coupling. They create an alternating magnetic field in the charging pad's coil which induces a voltage in the receiving coil in the phone, enabling wireless power transfer.
 
-## Overview: Active Electronic Component
+```mermaid
+flowchart LR
+    AC[AC Source] --> P[Primary Coil]
+    P -->|Magnetic Field| S[Secondary Coil]
+    S --> L[Load]
+    
+    subgraph "Primary Circuit"
+        AC
+        P
+    end
+    
+    subgraph "Secondary Circuit"
+        S
+        L
+    end
+    
+    subgraph "Coupling Medium"
+        MF[Magnetic Flux]
+    end
+    
+    P ---|Creates| MF
+    MF ---|Induces| S
+```
 
-An **active electronic component** refers to a device that can control or amplify electrical signals and requires an external power source to operate. Active components differ from passive components because they can introduce energy into a circuit and manage the flow of electricity. Common examples include **transistors**, **diodes**, and **integrated circuits**. These components are essential in complex circuits, enabling switching, amplification, and regulation of electrical signals.
+Active electronic components are devices that can control or amplify electrical signals and require an external power source. Examples include transistors, diodes, and integrated circuits. These components are crucial for switching, amplifying, and regulating electrical signals in circuits.
 
-## Atomic Ideas
+Transistors are key active components that control large currents using a smaller input current. Diodes allow current to flow in one direction, making them useful for converting AC to DC. Integrated circuits combine multiple active elements to perform complex functions such as computation and signal processing.
 
-1. **What defines an active component?**
-   - **Question**: What distinguishes an active electronic component from a passive component?
-   - **Atomic Idea**: An **active component** requires an external power source to operate and can control or amplify electrical signals. Unlike passive components, active components can generate or modify electrical power within a circuit.
-   - **Analogy**: Think of an active component like a pump in a water system that adds energy and controls the flow of water, while passive components are like pipes that merely direct the flow.
-   - **Example**: A **transistor** is an active component because it requires an external power source to amplify electrical signals, allowing it to act as a switch or amplifier in a circuit.
+In electronic circuits, active components like transistors and op-amps amplify signals, while diodes are used for directional control. These components, which require external power, are essential in both simple and complex electronic systems.
 
-2. **How does a transistor function?**
-   - **Question**: How does a transistor work as an active component?
-   - **Atomic Idea**: A **transistor** is a three-terminal device (base, collector, emitter) that can switch or amplify signals. By applying a small current to the base, the transistor allows a much larger current to flow between the collector and emitter, thus controlling the overall current in the circuit.
-   - **Analogy**: Imagine a transistor like a faucet. A small twist of the handle (base current) allows a larger flow of water (collector-emitter current) through the faucet.
-   - **Example**: In an amplifier circuit, a **bipolar junction transistor (BJT)** amplifies an audio signal by controlling a larger current with a smaller input signal.
-
-3. **What is a diode's function in a circuit?**
-   - **Question**: How does a diode function as an active component in a circuit?
-   - **Atomic Idea**: A **diode** allows current to flow in one direction while blocking it in the opposite direction. This property makes diodes useful for converting alternating current (AC) to direct current (DC) in rectifier circuits.
-   - **Analogy**: Think of a diode like a one-way valve in a plumbing system, where water (current) can only flow in one direction.
-   - **Example**: In a power supply circuit, a **diode** is used to convert AC from a wall outlet into DC that powers electronic devices, such as your phone charger.
-
-4. **What are integrated circuits (ICs)?**
-   - **Question**: What is the role of an integrated circuit (IC) in electronics?
-   - **Atomic Idea**: An **integrated circuit (IC)** is a small chip that contains multiple interconnected active components like transistors and diodes, which together perform complex functions such as computation, amplification, or signal processing.
-   - **Analogy**: An integrated circuit is like a small city with interconnected systems (transistors and diodes) that work together to perform tasks like transportation or communication.
-   - **Example**: A **555 timer IC** contains a combination of transistors and other components to generate precise timing intervals, used in applications like pulse-width modulation or creating oscillators.
-
-5. **How do active components amplify signals?**
-   - **Question**: How do active components, like transistors, amplify electrical signals?
-   - **Atomic Idea**: Active components can amplify signals by using a small input signal to control a larger output signal. This amplification process allows weak signals to be strengthened, which is crucial in applications like audio amplification or radio transmission.
-   - **Analogy**: Amplification works like a speaker system where a small input from a microphone (weak signal) is amplified to produce a loud sound (strong signal).
-   - **Example**: In an audio amplifier circuit, a **transistor** takes a weak input signal from a microphone and increases its power to drive a loudspeaker, making the sound audible to a larger audience.
-
----
-
-## Solution: How Active Components Function in Circuits
-
-### Problem Statement:
-In a circuit using a transistor as a switch, a small current of 5mA is applied to the base of a transistor, and the transistor controls a collector current of 500mA. What is the current gain (β) of the transistor?
-
-### Solution:
-
-The current gain (β) of a transistor is the ratio of the collector current ($I_C$) to the base current ($I_B$). The formula is:
-
-$$ \beta = \frac{I_C}{I_B} $$
-
-Where:
-- $I_C$ is the collector current (500mA),
-- $I_B$ is the base current (5mA).
-
-Substitute the values:
-
-$$ \beta = \frac{500 \, \text{mA}}{5 \, \text{mA}} = 100 $$
-
-Thus, the current gain (β) of the transistor is **100**.
-
----
-
-## Related Atomic Ideas:
-
-1. **Current Gain in Transistors**: Understanding current gain ($\beta$) helps explain how small base currents control larger collector currents, central to the function of transistors in amplification and switching applications.
-2. **Amplification**: Amplification occurs when an active component like a transistor increases the power of a signal. Learning about amplification links to signal processing and communication circuits.
-3. **Biasing in Transistors**: Proper biasing of a transistor ensures it operates correctly, allowing it to function as a switch or amplifier. Biasing is a key concept for stable transistor operation.
-4. **Rectification**: Diodes in rectifier circuits convert AC to DC. This concept links to power supplies and the role of diodes in converting electrical signals.
-5. **Power Control with Active Components**: Transistors and other active components are crucial in power control circuits, such as in voltage regulators and motor controllers. Understanding how active components regulate power helps in designing efficient circuits.
-
----
-
-## Potential Research:
-
-1. **Advanced Transistor Designs for High-Efficiency Circuits**:
-   - Problem: Explore how advanced transistor designs, like MOSFETs, improve efficiency in power management. How do they minimize power loss in modern electronics?
-
-2. **The Role of Integrated Circuits in Modern Communication Systems**:
-   - Problem: Investigate how integrated circuits enable complex communication systems like 5G networks. What are the challenges in scaling ICs for higher data rates?
-
-3. **Improving Diode Efficiency in Power Conversion**:
-   - Problem: Research how different materials used in diodes (e.g., silicon carbide) impact efficiency in power conversion circuits. How can these materials be optimized for use in renewable energy systems?
-
-Overview:
-Active electronic components constitute fundamental elements in electronic circuits that can control electron flow and amplify electrical signals. Unlike passive components, active components require an external power source to function. These components can increase the power of a signal and generally exhibit nonlinear behavior. Common examples include diodes, transistors, and integrated circuits. Active components play crucial roles in signal processing, amplification, and switching operations within electronic systems.
-
-Atomic Ideas:
-
-1. What defines an active electronic component?
-An active electronic component requires an external power source to operate and can control electron flow or amplify electrical signals. These components can increase the power of a signal, unlike passive components which can only attenuate or store energy.
-Analogy: Active components resemble pumps in a water system. Just as pumps actively move water and increase pressure using external power, active electronic components control and amplify electrical signals using an external power source.
-Example: To demonstrate an active component's behavior:
-a) Obtain a simple amplifier circuit kit with a transistor, resistors, and an audio input/output.
-b) Connect a low-volume audio source (e.g., smartphone) to the input.
-c) Power the circuit with a battery.
-d) Connect headphones or a speaker to the output.
-e) Play audio and observe how the transistor (active component) amplifies the weak input signal to a louder output, using power from the battery.
-
-2. How do diodes function as active components?
-Diodes allow current to flow in one direction while blocking it in the opposite direction. This non-linear behavior requires a minimum forward voltage to conduct,  0.7V for silicon diodes. The diode equation relates current (I) to voltage (V): $I = I_s(e^{\frac{V}{nV_T}} - 1)$, where $I_s$ is the reverse saturation current, n is the ideality factor, and $V_T$ is the thermal voltage.
-Analogy: A diode functions like a one-way valve in a pipe. Just as the valve allows water to flow in only one direction, a diode permits electric current to flow predominantly in one direction.
-Example: To observe diode behavior:
-a) Set up a circuit with a battery, LED (a type of diode), and resistor in series.
-b) Connect the LED's anode (longer lead) to the battery's positive terminal.
-c) Observe the LED lighting up.
-d) Reverse the LED's connection.
-e) Observe the LED remaining off, demonstrating the diode's unidirectional conduction.
-
-3. How do transistors operate as active components?
-Transistors act as current amplifiers or electronic switches, controlling a large current flow in the collector-emitter circuit based on a small current or voltage applied to the base. For a bipolar junction transistor (BJT), the relationship between collector current ($I_C$) and base current ($I_B$) is given by $I_C = \beta I_B$, where $\beta$ is the current gain.
-Analogy: A transistor resembles a water faucet controlled by a small lever. A slight movement of the lever (base current) can control a much larger flow of water (collector current).
-Example: Calculate the collector current for a transistor with $\beta = 100$ and base current of 0.1mA:
-a) Use the equation: $I_C = \beta I_B$
-b) Substitute the values: $I_C = 100 × 0.1 \text{ mA}$
-c) Perform the multiplication: $I_C = 10 \text{ mA}$
-d) The transistor amplifies the 0.1mA base current to a 10mA collector current.
-
-4. How do operational amplifiers (op-amps) function as active components?
-Operational amplifiers are high-gain electronic voltage amplifiers with differential inputs and a single output. They form the basis of many analog circuits. In an ideal op-amp, the output voltage ($V_out$) relates to the difference between the non-inverting ($V_+$) and inverting ($V_-$) inputs: $V_{out} = A_{OL}(V_+ - V_-)$, where $A_{OL}$ is the open-loop gain.
-Analogy: An op-amp acts like a highly sensitive balance scale. It compares two input voltages (weights on each side) and produces an output proportional to their difference, amplified by a large factor.
-Example: To demonstrate basic op-amp behavior:
-a) Set up an inverting amplifier circuit using an op-amp (e.g., LM741), resistors, and power supply.
-b) Apply a small AC signal (e.g., 0.1V peak-to-peak) to the input.
-c) Measure the output signal with an oscilloscope.
-d) Observe the amplified and inverted output signal.
-e) Calculate the gain by dividing the output amplitude by the input amplitude.
-
-5. How do integrated circuits (ICs) serve as complex active components?
-Integrated circuits combine multiple transistors, diodes, resistors, and capacitors on a single semiconductor chip to perform complex functions. They range from simple logic gates to microprocessors containing billions of transistors. The complexity of an IC is often described by its scale of integration, from small-scale integration (SSI) to very-large-scale integration (VLSI).
-Analogy: An integrated circuit resembles a pre-fabricated house with all utilities and furnishings included. Just as the house combines many elements into a functional unit, an IC integrates numerous electronic components to perform complex tasks.
-Example: To explore IC functionality:
-a) Obtain a 555 timer IC and necessary components for an astable multivibrator circuit.
-b) Set up the circuit on a breadboard,  LEDs for output visualization.
-c) Power the circuit and observe the LEDs blinking alternately.
-d) Modify the timing resistors or capacitor.
-e) Observe how these changes affect the blinking frequency, demonstrating the IC's ability to perform timing functions with minimal external components.
-
-Related Atomic Ideas:
-1. Passive components: Electronic parts that don't require external power to function. Understanding passive components enhances appreciation for the complementary roles of passive and active elements in circuits.
-2. Semiconductor physics: The study of materials with controllable electrical properties. This concept underpins the operation of many active components like diodes and transistors.
-3. Amplification: The process of increasing the power of a signal. This idea is fundamental to many active component applications, particularly in audio and RF circuits.
-4. Feedback: The process of routing part of an output signal back to the input. This concept is crucial in op-amp circuits and many control systems.
-5. Digital logic: The study of digital circuits operating on discrete voltage levels. This idea connects active components to digital systems and computer architecture.
-
-Potential Research:
-1. How can one develop novel active components that exploit quantum effects, potentially creating "quantum transistors" or "quantum amplifiers" for use in quantum computing systems?
-2. What innovative approaches could lead to the creation of bio-electronic active components that interface directly with living tissue, possibly enabling new forms of medical implants or human-machine interfaces?
-3. How might the principles of neuromorphic engineering be applied to design active components that mimic the function of biological neurons, potentially revolutionizing artificial intelligence hardware?
