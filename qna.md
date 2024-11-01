@@ -16,3 +16,8 @@ Think of it like a speed bump in a road: whether it’s before or after a car, i
 
 Static electricity is the buildup of electric charge on the surface of an object. Electrostatic discharge (ESD) is the sudden flow of that electric charge when two differently charged objects come into contact or close proximity, creating a spark. It's like the difference between having a balloon full of static charge and that shocking zap when you touch a metal doorknob. Static electricity is the potential; ESD is the action.
 
+## Forward Current
+
+Forward current is the flow of current through a diode in the direction it is intended to conduct. For a typical diode, this means the current flows from the anode (positive side) to the cathode (negative side). When a diode is forward-biased, meaning the voltage on the anode is higher than the voltage on the cathode, it allows current to pass through—this current is called forward current.
+
+It's essentially the "working" current that the diode is designed to handle when it’s conducting normally.
