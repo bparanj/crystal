@@ -1,3 +1,22 @@
+## Terms
+
+- Electro Static Discharge
+- Static Electricity
+- Static Discharge
+- Ground
+- Resistivity
+- Conductive
+- Dissipative
+- Surface Resistance
+- Surface Resistivity
+
+
+PENDING
+
+Is static discharge and electro static discharge the same?
+Is resistivity the opposite of conductivity?
+
+
 Soldering mat and an ESD (Electrostatic Discharge) mat are different.
 
 Soldering Mat
@@ -11,6 +30,8 @@ ESD Mat
 An ESD mat is designed to dissipate static electricity. It prevents static discharge from damaging sensitive electronic components. It is used when working with electronic devices to avoid electrostatic discharge.
 
 They are made from materials like conductive rubber or vinyl. These materials allow static electricity to safely discharge through a grounding point.
+
+PENDING
 
 what is grounding point? goes here.
 
