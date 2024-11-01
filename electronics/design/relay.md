@@ -1,5 +1,4 @@
-The simplest electronic circuit to learn about relays  involves using a relay to control a higher-power device with a lower-power signal. Let's design a basic circuit that demonstrates the fundamental operation of a relay.
-
+The simplest electronic circuit to learn about relays involves using a relay to control a higher-power device with a lower-power signal. Let's design a basic circuit that demonstrates the fundamental operation of a relay.
 
 
 ```svg
@@ -10,35 +9,35 @@ The simplest electronic circuit to learn about relays  involves using a relay to
   <line x1="50" y1="50" x2="50" y2="150" stroke="black" stroke-width="2"/>
   <line x1="60" y1="70" x2="60" y2="130" stroke="black" stroke-width="2"/>
   <text x="30" y="100" font-size="14">5V</text>
-  
+
   <!-- Switch -->
   <circle cx="100" cy="50" r="3" fill="black"/>
   <line x1="50" y1="50" x2="97" y2="50" stroke="black" stroke-width="2"/>
   <line x1="100" y1="50" x2="120" y2="30" stroke="black" stroke-width="2"/>
   <text x="110" y="25" font-size="14">S</text>
-  
+
   <!-- Relay Coil -->
   <rect x="150" y="30" width="40" height="80" fill="none" stroke="black" stroke-width="2"/>
   <text x="155" y="70" font-size="14">Relay</text>
   <text x="155" y="85" font-size="14">Coil</text>
-  
+
   <!-- Load Circuit -->
   <text x="220" y="30" font-size="14">Load Circuit</text>
   <!-- Power Source -->
   <line x1="250" y1="50" x2="250" y2="150" stroke="black" stroke-width="2"/>
   <line x1="260" y1="70" x2="260" y2="130" stroke="black" stroke-width="2"/>
   <text x="230" y="100" font-size="14">12V</text>
-  
+
   <!-- Relay Contact -->
   <line x1="300" y1="50" x2="320" y2="50" stroke="black" stroke-width="2"/>
   <line x1="320" y1="50" x2="340" y2="70" stroke="black" stroke-width="2"/>
   <line x1="340" y1="70" x2="360" y2="70" stroke="black" stroke-width="2"/>
-  
+
   <!-- LED -->
   <circle cx="360" cy="100" r="10" fill="none" stroke="black" stroke-width="2"/>
   <line x1="355" y1="95" x2="365" y2="105" stroke="black" stroke-width="2"/>
   <line x1="355" y1="105" x2="365" y2="95" stroke="black" stroke-width="2"/>
-  
+
   <!-- Ground -->
   <line x1="50" y1="150" x2="360" y2="150" stroke="black" stroke-width="2"/>
   <line x1="195" y1="150" x2="215" y2="150" stroke="black" stroke-width="4"/>
@@ -189,3 +188,4 @@ Key points to observe in the results:
 3. The coil and LED currents can be calculated from the voltage drops and known resistances.
 
 This simulation simplifies some aspects of real-world relay behavior, such as switching time and contact resistance, but it provides a good starting point for understanding relay circuits.
+

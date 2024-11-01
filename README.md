@@ -5,6 +5,11 @@
 - [Basic Simulations](https://www.youtube.com/playlist?list=PLxtiTGwRHk3OdlJg1Ita9kaN9HVv1Cgv7)
 - [Voltage Regulator](https://www.tinkercad.com/things/fBosanc7O9u-voltage-regulators)
 
+
+PENDING
+
+Move the notes below to smaller files
+
 ## Relay
 
 An electromagnetic armature relay is a type of relay that uses an electromagnet to mechanically operate a switch. When an electric current flows through the relay's coil, it creates a magnetic field that attracts a movable armature. This movement either opens or closes electrical contacts, allowing or interrupting the flow of current in a circuit.
@@ -31,13 +36,13 @@ A resistor is used for limiting the charging rate of a capacitor; providing appr
 
 In the process of impeding the flow of current and reducing voltage, a resistor absorbs electrical energy, which it must dissipate as heat. The heat dissipation is typically a fraction of a watt.
 
-Power, measured in watts (W), is indeed the product of voltage (V) and current (I): 
+Power, measured in watts (W), is indeed the product of voltage (V) and current (I):
 
 P = V x I
 
 This relationship defines how much electrical energy is being converted into another form per unit of time.
 
-Not all of this energy conversion results in heat; the actual dissipation depends on the specific components and their efficiency. For resistors, they dissipate electrical energy primarily as heat due to their resistance. Therefore, while a fraction of the total energy becomes heat, the calculation 
+Not all of this energy conversion results in heat; the actual dissipation depends on the specific components and their efficiency. For resistors, they dissipate electrical energy primarily as heat due to their resistance. Therefore, while a fraction of the total energy becomes heat, the calculation
 
 P = V x I
 
