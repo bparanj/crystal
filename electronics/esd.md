@@ -8,7 +8,7 @@ So, next time you shock yourself after shuffling across a carpet, you’re basic
 
 Why does it not make any difference whether the resistor comes before or after a LED in a circuit?
 
- The resistor's job is to limit the current flowing through the LED, preventing it from burning out. The current in a series circuit is the same at every point, so it doesn’t matter whether the resistor is before or after the LED—the current gets limited just the same.
+The resistor's job is to limit the current flowing through the LED, preventing it from burning out. The current in a series circuit is the same at every point, so it doesn’t matter whether the resistor is before or after the LED—the current gets limited just the same.
 
 Think of it like a speed bump in a road: whether it’s before or after a car, it’ll slow the car down. Whether the resistor is positioned before or after the LED, it still restricts the current flow and protects the LED.
 

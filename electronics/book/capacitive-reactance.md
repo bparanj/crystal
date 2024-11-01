@@ -1,4 +1,4 @@
-**Capacitive reactance** is the opposition that a capacitor offers to alternating current (AC) in a circuit. It depends on the frequency of the AC signal and the capacitance of the capacitor.
+Capacitive reactance is the opposition that a capacitor offers to alternating current (AC) in a circuit. It depends on the frequency of the AC signal and the capacitance of the capacitor.
 
 ### Key Formula:
 \[
@@ -10,14 +10,16 @@ where:
 - \( C \) is the capacitance of the capacitor.
 
 ### Explanation:
-- **Inversely Proportional**: Capacitive reactance decreases as frequency or capacitance increases. This means high-frequency signals pass through a capacitor more easily than low-frequency signals.
-- **AC vs. DC**: In DC circuits (where \( f = 0 \)), capacitive reactance is infinite, effectively blocking current. In AC circuits, the capacitor allows current to flow based on the reactance value.
+
+- Inversely Proportional: Capacitive reactance decreases as frequency or capacitance increases. This means high-frequency signals pass through a capacitor more easily than low-frequency signals.
+
+- AC vs. DC: In DC circuits (where \( f = 0 \)), capacitive reactance is infinite, effectively blocking current. In AC circuits, the capacitor allows current to flow based on the reactance value.
 
 Capacitive reactance plays a role in controlling AC current flow in circuits with capacitors.
 
 Why does high-frequency signals pass through a capacitor more easily than low-frequency ones?
 
-High-frequency signals pass through a capacitor more easily than low-frequency ones due to the **capacitive reactance** property of the capacitor. Capacitive reactance is the opposition that a capacitor provides to an AC signal, and it depends on the frequency of the signal:
+High-frequency signals pass through a capacitor more easily than low-frequency ones due to the capacitive reactance property of the capacitor. Capacitive reactance is the opposition that a capacitor provides to an AC signal, and it depends on the frequency of the signal:
 
 \[
 X_C = \frac{1}{2 \pi f C}
@@ -29,13 +31,13 @@ Where:
 - \( C \) is the capacitance (in farads, F).
 
 ### Key Points
-1. **Inverse Relationship**: Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
+1. Inverse Relationship: Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
   
-2. **Low Reactance at High Frequency**: For high-frequency signals, \( X_C \) becomes very low, effectively making the capacitor behave more like a short circuit, allowing the signal to pass through easily.
+2. Low Reactance at High Frequency: For high-frequency signals, \( X_C \) becomes very low, effectively making the capacitor behave more like a short circuit, allowing the signal to pass through easily.
 
-3. **High Reactance at Low Frequency**: For low-frequency signals, \( X_C \) is high, acting more like an open circuit, which blocks or attenuates the low-frequency components.
+3. High Reactance at Low Frequency: For low-frequency signals, \( X_C \) is high, acting more like an open circuit, which blocks or attenuates the low-frequency components.
 
-This frequency-dependent behavior makes capacitors useful for **filtering applications**, where they block DC or low-frequency signals while allowing high-frequency AC signals to pass through.
+This frequency-dependent behavior makes capacitors useful for filtering applications, where they block DC or low-frequency signals while allowing high-frequency AC signals to pass through.
 
 Let me explain this important concept with both an explanation and a visualization that demonstrates capacitive reactance.
 
@@ -61,7 +63,7 @@ def simulate_capacitor_response(input_signal, frequency, dt, capacitance=1e-6):
     Xc = calculate_reactance(frequency, capacitance)
     Z = Xc  # Assuming purely capacitive circuit
     phase_shift = -np.pi/2  # Capacitor current leads voltage by 90°
-    attenuation = 1 / np.sqrt(1 + (Xc/1000)**2)  # Assuming 1kΩ reference
+    attenuation = 1 / np.sqrt(1 + (Xc/1000)2)  # Assuming 1kΩ reference
     
     output_signal = attenuation * input_signal * np.exp(1j * phase_shift)
     return t, np.real(output_signal)
@@ -178,7 +180,7 @@ def simulate_capacitor_response(input_signal, frequency, dt, capacitance=1e-6):
     Xc = calculate_reactance(frequency, capacitance)
     Z = Xc  # Assuming purely capacitive circuit
     phase_shift = -np.pi/2  # Capacitor current leads voltage by 90°
-    attenuation = 1 / np.sqrt(1 + (Xc/1000)**2)  # Assuming 1kΩ reference
+    attenuation = 1 / np.sqrt(1 + (Xc/1000)2)  # Assuming 1kΩ reference
     
     output_signal = attenuation * input_signal * np.exp(1j * phase_shift)
     return t, np.real(output_signal)

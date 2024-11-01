@@ -1,4 +1,4 @@
-## Coulomb and faraday
+## Coulomb and Faraday
 
 A Coulomb is a unit of electric charge, while a Faraday is a unit of electric charge related to the amount of charge carried by one mole of electrons.
 
