@@ -28,9 +28,8 @@
 - Refer simulation, run real experiments, take photos
 - Review instructables for hackerboxes and take notes about using breadboard. Create diagrams to illustrate the connections.
 - Refer electronics encyclopedia book and note down categorization
-
-- need circuit diagram for inductor, led circuit, short circuit
 - Figure 1-1 Encyclopedia of Electronics
+- need circuit diagram for inductor, led circuit, short circuit
 - Convert hand drawn diagrams to CircuitTiz diagrams
 - Render the svg using the html and take screenshots
 

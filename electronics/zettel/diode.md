@@ -12,7 +12,7 @@ An active electronic component is a device that can control or amplify electrica
 
 ## Atomic Ideas
 
-1. **What defines an active component?**
+1. What defines an active component?
 
    What distinguishes an active electronic component from a passive component?
 
@@ -22,8 +22,7 @@ An active electronic component is a device that can control or amplify electrica
 
    A transistor is an active component because it requires an external power source to amplify electrical signals, allowing it to act as a switch or amplifier in a circuit.
 
-2. **How does a transistor function?**
-   How does a transistor work as an active component?
+2. How does a transistor work as an active component?
 
    A transistor is a three-terminal device (base, collector, emitter) that can switch or amplify signals. By applying a small current to the base, the transistor allows a much larger current to flow between the collector and emitter, thus controlling the overall current in the circuit.
 
@@ -31,9 +30,7 @@ An active electronic component is a device that can control or amplify electrica
 
    In an amplifier circuit, a bipolar junction transistor (BJT) amplifies an audio signal by controlling a larger current with a smaller input signal.
 
-3. **What is a diode's function in a circuit?**
-
-   How does a diode function as an active component in a circuit?
+3. How does a diode function as an active component in a circuit?
 
    A diode allows current to flow in one direction while blocking it in the opposite direction. This makes diodes useful for converting alternating current (AC) to direct current (DC) in rectifier circuits.
 
@@ -41,9 +38,7 @@ An active electronic component is a device that can control or amplify electrica
 
    In a power supply circuit, a diode is used to convert AC from a wall outlet into DC that powers electronic devices, such as your phone charger.
 
-4. **What are integrated circuits (ICs)?**
-
-   What is the role of an integrated circuit (IC) in electronics?
+4. What is the role of an integrated circuit (IC) in electronics?
 
    An integrated circuit (IC) is a small chip that contains multiple interconnected active components like transistors and diodes, which together perform complex functions such as computation, amplification, or signal processing.
 
@@ -51,9 +46,7 @@ An active electronic component is a device that can control or amplify electrica
 
    A 555 timer IC contains a combination of transistors and other components to generate precise timing intervals, used in applications like pulse-width modulation or creating oscillators.
 
-5. **How do active components amplify signals?**
-
-   How do active components, like transistors, amplify electrical signals?
+5. How do active components, like transistors, amplify electrical signals?
 
    Active components can amplify signals by using a small input signal to control a larger output signal. This amplification process allows weak signals to be strengthened, which is crucial in applications like audio amplification or radio transmission.
 
@@ -66,6 +59,7 @@ An active electronic component is a device that can control or amplify electrica
 ## Solution: How Active Components Function in Circuits
 
 ### Problem Statement:
+
 In a circuit using a transistor as a switch, a small current of 5mA is applied to the base of a transistor, and the transistor controls a collector current of 500mA. What is the current gain (β) of the transistor?
 
 ### Solution:
@@ -75,6 +69,7 @@ The current gain (β) of a transistor is the ratio of the collector current ($I_
 $$ \beta = \frac{I_C}{I_B} $$
 
 Where:
+
 - $I_C$ is the collector current (500mA),
 - $I_B$ is the base current (5mA).
 
@@ -82,29 +77,29 @@ Substitute the values:
 
 $$ \beta = \frac{500 \, \text{mA}}{5 \, \text{mA}} = 100 $$
 
-Thus, the current gain (β) of the transistor is **100**.
+Thus, the current gain (β) of the transistor is 100.
 
 ---
 
 ## Related Atomic Ideas:
 
-1. **Current Gain in Transistors**:
+1. Current Gain in Transistors:
 
 Understanding current gain ($\beta$) helps explain how small base currents control larger collector currents, central to the function of transistors in amplification and switching applications.
 
-2. **Amplification**:
+2. Amplification:
 
 Amplification occurs when an active component like a transistor increases the power of a signal. Learning about amplification links to signal processing and communication circuits.
 
-3. **Biasing in Transistors**:
+3. Biasing in Transistors:
 
 Proper biasing of a transistor ensures it operates correctly, allowing it to function as a switch or amplifier. Biasing is a key concept for stable transistor operation.
 
-4. **Rectification**:
+4. Rectification:
 
 Diodes in rectifier circuits convert AC to DC. This concept links to power supplies and the role of diodes in converting electrical signals.
 
-5. **Power Control with Active Components**:
+5. Power Control with Active Components:
 
 Transistors and other active components are crucial in power control circuits, such as in voltage regulators and motor controllers. Understanding how active components regulate power helps in designing efficient circuits.
 
@@ -112,15 +107,15 @@ Transistors and other active components are crucial in power control circuits, s
 
 ## Potential Research:
 
-1. **Advanced Transistor Designs for High-Efficiency Circuits**:
+1. Advanced Transistor Designs for High-Efficiency Circuits:
 
    - Problem: Explore how advanced transistor designs, like MOSFETs, improve efficiency in power management. How do they minimize power loss in modern electronics?
 
-2. **The Role of Integrated Circuits in Modern Communication Systems**:
+2. The Role of Integrated Circuits in Modern Communication Systems:
 
    - Problem: Investigate how integrated circuits enable complex communication systems like 5G networks. What are the challenges in scaling ICs for higher data rates?
 
-3. **Improving Diode Efficiency in Power Conversion**:
+3. Improving Diode Efficiency in Power Conversion:
 
    - Problem: Research how different materials used in diodes (e.g., silicon carbide) impact efficiency in power conversion circuits. How can these materials be optimized for use in renewable energy systems?
 
@@ -193,21 +188,34 @@ Diode capacitance arises from the charge stored in the depletion region at the p
 Analogy: Diode capacitance resembles a variable-size bucket in a water system. As you increase water pressure (reverse voltage), the bucket shrinks (capacitance decreases), allowing faster changes in water flow (better high-frequency response).
 
 Example: To observe the effect of diode capacitance:
+
 a) Set up a circuit with a signal generator, a diode, and an oscilloscope.
 b) Apply a high-frequency (e.g., 10MHz) square wave to the diode.
 c) Observe the output waveform on the oscilloscope.
 d) Notice the rounding of square wave edges due to diode capacitance.
 e) Increase the reverse bias across the diode and observe how the waveform becomes sharper, demonstrating reduced capacitance.
 
-Solution:
-No solution is necessary for this general explanation of diodes.
-
 Related Atomic Ideas:
-1. Semiconductor physics: The study of materials with controllable electrical properties. Understanding semiconductor physics enhances comprehension of how diodes function at the atomic level.
-2. P-N junction: The interface between p-type and n-type semiconductors. This concept forms the basis for diode operation and extends to other semiconductor devices.
-3. Rectification: The process of converting AC to DC. This idea connects diodes to power supply design and signal processing applications.
-4. LED (Light Emitting Diode): A type of diode that emits light when forward-biased. Understanding LEDs extends diode concepts to optoelectronics.
-5. Varactor diode: A diode designed to exploit its voltage-dependent capacitance. This concept links diodes to tuning circuits and frequency modulation applications.
+
+1. Semiconductor physics: 
+
+The study of materials with controllable electrical properties. Understanding semiconductor physics enhances comprehension of how diodes function at the atomic level.
+
+2. P-N junction: 
+
+The interface between p-type and n-type semiconductors. This concept forms the basis for diode operation and extends to other semiconductor devices.
+
+3. Rectification: 
+
+The process of converting AC to DC. This idea connects diodes to power supply design and signal processing applications.
+
+4. LED (Light Emitting Diode): 
+
+A type of diode that emits light when forward-biased. Understanding LEDs extends diode concepts to optoelectronics.
+
+5. Varactor diode: 
+
+A diode designed to exploit its voltage-dependent capacitance. This concept links diodes to tuning circuits and frequency modulation applications.
 
 Potential Research:
 

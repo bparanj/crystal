@@ -30,7 +30,7 @@ So, produce is a better fit than create when referring to how passive components
 
 2. How does a resistor function as a passive component in a circuit?
 
-   A resistor limits the flow of electrical current and dissipates energy as heat. It follows **Ohm's Law**: $V = IR$, where $V$ is the voltage across the resistor, $I$ is the current through the resistor, and $R$ is the resistance in ohms.
+   A resistor limits the flow of electrical current and dissipates energy as heat. It follows Ohm's Law: $V = IR$, where $V$ is the voltage across the resistor, $I$ is the current through the resistor, and $R$ is the resistance in ohms.
 
    Imagine water flowing through a narrow pipe. The narrower the pipe (higher resistance), the more it restricts the water flow (current).
 
@@ -72,7 +72,7 @@ Consider a simple circuit with a 12V battery, a 100Ω resistor, and a 10µF capa
 
 ### Solution:
 
-When the switch is first closed, the **capacitor** begins charging, and current flows through the circuit according to **Ohm's Law**:
+When the switch is first closed, the capacitor begins charging, and current flows through the circuit according to Ohm's Law:
 
 $$ I = \frac{V}{R} $$
 
@@ -90,23 +90,23 @@ Where $R$ is the resistance and $C$ is the capacitance. Over time, the capacitor
 
 ## Related Atomic Ideas:
 
-1. **Ohm’s Law**:
+1. Ohm’s Law:
 
 Ohm’s Law connects voltage, current, and resistance, explaining the behavior of resistors. Understanding this law is essential to grasp the function of passive components like resistors.
 
-2. **RC Time Constant**:
+2. RC Time Constant:
 
 The time it takes for a capacitor to charge or discharge depends on the product of resistance and capacitance ($\tau = RC$). This concept is useful for analyzing the behavior of capacitors in circuits.
 
-3. **AC vs. DC Circuits**:
+3. AC vs. DC Circuits:
 
 Passive components behave differently in AC and DC circuits. Studying AC circuits helps in understanding how capacitors and inductors affect frequency-based signals.
 
-4. **Energy Storage**:
+4. Energy Storage:
 
 Capacitors and inductors both store energy, but in different forms (electric and magnetic fields). Understanding their energy storage properties helps explain their uses in circuits.
 
-5. **Impedance**:
+5. Impedance:
 
 In AC circuits, capacitors and inductors introduce impedance, which combines resistance and reactance. Impedance explains how these components influence AC signals.
 
@@ -114,15 +114,15 @@ In AC circuits, capacitors and inductors introduce impedance, which combines res
 
 ## Potential Research:
 
-1. **Advanced Filtering Techniques Using Passive Components**:
+1. Advanced Filtering Techniques Using Passive Components:
 
    Investigate how combinations of passive components can create advanced filters for audio and communication systems. How do the interactions between inductors and capacitors improve signal processing?
 
-2. **Energy Efficiency in Passive Components**:
+2. Energy Efficiency in Passive Components:
 
    Research the role of passive components in improving energy efficiency in low-power devices. How do better materials and designs for resistors, capacitors, and inductors contribute to reducing energy loss?
 
-3. **Capacitor and Inductor Integration in Modern Power Systems**:
+3. Capacitor and Inductor Integration in Modern Power Systems:
 
    Explore how capacitors and inductors are used in power conditioning and renewable energy systems. What innovations in passive component design are enabling more efficient energy storage and transfer in these systems?
 

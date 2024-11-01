@@ -39,12 +39,6 @@ The name reflects its primary function: storing electrical energy in the form of
 
 Copy the link to Capacitor youtube video. Watch and summarize the main points.
 
-SNIP
-
-Initially, capacitors were called condensers, derived from the Latin *condensare*, meaning "to condense," as they were thought to "condense" the electric charge. The term "capacitor" became more common over time as its ability to store charge was emphasized.
-
-SNIP
-
 Capacitors are electronic components that store electrical energy as electrical energy in the form of an electric field. They can release this stored energy when needed in a circuit.
 
 You have to explain electric field before explaining capacitor.
@@ -85,28 +79,32 @@ Would you like me to explain more about how this property is used in practical c
 The physical reason for this behavior comes down to how electric charge moves in a capacitor. Let me break it down:
 
 1. Basic Capacitor Structure:
+
 - A capacitor has two conducting plates separated by an insulator
 - When voltage is applied, charge builds up on these plates (positive on one side, negative on the other)
 - The insulator prevents the charges from actually flowing through
 
 2. AC Signal Behavior:
+
 - With AC (alternating current), the voltage constantly changes direction
 - This means the charges on the plates must constantly redistribute
 - Higher frequency = charges need to switch directions more often
 
 3. The Key Physical Mechanism:
+
 - At higher frequencies, the charges don't have time to fully build up on the plates before the voltage reverses
 - This creates a situation where charge is effectively "sloshing back and forth" between the plates
 - This movement of charge appears as current flow in the external circuit
 - Less charge builds up = less voltage opposition = lower reactance
 
 4. Low Frequency Case:
+
 - At very low frequencies, charges have time to fully accumulate
 - This built-up charge creates a strong opposing electric field
 - This field blocks further current flow more effectively
 - More charge builds up = more voltage opposition = higher reactance
 
-It's somewhat like pushing a swing - it's easier to keep the swing moving if you push at the natural frequency rather than trying to force it at a very slow rate.
+It's like pushing a swing - it's easier to keep the swing moving if you push at the natural frequency rather than trying to force it at a very slow rate.
 
 Would you like me to elaborate on any of these points?
 
@@ -163,11 +161,24 @@ Where:
 
 ### Key Points
 
-1. Inverse Relationship: Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
+1. Inverse Relationship: 
 
-2. Low Reactance at High Frequency: For high-frequency signals, \( X_C \) becomes very low, effectively making the capacitor behave more like a short circuit, allowing the signal to pass through easily.
+Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
 
-3. High Reactance at Low Frequency: For low-frequency signals, \( X_C \) is high, acting more like an open circuit, which blocks or attenuates the low-frequency components.
+2. Low Reactance at High Frequency: 
+
+For high-frequency signals, \( X_C \) becomes very low, effectively making the capacitor behave more like a short circuit, allowing the signal to pass through easily.
+
+3. High Reactance at Low Frequency: 
+
+For low-frequency signals, \( X_C \) is high, acting more like an open circuit, which blocks or attenuates the low-frequency components.
 
 This frequency-dependent behavior makes capacitors useful for filtering applications, where they block DC or low-frequency signals while allowing high-frequency AC signals to pass through.
+
+SNIP
+
+Initially, capacitors were called condensers, derived from the Latin *condensare*, meaning "to condense," as they were thought to "condense" the electric charge. The term "capacitor" became more common over time as its ability to store charge was emphasized.
+
+SNIP
+
 

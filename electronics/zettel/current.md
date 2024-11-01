@@ -1,7 +1,8 @@
 ---
 
 ## Overview: Current
-Current refers to the flow of electric charge through a conductor, such as a wire, over time. It represents the movement of electrons due to an electric field or potential difference (voltage) applied across two points. The unit of current is the **ampere (A)**, which measures how much charge passes through a point in the circuit per second. Electrical current can flow as **direct current (DC)** or **alternating current (AC)** depending on whether the charge flows in one direction or oscillates back and forth.
+
+Current refers to the flow of electric charge through a conductor, such as a wire, over time. It represents the movement of electrons due to an electric field or potential difference (voltage) applied across two points. The unit of current is the ampere (A), which measures how much charge passes through a point in the circuit per second. Electrical current can flow as direct current (DC) or alternating current (AC) depending on whether the charge flows in one direction or oscillates back and forth.
 
 ---
 
@@ -57,7 +58,7 @@ In a circuit, a 12V battery is connected to a 6-ohm resistor. Calculate the curr
 
 ### Solution:
 
-We use **Ohm’s Law** to find the current. The formula is:
+We use Ohm’s Law to find the current. The formula is:
 
 $$ I = \frac{V}{R} $$
 
@@ -76,23 +77,23 @@ Thus, the current flowing through the circuit is 2 amperes.
 
 ## Related Atomic Ideas:
 
-1. **Voltage**:
+1. Voltage:
 
 Voltage drives current through a circuit, and understanding voltage clarifies how electrical potential leads to current flow.
 
-2. **Resistance**:
+2. Resistance:
 
 Resistance opposes the flow of current. The relationship between resistance, voltage, and current forms the foundation of Ohm's Law.
 
-3. **Ohm’s Law**:
+3. Ohm’s Law:
 
 This law describes how voltage, current, and resistance interact. Understanding Ohm’s Law allows for calculating any one of these quantities if the others are known.
 
-4. **Power**:
+4. Power:
 
 Current and voltage together determine the power in a circuit. Understanding power helps one grasp how circuits consume or produce energy.
 
-5. **Conductivity**:
+5. Conductivity:
 
 Conductivity is about how easily current flows through a material. Highly conductive materials like copper allow more current to flow, while resistive materials slow down the current.
 
@@ -100,15 +101,15 @@ Conductivity is about how easily current flows through a material. Highly conduc
 
 ## Potential Research:
 
-1. **How Does Current Change in Different Materials?**
+1. How Does Current Change in Different Materials?
 
    - Problem: Investigate how different materials affect current flow. Why do conductive materials like copper allow more current to pass compared to resistive materials like rubber?
 
-2. **The Impact of Resistance on Current Limiting in Circuits**:
+2. The Impact of Resistance on Current Limiting in Circuits:
 
    - Problem: Explore how resistors limit current in a circuit. How does varying resistance affect the amount of current in devices like LEDs?
 
-3. **Applications of Alternating Current vs. Direct Current**:
+3. Applications of Alternating Current vs. Direct Current:
 
    - Problem: Research how AC and DC serve different functions in modern electronics. Why do some devices use AC, while others depend on DC?
 
@@ -184,11 +185,25 @@ e) The current density equals 1.5 million amperes per square meter.
 
 Related Atomic Ideas:
 
-1. Voltage: The electrical potential difference that drives current flow. Understanding voltage enhances comprehension of current, as they work together in electrical circuits.
-2. Resistance: The opposition to current flow, measured in ohms (Ω). Resistance directly relates to current through Ohm's Law, affecting the amount of current flowing in a circuit.
-3. Power: The rate of energy transfer, measured in watts (W). Power in electrical systems depends on both current and voltage: P = I × V.
-4. Capacitance: The ability to store electric charge, measured in farads (F). Capacitors affect the flow of current in AC circuits, introducing phase shifts and filtering capabilities.
-5. Kirchhoff's Current Law: States that the sum of currents entering a node equals the sum of currents leaving that node. This law helps analyze complex circuits and understand current distribution.
+1. Voltage: 
+
+The electrical potential difference that drives current flow. Understanding voltage enhances comprehension of current, as they work together in electrical circuits.
+
+2. Resistance: 
+
+The opposition to current flow, measured in ohms (Ω). Resistance directly relates to current through Ohm's Law, affecting the amount of current flowing in a circuit.
+
+3. Power: 
+
+The rate of energy transfer, measured in watts (W). Power in electrical systems depends on both current and voltage: P = I × V.
+
+4. Capacitance: 
+
+The ability to store electric charge, measured in farads (F). Capacitors affect the flow of current in AC circuits, introducing phase shifts and filtering capabilities.
+
+5. Kirchhoff's Current Law: 
+
+States that the sum of currents entering a node equals the sum of currents leaving that node. This law helps analyze complex circuits and understand current distribution.
 
 Potential Research:
 

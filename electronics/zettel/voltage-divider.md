@@ -197,15 +197,21 @@ See voltage-divider-circuit.md
 
 Related Atomic Ideas:
 
-1. Thevenin's Theorem: This theorem relates to voltage dividers by providing a way to simplify complex circuits into an equivalent voltage source and series resistance, often involving voltage division.
+1. Thevenin's Theorem: 
+
+This theorem relates to voltage dividers by providing a way to simplify complex circuits into an equivalent voltage source and series resistance, often involving voltage division.
 
 2. Potentiometers as variable voltage dividers: Potentiometers function as adjustable voltage dividers, extending the concept to variable voltage control applications.
 
-3. Current dividers: These operate on similar principles to voltage dividers but divide current instead of voltage, providing a complementary understanding of circuit behavior.
+3. Current dividers: 
+
+These operate on similar principles to voltage dividers but divide current instead of voltage, providing a complementary understanding of circuit behavior.
 
 4. Input impedance of measuring instruments: Understanding input impedance is crucial when using voltage dividers, as it relates directly to loading effects.
 
-5. Voltage regulators: Many voltage regulators use voltage divider principles in their feedback loops to maintain a constant output voltage.
+5. Voltage regulators: 
+
+Many voltage regulators use voltage divider principles in their feedback loops to maintain a constant output voltage.
 
 Potential Research:
 

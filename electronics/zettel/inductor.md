@@ -4,13 +4,13 @@ In the context of electrical engineering, an inductor "induces" an electromotive
 
 ### Overview:
 
-An **inductor** is a passive electronic component that stores energy in a magnetic field when electrical current flows through it. Inductors oppose changes in current and are used in filtering, energy storage, and tuning circuits. The amount of inductance depends on factors such as the coil’s number of turns, the core material, and the shape and size of the coil.
+An inductor is a passive electronic component that stores energy in a magnetic field when electrical current flows through it. Inductors oppose changes in current and are used in filtering, energy storage, and tuning circuits. The amount of inductance depends on factors such as the coil’s number of turns, the core material, and the shape and size of the coil.
 
 ---
 
 ### Atomic Ideas:
 
-1. **What is an inductor, and how does it store energy?**
+1. What is an inductor, and how does it store energy?
 
    An inductor stores energy in a magnetic field when current passes through it. The inductor’s ability to store energy depends on its inductance, measured in henries (H).
 
@@ -18,7 +18,7 @@ An **inductor** is a passive electronic component that stores energy in a magnet
 
    In a DC power supply, an inductor might be used to store energy in the magnetic field while current flows, helping to smooth out voltage fluctuations.
 
-2. **What is inductance?**
+2. What is inductance?
 
    Inductance is the property of an inductor that quantifies its ability to oppose changes in current and store energy in a magnetic field. It is measured in henries (H).
 
@@ -26,15 +26,15 @@ An **inductor** is a passive electronic component that stores energy in a magnet
 
    A 10mH (millihenry) inductor will oppose sudden changes in current more than a 1mH inductor, making it better for filtering out rapid fluctuations in a circuit.
 
-3. **How does an inductor oppose changes in current?**
+3. How does an inductor oppose changes in current?
 
-   An inductor generates a voltage that opposes any sudden changes in current. This phenomenon is known as **Lenz’s Law** and is expressed as $$ V = -L \frac{dI}{dt} $$, where $V$ is the voltage, $L$ is the inductance, and $\frac{dI}{dt}$ is the rate of change of current.
+   An inductor generates a voltage that opposes any sudden changes in current. This phenomenon is known as Lenz’s Law and is expressed as $$ V = -L \frac{dI}{dt} $$, where $V$ is the voltage, $L$ is the inductance, and $\frac{dI}{dt}$ is the rate of change of current.
 
    Analogy: Picture a moving train. When you try to speed it up (change the current quickly), inertia (inductance) resists the change. Similarly, if you try to stop the train suddenly, it resists that too.
 
    Example: In a circuit with an inductor, if the current tries to increase or decrease suddenly, the inductor generates a voltage that resists this change, helping to smooth out the current.
 
-4. **What happens when current through an inductor changes suddenly?**
+4. What happens when current through an inductor changes suddenly?
 
    When the current through an inductor changes suddenly, the inductor generates a voltage (back EMF) that opposes the change. This effect can cause spikes in voltage if the current changes too quickly.
 
@@ -42,7 +42,7 @@ An **inductor** is a passive electronic component that stores energy in a magnet
 
    In switching power supplies, inductors help regulate current, but if a switch is turned off too suddenly, the inductor can generate a high-voltage spike that needs to be managed by other circuit components.
 
-5. **What are the common applications of inductors?**
+5. What are the common applications of inductors?
 
    Inductors are used in filters (to block or pass certain frequencies), transformers (to transfer energy between circuits), and energy storage devices in power supplies.
 
@@ -54,13 +54,13 @@ An **inductor** is a passive electronic component that stores energy in a magnet
 
 ### Solution:
 
-**Solving How an Inductor Works in a Filter Circuit:**
+Solving How an Inductor Works in a Filter Circuit:
 
 Let’s assume we want to design a low-pass filter using an inductor and resistor to remove high-frequency noise from a signal. Here’s the step-by-step process:
 
-1. **Choose an inductor and resistor:** For example, select a 100μH inductor and a 1kΩ resistor.
+1. Choose an inductor and resistor: For example, select a 100μH inductor and a 1kΩ resistor.
 
-2. **Calculate the cutoff frequency:** Use the formula for the cutoff frequency of an RL low-pass filter:
+2. Calculate the cutoff frequency: Use the formula for the cutoff frequency of an RL low-pass filter:
 
    $$ f_c = \frac{R}{2\pi L} $$
 
@@ -68,9 +68,9 @@ Let’s assume we want to design a low-pass filter using an inductor and resisto
 
    The cutoff frequency is about 1.59kHz, meaning frequencies below this pass through, while higher frequencies get filtered out.
 
-3. **Connect the inductor and resistor in series:** Wire the inductor and resistor in series with the signal input.
+3. Connect the inductor and resistor in series: Wire the inductor and resistor in series with the signal input.
 
-4. **Test the circuit:** Feed a signal with high-frequency noise into the circuit. The inductor will block high frequencies, and only the clean, low-frequency part of the signal will pass through to the output.
+4. Test the circuit: Feed a signal with high-frequency noise into the circuit. The inductor will block high frequencies, and only the clean, low-frequency part of the signal will pass through to the output.
 
 This solution demonstrates how an inductor can be used to filter out unwanted high-frequency noise in a circuit.
 
@@ -78,23 +78,23 @@ This solution demonstrates how an inductor can be used to filter out unwanted hi
 
 ### Related Atomic Ideas:
 
-1. **Electromagnetic Induction:**
+1. Electromagnetic Induction:
 
 Inductors rely on electromagnetic induction to store energy. Understanding Faraday’s Law of induction helps explain why inductors generate a magnetic field when current flows through them.
 
-2. **Lenz’s Law:**
+2. Lenz’s Law:
 
 Lenz’s Law explains why inductors oppose changes in current. This law provides a fundamental understanding of how inductors resist sudden fluctuations in electrical systems.
 
-3. **Capacitance vs. Inductance:**
+3. Capacitance vs. Inductance:
 
 Inductors and capacitors both store energy but in different ways—capacitors store energy in an electric field, while inductors store it in a magnetic field. Comparing these two components helps in understanding their complementary roles in circuits.
 
-4. **Resonant Circuits:**
+4. Resonant Circuits:
 
 Inductors and capacitors are used together in resonant circuits (LC circuits) to select or reject certain frequencies. Learning about resonance helps in designing radios, filters, and oscillators.
 
-5. **Mutual Inductance and Transformers:**
+5. Mutual Inductance and Transformers:
 
 Inductors can transfer energy between two circuits through mutual inductance. This concept is fundamental to transformers, which convert voltages and currents in power systems.
 
@@ -102,15 +102,15 @@ Inductors can transfer energy between two circuits through mutual inductance. Th
 
 ### Potential Research:
 
-1. **How can inductors be made smaller while maintaining high inductance values?**
+1. How can inductors be made smaller while maintaining high inductance values?
 
    Investigate materials and designs that can increase inductance while reducing the size of inductors, especially for use in compact electronic devices like smartphones and wearable technology.
 
-2. **What are the thermal effects on inductors in high-power circuits?**
+2. What are the thermal effects on inductors in high-power circuits?
 
    Explore how heat affects the performance of inductors in power supplies and other high-current applications, and investigate methods for improving their thermal management.
 
-3. **Can inductors be used to enhance wireless power transmission?**
+3. Can inductors be used to enhance wireless power transmission?
 
    Research how inductors can be optimized for use in wireless power transfer systems, where they are critical for generating and capturing magnetic fields to transfer energy across distances.
 
