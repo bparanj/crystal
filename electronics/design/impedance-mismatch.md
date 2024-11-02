@@ -20,15 +20,15 @@ Impedance mismatch occurs when two components or systems in an electrical circui
 
 ### Why It’s Important:
 
-- Power Loss: 
+Power Loss: 
 
 An impedance mismatch leads to power being reflected back to the source instead of being delivered to the load, causing inefficiency.
 
-- Signal Reflection: 
+Signal Reflection: 
 
 Reflected signals can cause interference, signal distortion, or data errors, especially in high-frequency applications.
 
-- Equipment Damage: 
+Equipment Damage: 
 
 In some cases, excessive reflection can damage the source, such as transmitters in communication systems.
 
@@ -38,7 +38,7 @@ To avoid impedance mismatch, circuit designers often use techniques to match the
 
 Inductive reactance (\(X_L\)) is the opposition to the change in current flow caused by an inductor in an AC circuit. It impacts circuits in several important ways, particularly in how current flows and how energy is stored and transferred.
 
-### Key Concepts:
+### Concepts:
 
 1. Formula for Inductive Reactance:
 
@@ -82,19 +82,19 @@ Inductive reactance (\(X_L\)) is the opposition to the change in current flow ca
 
 ### Summary of Impacts:
 
-- Current Control: 
+Current Control: 
 
 Higher inductive reactance at higher frequencies limits current flow.
 
-- Energy Storage: 
+Energy Storage: 
 
 Inductors store energy, smoothing out changes in current.
 
-- Phase Shifts: 
+hase Shifts: 
 
 Inductors cause a phase shift between current and voltage.
 
-- Filters and Resonance: 
+Filters and Resonance: 
 
 Inductive reactance is used to design filters and resonant circuits for frequency selection or signal conditioning.
 
