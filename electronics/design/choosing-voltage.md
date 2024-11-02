@@ -23,13 +23,13 @@ To choose the voltage for a power source in a circuit:
 
 To choose the voltage for a power source in a circuit, follow these steps:
 
-1. **Identify the Required Voltage**: Determine the voltage requirements of all components in the circuit. Each component will have a specified operating voltage range, often listed in its datasheet.
+1. Identify the Required Voltage: Determine the voltage requirements of all components in the circuit. Each component will have a specified operating voltage range, often listed in its datasheet.
 
-2. **Match Component Requirements**: Choose a power source voltage that matches the highest required operating voltage of the components, ensuring it is within the safe range for all components.
+2. Match Component Requirements: Choose a power source voltage that matches the highest required operating voltage of the components, ensuring it is within the safe range for all components.
 
-3. **Consider Voltage Drops**: Account for any voltage drops across components like resistors, diodes, or wiring, which might require a slightly higher power source voltage to maintain proper operation.
+3. Consider Voltage Drops: Account for any voltage drops across components like resistors, diodes, or wiring, which might require a slightly higher power source voltage to maintain proper operation.
 
-4. **Allow for Tolerance**: Ensure the chosen voltage allows for variations and tolerances, such as those due to temperature changes or power supply regulation.
+4. Allow for Tolerance: Ensure the chosen voltage allows for variations and tolerances, such as those due to temperature changes or power supply regulation.
 
-5. **Check Power Supply Limits**: Verify that the power source can provide the necessary current at the chosen voltage without exceeding its maximum output capability.
+5. Check Power Supply Limits: Verify that the power source can provide the necessary current at the chosen voltage without exceeding its maximum output capability.
 

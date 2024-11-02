@@ -2,16 +2,16 @@ The Faraday unit (symbol: F) is a unit of electric charge, used mainly in electr
 
 ## Visualizing Faraday Unit
 
-1. **Electrons Transferred in Chemical Reactions**:
+1. Electrons Transferred in Chemical Reactions:
    - One faraday equals approximately 96,485 coulombs. This is the total charge carried by 6.022 × 10²³ electrons (Avogadro's number). Imagine an immense number of electrons moving through a circuit or involved in a chemical reaction—enough to plate out one mole of metal ions, such as copper, from a solution in an electroplating process.
 
-2. **Electroplating Example**:
+2. Electroplating Example:
    - In electroplating, one faraday of charge can deposit one mole of a material, such as silver, onto an object. Imagine an industrial process where a certain mass of silver or another metal is evenly spread over an object through electrolysis. The faraday quantifies how much charge is needed to move or deposit that amount of metal.
 
-3. **Battery Charge**:
+3. Battery Charge:
    - In terms of battery chemistry, one faraday can represent the total charge needed to fully discharge or charge a mole of ions in a reaction. If you've used a battery to power something, you’ve seen faradays of charge in action, transferring energy from stored chemical energy to electrical energy.
 
-4. **Lightning Comparison**:
+4. Lightning Comparison:
    - While a faraday is a theoretical unit used mainly in controlled conditions like electrochemistry, for a rough analogy, a powerful lightning bolt transfers around 10–100 coulombs. To reach one faraday (96,485 coulombs), you’d need around 1,000 lightning bolts worth of charge.
 
 In summary, you can visualize a faraday by thinking about large-scale electron transfer processes like electroplating, where huge numbers of electrons (or charge) are moved to deposit materials or produce chemical changes. The sheer scale of a faraday can be compared to many smaller, familiar events involving electricity.
@@ -23,12 +23,15 @@ The Faraday (F) is a unit of electrical charge that equals the amount of electri
 3. The Faraday is particularly useful in electrochemistry since it relates the amount of electric charge to the amount of chemical substance that reacts
 
 Common applications:
+
 - Calculating the amount of substance produced or consumed in electrolysis
 - Determining the charge required for electrochemical reactions
 - Converting between electrical and chemical quantities
 
 The relationship can be expressed as:
+
 F = e × NA
+
 where:
 - F is the Faraday constant
 - e is the elementary charge (1.602176634 × 10⁻¹⁹ coulombs)
@@ -180,13 +183,16 @@ Let me explain what a mole of electrons means in a clear way.
 ```
 
 A Mole is:
+
 1. Standard Unit:
+
    - Like a dozen = 12 items
    - A mole = 6.022 × 10²³ items
    - Used in chemistry/physics
    - Named after Avogadro's number
 
 2. Scale Understanding:
+
    - Incredibly large number
    - Bigger than:
      * Grains of sand on Earth
@@ -194,12 +200,15 @@ A Mole is:
      * Seconds since Big Bang
 
 3. Why Use Moles?
+
    - Makes atomic-scale calculations manageable
    - Bridges microscopic and macroscopic worlds
    - Standard unit in chemistry
 
 For Electrons Specifically:
+
 1. One Mole of Electrons:
+
    - 6.022 × 10²³ electrons
    - Carries specific charge
    - Equal to 1 Faraday
@@ -212,7 +221,9 @@ For Electrons Specifically:
    - Electronic component design
 
 Real-world Examples:
+
 1. Chemical Reactions:
+
    - Zinc + 2HCl → ZnCl₂ + H₂
    - One mole of zinc needs two moles of electrons
 

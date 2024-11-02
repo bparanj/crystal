@@ -49,11 +49,13 @@ The simplest electronic circuit to learn about relays is using a relay to contro
 This simple relay circuit consists of two main parts:
 
 1. Control Circuit (Low power):
+
    - 5V power source (e.g., battery or power supply)
    - Switch
    - Relay coil
 
 2. Load Circuit (Higher power):
+
    - 12V power source
    - Relay contact (switch controlled by the relay coil)
    - LED (representing the load)
@@ -61,16 +63,19 @@ This simple relay circuit consists of two main parts:
 Here's how this circuit works:
 
 1. When the switch in the control circuit is open:
+
    - No current flows through the relay coil
    - The relay contact in the load circuit remains open
    - The LED is off
 
 2. When the switch in the control circuit is closed:
+
    - Current flows through the relay coil, energizing it
    - The magnetic field created by the coil closes the relay contact in the load circuit
    - The LED turns on
 
 Components needed:
+
 1. 5V power source (for the control circuit)
 2. 12V power source (for the load circuit)
 3. SPST (Single Pole Single Throw) switch
@@ -79,7 +84,8 @@ Components needed:
 6. Resistor (appropriate for the LED,  220Ω to 1kΩ)
 7. Breadboard and jumper wires
 
-Key learning points:
+Learning points:
+
 1. Electrical isolation: The control circuit and load circuit are electrically isolated from each other.
 2. Power amplification: A low-power signal (5V) controls a higher-power circuit (12V).
 3. Switching: The relay acts as an electrically controlled switch.
@@ -87,12 +93,12 @@ Key learning points:
 This circuit demonstrates the basic principle of a relay: using a low-power signal to control a higher-power circuit. It's a foundational concept in electronics and automation.
 
 To expand on this experiment, you could:
+
 1. Add a flyback diode across the relay coil to protect against voltage spikes
 2. Use the relay to control a motor or other high-power device instead of an LED
 3. Implement transistor-based relay control for even lower power switching
 
 Let's create a PySpice program to simulate this relay circuit. We'll model the relay as a voltage-controlled switch to represent its behavior.
-
 
 ```python
 from PySpice.Spice.Netlist import Circuit
@@ -187,4 +193,3 @@ Key points to observe in the results:
 3. The coil and LED currents can be calculated from the voltage drops and known resistances.
 
 This simulation simplifies some aspects of real-world relay behavior, such as switching time and contact resistance, but it provides a good starting point for understanding relay circuits.
-

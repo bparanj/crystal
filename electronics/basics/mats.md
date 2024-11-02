@@ -16,7 +16,6 @@ PENDING
 Is static discharge and electro static discharge the same?
 Is resistivity the opposite of conductivity?
 
-
 Soldering mat and an ESD (Electrostatic Discharge) mat are different.
 
 Soldering Mat

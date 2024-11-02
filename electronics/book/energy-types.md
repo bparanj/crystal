@@ -44,19 +44,19 @@ Need an image.
 
 These devices we encounter in everyday life are examples of transforming one form of energy into another form of energy to perform useful function.
 
-**Real-world examples of energy transformation:**
+Real-world examples of energy transformation:
 
-1. **Iron Box**: **Electrical energy** is converted into **heat energy** as current passes through a resistive coil, heating the surface for ironing clothes.
+1. Iron Box: Electrical energy is converted into heat energy as current passes through a resistive coil, heating the surface for ironing clothes.
 
-2. **Heater**: **Electrical energy** is transformed into **heat energy** via a resistive heating element to warm a space.
+2. Heater: Electrical energy is transformed into heat energy via a resistive heating element to warm a space.
 
-3. **Fan**: **Electrical energy** converts to **mechanical energy** as the motor drives the fan blades, creating airflow.
+3. Fan: Electrical energy converts to mechanical energy as the motor drives the fan blades, creating airflow.
 
-4. **Bulb**: **Electrical energy** is transformed into **light energy** (with some heat) as current flows through the filament or LED, illuminating the area.
+4. Bulb: Electrical energy is transformed into light energy (with some heat) as current flows through the filament or LED, illuminating the area.
 
-5. **Fridge**: **Electrical energy** powers a compressor, which transfers **thermal energy** from inside to outside the fridge, keeping food cool.
+5. Fridge: Electrical energy powers a compressor, which transfers thermal energy from inside to outside the fridge, keeping food cool.
 
-6. **Door Bell**: **Electrical energy** is converted to **sound energy** as the circuit activates an electromagnet or buzzer, producing the ringing sound.
+6. Door Bell: Electrical energy is converted to sound energy as the circuit activates an electromagnet or buzzer, producing the ringing sound.
 
 These everyday devices demonstrate how energy is transformed from one form to another to perform useful tasks.
 
@@ -96,7 +96,7 @@ def visualize_circuit_energy():
     capacitances = [1e-6, 2e-6, 5e-6]  # Farads
 
     for C in capacitances:
-        energy = 0.5 * C * voltage**2
+        energy = 0.5 * C * voltage2
         ax2.plot(voltage, energy * 1e6, label=f'{C*1e6}µF')
 
     ax2.set_xlabel('Voltage (V)')
@@ -110,7 +110,7 @@ def visualize_circuit_energy():
     inductances = [1e-3, 2e-3, 5e-3]  # Henries
 
     for L in inductances:
-        energy = 0.5 * L * current**2
+        energy = 0.5 * L * current2
         ax3.plot(current, energy * 1e3, label=f'{L*1e3}mH')
 
     ax3.set_xlabel('Current (A)')
@@ -125,7 +125,7 @@ def visualize_circuit_energy():
     R = 100  # Ohms
 
     for I in currents:
-        power = I**2 * R
+        power = I2 * R
         energy = power * time
         ax4.plot(time, energy, label=f'{I}A')
 
@@ -303,7 +303,7 @@ def visualize_circuit_energy():
     capacitances = [1e-6, 2e-6, 5e-6]  # Farads
 
     for C in capacitances:
-        energy = 0.5 * C * voltage**2
+        energy = 0.5 * C * voltage2
         ax2.plot(voltage, energy * 1e6, label=f'{C*1e6}µF')
 
     ax2.set_xlabel('Voltage (V)')
@@ -317,7 +317,7 @@ def visualize_circuit_energy():
     inductances = [1e-3, 2e-3, 5e-3]  # Henries
 
     for L in inductances:
-        energy = 0.5 * L * current**2
+        energy = 0.5 * L * current2
         ax3.plot(current, energy * 1e3, label=f'{L*1e3}mH')
 
     ax3.set_xlabel('Current (A)')
@@ -332,7 +332,7 @@ def visualize_circuit_energy():
     R = 100  # Ohms
 
     for I in currents:
-        power = I**2 * R
+        power = I2 * R
         energy = power * time
         ax4.plot(time, energy, label=f'{I}A')
 

@@ -1,6 +1,6 @@
 Capacitive reactance is the opposition that a capacitor offers to alternating current (AC) in a circuit. It depends on the frequency of the AC signal and the capacitance of the capacitor.
 
-### Key Formula:
+### Formula:
 \[
 X_C = \frac{1}{2 \pi f C}
 \]
@@ -31,6 +31,7 @@ Where:
 - \( C \) is the capacitance (in farads, F).
 
 ### Key Points
+
 1. Inverse Relationship: Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
   
 2. Low Reactance at High Frequency: For high-frequency signals, \( X_C \) becomes very low, effectively making the capacitor behave more like a short circuit, allowing the signal to pass through easily.
@@ -39,7 +40,7 @@ Where:
 
 This frequency-dependent behavior makes capacitors useful for filtering applications, where they block DC or low-frequency signals while allowing high-frequency AC signals to pass through.
 
-Let me explain this important concept with both an explanation and a visualization that demonstrates capacitive reactance.
+Eexplanation and a visualization that demonstrates capacitive reactance.
 
 
 

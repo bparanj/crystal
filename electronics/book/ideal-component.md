@@ -2,8 +2,8 @@
 
 From the perspective of TRIZ (Theory of Inventive Problem Solving), an ideal resistor would embody the concept of *Ideality*, where the system delivers the maximum useful function with minimal drawbacks or resources.
 
-- **Useful function**: A resistor's primary function is to limit current in a circuit while ensuring proper voltage division.
-- **Harmful effects**: Real resistors generate heat, consume power, and have limitations like tolerance variations, aging, and noise.
+- Useful function: A resistor's primary function is to limit current in a circuit while ensuring proper voltage division.
+- Harmful effects: Real resistors generate heat, consume power, and have limitations like tolerance variations, aging, and noise.
 
 An ideal resistor in TRIZ terms would:
 
@@ -21,10 +21,11 @@ From a TRIZ perspective, an ideal capacitor would follow the principle of *Ideal
 
 For a capacitor, the ideal characteristics would be:
 
-- **Primary function**: Store and release energy efficiently.
-- **Harmful effects**: Real capacitors have limitations such as leakage currents, equivalent series resistance (ESR), finite lifespan, and size constraints.
+- Primary function: Store and release energy efficiently.
+- Harmful effects: Real capacitors have limitations such as leakage currents, equivalent series resistance (ESR), finite lifespan, and size constraints.
 
 An ideal capacitor in TRIZ terms would:
+
 - Store energy with perfect efficiency (no energy losses due to resistance, leakage, or dielectric breakdown).
 - Provide instantaneous charge and discharge when needed, without delays or ripple effects.
 - Have infinite capacitance in a minimal physical size, meaning it occupies no space but still performs its function.
@@ -82,10 +83,12 @@ This ideal diode would achieve the goal of delivering the essential function (un
 From the TRIZ perspective, an ideal power source would embody the principle of *Ideality*, providing the necessary energy with maximum efficiency and minimal negative effects, resource consumption, or complexity.
 
 For a power source, the key considerations are:
-- **Primary function**: Provide a stable, continuous supply of energy to a system.
-- **Harmful effects**: Real power sources have limitations such as energy losses, heat generation, limited capacity, fluctuations, size constraints, and environmental impact.
+
+- Primary function: Provide a stable, continuous supply of energy to a system.
+- Harmful effects: Real power sources have limitations such as energy losses, heat generation, limited capacity, fluctuations, size constraints, and environmental impact.
 
 An ideal power source in TRIZ terms would:
+
 - Deliver a constant, reliable supply of energy without any losses (no heat generation, no energy waste).
 - Have infinite energy capacity, meaning it never depletes and provides continuous energy as needed.
 - Be adaptable to any load requirement, automatically adjusting its output to match the demands of the system.
@@ -100,10 +103,12 @@ This ideal power source maximizes its useful function—energy delivery—while 
 From the TRIZ perspective, an ideal LED (Light Emitting Diode) would be designed according to the principle of *Ideality*, maximizing useful functions while minimizing negative effects, resource usage, and complexity.
 
 For an LED, the key considerations are:
-- **Primary function**: Emit light efficiently when an electric current flows through it.
-- **Harmful effects**: Real LEDs have limitations such as heat generation, limited lifespan, color degradation over time, efficiency losses, and sensitivity to current and voltage fluctuations.
+
+- Primary function: Emit light efficiently when an electric current flows through it.
+- Harmful effects: Real LEDs have limitations such as heat generation, limited lifespan, color degradation over time, efficiency losses, and sensitivity to current and voltage fluctuations.
 
 An ideal LED in TRIZ terms would:
+
 - Emit light with perfect efficiency, converting 100% of the electrical energy into light without any heat generation or energy loss.
 - Produce a consistent, stable light output with no degradation in brightness or color over time, regardless of usage conditions.
 - Be able to emit any desired color or spectrum of light without requiring multiple LEDs or color filters.
@@ -117,10 +122,12 @@ This ideal LED aligns with TRIZ's goal of providing the maximum useful function 
 From the TRIZ perspective, an ideal push button would follow the principle of *Ideality*, providing its function with minimal drawbacks, resource use, or complexity.
 
 For a push button, the key considerations are:
-- **Primary function**: Act as a user input device, completing or breaking a circuit when pressed.
-- **Harmful effects**: Real push buttons may suffer from wear and tear, contact bounce (momentary breaks in connection), mechanical failures, and require physical force to operate.
+
+- Primary function: Act as a user input device, completing or breaking a circuit when pressed.
+- Harmful effects: Real push buttons may suffer from wear and tear, contact bounce (momentary breaks in connection), mechanical failures, and require physical force to operate.
 
 An ideal push button in TRIZ terms would:
+
 - Respond instantly to user input without requiring any physical force, providing a perfect tactile or non-tactile interface.
 - Have no mechanical parts, eliminating wear, tear, or the possibility of mechanical failure.
 - Provide a flawless electrical connection every time, with no contact bounce or connection noise.
@@ -134,10 +141,12 @@ This ideal push button would deliver the needed functionality—input control—
 From the TRIZ perspective, an ideal slide switch would adhere to the principle of *Ideality*, where it performs its function with maximum efficiency and minimal drawbacks, resource use, or complexity.
 
 For a slide switch, the key considerations are:
-- **Primary function**: Change the state of a circuit by sliding a lever to open or close the electrical connection.
-- **Harmful effects**: Real slide switches suffer from mechanical wear, poor contact (debris or oxidation), size limitations, and require manual force to operate.
+
+- Primary function: Change the state of a circuit by sliding a lever to open or close the electrical connection.
+- Harmful effects: Real slide switches suffer from mechanical wear, poor contact (debris or oxidation), size limitations, and require manual force to operate.
 
 An ideal slide switch in TRIZ terms would:
+
 - Change the state of a circuit instantly and with no physical movement required, eliminating the need for mechanical action.
 - Have no mechanical components, avoiding wear, tear, or degradation over time.
 - Ensure perfect and consistent electrical contact with zero chance of poor connection, debris interference, or oxidation.
@@ -152,10 +161,12 @@ This ideal slide switch would perform its function (circuit state control) with 
 From the TRIZ perspective, an ideal electronic circuit follows the principle of *Ideality*, which focuses on delivering maximum useful function with minimal negative effects, complexity, and resource consumption.
 
 For an electronic circuit, the key considerations are:
-- **Primary function**: Process or control the flow of electricity to perform a specific task (e.g., amplification, signal processing, computation).
-- **Harmful effects**: Real circuits have limitations such as energy losses, heat generation, component failures, signal noise, physical size, and complexity in design and maintenance.
+
+- Primary function: Process or control the flow of electricity to perform a specific task (e.g., amplification, signal processing, computation).
+- Harmful effects: Real circuits have limitations such as energy losses, heat generation, component failures, signal noise, physical size, and complexity in design and maintenance.
 
 An ideal electronic circuit in TRIZ terms would:
+
 - Perform its intended function (e.g., computation, signal amplification) with 100% efficiency, meaning no energy losses, heat generation, or inefficiencies.
 - Be infinitely reliable, with no risk of component failures, aging, or degradation over time.
 - Operate without generating any noise or interference, ensuring perfect signal clarity and precision.

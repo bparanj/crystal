@@ -1,3 +1,7 @@
+PENDING
+
+Review and summarize
+
 In programming, a **NO-OP** (No Operation) is an instruction that does nothing; it's a placeholder or a way to consume a cycle without changing the state of the system. In electronics, the equivalent concept would be a circuit component or configuration that **passes the signal or current through without modifying it**—effectively doing nothing to alter the behavior of the circuit.
 
 Here are a few examples that could be considered as the "NO-OP" equivalents in electronics:

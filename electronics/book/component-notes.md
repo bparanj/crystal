@@ -1,3 +1,7 @@
+PENDING
+
+Design a simple experiment for each of the bullet item
+
 ## Component Notes
 
 A resistor is used for: 

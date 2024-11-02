@@ -9,4 +9,9 @@ When current flows through the filament, its resistance to the current causes it
 The filament is enclosed in a glass bulb that’s either vacuum-sealed or filled with an inert gas, like argon or nitrogen, to prevent the tungsten from burning out quickly due to oxidation.
 
 ### Function in a Bulb
+
 The filament is the primary light-producing component in incandescent bulbs. Its high resistance converts electrical energy into both heat and light energy, creating the familiar warm glow.
+
+PENDING
+
+Need images
