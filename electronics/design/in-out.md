@@ -1,6 +1,7 @@
-**Testing out of circuit** and **testing in circuit** are methods used to evaluate the functionality and performance of electronic components and circuits.
+Testing out of circuit and testing in circuit are methods used to evaluate the functionality and performance of electronic components and circuits.
 
-### 1. **Testing Out of Circuit**:
+### 1. Testing Out of Circuit:
+
    Testing out of circuit involves removing a component from the circuit board and testing it separately, outside the circuit.
 
    This method is used to measure the component's characteristics (like resistance, capacitance, or current gain) without interference from the surrounding circuit elements. It provides a more accurate reading of the component's  condition.
@@ -11,17 +12,29 @@
 
 - What is ESR meter?
 
-An **ESR meter** is a specialized tool used to measure the **Equivalent Series Resistance (ESR)** of capacitors, especially in-circuit capacitors. ESR is the internal resistance that appears in series with the capacitance in real capacitors, affecting their performance, particularly at high frequencies.
+An ESR meter is a specialized tool used to measure the Equivalent Series Resistance (ESR) of capacitors, especially in-circuit capacitors. ESR is the internal resistance that appears in series with the capacitance in real capacitors, affecting their performance, particularly at high frequencies.
 
 ### Key Functions of an ESR Meter
-1. **Measures ESR Value**: Provides a direct reading of the ESR, typically in ohms, helping to assess the capacitor’s health.
-2. **Identifies Faulty Capacitors**: High ESR often indicates that a capacitor has degraded or failed, even if its capacitance value appears normal.
-3. **In-Circuit Testing**: Most ESR meters allow testing capacitors **without removing them** from the circuit, making it convenient for quick diagnostics.
-4. **Improves Circuit Efficiency**: Low ESR values are crucial in power supply, audio, and RF circuits, so an ESR meter is valuable for ensuring that capacitors perform optimally.
+
+1. Measures ESR Value: 
+
+Provides a direct reading of the ESR, typically in ohms, helping to assess the capacitor’s health.
+
+2. Identifies Faulty Capacitors: 
+
+High ESR often indicates that a capacitor has degraded or failed, even if its capacitance value appears normal.
+
+3. In-Circuit Testing: 
+
+Most ESR meters allow testing capacitors without removing them from the circuit, making it convenient for quick diagnostics.
+
+4. Improves Circuit Efficiency: 
+
+Low ESR values are crucial in power supply, audio, and RF circuits, so an ESR meter is valuable for ensuring that capacitors perform optimally.
 
 ESR meters are widely used in electronics repair and troubleshooting to check capacitor health, especially in power supplies and high-frequency circuits where low ESR is critical for proper operation.
 
-### 2. **Testing In Circuit**:
+### 2. Testing In Circuit:
 
    Testing in circuit means testing a component or portion of a circuit while it remains connected to the rest of the circuit. The tests are performed with the component in its operational position on the circuit board.
 
@@ -32,4 +45,5 @@ ESR meters are widely used in electronics repair and troubleshooting to check ca
    In-circuit testing can be performed using multimeters, oscilloscopes, logic analyzers, and in-circuit testers (ICTs) specifically designed to perform automated checks on populated boards.
 
 ### Summary:
-- **Testing out of circuit** provides accurate measurements of individual components by removing them from their circuit, while **testing in circuit** evaluates components in their operational environment, which is quicker but might be less precise due to the influence of surrounding elements.
+
+- Testing out of circuit provides accurate measurements of individual components by removing them from their circuit, while testing in circuit evaluates components in their operational environment, which is quicker but might be less precise due to the influence of surrounding elements.
