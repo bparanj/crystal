@@ -1,4 +1,10 @@
-A capacitor is a passive electronic component that stores electrical energy between two conductive plates separated by a dielectric. It blocks DC current but allows AC to pass, making it useful for energy storage, filtering, and timing applications. Capacitance, measured in farads, determines how much energy a capacitor can store at a given voltage.
+A capacitor is an electronic component that stores electrical energy between two conductive plates separated by a dielectric. It blocks DC current but allows AC to pass, making it useful for energy storage, filtering, and timing applications. Capacitance, measured in farads, determines how much energy a capacitor can store at a given voltage.
+
+PENDING
+
+Separate Capacitor AC behaviour vs DC behavior
+
+A capacitor is a passive electronic component.
 
 Capacitors are used in circuits to stabilize voltages, filter signals, and manage timing. In DC circuits, they store energy until charged, while in AC circuits, they allow current flow based on the frequency. Common applications include power supplies, signal filters, and energy storage systems.
 
@@ -6,7 +12,7 @@ Capacity: dictionary definition
 
 the maximum amount that something can contain.
 
-A capacitor's "capacity" (more commonly called "capacitance") has a few relevant definitions:
+A capacitor's capacity (more commonly called "capacitance") has a few definitions:
 
 1. Technical/Physics Definition:
 
@@ -20,9 +26,7 @@ A capacitor's "capacity" (more commonly called "capacitance") has a few relevant
 - The maximum amount that something can contain or hold
 - The amount that can be held, stored, or processed
 
-In the context of capacitors, it's important to note that while "capacity" is sometimes used colloquially, "capacitance" is the correct technical term. This measures how much electric charge the capacitor can store for a given voltage.
-
-For reference:
+In the context of capacitors, while "capacity" is sometimes used colloquially, "capacitance" is the correct technical term. This measures how much electric charge the capacitor can store for a given voltage.
 
 - A 1 farad capacitor can store 1 coulomb of charge at 1 volt
 - Most practical capacitors are much smaller, using units like:
@@ -37,6 +41,9 @@ The term "capacitor" comes from the Latin word *capacitas*, meaning "capacity" o
 
 The name reflects its primary function: storing electrical energy in the form of an electric field between two conductive plates separated by an insulating material (dielectric). When connected to a power source, the capacitor accumulates and stores charge, which it can release when needed.
 
+
+PENDING
+
 Copy the link to Capacitor youtube video. Watch and summarize the main points.
 
 Capacitors are electronic components that store electrical energy as electrical energy in the form of an electric field. They can release this stored energy when needed in a circuit.
@@ -47,23 +54,24 @@ A capacitor is a passive electronic component. It stores electrical energy in an
 
 What does depending on frequency mean here? What range of frequency do they allow to pass through?
 
-Let me explain this relationship clearly:
-
 The capacitive reactance (Xc) is inversely proportional to frequency (f), following this formula:
 
 Xc = 1/(2πfC)
 
 where:
+
 - Xc is capacitive reactance in ohms (Ω)
 - f is frequency in hertz (Hz)
 - C is capacitance in farads (F)
 - π is pi (approximately 3.14159)
 
 This means:
+
 1. As frequency increases → reactance decreases → signal passes more easily
 2. As frequency decreases → reactance increases → signal is blocked more
 
 For example:
+
 - At 1 kHz, a 1 µF capacitor has Xc ≈ 159 Ω
 - At 10 kHz, the same capacitor has Xc ≈ 15.9 Ω
 - At 100 kHz, it drops to Xc ≈ 1.59 Ω
@@ -142,6 +150,7 @@ Think of a capacitor like two rooms connected by a swinging door, and electrons 
 - This appears as lower impedance to the signal
 
 This is why capacitors are often used to:
+
 - Block DC while passing AC (coupling capacitors)
 - Filter out low frequencies while passing high frequencies (high-pass filters)
 - Smooth out power supply ripples (where they act as temporary energy storage)
@@ -161,15 +170,15 @@ Where:
 
 ### Key Points
 
-1. Inverse Relationship: 
+1. Inverse Relationship:
 
 Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
 
-2. Low Reactance at High Frequency: 
+2. Low Reactance at High Frequency:
 
 For high-frequency signals, \( X_C \) becomes very low, effectively making the capacitor behave more like a short circuit, allowing the signal to pass through easily.
 
-3. High Reactance at Low Frequency: 
+3. High Reactance at Low Frequency:
 
 For low-frequency signals, \( X_C \) is high, acting more like an open circuit, which blocks or attenuates the low-frequency components.
 

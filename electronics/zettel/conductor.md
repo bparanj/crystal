@@ -1,6 +1,7 @@
 PENDING
 
 Review the summary and revise.
+Every electronic component has some resistance. Is this correct?
 
 lets look the differences between various types of electrical conductors, from good conductors to insulators.
 

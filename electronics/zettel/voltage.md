@@ -10,37 +10,37 @@ Voltage represents the measure of the potential energy per unit charge between t
 
 1. What is Voltage?
 
-   - Question: What does voltage represent in an electrical circuit?
-   - Atomic Idea: Voltage measures the potential difference between two points in a circuit. This potential difference indicates how much work one must perform to move a charge from one point to another.
-   - Analogy: Imagine voltage as water pressure in a pipe. The higher the pressure (voltage), the more forcefully water (or electrons) moves through the pipe.
+   -  What does voltage represent in an electrical circuit?
+   -  Voltage measures the potential difference between two points in a circuit. This potential difference indicates how much work one must perform to move a charge from one point to another.
+   -  Imagine voltage as water pressure in a pipe. The higher the pressure (voltage), the more forcefully water (or electrons) moves through the pipe.
    - Example: In a simple flashlight circuit, the battery provides 1.5V. This means the battery creates a potential difference of 1.5 volts, pushing electrons through the bulb and causing it to light up.
 
 2. How does Voltage Relate to Energy and Charge?
 
-   - Question: How does voltage relate to energy and charge in a circuit?
-   - Atomic Idea: Voltage quantifies the amount of electrical potential energy per unit charge. Mathematically, $V = \frac{E}{Q}$, where $V$ represents voltage, $E$ represents electrical potential energy in joules, and $Q$ represents charge in coulombs.
-   - Analogy: Think of voltage as the height from which water falls. The greater the height (voltage), the more energy the water (or charge) gains as it falls.
+   -  How does voltage relate to energy and charge in a circuit?
+   -  Voltage quantifies the amount of electrical potential energy per unit charge. Mathematically, $V = \frac{E}{Q}$, where $V$ represents voltage, $E$ represents electrical potential energy in joules, and $Q$ represents charge in coulombs.
+   -  Think of voltage as the height from which water falls. The greater the height (voltage), the more energy the water (or charge) gains as it falls.
    - Example: If 2 joules of energy move through a circuit and 1 coulomb of charge passes, the voltage across the circuit is $V = \frac{2 \, \text{J}}{1 \, \text{C}} = 2 \, \text{V}$.
 
 3. How does Voltage Drive Current?
 
-   - Question: What role does voltage play in driving electrical current?
-   - Atomic Idea: Voltage creates the "push" that moves electrons, resulting in current flow. According to Ohm's Law, $V = IR$, where $V$ is voltage, $I$ is current, and $R$ is resistance.
-   - Analogy: Voltage acts like a water pump pushing water through a hose. The higher the pressure (voltage), the faster the water flows (current), assuming the hose (resistance) stays the same.
+   -  What role does voltage play in driving electrical current?
+   -  Voltage creates the "push" that moves electrons, resulting in current flow. According to Ohm's Law, $V = IR$, where $V$ is voltage, $I$ is current, and $R$ is resistance.
+   -  Voltage acts like a water pump pushing water through a hose. The higher the pressure (voltage), the faster the water flows (current), assuming the hose (resistance) stays the same.
    - Example: In a circuit with a resistance of 10 ohms and a voltage of 5V, the current is $I = \frac{V}{R} = \frac{5 \, \text{V}}{10 \, \Omega} = 0.5 \, \text{A}$.
 
 4. What are the Types of Voltage?
 
-   - Question: What are the two primary types of voltage?
-   - Atomic Idea: The two primary types of voltage are Direct Current (DC) voltage and Alternating Current (AC) voltage. DC voltage maintains a constant polarity, while AC voltage periodically reverses its direction.
-   - Analogy: DC voltage can be compared to a steady river flowing in one direction, whereas AC voltage is like the ocean tide, which moves back and forth.
+   -  What are the two primary types of voltage?
+   -  The two primary types of voltage are Direct Current (DC) voltage and Alternating Current (AC) voltage. DC voltage maintains a constant polarity, while AC voltage periodically reverses its direction.
+   -  DC voltage can be compared to a steady river flowing in one direction, whereas AC voltage is like the ocean tide, which moves back and forth.
    - Example: A battery provides DC voltage, while a household electrical outlet supplies AC voltage.
 
 5. How does Voltage Affect Power?
 
-   - Question: How does voltage affect the power in a circuit?
-   - Atomic Idea: Power, the rate of energy transfer, depends on both voltage and current. Mathematically, $P = VI$, where $P$ represents power in watts, $V$ represents voltage in volts, and $I$ represents current in amperes.
-   - Analogy: Imagine voltage as the pressure of water in a hose and current as the flow of water. Power would then be the amount of water pushed through the hose every second.
+   -  How does voltage affect the power in a circuit?
+   -  Power, the rate of energy transfer, depends on both voltage and current. Mathematically, $P = VI$, where $P$ represents power in watts, $V$ represents voltage in volts, and $I$ represents current in amperes.
+   -  Imagine voltage as the pressure of water in a hose and current as the flow of water. Power would then be the amount of water pushed through the hose every second.
    - Example: In a circuit with a 10V source and a current of 2A, the power is $P = 10 \, \text{V} \times 2 \, \text{A} = 20 \, \text{W}$.
 
 ---
@@ -72,23 +72,23 @@ Thus, the voltage is 3 volts.
 
 ## Related Atomic Ideas:
 
-1. Current: 
+1. Current:
 
 Voltage drives the flow of current. Understanding current helps clarify the relationship between voltage and the movement of charge in a circuit.
 
-2. Resistance: 
+2. Resistance:
 
 Voltage interacts with resistance to determine how much current flows. This directly connects to Ohm’s Law.
 
-3. Ohm’s Law: 
+3. Ohm’s Law:
 
 Describes the relationship between voltage, current, and resistance in circuits.
 
-4. Energy: 
+4. Energy:
 
 Since voltage relates to the potential energy per unit charge, understanding energy in electrical systems complements understanding of voltage.
 
-5. Electric Fields: 
+5. Electric Fields:
 
 Voltage exists due to electric fields between two points. Understanding electric fields provides insight into how voltage arises in different contexts.
 
@@ -99,14 +99,14 @@ Voltage exists due to electric fields between two points. Understanding electric
 1. The Relationship Between Voltage and Circuit Safety:
 
    Investigate how voltage levels affect safety in electrical systems. How do voltage limits ensure safe operations in household versus industrial circuits?
-   
+
 2. How Voltage Changes Impact Power Efficiency:
 
    Explore how changing voltage levels can optimize power usage in different devices. How do voltage regulators improve power efficiency in electronic circuits?
 
 3. Designing Circuits for High-Voltage Applications:
 
-   Study how high-voltage circuits differ from low-voltage circuits. What unique challenges and solutions exist when working with high-voltage systems? 
+   Study how high-voltage circuits differ from low-voltage circuits. What unique challenges and solutions exist when working with high-voltage systems?
 
 
 Overview:
@@ -119,7 +119,7 @@ Atomic Ideas:
 
 Voltage represents the electric potential difference between two points in an electrical circuit. It quantifies the energy required to move a unit charge from one point to another within an electric field.
 
-Analogy: Voltage resembles the difference in water pressure between two points in a pipe system. Just as water flows from high pressure to low pressure, electrons move from high voltage to low voltage.
+ Voltage resembles the difference in water pressure between two points in a pipe system. Just as water flows from high pressure to low pressure, electrons move from high voltage to low voltage.
 
 Example: To measure voltage between two points in a simple circuit:
 
@@ -133,7 +133,7 @@ e) Read the displayed value, which represents the voltage across the battery.
 
 The mathematical expression for voltage (V) equals the work done (W) to move a charge (Q) divided by the amount of that charge: $V = \frac{W}{Q}$
 
-Analogy: This relationship resembles calculating the cost per item when shopping. If you spend $10 (work done) to buy 5 apples (charge), the cost per apple (voltage) equals $2.
+ This relationship resembles calculating the cost per item when shopping. If you spend $10 (work done) to buy 5 apples (charge), the cost per apple (voltage) equals $2.
 
 Example: Calculate the voltage needed to move 3 coulombs of charge using 15 joules of energy:
 
@@ -146,7 +146,7 @@ d) The voltage equals 5 volts.
 
 Ohm's Law states that voltage (V) equals the product of current (I) and resistance (R): $V = I \times R$
 
-Analogy: This relationship resembles water flow through a pipe. Voltage acts like water pressure, current like the water flow rate, and resistance like the pipe's diameter.
+ This relationship resembles water flow through a pipe. Voltage acts like water pressure, current like the water flow rate, and resistance like the pipe's diameter.
 Example: Determine the voltage across a 100-ohm resistor with 0.5 amperes of current flowing through it:
 
 a) Use Ohm's Law: $V = I \times R$
@@ -158,7 +158,7 @@ d) The voltage across the resistor equals 50 volts.
 
 Electric potential energy represents the energy stored in a system of charged particles due to their positions within an electric field. Voltage quantifies the difference in this energy per unit charge between two points.
 
-Analogy: Electric potential energy resembles the potential energy of a ball on a hill. The higher the ball's position (higher voltage), the more potential energy it possesses.
+ Electric potential energy resembles the potential energy of a ball on a hill. The higher the ball's position (higher voltage), the more potential energy it possesses.
 
 Example: Calculate the electric potential energy of a 2-coulomb charge in a 5-volt potential difference:
 
@@ -171,7 +171,7 @@ d) The electric potential energy equals 10 joules.
 
 Electric field strength (E) equals the negative gradient of voltage (V) with respect to distance (d): $E = -\frac{dV}{dd}$
 
-Analogy: This relationship resembles the steepness of a hill. The electric field strength corresponds to the slope, while voltage represents the height at different points.
+ This relationship resembles the steepness of a hill. The electric field strength corresponds to the slope, while voltage represents the height at different points.
 
 Example: Calculate the electric field strength between two plates 2 cm apart with a potential difference of 100 volts:
 

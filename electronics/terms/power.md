@@ -18,7 +18,6 @@ Electrical power, \( P \), is the rate of energy conversion and can be described
 
 Electrical power in circuits is the product of voltage and current, defined as \( P(t) = V(t) \cdot I(t) \). For resistive elements, power dissipation can be derived from Ohm's Law, resulting in \( P = I^2R \) or \( P = \frac{V^2}{R} \). In AC circuits, power analysis extends to include real, reactive, and apparent power, encapsulated in the complex power expression \( S = VI^* \), where \( I^* \) is the complex conjugate of the current. The power factor, \( \cos(\phi) \), is essential for optimizing energy transfer, reducing losses, and improving system stability. Advanced topics such as power electronics involve the modulation and conversion of power using devices like MOSFETs and IGBTs, emphasizing efficiency and control in power delivery systems.
 
-
 Child:
 
 Power is like how quickly you can do something. In electronics, power tells us how fast electricity is working. When you turn on a light bulb, power is what makes it glow. More power means the light will be brighter or the motor will spin faster.

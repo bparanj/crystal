@@ -131,9 +131,14 @@ A diode consists of a junction between p-type and n-type semiconductor materials
 
 Analogy: A diode functions like a one-way valve in a water pipe. Just as the valve allows water to flow freely in one direction but blocks it in the reverse direction, a diode permits electric current to flow easily in the forward direction but impedes it in the reverse direction.
 
+
+PENDING
+
+This experiment is a variation of the existing LED experiment. Merge this with that.
+
 Example: To demonstrate diode behavior:
 
-a) Obtain a simple LED (Light Emitting Diode), a 220Ω resistor, and a 9V battery.
+a) LED (Light Emitting Diode), a 220Ω resistor, and a 9V battery.
 b) Connect the LED's anode (longer lead) to the resistor.
 c) Connect the other end of the resistor to the battery's positive terminal.
 d) Connect the LED's cathode (shorter lead) to the battery's negative terminal.
@@ -197,23 +202,23 @@ e) Increase the reverse bias across the diode and observe how the waveform becom
 
 Related Atomic Ideas:
 
-1. Semiconductor physics: 
+1. Semiconductor physics:
 
 The study of materials with controllable electrical properties. Understanding semiconductor physics enhances comprehension of how diodes function at the atomic level.
 
-2. P-N junction: 
+2. P-N junction:
 
 The interface between p-type and n-type semiconductors. This concept forms the basis for diode operation and extends to other semiconductor devices.
 
-3. Rectification: 
+3. Rectification:
 
 The process of converting AC to DC. This idea connects diodes to power supply design and signal processing applications.
 
-4. LED (Light Emitting Diode): 
+4. LED (Light Emitting Diode):
 
 A type of diode that emits light when forward-biased. Understanding LEDs extends diode concepts to optoelectronics.
 
-5. Varactor diode: 
+5. Varactor diode:
 
 A diode designed to exploit its voltage-dependent capacitance. This concept links diodes to tuning circuits and frequency modulation applications.
 

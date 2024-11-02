@@ -1,17 +1,24 @@
+## Resistivity vs Conductivity
+
+PENDING
+
+What does it mean to be a reciprocal?
+
 Is resistivity the opposite of conductivity?
 
 Yes, resistivity is effectively the inverse of conductivity, but they are not precisely "opposites"; they are reciprocals.
 
-1. **Conductivity** (\(\sigma\)) measures a material's ability to conduct electric current. It indicates how easily electrons can flow through the material. Higher conductivity means lower resistance to current.
+1. Conductivity (\(\sigma\)) measures a material's ability to conduct electric current. It indicates how easily electrons can flow through the material. Higher conductivity means lower resistance to current.
 
-2. **Resistivity** (\(\rho\)) measures a material's resistance to electric current. It indicates how much the material opposes the flow of electrons. Higher resistivity means more opposition to current.
+2. Resistivity (\(\rho\)) measures a material's resistance to electric current. It indicates how much the material opposes the flow of electrons. Higher resistivity means more opposition to current.
 
 They are mathematically related:
+
 \[
 \sigma = \frac{1}{\rho} \quad \text{and} \quad \rho = \frac{1}{\sigma}
 \]
 
-In essence, a high resistivity material (like rubber) has low conductivity, and a high conductivity material (like copper) has low resistivity. So, while they aren't opposites, they are inversely related.
+A high resistivity material (like rubber) has low conductivity, and a high conductivity material (like copper) has low resistivity. So, while they aren't opposites, they are inversely related.
 
 Yes, resistivity and conductivity are mathematical reciprocals of each other, meaning:
 

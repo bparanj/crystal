@@ -12,11 +12,17 @@ Modulation in electronics is the process of altering a carrier signal's properti
 
 There are three primary types of modulation:
 
-1. Amplitude Modulation (AM): Alters the amplitude (strength) of the carrier wave based on the information signal. Commonly used in AM radio broadcasting.
-  
-2. Frequency Modulation (FM): Changes the frequency of the carrier wave to reflect the information signal. This method is popular in FM radio and audio signals because it reduces noise and interference.
-  
-3. Phase Modulation (PM): Modifies the phase of the carrier wave in line with the information signal. This is often used in digital communication systems.
+1. Amplitude Modulation (AM):
+
+Alters the amplitude (strength) of the carrier wave based on the information signal. Commonly used in AM radio broadcasting.
+
+2. Frequency Modulation (FM):
+
+Changes the frequency of the carrier wave to reflect the information signal. This method is popular in FM radio and audio signals because it reduces noise and interference.
+
+3. Phase Modulation (PM):
+
+Modifies the phase of the carrier wave in line with the information signal. This is often used in digital communication systems.
 
 ### Key Takeaways
 
@@ -45,11 +51,11 @@ Phase Modulation (PM) is commonly used in digital communication systems, especia
 
 4. Cable Modems and DSL: These internet technologies use PM in combination with QAM to improve data transmission speeds over cable and phone lines.
 
-In summary, PM is crucial in many modern digital communication systems, where it combines with other modulation techniques to enhance data throughput and stability, supporting the backbone of everyday wireless and wired networks.
+PM is used in many modern digital communication systems, where it combines with other modulation techniques to enhance data throughput and stability, supporting the backbone of everyday wireless and wired networks.
 
 PM (Phase Modulation) is a technique used in modern digital communications. Here are its everyday uses:
 
-1. Mobile phones: 
+1. Mobile phones:
    - In 4G/5G communications
    - For transmitting voice and data
 
@@ -79,6 +85,7 @@ Specifically:
 3. Bluetooth Low Energy (BLE): Uses GFSK
 
 The reason for using GFSK is:
+
 - Good resistance to interference
 - Energy efficient
 - Works well for short-range communication

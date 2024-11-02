@@ -21,7 +21,7 @@ A photoresistor (also known as a light-dependent resistor or LDR) is a passive e
 
 3. What materials are used to make photoresistors?
 
-   Photoresistors are  made from materials such as cadmium sulfide (CdS) or lead sulfide (PbS), which are semiconductors that change their conductivity when exposed to photons.
+   Photoresistors are made from materials such as cadmium sulfide (CdS) or lead sulfide (PbS), which are semiconductors that change their conductivity when exposed to photons.
     These materials are like sponges that absorb light, and when they absorb enough, they let electricity flow through more easily, much like a sponge gets saturated and allows water to pass through.
     A CdS photoresistor in a light meter will react to visible light, changing its resistance based on the intensity of the light, helping the meter gauge brightness.
 
@@ -38,6 +38,10 @@ A photoresistor (also known as a light-dependent resistor or LDR) is a passive e
     In a camera’s light meter, a photoresistor might not be fast enough to detect sudden changes in light when moving from a dark to a bright environment, causing inaccuracies.
 
 ---
+
+PENDING
+
+This is a good experiment. Expand upon this and move to experiments folder.
 
 ### Solution:
 
@@ -104,9 +108,15 @@ Atomic Ideas:
 
 1.  How does the basic structure of a photoresistor enable its light-sensitive behavior?
 
- A photoresistor consists of a semiconductor material deposited on an insulating substrate, with metal contacts on either end. The semiconductor material, often cadmium sulfide, exhibits photoconductivity, meaning its conductivity increases when exposed to light.
- The structure of a photoresistor resembles a bridge whose width changes with sunlight. In darkness, the bridge is narrow, allowing few people (electrons) to cross. As sunlight increases, the bridge widens, allowing more people (electrons) to cross simultaneously.
- To understand the structure of a photoresistor, follow these steps:
+A photoresistor consists of a semiconductor material deposited on an insulating substrate, with metal contacts on either end. The semiconductor material, often cadmium sulfide, exhibits photoconductivity, meaning its conductivity increases when exposed to light.
+
+The structure of a photoresistor resembles a bridge whose width changes with sunlight. In darkness, the bridge is narrow, allowing few people (electrons) to cross. As sunlight increases, the bridge widens, allowing more people (electrons) to cross simultaneously.
+
+PENDING
+
+Move this to experiments folder.
+
+To understand the structure of a photoresistor, follow these steps:
 
  1) Obtain a common CdS photoresistor.
  2) Observe its appearance:  a small disk or rectangular shape with a zigzag pattern of light-sensitive material visible on the surface.
@@ -118,11 +128,15 @@ Atomic Ideas:
 
  This demonstrates how the photoresistor's structure allows its resistance to change with light intensity.
 
-2.  How does the photoresistor's resistance relate to light intensity?
+2. How does the photoresistor's resistance relate to light intensity?
 
  The resistance of a photoresistor decreases non-linearly with increasing light intensity. This relationship  follows an inverse power law, where resistance R is proportional to light intensity I raised to a negative power: $R \propto I^{-\alpha}$, where α is a constant depending on the specific material.
  The relationship between a photoresistor's resistance and light intensity is like the relationship between the number of cars on a highway and the average speed. As more cars (photons) enter the highway (photoresistor), the speed (current flow) increases, but not in a straight-line relationship - it tends to level off at very high traffic (light intensity) levels.
- 
+
+PENDING
+
+Move this to experiments folder.
+
  To explore the relationship between resistance and light intensity:
 
  1) Set up a circuit with a photoresistor, a fixed resistor (e.g., 10kΩ) in series, and a power source (e.g., 5V).
@@ -136,7 +150,11 @@ Atomic Ideas:
 
  The response time of a photoresistor refers to how quickly its resistance changes in response to changes in light intensity. Photoresistors  have relatively slow response times, on the order of milliseconds to seconds, which can limit their use in high-speed applications.
  The response time of a photoresistor is like the reaction time of a person adjusting to sudden changes in room lighting. Just as it takes a moment for our eyes to adjust when lights are suddenly turned on or off, a photoresistor takes some time to reach its new resistance value when light intensity changes.
- 
+
+PENDING
+
+Move this to experiments folder.
+
  To demonstrate photoresistor response time:
 
  1) Set up a circuit with a photoresistor, a fixed resistor (e.g., 10kΩ) in voltage divider configuration, powered by a 5V source.
@@ -150,7 +168,11 @@ Atomic Ideas:
 
  Temperature changes can affect a photoresistor's resistance and sensitivity. Generally, as temperature increases, the dark resistance (resistance in absence of light) of a photoresistor decreases, and its sensitivity to light may also change.
  The temperature effect on a photoresistor is like how temperature affects a person's sensitivity to touch. In cold weather, our fingers might be less sensitive and slower to respond, similar to how a cold photoresistor might be less sensitive to light changes.
- 
+
+PENDING
+
+Move this to experiments folder.
+
  To explore temperature effects on a photoresistor:
 
  1) Set up a circuit with a photoresistor in a voltage divider configuration.
@@ -165,7 +187,11 @@ Atomic Ideas:
 
  Photoresistors find applications in light-activated switches, automatic outdoor lighting, and simple light meters. However, they have limitations  slow response times, sensitivity to temperature, and potential for light history effects (their resistance can be affected by previous light exposure).
  Using a photoresistor in an electronic circuit is like using a sundial to tell time. It's simple and effective for many purposes (like knowing when to turn on street lights), but it's not precise enough for split-second timing and doesn't work well in rapidly changing conditions.
- 
+
+PENDING
+
+Move this to experiments folder.
+
  To understand photoresistor applications and limitations, create a simple automatic night light:
 
  1) Set up a circuit with a photoresistor and a 10kΩ resistor in a voltage divider, powered by a 5V source.

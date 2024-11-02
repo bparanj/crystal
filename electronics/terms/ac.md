@@ -18,7 +18,6 @@ Alternating current (AC) is characterized by its sinusoidal waveform, represente
 
 Alternating current (AC) is fundamentally described by its time-varying sinusoidal waveform, \( V(t) = V_m \sin(\omega t + \phi) \), where \( \omega = 2\pi f \). The analysis of AC circuits involves phasor representation and complex impedance \( Z = R + jX \), allowing for the characterization of resistive and reactive components' behavior under steady-state conditions. Fourier analysis decomposes complex AC waveforms into harmonic components, facilitating signal processing and power quality assessment. Power in AC circuits is expressed through real, reactive, and apparent power, encapsulated in the complex power vector \( S = P + jQ \). The role of transformers, governed by Faraday's Law, is pivotal in AC power distribution, enabling voltage level adjustments and isolation. Additionally, the skin effect and proximity effect in conductors must be considered in high-frequency AC applications, impacting current distribution and conductor design.
 
-
 Child:
 
 Alternating current is like a swing that goes back and forth. In electronics, the electricity can flow in one direction, then switch and flow in the opposite direction, over and over again. This is different from a slide, where you always go down. The electricity in your house is like a swing, constantly changing direction.
@@ -55,15 +54,15 @@ In an AC power system, energy is transmitted from the power supply to the load (
 
 ### How It Works:
 
-1. Electromagnetic Fields: 
+1. Electromagnetic Fields:
 
 The alternating voltage and current in the conductors create alternating electric and magnetic fields. These fields propagate outward from the conductors and carry energy along the transmission lines.
 
-2. Poynting Vector: 
+2. Poynting Vector:
 
 The Poynting vector (\(\mathbf{S}\)), defined as \(\mathbf{S} = \mathbf{E} \times \mathbf{H}\), represents the directional energy flux (the rate of energy transfer per unit area) of an electromagnetic field. Here, \(\mathbf{E}\) is the electric field, and \(\mathbf{H}\) is the magnetic field. The Poynting vector points in the direction of energy flow.
 
-3. Energy Transmission: 
+3. Energy Transmission:
 
 Despite the current reversing direction, the Poynting vector consistently points from the source to the load, indicating that the net energy flow is always towards the home. This is because the product of voltage and current (power) is still positive on average, meaning that energy is being delivered to the load over time.
 

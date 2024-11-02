@@ -30,7 +30,7 @@ In the context of AC voltage, a positive value refers to the voltage when the el
 
 ### What is a Negative Value?
 
-A negative value occurs when the electrical potential is reversed. The previously higher terminal is now lower, and current flows in the opposite direction. 
+A negative value occurs when the electrical potential is reversed. The previously higher terminal is now lower, and current flows in the opposite direction.
 
 ### What Are the Values in Numbers?
 
@@ -51,19 +51,19 @@ AC is bidirectional because the current reverses direction periodically. During 
 
 Most electronic devices operate on DC for several reasons:
 
-1. Stable Voltage: 
+1. Stable Voltage:
 
 DC provides a steady, constant voltage, which is essential for powering sensitive components like microprocessors, memory, and sensors.
-   
-2. Component Design: 
+
+2. Component Design:
 
 Many electronic components, such as transistors and integrated circuits, are designed to work with DC. They require a continuous flow of current in one direction for proper operation.
 
-3. AC Noise: 
+3. AC Noise:
 
 AC voltage, because of its fluctuating nature, can introduce electrical noise and instability in sensitive circuits, leading to malfunction or damage.
 
-4. Rectification: 
+4. Rectification:
 
 While electrical grids deliver AC because it's more efficient to transmit over long distances, electronic devices convert AC to DC using rectifiers (e.g., in power supplies) to get the stable voltage they need.
 
@@ -73,19 +73,19 @@ AC is ideal for power transmission, while DC is better for precise, reliable ope
 
 AC voltage is usually transmitted above ground via power lines instead of being buried for several reasons:
 
-1. Cost: 
+1. Cost:
 
 Installing power lines underground is significantly more expensive than overhead lines. It requires digging trenches, using specialized insulation, and more robust infrastructure to protect the cables from moisture and environmental damage.
 
-2. Maintenance: 
+2. Maintenance:
 
 Overhead lines are easier and cheaper to inspect, repair, and replace. When issues arise, such as a power line failure, it is simpler and quicker to access overhead lines than underground ones.
 
-3. Heat Dissipation: 
+3. Heat Dissipation:
 
 Power lines generate heat due to electrical resistance. Overhead lines are exposed to air, allowing natural cooling. Underground cables, however, are surrounded by soil, which doesn't dissipate heat as efficiently, making them more prone to overheating.
 
-4. Environmental Conditions: 
+4. Environmental Conditions:
 
 Underground cables are susceptible to damage from flooding, soil erosion, and shifting ground, which can complicate maintenance and reliability.
 
@@ -97,15 +97,15 @@ However, in certain urban areas where aesthetics or space constraints are a prio
 
 Efficiency in AC voltage transmission refers to how effectively electrical power is delivered from the power plant to the end users with minimal losses. Several factors impact AC voltage efficiency:
 
-1. Transmission Losses: 
+1. Transmission Losses:
 
 Electrical energy is lost as heat due to resistance in power lines. Using high voltage helps reduce current and minimizes losses. This is why AC voltage is transmitted at high voltages (e.g., 110 kV or more) over long distances, increasing efficiency.
 
-2. Power Factor: 
+2. Power Factor:
 
 In AC systems, efficiency is also related to the power factor, which measures how effectively the voltage and current are aligned. A low power factor means more power is lost in the system, reducing efficiency.
 
-3. Transformer Efficiency: 
+3. Transformer Efficiency:
 
 AC voltage can be easily stepped up or down using transformers, which enhances efficiency. Stepping up voltage for long-distance transmission reduces current, minimizing energy loss due to heat.
 
@@ -147,15 +147,15 @@ AC voltage efficiency is about minimizing energy losses during transmission to d
 
 ### Key Takeaways
 
-- DC Voltage: 
+- DC Voltage:
 
 Used for electronics, portable devices, and any application requiring stable, constant voltage.
 
-- AC Voltage: 
+- AC Voltage:
 
 Used for power transmission, household power, and large industrial equipment due to its efficiency and ease of transformation.
 
-- Need for Both: 
+- Need for Both:
 
 Different applications and use cases require the unique advantages of both AC and DC voltages. AC is preferred for transmission and large-scale power distribution, while DC is essential for electronic devices and portable power solutions.
 
@@ -173,11 +173,10 @@ A negative terminal is the point in a circuit or power source where there is a l
 
 ### Is Negative and Ground Terminal the Same?
 
-No, the negative terminal and ground terminal are not always the same. 
+No, the negative terminal and ground terminal are not always the same.
 
-- The negative terminal refers specifically to the lower potential side of a power source (like a battery) in a DC circuit.
-  
-- Ground is a reference point in an electrical circuit. It may or may not be connected to the negative terminal, depending on the design of the circuit.
+The negative terminal refers specifically to the lower potential side of a power source (like a battery) in a DC circuit.
+Ground is a reference point in an electrical circuit. It may or may not be connected to the negative terminal, depending on the design of the circuit.
 
 In many cases, especially in simple battery-operated circuits, the negative terminal of the power source is connected to ground, and they are effectively the same. However, in more complex systems, ground may be separate from the negative terminal and used as a common return path for current or as a safety feature in power systems.
 

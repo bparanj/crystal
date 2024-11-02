@@ -3,8 +3,7 @@
 
 ## Overview: Passive Electronic Component
 
-A passive electronic component refers to a device that does not require an external power source to operate. These components do not produce or amplify electrical signals but instead modify or store energy in the form of electrical signals. Common passive components include resistors, capacitors, and inductors, which controls current, stores energy, and shaping electrical signals within a circuit.
-
+A passive electronic component is a device that does not require an external power source to operate. These components do not produce or amplify electrical signals but instead modify or store energy in the form of electrical signals. Common passive components include resistors, capacitors, and inductors, which controls current, stores energy, and shaping electrical signals within a circuit.
 
 There is a subtle difference between produce and create, especially in technical contexts like electronics.
 
@@ -159,6 +158,11 @@ b) Substitute the values: $I = \frac{5 \text{ V}}{330 \text{ Ω}}$
 c) Perform the division: $I \approx 0.0152 \text{ A}$ or 15.2 mA
 d) The resistor limits the current to approximately 15.2 milliamperes.
 
+
+PENDING
+
+This experiment is already done. If so, move this to the experiment and merge.
+
 3. How do capacitors operate as passive components?
 
 Capacitors store electrical energy in an electric field between two conductive plates separated by a dielectric material. They block DC current while allowing AC current to flow, with their capacitance measured in farads (F).
@@ -172,6 +176,11 @@ b) Connect the capacitor to the battery briefly (a few seconds) to charge it.
 c) Disconnect the battery and connect the LED to the capacitor.
 d) Observe the LED light up and gradually dim as the capacitor discharges.
 e) This demonstrates the capacitor's ability to store and release energy without generating it.
+
+
+PENDING
+
+Is this experiment already in experiments folder. If so, merge this section:
 
 4. How do inductors behave as passive components?
 

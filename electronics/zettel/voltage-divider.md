@@ -132,6 +132,8 @@ Atomic Ideas:
 
 1.  What is a voltage divider?
 
+PENDING
+
 See voltage-divider-circuit.md
 
 2.  How does one calculate the output voltage of a voltage divider?
@@ -152,6 +154,11 @@ See voltage-divider-circuit.md
  Loading occurs when a load (like a circuit or device) is connected to the output of a voltage divider. This can alter the effective resistance of the lower part of the divider, changing the output voltage from its unloaded value.
 
  The effect of loading on a voltage divider is like adding weight to one side of a seesaw. Just as additional weight changes the balance point of the seesaw, connecting a load to a voltage divider changes the "balance" of voltages in the circuit.
+
+ PENDING
+
+ Is this experiment already in experiments folder?
+
  To demonstrate loading effects:
 
  1) Set up a voltage divider with a 9V source, R1 = 10kΩ, and R2 = 10kΩ. The expected output is 4.5V.
@@ -182,7 +189,7 @@ See voltage-divider-circuit.md
  Voltage dividers find applications in various electronic circuits,  level shifting, biasing in amplifiers, creating reference voltages, and interfacing sensors with different voltage requirements.
 
  The versatility of voltage dividers in electronics is like the versatility of ratios in cooking. Just as a chef uses ratios to adjust recipes for different serving sizes or to balance flavors, engineers use voltage dividers to adjust voltage levels for different circuit requirements.
- 
+
  Let's explore a real-world application of a voltage divider in interfacing a temperature sensor:
 
  1) Consider a temperature sensor that outputs 10mV per °C, with a range of 0°C to 100°C (0V to 1V output).
@@ -197,19 +204,19 @@ See voltage-divider-circuit.md
 
 Related Atomic Ideas:
 
-1. Thevenin's Theorem: 
+1. Thevenin's Theorem:
 
 This theorem relates to voltage dividers by providing a way to simplify complex circuits into an equivalent voltage source and series resistance, often involving voltage division.
 
 2. Potentiometers as variable voltage dividers: Potentiometers function as adjustable voltage dividers, extending the concept to variable voltage control applications.
 
-3. Current dividers: 
+3. Current dividers:
 
 These operate on similar principles to voltage dividers but divide current instead of voltage, providing a complementary understanding of circuit behavior.
 
 4. Input impedance of measuring instruments: Understanding input impedance is crucial when using voltage dividers, as it relates directly to loading effects.
 
-5. Voltage regulators: 
+5. Voltage regulators:
 
 Many voltage regulators use voltage divider principles in their feedback loops to maintain a constant output voltage.
 

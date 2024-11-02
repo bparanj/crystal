@@ -1,8 +1,12 @@
+PENDING
+
+- Explain potential difference
+
 ---
 
 ## Overview: Current
 
-Current refers to the flow of electric charge through a conductor, such as a wire, over time. It represents the movement of electrons due to an electric field or potential difference (voltage) applied across two points. The unit of current is the ampere (A), which measures how much charge passes through a point in the circuit per second. Electrical current can flow as direct current (DC) or alternating current (AC) depending on whether the charge flows in one direction or oscillates back and forth.
+Current is the flow of electric charge through a conductor, such as a wire, over time. It represents the movement of electrons due to an electric field or potential difference (voltage) applied across two points. The unit of current is the ampere (A), which measures how much charge passes through a point in the circuit per second. Electrical current can flow as direct current (DC) or alternating current (AC) depending on whether the charge flows in one direction or oscillates back and forth.
 
 ---
 
@@ -16,7 +20,7 @@ What is current in the context of an electric circuit?
 
    In a circuit with 2 coulombs of charge flowing through a wire every second, the current would be 2 amperes.
 
-How is electric current measured in a circuit?
+How is current measured in a circuit?
 
    Current is measured in amperes (A). One ampere represents one coulomb of charge passing through a point in one second.
 
@@ -25,7 +29,7 @@ How is electric current measured in a circuit?
    Using an ammeter, if the current in a circuit reads 3A, it means 3 coulombs of charge pass through a specific point in one second.
 
 What are the two main types of electric current?
-   -
+
    There are two main types of current: Direct Current (DC) and Alternating Current (AC). In DC, current flows in one direction, while in AC, current alternates back and forth.
 
    Think of DC as water flowing steadily in one direction through a river, whereas AC is like ocean tides that move back and forth.
@@ -63,6 +67,7 @@ We use Ohm’s Law to find the current. The formula is:
 $$ I = \frac{V}{R} $$
 
 Where:
+
 - $I$ is the current in amperes (A),
 - $V$ is the voltage in volts (V),
 - $R$ is the resistance in ohms ($\Omega$).
@@ -185,23 +190,23 @@ e) The current density equals 1.5 million amperes per square meter.
 
 Related Atomic Ideas:
 
-1. Voltage: 
+1. Voltage:
 
 The electrical potential difference that drives current flow. Understanding voltage enhances comprehension of current, as they work together in electrical circuits.
 
-2. Resistance: 
+2. Resistance:
 
 The opposition to current flow, measured in ohms (Ω). Resistance directly relates to current through Ohm's Law, affecting the amount of current flowing in a circuit.
 
-3. Power: 
+3. Power:
 
 The rate of energy transfer, measured in watts (W). Power in electrical systems depends on both current and voltage: P = I × V.
 
-4. Capacitance: 
+4. Capacitance:
 
 The ability to store electric charge, measured in farads (F). Capacitors affect the flow of current in AC circuits, introducing phase shifts and filtering capabilities.
 
-5. Kirchhoff's Current Law: 
+5. Kirchhoff's Current Law:
 
 States that the sum of currents entering a node equals the sum of currents leaving that node. This law helps analyze complex circuits and understand current distribution.
 
