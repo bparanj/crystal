@@ -1,5 +1,6 @@
  A basic voltage divider consists of two resistors connected in series across a voltage source, with the output voltage taken from the connection point between the two resistors.
  A voltage divider resembles a water pipe with two constrictions in series. Just as the water pressure decreases after each constriction, the voltage "drops" across each resistor in the divider.
+ 
  To construct a basic voltage divider, follow these steps:
 
  1) Obtain two resistors (e.g., 1kΩ and 2kΩ) and a 9V battery.
@@ -15,11 +16,13 @@
  A simple voltage division circuit is a fundamental electronic circuit that uses two resistors to create a lower voltage from a higher voltage source. Here's a description of a basic voltage divider:
 
  Components:
+ 
  1. Two resistors (R1 and R2)
  2. Input voltage source (Vin)
  3. Output voltage (Vout)
 
  Circuit layout:
+ 
  1. R1 and R2 are connected in series
  2. Vin is applied across both resistors
  3. Vout is measured across R2
@@ -39,6 +42,7 @@
  ```
 
  How it works:
+ 
  1. The input voltage (Vin) is split across the two resistors
  2. The output voltage (Vout) is taken from the midpoint between R1 and R2
  3. Vout is always less than or equal to Vin
@@ -62,3 +66,4 @@
  4. Biasing in amplifier circuits
 
  This simple circuit is the basis for many more complex voltage division applications in electronics.
+ 

@@ -1,11 +1,3 @@
-1. Electrical Energy -> Iron Box -> heat energy
-2. Electrical Energy -> Heater -> heat energy
-3. Electrical Energy -> Fan -> ?
-4. heat energy -> Bulb -> Light energy
-5. Fridge
-6. Door bell
-
-
 Iron Box
 
 Electrical energy is converted into heat energy. The surface of the iron box is heated when current passes through a resistive coil. This heat is used to iron clothes.
@@ -18,7 +10,7 @@ Heater
 
 Electrical energy is transformed into heat energy. The resistive heating element keeps the space in a room warm.
 
-What is a resistive heating element? What does it look like? Need an image.
+What does resistive heating element look like? Need an image.
 
 A resistive element in a heater converts electrical energy into heat. The high resistance of the resistive element opposes the current flow. This generates heat, which warms up the surrounding area.
 
@@ -42,24 +34,11 @@ Electrical energy is converted to sound energy. The circuit activates a buzzer, 
 
 Need an image.
 
+Fridge
+
+Electrical energy powers a compressor, which transfers thermal energy from inside to outside the fridge, keeping food cool.
+
 These devices we encounter in everyday life are examples of transforming one form of energy into another form of energy to perform useful function.
-
-Real-world examples of energy transformation:
-
-1. Iron Box: Electrical energy is converted into heat energy as current passes through a resistive coil, heating the surface for ironing clothes.
-
-2. Heater: Electrical energy is transformed into heat energy via a resistive heating element to warm a space.
-
-3. Fan: Electrical energy converts to mechanical energy as the motor drives the fan blades, creating airflow.
-
-4. Bulb: Electrical energy is transformed into light energy (with some heat) as current flows through the filament or LED, illuminating the area.
-
-5. Fridge: Electrical energy powers a compressor, which transfers thermal energy from inside to outside the fridge, keeping food cool.
-
-6. Door Bell: Electrical energy is converted to sound energy as the circuit activates an electromagnet or buzzer, producing the ringing sound.
-
-These everyday devices demonstrate how energy is transformed from one form to another to perform useful tasks.
-
 
 ```python
 import numpy as np
@@ -265,6 +244,7 @@ Here are the main types of energy involved in electronic circuits:
    - Electrical → Light (LEDs)
 
 Would you like me to:
+
 1. Explain any energy conversion in detail?
 2. Show calculations for energy storage?
 3. Demonstrate energy efficiency concepts?

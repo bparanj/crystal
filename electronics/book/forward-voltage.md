@@ -71,6 +71,7 @@ In a diode, forward voltage is the threshold that must be exceeded for it to con
 In bipolar junction transistors (BJTs), the base-emitter junction behaves like a diode and requires a forward voltage (usually around 0.7V for silicon transistors) to turn the transistor on.
 
 ### Components Without Forward Voltage:
+
 For components like resistors, capacitors, and inductors, forward voltage does not apply. These components don’t have a p-n junction and therefore don’t have a threshold voltage requirement for current to flow. Instead, their behavior is governed by other parameters:
 
 - Resistors: Governed by Ohm's law (\(V = IR\))

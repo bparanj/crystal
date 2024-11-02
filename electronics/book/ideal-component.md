@@ -1,9 +1,14 @@
 ## Ideal Resistor
 
-From the perspective of TRIZ (Theory of Inventive Problem Solving), an ideal resistor would embody the concept of *Ideality*, where the system delivers the maximum useful function with minimal drawbacks or resources.
+From the perspective of TRIZ (Theory of Inventive Problem Solving), an ideal resistor would embody the concept of Ideality, where the system delivers the maximum useful function with minimal drawbacks or resources.
 
-- Useful function: A resistor's primary function is to limit current in a circuit while ensuring proper voltage division.
-- Harmful effects: Real resistors generate heat, consume power, and have limitations like tolerance variations, aging, and noise.
+Useful function: 
+
+A resistor's primary function is to limit current in a circuit while ensuring proper voltage division.
+
+Harmful effects: 
+
+Real resistors generate heat, consume power, and have limitations like tolerance variations, aging, and noise.
 
 An ideal resistor in TRIZ terms would:
 
@@ -17,12 +22,15 @@ This aligns with the TRIZ ideality principle of maximizing the benefits while mi
 
 ## Ideal Capacitor
 
-From a TRIZ perspective, an ideal capacitor would follow the principle of *Ideality*, where it provides its desired function while minimizing any negative side effects or resource use.
+From a TRIZ perspective, an ideal capacitor would follow the principle of Ideality, where it provides its desired function while minimizing any negative side effects or resource use.
 
 For a capacitor, the ideal characteristics would be:
 
-- Primary function: Store and release energy efficiently.
-- Harmful effects: Real capacitors have limitations such as leakage currents, equivalent series resistance (ESR), finite lifespan, and size constraints.
+Primary function: 
+
+Store and release energy efficiently.
+
+Harmful effects: Real capacitors have limitations such as leakage currents, equivalent series resistance (ESR), finite lifespan, and size constraints.
 
 An ideal capacitor in TRIZ terms would:
 
@@ -37,7 +45,7 @@ This ideal capacitor maximizes the useful function while minimizing the negative
 
 ## Ideal Inductor
 
-From a TRIZ perspective, an ideal inductor would be designed according to the principle of *Ideality*, which seeks to maximize useful functions while minimizing negative effects, resources, and complexities.
+From a TRIZ perspective, an ideal inductor would be designed according to the principle of Ideality, which seeks to maximize useful functions while minimizing negative effects, resources, and complexities.
 
 For an inductor, the key considerations are:
 
@@ -58,7 +66,7 @@ This ideal inductor aligns with TRIZ's objective of delivering the desired funct
 
 ## Ideal Diode
 
-From the TRIZ perspective, an ideal diode would follow the principle of *Ideality*, which aims to deliver maximum useful function with minimal negative effects, resource use, or complexity.
+From the TRIZ perspective, an ideal diode would follow the principle of Ideality, which aims to deliver maximum useful function with minimal negative effects, resource use, or complexity.
 
 For a diode, the key considerations are:
 
@@ -80,7 +88,7 @@ This ideal diode would achieve the goal of delivering the essential function (un
 
 ## Ideal Power Source
 
-From the TRIZ perspective, an ideal power source would embody the principle of *Ideality*, providing the necessary energy with maximum efficiency and minimal negative effects, resource consumption, or complexity.
+From the TRIZ perspective, an ideal power source would embody the principle of Ideality, providing the necessary energy with maximum efficiency and minimal negative effects, resource consumption, or complexity.
 
 For a power source, the key considerations are:
 
@@ -100,7 +108,7 @@ An ideal power source in TRIZ terms would:
 
 This ideal power source maximizes its useful function—energy delivery—while eliminating or minimizing harmful effects such as energy losses, environmental impact, and resource consumption, aligning perfectly with TRIZ's concept of ideality.
 
-From the TRIZ perspective, an ideal LED (Light Emitting Diode) would be designed according to the principle of *Ideality*, maximizing useful functions while minimizing negative effects, resource usage, and complexity.
+From the TRIZ perspective, an ideal LED (Light Emitting Diode) would be designed according to the principle of Ideality, maximizing useful functions while minimizing negative effects, resource usage, and complexity.
 
 For an LED, the key considerations are:
 
@@ -119,7 +127,7 @@ An ideal LED in TRIZ terms would:
 
 This ideal LED aligns with TRIZ's goal of providing the maximum useful function (light emission) while minimizing or eliminating the negative effects such as heat, energy waste, and material use, achieving a high degree of ideality.
 
-From the TRIZ perspective, an ideal push button would follow the principle of *Ideality*, providing its function with minimal drawbacks, resource use, or complexity.
+From the TRIZ perspective, an ideal push button would follow the principle of Ideality, providing its function with minimal drawbacks, resource use, or complexity.
 
 For a push button, the key considerations are:
 
@@ -138,7 +146,7 @@ An ideal push button in TRIZ terms would:
 
 This ideal push button would deliver the needed functionality—input control—while eliminating mechanical limitations, ensuring durability, and providing a flawless user experience, in line with TRIZ's ideality principle.
 
-From the TRIZ perspective, an ideal slide switch would adhere to the principle of *Ideality*, where it performs its function with maximum efficiency and minimal drawbacks, resource use, or complexity.
+From the TRIZ perspective, an ideal slide switch would adhere to the principle of Ideality, where it performs its function with maximum efficiency and minimal drawbacks, resource use, or complexity.
 
 For a slide switch, the key considerations are:
 
@@ -158,7 +166,7 @@ An ideal slide switch in TRIZ terms would:
 
 This ideal slide switch would perform its function (circuit state control) with perfect reliability and durability, eliminating the mechanical and environmental limitations of traditional switches, in line with TRIZ's concept of ideality.
 
-From the TRIZ perspective, an ideal electronic circuit follows the principle of *Ideality*, which focuses on delivering maximum useful function with minimal negative effects, complexity, and resource consumption.
+From the TRIZ perspective, an ideal electronic circuit follows the principle of Ideality, which focuses on delivering maximum useful function with minimal negative effects, complexity, and resource consumption.
 
 For an electronic circuit, the key considerations are:
 

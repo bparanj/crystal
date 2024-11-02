@@ -4,6 +4,10 @@ Foundations through Experimentation
 
 The basic principles from physics is explained in a simple language to provider a deeper understanding of the electronics. The basics of innovation is also discussed in the context of electronics.
 
+PENDING
+
+Revise the experiments and add voltage divider etc to this list
+
 Experiments Sequence
 
 1. Short Circuit
@@ -29,7 +33,6 @@ Run the polarized capacitor experiment in TinkercadL https://www.tinkercad.com/t
 
 Design an experiment to demonstrate capacitor charging and discharging using an LED indicator. Modified the existing slideswitch demo and added capacitor to the circuit.
 
-
 See the capacitor-experiments.md
 
 8. Missing Capacitor Experiment
@@ -46,7 +49,6 @@ Refer the links. Run simulation. Take screenshots of every step in the simulatio
 11. Inductor (Demo: https://www.tinkercad.com/things/jw2rfdSUsWg-inductordemonstration)
 12. Variable Capacitor (LC Tuning Circuit) (LC - Inductor-Capacitor) https://www.tinkercad.com/things/bNBojeH8c6s-frequency-generator
 		This should go after experiment #8.
-13.
 
 
 Experiment #1:
