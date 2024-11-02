@@ -107,11 +107,13 @@ After understanding the basic series resistor circuit, the next circuit that beg
 - LED: A diode that emits light when current flows through it in the forward direction. The LED has an anode (positive) and cathode (negative); current flows from anode to cathode.
 
 ### Operation:
+
 - When the circuit is closed, current flows from the positive terminal of the battery, through the resistor, then through the LED, and back to the negative terminal.
 - The LED lights up because current is flowing through it.
 - The resistor ensures that the current is at a safe level for the LED.
 
 ### Choosing the Resistor Value:
+
 To calculate the appropriate resistor value, you can use Ohm's Law, taking into account the forward voltage of the LED ( around 2V for red LEDs, but it varies by color) and the desired current (usually around 20mA or 0.02A for standard LEDs).
 
 - Formula: \( R = \frac{V_{supply} - V_{LED}}{I_{LED}} \)

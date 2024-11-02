@@ -38,7 +38,6 @@ We delve deeper into the implications of reactance in complex systems. We analyz
 
 5. Colleague :
 
-Reactance is fundamental to many advanced concepts in our field. We could discuss:
 - The role of reactance in matching networks for RF and microwave circuits
 - Non-linear reactances in varactor diodes and their applications in voltage-controlled oscillators
 - Reactance modulation techniques in modern communication systems
