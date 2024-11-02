@@ -1,5 +1,3 @@
-MOVE TO COMPUTER FOLDER
-
 The data used in UEFI (Unified Extensible Firmware Interface) is primarily stored in the **NVRAM (Non-Volatile Random Access Memory)** on the motherboard. This includes boot entries, configuration settings, and other essential information required for the boot process.
 
 The UEFI firmware itself is stored on a **NOR-based EEPROM (Electrically Erasable Programmable Read-Only Memory)** chip on the motherboard. This ensures that the firmware remains intact even when the computer is powered off.

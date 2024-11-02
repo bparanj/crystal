@@ -1,5 +1,3 @@
-MOVE TO COMPUTER FOLDER
-
 In a computer, various types of processing units perform different functions, handling specific tasks or operations. Here's a breakdown of the most common types of processing units:
 
 ### 1. Central Processing Unit (CPU)

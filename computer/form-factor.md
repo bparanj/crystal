@@ -1,5 +1,3 @@
-MOVE TO COMPUTER FOLDER
-
 A form factor refers to the physical size, shape, and layout of a device or component, such as a computer case, motherboard, or other parts. It determines how different components fit together and how they work together within the system.
 
 For example, in computers, form factors can dictate the dimensions and mounting points of motherboards, the size and shape of hard drives, and the overall design of cases. This standardization ensures compatibility between different components from various manufacturers.

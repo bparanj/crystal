@@ -1,5 +1,3 @@
-MOVE TO COMPUTER FOLDER
-
 The traditional Northbridge and Southbridge architecture is no longer found in modern motherboards.
 
 ### Traditional Architecture

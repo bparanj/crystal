@@ -1,5 +1,3 @@
-MOVE TO COMPUTER FOLDER
-
 SATA, or Serial ATA (Serial Advanced Technology Attachment), is a computer bus interface used to connect host bus adapters to mass storage devices like hard disk drives (HDDs), solid-state drives (SSDs), and optical drives. It replaced the older Parallel ATA (PATA) standard, offering several advantages such as faster data transfer rates, smaller cable sizes, and improved efficiency.
 
 SATA interfaces are  found in most desktop and laptop computers, providing a reliable and efficient way to connect storage devices to the motherboard¹. The SATA interface includes both data and power connectors, which are essential for the operation of the connected devices.

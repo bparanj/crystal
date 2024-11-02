@@ -1,5 +1,3 @@
-MOVE TO COMPUTER FOLDER
-
 **PCIe (Peripheral Component Interconnect Express)** is a high-speed interface standard used to connect various components within a computer. Here are some key points about PCIe:
 
 1. **High-Speed Data Transfer**: PCIe is designed for high-speed data transfer between the computer's motherboard and peripheral devices like graphics cards, SSDs, Wi-Fi cards, and more²³.
