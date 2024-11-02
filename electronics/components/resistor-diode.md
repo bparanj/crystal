@@ -16,13 +16,12 @@ Differences and similarities between a resistor and a diode:
 | Types                | Fixed, variable, thermistor, light-dependent resistor (LDR) | Standard diode, Zener diode, Schottky diode, LED, photodiode |
 | Current-Voltage Characteristics Curve | A straight line (Ohmic behavior) | A curve showing exponential increase in forward bias and near-zero current in reverse bias (until breakdown) |
 
-This table shows the differences and similarities between resistors and diodes, providing a comparison of their characteristics and applications.
-
 - What is bias in forward bias?
 
 Bias in electronics refers to applying a voltage across a component to control its operation. In forward bias (specifically for diodes), it means applying a voltage that allows current to flow through the diode. 
 
 For a diode:
+
 - The positive voltage is applied to the Anode (the positive side of the diode).
 - The negative voltage is applied to the Cathode (the negative side).
 
@@ -188,18 +187,21 @@ fig = run_experiments()
 I've created a complete experimental setup that includes both simulation code and practical experimental guidelines. Here's what's included:
 
 1. For the Resistor (Linear Relationship):
+
 - Voltage range: -5V to +5V
 - Shows perfect linear relationship (Ohm's Law)
 - Includes simulated measurement noise for realism
 - Plots I-V curve showing linear characteristics
 
 2. For the Diode (Non-linear Relationship):
+
 - Voltage range: -1V to +1V (typical for silicon diodes)
 - Uses Shockley diode equation to model behavior
 - Shows exponential relationship in forward bias
 - Demonstrates near-zero current in reverse bias
 
 3. Practical Experiment Setup:
+
 - Lists required equipment
 - Provides step-by-step instructions
 - Includes safety considerations

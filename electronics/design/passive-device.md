@@ -14,11 +14,13 @@ Create a list of passive devices
 Passive electronic devices (no external power required):
 
 1. Resistors
+
    - Fixed resistors
    - Variable resistors (potentiometers)
    - Thermistors
 
 2. Capacitors
+
    - Fixed capacitors
    - Variable capacitors
    - Ceramic
@@ -26,17 +28,20 @@ Passive electronic devices (no external power required):
    - Film
 
 3. Inductors
+
    - Air core
    - Iron core
    - Ferrite core
    - RF chokes
 
 4. Transformers
+
    - Step-up/down
    - Isolation
    - Auto-transformers
 
 5. Other
+
    - Crystals
    - Fuses
    - Connectors
@@ -48,9 +53,12 @@ frequency-dependent characteristics and non-ideal behaviors, such as parasitic e
 
 This statement refers to two key challenges in electronic systems:
 
-1. Frequency-dependent characteristics: The behavior of electronic components changes as the frequency of signals changes. For example, capacitors become less effective at blocking AC signals at higher frequencies.
+1. Frequency-dependent characteristics: 
+
+The behavior of electronic components changes as the frequency of signals changes. For example, capacitors become less effective at blocking AC signals at higher frequencies.
 
 2. Non-ideal behaviors:
+
 - Parasitic effects: Unwanted electrical properties that exist naturally in components. For example, a wire isn't just a conductor - it also has tiny amounts of capacitance and inductance.
 - Thermal drift: Changes in component performance as temperature varies. For instance, resistor values can shift as they heat up.
 
@@ -99,37 +107,43 @@ Contrast with components that don't introduce net energy:
 
 The distinction is important because devices need an energy source (something introducing net energy) to actually power them - you can't run a circuit just by moving existing energy around.
 
-
-
 Are passive devices linear?
 
 Passive devices can be either linear or non-linear. Let me break this down:
 
 Linear Passive Devices:
+
 1. Resistors 
+
 - Follow Ohm's Law (V = IR) perfectly
 - Output proportional to input
 - Most common example of linear passive device
 
 2. Ideal Capacitors
+
 - Linear relationship between voltage and charge
 - Current proportional to rate of voltage change
 
 3. Ideal Inductors
+
 - Linear relationship between current and magnetic flux
 - Voltage proportional to rate of current change
 
 Non-Linear Passive Devices:
+
 1. Diodes
+
 - Exponential I-V characteristic
 - Conduct differently in forward vs reverse bias
 - Classic example of non-linear passive device
 
 2. Varistors
+
 - Resistance changes with voltage
 - Used for surge protection
 
 3. Real-world capacitors and inductors
+
 - Show some non-linear behavior at extremes
 - Component values may change with temperature or voltage
 
@@ -138,7 +152,6 @@ Key point: Linearity means the output is directly proportional to the input and 
 PENDING
 
 Why do we need to store energy in magnetic field?
-
 
 A passive device in electronics does not require an external power source to operate. It does not amplify or ? is increase power same as amplify?
 A passive device in electronics is a component that does not require an external power source to operate and does not amplify or generate energy. Instead, passive devices rely solely on the energy present in the circuit to perform their functions, which  involve controlling, storing, or dissipating electrical energy.
@@ -194,18 +207,18 @@ While passive devices themselves do not require an external power source to oper
 
 1. No Independent Power Requirement:
 
-   - Passive devices, such as resistors, capacitors, and inductors, do not have an internal need for power. They do not amplify or generate energy on their own, but they interact with the energy provided by the circuit's power supply.
+Passive devices, such as resistors, capacitors, and inductors, do not have an internal need for power. They do not amplify or generate energy on their own, but they interact with the energy provided by the circuit's power supply.
 
 2. Functionality Depends on Circuit Power:
 
-   - Although passive devices do not require their own power source, they still depend on the presence of an overall power supply in the circuit. For example:
+Although passive devices do not require their own power source, they still depend on the presence of an overall power supply in the circuit. For example:
      - Resistors: Regulate current flow and drop voltage based on the power supplied by the circuit.
      - Capacitors: Store and release energy based on the voltage applied by the circuit's power source.
      - Inductors: Store energy in a magnetic field when current flows through them, which is driven by the circuit’s power.
 
 3. Role in Energy Management:
 
-   - Passive devices manage and manipulate the energy provided by the circuit's power supply. For instance:
+Passive devices manage and manipulate the energy provided by the circuit's power supply. For instance:
      - Resistors convert some of the supplied electrical energy into heat.
      - Capacitors temporarily store the energy from the power supply.
      - Inductors store energy in a magnetic field and can release it back into the circuit.

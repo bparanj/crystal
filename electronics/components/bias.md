@@ -1,6 +1,7 @@
 Bias in electronics refers to applying a voltage across a component to control its operation. In forward bias (specifically for diodes), it means applying a voltage that allows current to flow through the diode.
 
 For a diode:
+
 - The positive voltage is applied to the Anode (the positive side of the diode).
 - The negative voltage is applied to the Cathode (the negative side).
 

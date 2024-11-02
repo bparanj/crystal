@@ -71,6 +71,7 @@ Key solid state devices include:
 4. Optoelectronic devices: LEDs, photodiodes, and solar cells
 
 Understanding these devices requires knowledge of:
+
 - Carrier generation and recombination
 - Drift and diffusion currents
 - Depletion regions and built-in potentials
@@ -80,38 +81,45 @@ Solid state devices form the foundation of modern electronics, enabling the deve
 
 ## Level 4: Graduate Student
 
-At this level, understanding solid state devices involves a deep dive into quantum mechanics, statistical mechanics, and device physics. Key areas of focus include:
+At this level, understanding solid state devices involves a deep dive into quantum mechanics, statistical mechanics, and device physics. Areas of focus include:
 
 1. Quantum mechanical basis:
+
    - Schrödinger equation in semiconductors
    - Effective mass approximation
    - Density of states and Fermi-Dirac statistics
 
 2. Advanced band theory:
+
    - k·p method for band structure calculation
    - Direct and indirect bandgaps
    - Strain effects on band structure
 
 3. Carrier transport phenomena:
+
    - Boltzmann transport equation
    - Mobility models ( high-field effects)
    - Hot carrier effects and velocity saturation
 
 4. Recombination-generation mechanisms:
+
    - Shockley-Read-Hall, Auger, and radiative recombination
    - Impact ionization and avalanche breakdown
 
 5. Advanced device structures:
+
    - Heterojunctions and quantum wells
    - Resonant tunneling devices
    - High Electron Mobility Transistors (HEMTs)
 
 6. Scaling effects and short-channel phenomena in MOSFETs:
+
    - Drain-induced barrier lowering (DIBL)
    - Velocity overshoot
    - Gate oxide tunneling
 
 7. Noise in solid state devices:
+
    - Thermal noise, shot noise, and 1/f noise
    - Noise figure and its impact on circuit design
 

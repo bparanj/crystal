@@ -1,3 +1,5 @@
+MOVE TO COMPUTER FOLDER
+
 The term "motherboard" is derived from the idea that the motherboard is the central or "mother" component of a computer system, with all other components connecting to and depending on it.
 
 Here are a few reasons why the term "motherboard" is used:

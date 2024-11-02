@@ -86,6 +86,7 @@ This experiment demonstrates different aspects of impedance:
 1. Circuits (a) and (b) show how resistance affects current flow and, consequently, LED brightness.
 
 2. Circuit (c) illustrates the effect of capacitive reactance, a component of impedance:
+
    - The capacitor initially acts like an open circuit, blocking current flow.
    - As it charges, it allows more current to pass, brightening the LED.
    - This time-dependent behavior is characteristic of reactive impedance.

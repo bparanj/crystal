@@ -1,4 +1,4 @@
-MOVE THIS OUT OF ELECTRONICS FOLDER.
+MOVE TO COMPUTER FOLDER
 
 **PCIe (Peripheral Component Interconnect Express)** is a high-speed interface standard used to connect various components within a computer. Here are some key points about PCIe:
 

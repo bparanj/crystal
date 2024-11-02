@@ -33,11 +33,9 @@ To demonstrate how rubbing different materials together can generate static elec
 
 This experiment demonstrates the static electric effect, where rubbing the balloon against the wool cloth causes it to accumulate an excess of electrons, making it negatively charged. The charged balloon can attract neutral objects like small paper bits by inducing opposite charges on their surfaces. The balloon may also repel from a metal object due to charge induction on the metal. When the balloon finally touches the metal, the stored static charge is discharged, often producing a small spark or a slight shock. This illustrates how static electricity is generated and how it can cause objects to attract, repel, and discharge.
 
-# 2
+# Experiment: The Dancing Tissue Paper
 
 A simple experiment to illustrate the static electric effect.
-
-Experiment: The Dancing Tissue Paper
 
 Materials needed:
 

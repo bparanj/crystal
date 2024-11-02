@@ -1,7 +1,9 @@
 
 ### Experiment 1: Inductive Reactance
 
-Objective: To observe how an inductor affects the current in an AC circuit.
+Objective: 
+
+To observe how an inductor affects the current in an AC circuit.
 
 Materials:
 

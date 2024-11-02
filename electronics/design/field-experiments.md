@@ -37,9 +37,17 @@ Materials:
 
 Procedure:
 
-1. Charge the Capacitor: Using the setup from Experiment 1, charge the capacitor by connecting it to the battery. Disconnect the capacitor carefully using insulated tweezers.
-2. Isolate the Capacitor: Place the charged capacitor on an insulated surface to prevent it from discharging.
-3. Detect the Electrostatic Field: Use an electroscope or similar charge detector near the capacitor’s terminals to detect the presence of a static electric field.
+1. Charge the Capacitor: 
+
+Using the setup from Experiment 1, charge the capacitor by connecting it to the battery. Disconnect the capacitor carefully using insulated tweezers.
+
+2. Isolate the Capacitor: 
+
+Place the charged capacitor on an insulated surface to prevent it from discharging.
+
+3. Detect the Electrostatic Field: 
+
+Use an electroscope or similar charge detector near the capacitor’s terminals to detect the presence of a static electric field.
 
 The charges on the capacitor’s plates are stationary, creating an electrostatic field between the plates. This field is static and will remain until the capacitor discharges.
 
@@ -93,10 +101,21 @@ The static charges on the balloon create an electrostatic field around it. This 
 
 ### Summary of Concepts Demonstrated:
 
-- Experiment 1: Electric field inside a circuit, created by a voltage across a capacitor.
-- Experiment 2: Electrostatic field inside a circuit, in a charged but isolated capacitor.
-- Experiment 3: Electric field in the real world, demonstrated by a Van de Graaff generator.
-- Experiment 4: Electrostatic field in the real world, demonstrated by a charged balloon and its interaction with nearby objects.
+- Experiment 1: 
+
+Electric field inside a circuit, created by a voltage across a capacitor.
+
+- Experiment 2: 
+
+Electrostatic field inside a circuit, in a charged but isolated capacitor.
+
+- Experiment 3: 
+
+Electric field in the real world, demonstrated by a Van de Graaff generator.
+
+- Experiment 4: 
+
+Electrostatic field in the real world, demonstrated by a charged balloon and its interaction with nearby objects.
 
 These experiments offer hands-on ways to explore and understand the distinctions between electric fields and electrostatic fields in different contexts.
 
@@ -170,7 +189,9 @@ Understanding this distinction is important for correctly analyzing and applying
 
 ### Electrostatic Field
 
-Materials: Plastic rod, fur or wool cloth, small pieces of paper
+Materials: 
+
+Plastic rod, fur or wool cloth, small pieces of paper
 
 Procedure:
 
@@ -183,7 +204,9 @@ Observation: The paper pieces remain attracted to the rod, demonstrating the tim
 
 ### Time-Varying Electric Field
 
-Materials: Simple AC electromagnet (coil of wire connected to a low-voltage AC power source), compass
+Materials: 
+
+Simple AC electromagnet (coil of wire connected to a low-voltage AC power source), compass
 
 Procedure:
 
@@ -191,13 +214,17 @@ Procedure:
 2. Turn on the AC power source.
 3. Observe the compass needle.
 
-Observation: The compass needle oscillates, indicating a changing magnetic field, which implies a time-varying electric field.
+Observation: 
+
+The compass needle oscillates, indicating a changing magnetic field, which implies a time-varying electric field.
 
 ## Experiment 2: Conservation of Energy
 
 ### Electrostatic Field
 
-Materials: Van de Graaff generator, small metal sphere on an insulating handle
+Materials: 
+
+Van de Graaff generator, small metal sphere on an insulating handle
 
 Procedure:
 
@@ -205,24 +232,32 @@ Procedure:
 2. Move the metal sphere in different paths around the generator's dome.
 3. Measure the charge acquired by the sphere for different paths.
 
-Observation: The charge acquired by the sphere is the same regardless of the path, demonstrating the conservative nature of electrostatic fields.
+Observation: 
+
+The charge acquired by the sphere is the same regardless of the path, demonstrating the conservative nature of electrostatic fields.
 
 ### Non-Conservative Electric Field
 
-Materials: Copper wire loop, strong bar magnet, galvanometer
+Materials: 
+
+Copper wire loop, strong bar magnet, galvanometer
 
 Procedure:
 
 1. Connect the ends of the copper wire loop to the galvanometer.
 2. Move the magnet through the loop in different ways (fast/slow, different angles).
 
-Observation: The galvanometer reading varies based on how you move the magnet, showing that the induced electric field is non-conservative.
+Observation:
+
+The galvanometer reading varies based on how you move the magnet, showing that the induced electric field is non-conservative.
 
 ## Experiment 3: Field Sources
 
 ### Electrostatic Field
 
-Materials: Charged balloon, small pieces of paper
+Materials: 
+
+Charged balloon, small pieces of paper
 
 Procedure:
 
@@ -233,7 +268,9 @@ Observation: The paper pieces are attracted to the balloon, showing a field from
 
 ### Electric Field from Changing Magnetic Field
 
-Materials: Solenoid, iron core, battery, switch, nearby loop of wire connected to an LED
+Materials: 
+
+Solenoid, iron core, battery, switch, nearby loop of wire connected to an LED
 
 Procedure:
 
@@ -241,4 +278,6 @@ Procedure:
 2. Place the wire loop near the solenoid.
 3. Quickly open and close the switch.
 
-Observation: The LED flashes when the switch is opened or closed, demonstrating an electric field induced by a changing magnetic field.
+Observation: 
+
+The LED flashes when the switch is opened or closed, demonstrating an electric field induced by a changing magnetic field.

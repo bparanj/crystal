@@ -6,31 +6,35 @@ PENDING SEARCH
 
 ### Experiment: Visualizing Electric Fields with a Van de Graaff Generator
 
-**Objective**: To visualize the electric field around a charged object.
+Objective: 
 
-**Materials**:
+To visualize the electric field around a charged object.
+
+Materials:
+
 - Van de Graaff generator
 - Small pieces of tissue paper or confetti
 - Metal sphere (attached to the generator)
 - Insulating stand (for the generator)
 - Grounding rod (optional, for safety)
 
-**Procedure**:
-1. **Set Up the Generator**: Place the Van de Graaff generator on an insulating stand and ensure it's properly grounded if necessary.
-2. **Prepare the Confetti**: Cut small pieces of tissue paper or use confetti. These will act as test charges to visualize the electric field.
-3. **Charge the Generator**: Turn on the Van de Graaff generator to start building up static charge on the metal sphere.
-4. **Observe the Electric Field**: Sprinkle the confetti around the metal sphere. As the generator charges, the confetti pieces will align themselves along the electric field lines, moving away from the sphere.
-5. **Record Observations**: Note how the confetti pieces move and align, illustrating the direction and shape of the electric field around the charged sphere.
+Procedure:
 
-**Explanation**: The electric field is a vector field around a charged object where other charges experience a force. The confetti pieces, acting as test charges, align themselves along the electric field lines, visually demonstrating the field's presence and direction.
+1. Set Up the Generator: Place the Van de Graaff generator on an insulating stand and ensure it's properly grounded if necessary.
+2. Prepare the Confetti: Cut small pieces of tissue paper or use confetti. These will act as test charges to visualize the electric field.
+3. Charge the Generator: Turn on the Van de Graaff generator to start building up static charge on the metal sphere.
+4. Observe the Electric Field: Sprinkle the confetti around the metal sphere. As the generator charges, the confetti pieces will align themselves along the electric field lines, moving away from the sphere.
+5. Record Observations: Note how the confetti pieces move and align, illustrating the direction and shape of the electric field around the charged sphere.
+
+The electric field is a vector field around a charged object where other charges experience a force. The confetti pieces, acting as test charges, align themselves along the electric field lines, visually demonstrating the field's presence and direction.
 
 ### Safety Note
+
 Be cautious when using the Van de Graaff generator, as it can produce high voltages. Ensure proper grounding and avoid direct contact with the charged sphere.
 
 This experiment provides a clear visual representation of electric fields and helps in understanding how they influence charged particles.
 
 I'll explain the electric field concept with both visual demonstrations and practical examples.
-
 
 
 ```python
@@ -43,16 +47,16 @@ def plot_electric_fields():
 
     # Plot 1: Point Charge Electric Field Lines
     def electric_field_lines(x, y, q):
-        r = np.sqrt(x**2 + y**2)
-        Ex = q * x / (r**3)
-        Ey = q * y / (r**3)
+        r = np.sqrt(x2 + y2)
+        Ex = q * x / (r3)
+        Ey = q * y / (r3)
         return Ex, Ey
 
     x, y = np.meshgrid(np.linspace(-2, 2, 20), np.linspace(-2, 2, 20))
     Ex, Ey = electric_field_lines(x, y, 1)
 
     # Normalize vectors for better visualization
-    magnitude = np.sqrt(Ex**2 + Ey**2)
+    magnitude = np.sqrt(Ex2 + Ey2)
     Ex = Ex / magnitude
     Ey = Ey / magnitude
 
@@ -63,7 +67,7 @@ def plot_electric_fields():
 
     # Plot 2: Electric Field Strength vs Distance
     r = np.linspace(0.1, 5, 100)
-    E = 1/(r**2)  # E ∝ 1/r²
+    E = 1/(r2)  # E ∝ 1/r²
 
     ax2.plot(r, E, 'b-', linewidth=2)
     ax2.set_xlabel('Distance from Charge (m)')
@@ -73,21 +77,21 @@ def plot_electric_fields():
 
     # Plot 3: Two Opposite Charges Field Pattern
     def two_charge_field(x, y, q1, q2):
-        r1 = np.sqrt((x+1)**2 + y**2)
-        r2 = np.sqrt((x-1)**2 + y**2)
+        r1 = np.sqrt((x+1)2 + y2)
+        r2 = np.sqrt((x-1)2 + y2)
 
-        Ex1 = q1 * (x+1) / (r1**3)
-        Ey1 = q1 * y / (r1**3)
+        Ex1 = q1 * (x+1) / (r13)
+        Ey1 = q1 * y / (r13)
 
-        Ex2 = q2 * (x-1) / (r2**3)
-        Ey2 = q2 * y / (r2**3)
+        Ex2 = q2 * (x-1) / (r23)
+        Ey2 = q2 * y / (r23)
 
         return Ex1 + Ex2, Ey1 + Ey2
 
     x, y = np.meshgrid(np.linspace(-3, 3, 20), np.linspace(-3, 3, 20))
     Ex, Ey = two_charge_field(x, y, 1, -1)
 
-    magnitude = np.sqrt(Ex**2 + Ey**2)
+    magnitude = np.sqrt(Ex2 + Ey2)
     Ex = Ex / magnitude
     Ey = Ey / magnitude
 
@@ -179,29 +183,35 @@ fig = plot_electric_fields()
 Let me explain electric fields in simple terms:
 
 1. Basic Concept:
+
    - It's the "influence" around an electric charge
    - Like the gravity field around Earth
    - Shows how other charges would move
    - Measured in Volts per meter (V/m)
 
 2. How It Works:
+
    - Spreads out in all directions
    - Gets weaker with distance
    - Stronger near the source
    - Can add or cancel out
 
 3. Real-World Examples:
+
    Weak Fields:
+
    - Normal air: ~100 V/m
    - Near power lines: ~10,000 V/m
    - Static electricity: ~1,000 V/m
 
    Strong Fields:
+
    - Thunder clouds: ~100,000 V/m
    - Capacitors: ~1,000,000 V/m
    - Inside atoms: ~10¹¹ V/m
 
 4. Practical Applications:
+
    - Electronics:
      * Capacitors
      * TV screens
@@ -231,16 +241,16 @@ def plot_electric_fields():
 
     # Plot 1: Point Charge Electric Field Lines
     def electric_field_lines(x, y, q):
-        r = np.sqrt(x**2 + y**2)
-        Ex = q * x / (r**3)
-        Ey = q * y / (r**3)
+        r = np.sqrt(x2 + y2)
+        Ex = q * x / (r3)
+        Ey = q * y / (r3)
         return Ex, Ey
 
     x, y = np.meshgrid(np.linspace(-2, 2, 20), np.linspace(-2, 2, 20))
     Ex, Ey = electric_field_lines(x, y, 1)
 
     # Normalize vectors for better visualization
-    magnitude = np.sqrt(Ex**2 + Ey**2)
+    magnitude = np.sqrt(Ex2 + Ey2)
     Ex = Ex / magnitude
     Ey = Ey / magnitude
 
@@ -251,7 +261,7 @@ def plot_electric_fields():
 
     # Plot 2: Electric Field Strength vs Distance
     r = np.linspace(0.1, 5, 100)
-    E = 1/(r**2)  # E ∝ 1/r²
+    E = 1/(r2)  # E ∝ 1/r²
 
     ax2.plot(r, E, 'b-', linewidth=2)
     ax2.set_xlabel('Distance from Charge (m)')
@@ -261,21 +271,21 @@ def plot_electric_fields():
 
     # Plot 3: Two Opposite Charges Field Pattern
     def two_charge_field(x, y, q1, q2):
-        r1 = np.sqrt((x+1)**2 + y**2)
-        r2 = np.sqrt((x-1)**2 + y**2)
+        r1 = np.sqrt((x+1)2 + y2)
+        r2 = np.sqrt((x-1)2 + y2)
 
-        Ex1 = q1 * (x+1) / (r1**3)
-        Ey1 = q1 * y / (r1**3)
+        Ex1 = q1 * (x+1) / (r13)
+        Ey1 = q1 * y / (r13)
 
-        Ex2 = q2 * (x-1) / (r2**3)
-        Ey2 = q2 * y / (r2**3)
+        Ex2 = q2 * (x-1) / (r23)
+        Ey2 = q2 * y / (r23)
 
         return Ex1 + Ex2, Ey1 + Ey2
 
     x, y = np.meshgrid(np.linspace(-3, 3, 20), np.linspace(-3, 3, 20))
     Ex, Ey = two_charge_field(x, y, 1, -1)
 
-    magnitude = np.sqrt(Ex**2 + Ey**2)
+    magnitude = np.sqrt(Ex2 + Ey2)
     Ex = Ex / magnitude
     Ey = Ey / magnitude
 

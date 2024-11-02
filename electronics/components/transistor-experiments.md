@@ -96,10 +96,16 @@ This experiment demonstrates the transistor’s ability to work in a feedback lo
 
 ### Summary:
 
-Experiment 1: Shows how a transistor can act as a switch, controlling a larger current with a smaller one.
+Experiment 1: 
 
-Experiment 2: Demonstrates the amplification property of a transistor, turning a small audio signal into a larger one.
+Shows how a transistor can act as a switch, controlling a larger current with a smaller one.
 
-Experiment 3: Illustrates the use of a transistor in an oscillator circuit, generating periodic signals.
+Experiment 2: 
 
-These experiments provide practical demonstrations of the basic functions of a transistor,  switching, amplification, and oscillation.
+Demonstrates the amplification property of a transistor, turning a small audio signal into a larger one.
+
+Experiment 3: 
+
+Illustrates the use of a transistor in an oscillator circuit, generating periodic signals.
+
+These experiments provide practical demonstrations of the basic functions of a transistor, switching, amplification, and oscillation.

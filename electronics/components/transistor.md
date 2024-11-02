@@ -22,16 +22,19 @@ Why is current or voltage called as a signal?
 Current or voltage is called a "signal" because it carries information or serves as a means of communication in electronic systems. Here's why:
 
 1. Information Representation
+
 - Voltage/current variations over time can represent data
 - The changes in amplitude, frequency, or phase can encode different types of information
 - For example, your voice in a phone call is converted to varying electrical signals
 
 2. Pattern and Meaning
+
 - Just like traffic signals communicate instructions to drivers
 - Electrical signals communicate information between electronic components
 - The patterns of these variations have specific meanings in the circuit
 
 3. Examples:
+
 - Audio signals: Varying voltage represents sound waves
 - Digital signals: High/low voltages represent 1s and 0s
 - Sensor signals: Voltage changes represent physical measurements (temperature, pressure, etc.)

@@ -16,18 +16,23 @@ To demonstrate how sunlight can be converted directly into electrical energy usi
 ### Procedure:
 
 1. Set Up the Solar Cell:
+
    - Connect the positive and negative terminals of the solar cell to the corresponding terminals of the multimeter using the connecting wires. Set the multimeter to measure voltage.
 
 2. Expose the Solar Cell to Light:
+
    - Place the solar cell under a light source, such as sunlight or a strong lamp. Ensure that the light is shining directly on the surface of the solar cell.
 
 3. Observe the Voltage:
+
    - Look at the multimeter reading. You should see a voltage appear on the multimeter, indicating that the solar cell is generating electricity from the light.
 
 4. Vary the Light Intensity:
+
    - Move the light source closer or farther away from the solar cell or change the light's intensity. Observe how the voltage reading on the multimeter changes with the light intensity. The voltage should increase with stronger light and decrease with weaker light.
 
 5. Power a Small Device (Optional):
+
    - Disconnect the multimeter and connect the solar cell directly to a small LED or another low-power device. Expose the solar cell to light, and observe that the LED lights up or the device operates, powered by the electricity generated through photovoltaic action.
 
 ### Explanation:

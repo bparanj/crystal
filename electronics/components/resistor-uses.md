@@ -94,4 +94,3 @@ These applications demonstrate the versatility and importance of resistors in el
 - Dummy Load
 - Temperature Sensing
 - Balancing
-

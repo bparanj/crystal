@@ -19,6 +19,7 @@ Analog signals are:
 What are the examples of analog signals?
 
 Common examples:
+
 - Sound waves
 - Temperature variations
 - Light intensity
@@ -27,11 +28,13 @@ Common examples:
 - Natural phenomena in general
 
 Advantages:
+
 - Natural representation of real-world phenomena
 - Can capture subtle variations
 - No sampling/quantization errors
 
 Disadvantages:
+
 - Susceptible to noise and distortion
 - More difficult to process and store than digital signals
 - Signal quality degrades with copying/transmission
@@ -67,21 +70,33 @@ Common examples of analog signals include sound waves, temperature readings, and
 
 ### Advantages of Analog Devices:
 
-- High Resolution: Analog devices can represent and process a very wide range of values, making them suitable for applications requiring high resolution and detail, such as audio and video processing.
+- High Resolution: 
 
-- Simplicity: In some cases, analog circuits can be simpler and more direct than digital circuits, especially for straightforward tasks like amplification or filtering.
+Analog devices can represent and process a very wide range of values, making them suitable for applications requiring high resolution and detail, such as audio and video processing.
+
+- Simplicity: 
+
+In some cases, analog circuits can be simpler and more direct than digital circuits, especially for straightforward tasks like amplification or filtering.
 
 ### Disadvantages of Analog Devices:
 
-- Susceptibility to Noise: Analog signals can be easily affected by noise and interference, which can degrade signal quality over long distances or in harsh environments.
+- Susceptibility to Noise: 
 
-- Limited Precision: While analog devices can process continuous signals, they are often less precise than digital devices for certain tasks, especially in computing or digital communication, where exact values are necessary.
+Analog signals can be easily affected by noise and interference, which can degrade signal quality over long distances or in harsh environments.
+
+- Limited Precision: 
+
+While analog devices can process continuous signals, they are often less precise than digital devices for certain tasks, especially in computing or digital communication, where exact values are necessary.
 
 ### Example: Analog vs. Digital in Audio
 
-- Analog: In a vinyl record player, the grooves on the record represent continuous analog signals. The needle picks up these signals, which are then amplified by an analog amplifier to drive the speakers and produce sound.
+- Analog: 
 
-- Digital: In a digital audio system, sound is converted into binary data (0s and 1s) by an analog-to-digital converter (ADC) and then processed, stored, or transmitted in digital form.
+In a vinyl record player, the grooves on the record represent continuous analog signals. The needle picks up these signals, which are then amplified by an analog amplifier to drive the speakers and produce sound.
+
+- Digital: 
+
+In a digital audio system, sound is converted into binary data (0s and 1s) by an analog-to-digital converter (ADC) and then processed, stored, or transmitted in digital form.
 
 ### Summary:
 
@@ -91,35 +106,48 @@ An analog device is an electronic component or system that processes continuous 
 
 Key characteristics of analog devices:
 
-1. Continuous signals: They work with signals that can take on any value within a given range, not just discrete levels.
+1. Continuous signals: 
 
-2. Real-time processing: Analog devices  process signals in real-time, without the need for sampling or quantization.
+They work with signals that can take on any value within a given range, not just discrete levels.
 
-3. Infinite resolution: In theory, analog signals can have infinite resolution, though practical limitations apply.
+2. Real-time processing: 
 
-4. Direct physical representation: Analog signals often directly represent physical quantities like temperature, pressure, or voltage.
+Analog devices  process signals in real-time, without the need for sampling or quantization.
+
+3. Infinite resolution: 
+
+In theory, analog signals can have infinite resolution, though practical limitations apply.
+
+4. Direct physical representation: 
+
+Analog signals often directly represent physical quantities like temperature, pressure, or voltage.
 
 Types of analog devices:
 
 1. Sensors:
+
    - Thermocouples
    - Strain gauges
    - Microphones
 
 2. Transducers:
+
    - Speakers
    - Actuators
 
 3. Signal processing components:
+
    - Operational amplifiers (op-amps)
    - Filters (RC, LC circuits)
    - Mixers
 
 4. Display devices:
+
    - Analog meters
    - Oscilloscopes
 
 5. Communication devices:
+
    - AM/FM radio transmitters and receivers
 
 Advantages of analog devices:

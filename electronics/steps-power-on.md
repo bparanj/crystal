@@ -1,3 +1,5 @@
+MOVE TO COMPUTER FOLDER
+
 ## Steps after Power On
 
 Here are the high-level steps that occur when you turn on a laptop:

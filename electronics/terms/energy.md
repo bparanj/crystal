@@ -21,14 +21,17 @@ All types of energy use the Joule as a unit because energy, regardless of its fo
 Thermal energy and heat energy are related concepts but are not the same.
 
 ### Thermal Energy
+
 - **Definition**: Thermal energy is the total kinetic energy of particles in a substance due to their random motion. It’s an internal property of the material and depends on the temperature and mass of the substance.
 - **Context**: All objects with a temperature above absolute zero contain thermal energy, as their particles are in constant motion.
 
 ### Heat Energy
+
 - **Definition**: Heat energy, or simply heat, is the transfer of thermal energy between objects of different temperatures. It flows from the warmer object to the cooler one until thermal equilibrium is reached.
 - **Context**: Heat is not a property contained in an object but rather an energy flow due to a temperature difference.
 
-### Key Difference
+### Difference
+
 - **Thermal energy** is the energy within an object due to particle motion, while **heat energy** is the transfer of that energy from one object to another. 
 
 So, while thermal energy is stored within a substance, heat is the movement of thermal energy between substances.

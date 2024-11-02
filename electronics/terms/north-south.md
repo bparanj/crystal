@@ -1,4 +1,4 @@
-MOVE THIS OUT OF ELECTRONICS FOLDER.
+MOVE TO COMPUTER FOLDER
 
 The traditional Northbridge and Southbridge architecture is no longer found in modern motherboards.
 

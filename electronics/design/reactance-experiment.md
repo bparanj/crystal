@@ -77,8 +77,6 @@ Expected results:
    - As frequency increases, the volume will decrease.
    - At high frequencies, the speaker will become very quiet.
 
-Explanation:
-
 This experiment demonstrates the key characteristics of reactance:
 
 1. Frequency dependence: The behavior of both the capacitor and inductor changes with frequency, unlike a resistor.
