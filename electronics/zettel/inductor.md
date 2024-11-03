@@ -1,4 +1,4 @@
-The term "inductor" comes from the word "induce," which originates from the Latin word *inducere*, meaning "to lead into" or "bring in."
+The term "inductor" comes from the word "induce," which originates from the Latin word inducere, meaning "to lead into" or "bring in."
 
 In the context of electrical engineering, an inductor "induces" an electromotive force (EMF) in a circuit when the current flowing through it changes. This phenomenon is described by Faraday's Law of Induction, where a changing magnetic field within a coil of wire generates an induced voltage. The term "inductor" reflects this ability to induce voltage and oppose changes in current flow through electromagnetic effects.
 
@@ -160,7 +160,9 @@ Example: To understand the effect of core materials, perform this comparison:
 2) Wind another 100 turns around an iron nail of similar size.
 3) Measure the inductance of both coils using an LCR meter.
 4) You'll find that the iron-core inductor has a much higher inductance, possibly 10 to 100 times that of the air-core inductor.
-5) Now, test both inductors in a high-frequency circuit (e.g., a radio receiver). You may notice that while the iron-core inductor provides stronger inductance, it may introduce more losses at high frequencies compared to the air-core inductor. This demonstrates how core materials influence both the strength and frequency characteristics of inductors.
+5) Now, test both inductors in a high-frequency circuit (e.g., a radio receiver). 
+
+You may notice that while the iron-core inductor provides stronger inductance, it may introduce more losses at high frequencies compared to the air-core inductor. This demonstrates how core materials influence both the strength and frequency characteristics of inductors.
 
 4.  What is self-resonance in inductors, and why does it matter?
 
@@ -175,7 +177,9 @@ Example: To observe self-resonance, follow these steps:
 3) Sweep the frequency from low (e.g., 1 MHz) to high (e.g., 100 MHz).
 4) Plot the inductor's impedance vs. frequency.
 5) You'll notice that the impedance increases with frequency initially (inductive behavior), reaches a peak (self-resonance), then starts to decrease (capacitive behavior).
-6) The frequency at the impedance peak is the self-resonant frequency (SRF). For a 10 µH inductor, this might be around 20-30 MHz. This demonstrates how self-resonance limits the useful frequency range of an inductor, an important consideration in high-frequency circuit design.
+6) The frequency at the impedance peak is the self-resonant frequency (SRF). For a 10 µH inductor, this might be around 20-30 MHz. 
+
+This demonstrates how self-resonance limits the useful frequency range of an inductor, an important consideration in high-frequency circuit design.
 
 5.  How do inductors store and release energy in a circuit?
 
@@ -190,7 +194,7 @@ To demonstrate energy storage in inductors, set up this experiment:
 3) Close the switch briefly (e.g., 1 second) and then open it.
 4) Observe that the LED remains lit for a short time after opening the switch.
 5) The energy equation for an inductor is $E = \frac{1}{2}LI^2$, where E is energy, L is inductance, and I is current.
-6) If the inductor is 1 mH and the current is 100 mA, the stored energy would be $E = \frac{1}{2} * 0.001 * (0.1)^2 = 5 * 10^{-6}$ joules.
+6) If the inductor is 1 mH and the current is 100 mA, the stored energy would be $E = \frac{1}{2}  0.001  (0.1)^2 = 5  10^{-6}$ joules.
 
 This energy maintains the LED's illumination briefly after the switch opens, demonstrating the inductor's energy storage and release capabilities.
 

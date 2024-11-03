@@ -11,7 +11,7 @@ A resistor is used for:
 - protecting LEDs or other semiconductors from excessive current
 - adjusting or limiting the frequency response in an audio circuit (in conjunction with other components) 
 - pulling up or pulling down the voltage at the input pin of a digital logic chip
-- controlling a voltage at a point in a circuit. 
+- controlling a voltage at a point in a circuit
 
 In this last application, two resistors can be placed in series to create a voltage divider.
 
@@ -27,4 +27,4 @@ Not all of this energy conversion results in heat. The actual dissipation depend
 
 P = V x I
 
- still holds for measuring total electrical power.
+still holds for measuring total electrical power.

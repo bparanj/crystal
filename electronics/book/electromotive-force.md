@@ -204,6 +204,7 @@ Would you like me to:
 2. Show how EMF relates to current and resistance?
 3. Demonstrate practical EMF calculations?
 
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -331,3 +332,5 @@ def explain_emf():
 
 # Generate the visualization
 fig = visualize_emf_concepts()
+```
+

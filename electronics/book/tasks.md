@@ -1,16 +1,16 @@
+- Redo LED circuit Tinkercad simulation
+- Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
+- Review discrete-passive-circuit.md
+- Review passive-component.md and extract or delete experiments
 - Review Zettels and extract basic level content for different chapters
-- Buy battery case on Amazon. This is needed to take photo for the book cover.
 - Use coin cell battery with 3 volt to turn on LED (another way to solve the led damage problem)
 - Look at the passive-device.md table in browser and review.
-- Review discrete-passive-circuit.md
 - Review and condense load.md
 - Modify the basic capacitor experiment by replacing the capacitor with polarized capacitor
 - Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
 - Use the polarized capacitor in a new experiment with LED to show the discharge of power from capacitor
 - Draw circuit diagram by hand for each experiment
 - Extract summarized content from components folder and add to each experiment explanation. Add history of the term also.
-- Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
-- Redo LED circuit Tinkercad simulation
 - Create diagrams for mats.md
 - Refer experiments.md to create the simulations for experiment 10, 11 and 12.
 - Work backwards from experiments
@@ -38,6 +38,7 @@ Scope
 - No discussuion of any laws (only basic high level principles)
 - No IC
 - No coding
+- No waste by causing damage to electronic components
 - Discrete components
 - 90% practical, 10% theory
 - No discussion of topics not in Tinkercad basic section

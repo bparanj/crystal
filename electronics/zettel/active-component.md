@@ -80,11 +80,6 @@ PENDING
 
 Review diagrams and revise
 
-What is an electrical signal?
-
-An electrical signal is a time-varying voltage or current that carries information, typically represented as variations in electrical properties (amplitude, frequency, or phase) through a conductor or transmission medium.
-
-No, DC (Direct Current) alone is not an electrical signal since it maintains a constant voltage/current level and doesn't vary with time. However, when DC is modulated or varied, it becomes a signal that can carry information.
 
 <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
     <!-- Grid -->
@@ -145,10 +140,6 @@ graph TB
     end
 ```
 
-Is inductive coupling used in wireless chargers of the phones?
-
-Yes, wireless phone chargers use inductive coupling. They create an alternating magnetic field in the charging pad's coil which induces a voltage in the receiving coil in the phone, enabling wireless power transfer.
-
 ```mermaid
 flowchart LR
     AC[AC Source] --> P[Primary Coil]
@@ -175,6 +166,6 @@ flowchart LR
 
 Active electronic components are devices that can control or amplify electrical signals and require an external power source. Examples include transistors, diodes, and integrated circuits. These components are crucial for switching, amplifying, and regulating electrical signals in circuits.
 
-Transistors are key active components that control large currents using a smaller input current. Diodes allow current to flow in one direction, making them useful for converting AC to DC. Integrated circuits combine multiple active elements to perform complex functions such as computation and signal processing.
+Transistors are active components that control large currents using a smaller input current. Diodes allow current to flow in one direction, making them useful for converting AC to DC. Integrated circuits combine multiple active elements to perform complex functions such as computation and signal processing.
 
 In electronic circuits, active components like transistors and op-amps amplify signals, while diodes are used for directional control. These components, which require external power, are essential in both simple and complex electronic systems.

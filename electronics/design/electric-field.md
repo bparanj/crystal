@@ -1,10 +1,9 @@
+
+[Should a Person Touch 200,000 Volts? A Van de Graaff generator experiment!](https://www.youtube.com/watch?v=ubZuSZYVBng)
+
 A simple experiment to illustrate the concept of an electric field using common materials:
 
-PENDING SEARCH
-
-- Search for youtube video of this experiment
-
-### Experiment: Visualizing Electric Fields with a Van de Graaff Generator
+### Visualizing Electric Fields with a Van de Graaff Generator
 
 Objective: 
 
@@ -32,9 +31,9 @@ The electric field is a vector field around a charged object where other charges
 
 Be cautious when using the Van de Graaff generator, as it can produce high voltages. Ensure proper grounding and avoid direct contact with the charged sphere.
 
-This experiment provides a clear visual representation of electric fields and helps in understanding how they influence charged particles.
+This experiment provides a visual representation of electric fields and helps in understanding how they influence charged particles.
 
-I'll explain the electric field concept with both visual demonstrations and practical examples.
+Electric field concept with both visual demonstrations and practical examples.
 
 
 ```python

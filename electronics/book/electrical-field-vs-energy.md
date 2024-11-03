@@ -190,7 +190,7 @@ fig = visualize_electrical_energy()
 
 ```
 
-Let me explain electrical energy in simple terms:
+Electrical energy in simple terms:
 
 1. Basic Concept:
    - Energy carried by electric current
@@ -235,6 +235,7 @@ Would you like me to:
 2. Show more about energy efficiency?
 3. Demonstrate cost calculations?
 
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -364,3 +365,4 @@ def explain_electrical_energy():
 
 # Generate the visualization
 fig = visualize_electrical_energy()
+```

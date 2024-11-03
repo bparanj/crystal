@@ -1,6 +1,9 @@
-PENDING SEARCH
 
-- Search youtube for this experiment
+- [Build an RC Circuit](https://www.youtube.com/watch?v=HYfKEGflqno)
+
+You can add a LED to visually show the charging and discharging of capacitor.
+
+This is the same as the existing capacitor experiment #7:
 
 ### Revised RC Circuit Experiment (for 5V battery)
 
@@ -39,7 +42,9 @@ PENDING SEARCH
 - The capacitor will charge up to 5V and discharge back to 0V.
 - The time constant (τ = R × C) will determine how fast the capacitor charges and discharges.
 
-The simplest electronic circuit to learn about capacitors is a basic RC (Resistor-Capacitor) circuit. This circuit demonstrates capacitor charging and discharging, which is fundamental to understanding capacitor behavior. Let's design a simple experiment using this circuit.
+The simplest electronic circuit to learn about capacitors is a basic RC (Resistor-Capacitor) circuit. This circuit demonstrates capacitor charging and discharging, which is fundamental to understanding capacitor behavior. 
+
+Let's design a simple experiment using this circuit.
 
 
 ```svg

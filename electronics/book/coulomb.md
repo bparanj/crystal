@@ -175,23 +175,28 @@ fig = visualize_coulomb_concepts()
 Let me explain the Coulomb in simple terms:
 
 1. Basic Definition:
+
    - One Coulomb is the amount of charge that:
      * Flows in one second with a one-ampere current
      * Is carried by about 6.24 quintillion electrons
      * Can be positive or negative
 
 2. Real-World Examples:
+
    Small Charges:
+
    - Static spark: ~1 nanocoulomb
    - Touching a doorknob: ~1 microcoulomb
    - Small LED current: 0.02 coulombs/second
 
    Medium Charges:
+
    - Phone charging: ~2 coulombs/second
    - AA battery capacity: ~5400 coulombs
    - USB device: ~0.5 coulombs/second
 
    Large Charges:
+
    - Car battery: ~180,000 coulombs
    - Lightning strike: ~15 coulombs
    - Electric car charging: ~32 coulombs/second
@@ -218,6 +223,7 @@ Would you like me to:
 2. Show how to calculate charge in different situations?
 3. Demonstrate how coulombs relate to electrical devices?
 
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -332,3 +338,4 @@ def explain_coulomb():
 
 # Generate the visualization
 fig = visualize_coulomb_concepts()
+```

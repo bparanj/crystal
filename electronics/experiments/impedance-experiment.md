@@ -39,8 +39,6 @@ To demonstrate how impedance affects the flow of alternating current (AC) in a c
 
    - If possible, switch the function generator to produce a DC signal and observe the voltage across the resistor again. Notice the difference in voltage behavior between DC and varying AC frequencies.
 
-### Explanation:
-
 This experiment illustrates how impedance affects the current flow in an AC circuit. The resistor offers a constant resistance to the current, but the inductor or capacitor introduces reactance, which changes with frequency. As the frequency of the AC signal increases, the impedance of the inductor increases (or the impedance of the capacitor decreases), which in turn affects the voltage drop across the resistor. This change demonstrates that impedance in AC circuits is not just resistance; it also includes the frequency-dependent reactance of inductors and capacitors. This experiment provides a clear visualization of how impedance influences the behavior of AC circuits and why it is important in designing and analyzing such systems.
 
 
