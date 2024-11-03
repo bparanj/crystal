@@ -1,3 +1,5 @@
+voltage is the difference in electric potential between two points. When you connect batteries or other voltage sources in series (end to end), their voltages add up.
+
 ### Level 1:  Child
 
 Imagine a train track with hills and valleys. When the train goes up a hill, it uses energy (like voltage going up). When it goes down, it gets some energy back (like voltage going down). At the end of the track, all the ups and downs balance out to zero. In a circuit, the same thing happens with voltage.

@@ -1,3 +1,32 @@
+
+water flowing through a pipe
+more water flowing, stronger the current
+current is measured in amps
+different parts of a circuit can have different amounts of current flowing through them
+the amount of current depends on voltage and resistance in that part of the circuit
+current is the flow of electric charge through a conductor
+For AC circuits, current and voltag ear efunctions of time and can be represented using phasors
+impedance includes resistance and reactance
+charge conservation
+how does the current behave in dynamic electromagnetic fields
+phasors take magnitude and phase into account
+current flows out of the battery, through the wires, through the LED and back to the battery
+current is the rate of flow of electric charge
+The amount of current is determined by the voltage of the battery and the resistance of the LED and wires
+current is the same at all points in a series circuit
+flow of electric charge is the electrons
+amperes is coulombs/second
+In a DC circuit with resistive elements, the current at any point is calculated using Ohm's Law
+In a AC circuit, current goes up and down in a sine wave shape and can be represented as a phasor with magnitude and phase angle
+Current flow in a circuit is governed by the principles of charge conservation and the electromotive force (EMF) provided by voltage sources
+
+PENDING
+
+what is a phasor?
+why are cpacitors and inductors called reactive components?
+what is proximity effect in high-frequency circuit?
+why is sum of currents entering a node equal to sum of currents leaving a node
+
 ### Level 1:  Child
 
 Imagine a slide at the playground. When you go down the slide, you are like the electric current moving through the circuit. The faster you slide, the more current there is. In a circuit, current is the amount of electricity flowing through the wires.
@@ -18,7 +47,6 @@ The current flowing through any point in a circuit is governed by both Ohm's Law
 
 At any point in a circuit, the current (\(I\)) can be precisely quantified using a combination of Ohm’s Law, \(I = \frac{V}{R}\), and Kirchhoff’s Laws. For AC analysis, the current is described using complex impedance (\(Z = R + jX\)) and phasors, taking into account both magnitude and phase. The analysis extends to transient states described by differential equations, particularly in reactive components (capacitors and inductors). In advanced scenarios, current distribution is affected by factors such as skin effect and proximity effect in high-frequency AC circuits. Additionally, using numerical methods and simulation tools can provide insights into current flow in complex network topologies.
 
-
 Child:
 
 Imagine electricity is like water flowing through a pipe. The amount of water moving through the pipe at any point is like the electric current. Current is how much electricity is flowing through the wires in a circuit. More current means more electricity is moving, just like more water means a stronger flow in the pipe.
@@ -37,4 +65,4 @@ Current flow in a circuit is governed by the principles of charge conservation a
 
 Colleague:
 
-The current at any point in a circuit is determined by the complex interplay of voltage sources, impedances, and network topology. In linear time-invariant circuits, current can be analyzed in the frequency domain using Laplace or Fourier transforms, enabling the application of powerful tools like convolution and transfer functions. For non-linear and time-variant circuits, techniques such as harmonic balance, Volterra series, and time-domain integration are employed. Careful attention must be paid to issues like noise, bandwidth, and stability, especially in high-frequency and power electronics applications. Advanced computational methods like SPICE simulations are invaluable for accurately predicting currents in complex, real-world circuits.
+The current at any point in a circuit is determined by the complex interplay of voltage sources, impedances, and network topology. In linear time-invariant circuits, current can be analyzed in the frequency domain using Laplace or Fourier transforms, enabling the application of powerful tools like convolution and transfer functions. For non-linear and time-variant circuits, techniques such as harmonic balance, Volterra series, and time-domain integration are employed. attention must be paid to issues like noise, bandwidth, and stability, especially in high-frequency and power electronics applications. Advanced computational methods like SPICE simulations are invaluable for accurately predicting currents in complex, real-world circuits.

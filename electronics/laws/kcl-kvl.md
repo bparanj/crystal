@@ -1,3 +1,9 @@
+OUT OF SCOPE
+
+PENDING
+
+Move to out of scope folder
+
 Here's a diagram illustrating Kirchhoff's Current Law (KCL) and Kirchhoff's Voltage Law (KVL):
 
 ```
