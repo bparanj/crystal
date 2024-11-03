@@ -1,0 +1,12 @@
+- 0.md Review and revise
+- 1.md Short Circuit Review and revise
+- 2.md LED damage
+- 3.md LED Circuit (Resistor + LED)
+- 4.md Push Button
+- 5.md Slide Switch
+- 6.md Potentiometer
+- 7.md Capacitor
+- 8.md Missing Capacitor Experiment
+- 9.md Diode
+- 10.md Transistor
+- 11.md Inductor
