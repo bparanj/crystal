@@ -120,19 +120,6 @@ An inductor functions as a passive electronic component that stores energy in a 
 
 Atomic Ideas:
 
-1.  What is inductance, and how does an inductor create it?
-
-Inductance refers to the property of an electrical conductor to oppose changes in the current flowing through it. An inductor creates inductance through its coiled structure, which generates a magnetic field when current flows, opposing changes in that current.
-
-Inductance resembles the momentum of a heavy flywheel. Just as a spinning flywheel resists changes to its rotational speed due to its momentum, an inductor resists changes to the current flowing through it due to its inductance.
-
-Example: To demonstrate inductance, follow these steps:
-
-1) Construct a simple inductor by winding 100 turns of insulated copper wire around a pencil, creating a coil.
-2) Connect the inductor in series with a low-voltage light bulb (e.g., 6V) and a 6V battery.
-3) Observe that the bulb lights up slowly, not instantly, as the inductor opposes the sudden change in current.
-4) Disconnect the battery. Notice that the bulb remains lit briefly as the inductor's magnetic field collapses, maintaining current flow momentarily. This experiment illustrates how an inductor opposes changes in current, both when the circuit is connected and disconnected.
-
 2.  How does the number of turns in an inductor affect its inductance?
 
 The inductance of a coil increases with the square of the number of turns. This relationship stems from the increased magnetic flux linkage created by additional turns of wire.

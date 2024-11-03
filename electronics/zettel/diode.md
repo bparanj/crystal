@@ -125,27 +125,6 @@ A diode serves as a fundamental electronic component that allows current to flow
 
 Atomic Ideas:
 
-1. What defines the basic structure and function of a diode?
-
-A diode consists of a junction between p-type and n-type semiconductor materials, creating a device that conducts current primarily in one direction. The p-type side becomes the anode, and the n-type side becomes the cathode. When forward-biased (anode positive relative to cathode), current flows easily; when reverse-biased, current flow becomes negligible.
-
-A diode functions like a one-way valve in a water pipe. Just as the valve allows water to flow freely in one direction but blocks it in the reverse direction, a diode permits electric current to flow easily in the forward direction but impedes it in the reverse direction.
-
-
-PENDING
-
-This experiment is a variation of the existing LED experiment. Merge this with that.
-
-Example: To demonstrate diode behavior:
-
-a) LED (Light Emitting Diode), a 220Ω resistor, and a 9V battery.
-b) Connect the LED's anode (longer lead) to the resistor.
-c) Connect the other end of the resistor to the battery's positive terminal.
-d) Connect the LED's cathode (shorter lead) to the battery's negative terminal.
-e) Observe the LED lighting up, indicating forward current flow.
-f) Reverse the LED's connections to the battery.
-g) Observe the LED remaining off, demonstrating reverse-bias blocking.
-
 2. How does one express the diode equation mathematically?
 
 The diode equation relates the current (I) flowing through a diode to the voltage (V) across it: $I = I_s(e^{\frac{V}{nV_T}} - 1)$, where $I_s$ represents the reverse saturation current, n the ideality factor, and $V_T$ the thermal voltage (approximately 26mV at room temperature).

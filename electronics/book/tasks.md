@@ -1,6 +1,7 @@
 - Redo LED circuit Tinkercad simulation
 - Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
 - Review discrete-passive-circuit.md
+- Run ack -w 'experiment' and revise
 - Review passive-component.md and extract or delete experiments
 - Review Zettels and extract basic level content for different chapters
 - Use coin cell battery with 3 volt to turn on LED (another way to solve the led damage problem)

@@ -69,13 +69,6 @@ This simple example shows how a slide switch can be used to control power flow i
 
 ### Related Atomic Ideas:
 
-PENDING
-
-Discuss this item in slideswitch experiment.
-
-1. Open vs. Closed Circuits:
-
-A slide switch toggles between open (no current) and closed (current flows) circuits. Understanding this concept is essential for knowing how switches control circuits.
 
 2. SPST vs. DPDT Switches:
 
