@@ -20,8 +20,6 @@ Common Practice for Breadboards
 Connect the negative terminal to the negative rail first, then connect the positive terminal last. This minimizes shorts, avoids surges, and allows for final checks before powering up. If issues arise, disconnecting the positive terminal is easy for safe troubleshooting.
 
 
-
-
 Draft
 ----------
 
