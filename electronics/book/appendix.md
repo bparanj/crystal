@@ -78,3 +78,42 @@ Slideswitch
 \end{circuitikz}
 \end{document}
 ```
+
+Potentiometer
+
+```latex
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\begin{document}
+\centering
+\begin{circuitikz}
+   \draw (0,3) to[battery1, v_=3V] (0,0)
+   node[left] at (0,1.9) {$+$}
+   node[left] at (0,1.1) {$-$}
+   (0,3) to[led, color=red] (2,3)
+   (2,3) to[R=$51\Omega$] (4,3)
+   (4,3) to[pR=$500\Omega$] (4,0)
+   to[short] (0,0);
+\end{circuitikz}
+\end{document}
+```
+
+Diode
+
+```latex
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage{amsmath}
+\begin{document}
+\begin{circuitikz}[scale=1, transform shape]
+   \draw (-2,4) to[battery1, v_=9V] (-2,1)
+   node[left] at (-2,2.9) {$+$}
+   node[left] at (-2,2.1) {$-$}
+   (-2,4) to[D*] (0,4)
+   (0,4) to[R=$1\text{k}\Omega$] (2,4)
+   (2,4) to[led, color=red] (2,1)
+   (-2,1) to[short] (2,1);
+\end{circuitikz}
+\end{document}
+```
