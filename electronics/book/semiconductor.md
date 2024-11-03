@@ -1,3 +1,7 @@
+TAG
+
+conductor
+
 A **semiconductor** falls between a **good conductor** and an **insulator** on the conductivity spectrum. Its conductivity level is moderate—higher than insulators but lower than good conductors like metals. However, semiconductors have a unique property: their conductivity can be **precisely controlled** by adding impurities (doping) or applying electric fields, light, or heat.
 
 - **In the natural state** (pure semiconductor, or intrinsic), materials like silicon and germanium act more like insulators with limited free charge carriers.
@@ -6,8 +10,6 @@ A **semiconductor** falls between a **good conductor** and an **insulator** on t
 This controllable conductivity makes semiconductors ideal for creating electronic components such as **diodes, transistors, and integrated circuits**, where precise on/off switching and amplification of electrical signals are essential.
 
 Let me explain where semiconductors fit in the conductivity spectrum with both an explanation and visual comparison.
-
-
 
 ```python
 import numpy as np

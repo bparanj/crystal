@@ -23,3 +23,7 @@ Common non-LTI cases:
 
 - Diodes (non-linear)
 - Circuits with time-varying components (not time invariant)
+
+TAG
+
+terminology

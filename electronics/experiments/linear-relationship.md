@@ -1,3 +1,7 @@
+TAG
+
+linear
+
 A linear relationship means that two quantities change at a constant rate relative to each other. In a graph, this relationship appears as a straight line. It can be expressed with the equation:
 
 \[

@@ -119,3 +119,7 @@ Here are the fundamental concepts in electronics:
 - Ability to store electrical charge
 - Measured in farads
 - Temporary storage of energy
+
+TAG
+
+terminology

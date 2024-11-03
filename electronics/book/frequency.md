@@ -29,3 +29,7 @@ In electronics, frequency refers to how often a periodic signal or oscillation o
    - **Takeaway**: Frequency here defines how fast the processor’s clock oscillates, directly impacting how quickly it can execute instructions.
 
 In each of these examples, frequency measures how often a repetitive event occurs, whether it’s the oscillation of current, the broadcast of a radio wave, or the timing of a computer's operations.
+
+TAG
+
+tesla

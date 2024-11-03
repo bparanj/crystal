@@ -2,6 +2,10 @@ PENDING
 
 Review and summarize
 
+TAG
+
+transformer
+
 A transformer in electronics is a device that transfers electrical energy between two or more circuits through electromagnetic induction. It consists of two or more coils of wire (windings) wrapped around a magnetic core. Transformers can increase (step up) or decrease (step down) AC voltage levels while keeping the frequency the same. They are used to change voltage levels, isolate circuits, and match impedances in power transmission and various electronic applications.
 
 A transformer solves the problem of changing voltage levels in AC power systems. It allows the efficient transmission of electrical power over long distances by stepping up the voltage to reduce energy loss and then stepping it down to safer, usable levels for homes and businesses. It also provides electrical isolation between circuits and helps in impedance matching for maximum power transfer in electronics.

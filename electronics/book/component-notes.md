@@ -28,3 +28,7 @@ Not all of this energy conversion results in heat. The actual dissipation depend
 P = V x I
 
 still holds for measuring total electrical power.
+
+Tag
+
+backlog

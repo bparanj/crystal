@@ -45,3 +45,7 @@ This theory is powerful because it allows:
 - Predictable behavior
 
 Would you like me to explain any of these concepts in more detail?
+
+TAG
+
+linear circuit

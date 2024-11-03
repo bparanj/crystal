@@ -434,3 +434,7 @@ Work in electronic circuits is directly related to energy transfer and can be un
 - LED converting electrical work to light energy
 
 Would you like me to elaborate on any of these aspects?
+
+PENDING
+
+Review energy-conservtion.md

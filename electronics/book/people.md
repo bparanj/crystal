@@ -15,3 +15,7 @@ Here’s a table of electronic terms that are named after people, along with a b
 | **Gauss**           | Carl Friedrich Gauss      | Unit of magnetic flux density (often used in lower magnitudes compared to tesla).|
 
 These terms reflect fundamental concepts and units used in electronics and electrical engineering, and they honor the scientists and inventors who made significant contributions to the field.
+
+TAG
+
+reference

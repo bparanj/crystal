@@ -8,3 +8,6 @@ In practical terms, parasitic inductance can cause issues such as:
 
 It’s especially problematic in fast-switching power supplies, signal traces, or in components like capacitors, where parasitic inductance can degrade performance or cause ringing and delays. Managing parasitic inductance often involves careful circuit design, including shortening conductor lengths and using layout techniques to minimize these unwanted inductive effects.
 
+TAG
+
+terminology

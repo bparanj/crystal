@@ -1,3 +1,8 @@
+TAG
+
+active
+passive
+
 An active electronic component is a device that can control or amplify electrical signals. It requires an external power source to operate. They can introduce energy into the circuit and manage the flow of current. Common examples are transistors and diodes. They are used in circuits to provide switching, amplification and regulation of electrical signals. They can modify electrical power within a circuit. Active component is like a pump in a water system that adds energy and controls the flow of water.
 
 Passive components are like pipes that direct the flow of current.

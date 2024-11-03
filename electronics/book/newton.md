@@ -1,5 +1,9 @@
 A newton (N) is a unit of force, and it can be visualized using simple, physical examples of pushing or pulling objects.
 
+PENDING
+
+This goes together with work.md
+
 
 PENDING EXAMPLE
 
@@ -19,9 +23,7 @@ Picky only one example from below and summarize it in concise way.
 
 By relating the newton to common tasks like lifting an apple, holding a book, or pushing a cart, it becomes easier to understand and visualize this unit of force in everyday life.
 
-Let me explain the Newton unit of force in a clear and relatable way.
-
-
+Newton unit of force:
 
 ```python
 import numpy as np

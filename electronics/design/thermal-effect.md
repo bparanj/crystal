@@ -1,6 +1,10 @@
+TAG
+
+thermal effect
+
 The thermal effect in electronics, also known as Joule heating or ohmic heating, refers to the process by which electrical energy is converted into heat energy when an electric current flows through a conductor. This effect is a direct consequence of the resistance that the conductor offers to the flow of electric current.
 
-### Key Concepts of the Thermal Effect:
+### Concepts of the Thermal Effect:
 
 1. Joule's Law:
 

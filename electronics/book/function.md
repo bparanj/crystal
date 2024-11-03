@@ -57,3 +57,7 @@ Work Done by Using Energy:
 This typically refers to physical energy expenditure in classical physics, where work occurs when a force moves an object over a distance. While many TRIZ functions involve energy (like powering a motor to move), not all functions in TRIZ require physical energy or movement. For example, in TRIZ, a function might involve an aesthetic or organizational role that doesn’t fit into the traditional concept of work.
 
 So, while TRIZ functions often involve energy transfer or work, the TRIZ concept of function is broader, encompassing any purposeful action or effect a component has within the system.
+
+TAG
+
+innovation

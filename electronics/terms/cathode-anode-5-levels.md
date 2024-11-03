@@ -1,3 +1,7 @@
+TAG
+
+terminology
+
 Level 1: Child
 
 Imagine you have a tiny door that lets special invisible friends called electrons out. This door is called a cathode. It's like the starting line in a race, where all the electrons begin their journey. The cathode helps electrons move and do their job, like making light or powering toys.

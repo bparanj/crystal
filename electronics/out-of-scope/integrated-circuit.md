@@ -1,3 +1,7 @@
+TAG
+
+terminology
+
 An Integrated Circuit (IC) is a small electronic device made up of a set of electronic components, such as transistors, resistors, diodes, and capacitors, that are embedded into a single piece of semiconductor material,  silicon. These components are interconnected to perform specific functions like amplification, signal processing, data storage, or computation.
 
 ### Key Features of Integrated Circuits:

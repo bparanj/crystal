@@ -28,3 +28,7 @@ Key characteristics:
 - Straight Line: The relationship is linear.
 - Passes Through the Origin: The line always starts at (0, 0), indicating when one quantity is 0, the other is also 0.
 - Constant Slope: The slope (rate of change) remains the same, showing a steady increase or decrease between the variables.
+
+TAG
+
+terminology

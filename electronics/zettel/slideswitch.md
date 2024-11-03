@@ -1,3 +1,8 @@
+TAG
+
+slide switch
+open
+closed
 
 ### Overview:
 

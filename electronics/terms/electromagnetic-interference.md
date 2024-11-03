@@ -1,3 +1,8 @@
+TAG
+
+electromagnetic
+induction
+
 Electromagnetic Interference (EMI) refers to the disturbance that affects an electrical circuit due to either electromagnetic induction or electromagnetic radiation emitted from an external source. EMI can degrade the performance of electronic devices, cause data loss, and even lead to complete device failure. Here are the key points to understand about EMI:
 
 1. Sources of EMI:

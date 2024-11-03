@@ -12,6 +12,9 @@ In AC circuits, impedance determines how components like resistors, capacitors, 
 
 Impedance matching is crucial for maximizing energy transfer and minimizing reflections in high-frequency circuits. It ensures efficient power delivery and maintains signal integrity, which is essential in communication systems and power electronics. By understanding and managing impedance, engineers can design circuits that are energy efficient, reduce losses, and improve performance.
 
+TAG
+
+terminology
 
 ----------
 

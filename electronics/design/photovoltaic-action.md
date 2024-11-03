@@ -1,4 +1,9 @@
 
+TAG
+
+photovoltaic
+closed
+
 ### 1. Child:
 
 Imagine the sun shining on a special piece of glass. This glass is magic because when the sunlight hits it, it makes electricity that can power a toy or a light bulb. It’s like turning sunshine into energy!

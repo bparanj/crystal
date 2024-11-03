@@ -320,3 +320,7 @@ Using wires with adequate thickness and ensuring good connections can minimize r
 Distributing loads evenly and avoiding sudden large load changes can help maintain stable voltage.
 
 By understanding these causes and implementing appropriate solutions, you can minimize supply voltage drops in electronic circuits.
+
+TAG
+
+capacitor

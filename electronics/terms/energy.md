@@ -35,3 +35,7 @@ Thermal energy and heat energy are related concepts but are not the same.
 - **Thermal energy** is the energy within an object due to particle motion, while **heat energy** is the transfer of that energy from one object to another. 
 
 So, while thermal energy is stored within a substance, heat is the movement of thermal energy between substances.
+
+TAG
+
+energy

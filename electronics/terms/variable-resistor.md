@@ -1,3 +1,7 @@
+TAG
+
+resistor
+
 ### Level 1: Child
 
 Imagine a water faucet. When you turn the handle, you can make the water flow more or less. A variable resistor is like that, but for electricity. You can turn it to make the electricity flow more or less in a circuit.

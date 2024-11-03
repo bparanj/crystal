@@ -21,3 +21,8 @@ Procedure:
 4. Record Observations: Note how the current decreases as the frequency increases, indicating the increasing inductive reactance.
 
 Inductive reactance (\( X_L \)) increases with frequency (\( X_L = 2\pi f L \)), causing the current to decrease as the frequency increases.
+
+TAG
+
+inductive
+reactance

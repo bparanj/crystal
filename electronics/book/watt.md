@@ -58,3 +58,7 @@ Simple example:
 So 1 Watt = 1 Joule per second
 
 Yes, a watt (W) measures how quickly work is done. It’s a unit of power, defined as one joule per second (1 W = 1 J/s). Power is the rate at which energy is transferred or converted, so a higher wattage means more energy is used or produced per second.
+
+PENDING
+
+This goes together with work.md

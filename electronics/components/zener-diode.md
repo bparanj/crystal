@@ -1,4 +1,7 @@
 
+TAG
+
+zener diode
 
 In integrated circuit design, Zener diodes are utilized for on-chip voltage references, ESD protection, and bandgap reference circuits. Careful consideration of process variations, layout techniques, and temperature effects is crucial for achieving high precision and reliability in these applications.
 

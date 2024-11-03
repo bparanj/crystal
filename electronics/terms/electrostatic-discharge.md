@@ -1,3 +1,7 @@
+TAG
+
+electrostatic
+
 Electrostatic Discharge (ESD) is a sudden flow of electricity between two electrically charged objects caused by contact, an electrical short, or dielectric breakdown. Here's a concise explanation of ESD:
 
 1. Cause:

@@ -1,3 +1,10 @@
+TAG
+
+tesla
+power
+work
+energy
+
 ### Level 1:  Child
 
 Imagine you have a toy car. The faster it goes and the more cars you have, the more fun it is. In electronics, power is like the "fun" of electricity. It shows how much work electricity can do, like making a light bulb shine or a toy car run.

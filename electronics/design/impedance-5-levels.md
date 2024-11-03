@@ -14,7 +14,9 @@ In more advanced applications, impedance plays a key role in resonance, power tr
 
 Understanding impedance helps in designing circuits that manage energy effectively, reduce unwanted losses, and optimize performance for specific applications.
 
+TAG
 
+impedance
 
 ------
 

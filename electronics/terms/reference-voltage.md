@@ -1,3 +1,7 @@
+TAG
+
+voltage
+
 A reference voltage in electronics is a stable and precise voltage used as a benchmark or standard against which other voltages in a circuit are compared or measured. It is crucial in various applications where accuracy and stability of voltage are necessary.
 
 1. Stability:

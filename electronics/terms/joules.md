@@ -1,3 +1,7 @@
+TAG
+
+energy
+unit
 
 To visualize a joule, it's helpful to relate it to everyday experiences, as it's a unit of energy that might be hard to picture directly. Here are a few ways to conceptualize a joule:
 

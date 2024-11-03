@@ -1,4 +1,4 @@
-
+- Review tesla tag and move into one folder (this will be the first chapter)
 - Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
 - Review discrete-passive-circuit.md
 - Review passive-component.md and extract or delete experiments

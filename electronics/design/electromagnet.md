@@ -1,3 +1,7 @@
+TAG
+
+electromagnet
+
 An electromagnet is a type of magnet in which the magnetic field is produced by an electric current. Unlike a permanent magnet, which always has a magnetic field, an electromagnet’s magnetic field exists only when current is flowing through the coil of wire. The strength of the magnetic field can be controlled by adjusting the amount of current flowing through the coil.
 
 ### Key Concepts:

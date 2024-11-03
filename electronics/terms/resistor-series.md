@@ -1,3 +1,7 @@
+TAG
+
+resistor
+
 ### Level 1:  Child
 
 Imagine you have a bunch of toy cars and you line them up one after another to make a long train. Placing resistors in series is like that, but with little parts that control electricity. When you put them one after another, electricity flows through each one, just like the cars in the train.

@@ -38,3 +38,7 @@ Think of it like a water pipe:
 - High conductivity is like a wide pipe that allows water to flow easily
 
 While they measure opposite properties, they're simply different ways of expressing the same electrical characteristic of a material.
+
+TAG
+
+terminology

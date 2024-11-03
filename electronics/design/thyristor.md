@@ -2,6 +2,10 @@ PENDING
 
 Review and summarize
 
+TAG
+
+thyristor
+
 ## Child
 
 Imagine you have a special light switch in your room. This switch is magical because once you turn it on, it stays on by itself, even if you let go! It's like it remembers you wanted the light on. That's kind of what a thyristor does in electronics. It's a special part that, once turned on, keeps electricity flowing until someone decides to turn it off completely.

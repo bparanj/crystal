@@ -39,3 +39,7 @@ This diagram represents:
 5. The two-way arrow between networks shows their reciprocal relationship.
 
 The principle states that if a voltage source in one branch of a network causes a current in another branch, then the same voltage source, if applied to the second branch, will cause an identical current in the first branch.
+
+TAG
+
+Reciprocity

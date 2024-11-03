@@ -99,3 +99,9 @@ Filters and Resonance:
 Inductive reactance is used to design filters and resonant circuits for frequency selection or signal conditioning.
 
 In summary, inductive reactance shapes how AC circuits behave, especially in terms of frequency response, energy storage, and phase relationships. It’s a crucial factor in circuit design, particularly in systems involving alternating current, filtering, and tuning.
+
+TAG
+
+inductive reactance
+inductor
+impedance

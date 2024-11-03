@@ -110,3 +110,7 @@ If you have a 9V battery (voltage source) and a red LED (forward voltage 2V):
 - The difference (7V) must be managed by a resistor to prevent LED damage
 
 Think of forward voltage as a threshold that must be met before the LED will conduct electricity, while voltage is the overall electrical pressure in the circuit.
+
+Tag
+
+terminlogy

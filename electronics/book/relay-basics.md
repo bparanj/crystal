@@ -29,3 +29,7 @@ Example:
 In a car, when you turn the ignition switch, it sends a signal to a relay near the starter motor, which then activates the starter motor.
 
 Basically, it’s about using a small control signal to manage a larger power load efficiently.
+
+TAG
+
+relay

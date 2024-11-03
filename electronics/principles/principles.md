@@ -285,3 +285,5 @@ These fundamental principles form the foundation of electronics, enabling the de
 
 - Closed System
 - Isolated System
+
+TAG SYSTEM

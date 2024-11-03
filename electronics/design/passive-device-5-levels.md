@@ -108,3 +108,7 @@ Understanding these concepts is crucial for advanced circuit design, especially 
 
 ```
 
+TAG
+
+passive device
+

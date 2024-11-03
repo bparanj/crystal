@@ -123,3 +123,7 @@ Transistors can be made extremely small and integrated into complex circuits, en
 ### Summary:
 
 A transistor acts like a switch by controlling the flow of current between two terminals based on an input signal (current or voltage). It can turn circuits on or off, making it fundamental to digital electronics, signal control, and power management. Unlike mechanical switches, transistors offer high-speed operation, reliability, and the ability to be integrated into small, complex circuits.
+
+TAG
+
+transistor

@@ -1,3 +1,7 @@
+TAG
+
+current
+
 ### Level 1:  Child
 
 Imagine electricity is like water flowing through a pipe. Current is the amount of water flowing through the pipe. Just like water flows, electricity flows through wires.

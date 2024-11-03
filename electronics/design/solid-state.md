@@ -1,3 +1,6 @@
+TAG
+
+solid state
 
 Explain the history of electronics to understand the term solid state. What was electronics like before solid state was used?
 

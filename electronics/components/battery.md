@@ -49,3 +49,7 @@ You can find the maximum current a battery can supply in the following sources:
 5. Technical Reviews or Guides: Some websites and forums publish detailed reviews and performance tests, particularly for popular batteries (like Li-Ion cells), which may indicate real-world current limits.
 
 By consulting these sources, you can get accurate information about the battery's maximum current capabilities.
+
+TAG
+
+battery

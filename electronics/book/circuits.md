@@ -186,3 +186,7 @@ Yes, with seven components, circuits can perform more sophisticated tasks. Here 
    - Purpose: This circuit converts AC to DC while smoothing the output voltage for more stability. The diodes create a full-wave rectification, and the capacitors smooth out the DC output. It’s commonly used in power supplies for electronics requiring stable DC voltage.
 
 These seven-component circuits are powerful and can be tailored for precision and functionality, offering applications in power regulation, signal processing, and waveform generation.
+
+Tag
+
+experiments

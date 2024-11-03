@@ -1,3 +1,7 @@
+TAG
+
+ground
+
 Equipment grounding in electronics is a safety measure designed to protect people and equipment from electrical hazards by providing a path for electrical current to return to the ground in case of a fault. Here are the key points to understand about equipment grounding:
 
 1. Purpose:

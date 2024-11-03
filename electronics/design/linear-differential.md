@@ -38,3 +38,7 @@ These equations are solvable using:
 - Numerical methods
 
 Would you like me to explain how these equations are solved or give more circuit examples?
+
+TAG
+
+linear differential

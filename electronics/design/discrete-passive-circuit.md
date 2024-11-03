@@ -1,3 +1,8 @@
+TAG
+
+passive circuit
+discrete
+
 A discrete passive circuit is a type of electrical circuit that consists of individual, separate components that do not require an external power source to operate.
 
 1. Discrete:

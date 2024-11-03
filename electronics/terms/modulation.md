@@ -1,3 +1,8 @@
+TAG
+
+modulation
+terminology
+
 Modulation in electronics is the process of varying one or more properties of a periodic waveform, called the carrier signal, with a separate signal that contains the information to be transmitted. This is essential in communication systems to efficiently transmit data over long distances.
 
 There are several types of modulation:

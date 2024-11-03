@@ -1,3 +1,8 @@
+TAG
+
+electric field
+electrical energy
+
 Electrical energy and an electric field are related concepts in electromagnetism, but they describe different aspects of electricity. Here's a breakdown of the differences between them:
 
 ### 1. Electrical Energy:

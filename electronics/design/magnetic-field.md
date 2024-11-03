@@ -1,3 +1,13 @@
+
+TAG
+
+magnetic field
+electrical energy
+emf
+capacitor
+inductor
+transformer
+
 We store electrical energy in a magnetic field primarily to enable energy transfer and temporary storage in devices like inductors and transformers, which are fundamental to various circuits and electrical systems. Here’s why this is essential:
 
 1. Inductors: 
@@ -61,7 +71,7 @@ Devices that store energy in an electrical field and those that store energy in 
    
    They respond to changes in current rather than voltage and are more effective at lower frequencies, where they can act as filters for AC and smooth out DC in power circuits.
 
-### Key Differences in Summary
+### Differences
 
 - Energy Form: 
 

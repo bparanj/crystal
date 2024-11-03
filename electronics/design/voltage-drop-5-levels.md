@@ -2,6 +2,10 @@ PENDING
 
 Summarize this manually first
 
+TAG
+
+voltage
+
 ### 1. Child:
 
 Imagine you’re going down a slide at the playground. You start at the top with lots of energy, but as you slide down, you lose some of that energy until you reach the bottom. Voltage drop is like the energy that gets used up as electricity moves through a wire or a light bulb. By the time it gets to the end, there’s less energy left, just like when you reach the bottom of the slide.

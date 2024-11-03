@@ -36,3 +36,7 @@ Each force acts on different particles. The strong nuclear force affects quarks 
 - Role: 
 
 Each force plays a distinct role in nature, from holding atomic nuclei together to governing the structure and behavior of the cosmos.
+
+TAG
+
+force

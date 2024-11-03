@@ -1,3 +1,7 @@
+TAG
+
+terminology
+
 A MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a type of transistor used to amplify or switch electronic signals. Here are some key points about MOSFETs:
 
 1. Structure: 

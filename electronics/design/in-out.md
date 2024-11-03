@@ -41,3 +41,7 @@ In-circuit testing can be performed using multimeters, oscilloscopes, logic anal
 ### Summary:
 
 - Testing out of circuit provides accurate measurements of individual components by removing them from their circuit, while testing in circuit evaluates components in their operational environment, which is quicker but might be less precise due to the influence of surrounding elements.
+
+TAG
+
+troubleshooting

@@ -2,6 +2,10 @@ PENDING
 
 Review, revise and summarize
 
+TAG
+
+analog device
+
 NEEDS DIAGRAMS
 
 An analog device processes analog signals. Analog signals are continuous signals that can represent a wide range of values and vary smoothly over time, as opposed to digital signals, which have discrete values (representing binary states).

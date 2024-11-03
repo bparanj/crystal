@@ -80,3 +80,7 @@ For AC circuits or when polarity is unknown, avoid polarized capacitors and opt 
 - Coupling Signal
 - Decoupling Signal
 - Voltage Raing
+
+TAG
+
+polarized capacitor

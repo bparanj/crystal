@@ -1,5 +1,9 @@
 Non-linear elements in electronics are components or devices in which the relationship between voltage and current is not a straight line. This means that the current through the component does not change proportionally with the applied voltage, leading to a non-linear voltage-current (V-I) characteristic.
 
+TAG
+
+nonlinear
+
 ### Characteristics of Non-Linear Elements:
 
 1. Non-Proportional Relationship:

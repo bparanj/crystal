@@ -1,3 +1,7 @@
+TAG
+
+voltage
+
 ### Level 1: Child
 
 Imagine a water slide. Voltage is like the height of the water slide. The higher the slide, the faster the water flows down. In electronics, voltage is the "push" that makes electricity move through a wire.

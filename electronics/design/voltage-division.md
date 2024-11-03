@@ -22,3 +22,7 @@ Example:
 - Second resistor gets 8V (⅔ of voltage)
 
 This follows from Kirchhoff's Voltage Law and Ohm's Law.
+
+TAG
+
+voltage

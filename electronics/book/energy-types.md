@@ -1,3 +1,7 @@
+TAG
+
+tesla
+
 Iron Box
 
 Electrical energy is converted into heat energy. The surface of the iron box is heated when current passes through a resistive coil. This heat is used to iron clothes.

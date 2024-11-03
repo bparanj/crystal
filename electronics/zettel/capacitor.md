@@ -1,3 +1,7 @@
+TAG
+
+capacitor
+
 A capacitor is an electronic component that stores electrical energy between two conductive plates separated by a dielectric. It blocks DC current but allows AC to pass, making it useful for energy storage, filtering, and timing applications. Capacitance, measured in farads, determines how much energy a capacitor can store at a given voltage.
 
 PENDING

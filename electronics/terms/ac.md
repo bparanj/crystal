@@ -1,3 +1,7 @@
+TAG
+
+current
+
 ### Level 1:  Child
 
 Imagine you have a toy train that moves back and forth on the track instead of going in one direction. Alternating current (AC) is like that; it's electricity that changes direction back and forth very quickly.

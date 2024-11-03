@@ -17,3 +17,7 @@ It is called a load because it represents the demand placed on a power source in
 Load in electronics refers to any device that consumes electrical power from a circuit or power source. It's the part of the circuit where electrical energy is converted into another form of energy, such as light, heat, motion, or sound. Common examples include resistors, motors, LEDs, and speakers. The load determines how much current flows through a circuit and affects the voltage distribution across components. Understanding load characteristics is crucial for proper circuit design, power management, and efficiency optimization in electronic systems.
 
 The term "load" in electronics comes from the mechanical analogy of a burden or weight placed on a system. Just as a physical load requires effort to move or support, an electrical load demands energy from a power source. It represents the work the electrical system must perform, drawing current and consuming power. This concept of "burden" on the electrical system led to the adoption of the term "load" to describe power-consuming components in circuits.
+
+TAG
+
+terminology

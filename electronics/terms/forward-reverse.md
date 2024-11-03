@@ -1,3 +1,7 @@
+TAG
+
+bias
+
 Forward Bias (Conducting State):
 
 When a diode is forward-biased (positive voltage applied to the anode relative to the cathode), current flows easily from the anode to the cathode.

@@ -22,3 +22,10 @@ The difference lies in how long the circuit needs to stay connected:
 - Slide switches are suitable for long-term, persistent settings.
 
 Each switch type is tailored to specific interaction needs, making them complementary in electronic circuit designs.
+
+TAG
+
+switches
+circuit
+open
+closed

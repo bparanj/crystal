@@ -13,3 +13,7 @@ Provide capacitive reactance, which creates impedance that varies inversely with
 Provide inductive reactance, creating impedance that increases with frequency. Inductors oppose changes in current, blocking high frequencies while allowing low frequencies to pass.
 
 Together, resistors, capacitors, and inductors can control the amplitude and phase of signals in AC circuits by creating impedance, which is the combination of resistance and reactance.
+
+TAG
+
+impedance

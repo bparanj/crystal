@@ -17,3 +17,7 @@ The drop reflects power dissipation in the component. For instance, in a resisto
 In a series circuit, each component has a voltage drop, and the sum of these drops equals the total supplied voltage. 
 
 So, drop in voltage drop indicates a loss or reduction in voltage across a component, describing how electrical energy is used up as current flows through a circuit.
+
+TAG
+
+voltage

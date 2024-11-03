@@ -6,3 +6,7 @@ For a diode:
 - The negative voltage is applied to the Cathode (the negative side).
 
 When a diode is forward-biased, it overcomes its built-in potential barrier (typically 0.7V for silicon diodes and 0.3V for germanium diodes). This allows current to flow freely across it, letting the diode conduct electricity in the forward direction.
+
+TAG
+
+diode

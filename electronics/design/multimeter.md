@@ -21,3 +21,9 @@ To correctly measure current, the multimeter should be connected in series with 
 - Voltage Measurement: 
 
 For voltage measurements, a multimeter is placed in parallel with the component or section of the circuit across which you want to measure the voltage, because it is designed to have a high internal resistance in this mode, minimizing the impact on the circuit.
+
+TAG
+
+voltage
+current
+multimeter

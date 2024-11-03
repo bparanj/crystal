@@ -37,3 +37,7 @@ Voltage addition in circuits is governed by the principle of energy conservation
 Colleague:
 
 The addition of voltages in a circuit is a fundamental concept that underlies the analysis and design of all electrical systems. In linear circuits, the superposition theorem allows us to determine the contribution of each voltage source independently and then sum them to find the total voltage at any point. However, in non-linear circuits, such as those containing diodes or transistors, the voltages may not add linearly, and more advanced techniques like load-line analysis or small-signal modeling may be necessary. In AC circuits, voltage phasors add as complex numbers, considering both magnitude and phase angle. Familiarity with Kirchhoff's laws, Ohm's law, and circuit theorems like Thévenin's and Norton's is essential for understanding voltage relationships in complex networks.
+
+TAG
+
+voltage

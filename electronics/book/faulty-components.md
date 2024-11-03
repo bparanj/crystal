@@ -9,3 +9,7 @@ A resistor commonly becomes an open-circuit when it fails.
 In normal operation, a resistor provides a specific resistance to limit current flow. However, due to factors like excessive heat or mechanical stress, the resistor can break or burn out, creating an open circuit. When this happens, it stops conducting entirely, and current can no longer flow through it.
 
 Other components, such as fuses, inductors, and certain semiconductors (e.g., transistors), can also fail as open circuits under specific conditions. However, resistors are frequently associated with open-circuit failures in electronics.
+
+TAG
+
+troubleshooting

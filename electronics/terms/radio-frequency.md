@@ -1,3 +1,7 @@
+TAG
+
+terminology
+
 Radio Frequency (RF) refers to the range of electromagnetic waves with frequencies from about 3 kHz to 300 GHz. RF is widely used in various forms of wireless communication and electronic applications. Here are the key points to understand about RF in electronics:
 
 1. Frequency Range:

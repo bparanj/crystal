@@ -1,3 +1,8 @@
+
+TAG
+
+resistor
+
 ### Questions About Resistors in Electronics
 
 1. What is the primary function of a resistor in an electrical circuit?

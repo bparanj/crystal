@@ -32,6 +32,9 @@ Advanced applications may involve temperature-dependent resistors (thermistors),
 
 - Resistors are fundamental components characterized by their resistance value, which determines the voltage drop for a given current based on Ohm's Law (\( V = IR \)). Their implementation in circuit design extends beyond simple current limiting and includes applications in biasing, filtering, and impedance matching. Material properties, such as temperature coefficient of resistance (TCR), influence their performance in precision circuits. Moreover, power dissipation (\( P = I^2R \)) must be managed to avoid thermal runaway in high-power applications. In high-frequency circuits, parasitic inductance and capacitance of resistors can impact performance, necessitating careful selection and layout considerations. Advanced resistor types, such as metal film, carbon composition, and thin-film resistors, offer varying characteristics suitable for different applications, emphasizing the need for context-specific selection based on performance criteria.
 
+TAG
+
+resistor
 
 1. Child:
 

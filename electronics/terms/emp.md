@@ -1,3 +1,7 @@
+TAG
+
+electromagnetic
+
 An Electromagnetic Pulse (EMP) in electronics refers to a burst of electromagnetic energy that can disrupt or damage electronic equipment.
 
 1. Nature:

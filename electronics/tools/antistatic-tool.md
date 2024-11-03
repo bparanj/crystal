@@ -1,3 +1,7 @@
+TAG
+
+antistatic
+
 Antistatic tools are designed to prevent the buildup of static electricity and protect sensitive electronic components from electrostatic discharge (ESD).
 
 Purpose: 

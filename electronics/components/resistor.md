@@ -1,6 +1,10 @@
-The term resister comes from the verb resist. Resist means to oppose. Resistor is derived from the Latin word resistere. It means to stand against or oppose.
+The term resistor comes from the verb resist. Resist means to oppose. Resistor is derived from the Latin word resistere. It means to stand against or oppose.
 
 In the context of electronics, a resistor resists the flow of current. The component was named based on its primary function, limiting the current in a circuit by providing resistance.
+
+TAG
+
+resistor
 
 
 PENDING

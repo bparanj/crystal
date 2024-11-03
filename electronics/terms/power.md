@@ -1,3 +1,9 @@
+TAG
+
+power
+work
+energy
+
 ### What is a Watt in Electronics?
 
 A watt (W) is a unit of power in the International System of Units (SI). It measures the rate at which energy is consumed or produced in an electrical circuit. Specifically, one watt is equal to one joule of energy per second.

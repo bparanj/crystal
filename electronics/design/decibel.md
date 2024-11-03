@@ -40,3 +40,7 @@ For example, in RF systems:
 - A 3dB gain means power doubles
 - A -3dB loss means power halves
 - This is true whether it's audio, radio, or optical power
+
+TAG
+
+unit

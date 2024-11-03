@@ -1,3 +1,7 @@
+TAG
+
+resistor
+
 Resistors are fundamental components in electronics with numerous applications. Here are some uses of resistors:
 
 1. Current limiting:

@@ -41,3 +41,5 @@ Many power supplies use transformers to provide isolated output voltages to ensu
 Optocouplers or transformers are often used in communication systems to transfer signals without direct electrical contact, avoiding ground potential differences.
 
 In summary, an isolated system in electronics prevents direct electrical contact between different parts of a circuit, improving safety and reducing noise or interference by using components like transformers or optocouplers.
+
+TAG SYSTEM

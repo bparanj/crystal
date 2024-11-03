@@ -2,6 +2,12 @@ Is electric field and electro static field the same concept?
 
 The concepts of electric field and electrostatic field are related but not exactly the same.
 
+TAG
+
+electric field
+electro static field
+capacitor
+
 ### 1. Electric Field:
 
    - Definition: 

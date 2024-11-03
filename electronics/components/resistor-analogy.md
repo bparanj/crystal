@@ -9,3 +9,7 @@ Lane Closure (Adding Resistance): Closing lanes limits the number of cars (elect
 Voltage Drop: Just as cars take longer to get through due to congestion, the voltage “drops” across the resistor as it slows down the electron flow.
 
 Closing lanes in traffic is like increasing resistance in a circuit: both restrict flow, leading to a traffic jam that reduces the current or the effective flow of cars/electrons moving forward.
+
+TAG
+
+resistor

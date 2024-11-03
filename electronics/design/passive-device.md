@@ -7,6 +7,10 @@ Passive devices are used for impedance matching, filtering and energy storage.
 Examples: Resistor, Capacitor, Transformer and Inductor
 signal conditioning, noise filtering, and power management, current and voltage division
 
+TAG
+
+passive device
+
 ## Passive Devices
 
 Create a list of passive devices
@@ -147,7 +151,7 @@ Non-Linear Passive Devices:
 - Show some non-linear behavior at extremes
 - Component values may change with temperature or voltage
 
-Key point: Linearity means the output is directly proportional to the input and follows superposition principle. Being passive (not adding energy) doesn't guarantee linearity.
+Linearity means the output is directly proportional to the input and follows superposition principle. Being passive (not adding energy) doesn't guarantee linearity.
 
 PENDING
 

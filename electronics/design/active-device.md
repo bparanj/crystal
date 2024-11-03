@@ -39,3 +39,7 @@ Active electronic devices (require external power):
    - SCRs
    - TRIACs
    - Optocouplers
+	 
+TAG
+
+active device
