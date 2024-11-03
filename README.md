@@ -59,6 +59,13 @@ Design a simple Low-Pass Filter using a resistor, capacitor and any other necess
 
 Is it possible to implement snubber in Tinkercad?
 
+Create a simple experiment for positive clipper circuit using Tinkercad
+Create a simple experiment for negative clipper circuit using Tinkercad
+Create a simple experiment for positive clamper circuit using Tinkercad
+Create a simple experiment for negative clamper circuit using Tinkercad
+Design first order circuit using Tinkercad
+Design second order circuit using Tinkercad 
+
 Inductor, Electromagnet, Solenoid
 
 
