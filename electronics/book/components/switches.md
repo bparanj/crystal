@@ -17,6 +17,7 @@ We use both push buttons and slide switches in electronic circuits because they 
 ### Why Two Types?
 
 The difference lies in how long the circuit needs to stay connected:
+
 - Push buttons are ideal for short, temporary actions.
 - Slide switches are suitable for long-term, persistent settings.
 
