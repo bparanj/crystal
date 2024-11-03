@@ -1,6 +1,10 @@
 TAG
 
 voltage
+electromotive
+emf
+linear device
+nonlinear device
 
 ### Level 1: Child
 

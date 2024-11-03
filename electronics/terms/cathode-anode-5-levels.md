@@ -1,6 +1,10 @@
 TAG
 
+anode
+cathode
 terminology
+
+NOT USED:
 
 Level 1: Child
 
@@ -109,4 +113,3 @@ Child: A battery has two ends—anode where energy goes in, and cathode where en
 Teenager: In a battery, the anode is the negative terminal during discharge.
 
 Undergraduate: The anode is where oxidation occurs; electrons leave here.
-

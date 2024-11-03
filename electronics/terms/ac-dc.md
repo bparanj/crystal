@@ -3,7 +3,7 @@ TAG
 current
 voltage
 
-Both AC and DC can carry information over long distances. The key is modulation - varying some characteristic of either AC or DC (amplitude, frequency, or phase) to encode information. AC is preferred for power transmission over long distances because it's easier to change voltage levels using transformers, which reduces transmission losses.
+Both AC and DC can carry information over long distances. The key is modulation - varying some characteristic of either AC or DC (amplitude, frequency, or phase) to encode information. AC is used for power transmission over long distances because it's easier to change voltage levels using transformers, which reduces transmission losses.
 
 Electrical voltage is the push that makes electric charges move through a wire or circuit. It’s like the pressure that pushes water through a pipe. The higher the voltage, the stronger the push to move the charges (electricity). Voltage is measured in volts (V).
 
@@ -21,9 +21,9 @@ PENDING
 
 #### Characteristics of DC Voltage:
 
-- Unidirectional: Current flows in one direction.
-- Constant Voltage: The voltage level does not change with time.
-- Sources: Batteries, DC power supplies, solar panels.
+Unidirectional: Current flows in one direction.
+Constant Voltage: The voltage level does not change with time.
+Sources: Batteries, DC power supplies, solar panels.
 
 ### What is AC Voltage?
 
@@ -49,8 +49,9 @@ In an ideal AC wave, such as a sine wave, the positive and negative values are u
 
 AC is bidirectional because the current reverses direction periodically. During the positive phase of the wave, current flows one way, and during the negative phase, it flows in the opposite direction. Even though the voltage forms a sine wave, the flow of current flips between directions as the voltage crosses zero, making it bidirectional.
 
-- For discrete values, you could imagine sampling the AC wave at regular intervals, and you'd observe alternating positive and negative values at different points in time.
-- If you look at the continuous curve, the current flow direction flips every time the voltage crosses zero, so it’s changing direction as the wave oscillates between positive and negative values.
+For discrete values, you could imagine sampling the AC wave at regular intervals, and you'd observe alternating positive and negative values at different points in time.
+
+If you look at the continuous curve, the current flow direction flips every time the voltage crosses zero, so it’s changing direction as the wave oscillates between positive and negative values.
 
 ### Why Do Electronic Devices Operate on DC and Not AC?
 
@@ -118,21 +119,21 @@ AC voltage efficiency is about minimizing energy losses during transmission to d
 
 #### Characteristics of AC Voltage:
 
-- Bidirectional: Current changes direction periodically.
-- Varying Voltage: The voltage level varies sinusoidally with time.
-- Sources: Power plants, household outlets, generators.
+Bidirectional: Current changes direction periodically.
+Varying Voltage: The voltage level varies sinusoidally with time.
+Sources: Power plants, household outlets, generators.
 
 ### Why Do We Need Two Different Types of Voltage?
 
 #### Use Cases:
 
-- DC Voltage:
+DC Voltage:
 
   - Electronics: Most electronic devices, such as computers, smartphones, and LED lights, operate on DC voltage.
   - Storage: Batteries store and provide power in DC form.
   - Portable Devices: Portable and low-power devices  use DC voltage due to the ease of battery integration.
 
-- AC Voltage:
+AC Voltage:
 
   - Power Transmission: AC voltage is used for transmitting electricity over long distances. It can be easily transformed to higher or lower voltages using transformers.
   - Household Power: The standard power supplied to homes and businesses is AC voltage because it is more efficient for large-scale distribution.
@@ -140,12 +141,12 @@ AC voltage efficiency is about minimizing energy losses during transmission to d
 
 #### 2. Efficiency and Transformation:
 
-- AC Voltage:
+AC Voltage:
 
   - Efficiency in Transmission: AC voltage can be easily stepped up to high voltages for efficient long-distance transmission, reducing energy losses.
   - Transformation: Transformers can easily change AC voltage levels, making it versatile for different applications.
 
-- DC Voltage:
+DC Voltage:
 
   - Stable and Reliable: DC voltage provides a stable and reliable power source for sensitive electronic circuits.
   - Compatibility with Batteries: Batteries naturally produce DC voltage, making it essential for portable and backup power solutions.
