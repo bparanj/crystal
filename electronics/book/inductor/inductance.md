@@ -5,6 +5,7 @@ Review
 Inductance is a fundamental property of electrical circuits that provides several important functions, solving various problems in electronics.
 
 ### 1. Energy Storage in Magnetic Fields
+
 Problem: 
 
 In certain circuits, there is a need to temporarily store energy and release it at a later time or in a different form.

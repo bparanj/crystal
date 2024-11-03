@@ -42,4 +42,6 @@ Optocouplers or transformers are often used in communication systems to transfer
 
 In summary, an isolated system in electronics prevents direct electrical contact between different parts of a circuit, improving safety and reducing noise or interference by using components like transformers or optocouplers.
 
-TAG SYSTEM
+TAG 
+
+system
