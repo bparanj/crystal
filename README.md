@@ -50,22 +50,4 @@ What happens when resistor is connected in parallel?
 
 Bypass capacitor. Decoupling capacitor.
 
-High-Pass Filter
-Low-Pass Filter
-
-Design a simple High-Pass Filter using a resistor, capacitor and any other necessary components using Tinkercad.
-
-Design a simple Low-Pass Filter using a resistor, capacitor and any other necessary components using Tinkercad.
-
-Is it possible to implement snubber in Tinkercad?
-
-Create a simple experiment for positive clipper circuit using Tinkercad
-Create a simple experiment for negative clipper circuit using Tinkercad
-Create a simple experiment for positive clamper circuit using Tinkercad
-Create a simple experiment for negative clamper circuit using Tinkercad
-Design first order circuit using Tinkercad
-Design second order circuit using Tinkercad 
-
 Inductor, Electromagnet, Solenoid
-
-
