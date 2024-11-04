@@ -1,6 +1,6 @@
-The simplest experiment to demonstrate resonance in electronics is the LC circuit (inductor-capacitor circuit). Here’s a basic setup:
+The simplest experiment to demonstrate resonance in electronics is the LC circuit (inductor-capacitor circuit).
 
-1. Components Needed:
+1. Components:
    - Inductor (L)
    - Capacitor (C)
    - AC signal generator (to provide varying frequencies)
@@ -22,7 +22,7 @@ The simplest experiment to demonstrate resonance in electronics is the LC circui
      \]
    - At this frequency, the circuit stores and transfers energy back and forth between the inductor and capacitor, amplifying the voltage.
 
-This experiment is simple and clearly demonstrates resonance, as you can see the voltage peaking at the resonant frequency.
+This experiment is simple and demonstrates resonance, as you can see the voltage peaking at the resonant frequency.
 
 The simplest resonance experiment in electronics would be an LC circuit (also called a tank circuit), consisting of just two components:
 

@@ -41,9 +41,13 @@ A snubber circuit is typically used to suppress voltage spikes across a switch o
 3. Observe the Oscilloscope:
    - Watch the oscilloscope to see how the RC snubber affects the voltage across the switch when it opens. The capacitor should absorb some of the energy, and the resistor dissipates it, smoothing out the spike.
 
-Snubber Functionality: When the switch opens, the inductor tries to maintain current flow, creating a high voltage spike. The RC snubber provides an alternate path for this energy, reducing the spike and preventing arcing across the switch.
+Snubber Functionality:
 
-Energy Absorption: The capacitor absorbs the energy from the spike, and the resistor dissipates it as heat, protecting the switch and other circuit components from damage.
+When the switch opens, the inductor tries to maintain current flow, creating a high voltage spike. The RC snubber provides an alternate path for this energy, reducing the spike and preventing arcing across the switch.
+
+Energy Absorption:
+
+The capacitor absorbs the energy from the spike, and the resistor dissipates it as heat, protecting the switch and other circuit components from damage.
 
 ### Limitations in Tinkercad:
 

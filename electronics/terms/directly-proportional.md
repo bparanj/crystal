@@ -9,7 +9,7 @@ Where:
 - \( y \) and \( x \) are the two quantities.
 - \( k \) is a constant that shows the rate of proportionality.
 
-In simpler terms, if two values are directly proportional, they change together consistently.
+If two values are directly proportional, they change together consistently.
 
 In a graph, a directly proportional relationship looks like a straight line passing through the origin (0, 0). This means the line starts at the origin and increases or decreases with a constant slope. The equation for a directly proportional relationship is:
 

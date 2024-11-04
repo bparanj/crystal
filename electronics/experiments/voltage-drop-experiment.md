@@ -4,7 +4,7 @@ A simple experiment to illustrate the concept of voltage drop:
 
 To demonstrate how voltage decreases across components in a series circuit, illustrating the concept of voltage drop.
 
-### Materials Needed:
+### Materials:
 
 - A 9V battery or a DC power supply
 - Two resistors of different values (e.g., 100 ohms and 200 ohms)

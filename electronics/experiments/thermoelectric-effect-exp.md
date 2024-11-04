@@ -1,4 +1,4 @@
-A simple experiment to illustrate the thermoelectric effect:
+A simple experiment to illustrate the thermoelectric effect.
 
 ### Objective:
 
@@ -35,10 +35,7 @@ As the temperature difference between the junction and the free ends of the wire
 
 Try different temperature differences by adjusting the heat source or the cold environment, and observe how the voltage on the multimeter changes accordingly.
 
-### Explanation:
-
 This experiment demonstrates the thermoelectric effect, specifically the Seebeck effect. When there is a temperature difference between the junction and the ends of two different metals, a voltage is generated due to the movement of charge carriers from the hot side to the cold side. This voltage can be measured with the multimeter, illustrating how temperature differences can be converted directly into electrical energy. This principle is the basis for devices like thermocouples and thermoelectric generators.
-
 
 ## Experiment: Creating a Simple Thermocouple
 

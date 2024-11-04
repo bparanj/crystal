@@ -1,4 +1,4 @@
-A simple experiment to illustrate the concept of a transformer and how it transfers energy between circuits without direct contact:
+A simple experiment to illustrate the concept of a transformer and how it transfers energy between circuits without direct contact.
 
 ### Objective:
 
@@ -35,7 +35,5 @@ Turn on the AC power source or function generator. Observe that the LED or light
 5. Measure the Voltage:
 
 Use a multimeter to measure the voltage across the secondary coil. Compare it to the voltage across the primary coil. Depending on the number of turns in each coil, you should observe that the secondary voltage is either higher (step-up transformer) or lower (step-down transformer) than the primary voltage.
-
-### Explanation:
 
 This experiment illustrates how a transformer transfers electrical energy between two circuits without direct electrical contact. The AC current flowing through the primary coil generates a changing magnetic field around the iron core. This changing magnetic field induces a voltage in the secondary coil, which lights up the LED or bulb. The amount of voltage induced in the secondary coil depends on the ratio of the number of turns between the primary and secondary coils, demonstrating the basic principle of how transformers work to step up or step down voltage levels while maintaining electrical isolation between circuits.

@@ -3,7 +3,7 @@ TAG
 electromagnetic
 induction
 
-Electromagnetic Interference (EMI) refers to the disturbance that affects an electrical circuit due to either electromagnetic induction or electromagnetic radiation emitted from an external source. EMI can degrade the performance of electronic devices, cause data loss, and even lead to complete device failure. Here are the key points to understand about EMI:
+Electromagnetic Interference (EMI) refers to the disturbance that affects an electrical circuit due to either electromagnetic induction or electromagnetic radiation emitted from an external source. EMI can degrade the performance of electronic devices, cause data loss, and even lead to complete device failure.
 
 1. Sources of EMI:
 
@@ -52,7 +52,9 @@ Electromagnetic induction is the process by which a changing magnetic field crea
 
 1. Basic Principle:
 
-Faraday’s Law of Induction: States that a voltage (or electromotive force, EMF) is induced in a conductor when it is exposed to a changing magnetic field. The induced voltage is proportional to the rate of change of the magnetic flux.
+Faraday’s Law of Induction:
+
+States that a voltage (or electromotive force, EMF) is induced in a conductor when it is exposed to a changing magnetic field. The induced voltage is proportional to the rate of change of the magnetic flux.
 
 Lenz’s Law: The direction of the induced current is such that it opposes the change in magnetic flux that produced it. This is a consequence of the conservation of energy.
 

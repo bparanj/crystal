@@ -5,7 +5,7 @@ A simple experiment to illustrate the concept of a voltage regulator:
 
 To demonstrate how a voltage regulator maintains a constant output voltage even when the input voltage varies.
 
-### Materials Needed:
+### Materials:
 
 - A 9V battery or variable power supply
 - A 7805 voltage regulator ( used to regulate to 5V)
@@ -83,12 +83,20 @@ Expected results:
 
 This experiment illustrates the key function of a voltage regulator:
 
-1. Voltage Stabilization: Despite the varying input voltage, the LM7805 maintains a steady 5V output, demonstrating how it protects circuits from power supply fluctuations.
+1. Voltage Stabilization:
 
-2. Dropout Voltage: If you reduce the input voltage below about 7V, you'll see the point at which the regulator can no longer maintain its 5V output, illustrating the concept of dropout voltage.
+Despite the varying input voltage, the LM7805 maintains a steady 5V output, demonstrating how it protects circuits from power supply fluctuations.
 
-3. Heat Dissipation: The LM7805 may become warm during the experiment, especially at higher input voltages. This demonstrates that linear regulators dissipate excess power as heat.
+2. Dropout Voltage:
 
-4. Capacitor Role: The capacitors help smooth out any ripples in the input and output voltages, improving the regulator's performance.
+If you reduce the input voltage below about 7V, you'll see the point at which the regulator can no longer maintain its 5V output, illustrating the concept of dropout voltage.
+
+3. Heat Dissipation:
+
+The LM7805 may become warm during the experiment, especially at higher input voltages. This demonstrates that linear regulators dissipate excess power as heat.
+
+4. Capacitor Role:
+
+The capacitors help smooth out any ripples in the input and output voltages, improving the regulator's performance.
 
 This hands-on experiment is a visual demonstration of how voltage regulators work to provide a stable power supply, which is needed for the reliable operation of electronic circuits. You can extend this experiment by trying different load resistances or comparing the performance of different types of voltage regulators.

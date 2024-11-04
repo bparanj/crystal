@@ -1,6 +1,7 @@
 PENDING
 
 Is this already in existing experiment?
+Move this to experiments folder. Or merge it to any existing experiment.
 
 A simple experiment to demonstrate the problem caused by not using a diode involves a DC motor connected to a power supply without a flyback diode. This setup shows how voltage spikes from the motor can damage other components when the diode is missing.
 
@@ -37,7 +38,5 @@ A simple experiment to demonstrate the problem caused by not using a diode invol
    - Connect a diode in parallel with the motor, with the diode’s cathode to the positive motor terminal and anode to the negative.
    - Run the motor again, then disconnect the power as before.
    - Observe that the LED no longer flashes or is at less risk of damage.
-
-### Explanation:
 
 Without the diode, the motor generates a reverse voltage spike that passes through the LED, potentially damaging it. With the diode in place, the spike is absorbed by the diode, protecting the LED. This experiment demonstrates the importance of using a diode for voltage spike protection in circuits with inductive loads.

@@ -2,11 +2,15 @@ TAG
 
 experiments
 
+PENDING
+
+Move this to experiments folder
+
 Here are three experiments designed to illustrate the concept of capacitance and how it behaves in electrical circuits:
 
 ### 1. Experiment 1: Charging and Discharging a Capacitor
 
-Objective: 
+Objective:
 
 Demonstrate the charging and discharging process of a capacitor and how it stores electrical energy.
 
@@ -21,33 +25,33 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit: 
+1. Set Up the Circuit:
 
 Connect the battery, capacitor, resistor, and switch in series with the LED. The circuit should be: Battery -> Switch -> Resistor -> Capacitor -> LED -> Battery.
 
-2. Close the Switch (Charging): 
+2. Close the Switch (Charging):
 
 Close the switch to start charging the capacitor. The LED will light up as current flows through the circuit and charges the capacitor.
 
-3. Observe the LED: 
+3. Observe the LED:
 
 Over time, you will notice the LED gradually dimming as the capacitor charges and the current decreases.
 
-4. Open the Switch (Discharging): 
+4. Open the Switch (Discharging):
 
 After the capacitor is fully charged, open the switch to disconnect the battery. Then, connect the LED directly across the capacitor (without the battery) to observe the discharge process.
 
-5. Observe the LED: 
+5. Observe the LED:
 
 The LED will light up again, gradually dimming as the capacitor discharges its stored energy through the LED.
 
-6. Explain: 
+6. Explain:
 
 This experiment demonstrates how a capacitor stores energy in an electric field when charging and then releases that energy when discharging.
 
 ### 2. Experiment 2: Capacitance and Voltage Relationship
 
-Objective: 
+Objective:
 
 Show how the voltage across a capacitor changes as it charges, illustrating the relationship between capacitance, voltage, and stored charge.
 
@@ -68,7 +72,7 @@ Procedure:
 
 ### 3. Experiment 3: Capacitor as a Filter in AC Circuits
 
-Objective: 
+Objective:
 
 Demonstrate how a capacitor can be used to filter signals by blocking DC components and allowing AC components to pass.
 

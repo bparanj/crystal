@@ -1,6 +1,7 @@
 PENDING
 
 Put everything related to types of circuit in this document
+Extract some of the content here to the first experiment about short circuit.
 
 The term short circuit includes "short" because it describes a direct path for current that shortens the route through the circuit.
 
@@ -10,15 +11,15 @@ So, short reflects the unintended, shortened route that the current takes, leadi
 
 A short circuit and a connecting wire are similar because both provide a low-resistance path for electric current. How they are alike:
 
-**Low Resistance Path**:
+Low Resistance Path:
 
 Both a short circuit and a connecting wire have very low electrical resistance, allowing current to flow easily.
 
-**Direct Current Path**:
+Direct Current Path:
 
 In both cases, electricity flows directly from one point to another without significant opposition, which is the purpose of a connecting wire in a circuit.
 
-**Voltage Drop**:
+Voltage Drop:
 
 Both have minimal voltage drop across them, as there is little resistance to impede the current.
 
@@ -58,7 +59,7 @@ If there's continuity, the circuit is closed and working as intended. If there's
 
 ## Closed Circuit
 
-Continuity means a **closed circuit**.
+Continuity means a closed circuit.
 
 In a closed circuit, the electrical path is complete, allowing current to flow from the power source through the circuit components and back to the source. This is needed for normal circuit operation.
 
@@ -68,14 +69,24 @@ If you check for continuity with a multimeter and it indicates continuity, it co
 
 A circuit can generally be categorized as either open or closed, but there are more specific conditions beyond just those two:
 
-1. **Closed Circuit**: A complete path for current to flow, where the circuit components are properly connected. This is the desired state for normal operation.
+1. Closed Circuit:
 
-2. **Open Circuit**: The path is broken, preventing current from flowing. This can happen due to a disconnected wire, a faulty component, or an intentional switch opening the circuit.
+A complete path for current to flow, where the circuit components are properly connected. This is the desired state for normal operation.
 
-3. **Short Circuit**: An unintended low-resistance path that bypasses the designed circuit, causing excessive current flow. It can lead to overheating or damage.
+2. Open Circuit:
 
-4. **Ground Fault**: A special case where current unintentionally flows to the ground (earth) instead of following its intended path.
+The path is broken, preventing current from flowing. This can happen due to a disconnected wire, a faulty component, or an intentional switch opening the circuit.
 
-5. **Partial Circuit (High Resistance)**: Sometimes a circuit is technically closed but has excessive resistance, causing limited or no useful current flow. This can occur due to faulty connections or damaged components.
+3. Short Circuit:
+
+An unintended low-resistance path that bypasses the designed circuit, causing excessive current flow. It can lead to overheating or damage.
+
+4. Ground Fault:
+
+A special case where current unintentionally flows to the ground (earth) instead of following its intended path.
+
+5. Partial Circuit (High Resistance):
+
+Sometimes a circuit is technically closed but has excessive resistance, causing limited or no useful current flow. This can occur due to faulty connections or damaged components.
 
 So, while open and closed are the primary states, other conditions like short circuits and high resistance can complicate the situation.

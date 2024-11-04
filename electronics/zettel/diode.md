@@ -16,9 +16,7 @@ An active electronic component is a device that can control or amplify electrica
 
 ## Atomic Ideas
 
-1. What defines an active component?
-
-   What distinguishes an active electronic component from a passive component?
+1. What distinguishes an active electronic component from a passive component?
 
    An active component requires an external power source to operate and can control or amplify electrical signals. Active components can generate or modify electrical power within a circuit.
 
@@ -123,9 +121,7 @@ Transistors and other active components are crucial in power control circuits, s
 
    Research how different materials used in diodes (e.g., silicon carbide) impact efficiency in power conversion circuits. How can these materials be optimized for use in renewable energy systems?
 
-Overview:
-
-A diode serves as a fundamental electronic component that allows current to flow in one direction while blocking it in the opposite direction. This asymmetric conduction property makes diodes useful in various applications such as rectification, signal demodulation, and voltage regulation. Diodes consist of a junction between two types of semiconductor materials, p-type and n-type silicon, which creates a depletion region that controls the flow of current.
+A diode is a fundamental electronic component that allows current to flow in one direction while blocking it in the opposite direction. This asymmetric conduction property makes diodes useful in various applications such as rectification, signal demodulation, and voltage regulation. Diodes consist of a junction between two types of semiconductor materials, p-type and n-type silicon, which creates a depletion region that controls the flow of current.
 
 Atomic Ideas:
 

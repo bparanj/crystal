@@ -1,2 +1,5 @@
 - [Video 1](https://www.youtube.com/watch?v=nGQbA2jwkWI)
 - [Video 2](https://www.youtube.com/watch?v=x1-SibwIPM4)
+- [Electronmagnetic Waves](https://www.noaa.gov/jetstream/satellites/electromagnetic-waves)
+- [Types of Electromagnetic Waves](https://www.britannica.com/science/electromagnetic-spectrum)
+- [Quick read](https://ultimateelectronicsbook.com/introduction/)

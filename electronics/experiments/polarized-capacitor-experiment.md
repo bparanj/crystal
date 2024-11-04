@@ -1,3 +1,14 @@
+
+3. How do capacitors operate as passive components?
+
+Capacitors store electrical energy in an electric field between two conductive plates separated by a dielectric material. They block DC current while allowing AC current to flow, with their capacitance measured in farads (F).
+
+A capacitor resembles a rubber membrane in a pipe. It flexes to absorb pressure changes (storing energy) but doesn't allow continuous flow, similar to how a capacitor stores charge but blocks DC current.
+
+Set up a circuit with a 9V battery, a 1000μF capacitor, and an LED.
+Observe the LED light up and gradually dim as the capacitor discharges.
+This demonstrates the capacitor's ability to store and release energy without generating it.
+
 Here’s a simple example of how a polarized capacitor might be used in a power supply circuit:
 
 ## Experiment
@@ -5,8 +16,7 @@ Here’s a simple example of how a polarized capacitor might be used in a power 
 Refer this: https://www.youtube.com/watch?v=CVywtFTEz3I
 His channel: https://www.youtube.com/@Ohmify
 
-
-I've provided both a simulation and detailed experimental instructions for demonstrating capacitor behavior. Here's a breakdown of the key aspects:
+Simulation and detailed experimental instructions for demonstrating capacitor behavior.
 
 1. Circuit Components:
 
@@ -47,9 +57,11 @@ The simulation shows how voltage and current change over time during both chargi
 Here's a simple experiment to demonstrate how a polarized capacitor works, using an LED, resistor, battery, and polarized capacitor.
 
 ### Objective
+
 To observe the charging and discharging behavior of a polarized capacitor and its effect on an LED.
 
 ### Components
+
 1. 9V Battery
 2. Polarized Capacitor (e.g., 100 µF)
 3. Resistor (1 kΩ)
@@ -98,7 +110,7 @@ To observe the charging and discharging behavior of a polarized capacitor and it
 
 - The capacitor stores charge when the battery is connected. The LED’s brightness initially shows this charging process.
 - When the battery is removed, the capacitor discharges through the LED, briefly lighting it up until the stored energy is depleted.
-  
+
 This experiment visually demonstrates the charge and discharge behavior of a polarized capacitor in a DC circuit.
 
 

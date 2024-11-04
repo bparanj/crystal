@@ -32,6 +32,7 @@ A second-order circuit typically includes two energy storage components, such as
    - Observe the voltage across the capacitor on the oscilloscope.
 
 2. Expected Results:
+
    - The nature of the voltage waveform across the capacitor will depend on the values of \( R \), \( L \), and \( C \):
      - Underdamped Response: If the circuit parameters are set so that the response is underdamped (e.g., lower resistance), you’ll see oscillations that gradually decay over time.
      - Critically Damped Response: With certain values of \( R \), \( L \), and \( C \), the response will rise to a peak without oscillating and settle quickly to the steady-state value.
@@ -40,13 +41,20 @@ A second-order circuit typically includes two energy storage components, such as
    - Formula for Resonant Frequency: The oscillation frequency (if underdamped) depends on the circuit’s natural frequency \( f_0 = \frac{1}{2\pi \sqrt{LC}} \), where \( L \) is the inductance and \( C \) is the capacitance.
 
 3. Adjusting Component Values:
+
    - To observe different behaviors (underdamped, critically damped, overdamped), try adjusting the resistor value in Tinkercad. This will change the circuit’s damping factor and allow you to observe the different types of responses.
    - Experiment with different values of \( R \), keeping the capacitor and inductor values constant, and observe how the waveform across the capacitor changes.
 
-Second-Order Behavior: The RLC circuit is a second-order system because it has two energy storage components: the inductor and the capacitor. These two components interact, leading to oscillatory or exponential behavior in the voltage or current.
+Second-Order Behavior:
 
-Transient Response: The circuit’s transient response (the behavior immediately after switching on) is governed by the values of \( R \), \( L \), and \( C \), which dictate whether the response will oscillate, rise directly, or decay gradually.
+The RLC circuit is a second-order system because it has two energy storage components: the inductor and the capacitor. These two components interact, leading to oscillatory or exponential behavior in the voltage or current.
 
-Damping: The resistor \( R \) controls the damping of the circuit. Lower resistance allows oscillations, while higher resistance dampens the oscillations, affecting how quickly the system reaches steady-state.
+Transient Response:
+
+The circuit’s transient response (the behavior immediately after switching on) is governed by the values of \( R \), \( L \), and \( C \), which dictate whether the response will oscillate, rise directly, or decay gradually.
+
+Damping:
+
+The resistor \( R \) controls the damping of the circuit. Lower resistance allows oscillations, while higher resistance dampens the oscillations, affecting how quickly the system reaches steady-state.
 
 This experiment provides insight into the dynamics of second-order circuits, helping you understand oscillatory behavior, damping, and resonance — all of which are fundamental concepts in electronics, particularly in signal processing and filter design.

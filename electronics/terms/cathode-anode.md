@@ -4,11 +4,7 @@ terminology
 anode
 cathode
 
-PENDING
-
-Review and revise (manual edit):
-
-The terms 'cathode' and 'anode' originate from Greek. The word 'kathodos' means downward path. The word 'anodos' means upward path. Michael Faraday introduced these terms in the 1830s. He conceived the cathode as where current exits (down) and the anode as where current enters (up) the device.
+The terms cathode and anode originate from Greek. The word kathodos means downward path. The word anodos means upward path. Michael Faraday introduced these terms in the 1830s. He conceived the cathode as where current exits (down) and the anode as where current enters (up) the device.
 
 Despite our current understanding that electrons flow in the opposite direction, these terms are still used. The cathode is the electrode where reduction occurs (electrons enter), while the anode is where oxidation occurs (electrons leave). In a diode, the cathode is marked by a line, and the anode is represented by a triangle pointing towards the cathode.
 

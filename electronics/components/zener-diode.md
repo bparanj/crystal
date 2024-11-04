@@ -38,7 +38,6 @@ Yes, for drawing circuit diagrams, there's a widely-used standard called schemat
 
 PENDING
 
-Quick read: https://ultimateelectronicsbook.com/introduction/
 Good tool if you know how to design a circuit and simulate: https://www.circuitlab.com/
 
 Here's a step-by-step guide for using KiCad:

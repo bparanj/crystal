@@ -31,13 +31,11 @@ To demonstrate how reactance in an inductor or capacitor affects the flow of alt
 
    - Notice how the voltage changes differently for a capacitor versus an inductor as the frequency increases. For a capacitor, the voltage should decrease with increasing frequency (as capacitive reactance decreases), while for an inductor, the voltage should increase (as inductive reactance increases).
 
-### Explanation:
-
 This experiment demonstrates reactance, which is the opposition to AC flow due to capacitors or inductors. In a capacitor, reactance decreases as frequency increases, meaning the capacitor allows more current to pass through at higher frequencies. Conversely, in an inductor, reactance increases with frequency, meaning the inductor allows less current to pass through as the frequency rises. By observing the voltage across the reactive component (capacitor or inductor) at different frequencies, you can see how reactance affects the current flow and voltage in the circuit. This experiment helps illustrate the frequency-dependent behavior of capacitors and inductors in AC circuits.
 
 A simple experiment to illustrate reactance. This experiment will help demonstrate the frequency-dependent nature of reactance using common electronic components.
 
-Materials needed:
+Materials:
 
 - Function generator (or a smartphone app that can generate audio frequencies)
 - Amplifier (optional, can use a small audio amplifier)
@@ -93,7 +91,7 @@ This experiment demonstrates the key characteristics of reactance:
 
 This experiment visually and audibly demonstrates how reactance affects signal transmission differently at various frequencies. It shows that reactance is not a constant value like resistance, but rather a dynamic property that changes with the frequency of the applied signal.
 
-To extend this experiment, you could:
+To extend this experiment:
 
 - Use an oscilloscope to visualize the phase shifts.
 - Try different values of capacitors and inductors to see how they affect the frequency response.

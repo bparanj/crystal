@@ -4,24 +4,23 @@ A thyristor solves the problem of controlling high power in a circuit with a sma
 
 ### Key Problems Solved by a Thyristor
 
-1. Efficient Power Switching: 
+1. Efficient Power Switching:
 
 Allows for efficient on/off control in high-power applications like motors, heaters, and lights, where traditional switches would be bulky and inefficient.
 
-2. Controlled Rectification: 
+2. Controlled Rectification:
 
 Enables precise control of AC to DC conversion by adjusting the timing of the switch-on phase, which is especially useful in power electronics like inverters and rectifiers.
 
-3. Overload Protection: 
+3. Overload Protection:
 
 Provides robust control and protection in circuits, as it only conducts when triggered, reducing the risk of overloads in sensitive components.
 
-4. Phase Control: 
+4. Phase Control:
 
 Controls the phase of AC signals, enabling smooth control over devices like dimmers, speed controllers, and AC motors by adjusting how much of each AC cycle is allowed through.
 
 Thyristors are widely used in industrial and consumer applications requiring reliable, high-power control, and are essential for efficient and precise power management in electronics.
-
 
 Thyristors solve several critical problems in power electronics and control systems:
 

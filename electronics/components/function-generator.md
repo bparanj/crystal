@@ -5,11 +5,11 @@ The function generator in electronics produces various types of waveforms (or fu
 1. Variety of Signal Types:
 
 Different electronic components and systems respond uniquely to various signal shapes. For instance, sine waves are useful for testing natural oscillations in circuits, while square waves are essential for digital circuit testing.
-   
+
 2. Frequency and Amplitude Control:
 
 Function generators allow precise control over the frequency and amplitude of the waveform, enabling experiments at specific operating conditions or stress-testing a circuit across ranges of inputs.
-   
+
 3. Resonance Testing:
 
 In LC circuits or filters, adjusting the function generator to sweep through frequencies helps identify resonant frequencies, allowing engineers to analyze resonance effects directly.
@@ -145,7 +145,5 @@ No, a typical function generator cannot be used as an AC power supply because:
 - AC power supplies: designed to deliver stable power under load
 - Function generators lack power regulation and protection circuits
 - Output impedance is wrong for power delivery
-
-However:
 
 You can use a function generator to create a reference signal that controls a power amplifier or inverter, which then produces usable AC power, but the function generator alone cannot serve as a power supply.

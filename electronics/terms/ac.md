@@ -70,8 +70,6 @@ The Poynting vector (\(\mathbf{S}\)), defined as \(\mathbf{S} = \mathbf{E} \time
 
 Despite the current reversing direction, the Poynting vector consistently points from the source to the load, indicating that the net energy flow is always towards the home. This is because the product of voltage and current (power) is still positive on average, meaning that energy is being delivered to the load over time.
 
-### Point:
-
 Net Energy Transfer:
 
 The oscillating nature of AC current and voltage means that the instantaneous power can be positive or negative. However, over a complete cycle, the energy delivered to the load is positive, resulting in a net transfer of energy from the power supply to the home.
