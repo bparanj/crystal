@@ -1,3 +1,5 @@
+pick only few from this list that will be covered in the book
+
 ## Active Devices
 
 Create a list of active devices
