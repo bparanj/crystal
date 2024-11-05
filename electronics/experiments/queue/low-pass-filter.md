@@ -47,8 +47,32 @@ A low-pass filter allows lower frequencies to pass through while attenuating hig
    - Set the AC source frequency near the cutoff frequency (around 1.6 kHz).
    - Expected Outcome: At the cutoff frequency, the output signal amplitude should be approximately 70% of the input signal amplitude, indicating the point where the filter begins to attenuate higher frequencies.
 
-Low-Pass Filter Behavior: This RC circuit acts as a low-pass filter because the capacitor allows low frequencies to pass while presenting low impedance to high frequencies, which causes them to be filtered out.
+Low-Pass Filter Behavior:
 
-Cutoff Frequency: The cutoff frequency is the point where the filter transitions from passing low frequencies to attenuating high frequencies. Frequencies below this point pass with minimal attenuation, while frequencies above are increasingly blocked.
+This RC circuit acts as a low-pass filter because the capacitor allows low frequencies to pass while presenting low impedance to high frequencies, which causes them to be filtered out.
+
+Cutoff Frequency:
+
+The cutoff frequency is the point where the filter transitions from passing low frequencies to attenuating high frequencies. Frequencies below this point pass with minimal attenuation, while frequencies above are increasingly blocked.
 
 This experiment demonstrates how an RC low-pass filter selectively allows lower frequencies while attenuating higher ones, which is useful in applications like audio signal processing, smoothing DC signals, and removing high-frequency noise.
+
+Solving How an Inductor Works in a Filter Circuit:
+
+Let’s assume we want to design a low-pass filter using an inductor and resistor to remove high-frequency noise from a signal.
+
+1. Choose an inductor and resistor: For example, select a 100μH inductor and a 1kΩ resistor.
+
+2. Calculate the cutoff frequency: Use the formula for the cutoff frequency of an RL low-pass filter:
+
+   $$ f_c = \frac{R}{2\pi L} $$
+
+   $$ f_c = \frac{1,000}{2\pi \times 100 \times 10^{-6}} \approx 1.59 \, \text{kHz} $$
+
+   The cutoff frequency is about 1.59kHz, meaning frequencies below this pass through, while higher frequencies get filtered out.
+
+3. Connect the inductor and resistor in series: Wire the inductor and resistor in series with the signal input.
+
+4. Test the circuit: Feed a signal with high-frequency noise into the circuit. The inductor will block high frequencies, and only the clean, low-frequency part of the signal will pass through to the output.
+
+This demonstrates how an inductor can be used to filter out unwanted high-frequency noise in a circuit.

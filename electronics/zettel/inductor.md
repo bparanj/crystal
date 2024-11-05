@@ -10,8 +10,6 @@ inductor
 
 An inductor is a passive electronic component that stores energy in a magnetic field when electrical current flows through it. Inductors oppose changes in current and are used in filtering, energy storage, and tuning circuits. The amount of inductance depends on factors such as the coil’s number of turns, the core material, and the shape and size of the coil.
 
----
-
 ### Atomic Ideas:
 
 1. What is an inductor, and how does it store energy?
@@ -54,32 +52,6 @@ An inductor is a passive electronic component that stores energy in a magnetic f
 
    In a low-pass filter, an inductor allows low-frequency signals to pass through while blocking high-frequency noise, helping to clean up the signal in audio circuits.
 
----
-
-### Solution:
-
-Solving How an Inductor Works in a Filter Circuit:
-
-Let’s assume we want to design a low-pass filter using an inductor and resistor to remove high-frequency noise from a signal.
-
-1. Choose an inductor and resistor: For example, select a 100μH inductor and a 1kΩ resistor.
-
-2. Calculate the cutoff frequency: Use the formula for the cutoff frequency of an RL low-pass filter:
-
-   $$ f_c = \frac{R}{2\pi L} $$
-
-   $$ f_c = \frac{1,000}{2\pi \times 100 \times 10^{-6}} \approx 1.59 \, \text{kHz} $$
-
-   The cutoff frequency is about 1.59kHz, meaning frequencies below this pass through, while higher frequencies get filtered out.
-
-3. Connect the inductor and resistor in series: Wire the inductor and resistor in series with the signal input.
-
-4. Test the circuit: Feed a signal with high-frequency noise into the circuit. The inductor will block high frequencies, and only the clean, low-frequency part of the signal will pass through to the output.
-
-This demonstrates how an inductor can be used to filter out unwanted high-frequency noise in a circuit.
-
----
-
 ### Related Atomic Ideas:
 
 1. Electromagnetic Induction:
@@ -101,8 +73,6 @@ Inductors and capacitors are used together in resonant circuits (LC circuits) to
 5. Mutual Inductance and Transformers:
 
 Inductors can transfer energy between two circuits through mutual inductance. This concept is fundamental to transformers, which convert voltages and currents in power systems.
-
----
 
 ### Potential Research:
 
@@ -170,22 +140,7 @@ Self-resonance in an inductor is like an athlete's "sweet spot" in performance. 
 
 This demonstrates how self-resonance limits the useful frequency range of an inductor, an important consideration in high-frequency circuit design.
 
-5.  How do inductors store and release energy in a circuit?
 
-Inductors store energy in their magnetic field when current flows through them and release this energy back into the circuit when the current decreases. This property allows inductors to act as energy storage elements in various applications.
-
-An inductor's energy storage capability resembles a spring. When you stretch a spring (analogous to current flowing through an inductor), it stores potential energy. When you release the spring (current decreases), it releases that energy back into the system.
-
-To demonstrate energy storage in inductors, set up this experiment:
-
-1) Create a circuit with a power supply, a switch, an inductor (e.g., 1 mH), and an LED in series.
-2) Include a resistor in parallel with the LED for protection.
-3) Close the switch briefly (e.g., 1 second) and then open it.
-4) Observe that the LED remains lit for a short time after opening the switch.
-5) The energy equation for an inductor is $E = \frac{1}{2}LI^2$, where E is energy, L is inductance, and I is current.
-6) If the inductor is 1 mH and the current is 100 mA, the stored energy would be $E = \frac{1}{2}  0.001  (0.1)^2 = 5  10^{-6}$ joules.
-
-This energy maintains the LED's illumination briefly after the switch opens, demonstrating the inductor's energy storage and release capabilities.
 
 Related Atomic Ideas:
 

@@ -6,17 +6,13 @@ TAG
 
 current
 
----
-
 ## Overview: Current
 
 Current is the flow of electric charge through a conductor, such as a wire, over time. It represents the movement of electrons due to an electric field or potential difference (voltage) applied across two points. The unit of current is the ampere (A), which measures how much charge passes through a point in the circuit per second. Electrical current can flow as direct current (DC) or alternating current (AC) depending on whether the charge flows in one direction or oscillates back and forth.
 
----
-
 ## Atomic Ideas
 
-What is current in the context of an electric circuit?
+What is current?
 
    Current is the rate at which electric charge flows through a conductor. It tells us how many coulombs of charge pass through a point in a circuit per second.
 
@@ -121,8 +117,6 @@ Conductivity is about how easily current flows through a material. Highly conduc
 3. Applications of Alternating Current vs. Direct Current:
 
    - Problem: Research how AC and DC serve different functions in modern electronics. Why do some devices use AC, while others depend on DC?
-
-Overview:
 
 Electric current refers to the flow of electric charge through a conductor. It represents the rate at which charge moves past a given point in an electric circuit. Measured in amperes (A), current plays a fundamental role in the functioning of electrical and electronic devices, determining the amount of electrical energy transferred through a system.
 
