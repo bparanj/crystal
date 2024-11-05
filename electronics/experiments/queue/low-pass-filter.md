@@ -76,3 +76,43 @@ Let’s assume we want to design a low-pass filter using an inductor and resisto
 4. Test the circuit: Feed a signal with high-frequency noise into the circuit. The inductor will block high frequencies, and only the clean, low-frequency part of the signal will pass through to the output.
 
 This demonstrates how an inductor can be used to filter out unwanted high-frequency noise in a circuit.
+
+To design a low-pass filter experiment using Tinkercad, follow these steps:
+
+### Objective
+
+Create a simple RC (Resistor-Capacitor) low-pass filter to observe how it allows low-frequency signals to pass while attenuating higher frequencies.
+
+### Components
+
+1. Resistor (R) - 10 kΩ (or any suitable resistance)
+2. Capacitor (C) - 0.1 µF
+3. Signal Generator - To provide variable frequency signals (use the Function Generator in Tinkercad's circuit workspace)
+4. Oscilloscope - To observe the input and output signals (use the oscilloscope in Tinkercad)
+5. Breadboard - For connecting components
+
+### Circuit Setup
+
+1. Connect the Resistor and Capacitor in Series: 
+   - Place the resistor on the breadboard and connect it to the signal generator's output.
+   - Connect the capacitor’s positive leg to the other end of the resistor.
+   - Connect the capacitor's negative leg to the ground of the signal generator.
+2. Connect Oscilloscope Probes:
+   - Place the oscilloscope probe at the input (signal generator output before the resistor) to monitor the input signal.
+   - Place another oscilloscope probe at the output (junction between resistor and capacitor) to monitor the output signal.
+
+### Procedure
+
+1. Set Signal Generator: Start with a low-frequency signal (e.g., 100 Hz) with a small amplitude (e.g., 5V peak).
+2. Observe Input and Output Signals: Check both signals on the oscilloscope.
+3. Increase Frequency: Gradually increase the frequency (e.g., 500 Hz, 1 kHz, 10 kHz, and so on).
+4. Record Observations: Note how the amplitude of the output signal changes compared to the input as you increase frequency.
+
+### Expected Results
+
+- At low frequencies, the output signal's amplitude should be close to the input amplitude.
+- As the frequency increases, the output amplitude should decrease, showing the low-pass filter effect.
+
+### Key Takeaway
+
+This experiment demonstrates that an RC low-pass filter allows low-frequency signals to pass while attenuating high frequencies, verifying the behavior of a simple low-pass filter.

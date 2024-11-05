@@ -52,3 +52,42 @@ High-Pass Filter Behavior: This RC circuit acts as a high-pass filter because th
 Cutoff Frequency: The cutoff frequency is where the filter transitions between attenuating low frequencies and allowing high frequencies. Frequencies above this point pass with minimal attenuation, while frequencies below are increasingly blocked.
 
 This experiment demonstrates how an RC high-pass filter selectively allows higher frequencies while attenuating lower ones, which is useful in applications like audio signal processing and removing unwanted low-frequency noise from signals.
+
+To design a high-pass filter experiment using Tinkercad, follow these steps:
+
+### Objective
+
+Create a simple RC (Resistor-Capacitor) high-pass filter to observe how it allows high-frequency signals to pass while attenuating lower frequencies.
+
+### Components
+
+1. Resistor (R) - 10 kΩ (or any suitable resistance)
+2. Capacitor (C) - 0.1 µF
+3. Signal Generator - To provide variable frequency signals (use the Function Generator in Tinkercad's circuit workspace)
+4. Oscilloscope - To observe the input and output signals (use the oscilloscope in Tinkercad)
+5. Breadboard - For connecting components
+
+### Circuit Setup
+
+1. Connect the Capacitor and Resistor in Series:
+   - Place the capacitor on the breadboard and connect it directly to the signal generator's output.
+   - Connect the resistor’s one end to the other side of the capacitor.
+   - Connect the resistor’s other end to the ground of the signal generator.
+   
+2. Connect Oscilloscope Probes:
+   - Place the oscilloscope probe at the input (signal generator output before the capacitor) to monitor the input signal.
+   - Place another oscilloscope probe at the output (junction between capacitor and resistor) to monitor the output signal.
+
+### Procedure
+
+1. Set Signal Generator: Start with a low-frequency signal (e.g., 10 Hz) with a small amplitude (e.g., 5V peak).
+2. Observe Input and Output Signals: Check both signals on the oscilloscope.
+3. Increase Frequency: Gradually increase the frequency (e.g., 100 Hz, 500 Hz, 1 kHz, 10 kHz, etc.).
+4. Record Observations: Note how the amplitude of the output signal changes relative to the input as the frequency increases.
+
+### Expected Results
+
+- At low frequencies, the output signal's amplitude should be much lower than the input amplitude, indicating attenuation.
+- As the frequency increases, the output amplitude should rise, approaching the input amplitude, demonstrating the high-pass filter effect.
+
+This experiment demonstrates that an RC high-pass filter allows high-frequency signals to pass while attenuating low frequencies, illustrating the behavior of a basic high-pass filter.
