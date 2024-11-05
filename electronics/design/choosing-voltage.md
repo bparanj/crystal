@@ -1,24 +1,3 @@
-To choose the voltage for a power source in a circuit:
-
-Determine Component Requirements: Check the voltage needs of all components, ensuring they operate within their specified voltage range.
-
-Consider Voltage Drops: Account for any significant voltage drops across components like resistors or diodes, and adjust the power source accordingly.
-
-Safety Margin: Add a small buffer above the minimum required voltage to account for variations and tolerances.
-
-Power Efficiency: Balance providing enough voltage with minimizing excess heat for efficient operation.
-
-Standard Voltage Levels: If possible, select a common voltage level (e.g., 3.3V, 5V, 12V) to simplify design.
-
-Battery vs. Mains Power: For battery-powered devices, consider standard battery voltages.
-
-Regulation Needs: Decide if a regulated power supply is needed for stable voltage.
-
-Current Capacity: Ensure the power source can supply sufficient current at the chosen voltage without exceeding its limits.
-
-Application Constraints: Consider size, weight, and cost limitations of the power source.
-
-Future Expansion: Allow headroom for potential circuit additions or modifications.
 
 
 Draft
