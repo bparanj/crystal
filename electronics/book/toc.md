@@ -11,3 +11,5 @@
 - 9.md Diode
 - 10.md Transistor
 - 11.md Inductor
+- 12.md Voltage Divider
+- 13.md Current Divider
