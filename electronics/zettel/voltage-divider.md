@@ -137,7 +137,7 @@ Atomic Ideas:
 
 PENDING
 
-See voltage-divider-circuit.md
+See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge into one document. Remove duplication.
 
 2.  How does one calculate the output voltage of a voltage divider?
 
@@ -189,7 +189,7 @@ See voltage-divider-circuit.md
 
 5.  How do voltage dividers apply in real-world applications?
 
- Voltage dividers find applications in various electronic circuits,  level shifting, biasing in amplifiers, creating reference voltages, and interfacing sensors with different voltage requirements.
+ Voltage dividers find applications in various electronic circuits, level shifting, biasing in amplifiers, creating reference voltages, and interfacing sensors with different voltage requirements.
 
  The versatility of voltage dividers in electronics is like the versatility of ratios in cooking. Just as a chef uses ratios to adjust recipes for different serving sizes or to balance flavors, engineers use voltage dividers to adjust voltage levels for different circuit requirements.
 

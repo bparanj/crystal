@@ -2,9 +2,7 @@ TAG
 
 passive
 
----
-
-## Overview: Passive Electronic Component
+## Passive Electronic Component
 
 A passive electronic component is a device that does not require an external power source to operate. These components do not produce or amplify electrical signals but instead modify or store energy in the form of electrical signals. Common passive components include resistors, capacitors, and inductors, which controls current, stores energy, and shaping electrical signals within a circuit.
 
@@ -54,17 +52,13 @@ So, produce is a better fit than create when referring to how passive components
 
    In a circuit, when the current through a 1H inductor changes by 2A in 1 second, it generates a back voltage of $V = L \frac{dI}{dt} = 1 \times 2 = 2V$.
 
-5. How do passive components affect AC signals?
-
-   How do passive components like resistors, capacitors, and inductors influence AC signals in a circuit?
+5. How do passive components like resistors, capacitors, and inductors influence AC signals in a circuit?
 
    Passive components shape AC signals by controlling how voltage and current respond to changes in frequency. Resistors limit the current regardless of frequency, while capacitors and inductors react differently depending on the signal's frequency—capacitors block low-frequency signals and allow high-frequency signals, while inductors do the opposite.
 
    Passive components act like filters in a river. A resistor is like a gate that restricts water flow regardless of the water speed, a capacitor is like a filter that stops slow-moving debris but lets fast-moving water pass, and an inductor is like a gate that opens slowly, allowing fast-moving water to stop.
 
    In a low-pass filter circuit, an inductor passes low-frequency signals while blocking high-frequency ones. Adding a capacitor to create a high-pass filter would allow only the higher frequencies to pass.
-
----
 
 ## Solution: Understanding Passive Components in Circuits
 
@@ -88,8 +82,6 @@ $$ V_C(t) = V(1 - e^{-\frac{t}{RC}}) $$
 
 Where $R$ is the resistance and $C$ is the capacitance. Over time, the capacitor acts like an open circuit, blocking current flow.
 
----
-
 ## Related Atomic Ideas:
 
 1. Ohm’s Law:
@@ -106,13 +98,11 @@ Passive components behave differently in AC and DC circuits. Studying AC circuit
 
 4. Energy Storage:
 
-Capacitors and inductors both store energy, but in different forms (electric and magnetic fields). Understanding their energy storage properties helps explain their uses in circuits.
+Capacitors and inductors both store energy, but in different forms (electric and magnetic fields).
 
 5. Impedance:
 
 In AC circuits, capacitors and inductors introduce impedance, which combines resistance and reactance. Impedance explains how these components influence AC signals.
-
----
 
 ## Potential Research:
 
@@ -128,9 +118,6 @@ In AC circuits, capacitors and inductors introduce impedance, which combines res
 
    Explore how capacitors and inductors are used in power conditioning and renewable energy systems. What innovations in passive component design are enabling more efficient energy storage and transfer in these systems?
 
-
-Overview:
-
 Passive electronic components constitute fundamental building blocks in electronic circuits that do not require an external power source to perform their intended functions. These components interact with electrical energy without generating or amplifying it. Passive components include resistors, capacitors, inductors, and transformers. They are used in controlling current flow, storing energy, and shaping signals within electronic systems.
 
 Atomic Ideas:
@@ -140,6 +127,8 @@ Atomic Ideas:
 A passive electronic component interacts with electrical energy without requiring an external power source for operation. It cannot generate, amplify, or process electrical signals using external power. Passive components either dissipate, store, or release electrical energy.
 
 Passive components resemble various types of plumbing fixtures. Like how pipes, valves, and tanks control water flow without pumping, passive components manage electrical energy without actively generating or boosting it.
+
+This experiment is already complete.
 
 To demonstrate a passive component's behavior:
 
@@ -160,24 +149,6 @@ a) Use Ohm's Law: $I = \frac{V}{R}$
 b) Substitute the values: $I = \frac{5 \text{ V}}{330 \text{ Ω}}$
 c) Perform the division: $I \approx 0.0152 \text{ A}$ or 15.2 mA
 d) The resistor limits the current to approximately 15.2 milliamperes.
-
-PENDING
-
-Is this experiment already in experiments folder. If so, merge this section:
-
-4. How do inductors behave as passive components?
-
-Inductors store energy in a magnetic field created by current flow through a coil of wire. They resist changes in current flow, allowing DC to pass while impeding AC. Their inductance is measured in henries (H).
-
-An inductor acts like a heavy water wheel in a stream. It resists sudden changes in water flow (current) due to its inertia, smoothing out flow variations.
-
-Example: To demonstrate an inductor's effect:
-
-a) Set up an AC circuit with a function generator, a 100mH inductor, and an oscilloscope.
-b) Generate a square wave signal at 1kHz.
-c) Observe the square wave on the oscilloscope without the inductor.
-d) Insert the inductor in series and observe how it rounds the square wave edges.
-e) This shows how the inductor resists rapid current changes, smoothing the signal.
 
 5. How do transformers function as passive components?
 

@@ -32,11 +32,8 @@ Bypass capacitor. Decoupling capacitor.
 Inductor, Electromagnet, Solenoid
 
 
-### Overview:
-
 A potentiometer is a three-terminal resistor with an adjustable center connection, or "wiper." It acts as a variable resistor (or rheostat) or a voltage divider. By turning a knob or sliding a lever, you can vary the resistance, allowing control over current or voltage in a circuit. Potentiometers  appear in volume controls, light dimmers, and sensor adjustments.
 
----
 PENDING
 
 Review the experiments in this file and see which ones can be used and move to experiments folder.
@@ -115,8 +112,6 @@ Capacitive touch sensors provide a modern alternative to potentiometers. Compari
 5. Rheostats:
 
 Rheostats are similar to potentiometers but only have two terminals and are used solely to control current. Understanding this distinction helps clarify when to use a potentiometer versus a rheostat.
-
----
 
 ### Potential Research:
 

@@ -2,63 +2,59 @@
 
 1. Circuit Diagram-Specific Tools:
 
-   - KiCad: 
-   
+   - KiCad:
+
    Open-source tool for schematic capture and PCB layout design.
-   
-   - Fritzing: 
-   
+
+   - Fritzing:
+
    Easy-to-use tool for creating schematics, particularly good for beginners and hobbyists. This seems to be a paid product.
-   
-   - LTspice: 
-   
+
+   - LTspice:
+
    A tool for simulating and designing circuits, which also allows you to draw schematics. Does not look good.
 
 2. Online Tools:
 
-   - CircuitLab: 
-   
+   - CircuitLab:
+
    An online tool that allows you to draw, simulate, and share circuit diagrams.
-   
-   - EasyEDA: 
-   
+
+   - EasyEDA:
+
    A web-based tool that offers schematic capture, PCB layout, and simulation. Not for beginners.
-   
-   - Tinkercad Circuits: 
-   
+
+   - Tinkercad Circuits:
+
    An easy-to-use online tool that’s great for beginners and educational purposes.
 
 3. Text-Based Tools (Similar to Mermaid):
 
-   - Circuitikz: 
-   
+   - Circuitikz:
+
    A LaTeX package that allows you to draw electrical networks directly within a LaTeX document.
-   
-   - Spice: 
-   
+
+   - Spice:
+
    While primarily a simulation tool, Spice's netlist format is a text-based way of describing circuits, and tools like LTspice can visualize these netlists as schematics. Not easy to find any resources for learning.
 
 ### Example of a Simple Schematic Diagram:
 
 A resistor, capacitor, and inductor connected in series, with each component represented by its standard symbol.
 
-- Resistor: 
+- Resistor:
 
 Represented by a zigzag line.
 
-- Capacitor: 
+- Capacitor:
 
 Represented by two parallel lines (one may be curved for a polarized capacitor).
 
-- Inductor: 
+- Inductor:
 
 Represented by a series of loops or humps.
 
 ### Example using Circuitikz in LaTeX:
-
-PENDING
-
-Work through tutorials on https://www.overleaf.com/
 
 This code generates a resistor, capacitor and inductor in series.
 

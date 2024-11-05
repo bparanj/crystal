@@ -106,8 +106,6 @@ Different LED colors require different forward voltages. Understanding this help
 
 LEDs are often used in series or parallel configurations. Knowing how to wire LEDs in these ways allows for more complex applications, such as multi-LED lighting systems.
 
----
-
 ### Potential Research:
 
 1. Can more efficient LED designs reduce heat generation in high-power applications?

@@ -2,11 +2,7 @@ TAG
 
 relay
 
-### Overview:
-
 A relay is an electrically operated switch that uses a small electrical current to control a larger current. Relays allow low-power circuits to control high-power loads safely. Typically, a relay consists of an electromagnet, a set of contacts, and a switch mechanism. Relays find common use in applications requiring the separation of control and power circuits.
-
----
 
 ### Atomic Ideas:
 
@@ -25,7 +21,7 @@ A relay is an electrically operated switch that uses a small electrical current 
 3. What is the difference between a normally open (NO) and a normally closed (NC) relay?
 
    In a normally open (NO) relay, the contacts remain open (circuit off) when no current flows through the coil. In a **normally closed (NC)** relay, the contacts remain closed (circuit on) when no current flows through the coil.
-    A normally open relay behaves like a door that stays closed until you press a button to open it. A normally closed relay behaves like a door that stays open until you press a button to close it.
+    A open relay behaves like a door that stays closed until you press a button to open it. A normally closed relay behaves like a door that stays open until you press a button to close it.
     In a normally open relay, pressing a button sends current to the coil, causing the contacts to close and the circuit to activate. In a normally closed relay, pressing a button breaks the current flow, causing the contacts to open and deactivate the circuit.
 
 4. What is the role of the coil in a relay?
@@ -39,8 +35,6 @@ A relay is an electrically operated switch that uses a small electrical current 
    Relays provide electrical isolation between the control circuit and the power circuit, meaning the two circuits do not directly connect but communicate through the relay.
     A relay works like a messenger in a factory. The control team sends instructions through the messenger to the power team without directly interacting with the machines themselves.
     In an industrial setting, a 5V control signal from a microcontroller can operate a 240V motor without the control system handling the high voltage directly, thanks to the isolation provided by the relay.
-
----
 
 ### Solution:
 
@@ -78,8 +72,6 @@ Contactors resemble relays but handle higher currents. Studying contactors helps
 
 Relays often get used in circuits with fuses or circuit breakers. Understanding these protective devices helps when designing safe electrical systems where relays play a key role.
 
----
-
 ### Potential Research:
 
 1. How can solid-state relays improve durability in harsh environments?
@@ -93,8 +85,6 @@ Relays often get used in circuits with fuses or circuit breakers. Understanding 
 3. What are the energy efficiency implications of using relays in power control systems?
 
    Investigate the energy consumption of relays in large-scale applications and whether alternative switching technologies could reduce energy losses.
-
-Overview:
 
 A relay functions as an electrically operated switch, using an electromagnet to mechanically control one or more sets of electrical contacts. When an electrical current passes through the relay's coil, it generates a magnetic field that attracts a movable armature, which in turn opens or closes the contacts. This mechanism allows a low-power signal to control a higher-power circuit, providing electrical isolation between the controlling circuit and the controlled circuit.
 

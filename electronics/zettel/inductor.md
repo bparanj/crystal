@@ -6,8 +6,6 @@ TAG
 
 inductor
 
-### Overview:
-
 An inductor is a passive electronic component that stores energy in a magnetic field when electrical current flows through it. Inductors oppose changes in current and are used in filtering, energy storage, and tuning circuits. The amount of inductance depends on factors such as the coil’s number of turns, the core material, and the shape and size of the coil.
 
 ### Atomic Ideas:
@@ -139,8 +137,6 @@ Self-resonance in an inductor is like an athlete's "sweet spot" in performance. 
 6) The frequency at the impedance peak is the self-resonant frequency (SRF). For a 10 µH inductor, this might be around 20-30 MHz.
 
 This demonstrates how self-resonance limits the useful frequency range of an inductor, an important consideration in high-frequency circuit design.
-
-
 
 Related Atomic Ideas:
 
