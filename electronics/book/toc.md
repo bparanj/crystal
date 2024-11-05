@@ -7,6 +7,7 @@
 - 6.md Potentiometer
 - 7.md Capacitor
 - 8.md Missing Capacitor Experiment
+- 8b.md Polarized Capacitor
 - 9.md Diode
 - 10.md Transistor
 - 11.md Inductor
