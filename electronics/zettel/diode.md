@@ -6,7 +6,27 @@ TAG
 
 diode
 
-An active electronic component is a device that can control or amplify electrical signals and requires an external power source to operate. Active components differ from passive components because they can introduce energy into a circuit and manage the flow of electricity. Common examples are transistors, diodes, and integrated circuits. These components are used in complex circuits, enabling switching, amplification, and regulation of electrical signals.
+An active electronic component is a device that can control or amplify electrical signals and requires an external power source to operate. They can introduce energy into a circuit and manage the flow of electricity. Common examples are transistors, diodes, and integrated circuits. These components are used in complex circuits, enabling switching, amplification, and regulation of electrical signals.
+
+A transistor is an active component because it requires an external power source to amplify electrical signals, allowing it to act as a switch or amplifier in a circuit.
+
+A transistor is a three-terminal device (base, collector, emitter) that can switch or amplify signals. By applying a small current to the base, the transistor allows a much larger current to flow between the collector and emitter, thus controlling the overall current in the circuit.
+
+In an amplifier circuit, a bipolar junction transistor (BJT) amplifies an audio signal by controlling a larger current with a smaller input signal.
+
+A diode allows current to flow in one direction while blocking it in the opposite direction. This makes diodes useful for converting alternating current (AC) to direct current (DC) in rectifier circuits.
+
+In a power supply circuit, a diode is used to convert AC from a wall outlet into DC that powers electronic devices, such as your phone charger.
+
+Active components can amplify signals by using a small input signal to control a larger output signal. This amplification process allows weak signals to be strengthened. Examples are audio amplification and radio transmission.
+
+Amplification works like a speaker system where a small input from a microphone (weak signal) is amplified to produce a loud sound (strong signal).
+
+In an audio amplifier circuit, a transistor takes a weak input signal from a microphone and increases its power to drive a loudspeaker, making the sound audible to a larger audience.
+
+Amplification occurs when an active component like a transistor increases the power of a signal.
+
+=============================
 
 ## Atomic Ideas
 
@@ -129,6 +149,10 @@ The forward voltage drop represents the voltage across a diode when it conducts 
 
 The forward voltage drop resembles the effort needed to open a spring-loaded door. Once you apply enough force to overcome the spring (reach the forward voltage), the door opens (diode conducts), and additional force (voltage) doesn't significantly change the door's position (voltage across the diode).
 
+PENDING
+
+Review and see if this experiment can be done in Tinkercad
+
 Measure the forward voltage of an LED:
 
 a) Set up a circuit with a variable power supply, a 220Ω resistor, the LED, and a voltmeter.
@@ -141,6 +165,10 @@ d) Observe that this voltage ( 1.8V-3.3V) remains relatively constant even as yo
 The reverse breakdown voltage specifies the reverse-bias voltage at which a diode's ability to block reverse current fails, causing a large reverse current to flow. Most diodes avoid operation in this region, but Zener diodes utilize it for voltage regulation.
 
 Reverse breakdown resembles a dam holding back water. The dam (diode) blocks water (current) effectively up to a certain water level (reverse voltage). If the water level exceeds this point (breakdown voltage), the dam fails, and water rushes through (reverse current flows).
+
+PENDING
+
+Review and see if this experiment can be done in Tinkercad
 
 Demonstrate Zener diode voltage regulation:
 
@@ -156,6 +184,10 @@ d) Observe the voltage across the Zener diode:
 Diode capacitance arises from the charge stored in the depletion region at the p-n junction. It varies with applied reverse voltage and affects the diode's high-frequency performance. The junction capacitance $C_j$ relates to the applied reverse voltage V: $C_j = \frac{C_{j0}}{(1 + \frac{V}{V_0})^m}$, where $C_{j0}$, $V_0$, and m are device-specific parameters.
 
 Diode capacitance resembles a variable-size bucket in a water system. As you increase water pressure (reverse voltage), the bucket shrinks (capacitance decreases), allowing faster changes in water flow (better high-frequency response).
+
+PENDING
+
+Review and see if this experiment can be done in Tinkercad
 
 To observe the effect of diode capacitance:
 
