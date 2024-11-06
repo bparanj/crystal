@@ -9,3 +9,4 @@
 - [Basic Simulations](https://www.youtube.com/playlist?list=PLxtiTGwRHk3OdlJg1Ita9kaN9HVv1Cgv7)
 - [Voltage Regulator](https://www.tinkercad.com/things/fBosanc7O9u-voltage-regulators)
 - [Overleaf Tutorials](https://www.overleaf.com/)
+- [Build an RC Circuit](https://www.youtube.com/watch?v=HYfKEGflqno)

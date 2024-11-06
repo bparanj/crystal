@@ -39,12 +39,6 @@ A simple experiment in Tinkercad to demonstrate a relay-driven LED circuit:
    - When you power the circuit, the transistor will activate the relay by energizing the coil when a small current flows into the transistor's base.
    - The relay will switch, closing the circuit between the NO terminal and COM, allowing current to flow through the LED and light it up.
 
-### Explanation:
-
-In this setup:
-
-- The transistor acts as a switch that controls the relay.
-- When a signal is sent to the transistor’s base, it completes the circuit for the relay coil, energizing the relay.
-- This energization switches the relay’s NO terminal to COM, turning on the LED by allowing current to flow through it.
+The transistor acts as a switch that controls the relay. When a signal is sent to the transistor’s base, it completes the circuit for the relay coil, energizing the relay. This energization switches the relay’s NO terminal to COM, turning on the LED by allowing current to flow through it.
 
 This experiment demonstrates how a relay can be controlled with a low-power signal (from the transistor) to switch a higher-power device (the LED) and is a fundamental principle in relay-driven circuits.

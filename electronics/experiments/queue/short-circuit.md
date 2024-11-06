@@ -3,7 +3,7 @@ PENDING
 Put everything related to types of circuit in this document
 Extract some of the content here to the first experiment about short circuit.
 
-The term short circuit includes "short" because it describes a direct path for current that shortens the route through the circuit.
+The term short circuit includes short because it describes a direct path for current that shortens the route through the circuit.
 
 In a normal circuit, current flows through components such as resistors, capacitors, etc. Every component adds resistance and controls the current flow. However, in a short circuit, a low-resistance path bypasses these components, often directly connecting the power source to the ground or another point. This shortcut shortens the circuit path, allowing an uncontrolled surge of current that can damage components or create heat and sparks.
 

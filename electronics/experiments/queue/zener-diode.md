@@ -10,7 +10,7 @@ A simple circuit in Tinkercad to demonstrate the use of a Zener diode as a refer
 
 ### Steps
 
-1. Setup Power Supply: 
+1. Setup Power Supply:
 
 Connect the positive terminal of your power supply to the breadboard’s positive rail, and the ground to the negative rail.
 
@@ -30,8 +30,6 @@ Connect the positive terminal of your power supply to the breadboard’s positiv
 5. Observe the Reference Voltage:
    - As the input voltage is higher than the Zener breakdown voltage, the diode will conduct and "clamp" the voltage at its breakdown level (e.g., 5.1V).
    - The multimeter should show a stable voltage close to the Zener's breakdown voltage, demonstrating the Zener diode’s function as a reference voltage.
-
-### Explanation
 
 The Zener diode maintains a constant voltage across it once the input voltage surpasses its breakdown voltage. This property is useful for creating a stable reference voltage in circuits, even when the input voltage fluctuates.
 

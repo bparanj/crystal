@@ -41,7 +41,7 @@ To demonstrate how a photoresistor (light-dependent resistor or LDR) works, you 
 3. Place the Multimeter Across the Photoresistor:
    - To observe changes in voltage or resistance, connect a multimeter across the photoresistor. Set it to measure either resistance or voltage.
 
-### Experiment Steps:
+### Steps:
 
 1. Observe the Circuit in Normal Light:
    - Run the simulation in Tinkercad with standard ambient light. Observe the LED brightness and the voltage or resistance reading on the multimeter.
@@ -56,9 +56,12 @@ To demonstrate how a photoresistor (light-dependent resistor or LDR) works, you 
    - Now, increase the light level back to simulate bright light.
    - Expected Outcome: In brighter light, the resistance of the photoresistor decreases, allowing more current to flow through the LED, making it brighter. The multimeter will show a lower resistance across the photoresistor.
 
-### Explanation:
+Photoresistor Behavior:
 
-- Photoresistor Behavior: The photoresistor’s resistance changes with light intensity: it has low resistance in bright light and high resistance in darkness.
-- Voltage Divider: The combination of the fixed resistor and photoresistor creates a voltage divider, where the voltage at the midpoint (and therefore the LED brightness) changes with the photoresistor’s resistance.
-  
-This experiment visually demonstrates how a photoresistor reacts to different light levels, making it ideal for light-sensing circuits like automatic lights and brightness-sensitive alarms.
+The photoresistor’s resistance changes with light intensity: it has low resistance in bright light and high resistance in darkness.
+
+Voltage Divider:
+
+The combination of the fixed resistor and photoresistor creates a voltage divider, where the voltage at the midpoint (and therefore the LED brightness) changes with the photoresistor’s resistance.
+
+This experiment demonstrates how a photoresistor reacts to different light levels, making it ideal for light-sensing circuits like automatic lights and brightness-sensitive alarms.

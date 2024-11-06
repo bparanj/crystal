@@ -45,11 +45,7 @@ To show how a transistor amplifier can increase (or "gain") the power of a weak 
    - You’ll notice that the speaker or LED responds more strongly than the input signal alone would cause.
    - This increase in the output signal’s strength (volume or brightness) is due to power gain: the transistor is amplifying the weak input signal by drawing more current from the 9V power supply.
 
-In this experiment:
-
-- The transistor acts as a current amplifier. A small current at the base controls a larger current through the collector-emitter path, increasing the output power.
-- Power gain is the ratio of the output power (at the speaker or LED) to the input power (from the signal generator or audio source).
-- The experiment visually or audibly demonstrates power gain, as the weak input signal results in a significantly stronger output response, thanks to the transistor amplifier.
+The transistor acts as a current amplifier. A small current at the base controls a larger current through the collector-emitter path, increasing the output power. Power gain is the ratio of the output power (at the speaker or LED) to the input power (from the signal generator or audio source). The experiment visually or audibly demonstrates power gain, as the weak input signal results in a significantly stronger output response, thanks to the transistor amplifier.
 
 This experiment illustrates power gain simply by amplifying a low-power signal into a more powerful output that’s easy to observe.
 

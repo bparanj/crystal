@@ -39,9 +39,12 @@ A positive clipper circuit allows only the negative portion of an AC signal to p
 3. Adjusting Clipping Level (Optional):
    - If you have included the DC power supply in series with the diode, adjust its voltage to see how the clipping level changes. Increasing the DC voltage will clip the signal at a higher positive level.
 
-### Explanation:
+Diode Action:
 
-- Diode Action: The diode only allows current to flow when the AC voltage exceeds its forward voltage (around 0.7V for a silicon diode). During the positive half-cycle, the diode conducts and “clips” the signal by grounding it, limiting it to roughly 0V (or the DC offset).
-- Clipping Effect: The positive portion of the AC signal is clipped, while the negative portion remains unaffected.
+The diode only allows current to flow when the AC voltage exceeds its forward voltage (around 0.7V for a silicon diode). During the positive half-cycle, the diode conducts and “clips” the signal by grounding it, limiting it to roughly 0V (or the DC offset).
+
+Clipping Effect:
+
+The positive portion of the AC signal is clipped, while the negative portion remains unaffected.
 
 This simple experiment shows how a positive clipper circuit can limit the voltage of an AC signal, making it useful for applications where you need to protect circuits from high positive voltages or create modified AC waveforms.

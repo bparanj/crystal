@@ -31,7 +31,7 @@ A negative clamper circuit shifts the entire AC waveform downward, "clamping" th
 
 If you want to clamp the signal at a set negative voltage (e.g., -5V), add a small DC power supply in series with the diode, with the positive terminal connected to the anode of the diode and the negative terminal to ground.
 
-### Experiment Steps:
+### Steps:
 
 1. Run the Simulation:
    - Start the simulation in Tinkercad.
@@ -44,8 +44,12 @@ If you want to clamp the signal at a set negative voltage (e.g., -5V), add a sma
 3. Adjusting Clamping Level (Optional):
    - If you included the optional DC power supply, adjust the voltage to change the clamping level. Increasing the DC voltage will clamp the signal at a lower (more negative) level.
 
-Diode Action: During the positive half of the AC cycle, the diode becomes forward-biased and conducts, allowing the capacitor to charge. During the negative half, the diode is reverse-biased, and the capacitor holds its charge, effectively shifting the waveform downward.
+Diode Action:
 
-Clamping Effect: The circuit "clamps" the maximum voltage of the AC waveform to approximately 0V (or a set negative voltage), shifting the entire signal down.
+During the positive half of the AC cycle, the diode becomes forward-biased and conducts, allowing the capacitor to charge. During the negative half, the diode is reverse-biased, and the capacitor holds its charge, effectively shifting the waveform downward.
 
-This experiment effectively demonstrates how a negative clamper shifts an AC signal to create a negative offset, useful in applications like signal level adjustment and DC restoration.
+Clamping Effect:
+
+The circuit "clamps" the maximum voltage of the AC waveform to approximately 0V (or a set negative voltage), shifting the entire signal down.
+
+This experiment demonstrates how a negative clamper shifts an AC signal to create a negative offset, useful in applications like signal level adjustment and DC restoration.

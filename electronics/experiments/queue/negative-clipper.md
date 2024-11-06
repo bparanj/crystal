@@ -39,9 +39,12 @@ If you want to set the clipping level at a specific voltage, you can add a DC po
 3. Adjusting Clipping Level (Optional):
    - If you added a DC power supply in series with the diode, adjust the voltage to see how the clipping level changes. Increasing the DC voltage will clip the signal at a lower negative level.
 
-### Explanation:
+Diode Action:
 
-- Diode Action: The diode conducts during the negative half-cycle of the AC signal, grounding the negative voltage and effectively “clipping” it to 0V (or the DC offset level).
-- Clipping Effect: The negative portion of the AC signal is clipped off, while the positive portion remains unaffected.
+The diode conducts during the negative half-cycle of the AC signal, grounding the negative voltage and effectively “clipping” it to 0V (or the DC offset level).
+
+Clipping Effect:
+
+The negative portion of the AC signal is clipped off, while the positive portion remains unaffected.
 
 This experiment demonstrates how a negative clipper circuit limits the negative voltage of an AC signal, useful in applications where only the positive half of a signal is needed or to protect circuits from negative voltages.

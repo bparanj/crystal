@@ -1,11 +1,12 @@
 
-- [Build an RC Circuit](https://www.youtube.com/watch?v=HYfKEGflqno)
 
 You can add a LED to visually show the charging and discharging of capacitor.
 
-This is the same as the existing capacitor experiment #7:
+PENDING
 
-### Revised RC Circuit Experiment (for 5V battery)
+This is the same as the existing capacitor experiment #7. Merge or delete this document.
+
+### RC Circuit Experiment
 
 #### Materials:
 

@@ -1,29 +1,5 @@
-PENDING
 
-Review and edit:
-
-
-In electronics, always connect the negative terminal first to minimize short circuit risks and establish a stable ground reference. Keep the positive terminal unconnected until all components are securely in place to prevent potential damage.
-
-Minimize Short Circuits:
-
-Connecting the negative terminal first keeps the circuit at ground potential, avoiding accidental shorts.
-
-Stable Reference:
-
-Establishing a ground reference helps reduce voltage spikes and prevents incorrect wiring.
-
-Avoid Surges:
-
-Leaving the positive terminal disconnected during wiring prevents unexpected surges and component damage.
-
-Organized Assembly:
-
-Connecting the negative terminal first allows verification of connections before applying power, making assembly safer and troubleshooting easier.
-
-Common Practice for Breadboards
-
-Connect the negative terminal to the negative rail first, then connect the positive terminal last. This minimizes shorts, avoids surges, and allows for final checks before powering up. If issues arise, disconnecting the positive terminal is easy for safe troubleshooting.
+Always connect the negative terminal first to keep the circuit at ground potential. This minimizes short circuit risks. Keep the positive terminal unconnected until all components are connected to prevent potential damage. If there is any problem, disconnect the positive terminal to open the circuit and troubleshoot safely.
 
 Draft
 ----------

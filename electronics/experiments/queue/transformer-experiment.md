@@ -12,7 +12,7 @@ To demonstrate electromagnetic induction in a transformer, showing that electric
 - A small LED or low-wattage light bulb
 - A multimeter to measure voltage
 - Connecting wires
-- Breadboard (optional)
+- Breadboard
 
 ### Procedure:
 

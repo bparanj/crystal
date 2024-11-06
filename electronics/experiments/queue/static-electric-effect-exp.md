@@ -4,7 +4,7 @@ A simple experiment to illustrate the static electric effect:
 
 To demonstrate how rubbing different materials together can generate static electricity and cause objects to attract or repel each other.
 
-### Materials Needed:
+### Materials:
 
 - A balloon
 - A piece of wool cloth or a sweater
@@ -56,4 +56,4 @@ This experiment demonstrates the static electric effect. When you rub the plasti
 
 When you bring this charged object near the neutral tissue paper, it induces a temporary charge separation in the paper. The side of the paper closer to the charged object becomes oppositely charged (positive in this case), while the far side becomes similarly charged (negative). Since opposite charges attract, the tissue paper is pulled towards the comb or balloon.
 
-This experiment illustrates key concepts of the static electric effect: charge transfer, induction, and electrostatic attraction.
+This experiment illustrates concepts of the static electric effect: charge transfer, induction, and electrostatic attraction.

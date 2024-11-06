@@ -4,9 +4,9 @@ PENDING Tinkercad
 
 - Is this experiment already in the Tinkercad simulation and covered in the current experiment?
 
-### 1. Experiment 1: Transistor as a Switch
+### Experiment 1: Transistor as a Switch
 
-Objective: 
+Objective:
 
 Demonstrate how a transistor can be used as a switch to control a LED.
 
@@ -31,11 +31,11 @@ Operation:
    - When the switch is open, no current flows to the base of the transistor, so the LED remains off.
    - When the switch is closed, a small current flows into the base, allowing a larger current to flow from the collector to the emitter, lighting up the LED.
 
-   - This experiment shows how a small current at the base of the transistor can control a larger current flowing through the collector-emitter path, effectively acting as a switch.
+This experiment shows how a small current at the base of the transistor can control a larger current flowing through the collector-emitter path, effectively acting as a switch.
 
-### 2. Experiment 2: Transistor as an Amplifier
+### Experiment 2: Transistor as an Amplifier
 
-Objective: 
+Objective:
 
 Demonstrate the amplification property of a transistor by amplifying a small audio signal.
 
@@ -64,9 +64,9 @@ Procedure:
 
    This experiment shows how a transistor can amplify a small input signal (audio from the phone) into a larger output signal (enough to drive the speaker), demonstrating its use as an amplifier.
 
-### 3. Experiment 3: Transistor as an Oscillator
+### Experiment 3: Transistor as an Oscillator
 
-Objective: 
+Objective:
 
 Demonstrate how a transistor can be used to generate a periodic signal, such as a square wave.
 
@@ -96,15 +96,15 @@ This experiment demonstrates the transistor’s ability to work in a feedback lo
 
 ### Summary:
 
-Experiment 1: 
+Experiment 1:
 
 Shows how a transistor can act as a switch, controlling a larger current with a smaller one.
 
-Experiment 2: 
+Experiment 2:
 
 Demonstrates the amplification property of a transistor, turning a small audio signal into a larger one.
 
-Experiment 3: 
+Experiment 3:
 
 Illustrates the use of a transistor in an oscillator circuit, generating periodic signals.
 

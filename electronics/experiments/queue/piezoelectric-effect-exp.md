@@ -30,15 +30,12 @@ Watch the multimeter’s display as you apply and release pressure on the piezoe
 
 Try applying different amounts of pressure to see how it affects the voltage reading. Notice that the harder you press, the higher the voltage generated.
 
-### Explanation:
-
 This experiment demonstrates the piezoelectric effect, where mechanical pressure applied to a piezoelectric material generates an electrical voltage. When pressure is applied, it deforms the crystal structure within the material, causing a displacement of charge and generating a voltage across the material. This simple setup shows how mechanical energy can be converted directly into electrical energy, illustrating the fundamental principle behind piezoelectric sensors, microphones, and other devices.
-
 
 
 A simple experiment to illustrate the piezoelectric effect. This demonstrates both the direct and inverse piezoelectric effects using readily available materials.
 
-Experiment: 
+Experiment:
 
 Demonstrating Piezoelectricity with a Buzzer
 
@@ -87,11 +84,11 @@ Inverse Effect:
 
 This experiment demonstrates both aspects of the piezoelectric effect:
 
-1. Direct Effect: 
+1. Direct Effect:
 
 When mechanical stress (tapping) is applied to the piezoelectric material in the buzzer, it generates an electrical charge. This is the principle behind piezoelectric sensors and energy harvesters.
 
-2. Inverse Effect: 
+2. Inverse Effect:
 
 When an electric current flows through the piezoelectric material (from tapping or the battery), it causes a physical deformation. This is how piezoelectric actuators and speakers work.
 

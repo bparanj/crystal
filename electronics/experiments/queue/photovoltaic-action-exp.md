@@ -5,7 +5,7 @@ A simple experiment to illustrate the concept of photovoltaic action:
 
 To demonstrate how sunlight can be converted directly into electrical energy using a solar cell.
 
-### Materials Needed:
+### Materials:
 
 - A small solar cell (like those found in solar-powered calculators or small solar panels)
 - A multimeter set to measure voltage (in volts)
@@ -35,15 +35,13 @@ To demonstrate how sunlight can be converted directly into electrical energy usi
 
    - Disconnect the multimeter and connect the solar cell directly to a small LED or another low-power device. Expose the solar cell to light, and observe that the LED lights up or the device operates, powered by the electricity generated through photovoltaic action.
 
-### Explanation:
-
 This experiment demonstrates photovoltaic action, where light energy is converted directly into electrical energy by the solar cell. When photons from the light source strike the semiconductor material in the solar cell, they excite electrons, freeing them from their atomic bonds and creating an electric current. The multimeter reading shows the voltage generated, and the optional LED demonstrates that this electrical energy can be used to power devices. This simple setup provides a clear illustration of how solar cells harness light to generate electricity.
 
 A simple experiment to illustrate photovoltaic action.
 
 Experiment: Demonstrating Photovoltaic Effect with a DIY Solar Cell
 
-Materials needed:
+Materials:
 
 1. A small solar cell (can be purchased from an electronics store or salvaged from a solar-powered garden light)
 2. A multimeter

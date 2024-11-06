@@ -2,9 +2,13 @@
 Here are three simple experiments designed to demonstrate Ohm's Law, which states that the current through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them.
 
 ### 1. Experiment 1: Basic Verification of Ohm's Law
-Objective: Demonstrate the relationship between voltage, current, and resistance in a simple circuit.
+
+Objective:
+
+Demonstrate the relationship between voltage, current, and resistance in a simple circuit.
 
 Materials:
+
 - Resistor (e.g., 1 kΩ)
 - Battery (e.g., 9V)
 - Ammeter (to measure current)
@@ -30,7 +34,10 @@ Procedure:
    - This experiment demonstrates Ohm’s Law by showing that the voltage across the resistor is proportional to the current through it, and the proportionality constant is the resistance.
 
 ### 2. Experiment 2: Varying Voltage to Observe Changes in Current
-Objective: Show how changing the voltage across a resistor affects the current, verifying Ohm’s Law.
+
+Objective:
+
+Show how changing the voltage across a resistor affects the current, verifying Ohm’s Law.
 
 Materials:
 - Variable power supply (or a series of batteries with different voltages)
@@ -56,10 +63,12 @@ Procedure:
 4. Explain:
    - This experiment shows that as you increase the voltage, the current increases proportionally, confirming that \( V = IR \).
 
-### 3. Experiment 3: Varying Resistance to Observe Changes in Current
+### Experiment 3: Varying Resistance to Observe Changes in Current
+
 Objective: Demonstrate how changing the resistance in a circuit affects the current, in accordance with Ohm’s Law.
 
 Materials:
+
 - Resistor set with different values (e.g., 100Ω, 500Ω, 1 kΩ)
 - Battery (e.g., 9V)
 - Ammeter
@@ -67,6 +76,7 @@ Materials:
 - Wires for connections
 
 Procedure:
+
 1. Set Up the Circuit:
    - Connect one of the resistors in series with the battery.
    - Connect the ammeter in series to measure the current.
@@ -90,4 +100,4 @@ Procedure:
 - Experiment 2: Demonstrates how changing the voltage affects the current in a resistor, confirming the proportional relationship.
 - Experiment 3: Shows the effect of changing resistance on current for a constant voltage, illustrating the inverse relationship described by Ohm’s Law.
 
-These experiments provide a clear, hands-on demonstration of the principles behind Ohm's Law, helping to solidify understanding of the relationship between voltage, current, and resistance.
+These experiments provide a hands-on demonstration of the principles behind Ohm's Law, helping to solidify understanding of the relationship between voltage, current, and resistance.

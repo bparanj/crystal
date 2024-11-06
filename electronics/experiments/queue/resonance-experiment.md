@@ -1,5 +1,10 @@
 The simplest experiment to demonstrate resonance in electronics is the LC circuit (inductor-capacitor circuit).
 
+
+PENDING
+
+Is this the same as second order circuit. Merge or delete this document.
+
 1. Components:
    - Inductor (L)
    - Capacitor (C)

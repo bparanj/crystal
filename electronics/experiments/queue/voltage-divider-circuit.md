@@ -1,8 +1,11 @@
+PENDING
+
+This is the same as voltage-drop-experiment.md
+Merge or delete this document
+
 A basic voltage divider consists of two resistors connected in series across a voltage source, with the output voltage taken from the connection point between the two resistors.
 
 A voltage divider resembles a water pipe with two constrictions in series. Just as the water pressure decreases after each constriction, the voltage drops across each resistor in the divider.
-
-To construct a basic voltage divider, follow these steps:
 
 1) Get two resistors (e.g., 1kΩ and 2kΩ) and a 9V battery.
 2) Connect the resistors in series:

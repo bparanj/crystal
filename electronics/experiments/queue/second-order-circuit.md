@@ -23,7 +23,7 @@ A second-order circuit typically includes two energy storage components, such as
 3. Set Up the Oscilloscope:
    - Connect the oscilloscope probes across the capacitor (one probe on each terminal) to monitor the voltage across it as the circuit responds to the power source.
 
-### Experiment Steps:
+### Steps:
 
 1. Observing the Transient Response (Step Response):
    - Start the simulation in Tinkercad.

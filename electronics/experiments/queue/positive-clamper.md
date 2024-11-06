@@ -31,7 +31,7 @@ A positive clamper circuit shifts the entire waveform of an AC signal upward, ef
 
 If you want to clamp the signal at a set positive voltage (e.g., +5V), add a small DC power supply in series with the diode, between the anode of the diode and the AC source.
 
-### Experiment Steps:
+### Steps:
 
 1. Run the Simulation:
    - Start the simulation in Tinkercad.
@@ -44,9 +44,12 @@ If you want to clamp the signal at a set positive voltage (e.g., +5V), add a sma
 3. Adjusting Clamping Level (Optional):
    - If you added a DC power supply in series with the diode, adjust the voltage to change the clamping level. Increasing the DC voltage will shift the waveform even higher on the output.
 
-### Explanation:
+Diode Action:
 
-- Diode Action: During the positive half-cycle of the AC signal, the diode becomes reverse-biased, preventing current flow and allowing the capacitor to charge up. During the negative half-cycle, the diode conducts, allowing the capacitor to maintain its charge, effectively shifting the waveform up.
-- Clamping Effect: The circuit "clamps" the minimum voltage of the AC waveform to approximately 0V (or the DC offset level), shifting the entire signal upward.
+During the positive half-cycle of the AC signal, the diode becomes reverse-biased, preventing current flow and allowing the capacitor to charge up. During the negative half-cycle, the diode conducts, allowing the capacitor to maintain its charge, effectively shifting the waveform up.
 
-This experiment effectively demonstrates how a positive clamper shifts an AC signal to create a positive offset, useful in applications like DC restoration and signal level adjustment.
+Clamping Effect:
+
+The circuit "clamps" the minimum voltage of the AC waveform to approximately 0V (or the DC offset level), shifting the entire signal upward.
+
+This experiment demonstrates how a positive clamper shifts an AC signal to create a positive offset, useful in applications like DC restoration and signal level adjustment.

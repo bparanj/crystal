@@ -1,7 +1,5 @@
 ## Pull-up circuit
 
-Yes, you can demonstrate a pull-up resistor circuit without a microcontroller using these simple components:
-
 1. Basic Pull-up Circuit:
    - Power supply (battery or DC source)
    - Pull-up resistor (typically 1kΩ to 10kΩ)
@@ -30,7 +28,7 @@ This demonstrates the basic principle of pull-up resistors:
 - Prevents floating inputs
 - Shows how pull-up affects input states
 
-To make this experiment simpler without a microcontroller, we can observe the pull-up effect using just an LED, a resistor, a pushbutton, and a power supply.
+We can observe the pull-up effect using just an LED, a resistor, a pushbutton, and a power supply.
 
 ### Objective
 
@@ -65,9 +63,6 @@ To demonstrate how a pull-up resistor stabilizes a HIGH voltage level when a swi
    - When the switch is pressed (closed), the junction between the resistor and switch is connected directly to ground, bringing the voltage at this point to LOW.
    - The LED will light up as current flows from the positive terminal, through the resistor, and through the LED to ground.
 
-In this setup:
-
-- The pull-up resistor keeps the junction at a HIGH level when the switch is open, preventing it from floating.
-- When the switch is pressed, it provides a clear path to ground, bringing the junction to a LOW state, which allows the LED to light up.
+The pull-up resistor keeps the junction at a HIGH level when the switch is open, preventing it from floating. When the switch is pressed, it provides a clear path to ground, bringing the junction to a LOW state, which allows the LED to light up.
 
 This experiment shows the role of a pull-up resistor in maintaining a stable high voltage level when a switch is open and how it shifts to a low voltage when the switch is closed, activating the LED.

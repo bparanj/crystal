@@ -10,6 +10,10 @@ where:
 
 The time constant represents the time it takes for the capacitor to charge up to approximately 63% of its full charge (or to discharge to about 37% of its initial charge) through the resistor.
 
+PENDING
+
+Move this to terms folder
+
 ### Practical Implications
 
 1. Timing Applications:
@@ -30,7 +34,7 @@ The time constant represents the time it takes for the capacitor to charge up to
 
 5. Sensor and Measurement Circuits:
    - In sensor applications, an RC time constant can set the response time of the sensor circuit. For example, temperature or light sensors may use an RC circuit to filter out fast, short-term fluctuations and respond only to slower, meaningful changes.
-   
+
 6. Pulse Shaping in Digital Circuits:
    - RC circuits help shape pulses in digital circuits, preventing noise or unwanted transients from triggering false signals.
    - The time constant determines the rise and fall time of signals, impacting the clarity and reliability of digital signals in systems like microcontrollers and communication interfaces.

@@ -48,11 +48,7 @@ Simulation and detailed experimental instructions for demonstrating capacitor be
 - Don't exceed voltage ratings
 - Discharge before handling
 
-The simulation shows how voltage and current change over time during both charging and discharging phases. Would you like me to:
-
-1. Explain any part of the experiment in more detail?
-2. Modify the component values for different time constants?
-3. Add additional measurements or observations to make?
+The simulation shows how voltage and current change over time during both charging and discharging phases.
 
 Here's a simple experiment to demonstrate how a polarized capacitor works, using an LED, resistor, battery, and polarized capacitor.
 
@@ -68,7 +64,7 @@ To observe the charging and discharging behavior of a polarized capacitor and it
 4. Red LED
 5. Breadboard and connecting wires
 
-### Experiment Steps
+### Steps
 
 #### Step 1: Setup
 
@@ -106,10 +102,7 @@ To observe the charging and discharging behavior of a polarized capacitor and it
 1. Disconnect the battery from the circuit, leaving the capacitor, LED, and resistor connected.
 2. The capacitor will now discharge through the LED, causing the LED to briefly light up again, then fade as the capacitor releases its stored charge.
 
-### Explanation
-
-- The capacitor stores charge when the battery is connected. The LED’s brightness initially shows this charging process.
-- When the battery is removed, the capacitor discharges through the LED, briefly lighting it up until the stored energy is depleted.
+The capacitor stores charge when the battery is connected. The LED’s brightness initially shows this charging process. When the battery is removed, the capacitor discharges through the LED, briefly lighting it up until the stored energy is depleted.
 
 This experiment visually demonstrates the charge and discharge behavior of a polarized capacitor in a DC circuit.
 

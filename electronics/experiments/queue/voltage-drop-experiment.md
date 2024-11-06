@@ -1,5 +1,10 @@
 A simple experiment to illustrate the concept of voltage drop:
 
+PENDING
+
+This is the same as resistor in series experiment. See the voltage-divider-cirucit.md
+
+
 ### Objective:
 
 To demonstrate how voltage decreases across components in a series circuit, illustrating the concept of voltage drop.
@@ -8,7 +13,7 @@ To demonstrate how voltage decreases across components in a series circuit, illu
 
 - A 9V battery or a DC power supply
 - Two resistors of different values (e.g., 100 ohms and 200 ohms)
-- A breadboard (optional)
+- A breadboard
 - A multimeter to measure voltage
 - Connecting wires
 
@@ -49,7 +54,7 @@ Enter the resistance values for each resistor. In this experiment, Resistor 1 (R
 
 Multimeter Lead Placement:
 
-Follow the instructions provided in this column to correctly position the red (positive) and black (negative) multimeter leads to measure the voltage drop across each component.
+Position the red (positive) and black (negative) multimeter leads to measure the voltage drop across each component.
 
 Measured Voltage Drop (V):
 
