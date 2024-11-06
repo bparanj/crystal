@@ -23,8 +23,6 @@ Voltage Drop:
 
 Both have minimal voltage drop across them, as there is little resistance to impede the current.
 
-### Difference:
-
 However, while a connecting wire is intentionally placed to route current safely between components, a short circuit is usually unintentional and can cause excessive current, overheating, or damage to components.
 
 The term short circuit includes short because it describes a direct, unintended path for current that shortens the usual route through the circuit.

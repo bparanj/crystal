@@ -18,21 +18,6 @@ Batteries:
 
 Convert chemical energy into electrical energy. The energy delivered to a circuit equals the energy taken from the battery’s chemical reaction.
 
-
-OUT OF SCOPE
-
-### 2. Power Conservation in Circuits:
-
-Kirchhoff's Voltage Law (KVL):
-
-States that the sum of the electrical potential differences (voltage) around any closed circuit loop must equal zero. This is a direct consequence of energy conservation, as the energy supplied by the voltage sources in the loop is equal to the energy consumed by the resistive, capacitive, and inductive elements.
-
-Kirchhoff's Current Law (KCL):
-
-States that the total current entering a junction must equal the total current leaving the junction. This reflects the conservation of charge, which is closely related to energy conservation since the movement of charge carries energy.
-
-=========================================
-
 ### 3. Efficiency of Electronic Devices:
 
 Power Supplies:

@@ -1,7 +1,7 @@
 
 Chapters
 
-- Work
+- Energy, Work and Power
 	- Real world examples (work.md)
 
 - Energy
@@ -12,6 +12,11 @@ Chapters
 - Safety
 
 0. Breadboard
+
+Component Basics
+
+How to measure the value of resistor, capacitor, inductor etc.
+
 1. Short Circuit
 2. LED Circuit
 3. Slideswitch
@@ -19,15 +24,16 @@ Chapters
 5. Potentiometer
     - Voltage divider
 6. Capacitor
-    - Polarized capacitor - Pending
+    - Polarized capacitor
+    - Non polarized capacitor
 7. Diode
     - Zener Diode - Pending
-8. Fuse - Pending
+8. Fuse - not covered.
 9. Relay - Pending
-10. Tranistor
-11. Inductor - Pending
-12. Resistor - series - Pending
-13. Resistor - parallel - Pending
+10. Tranistor as switch complete. Pending transistor as an amplifier.
+11. Inductor
+12. Resistor - series (voltage divider)
+13. Resistor - parallel (current divider)
 
 
 Experiments

@@ -15,19 +15,19 @@ To demonstrate how rubbing different materials together can generate static elec
 
 1. Charge the Balloon:
 
-   - Inflate the balloon and tie it off. Then, vigorously rub the balloon against the wool cloth or sweater for about 10-15 seconds. This rubbing transfers electrons from the cloth to the balloon, giving the balloon a negative charge.
+ Inflate the balloon and tie it off. Then, vigorously rub the balloon against the wool cloth or sweater for about 10-15 seconds. This rubbing transfers electrons from the cloth to the balloon, giving the balloon a negative charge.
 
 2. Test Attraction:
 
-   - After rubbing the balloon, slowly bring it close to the small pieces of paper or tissue without touching them. The paper bits should start to move toward the balloon and stick to it.
+ After rubbing the balloon, slowly bring it close to the small pieces of paper or tissue without touching them. The paper bits should start to move toward the balloon and stick to it.
 
 3. Observe Repulsion:
 
-   - Rub the balloon again to recharge it. Next, bring the balloon near a metal object like a doorknob, but do not touch it. You might see the balloon slightly repel from the metal due to the induced charge on the metal surface.
+ Rub the balloon again to recharge it. Next, bring the balloon near a metal object like a doorknob, but do not touch it. You might see the balloon slightly repel from the metal due to the induced charge on the metal surface.
 
 4. Demonstrate Discharge:
 
-   - After rubbing the balloon and bringing it close to the metal object, slowly move the balloon until it touches the metal. You might feel or hear a small spark, which is the discharge of static electricity as the electrons move from the balloon to the metal object.
+ After rubbing the balloon and bringing it close to the metal object, slowly move the balloon until it touches the metal. You might feel or hear a small spark, which is the discharge of static electricity as the electrons move from the balloon to the metal object.
 
 This experiment demonstrates the static electric effect, where rubbing the balloon against the wool cloth causes it to accumulate an excess of electrons, making it negatively charged. The charged balloon can attract neutral objects like small paper bits by inducing opposite charges on their surfaces. The balloon may also repel from a metal object due to charge induction on the metal. When the balloon finally touches the metal, the stored static charge is discharged, often producing a small spark or a slight shock. This illustrates how static electricity is generated and how it can cause objects to attract, repel, and discharge.
 
