@@ -33,15 +33,15 @@ The word that ties together the concepts of energy, frequency, and vibration is 
 
 Here's how resonance connects these ideas:
 
-1. Energy: 
+1. Energy:
 
 Resonance involves the efficient transfer or buildup of energy within a system, such as an electrical circuit, mechanical structure, or even sound waves.
 
-2. Frequency: 
+2. Frequency:
 
 Resonance occurs at a specific natural frequency, where the system vibrates or oscillates with maximum amplitude due to the energy input matching the system's inherent frequency.
 
-3. Vibration: 
+3. Vibration:
 
 Resonance amplifies vibrations or oscillations in a system. At resonance, even small external forces can cause large vibrations or movements in mechanical and electronic systems.
 
@@ -51,12 +51,10 @@ Resonance is a key concept in physics and engineering that represents the intera
 
 The simplest and most familiar example of resonance in the real world is a playground swing. When you push a swing at just the right moments (matching its natural frequency), it goes higher with each push. This is resonance: the swing receives energy from the pushes in sync with its natural oscillation, which amplifies its motion.
 
-In this case:
 - The swing has a natural frequency based on its length and the force of gravity.
 - Pushing the swing at the right intervals provides energy at the same frequency as the swing's natural oscillation, increasing its amplitude.
 
 This phenomenon is common in other areas, too, like in musical instruments (guitar strings vibrating at their natural frequency) and bridges (which can oscillate dangerously if exposed to forces matching their natural frequency).
-
 
 A playground swing is probably the simplest and most relatable example of resonance that most people have experienced firsthand. Here's why:
 

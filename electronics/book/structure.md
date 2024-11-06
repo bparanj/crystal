@@ -1,5 +1,6 @@
 
 Explain concepts.
+
 Refer template.md for electronic components questions to be covered.
 
 1. Hand drawn circuit diagram.

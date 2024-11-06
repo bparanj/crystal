@@ -27,7 +27,4 @@ The reason we use separate units for electric charge (coulomb) and electric curr
 
 4. Practical Application: In circuits, we often care about the rate at which charge flows (current) rather than just the quantity of charge alone. But for storage (like in batteries), charge quantity (coulombs) is key.
 
-### Summary
-
-- Coulomb measures the amount of electric charge.
-- Ampere measures the rate of flow of that charge.
+Coulomb measures the amount of electric charge. Ampere measures the rate of flow of that charge.

@@ -7,7 +7,6 @@
 - Use coin cell battery with 3 volt to turn on LED (another way to solve the led damage problem)
 - Look at the passive-device.md table in browser and review.
 - Review and condense load.md
-- Modify the basic capacitor experiment by replacing the capacitor with polarized capacitor
 - Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
 - Use the polarized capacitor in a new experiment with LED to show the discharge of power from capacitor
 - Draw circuit diagram by hand for each experiment
@@ -15,9 +14,8 @@
 - Create diagrams for mats.md
 - Refer experiments.md to create the simulations for experiment 10, 11 and 12.
 - Work backwards from experiments
-		- Order existing experiments from simple to complex. First pass done.
+		- Order existing experiments from simple to complex.
 		- Summarize the experiment. What is it about? What is the learning objective?
-		- Write down the components used in each experiment. Refer the 0.jpg.
 		- Explain each component used in the experiment.
 		- Use the questions in template.md to cover the detailed explanation.
 - Copy the projects in the whiteboard to this document

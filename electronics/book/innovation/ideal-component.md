@@ -2,11 +2,11 @@
 
 From the perspective of TRIZ (Theory of Inventive Problem Solving), an ideal resistor would embody the concept of Ideality, where the system delivers the maximum useful function with minimal drawbacks or resources.
 
-Useful function: 
+Useful function:
 
 A resistor's primary function is to limit current in a circuit while ensuring proper voltage division.
 
-Harmful effects: 
+Harmful effects:
 
 Real resistors generate heat, consume power, and have limitations like tolerance variations, aging, and noise.
 
@@ -26,7 +26,7 @@ From a TRIZ perspective, an ideal capacitor would follow the principle of Ideali
 
 For a capacitor, the ideal characteristics would be:
 
-Primary function: 
+Primary function:
 
 Store and release energy efficiently.
 
@@ -131,8 +131,8 @@ From the TRIZ perspective, an ideal push button would follow the principle of Id
 
 For a push button, the key considerations are:
 
-- Primary function: Act as a user input device, completing or breaking a circuit when pressed.
-- Harmful effects: Real push buttons may suffer from wear and tear, contact bounce (momentary breaks in connection), mechanical failures, and require physical force to operate.
+Primary function: Act as a user input device, completing or breaking a circuit when pressed.
+Harmful effects: Real push buttons may suffer from wear and tear, contact bounce (momentary breaks in connection), mechanical failures, and require physical force to operate.
 
 An ideal push button in TRIZ terms would:
 
@@ -148,10 +148,10 @@ This ideal push button would deliver the needed functionality—input control—
 
 From the TRIZ perspective, an ideal slide switch would adhere to the principle of Ideality, where it performs its function with maximum efficiency and minimal drawbacks, resource use, or complexity.
 
-For a slide switch, the key considerations are:
+For a slide switch, the considerations are:
 
-- Primary function: Change the state of a circuit by sliding a lever to open or close the electrical connection.
-- Harmful effects: Real slide switches suffer from mechanical wear, poor contact (debris or oxidation), size limitations, and require manual force to operate.
+Primary function: Change the state of a circuit by sliding a lever to open or close the electrical connection.
+Harmful effects: Real slide switches suffer from mechanical wear, poor contact (debris or oxidation), size limitations, and require manual force to operate.
 
 An ideal slide switch in TRIZ terms would:
 
@@ -170,8 +170,8 @@ From the TRIZ perspective, an ideal electronic circuit follows the principle of 
 
 For an electronic circuit, the key considerations are:
 
-- Primary function: Process or control the flow of electricity to perform a specific task (e.g., amplification, signal processing, computation).
-- Harmful effects: Real circuits have limitations such as energy losses, heat generation, component failures, signal noise, physical size, and complexity in design and maintenance.
+Primary function: Process or control the flow of electricity to perform a specific task (e.g., amplification, signal processing, computation).
+Harmful effects: Real circuits have limitations such as energy losses, heat generation, component failures, signal noise, physical size, and complexity in design and maintenance.
 
 An ideal electronic circuit in TRIZ terms would:
 

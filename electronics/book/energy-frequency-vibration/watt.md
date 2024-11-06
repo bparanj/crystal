@@ -26,7 +26,7 @@ By linking watts to real-world objects like light bulbs, phone chargers, and phy
 
 ## Watt and Newton
 
-Watts and Newtons are related through movement and time. 
+Watts and Newtons are related through movement and time.
 
 1 Watt = 1 Newton × 1 meter per second
 
@@ -34,7 +34,6 @@ In simpler terms:
 - Newton measures force (push/pull)
 - Watt measures power (how quickly you use energy)
 
-Example:
 When you lift a 1kg weight (≈10 Newtons):
 - Lifting it slowly (1 meter in 2 seconds) = 5 Watts
 - Lifting it quickly (1 meter in 1 second) = 10 Watts
