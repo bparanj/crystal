@@ -7,7 +7,7 @@ A low-pass filter allows lower frequencies to pass through while attenuating hig
 3. Capacitor: 0.1 µF.
 4. Oscilloscope: To observe the input and output waveforms.
 
-### Circuit Setup:
+### Setup:
 
 1. Create the RC Low-Pass Filter:
    - Connect one terminal of the AC source to the resistor.
@@ -22,7 +22,7 @@ A low-pass filter allows lower frequencies to pass through while attenuating hig
    - Connect the first oscilloscope probe to the input (AC source) and the second probe to the output (across the capacitor).
    - This setup allows you to observe how the input and output signals compare at different frequencies.
 
-### Experiment Steps:
+### Steps:
 
 1. Run the Simulation:
    - Start the Tinkercad simulation.
@@ -91,9 +91,9 @@ Create a simple RC (Resistor-Capacitor) low-pass filter to observe how it allows
 4. Oscilloscope - To observe the input and output signals (use the oscilloscope in Tinkercad)
 5. Breadboard - For connecting components
 
-### Circuit Setup
+### Setup
 
-1. Connect the Resistor and Capacitor in Series: 
+1. Connect the Resistor and Capacitor in Series:
    - Place the resistor on the breadboard and connect it to the signal generator's output.
    - Connect the capacitor’s positive leg to the other end of the resistor.
    - Connect the capacitor's negative leg to the ground of the signal generator.
@@ -112,7 +112,5 @@ Create a simple RC (Resistor-Capacitor) low-pass filter to observe how it allows
 
 - At low frequencies, the output signal's amplitude should be close to the input amplitude.
 - As the frequency increases, the output amplitude should decrease, showing the low-pass filter effect.
-
-### Key Takeaway
 
 This experiment demonstrates that an RC low-pass filter allows low-frequency signals to pass while attenuating high frequencies, verifying the behavior of a simple low-pass filter.

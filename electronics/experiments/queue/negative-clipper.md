@@ -8,7 +8,7 @@ A negative clipper circuit removes the negative portion of an AC signal, allowin
 4. Oscilloscope: To observe the input and output waveforms.
 5. DC Power Supply (optional): To set a specific clipping level if desired.
 
-### Circuit Setup:
+### Setup:
 
 1. Connect the AC Source:
    - Connect one terminal of the AC source to the resistor (1 kΩ).
@@ -26,7 +26,7 @@ A negative clipper circuit removes the negative portion of an AC signal, allowin
 
 If you want to set the clipping level at a specific voltage, you can add a DC power supply in series with the diode (between the anode of the diode and ground). This will clip the signal at the DC voltage level.
 
-### Experiment Steps:
+### Steps:
 
 1. Run the Simulation:
    - Start the simulation in Tinkercad.

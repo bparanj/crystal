@@ -4,7 +4,6 @@ PENDING
 
 This is the same as resistor in series experiment. See the voltage-divider-cirucit.md
 
-
 ### Objective:
 
 To demonstrate how voltage decreases across components in a series circuit, illustrating the concept of voltage drop.

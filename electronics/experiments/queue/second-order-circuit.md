@@ -9,7 +9,7 @@ A second-order circuit typically includes two energy storage components, such as
 5. Switch: To control when the circuit is energized.
 6. Oscilloscope: To observe the voltage across the capacitor.
 
-### Circuit Setup:
+### Setup:
 
 1. Connect the Resistor, Inductor, and Capacitor in Series:
    - Connect one terminal of the resistor to the positive terminal of the 5V DC power source.

@@ -21,3 +21,7 @@ Magnetic flux is useful in designing devices like:
 - Magnetic storage devices, where flux changes encode data.
 
 In summary, magnetic flux quantifies the "flow" of a magnetic field through a surface, essential in analyzing and applying magnetic field effects in various electrical and magnetic devices.
+
+PENDING
+
+MOVe to terms folder

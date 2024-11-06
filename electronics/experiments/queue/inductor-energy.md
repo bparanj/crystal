@@ -14,3 +14,7 @@ To demonstrate energy storage in inductors, set up this experiment:
 6) If the inductor is 1 mH and the current is 100 mA, the stored energy would be $E = \frac{1}{2}  0.001  (0.1)^2 = 5  10^{-6}$ joules.
 
 This energy maintains the LED's illumination briefly after the switch opens, demonstrating the inductor's energy storage and release capabilities.
+
+PENDING
+
+Move to terms folder

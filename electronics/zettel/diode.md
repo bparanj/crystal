@@ -6,13 +6,7 @@ TAG
 
 diode
 
----
-
-## Overview: Active Electronic Component
-
 An active electronic component is a device that can control or amplify electrical signals and requires an external power source to operate. Active components differ from passive components because they can introduce energy into a circuit and manage the flow of electricity. Common examples are transistors, diodes, and integrated circuits. These components are used in complex circuits, enabling switching, amplification, and regulation of electrical signals.
-
----
 
 ## Atomic Ideas
 
@@ -56,10 +50,6 @@ An active electronic component is a device that can control or amplify electrica
 
    In an audio amplifier circuit, a transistor takes a weak input signal from a microphone and increases its power to drive a loudspeaker, making the sound audible to a larger audience.
 
----
-
-## Solution: How Active Components Function in Circuits
-
 ### Problem Statement:
 
 In a circuit using a transistor as a switch, a small current of 5mA is applied to the base of a transistor, and the transistor controls a collector current of 500mA. What is the current gain (β) of the transistor?
@@ -80,8 +70,6 @@ Substitute the values:
 $$ \beta = \frac{500 \, \text{mA}}{5 \, \text{mA}} = 100 $$
 
 Thus, the current gain (β) of the transistor is 100.
-
----
 
 ## Related Atomic Ideas:
 
@@ -104,8 +92,6 @@ Diodes in rectifier circuits convert AC to DC. This concept links to power suppl
 5. Power Control with Active Components:
 
 Transistors and other active components are crucial in power control circuits, such as in voltage regulators and motor controllers. Understanding how active components regulate power helps in designing efficient circuits.
-
----
 
 ## Potential Research:
 
@@ -130,7 +116,7 @@ Atomic Ideas:
 The diode equation relates the current (I) flowing through a diode to the voltage (V) across it: $I = I_s(e^{\frac{V}{nV_T}} - 1)$, where $I_s$ represents the reverse saturation current, n the ideality factor, and $V_T$ the thermal voltage (approximately 26mV at room temperature).
 This equation resembles a steep hill. Just as it takes significant effort (voltage) to start climbing, but then progress (current) increases rapidly, a diode requires a threshold voltage before conducting significantly, after which current increases exponentially.
 
-Example: Calculate the current through a silicon diode with $I_s = 1\text{nA}$, n = 1, at room temperature, with 0.7V forward bias:
+Calculate the current through a silicon diode with $I_s = 1\text{nA}$, n = 1, at room temperature, with 0.7V forward bias:
 
 a) Use the diode equation: $I = I_s(e^{\frac{V}{nV_T}} - 1)$
 b) Substitute values: $I = 1 \times 10^{-9}(e^{\frac{0.7}{1 \times 0.026}} - 1)$
@@ -143,7 +129,7 @@ The forward voltage drop represents the voltage across a diode when it conducts 
 
 The forward voltage drop resembles the effort needed to open a spring-loaded door. Once you apply enough force to overcome the spring (reach the forward voltage), the door opens (diode conducts), and additional force (voltage) doesn't significantly change the door's position (voltage across the diode).
 
-Example: Measure the forward voltage of an LED:
+Measure the forward voltage of an LED:
 
 a) Set up a circuit with a variable power supply, a 220Ω resistor, the LED, and a voltmeter.
 b) Increase the supply voltage slowly until the LED just begins to light.
@@ -156,7 +142,7 @@ The reverse breakdown voltage specifies the reverse-bias voltage at which a diod
 
 Reverse breakdown resembles a dam holding back water. The dam (diode) blocks water (current) effectively up to a certain water level (reverse voltage). If the water level exceeds this point (breakdown voltage), the dam fails, and water rushes through (reverse current flows).
 
-Example: Demonstrate Zener diode voltage regulation:
+Demonstrate Zener diode voltage regulation:
 
 a) Set up a circuit with a variable power supply, a 470Ω resistor, and a 5.1V Zener diode.
 b) Connect a voltmeter across the Zener diode.
@@ -171,7 +157,7 @@ Diode capacitance arises from the charge stored in the depletion region at the p
 
 Diode capacitance resembles a variable-size bucket in a water system. As you increase water pressure (reverse voltage), the bucket shrinks (capacitance decreases), allowing faster changes in water flow (better high-frequency response).
 
-Example: To observe the effect of diode capacitance:
+To observe the effect of diode capacitance:
 
 a) Set up a circuit with a signal generator, a diode, and an oscilloscope.
 b) Apply a high-frequency (e.g., 10MHz) square wave to the diode.

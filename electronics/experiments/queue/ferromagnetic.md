@@ -21,3 +21,7 @@ Ferromagnetic materials are widely used in:
 - Data storage (like hard drives) where magnetization patterns store information.
 
 These materials are essential in electronics and electrical engineering for their ability to efficiently conduct magnetic fields.
+
+PENDING
+
+Move this to terms folder

@@ -18,7 +18,7 @@ This is the same as the existing capacitor experiment #7. Merge or delete this d
 - Multimeter (to measure voltage across the capacitor)
 - Breadboard (optional for easy assembly)
 
-#### Circuit Setup:
+#### Setup:
 
 1. Connect the resistor in series with the capacitor.
 2. Connect the 5V battery to the circuit.

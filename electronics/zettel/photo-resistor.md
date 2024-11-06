@@ -2,8 +2,6 @@ TAG
 
 resistor
 
-### Overview:
-
 A photoresistor (also known as a light-dependent resistor or LDR) is a passive electronic component whose resistance changes depending on the amount of light it receives. When exposed to light, its resistance decreases, allowing more current to flow through the circuit. Photoresistors are  used in light-sensitive devices such as automatic lighting systems, light meters, and alarm systems.
 
 ---
@@ -40,8 +38,6 @@ A photoresistor (also known as a light-dependent resistor or LDR) is a passive e
     Imagine a photoresistor like a camera with a slow shutter speed—it can detect light changes, but not very quickly. It can also be thrown off by the "weather" (temperature) around it.
     In a camera’s light meter, a photoresistor might not be fast enough to detect sudden changes in light when moving from a dark to a bright environment, causing inaccuracies.
 
----
-
 ### Related Atomic Ideas:
 
 1. Resistive Sensors:
@@ -63,8 +59,6 @@ The sensitivity of a light-dependent resistor (LDR) can be influenced by the wav
 5. Semiconductor Physics:
 
 Photoresistors rely on semiconductor materials, and knowing the basics of semiconductor physics helps in understanding how light affects the conductivity of these materials.
-
----
 
 ### Potential Research:
 

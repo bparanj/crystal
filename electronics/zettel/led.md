@@ -2,8 +2,6 @@ TAG
 
 LED
 
-### Overview:
-
 An LED (Light Emitting Diode) is a semiconductor device that emits light when current flows through it in the forward direction. Unlike incandescent bulbs, LEDs are highly efficient, durable, and have a longer lifespan. They are  used in displays, indicators, lighting, and many other applications due to their energy efficiency and versatility.
 
 ### Atomic Ideas:
@@ -48,8 +46,6 @@ An LED (Light Emitting Diode) is a semiconductor device that emits light when cu
 
    A green LED might be used on a computer’s power button to show when the machine is turned on, while white LEDs provide efficient lighting in homes.
 
----
-
 ### Solution:
 
 Solving How to Connect an LED in a Simple Circuit:
@@ -81,8 +77,6 @@ Connect the anode of the LED to the resistor, and connect the other end of the r
 Once connected, the LED will light up, and the resistor will protect the LED from excessive current.
 
 This demonstrates how to set up an LED with a current-limiting resistor in a simple circuit.
-
----
 
 ### Related Atomic Ideas:
 

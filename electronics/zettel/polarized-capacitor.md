@@ -126,7 +126,7 @@ To demonstrate the capacitance-to-size advantage of polarized capacitors, compar
 4) Calculate the volume of each capacitor. The electrolytic capacitor volume is approximately $π * (5mm)^2 * 12mm = 942mm^3$, while the film capacitor volume is $18mm * 33mm * 42mm = 24,948mm^3$.
 5) Compare the volumes: the polarized capacitor achieves the same capacitance in less than 4% of the volume of the non-polarized capacitor.
 
-4.  How does the equivalent series resistance (ESR) affect the performance of polarized capacitors?
+4. How does the equivalent series resistance (ESR) affect the performance of polarized capacitors?
 
  Equivalent series resistance (ESR) in polarized capacitors represents the internal resistance that causes power loss and voltage drop during charge/discharge cycles, impacting the capacitor's efficiency and heat generation.
 
@@ -141,7 +141,7 @@ To observe the effects of ESR in polarized capacitors, set up this experiment:
 5) The rounding effect becomes more pronounced at higher frequencies or with capacitors that have higher ESR.
 6) Calculate the ESR by measuring the initial voltage drop when the square wave changes state and dividing it by the current (V=IR, so R=V/I). For instance, if you see a 0.1V drop and your series resistor indicates a 0.1A current, the ESR would be 0.1V / 0.1A = 1Ω.
 
-5.  What safety considerations must be taken into account when using polarized capacitors?
+5. What safety considerations must be taken into account when using polarized capacitors?
 
  Safety considerations for polarized capacitors include correct polarity connection, voltage rating adherence, and proper discharge procedures, as incorrect use can lead to capacitor failure, overheating, or even explosion.
 

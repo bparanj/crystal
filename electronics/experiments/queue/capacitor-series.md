@@ -21,7 +21,7 @@ When capacitors are connected in series, they all store the same amount of elect
 ### Implications
 
    - Higher Voltage Tolerance: Series capacitors are beneficial in circuits requiring a higher voltage tolerance than any single capacitor can handle.
-   - Reduced Capacitance: The overall capacitance decreases, which can limit the ability of the circuit to store energy but can be useful for tuning circuit response times, such as in filters or timing circuits. 
+   - Reduced Capacitance: The overall capacitance decreases, which can limit the ability of the circuit to store energy but can be useful for tuning circuit response times, such as in filters or timing circuits.
 
 Series capacitors are often used in applications where voltage requirements exceed the ratings of individual capacitors, but this configuration comes at the cost of reduced total capacitance.
 
@@ -36,7 +36,7 @@ You can use Tinkercad to demonstrate the effect of connecting capacitors in seri
 5. Multimeter: To measure the voltage across the capacitors.
 6. Oscilloscope: (Optional) To observe the voltage changes over time.
 
-### Circuit Setup:
+### Setup:
 
 1. Single Capacitor Setup (Reference Measurement):
    - Connect one terminal of the DC power source to one end of the resistor.
@@ -72,14 +72,20 @@ You can use Tinkercad to demonstrate the effect of connecting capacitors in seri
    - Observe the time it takes for the voltage to drop, and compare this with the time taken for the single capacitor to discharge.
    - Expected Outcome: The series capacitors will discharge more slowly than a single capacitor of the same value due to the reduced equivalent capacitance.
 
-### Explanation:
+Total Capacitance:
 
-- Total Capacitance: The two capacitors in series result in a reduced total capacitance, which can be calculated using:
+The two capacitors in series result in a reduced total capacitance, which can be calculated using:
   \[
   C_{\text{total}} = \frac{1}{\frac{1}{C_1} + \frac{1}{C_2}}
   \]
   For two 10 µF capacitors in series, the total capacitance is 5 µF.
-- Voltage Distribution: Each capacitor in series will have a portion of the total voltage (e.g., around 4.5V each in this case, if they’re identical).
-- Charge and Discharge Rates: The reduced capacitance leads to a slower charge and discharge rate compared to a single 10 µF capacitor, demonstrating how capacitors in series impact circuit behavior.
+
+Voltage Distribution:
+
+Each capacitor in series will have a portion of the total voltage (e.g., around 4.5V each in this case, if they’re identical).
+
+Charge and Discharge Rates:
+
+The reduced capacitance leads to a slower charge and discharge rate compared to a single 10 µF capacitor, demonstrating how capacitors in series impact circuit behavior.
 
 This experiment allows you to visualize how connecting capacitors in series affects total capacitance and charging/discharging behavior, which is valuable in understanding circuit design and component selection.

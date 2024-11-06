@@ -8,7 +8,7 @@ A positive clipper circuit allows only the negative portion of an AC signal to p
 4. Oscilloscope: To observe the input and output waveforms.
 5. DC Power Supply (optional): To set a specific clipping voltage if needed.
 
-### Circuit Setup:
+### Setup:
 
 1. Connect the AC Source:
    - Connect one terminal of the AC source to the resistor (1 kΩ).
@@ -26,7 +26,7 @@ A positive clipper circuit allows only the negative portion of an AC signal to p
 
    - If you want to clip the signal at a voltage other than 0V, connect a small DC power supply in series with the diode (between the anode of the diode and ground). This will set the clipping level at the DC voltage value.
 
-### Experiment Steps:
+### Steps:
 
 1. Run the Simulation:
    - Start the simulation in Tinkercad.

@@ -14,7 +14,7 @@ To show how a transistor amplifier can increase (or "gain") the power of a weak 
 - 1 x Speaker or LED (to observe the amplified output)
 - Connecting wires
 
-### Circuit Setup
+### Setup
 
 1. Transistor Connections:
    - Connect the collector of the NPN transistor to the positive terminal of the power supply through a 1 kΩ resistor.

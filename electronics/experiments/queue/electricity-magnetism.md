@@ -24,6 +24,8 @@ Electromagnetism is fundamental to various technologies, including:
 - Transformers: Use electromagnetic induction to transfer electrical energy between circuits.
 - Wireless communication: Uses electromagnetic waves (radio, microwaves) to transmit information.
 
-### Summary:
-
 Electricity and magnetism are deeply connected by the principles of electromagnetism, where electric currents generate magnetic fields, and changing magnetic fields induce electric currents. This connection is essential to many modern technologies and forms the basis of our understanding of electromagnetic waves, including light.
+
+PENDING
+
+Move to terms folder

@@ -5,7 +5,7 @@ A simple experiment to illustrate the piezoelectric effect:
 
 To demonstrate how mechanical pressure on a piezoelectric material generates an electrical voltage.
 
-### Materials Needed:
+### Materials:
 
 - A piezoelectric buzzer or piezoelectric crystal ( found in electronic components like buzzers or lighters)
 - A multimeter set to measure voltage (in millivolts)

@@ -9,12 +9,9 @@ Set up a circuit with a 9V battery, a 1000μF capacitor, and an LED.
 Observe the LED light up and gradually dim as the capacitor discharges.
 This demonstrates the capacitor's ability to store and release energy without generating it.
 
-Here’s a simple example of how a polarized capacitor might be used in a power supply circuit:
+Here’s an example of how a polarized capacitor might be used in a power supply circuit:
 
 ## Experiment
-
-Refer this: https://www.youtube.com/watch?v=CVywtFTEz3I
-His channel: https://www.youtube.com/@Ohmify
 
 Simulation and detailed experimental instructions for demonstrating capacitor behavior.
 

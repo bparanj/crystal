@@ -7,7 +7,7 @@ A high-pass filter allows higher frequencies to pass through while attenuating l
 3. Capacitor: 0.1 µF.
 4. Oscilloscope: To observe the input and output waveforms.
 
-### Circuit Setup:
+### Setup:
 
 1. Create the RC High-Pass Filter:
    - Connect one terminal of the AC source to the capacitor.
@@ -22,7 +22,7 @@ A high-pass filter allows higher frequencies to pass through while attenuating l
    - Connect the first oscilloscope probe to the input (AC source) and the second probe to the output (across the resistor).
    - This setup allows you to observe how the input and output signals compare at different frequencies.
 
-### Experiment Steps:
+### Steps:
 
 1. Run the Simulation:
    - Start the Tinkercad simulation.
@@ -47,9 +47,13 @@ A high-pass filter allows higher frequencies to pass through while attenuating l
    - Set the AC source frequency near the cutoff frequency (around 1.6 kHz).
    - Expected Outcome: At the cutoff frequency, the output signal amplitude should be approximately 70% of the input signal amplitude, indicating the point where the filter begins to pass higher frequencies more effectively.
 
-High-Pass Filter Behavior: This RC circuit acts as a high-pass filter because the capacitor blocks low frequencies by presenting high impedance at those frequencies, while allowing high frequencies to pass with less impedance.
+High-Pass Filter Behavior:
 
-Cutoff Frequency: The cutoff frequency is where the filter transitions between attenuating low frequencies and allowing high frequencies. Frequencies above this point pass with minimal attenuation, while frequencies below are increasingly blocked.
+This RC circuit acts as a high-pass filter because the capacitor blocks low frequencies by presenting high impedance at those frequencies, while allowing high frequencies to pass with less impedance.
+
+Cutoff Frequency:
+
+The cutoff frequency is where the filter transitions between attenuating low frequencies and allowing high frequencies. Frequencies above this point pass with minimal attenuation, while frequencies below are increasingly blocked.
 
 This experiment demonstrates how an RC high-pass filter selectively allows higher frequencies while attenuating lower ones, which is useful in applications like audio signal processing and removing unwanted low-frequency noise from signals.
 
@@ -73,7 +77,7 @@ Create a simple RC (Resistor-Capacitor) high-pass filter to observe how it allow
    - Place the capacitor on the breadboard and connect it directly to the signal generator's output.
    - Connect the resistor’s one end to the other side of the capacitor.
    - Connect the resistor’s other end to the ground of the signal generator.
-   
+
 2. Connect Oscilloscope Probes:
    - Place the oscilloscope probe at the input (signal generator output before the capacitor) to monitor the input signal.
    - Place another oscilloscope probe at the output (junction between capacitor and resistor) to monitor the output signal.

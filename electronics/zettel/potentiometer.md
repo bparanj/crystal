@@ -2,8 +2,6 @@ TAG
 
 potentiometer
 
-Potentiometer
-
 It can deliver a variable voltage. It is used to adjust sensitivity, balance, input or output. Audio equipment and sensors such as motion detectors use potentiometers.
 
 What does potentio in potentiometer mean
@@ -74,7 +72,6 @@ Review the experiments in this file and see which ones can be used and move to e
 
 Solving How to Use a Potentiometer to Control Volume:
 
-
 PENDING
 
 Design a simple experiment to use potentiometer to control volume
@@ -126,8 +123,6 @@ Rheostats are similar to potentiometers but only have two terminals and are used
 3. Can potentiometers be integrated with machine learning for adaptive control in smart devices?
 
    Research how potentiometers could work alongside machine learning algorithms to allow devices to learn user preferences for settings like brightness or volume and automatically adjust based on patterns.
-
-Overview:
 
 A potentiometer functions as a manually adjustable variable resistor with three terminals. It consists of a resistive element with a sliding or rotating contact (wiper) that moves along the element, effectively dividing it into two resistances. Potentiometers allow users to control electrical quantities such as voltage or current in a circuit by adjusting the position of the wiper. They find widespread use in various applications,  volume controls, sensor calibration, and voltage dividers.
 

@@ -1,19 +1,15 @@
 In electronics, current gain refers to the ratio of the output current to the input current in a device, typically a transistor. It indicates how much the device amplifies the input current.
 
-### Key Concepts
-
-1. Definition:
+Definition:
    - For a bipolar junction transistor (BJT), current gain is the ratio of the collector current (\( I_C \)) to the base current (\( I_B \)) in the common-emitter configuration. It’s usually denoted by \( \beta \) or hFE:
      \[
      \beta = \frac{I_C}{I_B}
      \]
    - For a field-effect transistor (FET), there’s no base current, so the current gain is less commonly discussed in the same way. Instead, FETs use parameters like transconductance.
 
-2. Importance:
    - The current gain tells us how effectively a transistor amplifies a small input current into a larger output current.
    - In practical terms, if a transistor has a high current gain, a small current input at the base (or gate) can control a much larger current through the collector (or drain).
 
-3. Typical Values:
    - Current gain values for BJTs can range widely, typically between 20 and 1000 depending on the transistor type and operating conditions.
 
 ### Example
@@ -46,13 +42,16 @@ Current gain and the amplifier function of a transistor are related but not the 
 
    - Current gain is one factor in the transistor's amplifier function. A transistor with high current gain requires less input current to achieve significant output, making it more efficient for amplification in terms of input current.
    - In an amplifier circuit, both the current gain and circuit configuration (such as common-emitter, common-base, or common-collector for BJTs) contribute to the overall amplification effect, which may involve both voltage and current gains.
-   
-### Summary
 
-   - Current Gain: A parameter of the transistor, indicating the ratio of output current to input current.
-   - Amplifier Function: The role of the transistor in a circuit, using its characteristics (including current gain) to amplify signals.
+   Current Gain:
 
-In essence, current gain supports the amplifier function but does not define the full amplification behavior (which includes voltage gain and signal processing in the circuit).
+   A parameter of the transistor, indicating the ratio of output current to input current.
+
+   Amplifier Function:
+
+   The role of the transistor in a circuit, using its characteristics (including current gain) to amplify signals.
+
+Current gain supports the amplifier function but does not define the full amplification behavior (which includes voltage gain and signal processing in the circuit).
 
 To demonstrate current gain in Tinkercad, you can set up a simple experiment using an NPN transistor in a common-emitter configuration. This setup will show how a small base current controls a larger collector current, illustrating the concept of current gain.
 
@@ -70,7 +69,7 @@ Observe the current gain of an NPN transistor by measuring the base current and 
 4. Multimeters (2) - One to measure base current and one to measure collector current
 5. Breadboard - For connecting components
 
-### Circuit Setup
+### Setup
 
 1. Connect Power Supply: Set the DC power supply to 5V or 9V, and connect the positive terminal to the collector resistor \( R2 \) and the ground terminal to the ground rail on the breadboard.
 
@@ -103,7 +102,6 @@ Observe the current gain of an NPN transistor by measuring the base current and 
 
 ### Expected Results
 
-- The collector current \( I_C \) should be significantly larger than the base current \( I_B \).
-- The ratio \( \frac{I_C}{I_B} \) gives the current gain \( \beta \) of the transistor, demonstrating how a small base current controls a larger collector current.
+The collector current \( I_C \) should be significantly larger than the base current \( I_B \). The ratio \( \frac{I_C}{I_B} \) gives the current gain \( \beta \) of the transistor, demonstrating how a small base current controls a larger collector current.
 
 This experiment illustrates the concept of current gain in a transistor. A small input current at the base results in a much larger output current at the collector, showing the amplification capability of the transistor in terms of current gain.

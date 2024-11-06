@@ -50,6 +50,7 @@ Experiment setup:
 
 1. Connect the function generator (or smartphone) to the amplifier input.
 2. Set up three parallel circuits from the amplifier output:
+
    a) Direct connection to the speaker
    b) Capacitor in series with the speaker
    c) Inductor in series with the speaker

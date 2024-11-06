@@ -66,7 +66,6 @@ This example shows how a slide switch can be used to control power flow in a bas
 
 ### Related Atomic Ideas:
 
-
 2. SPST vs. DPDT Switches:
 
 Slide switches come in different configurations, such as SPST (single-pole, single-throw) and DPDT (double-pole, double-throw). Learning about these types helps in selecting the right switch for different applications.
@@ -96,8 +95,6 @@ Slide switches can be understood as implementing binary logic (on/off, 1/0), a f
 3. Can slide switches be adapted for use in flexible electronics?
 
    Research whether slide switches could be integrated into flexible electronics, exploring how traditional switch mechanisms might evolve to support bendable or stretchable circuits.
-
-Overview:
 
 A slide switch functions as a mechanical switching device used in electronic circuits to control the flow of electric current. It operates through a sliding mechanism that moves contacts to open or close electrical connections. Slide switches come in various configurations, from simple on-off switches to more complex multi-position switches, and find applications in numerous electronic devices for user control and circuit selection.
 

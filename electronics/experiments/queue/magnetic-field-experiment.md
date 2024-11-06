@@ -1,12 +1,8 @@
 An experiment to visualize magnetic fields using common materials:
 
-- [SEE a Magnetic Field with Iron Fillings](https://www.youtube.com/watch?v=1Nr-KtlMIKI)
-- [Magnetic Field Around Stack of Magnets With Iron Filings](https://www.youtube.com/watch?v=snNG481SYJw)
-- [Magnetic Field Around a Current Carrying Wire](https://www.youtube.com/watch?v=mxwevNEa2vs)
-
 ### Experiment: Visualizing Magnetic Fields with Iron Filings
 
-Objective: 
+Objective:
 
 To observe the magnetic field lines around a magnet.
 

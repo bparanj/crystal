@@ -6,16 +6,23 @@ Solving How to Use a Photoresistor to Control a Light:
 
 Let’s use a photoresistor to automatically control a light that turns on when it gets dark.
 
-1. Connect the photoresistor: Place the photoresistor in series with a resistor to create a voltage divider circuit. The junction between the photoresistor and the fixed resistor will provide a voltage that changes based on the light level.
+1. Connect the photoresistor:
 
-2. Set up the voltage divider: Connect one side of the photoresistor to a 5V power supply and the other side to one end of the fixed resistor. Connect the other end of the fixed resistor to ground.
+Place the photoresistor in series with a resistor to create a voltage divider circuit. The junction between the photoresistor and the fixed resistor will provide a voltage that changes based on the light level.
 
-3. Measure the output voltage: Measure the voltage at the junction between the photoresistor and the fixed resistor. In darkness, the voltage will be higher due to the photoresistor’s high resistance, and in bright light, the voltage will be lower.
+2. Set up the voltage divider:
 
-4. Trigger the light: Connect the voltage measurement to a comparator or a microcontroller. When the voltage crosses a threshold (indicating darkness), trigger a relay or transistor to turn on the light.
+Connect one side of the photoresistor to a 5V power supply and the other side to one end of the fixed resistor. Connect the other end of the fixed resistor to ground.
+
+3. Measure the output voltage:
+
+Measure the voltage at the junction between the photoresistor and the fixed resistor. In darkness, the voltage will be higher due to the photoresistor’s high resistance, and in bright light, the voltage will be lower.
+
+4. Trigger the light:
+
+Connect the voltage measurement to a comparator or a microcontroller. When the voltage crosses a threshold (indicating darkness), trigger a relay or transistor to turn on the light.
 
 This solution demonstrates how to create a basic light-sensitive switch using a photoresistor.
-
 
 To demonstrate how a photoresistor (light-dependent resistor or LDR) works, you can set up a simple experiment in Tinkercad using basic components to show how light levels affect the resistance of the photoresistor and, consequently, the brightness of an LED.
 
@@ -28,7 +35,7 @@ To demonstrate how a photoresistor (light-dependent resistor or LDR) works, you 
 5. Multimeter: To measure the voltage across the photoresistor or the resistance.
 6. Potentiometer (optional): To adjust the sensitivity of the circuit.
 
-### Circuit Setup:
+### Setup:
 
 1. Create a Voltage Divider with the Photoresistor:
    - Connect the photoresistor and a fixed resistor (e.g., 220 Ω) in series between the positive and ground terminals of the 5V power source.

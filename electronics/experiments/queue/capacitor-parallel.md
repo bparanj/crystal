@@ -58,7 +58,7 @@ You can use Tinkercad to demonstrate the effect of connecting capacitors in para
    - Keep the switch in the same position as before.
    - Attach the multimeter across both capacitors to measure the combined voltage.
 
-### Experiment Steps:
+### Steps:
 
 1. Step 1: Charge a Single Capacitor:
    - Begin with the single capacitor setup.
@@ -76,8 +76,6 @@ You can use Tinkercad to demonstrate the effect of connecting capacitors in para
    - Open the switch to allow the capacitors to discharge through the resistor.
    - Observe the time it takes for the voltage across the capacitors to drop back down, and compare it to the time taken for the single capacitor to discharge.
    - Expected Outcome: The parallel capacitors will discharge more slowly than the single capacitor due to the increased total capacitance.
-
-### Explanation:
 
 - Total Capacitance in Parallel: When capacitors are connected in parallel, their total capacitance is the sum of individual capacitances:
   \[

@@ -5,7 +5,7 @@ A simple experiment to illustrate the concept of magnetic induction:
 
 To demonstrate how a changing magnetic field can induce an electric current in a coil of wire.
 
-### Materials Needed:
+### Needed:
 
 - A bar magnet
 - A coil of wire (about 50-100 turns of insulated copper wire)
@@ -34,11 +34,9 @@ To demonstrate how a changing magnetic field can induce an electric current in a
 
    - Move the magnet at different speeds towards and away from the coil. Notice that the faster you move the magnet, the greater the deflection of the galvanometer needle, indicating a stronger induced current.
 
-### Explanation:
-
 The experiment demonstrates Faraday's Law of Electromagnetic Induction, which states that a changing magnetic field within a closed loop of wire induces an electromotive force (EMF) and, consequently, an electric current in the wire. The movement of the magnet changes the magnetic flux through the coil, which induces the current observed on the galvanometer. This experiment visually shows how magnetic induction works and how the movement and speed of the magnetic field affect the induced current.
 
-This hands-on experiment effectively illustrates the basic principle of magnetic induction in a simple and understandable way.
+This experiment effectively illustrates the basic principle of magnetic induction in a simple and understandable way.
 
 
 A simple experiment to illustrate magnetic induction. This experiment is suitable for a classroom or home setting and requires minimal materials.

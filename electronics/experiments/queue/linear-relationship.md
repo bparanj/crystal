@@ -19,11 +19,11 @@ To plot linear and non-linear relationships involving a resistor and a diode, yo
 
 ### 1. Linear Relationship (Resistor: Ohm’s Law Experiment)
 
-- Objective: 
+- Objective:
 
 Demonstrate a linear relationship between voltage and current across a resistor.
 
-- Setup: 
+- Setup:
 
 Connect a resistor (e.g., 1 kΩ) in series with a variable DC power supply.
 
@@ -37,11 +37,11 @@ Connect a resistor (e.g., 1 kΩ) in series with a variable DC power supply.
 
 ### 2. Non-Linear Relationship (Diode: I-V Characteristic Experiment)
 
-- Objective: 
+- Objective:
 
 Demonstrate a non-linear relationship between voltage and current across a diode.
 
-- Setup: 
+- Setup:
 
 Connect a diode in series with a small resistor (e.g., 100Ω) and a variable DC power supply.
 
@@ -53,7 +53,7 @@ Connect a diode in series with a small resistor (e.g., 100Ω) and a variable DC 
 
 - Expected Result: A non-linear, exponential curve. At low voltages, current remains nearly zero (cutoff region); once the threshold (around 0.7V for silicon) is crossed, current rises rapidly.
 
-These experiments clearly show:
+These experiments show:
 
 - Resistor: A linear relationship following Ohm’s Law.
 - Diode: A non-linear relationship due to its exponential response in the forward bias region.

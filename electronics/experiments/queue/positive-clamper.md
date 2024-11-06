@@ -9,7 +9,7 @@ A positive clamper circuit shifts the entire waveform of an AC signal upward, ef
 5. Oscilloscope: To observe the input and output waveforms.
 6. DC Power Supply (optional): To set a specific clamping voltage.
 
-### Circuit Setup:
+### Setup:
 
 1. Connect the AC Source:
    - Connect one terminal of the AC source to the input point of the circuit.

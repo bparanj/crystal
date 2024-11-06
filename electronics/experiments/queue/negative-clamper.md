@@ -9,7 +9,7 @@ A negative clamper circuit shifts the entire AC waveform downward, "clamping" th
 5. Oscilloscope: To observe the input and output waveforms.
 6. DC Power Supply (optional): To set a specific clamping voltage.
 
-### Circuit Setup:
+### Setup:
 
 1. Connect the AC Source:
    - Connect one terminal of the AC source to the input of the circuit.

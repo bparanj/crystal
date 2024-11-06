@@ -13,7 +13,7 @@ A snubber circuit is typically used to suppress voltage spikes across a switch o
 5. Capacitor: 0.1 µF capacitor.
 6. Oscilloscope: To observe voltage spikes across the switch.
 
-### Circuit Setup:
+### Setup:
 
 1. Inductive Load Setup:
    - Connect the positive terminal of the DC power source to one terminal of the inductor.

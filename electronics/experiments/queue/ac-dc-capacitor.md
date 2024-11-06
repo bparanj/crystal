@@ -9,13 +9,13 @@ To demonstrate how a capacitor blocks DC current but allows AC to pass, you can 
 5. Switch: To alternate between DC and AC sources.
 6. Multimeter: To measure voltage across the capacitor.
 
-### Circuit Setup:
+### Setup:
 
-1. Connect the Power Source: 
+1. Connect the Power Source:
    - Connect one side of the capacitor to the positive terminal of the power source.
    - Connect the other side of the capacitor to one terminal of the resistor.
 
-2. Add the LED and Resistor: 
+2. Add the LED and Resistor:
    - Connect the LED in series with the resistor. Place the LED’s positive terminal (anode) after the capacitor, and connect the negative terminal (cathode) to ground.
 
 3. Insert a Switch to Alternate Between DC and AC:
@@ -24,7 +24,7 @@ To demonstrate how a capacitor blocks DC current but allows AC to pass, you can 
 4. Place a Multimeter Across the Capacitor:
    - Connect the multimeter in parallel with the capacitor to observe the voltage across it during both AC and DC operation.
 
-### Experiment Steps:
+### Steps:
 
 1. DC Mode (Switch to DC):
    - Set the power supply to 5V DC.
@@ -36,9 +36,6 @@ To demonstrate how a capacitor blocks DC current but allows AC to pass, you can 
    - Observe the LED and the multimeter reading again.
    - Expected Outcome: The LED will start to blink or stay on dimly, depending on the frequency of the AC signal. The multimeter will show alternating voltage across the capacitor, demonstrating that AC is passing through and causing a fluctuating current, which lights up the LED.
 
-### Explanation:
+In DC Mode, the capacitor charges up and then blocks further current flow, as the current has no path through a fully charged capacitor. In AC Mode, the alternating current constantly changes direction, which allows the capacitor to continuously charge and discharge, enabling current flow through the circuit. This is why the LED lights up in AC mode but remains off in DC mode.
 
-- In DC Mode, the capacitor charges up and then blocks further current flow, as the current has no path through a fully charged capacitor.
-- In AC Mode, the alternating current constantly changes direction, which allows the capacitor to continuously charge and discharge, enabling current flow through the circuit. This is why the LED lights up in AC mode but remains off in DC mode.
-
-This setup will effectively show how a capacitor blocks DC current after charging but allows AC current to pass through due to its continuous reversal of direction.
+This setup will show how a capacitor blocks DC current after charging but allows AC current to pass through due to its continuous reversal of direction.

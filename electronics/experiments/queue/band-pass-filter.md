@@ -12,7 +12,7 @@ Create an RC-RC band-pass filter to observe how it selectively allows a certain 
 4. Oscilloscope - To observe the input and output signals
 5. Breadboard - For connecting components
 
-### Circuit Setup
+### Setup
 
 1. Connect the First RC High-Pass Stage:
    - Connect the capacitor \( C1 \) in series with the signal generator's output.

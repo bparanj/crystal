@@ -6,7 +6,7 @@ Here are three simple experiments designed to illustrate the concept of inductan
 
 ### 1. Experiment 1: Inductance in a Simple Coil
 
-Objective: 
+Objective:
 
 Demonstrate the creation of an inductance using a simple coil of wire and observe the effect of inductance when current is switched on and off.
 
@@ -27,7 +27,7 @@ Procedure:
 
 ### 2. Experiment 2: Induced EMF with a Moving Magnet (Demonstrating Faraday's Law)
 
-Objective: 
+Objective:
 
 Demonstrate inductance by inducing a voltage in a coil through the motion of a magnet.
 
@@ -66,6 +66,7 @@ Procedure:
 5. Explain: This experiment shows that inductors store energy in their magnetic fields. When the current is interrupted, the inductor resists the change by releasing the stored energy, causing a sudden spike in voltage (inductive kickback). This is why diodes are often used in circuits with inductive loads to protect other components from this spike.
 
 ### Summary:
+
 - Experiment 1: Demonstrates the basic principle of inductance and its opposition to changes in current.
 - Experiment 2: Illustrates Faraday's Law of Induction by showing how a changing magnetic field induces a voltage in a coil.
 - Experiment 3: Demonstrates inductive kickback, showing how energy stored in a magnetic field is released when the circuit is suddenly opened.

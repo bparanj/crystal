@@ -9,7 +9,7 @@
 
 ### Steps
 
-1. Setup the Power Supply: 
+1. Setup the Power Supply:
    - Connect the positive terminal of the power supply to the breadboard’s positive rail and the ground to the negative rail.
 
 2. Place the Linear Regulator (LM7805):
@@ -33,9 +33,7 @@
    - Increase the input voltage incrementally (up to around 12V or within the safe range for the LM7805).
    - Observe that the output voltage remains constant at 5V, demonstrating how the regulator maintains a steady output despite input fluctuations.
 
-### Explanation
-
-A linear regulator, like the LM7805, maintains a stable output voltage by "burning off" the excess input voltage as heat. This experiment shows that even if the input voltage varies, the output remains steady at the specified level (5V in this case), illustrating the purpose and behavior of a linear regulator in a circuit. 
+A linear regulator, like the LM7805, maintains a stable output voltage by "burning off" the excess input voltage as heat. This experiment shows that even if the input voltage varies, the output remains steady at the specified level (5V in this case), illustrating the purpose and behavior of a linear regulator in a circuit.
 
 This simple setup can be expanded with different load resistances to demonstrate how the regulator provides consistent voltage across varying loads, essential in power supply circuits.
 

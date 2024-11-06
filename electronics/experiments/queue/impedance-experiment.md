@@ -12,7 +12,7 @@ PENDING REVISION
 
 To demonstrate how impedance affects the flow of alternating current (AC) in a circuit containing resistive and reactive components (inductors or capacitors).
 
-### Materials Needed:
+### Needed:
 
 - A resistor (e.g., 100 ohms)
 - An inductor (e.g., 10 mH) or a capacitor (e.g., 10 µF)
@@ -41,10 +41,10 @@ To demonstrate how impedance affects the flow of alternating current (AC) in a c
 
 This experiment illustrates how impedance affects the current flow in an AC circuit. The resistor offers a constant resistance to the current, but the inductor or capacitor introduces reactance, which changes with frequency. As the frequency of the AC signal increases, the impedance of the inductor increases (or the impedance of the capacitor decreases), which in turn affects the voltage drop across the resistor. This change demonstrates that impedance in AC circuits is not just resistance; it also includes the frequency-dependent reactance of inductors and capacitors. This experiment provides a clear visualization of how impedance influences the behavior of AC circuits and why it is important in designing and analyzing such systems.
 
-
 Experiment:
 
-Materials needed:
+Materials:
+
 - 9V battery
 - Battery clip
 - Breadboard
@@ -55,9 +55,10 @@ Materials needed:
 - Jumper wires
 - Multimeter (optional, for measurements)
 
-Experiment setup:
+Setup:
 
 1. Set up three parallel circuits on the breadboard:
+
    a) LED with 220-ohm resistor
    b) LED with 100-ohm resistor
    c) LED with 100-ohm resistor and 10 µF capacitor in series

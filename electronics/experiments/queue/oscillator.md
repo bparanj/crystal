@@ -1,6 +1,6 @@
 Creating a simple oscillator circuit in Tinkercad can demonstrate how oscillators generate a periodic output signal. Here, we'll design a basic astable multivibrator using a 555 timer IC to generate a square wave signal. This setup will flash an LED at a regular interval, demonstrating the concept of an oscillator.
 
-### Components Needed in Tinkercad
+### Components
 
 - 555 Timer IC
 - Resistors (e.g., 1kΩ and 10kΩ)
