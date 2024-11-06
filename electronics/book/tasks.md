@@ -1,17 +1,18 @@
 - Review tesla tag and move into one folder (this will be the first chapter)
-- Take screenshots of polarized capacitor Tinkercad simulation and add this experiment after the basic capacitor experiment
+- add polarized capacitor experiment after the basic capacitor experiment
 - Review discrete-passive-circuit.md
 - Review passive-component.md and extract or delete experiments
 - Run ack -w 'experiment' and revise
 - Review Zettels and extract basic level content for different chapters
-- Use coin cell battery with 3 volt to turn on LED (another way to solve the led damage problem)
+- Use coin cell battery with 3 volt to turn on LED (another way to solve the led damage problem) Check if this is already in the experiments folder.
 - Look at the passive-device.md table in browser and review.
 - Review and condense load.md
 - Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
-- Use the polarized capacitor in a new experiment with LED to show the discharge of power from capacitor
+- Record video of inductor experiment to show how LED gradually becomes dim
 - Draw circuit diagram by hand for each experiment
 - Extract summarized content from components folder and add to each experiment explanation. Add history of the term also.
 - Create diagrams for mats.md
+- Create a polished version of polarized capacitor experiment and scan the circuit
 - Refer experiments.md to create the simulations for experiment 10, 11 and 12.
 - Work backwards from experiments
 		- Order existing experiments from simple to complex.
