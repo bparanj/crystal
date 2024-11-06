@@ -30,13 +30,13 @@ Watts and Newtons are related through movement and time.
 
 1 Watt = 1 Newton × 1 meter per second
 
-In simpler terms:
-- Newton measures force (push/pull)
-- Watt measures power (how quickly you use energy)
+Newton measures force (push/pull)
+Watt measures power (how quickly you use energy)
 
 When you lift a 1kg weight (≈10 Newtons):
-- Lifting it slowly (1 meter in 2 seconds) = 5 Watts
-- Lifting it quickly (1 meter in 1 second) = 10 Watts
+
+Lifting it slowly (1 meter in 2 seconds) = 5 Watts
+Lifting it quickly (1 meter in 1 second) = 10 Watts
 
 Same force (Newtons), but different power (Watts) because of speed.
 
@@ -44,19 +44,18 @@ Same force (Newtons), but different power (Watts) because of speed.
 
 Watt is a measure of how quickly work is done - it's the rate of doing work or using energy.
 
-Think of it like:
-- Work = force × distance (measured in Joules)
-- Power (Watts) = work ÷ time = how many Joules per second
+Work = force × distance (measured in Joules)
+Power (Watts) = work ÷ time = how many Joules per second
 
-Simple example:
-- Two people lift the same heavy box up stairs (same work/Joules)
-- Person A takes 1 minute
-- Person B takes 30 seconds
-- Person B uses more Watts (higher power) because they did the same work in less time
+Example:
+
+Consider two people lifting the same heavy box up stairs. Person A takes 1 minute to complete. Person B takes 30 seconds. Person B uses more Watts because he did the same work in less time.
 
 So 1 Watt = 1 Joule per second
 
-Yes, a watt (W) measures how quickly work is done. It’s a unit of power, defined as one joule per second (1 W = 1 J/s). Power is the rate at which energy is transferred or converted, so a higher wattage means more energy is used or produced per second.
+How many watts did person A spend? How many watts did person B spend?
+
+A watt (W) measures how quickly work is done. It’s a unit of power, defined as one joule per second (1 W = 1 J/s). Power is the rate at which energy is transferred or converted, so a higher wattage means more energy is used or produced per second.
 
 PENDING
 

@@ -1,4 +1,4 @@
-Vibration refers to a back-and-forth or oscillating motion. Here are three simple, real-world examples to help illustrate this concept:
+Vibration refers to a back-and-forth or oscillating motion.
 
 ### 1. Guitar String Vibration
 
@@ -20,7 +20,7 @@ The speaker cone vibrates to produce sound waves by moving air molecules back an
 
 In each example, vibration is a repetitive, oscillating motion that creates a physical effect, whether it’s sound, a tactile alert, or air movement.
 
-In electronics, "vibration" often refers to oscillations or periodic movements, typically of electrical signals or components. Here are three examples:
+In electronics, vibration refers to oscillations or periodic movements.
 
 ### 1. Quartz Crystal Oscillator in a Watch
 
