@@ -1,36 +1,80 @@
-- Review tesla tag and move into one folder (this will be the first chapter)
+
+Sequence
+
 - add polarized capacitor experiment after the basic capacitor experiment
+
+Tags
+
+- Review tesla tag and move into one folder (this will be the first chapter)
+
+
+Review
+
 - Review discrete-passive-circuit.md
 - Review passive-component.md and extract or delete experiments
-- Run ack -w 'experiment' and revise
-- Review Zettels and extract basic level content for different chapters
-- Use coin cell battery with 3 volt to turn on LED (another way to solve the led damage problem) Check if this is already in the experiments folder.
-- Look at the passive-device.md table in browser and review.
 - Review and condense load.md
-- Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
+- Review Zettels and extract basic level content for different chapters
+- Review instructables for hackerboxes and take notes about using breadboard. Create diagrams to illustrate the connections.
+
+Search
+
+- Run ack -w 'experiment' and revise
+
+Browser View
+
+- Look at the passive-device.md table in browser and review.
+
+Record Video
 - Record video of inductor experiment to show how LED gradually becomes dim
-- Draw circuit diagram by hand for each experiment
+
+
+- Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
+
+Extract
+
 - Extract summarized content from components folder and add to each experiment explanation. Add history of the term also.
-- Create diagrams for mats.md
+
+Edits
+
+- Add the system concept.
+		- What is a system
+		- What are the elements in a system
+		- How does this circuit map to a system?
+
+Circuit Diagram
+
+- Draw circuit diagram by hand for each experiment
 - Create a polished version of polarized capacitor experiment and scan the circuit
+- need circuit diagram for inductor, led circuit, short circuit
+- Convert hand drawn diagrams to CircuitTiz diagrams
+
+Diagrams
+
+- Create diagrams for mats.md
+
+Simulations
+
 - Refer experiments.md to create the simulations for experiment 10, 11 and 12.
+
+Experiments
+
+- Refer simulation, run real experiments, take photos
+
+
+Whiteboard
+
+- Copy the projects in the whiteboard to this document
+
 - Work backwards from experiments
 		- Order existing experiments from simple to complex.
 		- Summarize the experiment. What is it about? What is the learning objective?
 		- Explain each component used in the experiment.
 		- Use the questions in template.md to cover the detailed explanation.
-- Copy the projects in the whiteboard to this document
 - 1 concept - 1 experiment. Then n concepts - 1 experiment. Finally a mini-project at the end of a section.
-- Add the system concept.
-		- What is a system
-		- What are the elements in a system
-		- How does this circuit map to a system?
-- Refer simulation, run real experiments, take photos
-- Review instructables for hackerboxes and take notes about using breadboard. Create diagrams to illustrate the connections.
+
 - Refer electronics encyclopedia book and note down categorization
 - Figure 1-1 Encyclopedia of Electronics
-- need circuit diagram for inductor, led circuit, short circuit
-- Convert hand drawn diagrams to CircuitTiz diagrams
+
 - Render the svg using the html and take screenshots
 
 Scope

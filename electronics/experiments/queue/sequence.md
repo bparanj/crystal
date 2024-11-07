@@ -1,9 +1,9 @@
 
 Chapters
 
-- Energy, Work and Power
-	- Real world examples (work.md)
+Understanding Energy, Work, and Power
 
+- Real world examples (work.md)
 - Energy
 	- Forms of energy (joules.md)
 	- Law of conservation of energy
