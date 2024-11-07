@@ -2,6 +2,15 @@ TAG
 
 voltage
 
+PENDING
+
+Is this resistor combination complete:
+
+Voltage Divider Experiment 
+
+1k + 1 k
+1k + 2 k
+
 A voltage divider is a circuit that reduces the input voltage to a lower output voltage. It  consists of two resistors connected in series across a voltage source. The output voltage is taken from the connection between the two resistors. The voltage division follows the ratio of the resistances, making it useful for scaling down voltages in circuits.
 
 ### Atomic Ideas:

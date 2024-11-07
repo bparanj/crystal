@@ -83,9 +83,9 @@ Let's design a simple experiment using this circuit.
 
 ```
 
-Here's a description of the simple RC circuit experiment:
+A simple RC circuit experiment:
 
-Components needed:
+Components:
 
 1. 9V battery
 2. 1kΩ resistor
