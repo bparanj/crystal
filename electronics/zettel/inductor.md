@@ -140,6 +140,8 @@ Self-resonance in an inductor is like an athlete's "sweet spot" in performance. 
 5) You'll notice that the impedance increases with frequency initially (inductive behavior), reaches a peak (self-resonance), then starts to decrease (capacitive behavior).
 6) The frequency at the impedance peak is the self-resonant frequency (SRF). For a 10 µH inductor, this might be around 20-30 MHz.
 
+PENDING
+
 Does Tinkercad have VNA ?
 
 This demonstrates how self-resonance limits the useful frequency range of an inductor, an important consideration in high-frequency circuit design.

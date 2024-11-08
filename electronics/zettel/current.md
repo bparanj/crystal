@@ -52,8 +52,6 @@ How is current related to electrical power?
 
    In a circuit where 2A of current flows through a device connected to a 5V power source, the power is $P = IV = 2 \times 5 = 10W$. Thus, the device consumes 10 watts of power.
 
----
-
 ## Calculating Current
 
 ### Problem Statement:
@@ -78,8 +76,6 @@ $$ I = \frac{12 \, \text{V}}{6 \, \Omega} = 2 \, \text{A} $$
 
 Thus, the current flowing through the circuit is 2 amperes.
 
----
-
 ## Related Atomic Ideas:
 
 1. Voltage:
@@ -101,8 +97,6 @@ Current and voltage together determine the power in a circuit. Understanding pow
 5. Conductivity:
 
 Conductivity is about how easily current flows through a material. Highly conductive materials like copper allow more current to flow, while resistive materials slow down the current.
-
----
 
 ## Potential Research:
 

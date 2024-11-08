@@ -26,8 +26,6 @@ In an audio amplifier circuit, a transistor takes a weak input signal from a mic
 
 Amplification occurs when an active component like a transistor increases the power of a signal.
 
-=============================
-
 ## Atomic Ideas
 
 1. What distinguishes an active electronic component from a passive component?

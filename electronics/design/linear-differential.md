@@ -2,9 +2,9 @@ What are linear differential equation?
 
 Linear differential equations are equations where the unknown function and its derivatives appear to the first power only (no squares, cubes, etc). They're crucial in circuit analysis.
 
-Key characteristics:
+characteristics:
 
-1. Form: 
+1. Form:
 - an(x)y⁽ⁿ⁾ + an-1(x)y⁽ⁿ⁻¹⁾ + ... + a1(x)y' + a0(x)y = f(x)
 - where y is the unknown function
 - y', y'', etc. are its derivatives
@@ -17,7 +17,7 @@ Key characteristics:
 - No functions like sin(y) or e^y
 - Solutions can be added together
 
-Circuit Examples:
+Examples:
 
 1. RC Circuit:
 
@@ -36,8 +36,6 @@ These equations are solvable using:
 - Direct integration
 - Laplace transforms
 - Numerical methods
-
-Would you like me to explain how these equations are solved or give more circuit examples?
 
 TAG
 

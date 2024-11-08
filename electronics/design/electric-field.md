@@ -2,15 +2,11 @@ TAG
 
 electric field
 
-
-[Should a Person Touch 200,000 Volts? A Van de Graaff generator experiment!](https://www.youtube.com/watch?v=ubZuSZYVBng)
-
 A simple experiment to illustrate the concept of an electric field using common materials:
-
 
 ### Visualizing Electric Fields with a Van de Graaff Generator
 
-Objective: 
+Objective:
 
 To visualize the electric field around a charged object.
 
@@ -84,8 +80,3 @@ Let me explain electric fields in simple terms:
    - Strength shown by line density
    - Invisible but detectable
    - Affects charged particles
-
-Would you like me to:
-1. Explain field patterns in more detail?
-2. Show how fields interact with materials?
-3. Demonstrate specific applications?

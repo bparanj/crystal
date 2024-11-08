@@ -86,8 +86,6 @@ fc = 1/(2πRC)
 
 where R is the circuit's resistance in ohms.
 
-Would you like me to explain more about how this property is used in practical circuit applications?
-
 The physical reason for this behavior due to how electric charge moves in a capacitor.
 
 1. Basic Capacitor Structure:
@@ -165,8 +163,6 @@ Where:
 - \( X_C \) is the capacitive reactance (in ohms, Ω).
 - \( f \) is the frequency of the signal (in hertz, Hz).
 - \( C \) is the capacitance (in farads, F).
-
-### Points
 
 1. Inverse Relationship:
 
