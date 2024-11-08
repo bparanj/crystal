@@ -11,7 +11,6 @@ Tags
 
 - Review tesla tag and move into one folder (this will be the first chapter)
 
-
 Review
 
 - Review discrete-passive-circuit.md
@@ -24,16 +23,7 @@ Search
 
 - Run ack -w 'experiment' and revise
 
-Browser View
-
-- Look at the passive-device.md table in browser and review.
-
-Record Video
-
-Upload Video
-
-- upload video of inductor experiment to show how LED gradually becomes dim
-
+Items
 
 - Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
 
@@ -67,10 +57,13 @@ Experiments
 
 - Refer simulation, run real experiments, take photos
 
-
 Whiteboard
 
-- Copy the projects in the whiteboard to this document
+- Webcam to monitor every room
+- Motion detector
+- Plant watering
+- Measure humidity inside the house (auto adjust thermostat)
+- Portable high speed Internet
 
 - Work backwards from experiments
 		- Order existing experiments from simple to complex.
