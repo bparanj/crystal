@@ -1,5 +1,9 @@
 Yes, you can design a simple experiment in Tinkercad to demonstrate the voltage regulation properties of a Zener diode. Here’s how to set it up:
 
+PENDING
+
+Is voltage regulator and stabilizer the same?
+
 ### Objective
 
 Show how a Zener diode can regulate voltage by clamping it to a specific value in reverse bias, commonly used in voltage regulation applications.

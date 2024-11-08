@@ -13,6 +13,8 @@ Understanding Energy, Work, and Power
 
 0. Breadboard
 
+wiring-circuit.md
+
 Component Basics
 
 How to measure the value of resistor, capacitor, inductor etc.
