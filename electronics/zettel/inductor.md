@@ -90,6 +90,8 @@ An inductor functions as a passive electronic component that stores energy in a 
 
 Atomic Ideas:
 
+OUT OF SCOPE
+
 2.  How does the number of turns in an inductor affect its inductance?
 
 The inductance of a coil increases with the square of the number of turns. This relationship stems from the increased magnetic flux linkage created by additional turns of wire.
@@ -104,6 +106,8 @@ To explore the relationship between turns and inductance, conduct this experimen
 4) You'll observe that the inductance increases non-linearly with the number of turns. If the 50-turn coil has an inductance of L, the 100-turn coil will have approximately 4L, and the 200-turn coil will have about 16L.
 
 This demonstrates the quadratic relationship between turns and inductance, described by the equation $L \propto N^2$, where L is inductance and N is the number of turns.
+
+OUT OF SCOPE
 
 3.  How does the core material influence an inductor's properties?
 
@@ -135,6 +139,8 @@ Self-resonance in an inductor is like an athlete's "sweet spot" in performance. 
 4) Plot the inductor's impedance vs. frequency.
 5) You'll notice that the impedance increases with frequency initially (inductive behavior), reaches a peak (self-resonance), then starts to decrease (capacitive behavior).
 6) The frequency at the impedance peak is the self-resonant frequency (SRF). For a 10 µH inductor, this might be around 20-30 MHz.
+
+Does Tinkercad have VNA ?
 
 This demonstrates how self-resonance limits the useful frequency range of an inductor, an important consideration in high-frequency circuit design.
 

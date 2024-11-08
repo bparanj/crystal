@@ -2,8 +2,6 @@ TAG
 
 passive
 
-## Passive Electronic Component
-
 A passive electronic component is a device that does not require an external power source to operate. These components do not produce or amplify electrical signals but instead modify or store energy in the form of electrical signals. Common passive components include resistors, capacitors, and inductors, which controls current, stores energy, and shaping electrical signals within a circuit.
 
 There is a subtle difference between produce and create, especially in technical contexts like electronics.
@@ -15,8 +13,6 @@ Produce typically implies a transformation or output from an existing source or 
 In the context of electronics, produce would refer to the output or transformation of electrical signals from one form to another (like converting electrical energy into heat in a resistor), without violating the law of conservation of energy. Create would imply generating something from nothing, which is not applicable in energy systems.
 
 So, produce is a better fit than create when referring to how passive components work with energy.
-
----
 
 ## Atomic Ideas
 

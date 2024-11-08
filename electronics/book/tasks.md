@@ -25,7 +25,7 @@ Browser View
 - Look at the passive-device.md table in browser and review.
 
 Record Video
-- Record video of inductor experiment to show how LED gradually becomes dim
+- upload video of inductor experiment to show how LED gradually becomes dim
 
 
 - Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
