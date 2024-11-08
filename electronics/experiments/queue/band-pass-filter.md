@@ -1,5 +1,9 @@
 To design a band-pass filter experiment using Tinkercad, you can create a simple RC-RC band-pass filter. This filter allows a specific range of frequencies to pass while attenuating frequencies outside this range.
 
+PENDING
+
+Find a circuit diagram online
+
 ### Objective
 
 Create an RC-RC band-pass filter to observe how it selectively allows a certain frequency range to pass and attenuates frequencies above and below this range.
@@ -33,7 +37,7 @@ Create an RC-RC band-pass filter to observe how it selectively allows a certain 
 3. Increase Frequency: Gradually increase the frequency (e.g., 100 Hz, 1 kHz, 5 kHz, 10 kHz, etc.).
 4. Record Observations: Note how the amplitude of the output signal changes compared to the input as the frequency increases.
 
-### Expected Results
+### Results
 
 - At frequencies below the high-pass cutoff frequency \( f_{c1} \), the output signal should be attenuated.
 - As you approach the passband (between \( f_{c1} \) and \( f_{c2} \)), the output signal should have a higher amplitude.

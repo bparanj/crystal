@@ -24,7 +24,7 @@ Can this be done using Tinkercad
    - Connect the LED in series with the resistor. Place the LED’s positive terminal (anode) after the capacitor, and connect the negative terminal (cathode) to ground.
 
 3. Insert a Switch to Alternate Between DC and AC:
-   - Connect a switch to toggle between the DC and AC power sources. This will let you easily switch between the two types of current.
+   - Connect a switch to toggle between the DC and AC power sources. This will let you switch between the two types of current.
 
 4. Place a Multimeter Across the Capacitor:
    - Connect the multimeter in parallel with the capacitor to observe the voltage across it during both AC and DC operation.

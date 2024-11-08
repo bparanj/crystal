@@ -1,6 +1,6 @@
 What happens when capacitor is connected in series?
 
-When capacitors are connected in series, their total or equivalent capacitance decreases, and the overall behavior of the circuit changes in a few key ways:
+When capacitors are connected in series, their total or equivalent capacitance decreases.
 
 ### 1. Decreased Total Capacitance
 
@@ -33,6 +33,10 @@ You can use Tinkercad to demonstrate the effect of connecting capacitors in seri
 4. Switch: To control charging and discharging.
 5. Multimeter: To measure the voltage across the capacitors.
 6. Oscilloscope: (Optional) To observe the voltage changes over time.
+
+PENDING
+
+The circuit description is confusing. Find online diagram for this setup.
 
 ### Setup:
 

@@ -29,7 +29,7 @@ When capacitors are connected in parallel, their total or equivalent capacitance
    - Higher Capacitance for Energy Storage: Parallel capacitors are commonly used in power supply circuits to provide a large, stable current capacity, as this increases the total charge storage.
    - Stabilized Voltage Across Components: Since all capacitors share the same voltage, parallel capacitors help stabilize voltage across sensitive components.
 
-In summary, connecting capacitors in parallel increases the total capacitance, allowing for more charge storage at a given voltage, which is ideal for applications needing stable power and high energy storage capacity.
+Connecting capacitors in parallel increases the total capacitance, allowing for more charge storage at a given voltage, which is ideal for applications needing stable power and high energy storage capacity.
 
 You can use Tinkercad to demonstrate the effect of connecting capacitors in parallel by observing how the total capacitance changes and how it affects the charging and discharging behavior. In this experiment, we’ll measure the charge and discharge time of capacitors connected in parallel compared to a single capacitor.
 
@@ -42,7 +42,12 @@ You can use Tinkercad to demonstrate the effect of connecting capacitors in para
 5. Multimeter: To measure the voltage across the capacitors.
 6. Oscilloscope: (Optional) To observe voltage changes over time.
 
-### Circuit Setup:
+
+PENDING
+
+Not sure the hand drawn circuit diagram is correct. Search online.
+
+### Setup:
 
 1. Single Capacitor Setup (Reference Measurement):
    - Connect one terminal of the DC power source to one end of the resistor.
