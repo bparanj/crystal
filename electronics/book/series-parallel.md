@@ -68,8 +68,6 @@ Both configurations are practical, but series is more common when a larger induc
 
 Diodes in series are practical in applications needing higher voltage tolerance. Parallel configurations are generally avoided unless specific current-sharing measures are used, such as resistors in series with each diode.
 
-### Summary
-
 | Component   | Series Configuration                      | Parallel Configuration                     | Practical Use Cases                |
 |-------------|------------------------------------------|-------------------------------------------|------------------------------------|
 | Resistor | Increases total resistance               | Decreases total resistance                | Both series and parallel are useful |

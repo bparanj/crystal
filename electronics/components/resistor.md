@@ -57,9 +57,9 @@ Some common situations where resistors are used include:
 - Building RC filters or timing circuits
 - Matching impedances between different stages or devices
 
-In summary, resistors are essential components in electronic circuits that help control current, divide voltages, bias active components, ensure stable signal states, filter signals, and match impedances. They are used in a wide variety of applications and are fundamental to designing electronic systems.
+Resistors control current, divide voltages, bias active components, ensure stable signal states, filter signals, and match impedances. They are used in a wide variety of applications and are fundamental to designing electronic systems.
 
-The term "resistor" comes from the verb "resist," which means to oppose. It is derived from the Latin word *resistere*, meaning "to stand against" or "oppose."
+The term "resistor" comes from the verb "resist," which means to oppose. It is derived from the Latin word resistere, meaning "to stand against" or "oppose."
 
 In electrical terms, a resistor "resists" or opposes the flow of electrical current. The component was named based on its primary function, which is to limit or control the current in a circuit by providing resistance. The name emphasizes its role in opposing or reducing current flow.
 
@@ -149,7 +149,7 @@ Resistors are fundamental components in electronics, ensuring circuits function 
 
 ### Why is Current More Than What a Component Can Handle?
 
-In electronic circuits, the amount of current flowing through a component is determined by the overall circuit design, the power supply voltage and the resistance in the circuit. If the design does not properly account for the current requirements of each component, several issues can arise:
+The amount of current flowing through a component is determined by the overall circuit design, the power supply voltage and the resistance in the circuit. If the design does not properly account for the current requirements of each component, several issues can arise:
 
 1. Insufficient Resistance:
 
@@ -237,7 +237,7 @@ Components need specific conditions to perform their functions correctly. For ex
 
 2. Power Dissipation:
 
-Resistors and other passive components are designed to dissipate certain amounts of power (P = I^2 * R). Overloading them with too much current can lead to overheating and failure.
+Resistors and other passive components are designed to dissipate certain amounts of power (P = I^2  R). Overloading them with too much current can lead to overheating and failure.
 
 ### 3. Safety and Reliability
 
@@ -345,7 +345,33 @@ PENDING
 
 Create a table for voltage, current and keep resistor value constant to show the linear relationship
 
-PENDING
-
 Is direct proportionality and linear relationship refer to the same concept?
 
+Direct proportionality and a linear relationship are related concepts but are not exactly the same.
+
+### 1. Direct Proportionality:
+
+   - In direct proportionality, two variables \( x \) and \( y \) have a relationship such that:
+     \[
+     y = k \cdot x
+     \]
+     where \( k \) is a constant.
+   - This means that as \( x \) increases or decreases, \( y \) does so proportionally at a constant rate, and the line passes through the origin \((0, 0)\).
+   - Example: The relationship between distance and time at a constant speed is directly proportional.
+
+### 2. Linear Relationship:
+
+   - In a linear relationship, two variables have a relationship described by:
+     \[
+     y = m \cdot x + c
+     \]
+     where \( m \) is the slope and \( c \) is the y-intercept.
+   - This allows for any y-intercept (\(c\)), so the line does not necessarily pass through the origin.
+   - All directly proportional relationships are linear (with \( c = 0 \)), but not all linear relationships are directly proportional.
+
+### Differences:
+
+- Direct proportionality requires the line to pass through the origin \((0, 0)\).
+- A linear relationship can have any y-intercept, not necessarily zero.
+
+Direct proportionality is a specific type of linear relationship where the line passes through the origin, while a linear relationship may or may not pass through the origin.

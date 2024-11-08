@@ -20,6 +20,7 @@ Semiconductors occupy a unique middle position between conductors and insulators
    - Conductors: No band gap
    - Semiconductors: Small band gap (0.1-4 eV)
    - Insulators: Large band gap (>4 eV)
+	 
    This middle position allows:
    - Controlled electron movement
    - Temperature sensitivity
@@ -47,7 +48,6 @@ Semiconductors occupy a unique middle position between conductors and insulators
    - Temperature sensors
    - Light sensors
 
-The simulation shows:
 - The conductivity spectrum
 - Band gap comparisons
 - Temperature effects
