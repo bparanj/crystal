@@ -43,10 +43,6 @@ Can range from a few hundred volts to several thousand volts
 
 Electrostatic Discharge (ESD) is the sudden flow of electricity between two electrically charged objects caused by contact, an electrical short, or dielectric breakdown. Here are the key points to understand about ESD:
 
-PENDING QUESTIONS
-
-What are the natural occurrences of ESD in nature?
-
 1. Nature:
 
 ESD occurs when there is a rapid transfer of static charge between objects with different electrical potentials.
