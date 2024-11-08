@@ -2,14 +2,12 @@ PENDING
 
 Design a simple experiment for each of the bullet item
 
-## Component Notes
-
-A resistor is used for: 
+A resistor is used for:
 
 - limiting the charging rate of a capacitor
 - providing appropriate control voltage to semiconductors such as bipolar transistors
 - protecting LEDs or other semiconductors from excessive current
-- adjusting or limiting the frequency response in an audio circuit (in conjunction with other components) 
+- adjusting or limiting the frequency response in an audio circuit (in conjunction with other components)
 - pulling up or pulling down the voltage at the input pin of a digital logic chip
 - controlling a voltage at a point in a circuit
 

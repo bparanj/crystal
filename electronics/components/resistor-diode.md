@@ -18,7 +18,7 @@ Differences and similarities between a resistor and a diode:
 
 - What is bias in forward bias?
 
-Bias in electronics refers to applying a voltage across a component to control its operation. In forward bias (specifically for diodes), it means applying a voltage that allows current to flow through the diode. 
+Bias in electronics refers to applying a voltage across a component to control its operation. In forward bias (specifically for diodes), it means applying a voltage that allows current to flow through the diode.
 
 For a diode:
 
@@ -84,8 +84,6 @@ These experiments show:
 
 - Resistor: A linear relationship following Ohm’s Law.
 - Diode: A non-linear relationship due to its exponential response in the forward bias region.
-
-
 
 PENDING DIAGRAM
 

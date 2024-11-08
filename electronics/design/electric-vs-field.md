@@ -45,7 +45,7 @@ An electric field is a region of space around a charged particle or object where
      \]
      where \( F \) is the force experienced by a test charge \( q \).
 
-### Key Differences:
+### Differences:
 
 - Nature:
 

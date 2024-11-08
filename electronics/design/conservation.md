@@ -3,6 +3,8 @@
 
 The Law of Conservation of Energy states that energy cannot be created or destroyed, only transformed from one form to another. The total energy in an isolated system remains constant.
 
+PENDING
+
 - Is this easy to understand?
 - What is a physical system?
 

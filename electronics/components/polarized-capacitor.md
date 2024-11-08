@@ -16,10 +16,6 @@ Types:
 
 The most common types of polarized capacitors are electrolytic capacitors and tantalum capacitors. Electrolytic capacitors are often used in power supply circuits due to their high capacitance values.
 
-Construction:
-
-In electrolytic capacitors, the anode is made of a metal that forms an insulating oxide layer through anodization. This oxide layer acts as the dielectric. The cathode is a conductive material that serves as the electrolyte.
-
 Applications
 
 Power Supply Filtering:
@@ -50,25 +46,25 @@ Here’s a simple example of how a polarized capacitor might be used in a power 
 
 Use a polarized capacitor (like electrolytic or tantalum) when:
 
-1. Higher Capacitance Needed: 
+1. Higher Capacitance Needed:
 
 Polarized capacitors typically offer high capacitance values, suitable for applications requiring substantial charge storage.
 
-2. Low-Frequency Circuits: 
+2. Low-Frequency Circuits:
 
 They work well in low-frequency circuits, such as power supplies, where they smooth out ripples in DC voltages.
 
-3. DC Applications: 
+3. DC Applications:
 
 Since polarized capacitors only handle DC currents in one direction, use them in DC circuits where one side will consistently have a higher voltage than the other.
 
-4. Stable Polarity: 
+4. Stable Polarity:
 
 Use polarized capacitors when the polarity is stable and known, as reversing the polarity can damage the capacitor or reduce its lifespan.
 
-5. Bulk Storage Needs: 
+5. Bulk Storage Needs:
 
-They are ideal for applications like filtering, decoupling, and energy storage where large values of capacitance are needed in a compact form. 
+They are ideal for applications like filtering, decoupling, and energy storage where large values of capacitance are needed in a compact form.
 
 For AC circuits or when polarity is unknown, avoid polarized capacitors and opt for non-polarized types.
 

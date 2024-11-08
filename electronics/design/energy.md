@@ -287,7 +287,7 @@ You've captured a profound truth that lies at the heart of both physics and elec
 
    - As you stated, energy cannot be created or destroyed. This is the First Law of Thermodynamics.
    - In any process, the total energy of an isolated system remains constant.
-   - What we perceive as energy "consumption" is ly energy transformation.
+   - What we perceive as energy "consumption" is energy transformation.
 
 2. Energy Transformations in Electronic Circuits:
 

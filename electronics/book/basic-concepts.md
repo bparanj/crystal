@@ -1,4 +1,4 @@
-Here are the basic concepts in electronics:
+basic concepts in electronics:
 
 1. Voltage (V):
 
@@ -61,8 +61,6 @@ The number of cycles per second of an alternating current or signal, measured in
 The total opposition to current flow in an AC circuit, including resistance and reactance, measured in ohms (Ω).
 
 These concepts are the basics of understanding how electronic components and circuits function.
-
-Here are the fundamental concepts in electronics:
 
 1. Voltage (V)
 

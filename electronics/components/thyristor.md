@@ -2,7 +2,7 @@
 
 A thyristor solves the problem of controlling high power in a circuit with a small control signal. It acts as a switch that can handle large currents and voltages in AC and DC circuits, making it ideal for applications where precise control of power flow is required.
 
-### Key Problems Solved by a Thyristor
+### Problems Solved by a Thyristor
 
 1. Efficient Power Switching:
 

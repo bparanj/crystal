@@ -108,8 +108,6 @@ Tips:
 - Use grid snap for alignment
 - Verify footprints before ordering
 
-Would you like me to explain any of these steps in more detail?
-
 A Zener diode is a special type of semiconductor diode designed to operate in reverse breakdown mode. Here are its key characteristics and uses:
 
 1. Reverse breakdown: Unlike regular diodes, Zener diodes are designed to conduct current when reverse-biased above a specific voltage.
@@ -298,7 +296,7 @@ Advantages:
 - Good voltage stability
 - Can handle reverse voltage
 
-Common Use Cases:
+Use Cases:
 
 - Mobile chargers
 - DC power supplies

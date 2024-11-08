@@ -35,8 +35,6 @@ While both diodes and transistors can function as switches, they have distinct c
    - Diode: Suitable for simple tasks like rectification and protection.
    - Transistor: Integral to complex tasks like building logic circuits, amplifying signals, and controlling power.
 
-### Summary:
-
 While both diodes and transistors can act as switches, a diode is a simpler, two-terminal device that allows current flow in only one direction, used for rectification and protection. A transistor is a more complex, three-terminal device that can be controlled by an input signal, enabling it to act as both a switch and an amplifier, making it useful for more complex and high-speed electronic applications.
 
 TAG

@@ -104,7 +104,7 @@ The key differences are:
 
 Think of household AC like a water main (fixed, high power) and a function generator like a precise laboratory water dropper (adjustable, low power).
 
-Correct, a function generator cannot be used as an AC power supply for typical applications. Here’s why:
+A function generator cannot be used as an AC power supply for typical applications. Here’s why:
 
 1. Power Output:
 
@@ -124,7 +124,7 @@ Attempting to use a function generator as an AC power source could damage the ge
 
 For powering devices, you would need a dedicated AC power supply or a DC power supply (for DC applications) that provides stable, higher power output suitable for your specific requirements.
 
-No, a typical function generator cannot be used as an AC power supply because:
+A typical function generator cannot be used as an AC power supply because:
 
 1. Limited Current Output:
 

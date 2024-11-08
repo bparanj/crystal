@@ -1,6 +1,6 @@
 ### Experiment 2: Capacitive Reactance
 
-Objective: 
+Objective:
 
 To observe how a capacitor affects the current in an AC circuit.
 
@@ -41,7 +41,7 @@ Main points:
 
 As frequency increases, capacitive reactance (Xc) decreases according to Xc = 1/(2πfC). By Ohm's law, I = V/Xc, so when Xc decreases, current increases.
 
-Think of it this way: Higher frequency means the voltage changes direction more often, giving electrons less time to build up on the capacitor plates. This allows more current to flow through the circuit.
+Higher frequency means the voltage changes direction more often, giving electrons less time to build up on the capacitor plates. This allows more current to flow through the circuit.
 
 Example: If frequency doubles:
 

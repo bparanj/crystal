@@ -1,10 +1,10 @@
 An electric field and electrical energy are related but different concepts:
 
-1. Electric Field: 
+1. Electric Field:
 
 It is a region around a charged object where other charges experience a force. It represents the influence that a charged particle exerts on other charges nearby. The field is described by its strength (measured in volts per meter, V/m) and direction.
 
-2. Electrical Energy: 
+2. Electrical Energy:
 
 It is the energy stored or transferred by electric charges due to their movement or position within an electric field. Electrical energy is measured in joules (J) and depends on the amount of charge and the potential difference (voltage) in the field.
 
@@ -12,17 +12,17 @@ In summary, the electric field is a property of space around charges, while elec
 
 Electric fields can be visualized using field lines or vector arrows that represent the direction and strength of the field. Here's how you can conceptualize it:
 
-1. Field Lines: 
+1. Field Lines:
 
    - The lines originate from positive charges and end at negative charges.
    - The density of the lines represents the field's strength: the closer the lines are, the stronger the field.
    - The direction of the lines shows the direction a positive test charge would move in the field.
 
-2. Uniform Field: 
+2. Uniform Field:
 
    - Between two parallel plates with opposite charges, the electric field is uniform, with evenly spaced, straight lines going from the positive plate to the negative plate.
-   
-3. Point Charges: 
+
+3. Point Charges:
 
    - Around a single positive charge, field lines radiate outward; for a negative charge, they converge inward. The lines are curved if multiple charges interact.
 
@@ -32,9 +32,9 @@ Electric fields can be visualized using field lines or vector arrows that repres
 
 You can think of the electric field like a grid or a map that shows how a test charge would move if placed in that space. The lines help visualize the forces acting on charges without physically seeing them.
 
-Visualizing electrical energy can be done through several conceptual models, as it's not directly visible like an object, but its effects can be illustrated. Here are a few ways to think about it:
+Visualizing electrical energy can be done through several conceptual models, as it's not directly visible like an object, but its effects can be illustrated.
 
-1. Stored Energy in Capacitors: 
+1. Stored Energy in Capacitors:
 
    - Imagine a capacitor as a bucket storing water (energy). When fully charged, the capacitor holds electrical energy between its plates, and when released (discharged), that energy flows through a circuit, similar to water being poured out.
 

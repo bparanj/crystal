@@ -9,7 +9,7 @@ Where:
 - \( V \) = Battery Voltage
 - \( R \) = Load Resistance (in Ohms)
 
-However, if you want to know the maximum current a battery can typically supply, here's a general guide for each type:
+if you want to know the maximum current a battery can typically supply, here's a general guide for each type:
 
 1. 1.5V (AA/AAA/C/D):
    - Capacity varies, around 2000-3000 mAh for AA.
@@ -48,7 +48,7 @@ You can find the maximum current a battery can supply in the following sources:
 
 5. Technical Reviews or Guides: Some websites and forums publish detailed reviews and performance tests, particularly for popular batteries (like Li-Ion cells), which may indicate real-world current limits.
 
-By consulting these sources, you can get accurate information about the battery's maximum current capabilities.
+these sources give you accurate information about the battery's maximum current capabilities.
 
 TAG
 

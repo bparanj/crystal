@@ -1,6 +1,4 @@
-Decibels
-
-Decibels (dB) are used to measure power ratios in many fields, not just audio. Let me explain:
+Decibels (dB) are used to measure power ratios in many fields, not just audio.
 
 Decibels are used in:
 

@@ -8,7 +8,7 @@ What is ESR meter?
 
 An ESR meter is a specialized tool used to measure the Equivalent Series Resistance (ESR) of capacitors, especially in-circuit capacitors. ESR is the internal resistance that appears in series with the capacitance in real capacitors, affecting their performance, particularly at high frequencies.
 
-### Key Functions of an ESR Meter
+### Functions of an ESR Meter
 
 1. Measures ESR Value:
 
@@ -38,9 +38,7 @@ In-circuit testing is often used for initial troubleshooting, quick checks, or w
 
 In-circuit testing can be performed using multimeters, oscilloscopes, logic analyzers, and in-circuit testers (ICTs) specifically designed to perform automated checks on populated boards.
 
-### Summary:
-
-- Testing out of circuit provides accurate measurements of individual components by removing them from their circuit, while testing in circuit evaluates components in their operational environment, which is quicker but might be less precise due to the influence of surrounding elements.
+Testing out of circuit provides accurate measurements of individual components by removing them from their circuit, while testing in circuit evaluates components in their operational environment, which is quicker but might be less precise due to the influence of surrounding elements.
 
 TAG
 

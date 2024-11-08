@@ -1,7 +1,3 @@
-## Current Division
-
-What is current division in electronics
-
 Current division is the principle where total current divides between parallel branches inversely proportional to their resistance:
 
 Formula:
