@@ -1,7 +1,6 @@
 
 PENDING
 
-Move to out of scope
 Youtube video is sufficient
 
 A simple experiment to illustrate the thermoelectric effect.

@@ -1,7 +1,7 @@
 PENDING
 
 Is this already in existing experiment?
-Move this to experiments folder. Or merge it to any existing experiment.
+ merge it to any existing experiment?
 
 A simple experiment to demonstrate the problem caused by not using a diode involves a DC motor connected to a power supply without a flyback diode. This setup shows how voltage spikes from the motor can damage other components when the diode is missing.
 

@@ -35,4 +35,4 @@ When electric current flows through the copper wire, it generates a magnetic fie
 
 PENDING
 
-Move this to out of scope folder. Link to youtube video is sufficient.
+Link to youtube video is sufficient.

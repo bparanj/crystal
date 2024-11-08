@@ -2,10 +2,6 @@ TAG
 
 experiments
 
-PENDING
-
-Move this to experiments folder
-
 Here are three experiments designed to illustrate the concept of capacitance and how it behaves in electrical circuits:
 
 ### 1. Experiment 1: Charging and Discharging a Capacitor

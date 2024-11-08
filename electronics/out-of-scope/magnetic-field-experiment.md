@@ -1,7 +1,7 @@
 An experiment to visualize magnetic fields using common materials:
 
 Add search term for youtube video to appendix
-Youtube videos exist. Move this to out of scope.
+Youtube videos exist. 
 
 Objective:
 

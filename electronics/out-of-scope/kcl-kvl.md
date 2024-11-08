@@ -9,10 +9,6 @@ Kirchhoff's Current Law (KCL):
 
 States that the total current entering a junction must equal the total current leaving the junction. This reflects the conservation of charge, which is closely related to energy conservation since the movement of charge carries energy.
 
-PENDING
-
-Move to out of scope folder
-
 Here's a diagram illustrating Kirchhoff's Current Law (KCL) and Kirchhoff's Voltage Law (KVL):
 
 ```

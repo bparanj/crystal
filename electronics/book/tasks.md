@@ -1,6 +1,7 @@
 
 - Create a circuit diagram and use Tinkercad images for series battery demo Refer: Series Battery Demo. Show that the current through the circuit will be the same. See 14.md
 - See 15.md for batteries in parallel.
+- Connect multimeter before and after a resistor to show the current flowing is the same before or after the resistor. 
 
 Sequence
 
