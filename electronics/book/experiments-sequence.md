@@ -4,6 +4,8 @@ Foundations through Experimentation
 
 The basic principles from physics is explained in a simple language to provider a deeper understanding of the electronics. The basics of innovation is also discussed in the context of electronics.
 
+Don't damaage any components and waste. Big companies are already wasting lot of electronics. Simulation is the answer.
+
 PENDING
 
 Revise the experiments and a

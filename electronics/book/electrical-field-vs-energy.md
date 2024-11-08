@@ -10,8 +10,6 @@ It is the energy stored or transferred by electric charges due to their movement
 
 In summary, the electric field is a property of space around charges, while electrical energy is the actual energy associated with the charges' position or motion in that field.
 
-## Visualize
-
 Electric fields can be visualized using field lines or vector arrows that represent the direction and strength of the field. Here's how you can conceptualize it:
 
 1. Field Lines: 

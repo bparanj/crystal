@@ -1,9 +1,5 @@
 Here are the basic concepts in electronics:
 
-PENDING
-
-Move to draft folder
-
 1. Voltage (V):
 
 The potential difference between two points in a circuit. It is the driving force that pushes electric charges through a conductor, measured in volts (V).

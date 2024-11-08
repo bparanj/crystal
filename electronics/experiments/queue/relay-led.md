@@ -15,7 +15,8 @@ A simple experiment in Tinkercad to demonstrate a relay-driven LED circuit:
 ### Steps
 
 1. Set Up the Power Supply:
-   - Connect the positive and ground lines of the 5V power supply to the breadboard’s power and ground rails.
+
+Connect the positive and ground lines of the 5V power supply to the breadboard’s power and ground rails.
 
 2. Connect the Relay and Transistor:
    - Place the relay on the breadboard.

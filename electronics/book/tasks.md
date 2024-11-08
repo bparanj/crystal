@@ -1,4 +1,8 @@
 
+- Create a circuit diagram and use Tinkercad images for series battery demo Refer: Series Battery Demo. Show that the current through the circuit will be the same. See 14.md
+- See 15.md for batteries in parallel.
+
+
 Sequence
 
 - add polarized capacitor experiment after the basic capacitor experiment
@@ -25,6 +29,9 @@ Browser View
 - Look at the passive-device.md table in browser and review.
 
 Record Video
+
+Upload Video
+
 - upload video of inductor experiment to show how LED gradually becomes dim
 
 
