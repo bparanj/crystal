@@ -1,5 +1,10 @@
 The simplest circuit to illustrate the Principle of Electromagnetic Induction is a basic setup with a coil (inductor) and a moving magnet. This circuit demonstrates how a changing magnetic field can induce an electromotive force (EMF) and consequently generate a current in a conductor.
 
+
+PENDING
+
+Can this be done using Tinkercad
+
 ### Components:
 
 1. Coil of Wire (Inductor): A simple coil made from insulated copper wire.

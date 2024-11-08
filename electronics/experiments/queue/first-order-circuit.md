@@ -1,5 +1,9 @@
 A first-order circuit typically includes a resistor and either a capacitor (RC circuit) or an inductor (RL circuit). These circuits are useful for understanding concepts like charging/discharging in RC circuits and current buildup/decay in RL circuits. Here, we’ll design an RC circuit experiment in Tinkercad to observe how a capacitor charges and discharges.
 
+PENDING
+
+Can this be done using Tinkercad?
+
 ### Components:
 
 1. DC Power Source: 5V DC source.

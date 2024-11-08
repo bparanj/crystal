@@ -10,10 +10,6 @@ where:
 
 The time constant represents the time it takes for the capacitor to charge up to approximately 63% of its full charge (or to discharge to about 37% of its initial charge) through the resistor.
 
-PENDING
-
-Move this to terms folder
-
 ### Practical Implications
 
 1. Timing Applications:
@@ -38,7 +34,5 @@ Move this to terms folder
 6. Pulse Shaping in Digital Circuits:
    - RC circuits help shape pulses in digital circuits, preventing noise or unwanted transients from triggering false signals.
    - The time constant determines the rise and fall time of signals, impacting the clarity and reliability of digital signals in systems like microcontrollers and communication interfaces.
-
-### Summary
 
 The time constant of a capacitor determines the charging and discharging rate in an RC circuit, influencing the timing, filtering, and response characteristics in various practical applications. By adjusting the time constant, engineers can tailor circuits to meet specific needs in timing, filtering, stabilization, and pulse control. This concept is foundational in designing electronic systems where precise timing and signal integrity are crucial.

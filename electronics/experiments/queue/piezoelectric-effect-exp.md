@@ -1,6 +1,10 @@
 
 A simple experiment to illustrate the piezoelectric effect:
 
+PENDING
+
+Can this run in Tinkercad
+
 ### Objective:
 
 To demonstrate how mechanical pressure on a piezoelectric material generates an electrical voltage.

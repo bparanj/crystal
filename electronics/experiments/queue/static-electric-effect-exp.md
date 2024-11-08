@@ -1,3 +1,8 @@
+PENDING
+
+Move this document to out of scope
+Youtube video is sufficient
+
 A simple experiment to illustrate the static electric effect:
 
 ### Objective:

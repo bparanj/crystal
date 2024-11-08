@@ -7,29 +7,29 @@ Show how a single diode can act as a rectifier by allowing current to flow in on
 
 ### Components
 
-1. AC Power Supply - Use a low-frequency AC source (e.g., 10 Hz) to easily observe the rectification on the oscilloscope
-2. Diode - 1N4007 or similar (Tinkercad provides basic diode models)
+1. AC Power Supply
+
+Use a low-frequency AC source (e.g., 10 Hz) to easily observe the rectification on the oscilloscope
+
+2. Diode
+
+1N4007 or similar (Tinkercad provides basic diode models)
+
 3. Resistor (R) - 1 kΩ (to limit current and simulate a load)
-4. Oscilloscope - To observe the input and output waveforms
+
+4. Oscilloscope
+
+To observe the input and output waveforms
+
 5. Breadboard - For connecting components
 
-### Circuit Setup
+### Setup
 
-1. Connect the AC Power Supply:
- 
  Connect the AC power supply to the breadboard. Set it to a low frequency (e.g., 10 Hz) so that the rectification process is more visible on the oscilloscope.
-
-2. Diode Placement:
- 
  Place the diode in series with the AC source, with the anode connected to the positive terminal of the AC source and the cathode connected to one end of the resistor.
-
-3. Load Resistor:
- 
- Connect the other end of the resistor to the negative terminal of the AC power supply, completing the circuit. This resistor will act as the load across which we’ll observe the rectified voltage.
-
-4. Oscilloscope Connections:
-   - Connect the oscilloscope probes across the AC source to observe the input waveform.
-   - Place another set of oscilloscope probes across the resistor (load) to observe the rectified output.
+ Connect the other end of the resistor to the negative terminal of the AC power supply, completing the circuit. This resistor will act as the load across which we’ll observe the rectified voltag
+ Connect the oscilloscope probes across the AC source to observe the input waveform.
+ Place another set of oscilloscope probes across the resistor (load) to observe the rectified output.
 
 ### Procedure
 

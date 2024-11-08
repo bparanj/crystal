@@ -1,6 +1,10 @@
 
 A simple experiment to illustrate the concept of photovoltaic action:
 
+PENDING
+
+Can this be run in Tinkercad?
+
 ### Objective:
 
 To demonstrate how sunlight can be converted directly into electrical energy using a solar cell.

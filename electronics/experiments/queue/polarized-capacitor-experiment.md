@@ -1,6 +1,10 @@
 
 3. How do capacitors operate as passive components?
 
+PENDING
+
+Merge with existing experiment.
+
 Capacitors store electrical energy in an electric field between two conductive plates separated by a dielectric material. They block DC current while allowing AC current to flow, with their capacitance measured in farads (F).
 
 A capacitor resembles a rubber membrane in a pipe. It flexes to absorb pressure changes (storing energy) but doesn't allow continuous flow, similar to how a capacitor stores charge but blocks DC current.

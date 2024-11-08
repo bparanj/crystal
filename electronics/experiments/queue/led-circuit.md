@@ -24,7 +24,6 @@ If you connect an LED with incorrect polarity (reverse bias), it will not light 
 
 The next step after the basic "Hello World" circuit would  be a circuit that introduces a new concept or component while still being relatively simple. A perfect example of this is the LED circuit with a current-limiting resistor. Let's explore this:
 
-
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
   <!-- Battery -->

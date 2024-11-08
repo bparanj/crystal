@@ -1,9 +1,5 @@
 Magnets are found both in nature and can also be man-made.
 
-PENDING
-
-Move to terms folder
-
 ### Natural Magnets
 
 Some materials naturally exhibit magnetic properties without any human intervention. The most common example is lodestone (a type of magnetite), which is a naturally occurring magnetic mineral. Ancient people discovered lodestone’s ability to attract iron, leading to early uses in compasses.

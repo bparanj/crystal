@@ -1,4 +1,8 @@
-Yes, there is a simple circuit for a current divider, similar in concept to a voltage divider. A current divider circuit allows the input current to be split between two or more parallel branches based on their resistances (or impedances in AC circuits).
+PENDING
+
+This is already complete. Merge with the experiment.
+
+A current divider circuit allows the input current to be split between two or more parallel branches based on their resistances (or impedances in AC circuits).
 
 ### How a Current Divider Works
 
@@ -38,8 +42,6 @@ Here’s a basic current divider circuit using two resistors in parallel.
 3. Measurement:
    - Place an ammeter in each branch or use a multimeter to measure the current through \( R_1 \) and \( R_2 \).
    - Alternatively, you could calculate the expected currents using the formulas above.
-
-#### Expected Outcome:
 
 The current through each resistor depends on its resistance. For example, if \( R_1 = 1 \, \text{kΩ} \) and \( R_2 = 2 \, \text{kΩ} \) with a total current \( I_{\text{total}} \), more current will flow through \( R_1 \) (lower resistance) than through \( R_2 \).
 

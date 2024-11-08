@@ -1,6 +1,4 @@
-Yes, you can implement a simple RC snubber circuit in Tinkercad to observe its basic function. However, Tinkercad's capabilities are limited and may not fully simulate the high-frequency switching transients where a snubber is most effective, but you can still get a sense of how it operates by setting up an RC snubber circuit across a switch or inductive load.
-
-### What is a Snubber?
+you can implement a simple RC snubber circuit in Tinkercad to observe its basic function. However, Tinkercad's capabilities are limited and may not fully simulate the high-frequency switching transients where a snubber is most effective, but you can still get a sense of how it operates by setting up an RC snubber circuit across a switch or inductive load.
 
 A snubber circuit is typically used to suppress voltage spikes across a switch or an inductive load, like a relay or motor, by absorbing energy and reducing electromagnetic interference (EMI). A basic RC snubber consists of a resistor and a capacitor in series, placed across the switch or load.
 
@@ -41,11 +39,7 @@ A snubber circuit is typically used to suppress voltage spikes across a switch o
 3. Observe the Oscilloscope:
    - Watch the oscilloscope to see how the RC snubber affects the voltage across the switch when it opens. The capacitor should absorb some of the energy, and the resistor dissipates it, smoothing out the spike.
 
-Snubber Functionality:
-
 When the switch opens, the inductor tries to maintain current flow, creating a high voltage spike. The RC snubber provides an alternate path for this energy, reducing the spike and preventing arcing across the switch.
-
-Energy Absorption:
 
 The capacitor absorbs the energy from the spike, and the resistor dissipates it as heat, protecting the switch and other circuit components from damage.
 

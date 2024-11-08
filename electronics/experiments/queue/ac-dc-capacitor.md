@@ -1,4 +1,9 @@
-To demonstrate how a capacitor blocks DC current but allows AC to pass, you can set up a simple experiment in Tinkercad with a few basic components:
+To demonstrate how a capacitor blocks DC current but allows AC to pass, you can set up a simple experiment:
+
+
+PENDING
+
+Can this be done using Tinkercad
 
 ### Components:
 
@@ -29,12 +34,14 @@ To demonstrate how a capacitor blocks DC current but allows AC to pass, you can 
 1. DC Mode (Switch to DC):
    - Set the power supply to 5V DC.
    - Observe the LED and the multimeter reading.
-   - Expected Outcome: The LED will remain off, and the multimeter will show a voltage across the capacitor initially as it charges. Once fully charged, no current flows through the LED, demonstrating that DC current is blocked after the capacitor charges.
+
+The LED will remain off, and the multimeter will show a voltage across the capacitor initially as it charges. Once fully charged, no current flows through the LED, demonstrating that DC current is blocked after the capacitor charges.
 
 2. AC Mode (Switch to AC):
    - Switch the power source to 5V AC at a frequency (e.g., 50 Hz or 60 Hz).
    - Observe the LED and the multimeter reading again.
-   - Expected Outcome: The LED will start to blink or stay on dimly, depending on the frequency of the AC signal. The multimeter will show alternating voltage across the capacitor, demonstrating that AC is passing through and causing a fluctuating current, which lights up the LED.
+
+The LED will start to blink or stay on dimly, depending on the frequency of the AC signal. The multimeter will show alternating voltage across the capacitor, demonstrating that AC is passing through and causing a fluctuating current, which lights up the LED.
 
 In DC Mode, the capacitor charges up and then blocks further current flow, as the current has no path through a fully charged capacitor. In AC Mode, the alternating current constantly changes direction, which allows the capacitor to continuously charge and discharge, enabling current flow through the circuit. This is why the LED lights up in AC mode but remains off in DC mode.
 

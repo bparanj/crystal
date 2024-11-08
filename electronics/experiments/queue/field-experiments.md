@@ -1,6 +1,10 @@
+PENDING
+
+Which of these experiments can be done using Tinkercad?
+
 ### 1. Experiment 1: Electric Field Inside a Circuit (Capacitor)
 
-Objective: 
+Objective:
 
 Demonstrate the presence of an electric field in a capacitor within an electronic circuit.
 
@@ -25,7 +29,7 @@ The electric field is established between the plates due to the potential differ
 
 ### 2. Experiment 2: Electrostatic Field Inside a Circuit (Charged Capacitor)
 
-Objective: 
+Objective:
 
 Demonstrate the presence of an electrostatic field in a charged capacitor disconnected from the circuit.
 
@@ -37,15 +41,15 @@ Materials:
 
 Procedure:
 
-1. Charge the Capacitor: 
+1. Charge the Capacitor:
 
 Using the setup from Experiment 1, charge the capacitor by connecting it to the battery. Disconnect the capacitor carefully using insulated tweezers.
 
-2. Isolate the Capacitor: 
+2. Isolate the Capacitor:
 
 Place the charged capacitor on an insulated surface to prevent it from discharging.
 
-3. Detect the Electrostatic Field: 
+3. Detect the Electrostatic Field:
 
 Use an electroscope or similar charge detector near the capacitor’s terminals to detect the presence of a static electric field.
 
@@ -53,7 +57,7 @@ The charges on the capacitor’s plates are stationary, creating an electrostati
 
 ### 3. Experiment 3: Electric Field in the Real World (Van de Graaff Generator)
 
-Objective: 
+Objective:
 
 Demonstrate the presence of an electric field in the real world outside of circuits.
 
@@ -77,7 +81,7 @@ The Van de Graaff generator creates a strong electric field around its dome. Thi
 
 ### 4. Experiment 4: Electrostatic Field in the Real World (Balloon and Hair)
 
-Objective: 
+Objective:
 
 Demonstrate the presence of an electrostatic field in the real world.
 
@@ -101,19 +105,19 @@ The static charges on the balloon create an electrostatic field around it. This 
 
 ### Summary of Concepts Demonstrated:
 
-- Experiment 1: 
+- Experiment 1:
 
 Electric field inside a circuit, created by a voltage across a capacitor.
 
-- Experiment 2: 
+- Experiment 2:
 
 Electrostatic field inside a circuit, in a charged but isolated capacitor.
 
-- Experiment 3: 
+- Experiment 3:
 
 Electric field in the real world, demonstrated by a Van de Graaff generator.
 
-- Experiment 4: 
+- Experiment 4:
 
 Electrostatic field in the real world, demonstrated by a charged balloon and its interaction with nearby objects.
 
@@ -189,7 +193,7 @@ Understanding this distinction is important for correctly analyzing and applying
 
 ### Electrostatic Field
 
-Materials: 
+Materials:
 
 Plastic rod, fur or wool cloth, small pieces of paper
 
@@ -204,7 +208,7 @@ Observation: The paper pieces remain attracted to the rod, demonstrating the tim
 
 ### Time-Varying Electric Field
 
-Materials: 
+Materials:
 
 Simple AC electromagnet (coil of wire connected to a low-voltage AC power source), compass
 
@@ -214,7 +218,7 @@ Procedure:
 2. Turn on the AC power source.
 3. Observe the compass needle.
 
-Observation: 
+Observation:
 
 The compass needle oscillates, indicating a changing magnetic field, which implies a time-varying electric field.
 
@@ -222,7 +226,7 @@ The compass needle oscillates, indicating a changing magnetic field, which impli
 
 ### Electrostatic Field
 
-Materials: 
+Materials:
 
 Van de Graaff generator, small metal sphere on an insulating handle
 
@@ -232,13 +236,13 @@ Procedure:
 2. Move the metal sphere in different paths around the generator's dome.
 3. Measure the charge acquired by the sphere for different paths.
 
-Observation: 
+Observation:
 
 The charge acquired by the sphere is the same regardless of the path, demonstrating the conservative nature of electrostatic fields.
 
 ### Non-Conservative Electric Field
 
-Materials: 
+Materials:
 
 Copper wire loop, strong bar magnet, galvanometer
 
@@ -255,7 +259,7 @@ The galvanometer reading varies based on how you move the magnet, showing that t
 
 ### Electrostatic Field
 
-Materials: 
+Materials:
 
 Charged balloon, small pieces of paper
 
@@ -268,7 +272,7 @@ Observation: The paper pieces are attracted to the balloon, showing a field from
 
 ### Electric Field from Changing Magnetic Field
 
-Materials: 
+Materials:
 
 Solenoid, iron core, battery, switch, nearby loop of wire connected to an LED
 
@@ -278,6 +282,6 @@ Procedure:
 2. Place the wire loop near the solenoid.
 3. Quickly open and close the switch.
 
-Observation: 
+Observation:
 
 The LED flashes when the switch is opened or closed, demonstrating an electric field induced by a changing magnetic field.

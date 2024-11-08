@@ -1,15 +1,14 @@
 Electric flux is a measure of the electric field passing through a given surface. It represents the quantity of electric field lines penetrating that surface, providing insight into the field's strength and orientation in relation to the surface area.
 
-PENDING
-Move this to terms folder.
+Electric Flux (Φ):
 
-1. Electric Flux (Φ): It is calculated by multiplying the electric field (E) by the area (A) of the surface through which the field lines pass and considering the angle (θ) between the field lines and the perpendicular (normal) to the surface.
+It is calculated by multiplying the electric field (E) by the area (A) of the surface through which the field lines pass and considering the angle (θ) between the field lines and the perpendicular (normal) to the surface.
    - Formula: \(\Phi = E \cdot A \cdot \cos(\theta)\)
    - Here, \(E\) is the electric field strength, \(A\) is the area, and \(\theta\) is the angle between the electric field and the surface normal.
 
-2. Units: Electric flux is measured in newton meters squared per coulomb (N·m²/C).
+Electric flux is measured in newton meters squared per coulomb (N·m²/C).
 
-3. Closed Surface and Gauss's Law:
+Closed Surface and Gauss's Law:
    - For a closed surface (like a sphere around a charge), the electric flux is proportional to the charge inside that surface.
    - Gauss's Law states that the total electric flux through a closed surface is equal to the charge enclosed divided by the permittivity of free space \((ε_0)\): \(\Phi = \frac{Q}{ε_0}\).
 

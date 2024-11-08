@@ -100,8 +100,6 @@ Observe the current gain of an NPN transistor by measuring the base current and 
      \]
    - Compare the values of \( I_C \) and \( I_B \) to observe how the transistor amplifies the current.
 
-### Expected Results
-
 The collector current \( I_C \) should be significantly larger than the base current \( I_B \). The ratio \( \frac{I_C}{I_B} \) gives the current gain \( \beta \) of the transistor, demonstrating how a small base current controls a larger collector current.
 
 This experiment illustrates the concept of current gain in a transistor. A small input current at the base results in a much larger output current at the collector, showing the amplification capability of the transistor in terms of current gain.

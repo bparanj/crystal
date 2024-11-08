@@ -84,6 +84,4 @@ You can use Tinkercad to demonstrate the effect of connecting capacitors in para
   For two 10 µF capacitors in parallel, the total capacitance becomes 20 µF, allowing the circuit to store more charge.
 - Charging and Discharging Times: The increased capacitance in the parallel setup increases the time constant \( \tau = RC \), which leads to a longer charging and discharging time compared to a single capacitor.
 
-### Observing the Results
-
 This experiment allows you to visualize the impact of connecting capacitors in parallel, demonstrating how total capacitance increases, which leads to a slower charge/discharge rate and a higher charge storage capacity. This is useful in applications that need stable, long-lasting power, such as power supplies and energy storage systems.

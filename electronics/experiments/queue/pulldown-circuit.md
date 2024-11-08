@@ -1,11 +1,10 @@
 A pull-down circuit is a simple but important electronic configuration that ensures an input pin maintains a defined logic LOW (0) state when no other active signal is connected. It consists of a resistor connected between the input pin and ground (GND).
 
-Here's what a pull-down resistor does:
 1. When no signal is applied: The resistor "pulls" the input to ground (0V)
 2. When a HIGH signal is applied: The input goes HIGH (overriding the pull-down)
 3. When the signal is removed: The input returns to LOW
 
-Common uses include:
+Common uses:
 - Button/switch inputs
 - Digital communication lines
 - Preventing floating inputs that could cause unpredictable behavior
@@ -29,10 +28,14 @@ To show how a pull-down resistor works to ensure a stable LOW (logic “0”) si
 
 ### Circuit Setup
 
-1. Power Supply: Connect the positive terminal of the power supply (5V or 3.3V) to one side of the pushbutton switch.
+1. Power Supply:
+
+Connect the positive terminal of the power supply (5V or 3.3V) to one side of the pushbutton switch.
+
 2. Pull-Down Resistor:
    - Connect the other side of the pushbutton switch to ground (GND).
    - At the junction between the switch and ground, connect a 10 kΩ resistor between this point and ground.
+
 3. LED and Observation Point:
    - Connect an LED (with a 330Ω resistor in series) between the junction of the switch and ground, and the positive power supply. The LED will turn on when the junction goes HIGH.
 

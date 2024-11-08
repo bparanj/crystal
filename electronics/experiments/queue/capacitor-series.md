@@ -18,10 +18,8 @@ Capacitors in series share the applied voltage. Therefore, the voltage rating of
 
 When capacitors are connected in series, they all store the same amount of electric charge \(Q\), regardless of their individual capacitance values. This is because the charge on each capacitor must balance out along the entire series path.
 
-### Implications
-
-   - Higher Voltage Tolerance: Series capacitors are beneficial in circuits requiring a higher voltage tolerance than any single capacitor can handle.
-   - Reduced Capacitance: The overall capacitance decreases, which can limit the ability of the circuit to store energy but can be useful for tuning circuit response times, such as in filters or timing circuits.
+ - Higher Voltage Tolerance: Series capacitors are beneficial in circuits requiring a higher voltage tolerance than any single capacitor can handle.
+ - Reduced Capacitance: The overall capacitance decreases, which can limit the ability of the circuit to store energy but can be useful for tuning circuit response times, such as in filters or timing circuits.
 
 Series capacitors are often used in applications where voltage requirements exceed the ratings of individual capacitors, but this configuration comes at the cost of reduced total capacitance.
 

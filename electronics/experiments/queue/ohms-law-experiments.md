@@ -65,7 +65,9 @@ Procedure:
 
 ### Experiment 3: Varying Resistance to Observe Changes in Current
 
-Objective: Demonstrate how changing the resistance in a circuit affects the current, in accordance with Ohm’s Law.
+Objective:
+
+Demonstrate how changing the resistance in a circuit affects the current, in accordance with Ohm’s Law.
 
 Materials:
 
@@ -93,8 +95,6 @@ Procedure:
 
 4. Explain:
    - This experiment demonstrates that for a constant voltage, increasing the resistance decreases the current, and decreasing the resistance increases the current, in accordance with Ohm’s Law.
-
-### Summary of Concepts Illustrated:
 
 - Experiment 1: Verifies the basic relationship of Ohm’s Law by directly measuring voltage and current.
 - Experiment 2: Demonstrates how changing the voltage affects the current in a resistor, confirming the proportional relationship.

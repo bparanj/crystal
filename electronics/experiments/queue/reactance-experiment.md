@@ -102,4 +102,4 @@ To extend this experiment:
 - Try different values of capacitors and inductors to see how they affect the frequency response.
 - Combine a capacitor and inductor in series or parallel to create a resonant circuit, which would show a peak response at a specific frequency.
 
-This hands-on approach helps to understand reactance and its role in impedance.
+reactance and its role in impedance.
