@@ -26,7 +26,7 @@ To show how a pull-down resistor works to ensure a stable LOW (logic “0”) si
 - 1 x Resistor (330Ω for LED current limiting)
 - Connecting wires
 
-### Circuit Setup
+### Setup
 
 1. Power Supply:
 

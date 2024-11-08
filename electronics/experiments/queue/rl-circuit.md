@@ -1,11 +1,11 @@
 First order RL circuit
 
-Yes, a first-order RL circuit and an RL circuit generally refer to the same thing, just as in the case of an RC circuit. The term "first-order" specifies that the circuit’s behavior is governed by a first-order differential equation, which applies to any RL circuit consisting of a single resistor and a single inductor.
+a first-order RL circuit and an RL circuit generally refer to the same thing, just as in the case of an RC circuit. The term "first-order" specifies that the circuit’s behavior is governed by a first-order differential equation, which applies to any RL circuit consisting of a single resistor and a single inductor.
 
 ### Why It’s Called a First-Order RL Circuit
 
 - In an RL circuit, the inductor (L) creates a dependency on the rate of change of current in the circuit. This results in a first-order differential equation because there is only one reactive component (the inductor) affecting the rate of current change.
-- This type of circuit has an exponential response that is similar in form to that of an RC circuit but applies to current rather than voltage. 
+- This type of circuit has an exponential response that is similar in form to that of an RC circuit but applies to current rather than voltage.
 
 ### Characteristics of a First-Order RL Circuit:
 

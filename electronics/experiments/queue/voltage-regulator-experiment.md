@@ -97,4 +97,4 @@ The LM7805 may become warm during the experiment, especially at higher input vol
 
 The capacitors help smooth out any ripples in the input and output voltages, improving the regulator's performance.
 
-This hands-on experiment demonstrates how voltage regulators work to provide a stable power supply, which is needed for the reliable operation of electronic circuits. You can extend this experiment by trying different load resistances or comparing the performance of different types of voltage regulators.
+This experiment demonstrates how voltage regulators work to provide a stable power supply, which is needed for the reliable operation of electronic circuits. You can extend this experiment by trying different load resistances or comparing the performance of different types of voltage regulators.

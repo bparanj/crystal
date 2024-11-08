@@ -4,7 +4,7 @@ A simple experiment to illustrate the concept of a transformer and how it transf
 
 To demonstrate electromagnetic induction in a transformer, showing that electrical energy can be transferred between two circuits without direct connection.
 
-### Materials Needed:
+### Materials:
 
 - Two coils of wire (with approximately 50-100 turns each)
 - An iron core (like a large iron nail or a small iron rod)

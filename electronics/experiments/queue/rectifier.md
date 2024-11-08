@@ -41,7 +41,7 @@ Set the oscilloscope to display the AC signal waveform. You should see a full si
 
 Now observe the voltage across the resistor (load) after the diode. You should see a pulsating DC waveform where only the positive half of the AC cycle appears. The diode blocks the negative half-cycles, allowing only the positive cycles to pass through, which is the basic function of a half-wave rectifier.
 
-### Expected Results
+### Results
 
 - Input Signal: The oscilloscope should display a full sine wave as the input from the AC power source.
 - Output Signal: After rectification, the output should display a pulsating DC signal, where only the positive half of the sine wave is present.

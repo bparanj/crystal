@@ -16,7 +16,7 @@ Show how a Zener diode can regulate voltage by clamping it to a specific value i
 4. Voltmeter - To measure the output voltage across the Zener diode
 5. Breadboard - For connecting components
 
-### Circuit Setup
+### Setup
 
 1. Power Supply:
 
@@ -40,7 +40,7 @@ Connect the voltmeter across the Zener diode (across the cathode and anode) to m
    - Gradually increase the DC power supply voltage. Once the input voltage exceeds the Zener diode's breakdown voltage (5.1V for a 5.1V Zener), the voltage across the Zener diode will stabilize close to its breakdown voltage.
    - Continue to increase the input voltage up to 10-12V. The Zener diode should clamp the output voltage close to its breakdown voltage, demonstrating voltage regulation.
 
-### Expected Results
+### Results
 
 - Below Zener Breakdown Voltage: When the input voltage is below the breakdown voltage, the voltage across the Zener diode will match the input voltage.
 - At and Above Zener Breakdown Voltage: Once the input voltage exceeds the Zener breakdown voltage, the voltage across the Zener diode will stabilize around its breakdown voltage (e.g., 5.1V), regardless of further increases in input voltage.

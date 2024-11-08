@@ -43,7 +43,7 @@ To demonstrate how a pull-up resistor stabilizes a HIGH voltage level when a swi
 - 1 x Resistor (330Ω for LED current limiting)
 - Connecting wires
 
-### Circuit Setup
+### Setup
 
 1. Power Supply: Connect the positive terminal of the power supply (5V or 3.3V) to the pull-up resistor.
 2. Pull-Up Resistor: Connect a 10 kΩ resistor from the positive terminal to one side of the pushbutton switch.
