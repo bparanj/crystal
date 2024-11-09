@@ -1,16 +1,18 @@
 A diode can be thought of as a type of electronic switch with specific characteristics. Here's how a diode functions similarly to a switch:
 
+PENDING
+
 Explain forward bias without adding anything else. What is forward bias? What electronic components can we forward bias?
 
 ### 1. Directional Current Flow:
 
-   - Forward Bias (Switch "On"):
+ Forward Bias (Switch "On"):
 
-   When a diode is forward-biased (positive voltage applied to the anode and negative to the cathode), it allows current to flow through it. This is similar to closing a switch, which allows current to pass through a circuit.
+ When a diode is forward-biased (positive voltage applied to the anode and negative to the cathode), it allows current to flow through it. This is similar to closing a switch, which allows current to pass through a circuit.
 
-   - Reverse Bias (Switch "Off"):
+ Reverse Bias (Switch "Off"):
 
-   When a diode is reverse-biased (positive voltage applied to the cathode and negative to the anode), it blocks current from flowing, just like an open switch that prevents current flow.
+ When a diode is reverse-biased (positive voltage applied to the cathode and negative to the anode), it blocks current from flowing, just like an open switch that prevents current flow.
 
 Diode experiment demonstrates this idea. Copy it here.
 
@@ -28,7 +30,7 @@ While a mechanical switch is either fully "on" or "off," a diode has a nonlinear
 
 Rectification:
 
-   In power supplies, diodes are used to switch AC (alternating current) to DC (direct current), effectively allowing current to flow in only one direction, similar to a switch.
+In power supplies, diodes are used to switch AC (alternating current) to DC (direct current), effectively allowing current to flow in only one direction, similar to a switch.
 
 Signal Clipping/Clamping:
 
@@ -38,19 +40,15 @@ Need diagrams for rectification and clipping.
 
 ### Differences from a Mechanical Switch:
 
-No Moving Parts:
-
-   A diode has no physical moving parts, unlike a mechanical switch.
+A diode has no physical moving parts, unlike a mechanical switch.
 
 Continuous Operation:
 
-   A diode's "switching" is based on voltage levels, not a discrete on/off position like a mechanical switch.
+A diode's "switching" is based on voltage levels, not a discrete on/off position like a mechanical switch.
 
-Rectification and Protection:
+Diodes are often used for specific functions like rectifying AC to DC or protecting circuits from reverse voltage, which goes beyond the capabilities of a simple mechanical switch.
 
-   Diodes are often used for specific functions like rectifying AC to DC or protecting circuits from reverse voltage, which goes beyond the capabilities of a simple mechanical switch.
-
-A diode behaves like a switch by allowing or blocking current flow based on the applied voltage's polarity. In forward bias, it acts as a closed switch, and in reverse bias, it acts as an open switch. However, unlike a mechanical switch, its operation depends on voltage thresholds and it has unique characteristics such as nonlinearity and directional conductivity.
+A diode behaves like a switch by allowing or blocking current flow based on the applied voltage's polarity. In forward bias, it acts as a closed switch, and in reverse bias, it acts as an open switch. Unlike a mechanical switch, its operation depends on voltage thresholds and it has unique characteristics such as nonlinearity and directional conductivity.
 
 ## Terms
 
@@ -65,7 +63,7 @@ A diode behaves like a switch by allowing or blocking current flow based on the 
 - Signal Clamping
 - Directional Conductivity
 
-When a diode is missing from a circuit, problems can arise if there is a need for current direction control or protection from reverse current. Here are common scenarios where a diode would be needed:
+When a diode is missing from a circuit, problems can arise if there is a need for current direction control or protection from reverse current. Scenarios where a diode is needed:
 
 1. Reverse Current Protection:
 

@@ -56,15 +56,15 @@ These concepts are interconnected in electronic devices, especially in oscillato
 
 The word that ties together the concepts of energy, frequency, and vibration is "resonance."
 
-1. Energy:
+Energy:
 
 Resonance involves the efficient transfer or buildup of energy within a system, such as an electrical circuit, mechanical structure, or even sound waves.
 
-2. Frequency:
+Frequency:
 
 Resonance occurs at a specific natural frequency, where the system vibrates or oscillates with maximum amplitude due to the energy input matching the system's inherent frequency.
 
-3. Vibration:
+Vibration:
 
 Resonance amplifies vibrations or oscillations in a system. At resonance, even small external forces can cause large vibrations or movements in mechanical and electronic systems.
 

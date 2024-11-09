@@ -4,35 +4,27 @@ Separate in scope and out of scope
 
 The real world naturally consists of analog signals. Analog signals vary continuously and can take any value within a given range. Examples of analog signals in the natural world include:
 
-1. Sound Waves:
+Sound Waves:
 
-Sound is a pressure wave that varies continuously as it moves through air or another medium.
+Sound is a pressure wave that varies continuously as it moves through air as continous pressure variations.
 
-2. Light Intensity:
+Light Intensity:
 
 Light from natural sources, like the sun, varies smoothly in intensity and wavelength.
 
-3. Temperature:
+Temperature:
 
 Temperature changes gradually and can have any value within a range.
 
-4. Human Voice:
+Human Voice:
 
 When we speak, our vocal cords create sound waves that are inherently analog.
+
+OUT OF SCOPE:
 
 These signals are continuous and carry information in a way that's not constrained to discrete levels, unlike digital signals, which are represented in binary (0s and 1s) in electronic systems. This is why, when we want to interact with the natural world, sensors often first capture analog signals and then convert them to digital form for processing in computers and digital systems.
 
 The natural world is inherently analog. Nearly all natural phenomena occur in continuous, smooth variations rather than discrete steps:
-
-Natural analog phenomena examples:
-
-- Temperature changes gradually throughout the day
-- Sound waves travel through air as continuous pressure variations
-- Light intensity changes smoothly from dawn to dusk
-- Motion in nature is continuous (a falling leaf, flowing water)
-- Colors blend seamlessly in a rainbow
-- Weight/mass varies continuously
-- Biological processes like growth occur gradually
 
 This is why our initial sensors and measurement devices were analog (like mercury thermometers, analog watches). Digital technology came later as a human invention to help process, store, and manipulate information more efficiently. We often convert analog signals to digital through sampling and quantization when we need to process them electronically.
 

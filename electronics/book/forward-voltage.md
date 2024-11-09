@@ -3,7 +3,7 @@ A diode is a semiconductor device that allows current to flow in one direction (
 
 Forward voltage is the minimum voltage that needs to be applied across a diode's terminals to make a diode conduct current in the forward direction. It is like a small hurdle the voltage has to overcome.
 
-Forward Bias: 
+Forward Bias:
 
 A diode is in forward bias when the positiver terminal of a power source is connected to the anode of the diode and the negative terminal to the cathode. In this condition, the diode can conduct current after the forward voltage threshold is reached.
 
@@ -17,14 +17,14 @@ Forward voltage is the voltage needed to turn on a diode and make it conduct cur
 
 The term "forward" in forward voltage refers to the specific condition of the diode being in forward bias, meaning the diode is oriented so that it can allow current to flow through it. Here's why "forward" is used:
 
-1. Diode Behavior: 
+1. Diode Behavior:
 
 Diodes have two modes of operation—forward bias and reverse bias.
 
    - In forward bias, the anode is connected to a higher potential than the cathode, allowing current to flow through the diode.
    - In reverse bias, the anode is connected to a lower potential than the cathode, and the diode blocks current flow.
 
-2. Forward Voltage: 
+2. Forward Voltage:
 
 The term "forward voltage" is used specifically to describe the voltage required to overcome the internal barrier of the diode in forward bias mode, enabling current to pass through it. This is distinct from reverse bias, where a different behavior occurs (such as blocking current or, in extreme cases, breakdown).
 
@@ -57,14 +57,13 @@ The concept of forward voltage is particularly important for diodes, where it re
 
 Forward voltage specifically applies to components that have a p-n junction, primarily diodes (including LEDs) and transistors. Forward voltage is the minimum voltage required for current to flow through the component in the forward direction (positive to negative across the p-n junction).
 
-1. Diodes: 
+Diodes:
 
 In a diode, forward voltage is the threshold that must be exceeded for it to conduct. For example, silicon diodes typically have a forward voltage of around 0.7V, while LEDs have a higher forward voltage, often between 1.8V and 3.5V, depending on the color and material.
 
-2. Transistors: 
+Transistors:
 
 In bipolar junction transistors (BJTs), the base-emitter junction behaves like a diode and requires a forward voltage (usually around 0.7V for silicon transistors) to turn the transistor on.
-
 
 For components like resistors, capacitors, and inductors, forward voltage does not apply. These components don’t have a p-n junction and therefore don’t have a threshold voltage requirement for current to flow. Instead, their behavior is governed by other parameters:
 

@@ -4,15 +4,11 @@ We need polarized capacitors because they are designed for circuits with a speci
 
 In a power supply filtering circuit, the polarity of a capacitor matters. Here, a polarized capacitor (like an electrolytic) is connected across the output of a DC power supply to smooth out voltage fluctuations or "ripples."
 
-Problem it solves: Without the capacitor, the DC output might have noise or voltage variations. When correctly polarized, the capacitor charges and discharges, stabilizing the output voltage and providing consistent DC signal. Wrong polarity can lead to capacitor failure or even explosion.
+Without the capacitor, the DC output might have noise or voltage variations. When correctly polarized, the capacitor charges and discharges, stabilizing the output voltage and providing consistent DC signal. Wrong polarity can lead to capacitor failure or even explosion.
 
 Characteristics
 
-Polarity:
-
 Polarized capacitors have a positive terminal (anode) and a negative terminal (cathode). The positive terminal is marked with a “+” sign, and the negative terminal is marked with a “-” sign or a stripe.
-
-Types:
 
 The most common types of polarized capacitors are electrolytic capacitors and tantalum capacitors. Electrolytic capacitors are often used in power supply circuits due to their high capacitance values.
 

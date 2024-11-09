@@ -20,27 +20,17 @@ Convert chemical energy into electrical energy. The energy delivered to a circui
 
 ### 3. Efficiency of Electronic Devices:
 
-Power Supplies:
-
 The efficiency of a power supply is the ratio of the output power to the input power. Energy conservation dictates that any energy not converted to useful output power is lost as heat, noise, or electromagnetic radiation.
-
-Transformers:
 
 Ideal transformers transfer electrical energy from one circuit to another without energy loss, but real transformers lose some energy as heat due to resistive losses in the windings and magnetic losses in the core.
 
 ### 4. Energy Losses:
 
-Heat Dissipation:
-
 In resistive components, some electrical energy is inevitably converted to heat. Heat sinks and cooling mechanisms are often employed to manage these losses and ensure the device operates within safe temperature limits.
-
-Parasitic Losses:
 
 Components like capacitors and inductors have parasitic elements (like resistance in wires) that cause energy loss, often seen as inefficiencies in circuits.
 
 ### 5. Regenerative Circuits:
-
-Regenerative Braking:
 
 In electric vehicles, the energy normally lost as heat during braking is converted back into electrical energy and stored in the battery, demonstrating the conservation of energy by reclaiming it for later use.
 

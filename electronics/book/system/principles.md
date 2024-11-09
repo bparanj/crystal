@@ -1,6 +1,5 @@
 In electronics, there are several fundamental principles similar to the law of conservation of energy that underlie the operation of circuits and systems.
 
-
 PENDING
 
 Separate in scope from out of scope content
@@ -39,7 +38,7 @@ This principle is often observed in the design of power-efficient circuits and s
 
 Every electrical property or theorem has a dual counterpart. For example:
 
- voltage is dual to current 
+ voltage is dual to current
  series circuits vs parallel circuits
  capacitance vs inductance.
 
@@ -111,6 +110,8 @@ Formula: \( V = IR \)
 
 Used to calculate the relationship between voltage, current, and resistance in electrical circuits.
 
+MOVE #2 to out of scope
+
 ### 2. Kirchhoff's Laws:
 
 Kirchhoff's Current Law (KCL):
@@ -147,17 +148,23 @@ Formula:
 
 Used in transformers, chokes, filters, and inductive coupling.
 
+MOVE #5 to out of scope
+
 ### 5. Superposition Theorem:
 
 In a linear circuit with multiple independent sources, the voltage or current at any point in the circuit can be found by calculating the contribution from each independent source individually while setting all other independent sources to zero (replace voltage sources with short circuits and current sources with open circuits).
 
 Used to simplify the analysis of circuits with multiple power sources.
 
+MOVE #6 to out of scope
+
 ### 6. Thevenin's Theorem:
 
 Any linear electrical network with voltage and current sources and resistances can be replaced at terminals A-B by an equivalent voltage source \( V_{th} \) in series with a resistance \( R_{th} \).
 
 Simplifies the analysis of complex circuits, useful in analyzing power systems and electronic circuits.
+
+MOVE #7 to out of scope
 
 ### 7. Norton's Theorem:
 
@@ -180,6 +187,9 @@ In an AC circuit, resonance occurs when the inductive reactance equals the capac
 Formula: \( f_0 = \frac{1}{2\pi \sqrt{LC}} \), where \( f_0 \) is the resonant frequency, \( L \) is inductance, and \( C \) is capacitance.
 
 Used in tuning circuits, filters, and oscillators.
+
+
+MOVE #10 to out of scope
 
 ### 10. Power Factor:
 
