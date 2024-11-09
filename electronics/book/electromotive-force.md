@@ -1,8 +1,10 @@
-PENDING
+
 
 Electromotive force is the energy per unit charge supplied by an energy source, such as a battery or a generator. It is the push that drives electric charges through a circuit.
 
 Consider a battery connected to a light bulb. The battery's EMF provides the energy to move electrons from the negative terminal, through the bulb and back to the positive terminal. The bulb will light up.
+
+PENDING
 
 Draw a diagram for Electromotive force (EMF)
 

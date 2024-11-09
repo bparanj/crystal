@@ -20,12 +20,9 @@ In a DC circuit with resistive elements, the current at any point is calculated 
 In a AC circuit, current goes up and down in a sine wave shape and can be represented as a phasor with magnitude and phase angle
 Current flow in a circuit is governed by the principles of charge conservation and the electromotive force (EMF) provided by voltage sources
 
-PENDING
-
-what is a phasor?
-why are cpacitors and inductors called reactive components?
-what is proximity effect in high-frequency circuit?
 why is sum of currents entering a node equal to sum of currents leaving a node
+
+The sum of currents entering a node equals the sum of currents leaving the node due to the **principle of conservation of charge**. Since charge cannot accumulate at a node in a steady-state circuit, any current entering the node must be matched by an equal current leaving it. This is formalized in **Kirchhoff’s Current Law (KCL)**.
 
 ### Level 1:  Child
 

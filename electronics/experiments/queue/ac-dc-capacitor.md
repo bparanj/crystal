@@ -1,10 +1,5 @@
 To demonstrate how a capacitor blocks DC current but allows AC to pass, you can set up a simple experiment:
 
-
-PENDING
-
-Can this be done using Tinkercad
-
 ### Components:
 
 1. Power Source: Use a DC source and an AC source (Tinkercad allows you to toggle between AC and DC power supplies).
@@ -46,3 +41,34 @@ The LED will start to blink or stay on dimly, depending on the frequency of the 
 In DC Mode, the capacitor charges up and then blocks further current flow, as the current has no path through a fully charged capacitor. In AC Mode, the alternating current constantly changes direction, which allows the capacitor to continuously charge and discharge, enabling current flow through the circuit. This is why the LED lights up in AC mode but remains off in DC mode.
 
 This setup will show how a capacitor blocks DC current after charging but allows AC current to pass through due to its continuous reversal of direction.
+
+Can this be done using Tinkercad
+
+Yes, this setup can be created in Tinkercad, though with some limitations.
+
+### Steps to Create This in Tinkercad
+
+1. **Components and Circuit Assembly**:
+   - **Power Source**: Tinkercad provides a DC power source, but it doesn't natively support AC sources. As a workaround, you can simulate an AC effect by manually switching polarity or using a second DC source with inverted polarity.
+   - **Capacitor**: Use a 10 µF capacitor from the component list.
+   - **Resistor and LED**: Place a 1 kΩ resistor and an LED in series to observe the effect of current flow.
+   - **Switch**: Use a basic switch component to switch between two separate DC power sources (one acting as “AC” with inverted polarity).
+   - **Multimeter**: Place it in parallel with the capacitor to measure voltage changes.
+
+2. **Circuit Connection**:
+   - Connect the capacitor’s positive terminal to the switch.
+   - The switch will allow you to choose between two power sources: one acting as DC and the other simulating AC.
+   - Place the resistor and LED in series after the capacitor.
+   - Finally, connect the negative side of the LED to ground.
+
+3. **Simulating AC and DC Switching**:
+   - Set the first power source to 5V DC.
+   - For AC simulation, set a second DC source to 5V but inverted (connect positive to ground and negative to the circuit path). Switching between these simulates an AC effect by reversing the voltage.
+
+4. **Observing Behavior**:
+   - **DC Mode**: In Tinkercad, the multimeter should show the capacitor charging to 5V, and the LED will turn off as the capacitor blocks DC after charging.
+   - **Simulated AC Mode**: By toggling the switch, you'll see the capacitor discharging and recharging in reverse, which may cause the LED to flicker (though this might be limited in Tinkercad).
+
+### Key Points
+- **Tinkercad Limitation**: Tinkercad does not support true AC simulation, so you won’t see continuous sinusoidal charging and discharging. However, using two DC sources with opposite polarity can approximate AC for basic observation.
+- **LED Behavior**: In the simulated AC mode, the LED may show flickering as it briefly charges and discharges, though this won’t be a smooth AC behavior.

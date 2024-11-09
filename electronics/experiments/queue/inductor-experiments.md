@@ -48,8 +48,6 @@ LED Behavior:
 
 Upon opening the circuit, the inductor's stored energy discharges through the LED, causing it to emit light briefly. As the energy depletes, the LED's brightness diminishes gradually until it turns off completely.
 
-Key Points:
-
 - Inductor's Role: Acts as an energy reservoir, releasing stored energy when the circuit opens.
 - LED Response: Utilizes the inductor's discharged energy, resulting in a temporary, fading glow.
 - Circuit Configuration: This phenomenon occurs even if the circuit is open after the inductor has been energized.
@@ -105,7 +103,6 @@ After the inductor builds its magnetic field, it behaves like a short circuit in
 The observed current (187 mA) is much higher because there’s no significant reactance limiting it like in the first circuit. The inductor only briefly resists changes in current when the circuit is first powered on.
 
 Since there is sufficient current, the bulb lights up fully.
-
 
 - Circuit 1 (with the function generator): The high-frequency AC signal increases the inductor’s reactance, reducing current (71 µA), which keeps the bulb off or dim.
 - Circuit 2 (with the power supply): The DC signal causes a steady current (187 mA) to flow after the inductor initially resists the current change, allowing the bulb to light up fully.

@@ -3,8 +3,6 @@ The name "transistor" is a combination of two words:
 - "transfer" and
 - "resistor"
 
-PENDING
-
 What does modulate the flow mean in the context of resistor?
 
 In the context of a resistor, "modulate the flow" refers to controlling or regulating the flow of electric current in a circuit. A resistor provides electrical resistance, which:
@@ -15,9 +13,6 @@ In the context of a resistor, "modulate the flow" refers to controlling or regul
 
 Think of it like a narrow section in a water pipe - just as the narrow section restricts water flow, a resistor restricts the flow of electrons. The higher the resistance value (measured in ohms, Ω), the more it restricts or "modulates" the current flow.
 
-PENDING
-
-Would you like me to explain more about how resistors achieve this modulation or discuss specific applications?
 Why is current or voltage called as a signal?
 
 Current or voltage is called a "signal" because it carries information or serves as a means of communication in electronic systems. Here's why:
@@ -56,8 +51,6 @@ Resistor:
 
    - Meaning: The "resistor" highlights the transistor's ability to resist or regulate the current flow. It implies that the transistor can act like a variable resistor, adjusting the flow of current through the circuit based on the input signal.
    - Function: The transistor can modulate the resistance between its terminals, allowing it to amplify or switch electronic signals. The resistance is controlled by the small input signal, enabling the transistor to function as an amplifier or a switch.
-
-Historical Context:
 
 The name "transistor" was coined in 1947 by John R. Pierce, a colleague of the inventors of the transistor at Bell Labs. The transistor was invented by John Bardeen, Walter Brattain, and William Shockley, who were working on creating a solid-state device that could replace the vacuum tube, which was bulky, less reliable, and consumed more power.
 

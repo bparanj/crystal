@@ -41,6 +41,34 @@ To demonstrate how impedance affects the flow of alternating current (AC) in a c
 
 This experiment illustrates how impedance affects the current flow in an AC circuit. The resistor offers a constant resistance to the current, but the inductor or capacitor introduces reactance, which changes with frequency. As the frequency of the AC signal increases, the impedance of the inductor increases (or the impedance of the capacitor decreases), which in turn affects the voltage drop across the resistor. This change demonstrates that impedance in AC circuits is not just resistance; it also includes the frequency-dependent reactance of inductors and capacitors. This experiment provides a clear visualization of how impedance influences the behavior of AC circuits and why it is important in designing and analyzing such systems.
 
+In Tinkercad, this exact setup to demonstrate impedance effects on AC flow is partially feasible but limited due to the platform’s lack of certain components and features.
+
+### Steps to Approximate the Circuit in Tinkercad
+
+1. Circuit Assembly:
+   - Resistor: Use a 100-ohm resistor.
+   - Capacitor: Use a 10 µF capacitor. Tinkercad doesn’t support inductors, so the demonstration will be limited to resistive-capacitive (RC) impedance effects.
+   - AC Source: Tinkercad doesn’t have a true function generator, but you can use an AC power source to simulate an AC signal.
+   - Multimeter: Tinkercad provides a multimeter, but it lacks an oscilloscope to visualize the waveform directly.
+
+2. Circuit Connection:
+   - Place the 100-ohm resistor and 10 µF capacitor in series.
+   - Connect this series circuit to the AC power source (found under the "Components" in Tinkercad).
+   - Connect the multimeter across the resistor to measure the AC voltage.
+
+3. Simulation Procedure:
+   - Set the AC power source to a low frequency, such as 100 Hz. Observe the AC voltage across the resistor with the multimeter. This will represent the initial current flow at low frequency.
+   - Increase the frequency of the AC source to simulate how a change in frequency affects the impedance and the voltage across the resistor. Note any changes in multimeter readings.
+   - Tinkercad doesn’t allow switching to DC or adjusting frequencies dynamically, so observations will be limited to static frequency changes by editing the AC source properties manually.
+
+### Limitations
+
+- No Inductor or True Oscilloscope: Without an inductor, only capacitive impedance can be demonstrated. The lack of an oscilloscope also means the waveform shape and phase shift can’t be directly visualized.
+- Frequency Adjustment Limitations: Tinkercad does not allow for real-time frequency adjustments or waveform observations, so experimentation with different frequencies is limited.
+
+### Summary
+This setup in Tinkercad provides a basic understanding of capacitive reactance in an AC circuit but doesn’t fully capture the impedance behavior with varying AC frequencies. A more advanced simulator would be needed for detailed exploration with inductors and an oscilloscope.
+
 Experiment:
 
 Materials:

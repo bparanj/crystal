@@ -33,6 +33,6 @@ Bring the nail close to the small paper clips or metal pins. Observe how the nai
 
 When electric current flows through the copper wire, it generates a magnetic field around the wire. The iron nail enhances this magnetic field, turning it into an electromagnet. The electromagnetic force is strong enough to attract small metal objects like paper clips.
 
-PENDING
+RESOURCES
 
 Link to youtube video is sufficient.

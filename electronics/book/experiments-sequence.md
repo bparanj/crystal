@@ -8,7 +8,7 @@ Don't damaage any components and waste. Big companies are already wasting lot of
 
 PENDING
 
-Revise the experiments and a
+Revise the experiments
 
 Experiments Sequence
 
@@ -34,7 +34,7 @@ Add voltage divider etc to this list. Refer voltage-divider-circuit.md
 
 See polarized-capacitor-experiment.md
 
-Run the polarized capacitor experiment in TinkercadL https://www.tinkercad.com/things/blx1Lukof5N/editel
+Run the polarized capacitor experiment in Tinkercad https://www.tinkercad.com/things/blx1Lukof5N/editel
 
 Design an experiment to demonstrate capacitor charging and discharging using an LED indicator. Modified the existing slideswitch demo and add a capacitor to the circuit.
 

@@ -1,4 +1,4 @@
-PENDING
+RESOURCE
 
 Youtube video is sufficient
 
