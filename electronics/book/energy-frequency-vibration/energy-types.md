@@ -62,10 +62,9 @@ Thermal energy is the heat generated in electronic components such as resistors,
 
 Magnetic Field Energy is found in inductors and transformers.
 
-
 Electric Field Energy is stored in  Capacitors.
 
- Light Energy is Converted in LEDs, photodiodes, displays and optical sensors
+Light Energy is Converted in LEDs, photodiodes, displays and optical sensors
 
 Chemical Energy is present in batteries, fuel cells and chemical sensors.
 

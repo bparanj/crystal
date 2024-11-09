@@ -110,21 +110,21 @@ You can simplify the explanation for beginners by assuming \(\cos(\theta) = 1\),
 \text{Work} = \text{Force} \times \text{Distance}
 \]
 
-By making this assumption, the work is simply the product of the force applied and the distance moved in the direction of the force.
+By making this assumption, the work is the product of the force applied and the distance moved in the direction of the force.
 
 Energy is required to apply a force, especially if that force results in movement and thus work.
 
-1. Force and Energy:
+Force and Energy:
 
 To apply a force that moves an object, energy must be used. For example, when you lift a book, your body uses chemical energy (from food) to generate the muscle force needed to raise the book against gravity.
 
-2. Work and Energy Transfer:
+Work and Energy Transfer:
 
 When the force moves the object, energy is transferred to the object as work. For instance, lifting the book increases its gravitational potential energy.
 
 What is a simple experiment to illustrate gravitational potential energy?
 
-3. Static Force:
+Static Force:
 
 If a force is applied without movement (like pushing against a wall), no work is done on the wall, but energy is still expended to maintain the force (e.g., your muscles use energy even if the wall doesn’t move).
 
@@ -132,13 +132,13 @@ So, energy is fundamental for applying force, as it fuels the effort required. W
 
 The relationship between force and energy is tied to the concept of work.
 
-1. Energy and Force:
+Energy and Force:
 
 Energy is the capacity to do work, and force is the means by which energy can be used to cause movement or change. When a force acts on an object and causes it to move, energy is transferred to the object.
 
 What is change in this context?
 
-2. Work as the Link:
+Work as the Link:
 
 Work is defined as the product of force and distance (in the direction of the force):
    \[
@@ -146,13 +146,13 @@ Work is defined as the product of force and distance (in the direction of the fo
    \]
    Work is the energy transferred when a force moves an object over a distance. Therefore, whenever work is done, energy changes hands. For example, pushing a cart (force) over a distance transfers energy to the cart, increasing its kinetic energy.
 
-3. Types of Energy Transfers:
+Types of Energy Transfers:
 
 Different types of energy (e.g., kinetic, potential, thermal) can be involved depending on the situation. For instance:
    - Kinetic energy changes when a force accelerates an object.
    - Potential energy changes when a force moves an object against a field, like lifting it against gravity.
 
-In summary, force and energy are connected through the concept of work. A force acting over a distance does work, which is a measure of energy transfer.
+Force and energy are connected through the concept of work. A force acting over a distance does work, which is a measure of energy transfer.
 
 Force and energy aren’t directly related by a single formula, but they are related through work, which links the two. The formula connecting force and energy (via work) is:
 
@@ -189,44 +189,39 @@ This scenario isn’t necessarily a closed system. In physics, a closed system i
 
 For example:
 
-- Lifting an Object:
+Lifting an Object:
 
 If you lift an object, you’re adding energy (gravitational potential energy) to it from an external source (your muscles). Energy flows into the object, making this an open system.
 
-- Pushing an Object:
+Pushing an Object:
 
 When you push a cart, you transfer kinetic energy from yourself to the cart, again making it an open system since energy enters the system.
 
-In summary, unless we ensure no energy or matter enters or exits (by isolating it from external forces and influences), we’re dealing with an open system.
+unless we ensure no energy or matter enters or exits (by isolating it from external forces and influences), we’re dealing with an open system.
 
 An example of a closed system is a sealed, insulated thermos bottle with hot coffee inside:
 
-1. Energy Exchange:
+Energy Exchange:
 
 While energy can be exchanged within the coffee (heat moves between the hot coffee and the cooler air trapped inside), the thermos is designed to prevent any energy from escaping to the outside environment. It’s insulated, so heat loss is minimal, and it’s sealed, preventing mass transfer.
 
-2. No Matter Exchange:
+No Matter Exchange:
 
 Since the thermos is closed, no matter (coffee, steam, or air) enters or leaves.
 
 However, over long periods, even a thermos isn't perfectly closed, as it will eventually lose heat. In theory, a perfectly closed system would prevent all energy and mass exchange with its surroundings indefinitely, but in practical terms, this example approximates a closed system well enough for most applications.
 
-Other examples in physics include:
-
-- Gas in a sealed, rigid container where no heat or particles can escape.
-- Idealized physics problems, like a perfectly isolated system of particles in space.
-
 These closed systems help us study internal energy exchanges without external influences.
 
-An electronic circuit is typically considered an open system because it exchanges energy with its surroundings:
+An electronic circuit is considered an open system because it exchanges energy with its surroundings:
 
-1. Energy Exchange:
+Energy Exchange:
 
 Electronic circuits often require an external power source (like a battery or power supply) that provides electrical energy. This energy flows into the circuit, powering components, and eventually dissipates as heat, light, or other forms, meaning energy is constantly moving in and out of the system.
 
 Draw a diagram for this concept.
 
-2. Interaction with Environment:
+Interaction with Environment:
 
 Circuits also interact with the environment through electromagnetic fields, heat dissipation, and sometimes even signal transmission, making it difficult to isolate them completely.
 
@@ -250,19 +245,19 @@ The system can exchange energy, matter, or both across its boundary with the sur
 
 ### Types of Systems
 
-- Open System:
+Open System:
 
 Exchanges both energy and matter with its surroundings. For example, a car engine is an open system because it consumes fuel (matter) and exchanges heat and work (energy) with the environment.
 
-- Closed System:
+Closed System:
 
 Exchanges energy but not matter with its surroundings. A closed system might be a sealed, insulated container where heat can move in or out, but no substances enter or leave.
 
-- Isolated System:
+Isolated System:
 
 Does not exchange energy or matter with its surroundings. An ideal thermos or a perfectly insulated, sealed container would be examples, though real-world isolated systems are rare.
 
-In summary, a system is any specific portion we choose to study within the boundaries we define, with its classification (open, closed, or isolated) based on how it interacts with its surroundings.
+a system is any specific portion we choose to study within the boundaries we define, with its classification (open, closed, or isolated) based on how it interacts with its surroundings.
 
 PENDING
 
@@ -272,10 +267,7 @@ Let us consider the example of lifting an apple. Let us assume it weighs 100 gra
 
 When you lift the apple 1 meter straight up from the ground, the work done (in joules) to lift the apple is calculated as:
 
-...
-
 Lifting an apple 1 meter requires 1 joule of energy. 1 joule of energy is required to lift an apple weighing 100 grams 1 meter in the air.
-
 
 A Newton is a unit of force - it's how hard you're pushing or pulling something.
 
@@ -289,15 +281,11 @@ Force is simply a push or pull that can change how something moves or stays stil
 
 Consider the example of lifting an apple.
 
-### Example:
-
 A typical apple weighs about 100 grams or 0.1 kg.
 
 The force of gravity on the apple is approximately 1 newton (because \( 1 \, \text{N} \) is roughly the force needed to hold a 100-gram object).
 
 Now, imagine you lift the apple 1 meter straight up from the ground.
-
-### Work Done:
 
 The work done (in joules) to lift the apple is calculated as:
 \[
@@ -333,14 +321,13 @@ The 100 grams comes from the precise definition of a Joule: it's the energy requ
 1 Newton is the force needed to accelerate 1 kilogram at 1 meter per second squared. Due to Earth's gravity (approximately 9.8 m/s²), a 100-gram object experiences about 1 Newton of gravitational force.
 
 We could define it using any mass - it's just that 100 grams works out nicely for explanation purposes since it:
+
 1. Results in about 1 Newton of force under Earth's gravity
 2. Is about the mass of a small apple, making it easy to visualize
 
 ## Carrying a Box
 
 To explain the joules unit using the example of moving a box that weighs 1 lb, we can relate it to the work done by the person in lifting the box.
-
-### Understanding Joules:
 
 1 joule is defined as the amount of work done when a force of 1 newton moves an object 1 meter.
 
@@ -353,8 +340,6 @@ Work is calculated as:
 
 First, convert the weight of the box from pounds (lbs) to newtons (N), since 1 lb ≈ 4.448 N. So, the 1 lb box exerts a force of approximately 4.448 newtons due to gravity.
 
-### Example:
-
 If the person lifts the box 1 meter off the ground:
 
 1. The force required to lift the box is 4.448 newtons (the weight of the box).
@@ -366,8 +351,6 @@ The work done (in joules) is calculated as:
 \]
 
 In this case, the person performs 4.448 joules of work to lift the 1 lb box 1 meter. The unit joules measures the energy required to move the box a certain distance, where 1 joule represents the energy needed to exert 1 newton of force over 1 meter. So, the higher the weight (force) or the greater the distance, the more joules of energy are required.
-
-## Power and Work
 
 In electronics, power and work are closely related through the concept of energy transfer.
 
@@ -391,8 +374,6 @@ where:
 - \( I \) is the current (flow of charge).
 
 Here, voltage provides the energy (or work) per unit charge, and current indicates how many charges pass through per second. So, power measures how quickly energy (or work) is done in a circuit.
-
-The relationship between work and electronic circuits:
 
 Work in electronic circuits is directly related to energy transfer and can be understood through these key concepts:
 

@@ -16,7 +16,9 @@ One watt means that 1 joule of energy is being used every second. Imagine holdin
 
 Imagine lifting a 1-kilogram weight one meter high in about one second. This requires roughly 10 watts of power, since you’re using energy at a rate that matches 10 joules per second. If you lifted it slower, you’d use less power; if you lifted it faster, you’d use more power.
 
-   This is still not clear.
+PENDING
+
+This is still not clear.
 
 5. Solar Panels:
 

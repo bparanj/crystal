@@ -4,7 +4,6 @@ PENDING
 
 This goes together with work.md
 
-
 PENDING EXAMPLE
 
 Picky only one example from below and summarize it in concise way.
@@ -12,6 +11,8 @@ Picky only one example from below and summarize it in concise way.
 1. Lifting an Apple:
 
    - A force of about 1 newton is roughly what you need to hold a small apple (weighing about 100 grams) in your hand against the pull of Earth's gravity. If you imagine lifting that apple, you're applying approximately 1 newton of upward force.
+
+PENDING
 
    Why do I need to consider weight here?
 
@@ -21,8 +22,6 @@ Picky only one example from below and summarize it in concise way.
 
 4. Acceleration Example:
    - Using Newton’s second law, F = ma (force = mass × acceleration), a newton can also be visualized as the force needed to accelerate a 1-kilogram object at 1 meter per second squared. Picture a toy car being pushed to start moving—applying a small force results in a small acceleration.
-
-By relating the newton to common tasks like lifting an apple, holding a book, it becomes easier to understand this unit of force in everyday life.
 
    - Force can be pushing or pulling
    - Not the same as weight or mass

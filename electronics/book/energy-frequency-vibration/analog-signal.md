@@ -1,3 +1,7 @@
+PENDING
+
+Separate in scope and out of scope
+
 The real world naturally consists of analog signals. Analog signals vary continuously and can take any value within a given range. Examples of analog signals in the natural world include:
 
 1. Sound Waves:

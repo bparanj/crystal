@@ -6,14 +6,21 @@ Electric current is flow of electrons.
 
 In electronics, the concepts of energy, frequency, and vibration relate to the behavior of signals, circuits, and components.
 
- Electrical Energy:
+Electrical Energy:
 
- In electronics, energy is the capacity to do work and is carried by electric current. It’s measured in joules or watt-hours.
-   - Power (P): Power is the rate at which energy is used or transferred in a circuit, measured in watts (W). It is related to energy as \(P = \frac{E}{t}\), where \(E\) is energy in joules and \(t\) is time in seconds.
+In electronics, energy is the capacity to do work and is carried by electric current. It’s measured in joules or watt-hours.
 
-Voltage (V): Voltage represents the potential energy per unit charge, acting as a "force" pushing electrons through a circuit.
+Power (P):
 
-Current (I): This is the flow of electrical energy in a circuit, measured in amperes (A).
+Power is the rate at which energy is used or transferred in a circuit, measured in watts (W). It is related to energy as \(P = \frac{E}{t}\), where \(E\) is energy in joules and \(t\) is time in seconds.
+
+Voltage (V):
+
+Voltage represents the potential energy per unit charge, acting as a "force" pushing electrons through a circuit.
+
+Current (I):
+
+This is the flow of electrical energy in a circuit, measured in amperes (A).
 
 Frequency:
 
@@ -78,7 +85,7 @@ You're adding energy at the natural frequency of the swing
 The timing matches the swing's natural back-and-forth motion
 Small, well-timed pushes create large amplitude oscillations
 
-Other common examples:
+Other examples:
 
 - Wine glass breaking when exposed to a specific musical note
 - Car vibrating at certain speeds
