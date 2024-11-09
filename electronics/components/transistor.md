@@ -41,8 +41,6 @@ Current or voltage is called a "signal" because it carries information or serves
 - Sensor signals: Voltage changes represent physical measurements (temperature, pressure, etc.)
 - Radio signals: Varying electromagnetic waves carry audio/video information
 
-Would you like me to elaborate on any particular type of signal or how they're processed in electronic systems?
-
 PENDING
 
 Illustrate this concept using a diagram.
@@ -67,14 +65,19 @@ The term transistor was chosen to describe the device's ability to transfer an e
 
 The name "transistor" is derived from the combination of "transfer" and "resistor," reflecting the device's role in transferring electrical signals and modulating current flow within a circuit. This naming captures the essence of the transistor's functionality as a key component in amplifying and switching electronic signals.
 
-Yes, a transistor can function as a switch, and this is one of its primary applications in electronic circuits. Here's how a transistor operates like a switch:
+a transistor can function as a switch, and this is one of its primary applications in electronic circuits. Here's how a transistor operates like a switch:
 
 A transistor is a semiconductor device that can amplify or switch electronic signals. The most common types are the Bipolar Junction Transistor (BJT) and the Metal-Oxide-Semiconductor Field-Effect Transistor (MOSFET).
 
 Switching Function:
 
-   - On State (Switch "On"): When a transistor is "on," it allows current to flow between its collector and emitter (in a BJT) or drain and source (in a MOSFET). This is similar to closing a switch, allowing current to pass through the circuit.
-   - Off State (Switch "Off"): When a transistor is "off," it blocks current flow between the collector and emitter or drain and source, acting like an open switch.
+   - On State (Switch "On"):
+
+   When a transistor is "on," it allows current to flow between its collector and emitter (in a BJT) or drain and source (in a MOSFET). This is similar to closing a switch, allowing current to pass through the circuit.
+
+   - Off State (Switch "Off"):
+
+   When a transistor is "off," it blocks current flow between the collector and emitter or drain and source, acting like an open switch.
 
 Control Mechanism:
 

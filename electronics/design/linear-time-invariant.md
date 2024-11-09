@@ -1,5 +1,3 @@
-## Linear and Time Invariant
-
 What are linear and time invariant principles in the context of electronic circuits?
 
 Linear and Time Invariant (LTI) principles in electronic circuits are:
@@ -23,6 +21,9 @@ Common non-LTI cases:
 
 - Diodes (non-linear)
 - Circuits with time-varying components (not time invariant)
+
+
+What is a time varying component? Not clear yet.
 
 TAG
 

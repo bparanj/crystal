@@ -47,7 +47,7 @@ PENDING
 
 Is there any example of digital signal in the real world?
 
-### Characteristics of Analog Devices:
+### Characteristics:
 
 1. Continuous Signals:
 
@@ -74,7 +74,7 @@ Common examples of analog signals include sound waves, temperature readings, and
    - Radio Frequency (RF) Communication: Analog modulation techniques like AM and FM are used to transmit audio signals over radio waves.
    - Instrumentation and Measurement: Analog devices are often used in scientific instruments for precise measurements where continuous signal processing is required.
 
-### Advantages of Analog Devices:
+### Advantages:
 
 - High Resolution:
 
@@ -84,7 +84,7 @@ Analog devices can represent and process a very wide range of values, making the
 
 In some cases, analog circuits can be simpler and more direct than digital circuits, especially for straightforward tasks like amplification or filtering.
 
-### Disadvantages of Analog Devices:
+### Disadvantages:
 
 - Susceptibility to Noise:
 
@@ -94,7 +94,7 @@ Analog signals can be easily affected by noise and interference, which can degra
 
 While analog devices can process continuous signals, they are often less precise than digital devices for certain tasks, especially in computing or digital communication, where exact values are necessary.
 
-### Example: Analog vs. Digital in Audio
+### Analog vs. Digital in Audio
 
 - Analog:
 
@@ -108,7 +108,7 @@ An analog device processes continuous signals that vary smoothly over time, with
 
 An analog device is an electronic component or system that processes continuous signals, representing physical quantities that can vary smoothly over a range of values.
 
-Key characteristics of analog devices:
+Characteristics:
 
 1. Continuous signals:
 
@@ -154,7 +154,7 @@ Types of analog devices:
 
    - AM/FM radio transmitters and receivers
 
-Advantages of analog devices:
+Advantages:
 
 - High speed: No conversion delay
 - Simplicity in some applications

@@ -2,10 +2,6 @@ pick only few from this list that will be covered in the book
 
 ## Active Devices
 
-Create a list of active devices
-
-Active electronic devices (require external power):
-
 1. Transistors
 
    - Bipolar Junction Transistors (BJT)
@@ -41,7 +37,7 @@ Active electronic devices (require external power):
    - SCRs
    - TRIACs
    - Optocouplers
-	 
+
 TAG
 
 active device

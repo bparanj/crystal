@@ -114,7 +114,7 @@ Phase in electronics refers to the position of a point in a signal's cycle, meas
 - Three-phase power distribution
 - Motor control
 
-In the diagram above, I've shown:
+In the diagram above:
 
 - Blue wave: Reference signal
 - Red wave: Signal that is 180° out of phase
@@ -396,11 +396,10 @@ explain how capacitors and inductors affect phase differently?
     <text x="60" y="30" font-size="10">Phase Difference = 0°</text>
 </svg>
 
-Is dimmer switch an example for potentiometer?
-
-Yes, a dimmer switch is a common practical example of a potentiometer, but with some technical differences:
+a dimmer switch is a common practical example of a potentiometer, but with some technical differences:
 
 Traditional Dimmer Switch:
+
 1. Uses a TRIAC (electronic component) with a potentiometer
 2. Works by phase control - cutting portions of AC waveform
 3. More efficient for AC power control
@@ -506,7 +505,7 @@ This is why modern dimmer switches:
     <path d="M 200 180 L 250 180 L 250 220 L 200 220 Z" fill="gray" fill-opacity="0.2"/>
 </svg>
 
-Yes, resistors are commonly used in AC circuits. They serve the following purposes:
+resistors are commonly used in AC circuits. They serve the following purposes:
 
 1. Limiting Current:
 

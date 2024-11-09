@@ -1,4 +1,4 @@
-Yes, if you plot a graph of current (I) versus voltage (V) for a resistor, it will indeed be a straight line that passes through the origin, illustrating a linear relationship.
+If you plot a graph of current (I) versus voltage (V) for a resistor, it will indeed be a straight line that passes through the origin, illustrating a linear relationship.
 
 For a resistor following Ohm’s Law:
 \[
@@ -61,7 +61,7 @@ Yes, that’s correct! In most graphs, the x-axis represents the independent var
    - This variable responds to changes in the independent variable, and it is what you measure as the effect.
    - The dependent variable depends on the value of the independent variable, which is why it’s plotted on the y-axis.
 
-### Example in Ohm’s Law (Voltage and Current):
+### Example in Ohm’s Law:
 
 For a resistor following Ohm’s Law:
 \[

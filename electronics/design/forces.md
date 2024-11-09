@@ -19,19 +19,11 @@ The basic forces of nature, also known as the fundamental forces, are the four f
 | Gravitational Force | \(10^{-39}\)          | Infinite                 | All particles with mass                      | Governs the motion of planets, stars, galaxies, and large-scale structures in the universe |
 
 
-- Relative Strength:
-
 The forces are listed in descending order of strength. The strong nuclear force is the strongest, and gravity is the weakest.
-
-- Range:
 
 The strong and weak nuclear forces have very short ranges, limited to subatomic distances. The electromagnetic and gravitational forces have infinite ranges.
 
-- Acts On:
-
 Each force acts on different particles. The strong nuclear force affects quarks and gluons inside the nucleus, the electromagnetic force affects charged particles, the weak nuclear force affects quarks and leptons, and gravity affects all particles with mass.
-
-- Role:
 
 Each force plays a distinct role in nature, from holding atomic nuclei together to governing the structure and behavior of the cosmos.
 
