@@ -51,7 +51,8 @@ Experiments
 - Capacitor
 - Diode
 - Transistor
-- Fuse
+
+Using variable DC power supply: https://www.tinkercad.com/things/dhiOh1srnvl/editel
 
 Components
 

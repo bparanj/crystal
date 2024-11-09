@@ -22,7 +22,8 @@ Series: Capacitance decreases, with the total capacitance being less than any si
      \[
      \frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2} + \ldots + \frac{1}{C_n}
      \]
-     - Usefulness: Used when a lower capacitance or a higher voltage rating is needed (series capacitors increase voltage tolerance).
+
+Used when a lower capacitance or a higher voltage rating is needed (series capacitors increase voltage tolerance).
 
 Parallel: Capacitances add up, resulting in a higher total capacitance.
      \[
@@ -30,54 +31,67 @@ Parallel: Capacitances add up, resulting in a higher total capacitance.
 
      \]
 
-Usefulness: Useful when a larger capacitance is required, for example, to store more energy or smooth out power supply fluctuations.
+Useful when a larger capacitance is required, for example, to store more energy or smooth out power supply fluctuations.
 
 Both series and parallel configurations are common for capacitors, depending on requirements for capacitance and voltage rating.
 
 ### 3. Battery
 
+Series: 
 
-Series: Voltages add up while the total current capacity remains that of a single battery.
+Voltages add up while the total current capacity remains that of a single battery.
 
      \[
      V_{total} = V_1 + V_2 + \ldots + V_n
      \]
 
-Usefulness: Increases voltage to meet the requirements of higher-voltage circuits.
+Increases voltage to meet the requirements of higher-voltage circuits.
 
-Parallel: Voltages remain the same, but the total current capacity (or ampere-hours) increases.
+Parallel: 
+
+Voltages remain the same, but the total current capacity (or ampere-hours) increases.
 Usefulness: Extends the runtime of the power supply at the same voltage level, providing more current for devices with high current demands.
 
 Series and parallel configurations for batteries are both practical and commonly used, depending on whether higher voltage or longer battery life is needed.
 
 ### 4. Inductor
 
-Series: Inductances add up.
+Series: 
+
+Inductances add up.
      \[
      L_{total} = L_1 + L_2 + \ldots + L_n
      \]
 
-Usefulness: Increases total inductance, which can be useful in filtering and tuning applications.
+Increases total inductance, which can be useful in filtering and tuning applications.
 
-Parallel: Total inductance decreases, similar to parallel resistors.
+Parallel: 
+
+Total inductance decreases, similar to parallel resistors.
      \[
      \frac{1}{L_{total}} = \frac{1}{L_1} + \frac{1}{L_2} + \ldots + \frac{1}{L_n}
      \]
 
-Usefulness: Reduces inductance, which can help lower impedance in circuits with high-frequency applications.
+Reduces inductance, which can help lower impedance in circuits with high-frequency applications.
 
 Both configurations are practical, but series is more common when a larger inductance is required, while parallel inductors are rarely used outside of specific tuning applications.
 
 ### 5. Diode
 
-Series: The forward voltage drop of each diode adds up.
+Series: 
+
+The forward voltage drop of each diode adds up.
      \[
      V_{total} = V_{D1} + V_{D2} + \ldots + V_{Dn}
      \]
 
-Usefulness: This can be used to increase the voltage drop across a diode path or to increase the reverse breakdown voltage.
-Parallel: Current through each diode is ideally divided, but it’s usually not practical due to the slight variation in the forward voltage of each diode, leading to uneven current distribution.
-Usefulness: Not recommended, as diodes in parallel do not share current equally without special balancing measures.
+This can be used to increase the voltage drop across a diode path or to increase the reverse breakdown voltage.
+
+Parallel: 
+
+Current through each diode is ideally divided, but it’s usually not practical due to the slight variation in the forward voltage of each diode, leading to uneven current distribution.
+
+Not recommended, as diodes in parallel do not share current equally without special balancing measures.
 
 Diodes in series are practical in applications needing higher voltage tolerance. Parallel configurations are generally avoided unless specific current-sharing measures are used, such as resistors in series with each diode.
 
