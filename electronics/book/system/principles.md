@@ -37,7 +37,11 @@ This principle is often observed in the design of power-efficient circuits and s
 
 ### 6. Duality Principle:
 
-Every electrical property or theorem has a dual counterpart. For example, voltage is dual to current, series circuits are dual to parallel circuits, and capacitance is dual to inductance.
+Every electrical property or theorem has a dual counterpart. For example:
+
+ voltage is dual to current 
+ series circuits vs parallel circuits
+ capacitance vs inductance.
 
 This principle allows engineers to apply known solutions to analogous problems, simplifying the design and analysis of circuits. For example, the duality principle can help in converting an impedance network problem into an admittance network problem.
 
@@ -55,7 +59,8 @@ When applying the duality principle to a resistor, which is defined by the relat
 - Voltage (V) → Current (I)
 
 Therefore, using the duality principle:
-- Instead of the voltage-current relationship \( V = IR \), we get \( I = VG \), where \( G = \frac{1}{R} \) is the conductance.
+
+Instead of the voltage-current relationship \( V = IR \), we get \( I = VG \), where \( G = \frac{1}{R} \) is the conductance.
 
 Applying the duality principle to a resistor yields conductance as the dual of resistance, and the circuit equation \( V = IR \) transforms into \( I = VG \).
 
@@ -93,8 +98,6 @@ This principle is applied in high-speed digital design, where maintaining the qu
 A portion of the output of a system is fed back into the input, which can stabilize or destabilize the system depending on the type of feedback (negative or positive).
 
 Feedback is a key principle in the design of amplifiers, oscillators, and control systems. Negative feedback is used to stabilize gain and improve performance, while positive feedback can lead to oscillations.
-
-### Summary:
 
 These principles form the foundational understanding of how electronic systems behave and interact. They are analogous to the law of conservation of energy in their importance and application across various domains within electronics, guiding the design, analysis, and optimization of circuits and devices.
 
@@ -173,7 +176,8 @@ Used in AC circuit analysis,  resonance, filtering, and impedance matching.
 ### 9. Resonance:
 
 In an AC circuit, resonance occurs when the inductive reactance equals the capacitive reactance, resulting in maximum voltage or current at a particular frequency.
-   - Formula: \( f_0 = \frac{1}{2\pi \sqrt{LC}} \), where \( f_0 \) is the resonant frequency, \( L \) is inductance, and \( C \) is capacitance.
+
+Formula: \( f_0 = \frac{1}{2\pi \sqrt{LC}} \), where \( f_0 \) is the resonant frequency, \( L \) is inductance, and \( C \) is capacitance.
 
 Used in tuning circuits, filters, and oscillators.
 

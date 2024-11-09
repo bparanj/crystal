@@ -38,6 +38,8 @@ Capacitors are used in timing circuits like RC oscillators and time-delay circui
 
 Capacitors can smooth out voltage fluctuations in rectifier circuits, creating a steady DC voltage from an AC input.
 
+A decoupling capacitor is also known as bypass capacitor. It is like a tiny energy reservoir placed near an integrated circuit. Its job is to smooth out voltage fluctuations, providing a stable power supply to the IC. It is like a shock absorber for electricity, preventing spikes in voltage. This prevents noise and instability of the IC.
+
 Tuning
 
 Variable capacitors are used in radio and TV tuners to select a specific frequency by forming a resonant circuit with an inductor.
@@ -48,7 +50,7 @@ Power factor correction:
 
 Capacitors can improve the power factor in AC circuits by compensating for inductive loads.
 
-Capacitors are essential components in electronic circuits for energy storage, filtering, coupling, decoupling, timing, smoothing, tuning, motor starting, and power factor correction.
+Capacitors are used for energy storage, filtering, coupling, decoupling, timing, smoothing, tuning, motor starting, and power factor correction.
 
 1. Form of energy:
 
@@ -108,14 +110,7 @@ When connecting multiple stages of amplification or signal processing, capacitor
 
 By addressing these problems, capacitors play a role in ensuring the proper functioning, efficiency, and reliability of electronic circuits in a wide range of applications.
 
-### What is a Capacitor?
-
 A capacitor is a passive electronic component that stores and releases electrical energy in a circuit. It consists of two conductive plates separated by an insulating material called a dielectric. When a voltage is applied across the plates, an electric field is created, allowing the capacitor to store electrical charge.
-
-### Structure of a Capacitor
-
-1. Plates: Two conductive plates (often made of metal).
-2. Dielectric: An insulating material between the plates (such as ceramic, film, electrolytic, or mica).
 
 ### Why is a Capacitor Needed?
 
@@ -159,7 +154,7 @@ In oscillators, timers, and pulse generation circuits.
 
 For tuning and frequency selection in RF circuits.
 
-### Practical Examples
+### Examples
 
 - Smoothing Power Supplies:
 

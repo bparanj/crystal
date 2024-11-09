@@ -66,7 +66,6 @@ These concepts are the basics of understanding how electronic components and cir
 
 - Electric pressure/potential difference
 - Measured in volts
-- Drives current flow
 
 2. Current (I)
 

@@ -1,4 +1,4 @@
-A newton (N) is a unit of force, and it can be visualized using simple, physical examples of pushing or pulling objects.
+A newton (N) is a unit of force. It can be visualized using simple, physical examples of pushing or pulling objects.
 
 PENDING
 

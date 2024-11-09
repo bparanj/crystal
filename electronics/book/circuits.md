@@ -12,17 +12,17 @@ You can create useful circuits with just a single electronic component.
 
 ### 3. Inductor (L) as a Choke
 
-   An inductor alone can act as a choke, filtering high-frequency noise from a signal. It’s often placed in series with a power line to block unwanted AC signals while allowing DC to pass.
+An inductor alone can act as a choke, filtering high-frequency noise from a signal. It’s often placed in series with a power line to block unwanted AC signals while allowing DC to pass.
 
-   BACKLOG
+BACKLOG
 
-   Design an experiment to show how an inductor can be used to filter high frequency noise from signal. How to block unwanted AC signals while allowing DC to pass.
+Design an experiment to show how an inductor can be used to filter high frequency noise from signal. How to block unwanted AC signals while allowing DC to pass.
    
-   This experiment cannot be done using Tinkercad. Postpone to later version.
+This experiment cannot be done using Tinkercad. Postpone to later version.
 
 ### 4. Diode as a Rectifier
 
-   A single diode can convert AC to DC by only allowing current to flow in one direction. This is the basic function of a rectifier, which is essential in converting AC signals to pulsating DC. See rectifier.md
+A single diode can convert AC to DC by only allowing current to flow in one direction. This is the basic function of a rectifier, which is essential in converting AC signals to pulsating DC. See rectifier.md
 
 ### 5. Zener Diode as a Voltage Regulator
 
@@ -36,25 +36,33 @@ several circuits use only two electronic components, often to achieve specific, 
 
 ### 1. RL Circuit
 
-   - Components: Resistor (R) and Inductor (L)
+Components: 
+
+Resistor (R) and Inductor (L)
    
 Primarily used to filter signals or create simple timing mechanisms. It’s also common in AC circuit applications where it influences phase shifts between current and voltage.
 
 ### 2. LC Circuit
 
-   - Components: Inductor (L) and Capacitor (C)
+Components: 
+
+Inductor (L) and Capacitor (C)
    
 This is a basic resonant circuit, used to select or reject specific frequencies. It’s widely used in oscillators, radios, and signal processing.
 
 ### 3. Diode-Resistor (DR) Circuit
 
-   - Components: Diode (D) and Resistor (R)
+Components: 
+
+Diode (D) and Resistor (R)
    
 Used for rectification (conversion of AC to DC) in simple power supply circuits. It allows current to flow in one direction and blocks it in the other, creating a DC-like signal from AC.
 
 ### 4. Capacitor-Diode (CD) Circuit
 
-   - Components: Capacitor (C) and Diode (D)
+Components: 
+
+Capacitor (C) and Diode (D)
    
 Common in peak detection circuits and voltage doubling circuits. It can store and release charge in a controlled way, useful for generating higher voltages or stabilizing signal peaks.
 

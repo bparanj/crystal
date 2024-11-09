@@ -1,12 +1,10 @@
+Resistivity is a property of a material that quantifies how strongly it resists the flow of electric current. It represents how difficult it is for electrons to move through a material. Resistivity is measured in ohm-meters. It relates to both resistance and dimensions of the material.
+
+Conductivity is a measure of how easily a material allows electric current to flow through it. It is the reciprocal of resistivity. Conductivity is measured in Siemens per meter.
+
+Reciprocal of a number is a number that gives 1 when it is multiplied with the original number.
+
 ## Resistivity vs Conductivity
-
-PENDING
-
-What does it mean to be a reciprocal?
-
-Is resistivity the opposite of conductivity?
-
-Yes, resistivity is effectively the inverse of conductivity, but they are not precisely "opposites"; they are reciprocals.
 
 1. Conductivity (\(\sigma\)) measures a material's ability to conduct electric current. It indicates how easily electrons can flow through the material. Higher conductivity means lower resistance to current.
 

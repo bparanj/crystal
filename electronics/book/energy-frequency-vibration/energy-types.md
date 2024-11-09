@@ -76,4 +76,3 @@ Batteries also have Chemical to Electrical.
    - Electrical ↔ Magnetic (Inductors)
    - Electrical ↔ Chemical (Batteries)
    - Electrical → Light (LEDs)
-

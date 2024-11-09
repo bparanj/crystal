@@ -4,6 +4,8 @@ unit
 
 A coulomb (C) is a unit of electric charge.
 
+A coulomb (C) is the standard unit of electric charge in the International System of Units (SI). It represents quantity in electricity, similar to how a second measures time.
+
 Amount of Charge Flowing in a Wire:
 
 One coulomb is the amount of charge transported by a current of 1 ampere in 1 second. Imagine a wire where 1 amp of current flows—after 1 second, one coulomb of charge has passed through the wire. It's like imagining a steady stream of water flowing through a pipe, where the total "volume" of charge is 1 coulomb.
@@ -54,4 +56,8 @@ Common Usage:
 - Coulombs: everyday electronics, circuit analysis
 - Faradays: electrochemistry, electrolysis calculations
 
-Faraday is a charge unit. Farad is capacitance unit.
+Coulomb is a charge unit. Farad is capacitance unit.
+
+Coulombs measure electric charge, like the amount of charge stored on a capacitor. Farads measure capacitance, which is a component's ability to store charge for a given voltage. They are related by the formula: 
+
+C = Q/V
