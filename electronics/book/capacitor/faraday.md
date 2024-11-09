@@ -16,9 +16,9 @@ In terms of battery chemistry, one faraday can represent the total charge needed
 
 4. Lightning Comparison:
 
-While a faraday is a theoretical unit used mainly in controlled conditions like electrochemistry, for a rough analogy, a powerful lightning bolt transfers around 10–100 coulombs. To reach one faraday (96,485 coulombs), you’d need around 1,000 lightning bolts worth of charge.
+While a faraday is a theoretical unit used mainly in controlled conditions like electrochemistry, for a analogy, a powerful lightning bolt transfers around 10–100 coulombs. To reach one faraday (96,485 coulombs), you’d need around 1,000 lightning bolts worth of charge.
 
-In summary, you can visualize a faraday by thinking about large-scale electron transfer processes like electroplating, where huge numbers of electrons (or charge) are moved to deposit materials or produce chemical changes. The sheer scale of a faraday can be compared to many smaller, familiar events involving electricity.
+you can visualize a faraday by thinking about large-scale electron transfer processes like electroplating, where huge numbers of electrons (or charge) are moved to deposit materials or produce chemical changes. The sheer scale of a faraday can be compared to many smaller, familiar events involving electricity.
 
 The Faraday (F) is a unit of electrical charge that equals the amount of electric charge carried by one mole of electrons. It's named after Michael Faraday, who made fundamental discoveries in electrochemistry.
 
@@ -90,8 +90,6 @@ Similar to Money:
    - Dollar groups 100 cents
    - Faraday groups 96,485 Coulombs
    - Both are convenient for larger amounts
-
-Key Points:
 
 1. Coulomb (C):
    - Basic unit of electrical charge
@@ -208,7 +206,7 @@ A Mole is:
    - Bridges microscopic and macroscopic worlds
    - Standard unit in chemistry
 
-For Electrons Specifically:
+For Electrons:
 
 1. One Mole of Electrons:
 
@@ -217,7 +215,7 @@ For Electrons Specifically:
    - Equal to 1 Faraday
    - 96,485 Coulombs of charge
 
-2. Practical Applications:
+2. Applications:
    - Electrochemistry
    - Battery calculations
    - Chemical reactions

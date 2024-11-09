@@ -10,11 +10,13 @@ where:
 - \( f \) is the frequency of the AC signal,
 - \( C \) is the capacitance of the capacitor.
 
-### Explanation:
+Inversely Proportional:
 
-- Inversely Proportional: Capacitive reactance decreases as frequency or capacitance increases. This means high-frequency signals pass through a capacitor more easily than low-frequency signals.
+Capacitive reactance decreases as frequency or capacitance increases. This means high-frequency signals pass through a capacitor more easily than low-frequency signals.
 
-- AC vs. DC: In DC circuits (where \( f = 0 \)), capacitive reactance is infinite, effectively blocking current. In AC circuits, the capacitor allows current to flow based on the reactance value.
+AC vs. DC:
+
+In DC circuits (where \( f = 0 \)), capacitive reactance is infinite, effectively blocking current. In AC circuits, the capacitor allows current to flow based on the reactance value.
 
 Capacitive reactance plays a role in controlling AC current flow in circuits with capacitors.
 
@@ -31,7 +33,9 @@ Where:
 - \( f \) is the frequency of the signal (in hertz, Hz).
 - \( C \) is the capacitance (in farads, F).
 
-Inverse Relationship: Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
+Inverse Relationship:
+
+Capacitive reactance (\(X_C\)) is inversely proportional to frequency (\(f\)). As the frequency increases, \( X_C \) decreases, allowing more current to pass.
 
 Low Reactance at High Frequency:
 
