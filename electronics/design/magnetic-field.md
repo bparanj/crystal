@@ -30,7 +30,7 @@ Magnetic fields allow temporary energy storage in a non-permanent way, ideal for
 
 Devices that store energy in an electrical field and those that store energy in a magnetic field differ fundamentally in how they store and release energy, their construction, and their applications.
 
-### 1. Devices that Store Energy in Electrical Fields (Capacitors)
+### Devices that Store Energy in Electrical Fields (Capacitors)
 
    Capacitors store energy in the form of an electric field created between two conductive plates separated by a dielectric (insulating material).
 
@@ -42,7 +42,7 @@ Devices that store energy in an electrical field and those that store energy in 
 
    They respond mainly to changes in voltage and have an impedance that decreases with higher frequency, which is why they are used in high-frequency circuits.
 
-### 2. Devices that Store Energy in Magnetic Fields (Inductors and Transformers)
+### Devices that Store Energy in Magnetic Fields (Inductors and Transformers)
 
    Inductors store energy in a magnetic field created by the flow of current through a coil. When the current changes, the magnetic field changes, inducing a voltage that opposes the change in current (Lenz's law).
 
@@ -68,7 +68,7 @@ These differences define the roles capacitors and inductors play in circuits, ea
 
 Storing electrical energy in a magnetic field is essential for several reasons, especially in applications where managing current, energy transfer, and signal conditioning are crucial. Here are the primary reasons:
 
-### 1. Energy Transfer and Conversion
+### Energy Transfer and Conversion
 
    - Transformers:
 
@@ -78,7 +78,7 @@ Storing electrical energy in a magnetic field is essential for several reasons, 
 
    Magnetic fields enable wireless energy transfer through inductive coupling, used in applications like wireless charging pads and RFID technology.
 
-### 2. Smoothing and Stabilizing Current
+### Smoothing and Stabilizing Current
 
    - Inductors in Power Supplies:
 
@@ -88,7 +88,7 @@ Storing electrical energy in a magnetic field is essential for several reasons, 
 
    Inductors work as low-pass filters, allowing only lower frequencies to pass through. This is useful in audio equipment and radio circuits, where you want to eliminate unwanted high-frequency noise.
 
-### 3. Temporary Energy Storage for Switching Applications
+### Temporary Energy Storage for Switching Applications
 
    - Switching Power Supplies:
 
@@ -98,7 +98,7 @@ Storing electrical energy in a magnetic field is essential for several reasons, 
 
    Magnetic storage in inductors is used to "recycle" energy in circuits where switches open and close rapidly, helping to conserve energy and improve efficiency.
 
-### 4. Voltage and Current Regulation
+### Voltage and Current Regulation
 
    - Inductive Reactance:
 
@@ -108,7 +108,7 @@ Storing electrical energy in a magnetic field is essential for several reasons, 
 
    Inductors allow DC to pass through smoothly while blocking AC fluctuations, making them essential in DC power supply filtering circuits for stable output.
 
-### 5. Inducing Counter Electromotive Force (EMF)
+### Inducing Counter Electromotive Force (EMF)
 
    - Motor and Generator Applications:
 
@@ -146,4 +146,4 @@ The main reasons to store energy in magnetic fields are:
 - Less energy loss in conversion
 - Nearly instant response time
 
-The main disadvantage is that it requires special equipment (like superconducting coils) to maintain the magnetic field efficiently.
+The disadvantage is that it requires special equipment (like superconducting coils) to maintain the magnetic field efficiently.

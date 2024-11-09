@@ -61,7 +61,7 @@ Discrete active devices are fundamental building blocks in many electronic circu
 
 A discrete active device refers to an individual electronic component that can control the flow of electricity in a circuit and requires an external power source to operate. Unlike passive devices, which do not amplify signals, active devices can amplify, switch, or modify electrical signals.
 
-### Characteristics of Discrete Active Devices:
+### Characteristics:
 
 1. Active Nature:
 
@@ -101,7 +101,7 @@ A discrete active device refers to an individual electronic component that can c
 
 Discrete refers to the fact that these components are separate and distinct,  housed in individual packages (e.g., TO-92 for small transistors or TO-220 for larger ones). This is in contrast to integrated circuits, where many active components are fabricated on a single chip.
 
-### Example of a Discrete Active Device:
+### Example:
 
 NPN Transistor:
 
@@ -113,7 +113,7 @@ Consists of three layers of semiconductor material (NPN) and three terminals: ba
 
 When a small current flows into the base terminal, it allows a larger current to flow from the collector to the emitter. This makes the transistor act as a switch (in digital circuits) or an amplifier (in analog circuits).
 
-### Applications of Discrete Active Devices:
+### Applications:
 
 - Signal Amplification:
 
@@ -131,7 +131,7 @@ Zener diodes are used to maintain a stable output voltage in power supplies.
 
 LEDs emit light when a current flows through them, used in displays, indicators, and lighting.
 
-### Advantages of Discrete Active Devices:
+### Advantages
 
 - Flexibility:
 
@@ -141,7 +141,7 @@ Individual components can be selected and adjusted for specific functions within
 
 In the event of failure, a discrete component can be easily replaced without affecting other parts of the circuit.
 
-### Disadvantages of Discrete Active Devices:
+### Disadvantages
 
 - Size:
 

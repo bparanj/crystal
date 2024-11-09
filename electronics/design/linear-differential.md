@@ -1,3 +1,7 @@
+PENDING
+
+Move to out of scope folder
+
 What are linear differential equation?
 
 Linear differential equations are equations where the unknown function and its derivatives appear to the first power only (no squares, cubes, etc). They're crucial in circuit analysis.

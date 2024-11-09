@@ -2,6 +2,10 @@ TAG
 
 electric field
 
+PENDING
+
+Youtube video reference related to this experiment only
+
 A simple experiment to illustrate the concept of an electric field using common materials:
 
 ### Visualizing Electric Fields with a Van de Graaff Generator

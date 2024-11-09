@@ -7,29 +7,23 @@ magnetic field
 
 Electromagnetism is a fundamental branch of physics that studies the interaction between electric charges and magnetic fields. It is one of the four fundamental forces of nature and is responsible for many physical phenomena,  the behavior of electric and magnetic fields and their interactions with matter.
 
-### Concepts:
-
-1. Electric Charges and Electric Fields:
-
-   - Electric Charge:
+Electric Charge:
 
    Electromagnetism begins with the concept of electric charge, which is a property of certain subatomic particles (such as electrons and protons) that causes them to experience a force when placed in an electric or magnetic field.
 
-   - Electric Field:
+Electric Field:
 
    An electric field is a region around a charged object where other charges experience a force. The strength of the electric field depends on the amount of charge and the distance from the charge.
 
-2. Magnetic Fields:
-
-   - Magnetic Field:
+Magnetic Field:
 
    A magnetic field is a region around a magnetized object or moving electric charge where magnetic forces can be observed. Like electric fields, magnetic fields have both direction and magnitude, and they influence the behavior of magnetic materials and moving charges.
 
-   - Magnetic Poles:
+Magnetic Poles:
 
    Magnets have two poles, north and south, and magnetic fields flow from the north pole to the south pole. Like poles repel each other, while opposite poles attract.
 
-3. Relationship Between Electricity and Magnetism:
+Relationship Between Electricity and Magnetism:
 
    - Electromagnetic Induction:
 
@@ -39,17 +33,17 @@ Electromagnetism is a fundamental branch of physics that studies the interaction
 
    Ampère’s Law describes how an electric current flowing through a conductor generates a magnetic field around it. The direction of the magnetic field follows the right-hand rule: if you point your thumb in the direction of the current, your fingers curl in the direction of the magnetic field lines.
 
-4. Maxwell's Equations:
+Maxwell's Equations:
 
-   - Unified Theory:
+Unified Theory:
 
    The four Maxwell’s equations are a set of differential equations that summarize the fundamental principles of electromagnetism. They describe how electric and magnetic fields are generated and altered by charges and currents and how they propagate through space.
 
-   - Electromagnetic Waves:
+Electromagnetic Waves:
 
    One of the significant outcomes of Maxwell’s equations is the prediction of electromagnetic waves—waves that propagate through space at the speed of light, such as radio waves, microwaves, visible light, and X-rays. These waves are composed of oscillating electric and magnetic fields that are perpendicular to each other and to the direction of wave propagation.
 
-5. Applications of Electromagnetism:
+Applications of Electromagnetism:
 
    - Electric Motors and Generators:
 

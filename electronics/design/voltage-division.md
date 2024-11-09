@@ -1,5 +1,3 @@
-## Voltage Division
-
 What is voltage division in electronics
 
 Voltage division is the principle where total voltage divides between series components proportionally to their resistance:

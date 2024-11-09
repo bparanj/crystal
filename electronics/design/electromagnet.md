@@ -4,21 +4,17 @@ electromagnet
 
 An electromagnet is a type of magnet in which the magnetic field is produced by an electric current. Unlike a permanent magnet, which always has a magnetic field, an electromagnet’s magnetic field exists only when current is flowing through the coil of wire. The strength of the magnetic field can be controlled by adjusting the amount of current flowing through the coil.
 
-1. Basic Principle:
+Electric Current and Magnetic Field: When an electric current flows through a wire, it generates a magnetic field around the wire. This phenomenon is described by Ampère's Law. If you coil the wire into a loop or series of loops, the magnetic fields from each loop add together, creating a stronger overall magnetic field.
 
-   - Electric Current and Magnetic Field: When an electric current flows through a wire, it generates a magnetic field around the wire. This phenomenon is described by Ampère's Law. If you coil the wire into a loop or series of loops, the magnetic fields from each loop add together, creating a stronger overall magnetic field.
-
-2. Construction:
-
-   - Coil of Wire:
+Coil of Wire:
 
    An electromagnet is  made by winding a wire into a coil, often around a core made of a ferromagnetic material like iron. The wire is usually insulated to prevent short circuits between the turns.
 
-   - Core Material:
+Core Material:
 
    The ferromagnetic core, such as an iron rod, enhances the magnetic field produced by the coil. The core becomes magnetized when current flows through the coil, significantly increasing the strength of the electromagnet compared to a coil without a core.
 
-3. Operation:
+Operation:
 
    - Current Flow:
 
@@ -28,7 +24,7 @@ An electromagnet is a type of magnet in which the magnetic field is produced by 
 
    The strength of the magnetic field depends on the amount of current flowing through the coil, the number of turns in the coil, and the properties of the core material. The direction of the magnetic field can be reversed by reversing the direction of the current.
 
-4. Applications:
+Applications:
 
    - Electromechanical Devices:
 
@@ -42,7 +38,7 @@ An electromagnet is a type of magnet in which the magnetic field is produced by 
 
    Powerful electromagnets are used in MRI machines to generate the magnetic fields necessary for imaging the inside of the human body.
 
-5. Advantages of Electromagnets:
+Advantages:
 
    - Control:
 

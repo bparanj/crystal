@@ -2,11 +2,15 @@ You cannot use a multimeter in parallel with the load to measure current because
 
 1. Incorrect Measurement:
 
-   - Current Division: In parallel, the current from the power source would split between the multimeter and the load. Due to the multimeter’s low resistance, most of the current would flow through the multimeter instead of the load. This means the multimeter would not accurately measure the current flowing through the  load.
+   - Current Division:
+
+   In parallel, the current from the power source would split between the multimeter and the load. Due to the multimeter’s low resistance, most of the current would flow through the multimeter instead of the load. This means the multimeter would not accurately measure the current flowing through the  load.
 
 2. Potential Damage to the Multimeter:
 
-   - Excessive Current: Because the multimeter in ammeter mode is designed to measure current flowing through it, connecting it in parallel can cause a very high current to flow through the multimeter. This can easily exceed the multimeter’s maximum current rating, potentially damaging the multimeter’s internal fuse or circuitry.
+   - Excessive Current:
+
+   Because the multimeter in ammeter mode is designed to measure current flowing through it, connecting it in parallel can cause a very high current to flow through the multimeter. This can easily exceed the multimeter’s maximum current rating, potentially damaging the multimeter’s internal fuse or circuitry.
 
 3. Circuit Alteration:
 
@@ -14,11 +18,11 @@ You cannot use a multimeter in parallel with the load to measure current because
 
 ### Correct Usage:
 
-- Current Measurement: 
+- Current Measurement:
 
 To correctly measure current, the multimeter should be connected in series with the load, not in parallel. This ensures that all current flowing through the load also flows through the multimeter, allowing it to accurately measure the current.
 
-- Voltage Measurement: 
+- Voltage Measurement:
 
 For voltage measurements, a multimeter is placed in parallel with the component or section of the circuit across which you want to measure the voltage, because it is designed to have a high internal resistance in this mode, minimizing the impact on the circuit.
 

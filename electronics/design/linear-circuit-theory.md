@@ -1,3 +1,7 @@
+PENDING
+
+Move to out of scope folder
+
 What is linear circuit theory?
 
 Linear circuit theory is a fundamental framework for analyzing circuits that follow two key principles:
@@ -43,8 +47,6 @@ This theory is powerful because it allows:
 - Use of complex numbers for AC analysis
 - Breaking complex circuits into simpler parts
 - Predictable behavior
-
-Would you like me to explain any of these concepts in more detail?
 
 TAG
 

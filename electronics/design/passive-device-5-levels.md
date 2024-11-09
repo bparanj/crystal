@@ -6,7 +6,7 @@ Imagine you have a toy that doesn’t need batteries to work, but it can still d
 
 A passive device in electronics is a component that doesn’t need its own power source to do its job. Instead, it works with the energy already in the circuit. For example, a resistor slows down the flow of electricity, or a capacitor stores some energy for later, but neither needs a battery of its own—they just use the electricity from the circuit they’re in.
 
-### 3. To an Undergraduate Student 
+### 3. To an Undergraduate Student
 
 Passive devices are components in electronic circuits that do not require an external power source to function. They don’t amplify or generate energy; instead, they manage and control the energy within the circuit. Common examples include resistors, which limit current; capacitors, which store and release electrical energy; and inductors, which store energy in a magnetic field. These components play a critical role in shaping the behavior of electrical signals and ensuring that circuits operate as intended.
 
@@ -69,8 +69,6 @@ Advanced applications include:
 - Passive intermodulation (PIM) in high-power RF systems
 - Metamaterials and their unique electromagnetic properties
 - Passive component behavior in power electronics and high-voltage systems
-
-Understanding these concepts is crucial for advanced circuit design, especially in fields like RF engineering, power systems, and analog signal processing.
 
 5.  Colleague:
 

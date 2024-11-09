@@ -1,3 +1,7 @@
+OUT OF SCOPE
+
+Move to out of scope folder
+
 Current division is the principle where total current divides between parallel branches inversely proportional to their resistance:
 
 Formula:

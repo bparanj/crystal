@@ -7,6 +7,10 @@ Linearity:
 - Output is proportional to input (scaling property)
 - Superposition applies - response to sum of inputs equals sum of individual responses
 
+PENDING
+
+What is superposition?
+
 Time Invariance:
 
 - Circuit behavior doesn't change with time
@@ -22,6 +26,7 @@ Common non-LTI cases:
 - Diodes (non-linear)
 - Circuits with time-varying components (not time invariant)
 
+PENDING
 
 What is a time varying component? Not clear yet.
 

@@ -13,7 +13,8 @@ Passive components do not generate, amplify, or process electrical signals. They
    Capacitors: They store energy in an electric field.
    Inductors: They store energy in a magnetic field.
 
-Characteristics of discrete passive circuits:
+Characteristics:
+
 These circuits don't need an external power source to function.
 Passive components generally exhibit linear responses to changes in voltage or current.
 They can store or dissipate energy, but cannot [--create--] or amplify it.
@@ -32,14 +33,12 @@ use of the term "create" was imprecise and incorrect from a physics standpoint.
 
 Passive components cannot [--generate--], amplify, or increase the energy in a system. They can only store, dissipate, or transfer energy that is already present in the circuit.
 
-The key points about energy in passive circuits are:
-
 Energy is neither created nor destroyed, only converted from one form to another.
 Passive components can transfer energy between different parts of the circuit or between different forms (e.g., electrical to heat).
 Components like capacitors and inductors can temporarily store energy and release it later.
 Resistors convert electrical energy into heat energy, effectively dissipating it from the circuit.
 
-Passive components and circuits do not introduce new energy into a system. They can only manipulate, store, transfer, or dissipate the energy already present in the circuit. Here's a more precise way to describe what passive components do:
+Passive components and circuits do not introduce new energy into a system. They can only manipulate, store, transfer, or dissipate the energy already present in the circuit.
 
 Capacitors store energy in electric fields, inductors in magnetic fields.
 Resistors convert electrical energy into heat.
@@ -72,7 +71,6 @@ Transformers:
 
    Components that transfer electrical energy between two or more circuits through electromagnetic induction. They are used for stepping up or stepping down voltage levels.
 
-
 These components do not require an external power source to function.
 They do not amplify signals; instead, they control, store, or dissipate energy that is already present in the circuit.
 
@@ -101,11 +99,7 @@ Components:
 
 A resistor (R) and a capacitor (C) connected in series.
 
-- Function:
-
 This circuit allows low-frequency signals to pass through while attenuating higher-frequency signals.
-
-- Operation:
 
 The resistor and capacitor work together to create a frequency-dependent impedance. At low frequencies, the capacitor has a high impedance, and most of the signal passes through the resistor. At high frequencies, the capacitor's impedance decreases, causing more of the signal to be shunted to ground, thereby reducing the output signal amplitude.
 
