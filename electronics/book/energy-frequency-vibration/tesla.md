@@ -1,6 +1,3 @@
-PENDING
-
-This goes together with work.md
 
 Electric current is flow of electrons.
 
@@ -70,8 +67,6 @@ Resonance amplifies vibrations or oscillations in a system. At resonance, even s
 
 Resonance is a key concept in physics and engineering that represents the interaction of energy, frequency, and vibration, leading to amplified effects at a specific frequency.
 
-## Real World Example
-
 The most familiar example of resonance in the real world is a playground swing. When you push a swing at just the right moments (matching its natural frequency), it goes higher with each push. This is resonance: the swing receives energy from the pushes in sync with its natural oscillation, which amplifies its motion.
 
 The swing has a natural frequency based on its length and the force of gravity.
@@ -84,6 +79,10 @@ A playground swing is probably the simplest and most relatable example of resona
 You're adding energy at the natural frequency of the swing
 The timing matches the swing's natural back-and-forth motion
 Small, well-timed pushes create large amplitude oscillations
+
+PENDING
+
+Find youtube videos for:
 
 Other examples:
 
