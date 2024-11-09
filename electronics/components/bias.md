@@ -1,4 +1,4 @@
-Bias in electronics refers to applying a voltage across a component to control its operation. In forward bias (specifically for diodes), it means applying a voltage that allows current to flow through the diode.
+Bias refers to applying a voltage across a component to control its operation. In forward bias (specifically for diodes), it means applying a voltage that allows current to flow through the diode.
 
 For a diode:
 
