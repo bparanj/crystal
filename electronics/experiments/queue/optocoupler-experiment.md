@@ -1,5 +1,7 @@
 A simple experiment to illustrate the concept of an optocoupler:
 
+https://www.tinkercad.com/things/3FjWHcOQcE3/editel
+
 Is optocoupler frequently used in electronic circuits
 
 Yes, optocouplers (also known as optoisolators) are frequently used in electronic circuits, especially where isolation between different parts of a circuit is needed to protect sensitive components or to prevent high voltages from affecting low-voltage control systems. They provide electrical isolation by using light to transfer signals, which is useful in various applications:
@@ -22,9 +24,9 @@ Provides safe signal transmission in industrial automation, medical equipment, a
 
 Because of their reliability and versatility, optocouplers are standard components in many designs, from home electronics to industrial control systems, ensuring safe and isolated signal transmission.
 
-Yes, optocouplers (also called optical isolators) are frequently used in electronic circuits, particularly where electrical isolation between two circuits is needed. Let me explain their main uses:
+electrical isolation between two circuits is needed.
 
-Applications include:
+Applications:
 
 1. Signal isolation in power supplies and motor control circuits
 2. Level shifting between circuits operating at different voltages
@@ -32,7 +34,7 @@ Applications include:
 4. Protection from high voltage spikes and ground loops
 5. Digital communication between circuits with different ground references
 
-The advantages that make them popular are:
+advantages:
 
 - Complete electrical isolation between input and output
 - Protection against voltage spikes and surges
@@ -40,7 +42,7 @@ The advantages that make them popular are:
 - Low cost and high reliability
 - Simple implementation
 
-Common examples of optocouplers:
+examples:
 
 - Switching power supplies
 - Industrial automation equipment

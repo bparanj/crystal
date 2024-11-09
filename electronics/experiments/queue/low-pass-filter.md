@@ -1,5 +1,7 @@
 A low-pass filter allows lower frequencies to pass through while attenuating higher frequencies. You can design a simple RC low-pass filter in Tinkercad to observe how it filters out high frequencies and allows low frequencies to pass.
 
+Is this the same: https://www.tinkercad.com/things/aguLPVNItJV-low-pass-filter
+
 ### Components:
 
 1. AC Voltage Source: Set to generate various frequencies (e.g., a sine wave).

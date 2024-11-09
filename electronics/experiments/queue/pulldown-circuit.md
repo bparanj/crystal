@@ -13,6 +13,8 @@ A typical pull-down resistor value is around 10kΩ. This value is large enough t
 
 Here’s a simple experiment to demonstrate the concept of a pull-down resistor using an LED, a pushbutton, and a power supply.
 
+Is this the same: https://www.tinkercad.com/things/hrMmi5ZQvhw-resistor-pull-up-and-pull-down
+
 ### Objective
 
 To show how a pull-down resistor works to ensure a stable LOW (logic “0”) signal when a switch is open and a HIGH (logic “1”) signal when the switch is closed.

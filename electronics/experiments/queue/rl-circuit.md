@@ -1,5 +1,7 @@
 First order RL circuit
 
+It this the same: https://www.tinkercad.com/things/0fsMDmFYYU2/editel
+
 a first-order RL circuit and an RL circuit generally refer to the same thing, just as in the case of an RC circuit. The term "first-order" specifies that the circuit’s behavior is governed by a first-order differential equation, which applies to any RL circuit consisting of a single resistor and a single inductor.
 
 ### Why It’s Called a First-Order RL Circuit
@@ -37,6 +39,3 @@ The circuit has two common configurations:
 The current through the circuit follows an exponential response with a time constant τ (tau) = L/R. This time constant determines how quickly the circuit responds to changes in input.
 
 Just like RC circuits, RL circuits are fundamental building blocks in electronics, though they're often used for different applications due to the different properties of inductors versus capacitors.
-
-Would you like me to elaborate on how RL circuits work or their specific applications?
-

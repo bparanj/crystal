@@ -1,5 +1,7 @@
 A simple circuit in Tinkercad to demonstrate the use of a Zener diode as a reference voltage.
 
+Is this the same: https://www.tinkercad.com/things/8IpP1QOL3e1-zener-diode
+
 ### Components
 
 - Breadboard

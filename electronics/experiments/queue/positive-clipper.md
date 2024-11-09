@@ -1,5 +1,7 @@
 A positive clipper circuit allows only the negative portion of an AC signal to pass through by clipping (cutting off) the positive part at a certain voltage level. You can build a simple positive clipper circuit in Tinkercad to demonstrate this concept.
 
+Is this the same: https://www.tinkercad.com/things/1lI66BoVYWB-biased-series-clipper-circuit-positive
+
 ### Components:
 
 1. AC Voltage Source: To supply an AC signal.

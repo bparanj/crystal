@@ -1,5 +1,6 @@
+Is this the same: https://www.tinkercad.com/things/jvxAvNYx90A/editel
 
-Yes, you can design a basic experiment in Tinkercad to demonstrate the rectifier function of a single diode, converting AC to pulsating DC. Here’s how you can set it up:
+You can design a basic experiment to demonstrate the rectifier function of a single diode, converting AC to pulsating DC. 
 
 ### Objective
 

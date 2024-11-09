@@ -1,15 +1,3 @@
-
-
-You can add a LED to visually show the charging and discharging of capacitor.
-
-PENDING
-
-This is the same as the existing capacitor experiment #7. Merge or delete this document.
-
-
-Let's design a simple experiment using this circuit.
-
-
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
   <!-- Battery -->
@@ -68,19 +56,11 @@ Experiment procedure:
 
    - Close the switch (or connect the wire).
    - The capacitor will start charging through the resistor.
-   - You can measure the voltage across the capacitor with a multimeter to see it increase over time.
+   
 
 2. Discharging the capacitor:
 
    - Open the switch (or disconnect the wire).
    - The capacitor will start discharging through the resistor.
-   - You can measure the voltage across the capacitor to see it decrease over time.
 
 3. Observations:
-
-   - Notice how the capacitor charges quickly at first, then slows down as it approaches full charge.
-   - Similarly, it discharges quickly at first, then more slowly.
-   - The time constant (τ) of this circuit is R * C = 1kΩ * 100µF = 0.1 seconds.
-   - It takes about 5 time constants (0.5 seconds) to fully charge or discharge the capacitor.
-
-This simple experiment demonstrates the fundamental behavior of capacitors in DC circuits, charging, discharging, and the concept of the time constant.

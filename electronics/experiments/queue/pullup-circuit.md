@@ -1,3 +1,6 @@
+
+Is this the same: https://www.tinkercad.com/things/hrMmi5ZQvhw-resistor-pull-up-and-pull-down
+
 ## Pull-up circuit
 
 1. Basic Pull-up Circuit:

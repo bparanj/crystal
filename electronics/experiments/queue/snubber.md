@@ -47,4 +47,4 @@ The capacitor absorbs the energy from the spike, and the resistor dissipates it 
 
 While Tinkercad allows for the basic setup, it doesn’t simulate transient behaviors perfectly, so the voltage spike reduction may not be as pronounced as in a real circuit. In more advanced simulations or real circuits, snubbers are tuned specifically for high-speed switching events, and inductive kickback is much more apparent.
 
-This setup still provides a good foundation for understanding how snubbers work and how they protect components in circuits with inductive loads.
+This setup still provides a foundation for understanding how snubbers work and how they protect components in circuits with inductive loads.

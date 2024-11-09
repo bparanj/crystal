@@ -1,7 +1,7 @@
 
 Here are three simple experiments designed to demonstrate Ohm's Law, which states that the current through a conductor between two points is directly proportional to the voltage across the two points and inversely proportional to the resistance between them.
 
-### 1. Experiment 1: Basic Verification of Ohm's Law
+### 1. Basic Verification of Ohm's Law
 
 Objective:
 
@@ -16,6 +16,7 @@ Materials:
 - Wires for connections
 
 Procedure:
+
 1. Set Up the Circuit:
    - Connect the resistor in series with the battery.
    - Connect the ammeter in series with the resistor to measure the current.
@@ -33,13 +34,14 @@ Procedure:
 4. Explain:
    - This experiment demonstrates Ohm’s Law by showing that the voltage across the resistor is proportional to the current through it, and the proportionality constant is the resistance.
 
-### 2. Experiment 2: Varying Voltage to Observe Changes in Current
+### 2. Varying Voltage to Observe Changes in Current
 
 Objective:
 
 Show how changing the voltage across a resistor affects the current, verifying Ohm’s Law.
 
 Materials:
+
 - Variable power supply (or a series of batteries with different voltages)
 - Resistor (e.g., 1 kΩ)
 - Ammeter
@@ -47,6 +49,7 @@ Materials:
 - Wires for connections
 
 Procedure:
+
 1. Set Up the Circuit:
    - Connect the resistor in series with the variable power supply.
    - Connect the ammeter in series to measure the current.
@@ -63,7 +66,7 @@ Procedure:
 4. Explain:
    - This experiment shows that as you increase the voltage, the current increases proportionally, confirming that \( V = IR \).
 
-### Experiment 3: Varying Resistance to Observe Changes in Current
+### 3 Varying Resistance to Observe Changes in Current
 
 Objective:
 
