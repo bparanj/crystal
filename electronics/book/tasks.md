@@ -5,6 +5,8 @@
 
 Sequence
 
+Experiments
+
 
 Tags
 
@@ -21,9 +23,17 @@ Search
 
 - Run ack -w 'experiment' and revise
 
-Items
+Questions
 
 - Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
+Does Tinkercad have anything to measure capacitance?
+Design an experiment using Tinkercad to demonstrate what happens when:
+two inductors are connected in series
+two inductors are connected in parallel
+two capacitors are connected in series
+two capacitors are connected in parallel
+
+
 
 Extract
 
@@ -49,7 +59,6 @@ Diagrams
 
 Simulations
 
-- Refer experiments.md to create the simulations for experiment 10, 11 and 12.
 
 Experiments
 
