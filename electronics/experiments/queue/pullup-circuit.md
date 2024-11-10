@@ -1,32 +1,6 @@
 
 Is this the same: https://www.tinkercad.com/things/hrMmi5ZQvhw-resistor-pull-up-and-pull-down
 
-## Pull-up circuit
-
-1. Basic Pull-up Circuit:
-   - Power supply (battery or DC source)
-   - Pull-up resistor (typically 1kΩ to 10kΩ)
-   - Push button or switch
-   - LED (with current limiting resistor)
-   - Ground connection
-
-2. Circuit Operation:
-   - When switch is OPEN:
-      LED gets HIGH through pull-up resistor
-      LED lights up
-   - When switch is CLOSED:
-      Node is connected to ground
-      LED turns off
-
-3. Components needed:
-   - 5V DC supply
-   - 10kΩ pull-up resistor
-   - Push button switch
-   - LED
-   - 220Ω current limiting resistor for LED
-
-This demonstrates the basic principle of pull-up resistors:
-
 - Ensures a defined logic level (HIGH) when input is floating
 - Prevents floating inputs
 - Shows how pull-up affects input states
@@ -42,13 +16,13 @@ To demonstrate how a pull-up resistor stabilizes a HIGH voltage level when a swi
 - 1 x Resistor (10 kΩ for pull-up)
 - 1 x LED (to visualize the output)
 - 1 x Pushbutton switch
-- 1 x Power supply (5V or 3.3V)
+- 1 x Power supply 5V
 - 1 x Resistor (330Ω for LED current limiting)
 - Connecting wires
 
 ### Setup
 
-1. Power Supply: Connect the positive terminal of the power supply (5V or 3.3V) to the pull-up resistor.
+1. Power Supply: Connect the positive terminal of the power supply 5V to the pull-up resistor.
 2. Pull-Up Resistor: Connect a 10 kΩ resistor from the positive terminal to one side of the pushbutton switch.
 3. Switch and Ground:
    - Connect the other side of the pushbutton switch to ground (GND).

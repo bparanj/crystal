@@ -73,7 +73,7 @@ For components like resistors, capacitors, and inductors, forward voltage does n
 
 Forward voltage is relevant primarily for semiconductor devices with a p-n junction, such as diodes and transistors.
 
-## Between Voltage and Forward Voltage
+## Voltage vs Forward Voltage
 
 Voltage and forward voltage are not the same.
 

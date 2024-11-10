@@ -1,5 +1,67 @@
 
-Chapters
+
+- Understanding Energy, Work, and Power
+- Breadboard Basics
+- Wiring Circuit wiring-circuit.md
+- Short Circuit
+- Batteries Series
+- Batteries Parallel
+- Voltage Divider
+- Potentiometer
+- Current Divider
+- LED Damage
+- LED Circuit (Resistor + LED)
+- Push Button
+- Slide Switch
+- Missing Capacitor
+- Capacitor
+- Polarized Capacitor
+- Capacitor Series
+- Capacitor Parallel
+- Diode
+- Zener Diode
+- Transistor as Switch
+- Transistor as Amplifier
+- Inductor
+- Inductor Series
+- Inductor Parallel
+- Relay
+
+
+Run the polarized capacitor experiment in Tinkercad https://www.tinkercad.com/things/blx1Lukof5N/editel
+See the capacitor-experiments.md
+11. Inductor (Demo: https://www.tinkercad.com/things/jw2rfdSUsWg-inductordemonstration)
+12. Variable Capacitor (LC Tuning Circuit) (LC - Inductor-Capacitor) https://www.tinkercad.com/things/bNBojeH8c6s-frequency-generator
+		This should go after experiment #8.
+
+- Low Pass Filter
+- High Pass Filter
+- Notch Filter
+- Pullup Circuit
+- Pulldown Circuit
+- RC Circuit
+- LC Circuit
+- RL Circuit
+- Voltage Regulator
+- Voltage Stabilizer
+- First Order Circuit
+- Second Order Circuit
+- Optocoupler
+- Rectifier Circuit
+- Positive Clamper
+- Positive Clipper
+- Negative Clamper
+- Negative Clipper
+- Photoresistor
+- Piezoelectric Effect
+- Oscillator
+- Current Gain
+- Tilt Sensor
+
+Is linear regular and voltage regulator the same?
+Is notch filter and band pass filter the same?
+
+Chapter
 
 Understanding Energy, Work, and Power
 
@@ -8,90 +70,29 @@ Understanding Energy, Work, and Power
 	- Forms of energy (joules.md)
 	- Law of conservation of energy
 	- Useful appliances
-
 - Safety
-
-0. Breadboard
-
-wiring-circuit.md
 
 Component Basics
 
 How to measure the value of resistor, capacitor, inductor etc.
 
-1. Short Circuit
-2. LED Circuit
-3. Slideswitch
-4. Pushbutton
-5. Potentiometer
-    - Voltage divider
-6. Capacitor
-    - Polarized capacitor
-    - Non polarized capacitor
-7. Diode
-    - Zener Diode - Pending
-8. Fuse - not covered.
-9. Relay - Pending
-10. Tranistor as switch complete. Pending transistor as an amplifier.
-11. Inductor
-12. Resistor - series (voltage divider)
-13. Resistor - parallel (current divider)
-
-
-Experiments
-
-- Short Circuit
-- LED Damage
-- Wiring Circuit (Basics - Keep the circuit open)
-- LED Circuit
-- Voltage Drop (refer voltage-drop-experiment.md)
-- Pushbutton
-- Slideswitch
-- Potentiometer
-- Capacitor
-- Diode
-- Transistor
-
 Using variable DC power supply: https://www.tinkercad.com/things/dhiOh1srnvl/editel
 
 Components
-
-1. Polarized Capacitor
-2. Inductor
-3. Zener Diode
 
 Refer building-blocks.md
 
 Here's an arrangement of the components from simplest to most complicated, based on their complexity, functionality, and typical usage in electronic circuits:
 
-1. Resistor
-2. Capacitor
-3. Polarized Capacitor - Pending
-4. Inductor - Pending
-5. Diode
-6. Zener Diode - Pending
-7. LED
-8. Light bulb - Pending
-9. Pushbutton
-10. Slideswitch
 11. Tilt Sensor - Pending
 12. Photoresistor - Pending
 13. 1.5V Battery
 14. 9V Battery
-15. Coin Cell 3V Battery
-16. Potato Battery
-17. Lemon Battery
 18. Piezo - Pending
-19. Breadboard Mini
-20. Breadboard Small
-21. Breadboard
-22. 8 Pin Header
-23. USB standard A
 24. Vibration Motor - Pending
 25. DC Motor - Pending
 26. Micro Servo - Pending
 27. Hobby Gearmotor - Pending
-28. Potentiometer
 29. Flex Sensor - Pending
 30. Force Sensor - Pending
 31. IR sensor - Pending

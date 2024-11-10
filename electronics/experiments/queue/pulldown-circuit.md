@@ -1,5 +1,3 @@
-A pull-down circuit is a simple but important electronic configuration that ensures an input pin maintains a defined logic LOW (0) state when no other active signal is connected. It consists of a resistor connected between the input pin and ground (GND).
-
 1. When no signal is applied: The resistor "pulls" the input to ground (0V)
 2. When a HIGH signal is applied: The input goes HIGH (overriding the pull-down)
 3. When the signal is removed: The input returns to LOW
@@ -11,7 +9,7 @@ Common uses:
 
 A typical pull-down resistor value is around 10kΩ. This value is large enough to limit current waste but small enough to effectively pull the line to ground.
 
-Here’s a simple experiment to demonstrate the concept of a pull-down resistor using an LED, a pushbutton, and a power supply.
+A simple experiment to demonstrate the concept of a pull-down resistor using an LED, a pushbutton, and a power supply.
 
 Is this the same: https://www.tinkercad.com/things/hrMmi5ZQvhw-resistor-pull-up-and-pull-down
 
@@ -19,12 +17,12 @@ Is this the same: https://www.tinkercad.com/things/hrMmi5ZQvhw-resistor-pull-up-
 
 To show how a pull-down resistor works to ensure a stable LOW (logic “0”) signal when a switch is open and a HIGH (logic “1”) signal when the switch is closed.
 
-### Components Needed
+### Components
 
 - 1 x Resistor (10 kΩ for pull-down)
 - 1 x LED (optional, to visualize the output)
 - 1 x Pushbutton switch
-- 1 x Power supply (5V or 3.3V)
+- 1 x Power supply 5V
 - 1 x Resistor (330Ω for LED current limiting)
 - Connecting wires
 
@@ -32,7 +30,7 @@ To show how a pull-down resistor works to ensure a stable LOW (logic “0”) si
 
 1. Power Supply:
 
-Connect the positive terminal of the power supply (5V or 3.3V) to one side of the pushbutton switch.
+Connect the positive terminal of the power supply 5V to one side of the pushbutton switch.
 
 2. Pull-Down Resistor:
    - Connect the other side of the pushbutton switch to ground (GND).
@@ -55,19 +53,6 @@ The pull-down resistor keeps the junction at a stable LOW level when the switch 
 
 This experiment demonstrates how a pull-down resistor keeps an input stable and LOW when no other input is present, and allows a HIGH signal when an external voltage is applied, making it useful in circuits to avoid undefined (floating) states.
 
-Here's a basic pull-down circuit experiment:
-
-Materials:
-
-- 1x LED
-- 1x 220Ω current-limiting resistor
-- 1x 10kΩ pull-down resistor
-- 1x push button
-- 9V battery (or any DC power source)
-- Some wires
-- Breadboard
-
-Circuit setup:
 
 1. Connect the battery positive terminal to one side of the push button
 2. From the other side of the button:

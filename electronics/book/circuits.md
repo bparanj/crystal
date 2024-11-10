@@ -4,9 +4,13 @@ You can create useful circuits with just a single electronic component.
 
 ### 1. Resistor (R) as a Current Limiter
 
+DONE
+
    A single resistor can limit the current in a circuit, protecting other components from excessive current. This is commonly used in simple LED circuits to prevent the LED from burning out.
 
 ### 2. Capacitor (C) as a Decoupling or Bypass Component
+
+PENDING
 
    A capacitor alone can smooth out voltage fluctuations. When placed across a power supply, it acts as a decoupling or bypass capacitor, filtering out noise and stabilizing the supply voltage.
 
@@ -17,7 +21,7 @@ An inductor alone can act as a choke, filtering high-frequency noise from a sign
 BACKLOG
 
 Design an experiment to show how an inductor can be used to filter high frequency noise from signal. How to block unwanted AC signals while allowing DC to pass.
-   
+
 This experiment cannot be done using Tinkercad. Postpone to later version.
 
 ### 4. Diode as a Rectifier
@@ -36,34 +40,34 @@ several circuits use only two electronic components, often to achieve specific, 
 
 ### 1. RL Circuit
 
-Components: 
+Components:
 
 Resistor (R) and Inductor (L)
-   
+
 Primarily used to filter signals or create simple timing mechanisms. It’s also common in AC circuit applications where it influences phase shifts between current and voltage.
 
 ### 2. LC Circuit
 
-Components: 
+Components:
 
 Inductor (L) and Capacitor (C)
-   
+
 This is a basic resonant circuit, used to select or reject specific frequencies. It’s widely used in oscillators, radios, and signal processing.
 
 ### 3. Diode-Resistor (DR) Circuit
 
-Components: 
+Components:
 
 Diode (D) and Resistor (R)
-   
+
 Used for rectification (conversion of AC to DC) in simple power supply circuits. It allows current to flow in one direction and blocks it in the other, creating a DC-like signal from AC.
 
 ### 4. Capacitor-Diode (CD) Circuit
 
-Components: 
+Components:
 
 Capacitor (C) and Diode (D)
-   
+
 Common in peak detection circuits and voltage doubling circuits. It can store and release charge in a controlled way, useful for generating higher voltages or stabilizing signal peaks.
 
 These circuits are often foundational building blocks in electronics, where they form the basis for more complex configurations. Each serves a unique purpose based on the characteristics of the components involved.
@@ -74,15 +78,15 @@ With three components, circuits can perform more complex functions. Here are a f
 
 ### 1. RC Filter with Diode (RCD)
 
-Components: 
-   
+Components:
+
 Resistor (R), Capacitor (C), Diode (D)
 
 This circuit can act as a rectifier with smoothing (filtering) for AC-to-DC conversion. The resistor and capacitor smooth the rectified output from the diode, creating a more stable DC voltage.
 
 ### 2. RLC Circuit
 
-Components: 
+Components:
 
 Resistor (R), Inductor (L), Capacitor (C)
 
@@ -90,7 +94,7 @@ A classic resonant or bandpass circuit, commonly used in frequency filtering app
 
 ### 3. Voltage Divider with Zener Diode
 
-Components: 
+Components:
 
 Two Resistors (R1 and R2) and a Zener Diode
 
@@ -98,7 +102,7 @@ Used to create a stable reference voltage. The two resistors form a voltage divi
 
 ### 4. Transistor Amplifier (CE Amplifier)
 
-Components: 
+Components:
 
 Transistor (Q), Resistor (R), Capacitor (C)
 
