@@ -3,12 +3,6 @@
 zettel/voltage-divider.md
 139:See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge into one document. Remove duplication.
 
-experiments/queue/current-divider.md
-3:This is already complete. Merge with the experiment.
-
-experiments/queue/resonance-experiment.md
-5:Is this the same as second order circuit. Merge or delete this document.
-
 book/8b.md
 6:Merge with existing experiment.
 
@@ -38,8 +32,6 @@ Search
 - Run ack -w 'experiment' and revise
 
 Questions
-
-
 
 
 Extract
