@@ -1,4 +1,5 @@
-
+7.md (Capacitor - Redo from scratch)
+8.md
 
 book/8b.md
 6:Merge with existing experiment.
