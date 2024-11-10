@@ -1,4 +1,4 @@
-9.md
+
 
 zettel/voltage-divider.md
 139:See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge into one document. Remove duplication.
