@@ -117,3 +117,34 @@ Diode
 \end{circuitikz}
 \end{document}
 ```
+
+Batteries in Series
+
+```latex
+\documentclass{standalone}
+\usepackage{circuitikz}
+\begin{document}
+
+\begin{circuitikz}
+\draw
+  % First battery (flipped to show correct polarity)
+  (0,0) to[battery, invert] (0,1)
+  % Second battery (flipped to show correct polarity)
+  to[battery, invert] (0,2)
+  % Right vertical wire
+  (0,2) -- (2,2)
+  % Voltmeter
+  to[voltmeter] (2,0)
+  % Bottom wire
+  (2,0) -- (0,0)
+;
+
+% Add labels with adjusted positions
+\node[anchor=east] at (-0.5,0.5) {1.5V};
+\node[anchor=east] at (-0.5,1.5) {1.5V};
+\node[anchor=west] at (2.5,1) {V};
+
+\end{circuitikz}
+
+\end{document}
+```
