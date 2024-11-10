@@ -2,6 +2,26 @@ TAG
 
 voltage
 
+PENDING
+
+Revise the draft
+
+-----------
+
+First Draft
+
+A voltage divider is a simple circuit that uses two resistors to split a voltage into two smaller voltages. You can calculate the voltage across each resistor using a simple formula based on the resistor values and the input voltage. 
+
+A voltage divider is a fundamental circuit configuration that consists of two resistors in series, used to create a reference voltage or to reduce a larger voltage to a smaller one. The input voltage is applied across both resistors, and the output voltage is measured across one of the resistors. The voltage division is proportional to the ratio of the resistances, as described by the formula: V_out = V_in × (R2 / (R1 + R2)). Voltage dividers are  used for sensor interfacing, signal conditioning, and biasing in analog circuits.
+
+Voltage dividers are essential building blocks in analog circuit design, providing a means to establish reference voltages, scale input signals, and bias active components. The performance of a voltage divider is influenced by factors such as resistor tolerance, temperature coefficients, and loading effects. Proper design considerations include selecting appropriate resistor values to minimize power dissipation, ensuring adequate output impedance, and accounting for the impact of the divider on the source and load circuits. In addition to static voltage division, dividers can be used in dynamic applications, such as RC filters and voltage-controlled attenuators. Advanced techniques, like the use of precision resistor networks and active voltage dividers, are employed to improve accuracy and minimize drift in critical applications.
+
+capacitive, inductive, and resistive-capacitive dividers find applications in filtering, impedance matching, and power supply design.
+
+-----------
+
+Raw
+
 Child:
 
 Imagine you have a big cookie and two friends. You want to share the cookie with your friends, but not equally. A voltage divider is like a way to split the cookie into two parts of different sizes. The size of each part depends on how much each friend likes cookies. In electronics, instead of a cookie, we split electricity, and the friends are called resistors.

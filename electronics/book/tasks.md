@@ -1,8 +1,5 @@
 
 
-zettel/voltage-divider.md
-139:See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge into one document. Remove duplication.
-
 book/8b.md
 6:Merge with existing experiment.
 
