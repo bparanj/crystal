@@ -1,9 +1,23 @@
 
+
+zettel/voltage-divider.md
+139:See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge into one document. Remove duplication.
+
+experiments/queue/current-divider.md
+3:This is already complete. Merge with the experiment.
+
+experiments/queue/resonance-experiment.md
+5:Is this the same as second order circuit. Merge or delete this document.
+
+book/8b.md
+6:Merge with existing experiment.
+
 - Create a circuit diagram and use Tinkercad images for series battery demo Refer: Series Battery Demo. Show that the current through the circuit will be the same. See 14.md
 - See 15.md for batteries in parallel.
 - Connect multimeter before and after a resistor to show the current flowing is the same before or after the resistor.
 
 Sequence
+
 
 Experiments
 
@@ -25,13 +39,6 @@ Search
 
 Questions
 
-- Will both polarized and non polarized capacitor power LED when switch is turned off to cut off the power source
-Does Tinkercad have anything to measure capacitance?
-Design an experiment using Tinkercad to demonstrate what happens when:
-two inductors are connected in series
-two inductors are connected in parallel
-two capacitors are connected in series
-two capacitors are connected in parallel
 
 
 
@@ -71,6 +78,8 @@ Whiteboard
 - Plant watering
 - Measure humidity inside the house (auto adjust thermostat)
 - Portable high speed Internet
+
+Misc
 
 - Work backwards from experiments
 		- Order existing experiments from simple to complex.
