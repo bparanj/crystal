@@ -1,6 +1,7 @@
 18.md
+water analogy breaks down when explaining how a resistor reduces the current flow in a circuit
 
-7.md (Capacitor - Redo from scratch)
+7.md (Capacitor - Redo from scratch) Tinkercad task
 8.md
 Split capacitor-experiments.md into separate experiment (merge with existing one if it is a duplicate)
 12 and 13 requires side by side comparison
