@@ -1,6 +1,10 @@
 
 A simple experiment to illustrate the concept of a voltage regulator:
 
+PENDING
+
+Comare side by side the top and bottom sections
+
 ### Objective:
 
 To demonstrate how a voltage regulator maintains a constant output voltage even when the input voltage varies.
