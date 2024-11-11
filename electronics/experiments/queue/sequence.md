@@ -26,7 +26,7 @@
 - Inductor Series
 - Inductor Parallel
 - Relay
-
+- Voltage Multiplier
 
 Run the polarized capacitor experiment in Tinkercad https://www.tinkercad.com/things/blx1Lukof5N/editel
 See the capacitor-experiments.md
