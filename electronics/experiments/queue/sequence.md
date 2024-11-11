@@ -48,6 +48,7 @@ See the capacitor-experiments.md
 - Second Order Circuit
 - Optocoupler
 - Rectifier Circuit
+- Full Wave Bridge Rectifier
 - Positive Clamper
 - Positive Clipper
 - Negative Clamper
