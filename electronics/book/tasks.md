@@ -1,6 +1,6 @@
 7.md (Capacitor - Redo from scratch)
 8.md
-
+Split capacitor-experiments.md into separate experiment (merge with existing one if it is a duplicate)
 12 and 13 requires side by side comparison
 
 book/8b.md
