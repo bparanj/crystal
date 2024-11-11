@@ -1,8 +1,12 @@
 The simplest experiment to demonstrate resonance in electronics is the LC circuit (inductor-capacitor circuit).
 
-PENDING
+An LC circuit, also known as a resonant or tank circuit, consists of an inductor (L) and a capacitor (C) connected together. It can store and transfer energy between the inductor and capacitor, creating oscillations at a specific resonant frequency.
 
-Is this the same as second order circuit. Merge or delete this document.
+A second-order circuit is a more general term that refers to any circuit whose behavior is described by a second-order differential equation. This includes circuits with two energy storage elements, such as inductors, capacitors, or a combination of both.
+
+An LC circuit is a type of second-order circuit because it has two energy storage elements (the inductor and capacitor) and its behavior is described by a second-order differential equation. However, not all second-order circuits are LC circuits—second-order circuits can also include configurations with resistors, inductors, capacitors, and other components.
+
+In summary, an LC circuit is a specific type of second-order circuit, but the term "second-order circuit" encompasses a broader range of circuit configurations.
 
 1. Components:
    - Inductor (L)
