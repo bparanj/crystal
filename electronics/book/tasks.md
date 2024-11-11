@@ -7,17 +7,7 @@ book/8b.md
 6:Merge with existing experiment.
 
 - Show that the current through the circuit will be the same. FOR LED + resistor circuit
-- See 15.md for batteries in parallel.
 - Connect multimeter before and after a resistor to show the current flowing is the same before or after the resistor.
-
-Sequence
-
-
-Experiments
-
-
-Tags
-
 
 Review
 
@@ -32,7 +22,6 @@ Search
 - Run ack -w 'experiment' and revise
 
 Questions
-
 
 Extract
 
@@ -55,9 +44,6 @@ Circuit Diagram
 Diagrams
 
 - Create diagrams for mats.md
-
-Simulations
-
 
 Experiments
 
