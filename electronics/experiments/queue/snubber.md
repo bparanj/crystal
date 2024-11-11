@@ -1,3 +1,5 @@
+Yes, a snubber circuit is sometimes referred to as a **"transient suppression circuit"** or **"spike suppression circuit."** These terms all highlight the snubber circuit’s role in absorbing and dissipating energy spikes or transients to protect other components in the circuit.
+
 you can implement a simple RC snubber circuit in Tinkercad to observe its basic function. However, Tinkercad's capabilities are limited and may not fully simulate the high-frequency switching transients where a snubber is most effective, but you can still get a sense of how it operates by setting up an RC snubber circuit across a switch or inductive load.
 
 A snubber circuit is typically used to suppress voltage spikes across a switch or an inductive load, like a relay or motor, by absorbing energy and reducing electromagnetic interference (EMI). A basic RC snubber consists of a resistor and a capacitor in series, placed across the switch or load.
