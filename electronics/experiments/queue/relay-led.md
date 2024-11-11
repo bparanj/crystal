@@ -1,3 +1,47 @@
+Great! Here's how you can set up an electromagnetic armature relay experiment in Tinkercad:
+
+### Step-by-Step Guide:
+
+1. **Create a New Project**:
+   - Open Tinkercad and start a new circuit project.
+
+2. **Add Components**:
+   - **Relay**: Search for "Relay" in the components panel and drag it to the work area.
+   - **Battery**: Add a battery (e.g., 9V) to power the circuit.
+   - **Switch**: Add a switch to control the relay.
+   - **LED**: Add an LED to indicate the relay's operation.
+   - **Resistor**: Add a resistor to protect the LED (e.g., 220Ω).
+   - **Connecting Wires**: Use wires to connect the components.
+
+3. **Wire the Circuit**:
+   - Connect the positive terminal of the battery to one terminal of the switch.
+   - Connect the other terminal of the switch to one side of the relay coil.
+   - Connect the other side of the relay coil to the negative terminal of the battery.
+   - Connect the common terminal (COM) of the relay to the positive terminal of the battery.
+   - Connect the normally open (NO) terminal of the relay to the anode (positive leg) of the LED.
+   - Connect the cathode (negative leg) of the LED to one side of the resistor.
+   - Connect the other side of the resistor to the negative terminal of the battery.
+
+4. **Simulate the Circuit**:
+   - Start the simulation in Tinkercad.
+   - When you toggle the switch, the relay should activate, allowing current to flow through the LED, causing it to light up.
+
+### Diagram:
+```
+Battery (9V) --> Switch --> Relay Coil --> Battery (Negative)
+Relay COM --> LED (Anode) --> Resistor --> Battery (Negative)
+```
+
+In this setup, toggling the switch activates the relay, which completes the circuit and turns on the LED, demonstrating how an electromagnetic armature relay can control another part of the circuit.
+
+Give it a try and let me know how it goes!
+Above experiment seems simpler. 
+
+PENDING
+
+Do the above experiment first.
+
+
 A simple experiment in Tinkercad to demonstrate a relay-driven LED circuit:
 
 https://www.tinkercad.com/things/4m6CB0ucXPe/editel?returnTo=%2Fdashboard%2Fdesigns%2Fcircuits
