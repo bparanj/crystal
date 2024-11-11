@@ -9,6 +9,15 @@ However, function generators can also be found in some real-world products and a
 
 So while they are most commonly associated with experimental use, function generators also play roles in some specialized, real-world products and applications.
 
+In the real world, the input signal that was provided by the function generator during development is typically supplied by some part of the actual system the product is designed for. Here are a few examples:
+
+- **Sensors**: In many applications, sensors convert physical phenomena (like temperature, pressure, or light) into electrical signals. These signals can then act as the input to the circuit.
+- **Microcontrollers and Microprocessors**: These can generate various signals for controlling and interfacing with other components in the circuit, replacing the need for a function generator.
+- **Communication Systems**: Signals from other devices or networks can provide the input needed. For example, in a radio receiver, the incoming radio waves act as the input.
+- **User Inputs**: In many consumer electronics, user interactions (such as pressing buttons, touchscreen gestures) generate electrical signals that act as inputs to the circuit.
+
+The function generator serves as a versatile, controllable source of signals during the development and testing phase, but in the finished product, the actual inputs will come from real-world sources specific to the application's context.
+
 The function generator in electronics produces various types of waveforms (or functions) that can be used to test and analyze circuits. These waveforms represent functions (like sine, square, or triangular waves) of time, and they are essential for simulating different types of input signals that circuits might encounter in real-world scenarios.
 
 ### Reasons for Functions in a Function Generator:
