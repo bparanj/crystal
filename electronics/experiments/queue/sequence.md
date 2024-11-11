@@ -57,6 +57,8 @@ See the capacitor-experiments.md
 - Oscillator
 - Current Gain
 - Tilt Sensor
+- RC Differentiator
+- RC Integrator
 
 Is linear regular and voltage regulator the same?
 Is notch filter and band pass filter the same?
