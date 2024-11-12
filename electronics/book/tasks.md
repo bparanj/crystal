@@ -1,6 +1,5 @@
 
 21 - Zener diode
-22 - Positive Clipper
 
 Review electronics/design/oscilloscope.md. Condense the notes.
 Review function-generator.md. Condense the notes.
@@ -9,8 +8,8 @@ Positive Clamper - Watch videos. Break down into smaller experiments.
 
 18.md
 
-7.md (Capacitor - Redo from scratch) Tinkercad MacMini task 
-8.md Tinkercad MacMini task 
+7.md (Capacitor - Redo from scratch) Tinkercad MacMini task
+8.md Tinkercad MacMini task
 12 and 13 requires side by side comparison
 
 book/8b.md
