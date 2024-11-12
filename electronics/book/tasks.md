@@ -1,4 +1,8 @@
-Take screen shots for Zener Diode Basic Demo
+
+21 - Zener diode
+22 - Positive Clipper
+
+Positive Clamper - Watch videos. Break down into smaller experiments.
 
 18.md
 
