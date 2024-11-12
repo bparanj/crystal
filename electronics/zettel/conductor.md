@@ -6,19 +6,19 @@ PENDING
 
 Review the summary and revise.
 
-Every electronic component has some resistance, even if it’s very small. Resistance is the opposition to the flow of electric current, and it’s an inherent property of all materials to some extent.
+Every electronic component has some resistance. Resistance is the opposition to the flow of electric current.
 
 1. Resistors:
 
-These are components specifically designed to provide a precise amount of resistance in a circuit. They limit current, divide voltage, and control signal levels.
+These are components designed to provide a precise amount of resistance in a circuit. They limit current, divide voltage, and control signal levels.
 
 2. Wires and Conductors:
 
-Even materials considered good conductors (like copper or aluminum) have some small amount of resistance. Although this resistance is usually very low, it still exists and can affect circuits, especially over long distances or with high currents.
+Even good conductors have some small amount of resistance. This resistance is usually very low. It can affect circuits, especially with high currents.
 
 3. Semiconductors:
 
-Components like transistors, diodes, and integrated circuits are made from semiconductor materials (like silicon) that have moderate resistance. This resistance changes based on conditions like voltage, current, and temperature, which is what allows semiconductors to act as switches and amplifiers.
+Components like transistors, diodes, and integrated circuits are made from semiconductor materials like silicon that have moderate resistance. This resistance changes based on conditions like voltage, current, and temperature, which allows semiconductors to act as switches and amplifiers.
 
 4. Capacitors and Inductors:
 
@@ -26,15 +26,18 @@ While these components are designed for capacitance and inductance, they still h
 
 5. Insulators:
 
-Even insulators, which are meant to block current, have a very high but non-zero resistance. Over time or under extreme conditions, a small current might still pass through an insulator.
+Even insulators, which are meant to block current, have a very high resistance. Over time or under extreme conditions, a small current might still pass through an insulator.
 
-This resistance in all components contributes to power loss as heat, which is why managing resistance and heat dissipation is important in electronic design. In summary, while some materials and components have very low resistance, there’s always some resistance present in every electronic component.
+This resistance in all components contributes to power loss as heat, which is why managing resistance and heat dissipation is important in electronic design. 
+
+While some materials and components have very low resistance, there's always some resistance present in every electronic component.
 
 While many electronic components have resistance, not all do.
 
 Components with resistance:
-- Resistors (obviously)
-- Wires (very small, but present)
+
+- Resistors
+- Wires (very small)
 - Transistors (in their conducting path)
 - LED's internal resistance
 - Heating elements
@@ -49,7 +52,7 @@ However, in real-world applications:
 2. Real inductors have wire resistance
 3. Real circuit traces have tiny resistance
 
-So while theoretically some components have zero resistance, practically almost all real components have at least some minimal resistance. The key is whether this resistance is:
+So while theoretically some components have zero resistance, practically all real components have at least some minimal resistance. The key is whether this resistance is:
 - Intentional (like in resistors)
 - Parasitic (unwanted, like in wires)
 - Negligible (so small it doesn't affect circuit operation)
