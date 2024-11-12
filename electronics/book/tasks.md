@@ -6,8 +6,8 @@ Positive Clamper - Watch videos. Break down into smaller experiments.
 
 18.md
 
-7.md (Capacitor - Redo from scratch) Tinkercad task
-8.md
+7.md (Capacitor - Redo from scratch) Tinkercad MacMini task 
+8.md Tinkercad MacMini task 
 12 and 13 requires side by side comparison
 
 book/8b.md
