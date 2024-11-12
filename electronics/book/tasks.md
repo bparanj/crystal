@@ -1,5 +1,6 @@
+Zener Diode Basic Demo
+
 18.md
-water analogy breaks down when explaining how a resistor reduces the current flow in a circuit
 
 7.md (Capacitor - Redo from scratch) Tinkercad task
 8.md
@@ -85,7 +86,6 @@ Scope
 - No discussion of topics not in Tinkercad basic section
 - Basics of physics in the context of electronics
 - Basics of TRIZ in the context of electronics
-
 
 Author
 
