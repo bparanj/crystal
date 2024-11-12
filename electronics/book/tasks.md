@@ -1,5 +1,4 @@
 
-21 - Zener diode
 
 Review electronics/design/oscilloscope.md. Condense the notes.
 Review function-generator.md. Condense the notes.
