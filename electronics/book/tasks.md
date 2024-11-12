@@ -2,7 +2,8 @@
 21 - Zener diode
 22 - Positive Clipper
 
-Review the notes on function generator and oscilloscope. Condense the notes.
+Review electronics/design/oscilloscope.md. Condense the notes.
+Review function-generator.md. Condense the notes.
 
 Positive Clamper - Watch videos. Break down into smaller experiments.
 

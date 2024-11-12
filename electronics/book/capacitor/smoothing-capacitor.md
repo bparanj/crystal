@@ -1,3 +1,5 @@
+Capacitor for Smoothing Pulsating DC 
+
 Here's a simple Tinkercad experiment to demonstrate the capacitor's smoothing function:
 
 1. Build a basic rectifier circuit:
