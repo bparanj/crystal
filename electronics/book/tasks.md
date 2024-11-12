@@ -1,10 +1,9 @@
-Zener Diode Basic Demo
+Take screen shots for Zener Diode Basic Demo
 
 18.md
 
 7.md (Capacitor - Redo from scratch) Tinkercad task
 8.md
-Split capacitor-experiments.md into separate experiment (merge with existing one if it is a duplicate)
 12 and 13 requires side by side comparison
 
 book/8b.md
