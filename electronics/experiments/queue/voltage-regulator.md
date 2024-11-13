@@ -1,4 +1,4 @@
-Yes, you can design a simple experiment in Tinkercad to demonstrate the voltage regulation properties of a Zener diode. 
+A simple experiment in Tinkercad to demonstrate the voltage regulation properties of a Zener diode. 
 
 ### Objective
 

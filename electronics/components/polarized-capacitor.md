@@ -1,4 +1,4 @@
-A polarized capacitor is a type of capacitor that has distinct positive and negative terminals. It must be connected in a specific direction in a circuit to function properly.
+A polarized capacitor is a type of capacitor that has positive and negative terminals.
 
 We need polarized capacitors because they are designed for circuits with a specific voltage direction. They store more charge in a smaller space than non-polarized capacitors. They must be connected correctly (positive to positive, negative to ground) to avoid damage or failure. Polarized capacitors, like electrolytic or tantalum types, are used when higher capacitance is needed in DC circuits.
 

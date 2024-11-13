@@ -1,5 +1,4 @@
 
-
 - Understanding Energy, Work, and Power
 - Breadboard Basics
 - Wiring Circuit wiring-circuit.md
@@ -28,7 +27,8 @@
 - Relay
 - Voltage Multiplier
 
-Run the polarized capacitor experiment in Tinkercad https://www.tinkercad.com/things/blx1Lukof5N/editel
+Run the polarized capacitor experiment in Tinkercad https://www.tinkercad.com/things/blx1Lukof5N/editel This shows charging and discharging of the capacitor.
+
 See the capacitor-experiments.md
 11. Inductor (Demo: https://www.tinkercad.com/things/jw2rfdSUsWg-inductordemonstration)
 12. Variable Capacitor (LC Tuning Circuit) (LC - Inductor-Capacitor) https://www.tinkercad.com/things/bNBojeH8c6s-frequency-generator
@@ -62,7 +62,12 @@ See the capacitor-experiments.md
 - RC Integrator
 
 Is linear regular and voltage regulator the same?
+
+No, a **linear regulator** is a type of voltage regulator, but not all voltage regulators are linear. Linear regulators use resistive components to drop excess voltage, while **voltage regulators** more broadly include other types, like **switching regulators**, which use inductors and switches for higher efficiency.
+
 Is notch filter and band pass filter the same?
+
+No, a **notch filter** and a **band-pass filter** are not the same. A **notch filter** (or band-stop filter) removes a narrow frequency band, blocking it while allowing others to pass. A **band-pass filter** allows only a specific frequency range to pass and blocks frequencies outside that range.
 
 Chapter
 
@@ -85,7 +90,7 @@ Components
 
 Refer building-blocks.md
 
-Here's an arrangement of the components from simplest to most complicated, based on their complexity, functionality, and typical usage in electronic circuits:
+Here's an arrangement of the components from simplest to most complicated, based on their complexity, functionality, and usage in electronic circuits:
 
 11. Tilt Sensor - Pending
 12. Photoresistor - Pending

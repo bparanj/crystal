@@ -1,10 +1,6 @@
 Resistor
 
-Current limiting with a transistor
-
 RC Network
-
-Experiment to demonstrate capacitor as a timing component in an electronic circuit
 
 A capacitor can be used:
 
@@ -23,7 +19,7 @@ through a resistor, the resistor will limit the charging rate.
 A resistor in series with a capacitor is known as an RC network (Resistor-Capacitor network). An RC circuit is shown with a SPDT switch that charges or discharges the capacitor via a series resistor. The voltage at point A increases nonlinearly (relative to the negative side of the power supply) while the capacitor is charging, and decreases nonlinearly while the capacitor is discharging, as suggested by the graphs. At
 any moment, the time that the capacitor takes to acquire 63% of the difference between its current charge and the voltage being supplied to it is known as the time constant for the circuit.
 
-Bypass Capacitor
+Design an experiment to demonstrate Bypass Capacitor using Tinkercad
 Coupling Capacitor
 
 Encyclopedia pg 108
