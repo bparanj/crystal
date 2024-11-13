@@ -2,22 +2,12 @@
 7.md
 23.md
 
-8.md Tinkercad MacMini task
-12 and 13 requires side by side comparison
-
-
-
-
 Review electronics/design/oscilloscope.md. Condense the notes.
 Review function-generator.md. Condense the notes.
 
 Positive Clamper - Watch videos. Break down into smaller experiments.
 
-18.md
-
-
-book/8b.md
-6:Merge with existing experiment.
+Review 18.md, 8b.md
 
 - Show that the current through the circuit will be the same. FOR LED + resistor circuit
 - Connect multimeter before and after a resistor to show the current flowing is the same before or after the resistor.
