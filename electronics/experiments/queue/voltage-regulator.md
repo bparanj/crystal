@@ -1,4 +1,8 @@
-A simple experiment in Tinkercad to demonstrate the voltage regulation properties of a Zener diode. 
+A simple experiment in Tinkercad to demonstrate the voltage regulation properties of a Zener diode.
+
+PENDING
+
+Is this already demonstrated in the experiment with Zener diode?
 
 ### Objective
 

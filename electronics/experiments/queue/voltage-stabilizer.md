@@ -1,5 +1,9 @@
 To demonstrate the concept of a capacitor smoothing voltage fluctuations as a decoupling or bypass capacitor in Tinkercad, follow this experiment setup:
 
+PENDING
+
+Is this already done?
+
 ### Objective
 
 Show how a capacitor can smooth out voltage fluctuations by acting as a decoupling capacitor across a power supply, helping to filter out noise and stabilize the voltage.

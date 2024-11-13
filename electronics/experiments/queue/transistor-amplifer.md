@@ -1,5 +1,7 @@
 ### Transistor as an Amplifier
 
+This is for real experiment only
+
 Objective:
 
 Demonstrate the amplification property of a transistor by amplifying a small audio signal.

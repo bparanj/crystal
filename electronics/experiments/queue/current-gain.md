@@ -55,6 +55,10 @@ Current gain supports the amplifier function but does not define the full amplif
 
 To demonstrate current gain in Tinkercad, you can set up a simple experiment using an NPN transistor in a common-emitter configuration. This setup will show how a small base current controls a larger collector current, illustrating the concept of current gain.
 
+PENDING
+
+Can this done in Tinkercad:
+
 ### Objective
 
 Observe the current gain of an NPN transistor by measuring the base current and collector current, and comparing them.

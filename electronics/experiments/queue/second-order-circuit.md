@@ -6,7 +6,7 @@ A second-order circuit is a more general term that refers to any circuit whose b
 
 An LC circuit is a type of second-order circuit because it has two energy storage elements (the inductor and capacitor) and its behavior is described by a second-order differential equation. However, not all second-order circuits are LC circuits—second-order circuits can also include configurations with resistors, inductors, capacitors, and other components.
 
-In summary, an LC circuit is a specific type of second-order circuit, but the term "second-order circuit" encompasses a broader range of circuit configurations.
+An LC circuit is a specific type of second-order circuit, but the term "second-order circuit" encompasses a broader range of circuit configurations.
 
 1. Components:
    - Inductor (L)
@@ -59,7 +59,7 @@ More practical demonstrations often add:
 
 But the basic LC circuit remains the simplest demonstration of electronic resonance.
 
-PENDING 
+PENDING
 
 Do you need this variation? Does it demonstrate the concept as the simpler experiment?
 

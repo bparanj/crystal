@@ -6,6 +6,15 @@ Experiments
 
 band-pass-filter Test if this will work
 bypass-capacitor.md
+voltage-doubler.md
+transistor-oscillator.md
+transistor-current.md
+
+
+
+Compare side by side:
+
+voltage-regulator-experiment.md
 
 
 

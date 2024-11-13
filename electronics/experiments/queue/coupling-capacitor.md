@@ -1,6 +1,10 @@
+PENDING
+
+Can this done using Tinkercad
+
 A simple audio coupling circuit demonstration that shows how a coupling capacitor passes audio signals while blocking DC.
 
-Components needed:
+Components:
 
 1. 1µF coupling capacitor
 2. 2N2222 transistor
@@ -21,7 +25,7 @@ Measurements to make:
 1. Without coupling capacitor:
    - Measure DC at input: ~0V
    - Measure DC at transistor base: 9V
-   
+
 2. With coupling capacitor:
    - Input signal passes through
    - DC voltage blocked

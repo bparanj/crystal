@@ -36,27 +36,27 @@ Creating a transistor-based oscillator circuit to generate a periodic signal lik
 
 ### Circuit Setup in Tinkercad
 
-1. **Circuit Assembly**:
-   - **NPN Transistor**: Use a 2N2222 transistor.
-   - **Resistors**: Use a 1 kΩ resistor on the collector and a 10 kΩ resistor for the base.
-   - **Capacitors**: Insert a 100 µF capacitor between the collector and base, and a 10 µF capacitor between the base and emitter.
-   - **Battery**: Use a 9V battery.
-   - **LED Substitute**: Place an LED between the collector and the positive terminal of the battery to visualize oscillation.
+1. Circuit Assembly:
+   - NPN Transistor: Use a 2N2222 transistor.
+   - Resistors: Use a 1 kΩ resistor on the collector and a 10 kΩ resistor for the base.
+   - Capacitors: Insert a 100 µF capacitor between the collector and base, and a 10 µF capacitor between the base and emitter.
+   - Battery: Use a 9V battery.
+   - LED Substitute: Place an LED between the collector and the positive terminal of the battery to visualize oscillation.
 
-2. **Connection Details**:
-   - Connect the **collector** of the transistor to the positive terminal of the **battery** through the **1 kΩ resistor**.
-   - Connect the **emitter** directly to the **negative terminal** of the battery (ground).
-   - Connect the **100 µF capacitor** between the **collector** and the **base**.
-   - Connect the **10 µF capacitor** between the **base** and the **emitter**.
-   - Add the **LED** between the collector and the positive terminal of the battery to visualize the oscillation.
+2. Connection Details:
+   - Connect the collector of the transistor to the positive terminal of the battery through the 1 kΩ resistor.
+   - Connect the emitter directly to the negative terminal of the battery (ground).
+   - Connect the 100 µF capacitor between the collector and the base.
+   - Connect the 10 µF capacitor between the base and the emitter.
+   - Add the LED between the collector and the positive terminal of the battery to visualize the oscillation.
 
-3. **Circuit Operation**:
+3. Circuit Operation:
    - When powered on, the capacitors charge and discharge through the transistor, creating a feedback loop that causes the transistor to switch on and off repeatedly, producing oscillations.
-   - The **LED** will blink on and off, indicating the periodic signal. The rate at which the LED blinks depends on the capacitor and resistor values, which control the frequency of oscillation.
+   - The LED will blink on and off, indicating the periodic signal. The rate at which the LED blinks depends on the capacitor and resistor values, which control the frequency of oscillation.
 
 ### Key Limitations
-- **Limited Component Modeling**: Tinkercad can only model this as a simple blinking LED circuit. It lacks advanced features to model precise oscillation behavior or to produce a square wave signal with exact frequency control.
-- **No Audio Output**: If a speaker is used, it won’t produce a real sound output since Tinkercad doesn’t support audio simulation.
+- Limited Component Modeling: Tinkercad can only model this as a simple blinking LED circuit. It lacks advanced features to model precise oscillation behavior or to produce a square wave signal with exact frequency control.
+- No Audio Output: If a speaker is used, it won’t produce a real sound output since Tinkercad doesn’t support audio simulation.
 
 This setup in Tinkercad allows you to visualize the basic concept of oscillation using a blinking LED, though it won’t provide an exact square wave signal output. For precise oscillation or sound output, more advanced simulation software (like LTSpice or Proteus) would be better suited.
 
