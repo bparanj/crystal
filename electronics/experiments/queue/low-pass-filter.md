@@ -1,6 +1,40 @@
 A low-pass filter allows lower frequencies to pass through while attenuating higher frequencies. You can design a simple RC low-pass filter in Tinkercad to observe how it filters out high frequencies and allows low frequencies to pass.
 
 Is this the same: https://www.tinkercad.com/things/aguLPVNItJV-low-pass-filter
+Copied simulation: https://www.tinkercad.com/things/eKTIyxpXAdq/editel
+
+Let me help you analyze this RC circuit with a sine wave input. This is a classic first-order low-pass filter configuration.
+
+Let's calculate the key parameters:
+
+1. Input signal:
+- Frequency (f) = 100 Hz
+- Peak voltage = 5V
+- Angular frequency (ω) = 2πf = 2π × 100 = 628.32 rad/s
+
+2. Circuit components:
+- R = 100 kΩ = 100,000 Ω
+- C = 50 µF = 50 × 10^-6 F
+
+3. The cutoff frequency (fc) for this RC filter:
+fc = 1/(2πRC)
+= 1/(2π × 100,000 × 50 × 10^-6)
+= 0.032 Hz
+
+Since your input frequency (100 Hz) is much higher than the cutoff frequency (0.032 Hz), the output signal will be significantly attenuated.
+
+The attenuation factor at 100 Hz can be calculated:
+|H(jω)| = 1/√(1 + (f/fc)²)
+= 1/√(1 + (100/0.032)²)
+= 1/3125
+≈ 0.00032
+
+Therefore, the output voltage amplitude should be:
+Vout = 5V × 0.00032 = 1.6 mV
+
+This explains why you're seeing a millivolt-level sine wave across the capacitor. The large difference between your input frequency and the cutoff frequency causes significant attenuation.
+
+Would you like me to explain any part of this calculation in more detail or discuss the phase shift that's also occurring in this circuit?
 
 ### Components:
 
