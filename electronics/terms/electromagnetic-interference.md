@@ -137,11 +137,9 @@ Electromagnetic radiation (EMR) is a form of energy that is propagated through s
 
 Electromagnetic radiation is a fundamental aspect of both the natural world and modern technology, playing a crucial role in various fields from communication and medicine to scientific research and everyday life.
 
-Electromagnetic Interference (EMI) in electronics refers to unwanted electrical or electromagnetic disturbances that can affect the performance of electrical and electronic devices. Here's a concise overview of EMI:
+Electromagnetic Interference (EMI) in electronics refers to unwanted electrical or electromagnetic disturbances that can affect the performance of electrical and electronic devices.
 
-1. Definition:
-
-   - Disruption caused by electromagnetic radiation or conduction from an external source
+EMI is the disruption caused by electromagnetic radiation or conduction from an external source
 
 2. Sources:
 
@@ -189,7 +187,9 @@ Electromagnetic Interference (EMI) in electronics refers to unwanted electrical 
 
    - EMC (Electromagnetic Compatibility) testing to ensure devices meet regulatory standards
 
-An electromagnetic wave is a type of energy propagation through space that combines oscillating electric and magnetic fields. Here's a concise explanation of electromagnetic waves:
+An electromagnetic wave is a type of energy propagation through space that combines oscillating electric and magnetic fields. 
+
+Electromagnetic waves:
 
 1. Nature:
 
@@ -241,54 +241,4 @@ An electromagnetic wave is a type of energy propagation through space that combi
    - Transmission
    - Reflection
 
-An electromagnetic wave is a type of energy propagation through space that combines oscillating electric and magnetic fields. Here's a concise explanation of electromagnetic waves:
-
-1. Nature:
-
-   - Self-propagating waves of electric and magnetic fields
-   - Travel at the speed of light in vacuum (approximately 3 x 10^8 m/s)
-
-2. Components:
-
-   - Electric field: Oscillates perpendicular to direction of wave travel
-   - Magnetic field: Oscillates perpendicular to both electric field and direction of travel
-
-3. Key properties:
-
-   - Frequency: Number of wave cycles per second (measured in Hertz)
-   - Wavelength: Distance between successive wave peaks
-   - Amplitude: Maximum strength of the electric or magnetic field
-
-4. Electromagnetic spectrum:
-
-   - Radio waves
-   - Microwaves
-   - Infrared
-   - Visible light
-   - Ultraviolet
-   - X-rays
-   - Gamma rays
-
-5. Characteristics:
-
-   - Do not require a medium to propagate (can travel through vacuum)
-   - Exhibit wave-particle duality (behave as both waves and particles)
-   - Can be reflected, refracted, diffracted, and polarized
-
-6. Generation:
-
-   - Accelerating electric charges
-   - Atomic and molecular transitions
-   - Thermal radiation
-
-7. Applications in electronics:
-
-   - Wireless communication (radio, Wi-Fi, cellular networks)
-   - Remote sensing and radar
-   - Medical imaging (X-rays, MRI)
-
-8. Interaction with matter:
-
-   - Absorption
-   - Transmission
-   - Reflection
+An electromagnetic wave is a type of energy propagation through space that combines oscillating electric and magnetic fields. 

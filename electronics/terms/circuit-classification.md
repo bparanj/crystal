@@ -285,7 +285,7 @@ This level involves specialized and high-performance circuits with complex desig
   
 This classification gradually increases the complexity of circuits and knowledge required, making it easier to progress through the levels systematically.
 
-Certainly! Here’s a breakdown of each category into a sequence of smaller experiments. Each series builds up to the final specified circuit, allowing gradual learning of key principles.
+Here’s a breakdown of each category into a sequence of smaller experiments. Each series builds up to the final specified circuit, allowing gradual learning of key principles.
 
 ### Basic Level
 
@@ -531,7 +531,6 @@ A suitable capstone project that integrates the knowledge gained from these expe
 
 ### Capstone Project: Discrete Component AM Radio Receiver
 
-#### Project Overview
 The AM radio receiver will consist of several subsystems, each built with discrete components only. This design will involve stages such as signal reception, amplification, demodulation, filtering, and audio output, giving a well-rounded application of discrete component theory and practice.
 
 #### Subsystems and Relevant Experiments
@@ -725,6 +724,7 @@ This project demonstrates fundamental concepts in sensor interfacing, amplificat
 Here’s a guide on building a basic motion detector to turn on a light. This project will use a Passive Infrared (PIR) sensor to detect motion, a transistor or relay for switching, and a light source (such as an LED or light bulb).
 
 ### Project Overview
+
 A PIR sensor detects infrared radiation changes, which occur when a warm object, like a human, moves within its range. The PIR sensor outputs a signal when motion is detected, which we use to trigger a transistor or relay circuit to turn on a light.
 
 ### Components
@@ -736,7 +736,7 @@ A PIR sensor detects infrared radiation changes, which occur when a warm object,
 - Light Source: LED or small light bulb (if using a relay, you can control higher-powered lights).
 - Power Supply: 5V or 12V power supply, depending on the PIR sensor and light requirements.
 
-### Circuit Design Steps
+### Steps
 
 #### 1. Connect the PIR Sensor
 
@@ -768,7 +768,7 @@ A PIR sensor detects infrared radiation changes, which occur when a warm object,
    - Adjust PIR Sensitivity: Many PIR modules have adjustable sensitivity and delay. Set the delay to your desired time for how long the light should stay on after detecting motion.
    - Testing: Place the PIR sensor in an area where it can detect motion. When motion is detected, the OUT pin on the PIR sensor should go high, turning on the transistor (or relay) and lighting up the connected LED or light.
 
-### Circuit Summary
+### Summary
 
 1. PIR Sensor: Outputs a high signal when it detects motion.
 2. Transistor: Acts as a switch to control the light based on the PIR output.
@@ -783,7 +783,8 @@ Building an intruder alarm can be a great electronics project. Here’s a guide 
 
 The alarm system detects motion using a PIR (Passive Infrared) sensor, which senses infrared radiation changes when a person or animal moves within its detection range. When motion is detected, it triggers an alarm to alert of an intruder's presence.
 
-### Components Needed
+### Components
+
 - PIR Sensor Module: To detect motion.
 - NPN Transistor: Such as 2N2222 or BC547, to act as a switch.
 - Relay Module (optional): For controlling a higher-power siren or alarm.
@@ -791,9 +792,10 @@ The alarm system detects motion using a PIR (Passive Infrared) sensor, which sen
 - Resistor: A 1kΩ resistor for limiting current to the transistor base.
 - Power Supply: 5V or 12V, depending on your components.
 
-### Circuit Design Steps
+### Steps
 
 #### 1. PIR Sensor Setup
+
    - VCC and GND: Connect the PIR sensor’s VCC pin to the positive power supply (usually 5V or 12V) and GND pin to the negative power supply.
    - OUT Pin: This pin outputs a high signal (equal to VCC) when motion is detected. Connect the OUT pin to the base of the transistor through a 1kΩ resistor.
 
@@ -824,7 +826,7 @@ The alarm system detects motion using a PIR (Passive Infrared) sensor, which sen
 - Battery Backup: Include a battery backup circuit to keep the alarm functional during power outages.
 - SMS or Wi-Fi Alert: For advanced users, add a Wi-Fi module (like an ESP8266) or GSM module to send alerts to your phone when the alarm is triggered.
 
-### Circuit Summary
+### Summary
 
 1. PIR Sensor: Detects motion and outputs a high signal when triggered.
 2. Transistor: Acts as a switch to control the buzzer or relay based on the PIR output.
@@ -848,13 +850,15 @@ This circuit will turn on the light when the PIR sensor detects motion. If no mo
 - Light Source: LED or small light bulb (or higher-power bulb if using a relay).
 - Power Supply: 5V or 12V depending on your components.
 
-### Circuit Design Steps
+### Steps
 
 #### 1. PIR Sensor Setup
+
    - VCC and GND: Connect the PIR sensor’s VCC pin to the power supply and GND pin to ground.
    - OUT Pin: Connect the PIR sensor’s OUT pin to the trigger (pin 2) of the 555 timer IC. When motion is detected, this pin outputs a high signal, triggering the 555 timer to start the delay.
 
 #### 2. 555 Timer Configuration (Monostable Mode)
+
    - 555 Timer Setup: Configure the 555 timer in monostable mode. This setup will allow the timer to keep the output high for a specified time whenever triggered by the PIR sensor.
    - Timing Resistor and Capacitor: Connect a resistor (R1) between VCC and the discharge pin (pin 7) of the 555 timer, and a capacitor (C1) between pin 7 and ground. The time delay \( T \) can be calculated by the formula:
      \[
@@ -878,7 +882,7 @@ This circuit will turn on the light when the PIR sensor detects motion. If no mo
    - If no motion is detected, the 555 timer will eventually time out, its output will go low, and the transistor (or relay) will turn off the light.
    - Each time motion is detected, the PIR sensor will retrigger the 555 timer, restarting the delay and keeping the light on as long as there’s movement.
 
-### Circuit Summary
+### Summary
 
 1. PIR Sensor: Detects motion and triggers the 555 timer when motion is detected.
 2. 555 Timer in Monostable Mode: Holds the output high (light on) for a specified time after the last detected motion.
@@ -903,7 +907,7 @@ The garage door opener will use a DC motor to lift and lower the door, a relay c
 - Power Supply: A 12V or 24V power supply (depending on the motor requirements).
 - Microcontroller (optional): If you want more control over the system, such as with an Arduino.
 
-### Circuit Design Steps
+### Steps
 
 #### 1. Motor Control Setup (H-Bridge)
 
@@ -965,7 +969,7 @@ The garage door opener will use a DC motor to lift and lower the door, a relay c
    - Check that the limit switches stop the motor when the door reaches the fully open or closed positions.
    - Adjust the power and speed to ensure the door operates smoothly.
 
-### Circuit Summary
+### Summary
 
 1. Remote Control Module: Sends a signal to start or stop the motor.
 2. Motor Driver (H-Bridge): Controls the motor direction based on the input signal.

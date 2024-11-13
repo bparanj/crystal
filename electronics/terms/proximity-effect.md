@@ -5,6 +5,7 @@ The proximity effect in high-frequency circuits refers to the tendency of curren
 When an alternating current (AC) flows through a conductor, it generates a magnetic field around it. In high-frequency circuits, this magnetic field can induce currents (eddy currents) in nearby conductors. These induced currents cause the main current to concentrate in specific parts of each conductor, typically near the surfaces or the areas farthest from neighboring currents.
 
 For instance:
+
 - In two parallel conductors carrying AC in the same direction, current in each conductor tends to shift toward the edges furthest from each other.
 - In conductors carrying AC in opposite directions, current tends to concentrate on the surfaces closest to each other.
 
@@ -18,6 +19,7 @@ For instance:
 ### Managing the Proximity Effect
 
 In high-frequency circuit design, several strategies help mitigate the proximity effect, including:
+
 - Spacing Conductors Apart: Keeping conductors further apart reduces the interaction of their magnetic fields.
 - Using Litz Wire: Litz wire is made up of many thin, individually insulated strands woven together. This reduces both the proximity effect and skin effect by distributing the current across the conductor.
 - Optimizing Conductor Geometry: Choosing specific conductor shapes or layering techniques can reduce the proximity effect.

@@ -22,4 +22,4 @@ Magnetic flux is useful in designing devices like:
 - Transformers and electric generators, where changing magnetic flux induces an electric current (per Faraday’s Law of Induction).
 - Magnetic storage devices, where flux changes encode data.
 
-In summary, magnetic flux quantifies the "flow" of a magnetic field through a surface, essential in analyzing and applying magnetic field effects in various electrical and magnetic devices.
+Magnetic flux quantifies the "flow" of a magnetic field through a surface, essential in analyzing and applying magnetic field effects in various electrical and magnetic devices.

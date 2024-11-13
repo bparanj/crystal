@@ -12,6 +12,7 @@ A phasor is a complex number used to represent sinusoidal functions, typically i
 ### Why Phasors are Useful
 
 Phasors allow AC circuit analysis using algebra rather than differential equations, which is much simpler. For example, in AC circuits:
+
    - Impedance of resistors, inductors, and capacitors can be represented as complex numbers.
    - Ohm’s law, Kirchhoff’s laws, and other circuit laws apply to phasors similarly to DC circuit analysis.
 

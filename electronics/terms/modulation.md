@@ -15,7 +15,7 @@ These techniques can be used for both analog and digital signals, allowing for t
 
 Modulation in electronics is the process of altering a carrier signal's properties—such as its amplitude, frequency, or phase—to encode information for transmission. This carrier signal is usually a high-frequency wave, while the information signal is typically lower in frequency (like an audio or data signal).
 
-There are three primary types of modulation:
+There are three types of modulation:
 
 1. Amplitude Modulation (AM):
 
@@ -31,15 +31,27 @@ Modifies the phase of the carrier wave in line with the information signal. This
 
 ### Key Takeaways
 
-- Purpose: Modulation makes it possible to transmit information over long distances and through various mediums.
-- Types: The main types—AM, FM, and PM—differ in how they modify the carrier signal.
-- Applications: Each modulation type suits different needs, from radio broadcasting to digital data transfer.
+Purpose: 
+
+Modulation makes it possible to transmit information over long distances and through various mediums.
+
+Types: 
+
+The main types—AM, FM, and PM—differ in how they modify the carrier signal.
+
+Applications: 
+
+Each modulation type suits different needs, from radio broadcasting to digital data transfer.
 
 Yes, AM and FM radio channels use Amplitude Modulation (AM) and Frequency Modulation (FM), respectively, to transmit audio signals over the airwaves:
 
-- AM Radio: Uses Amplitude Modulation, where the amplitude of the carrier signal varies according to the audio signal's amplitude. AM radio typically operates in the Medium Frequency (MF) band, ranging from 530 to 1700 kHz. It has a simpler design and can cover longer distances, especially at night, but is more susceptible to noise and interference.
+- AM Radio: 
 
-- FM Radio: Uses Frequency Modulation, where the frequency of the carrier signal varies according to the audio signal's frequency. FM radio operates in the Very High Frequency (VHF) band, from 88 to 108 MHz. FM provides better sound quality and less susceptibility to noise but has a shorter range than AM.
+Uses Amplitude Modulation, where the amplitude of the carrier signal varies according to the audio signal's amplitude. AM radio typically operates in the Medium Frequency (MF) band, ranging from 530 to 1700 kHz. It has a simpler design and can cover longer distances, especially at night, but is more susceptible to noise and interference.
+
+- FM Radio: 
+
+Uses Frequency Modulation, where the frequency of the carrier signal varies according to the audio signal's frequency. FM radio operates in the Very High Frequency (VHF) band, from 88 to 108 MHz. FM provides better sound quality and less susceptibility to noise but has a shorter range than AM.
 
 ### Summary
 

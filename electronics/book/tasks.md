@@ -7,6 +7,13 @@ Review function-generator.md. Condense the notes.
 
 Positive Clamper - Watch videos. Break down into smaller experiments.
 
+
+Time constant of capacitor:
+
+https://www.youtube.com/watch?v=T0_Z0jw2DhI
+https://www.youtube.com/watch?v=pb0yduMthWE
+
+
 Review 18.md, 8b.md
 
 - Show that the current through the circuit will be the same. FOR LED + resistor circuit

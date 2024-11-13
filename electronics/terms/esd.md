@@ -15,8 +15,6 @@ Why does it not make any difference whether the resistor comes before or after a
 
 The resistor's job is to limit the current flowing through the LED, preventing it from burning out. The current in a series circuit is the same at every point, so it doesn’t matter whether the resistor is before or after the LED—the current gets limited just the same.
 
-Think of it like a speed bump in a road: whether it’s before or after a car, it’ll slow the car down. Whether the resistor is positioned before or after the LED, it still restricts the current flow and protects the LED.
-
 ## Static Electricity and ESD
 
 Static electricity is the buildup of electric charge on the surface of an object. Electrostatic discharge (ESD) is the sudden flow of that electric charge when two differently charged objects come into contact or close proximity, creating a spark. It's like the difference between having a balloon full of static charge and that shocking zap when you touch a metal doorknob. Static electricity is the potential; ESD is the action.

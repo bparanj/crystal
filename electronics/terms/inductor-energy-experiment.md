@@ -2,9 +2,9 @@
 
 Inductors store energy in their magnetic field when current flows through them and release this energy back into the circuit when the current decreases. This property allows inductors to act as energy storage elements in various applications.
 
-An inductor's energy storage capability resembles a spring. When you stretch a spring (analogous to current flowing through an inductor), it stores potential energy. When you release the spring (current decreases), it releases that energy back into the system.
+An inductor's energy storage capability resembles a spring. When you stretch a spring, it stores potential energy. When you release the spring, it releases that energy back into the system.
 
-To demonstrate energy storage in inductors, set up this experiment:
+Experiment to demonstrate energy storage in inductors:
 
 1) Create a circuit with a power supply, a switch, an inductor (e.g., 1 mH), and an LED in series.
 2) Include a resistor in parallel with the LED for protection.

@@ -2,10 +2,18 @@ TAG
 
 bias
 
-Forward Bias (Conducting State):
+Forward Bias:
 
-When a diode is forward-biased (positive voltage applied to the anode relative to the cathode), current flows easily from the anode to the cathode.
+Forward bias in a diode is when positive voltage is applied to the anode and negative voltage to the cathode.
 
-Reverse Bias (Non-Conducting State)
+When a diode is forward-biased, current flows from the anode to the cathode. This is the conducting state.
 
-When a diode is reverse-biased (positive voltage applied to the cathode relative to the anode), it prevents current from flowing, except in special cases like Zener diodes where reverse breakdown occurs.
+Reverse Bias 
+
+Reverse bias in a diode is when positive voltage applied to the cathode and the negative voltage to the anode.
+
+When a diode is reverse-biased, it prevents current from flowing. This is the non-conducting state.
+
+Special Case:
+
+Zener diodes where reverse breakdown occurs.

@@ -2,9 +2,7 @@ TAG
 
 voltage
 
-Nodal voltage in electronics refers to the electric potential (voltage) at a specific node (point) in a circuit relative to a common reference point, usually ground. It’s a key concept in nodal analysis, a method for determining the voltage at various points in a circuit to analyze current flow and overall circuit behavior.
-
-### Key Points about Nodal Voltage:
+Nodal voltage in electronics refers to the electric potential (voltage) at a specific node (point) in a circuit relative to a common reference point, usually ground. It is used in nodal analysis, a method for determining the voltage at various points in a circuit to analyze current flow and overall circuit behavior.
 
 1. Node Definition:
 
@@ -60,5 +58,3 @@ Notes:
 - Voltage is always measured relative to a reference point
 - Make sure your circuit is properly grounded
 - TinkerCAD multimeters are ideal (don't affect circuit operation)
-
-Would you like me to explain how to analyze specific types of circuits or use other measurement features in TinkerCAD?

@@ -7,6 +7,7 @@ No, a voltage regulator and a voltage stabilizer are not the same, though they s
 A voltage regulator is a device or circuit designed to maintain a constant output voltage regardless of changes in input voltage or load conditions. It’s often used in electronics to supply a steady voltage to components, protecting them from voltage fluctuations.
 
 Types:
+
 1. Linear regulators - Simple design, efficient at low power, but can waste energy as heat at higher power.
 2. Switching regulators - More efficient for higher power needs, using a switch-mode method to regulate the voltage.
 

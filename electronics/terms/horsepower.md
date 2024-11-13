@@ -1,4 +1,4 @@
-Yes, watts can indeed be converted to horsepower because both are units of power, which is the rate at which energy is used or produced.
+Watts can be converted to horsepower because both are units of power, which is the rate at which energy is used or produced.
 
 ### Understanding the Units
 
@@ -36,13 +36,16 @@ Yes, horsepower is commonly used to measure and describe the power output of car
 ### Why Horsepower is Used for Car Engines:
 
 1. Historical Roots:
-   - Horsepower was originally created by engineer James Watt in the 18th century as a way to compare the output of steam engines to the work a horse could do. The term stuck, and it became a widely recognized unit of measurement in the automotive industry.
+
+Horsepower was originally created by engineer James Watt in the 18th century as a way to compare the output of steam engines to the work a horse could do. The term stuck, and it became a widely recognized unit of measurement in the automotive industry.
 
 2. Power Output Measurement:
-   - Horsepower is an intuitive and standardized way to quantify engine performance for consumers, making it easy to compare the power of different cars.
+
+Horsepower is a standardized way to quantify engine performance for consumers, making it easy to compare the power of different cars.
 
 3. Relation to Vehicle Performance:
-   - Higher horsepower generally means a car can achieve higher speeds and faster acceleration. Although other factors (like torque, weight, and aerodynamics) also play roles in performance, horsepower is a primary indicator of the vehicle’s potential power.
+
+Higher horsepower generally means a car can achieve higher speeds and faster acceleration. Although other factors (like torque, weight, and aerodynamics) also play roles in performance, horsepower is a primary indicator of the vehicle’s potential power.
 
 ### How It’s Measured
 
