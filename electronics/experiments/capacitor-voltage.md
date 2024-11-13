@@ -1,5 +1,8 @@
 
 ### Capacitance and Voltage Relationship
+PENDING
+
+Is this already demonstrated in existing experiment?
 
 Objective:
 
@@ -18,7 +21,8 @@ Procedure:
 1. Set Up the Circuit: Connect the battery, resistor, and capacitor in series. Connect the voltmeter across the capacitor to measure the voltage across it.
 2. Close the Circuit: Close the circuit by connecting the battery. The capacitor will begin to charge, and the voltmeter will show the voltage across the capacitor.
 3. Observe the Voltage: Watch the voltage on the voltmeter. Initially, the voltage will rise quickly, but as the capacitor charges, the rate of increase will slow down until it reaches the battery voltage.
-4. Explain: The voltage across a capacitor rises exponentially as it charges. The time it takes to charge depends on the capacitance and the resistance in the circuit. This experiment illustrates the relationship between the charge on the capacitor, the voltage across it, and the capacitance.
+
+The voltage across a capacitor rises exponentially as it charges. The time it takes to charge depends on the capacitance and the resistance in the circuit. This experiment illustrates the relationship between the charge on the capacitor, the voltage across it, and the capacitance.
 
 ### Summary of Concepts Illustrated:
 

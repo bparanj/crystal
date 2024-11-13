@@ -10,6 +10,9 @@ voltage-doubler.md
 transistor-oscillator.md
 transistor-current.md
 
+Design a simple experiment using Tinkercad for light sensor
+Does Tinkercad have temperature sensor
+
 
 
 Compare side by side:
