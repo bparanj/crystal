@@ -1,4 +1,11 @@
 
+7.md (Capacitor - Redo from scratch) Tinkercad MacMini task
+Review low-pass-filter and 23.md side by side
+8.md Tinkercad MacMini task
+12 and 13 requires side by side comparison
+
+
+
 
 Review electronics/design/oscilloscope.md. Condense the notes.
 Review function-generator.md. Condense the notes.
@@ -7,10 +14,6 @@ Positive Clamper - Watch videos. Break down into smaller experiments.
 
 18.md
 
-7.md (Capacitor - Redo from scratch) Tinkercad MacMini task
-Review low-pass-filter and 23.md side by side
-8.md Tinkercad MacMini task
-12 and 13 requires side by side comparison
 
 book/8b.md
 6:Merge with existing experiment.
