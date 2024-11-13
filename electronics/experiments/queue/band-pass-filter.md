@@ -1,4 +1,4 @@
-To design a band-pass filter experiment using Tinkercad, you can create a simple RC-RC band-pass filter. This filter allows a specific range of frequencies to pass while attenuating frequencies outside this range.
+A band-pass filter experiment using a simple RC-RC band-pass filter. This filter allows a specific range of frequencies to pass while attenuating frequencies outside this range.
 
 PENDING
 

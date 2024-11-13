@@ -4,7 +4,7 @@ electric field
 
 PENDING
 
-Youtube video reference related to this experiment only. 
+Youtube video reference related to this experiment only.
 Add this link to blog post.
 Move to out of scope folder
 
@@ -80,7 +80,6 @@ This experiment provides a visual representation of electric fields and helps in
      * Air filters
      * Static control
 
-5. Interesting Features:
    - Field lines show direction
    - Strength shown by line density
    - Invisible but detectable

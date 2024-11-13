@@ -1,6 +1,6 @@
 What happens when capacitor is connected in parallel?
 
-When capacitors are connected in parallel, their total or equivalent capacitance increases. This setup impacts the circuit’s behavior in several important ways:
+When capacitors are connected in parallel, their total or equivalent capacitance increases. This setup impacts the circuit’s behavior in several ways:
 
 Here’s how to design an experiment in Tinkercad to demonstrate the behavior of two capacitors connected in parallel.
 
@@ -61,11 +61,10 @@ C_{\text{total}} = 100 \, \mu\text{F} + 100 \, \mu\text{F} = 200 \, \mu\text{F}
 \]
 This higher total capacitance means that the capacitors can store more energy for the same applied voltage and will take longer to charge and discharge.
 
-### Key Observations
+### Observations
 - Increased Total Capacitance: The two capacitors in parallel result in a total capacitance that is the sum of the individual capacitors, meaning the circuit can store more energy.
 - Longer Charging and Discharging Times: Due to the increased capacitance, the capacitors charge and discharge more slowly compared to a single capacitor of 100 µF.
 
-### Conclusion
 This experiment demonstrates that connecting capacitors in parallel increases the total capacitance, allowing the circuit to store more energy and resulting in a longer charge and discharge time. In practical circuits, parallel capacitors are used to increase total capacitance and to stabilize voltage in power supply circuits.
 
 ### 1. Increased Total Capacitance
@@ -107,7 +106,6 @@ You can use Tinkercad to demonstrate the effect of connecting capacitors in para
 4. Switch: To control the charging and discharging of the capacitors.
 5. Multimeter: To measure the voltage across the capacitors.
 6. Oscilloscope: (Optional) To observe voltage changes over time.
-
 
 PENDING
 
