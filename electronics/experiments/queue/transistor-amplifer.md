@@ -33,25 +33,26 @@ In Tinkercad, this exact setup can't be fully implemented due to certain limitat
 
 ### Steps to Approximate This Circuit in Tinkercad
 
-1. **Circuit Assembly**:
-   - **NPN Transistor**: Use a 2N3904 transistor.
-   - **Resistors**: Place a 1 kΩ resistor on the collector and a 10 kΩ resistor on the base.
-   - **Capacitor**: Insert a 10 µF capacitor between the audio input (simulated voltage source) and the base to block any DC component.
-   - **Battery**: Use a 9V battery for the power supply.
-   - **Speaker Substitute**: Since Tinkercad doesn’t have speakers or audio output, you can use an LED or another component as a visual indicator of current flow changes.
+1. Circuit Assembly:
+   - NPN Transistor: Use a 2N3904 transistor.
+   - Resistors: Place a 1 kΩ resistor on the collector and a 10 kΩ resistor on the base.
+   - Capacitor: Insert a 10 µF capacitor between the audio input (simulated voltage source) and the base to block any DC component.
+   - Battery: Use a 9V battery for the power supply.
+   - Speaker Substitute: Since Tinkercad doesn’t have speakers or audio output, you can use an LED or another component as a visual indicator of current flow changes.
 
-2. **Connect the Circuit**:
-   - Connect the **collector** of the transistor to the positive terminal of the battery through the **1 kΩ resistor**.
-   - Connect the **emitter** directly to the **negative terminal of the battery** (ground).
-   - Connect the **base** of the transistor to an audio source substitute, such as a small AC signal source, through the **10 kΩ resistor** and **10 µF capacitor**.
-   - Instead of a speaker, place an **LED** between the collector and the positive terminal to visually observe the change in current (indicating amplification).
+2. Connect the Circuit:
+   - Connect the collector of the transistor to the positive terminal of the battery through the 1 kΩ resistor.
+   - Connect the emitter directly to the negative terminal of the battery (ground).
+   - Connect the base of the transistor to an audio source substitute, such as a small AC signal source, through the 10 kΩ resistor and 10 µF capacitor.
+   - Instead of a speaker, place an LED between the collector and the positive terminal to visually observe the change in current (indicating amplification).
 
-3. **Operation**:
+3. Operation:
    - Set up the AC source with a small, low-frequency signal (approximating an audio signal).
    - Observe the LED brightness or use a multimeter to measure the voltage across the collector-emitter path to see how the transistor amplifies the signal.
 
 ### Limitations
-- **No Real Audio Signal**: Tinkercad doesn’t support audio inputs or outputs directly, so you can’t hear the amplified signal. The setup with an LED or multimeter only visualizes amplification.
-- **No Real-Time Sound Output**: For true audio amplification, you’d need a breadboard setup or another simulation platform that supports audio signals, such as LTSpice or Proteus.
+
+- No Real Audio Signal: Tinkercad doesn’t support audio inputs or outputs directly, so you can’t hear the amplified signal. The setup with an LED or multimeter only visualizes amplification.
+- No Real-Time Sound Output: For true audio amplification, you’d need a breadboard setup or another simulation platform that supports audio signals, such as LTSpice or Proteus.
 
 This setup provides a visual approximation but won’t allow for actual audio playback.

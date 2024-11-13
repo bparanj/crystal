@@ -32,5 +32,3 @@ Key Points:
 - Output: 100 milliwatts
 - Power gain = 100/1 = 100
 - In dB = 10 * log₁₀(100) = 20 dB
-
-Would you like me to explain more about how power gain is achieved in practical circuits?
