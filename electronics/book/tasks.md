@@ -1,4 +1,3 @@
-voltage-regulator
 
 Complete steps for:
 
@@ -20,8 +19,6 @@ Does Tinkercad have temperature sensor
 
 
 Compare side by side:
-
-
 
 23.md
 
