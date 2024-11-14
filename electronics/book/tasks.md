@@ -12,7 +12,6 @@ How is the current controlled in current controller? See 16.md. How does varying
 
 Experiments
 
-band-pass-filter Test if this will work
 bypass-capacitor.md
 voltage-doubler.md
 transistor-oscillator.md
@@ -25,9 +24,6 @@ Does Tinkercad have temperature sensor
 Compare side by side:
 
 voltage-regulator-experiment.md
-
-
-
 
 
 7.md

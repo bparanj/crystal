@@ -1,6 +1,6 @@
-To demonstrate a bypass capacitor in Tinkercad, we can create a circuit that shows how it stabilizes the voltage by filtering out noise, especially in circuits with AC signals or switching transients.
+To demonstrate a bypass capacitor we can create a circuit that shows how it stabilizes the voltage by filtering out noise, especially in circuits with AC signals or switching transients.
 
-### Experiment Setup
+### Setup
 
 #### Components:
 
