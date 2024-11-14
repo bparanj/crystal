@@ -6,7 +6,7 @@ This experiment is commonly referred to as a "Transistor-Based Oscillator with V
 
 Therefore, the full experiment could be described as:
 
-### "Transistor-Based Oscillator with Cockcroft-Walton Voltage Doubler"
+### Transistor-Based Oscillator with Cockcroft-Walton Voltage Doubler
 
 This name highlights both the oscillation generation (via a transistor) and the voltage amplification (via a voltage doubler). The circuit demonstrates basic principles of AC generation from DC and voltage multiplication, often used in introductory electronics experiments to explore oscillation and voltage conversion.
 

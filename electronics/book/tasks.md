@@ -1,4 +1,4 @@
-voltage-regulator-experiment.md
+voltage-regulator
 
 Complete steps for:
 

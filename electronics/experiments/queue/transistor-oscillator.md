@@ -54,7 +54,8 @@ Creating a transistor-based oscillator circuit to generate a periodic signal lik
    - When powered on, the capacitors charge and discharge through the transistor, creating a feedback loop that causes the transistor to switch on and off repeatedly, producing oscillations.
    - The LED will blink on and off, indicating the periodic signal. The rate at which the LED blinks depends on the capacitor and resistor values, which control the frequency of oscillation.
 
-### Key Limitations
+### Limitations
+
 - Limited Component Modeling: Tinkercad can only model this as a simple blinking LED circuit. It lacks advanced features to model precise oscillation behavior or to produce a square wave signal with exact frequency control.
 - No Audio Output: If a speaker is used, it won’t produce a real sound output since Tinkercad doesn’t support audio simulation.
 

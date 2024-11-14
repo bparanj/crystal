@@ -1,6 +1,7 @@
-# Bypass Capacitor Function Demonstration
+# Bypass Capacitor
 
-## Components Required
+## Components
+
 - DC Power Supply (5V)
 - Ceramic Capacitor (0.1µF)
 - Two LEDs
@@ -9,20 +10,24 @@
 - Digital Oscilloscope
 - Breadboard and connecting wires
 
-## Circuit Setup
+## Setup
+
 ### Control Circuit (Without Bypass)
+
 1. Connect first LED and 220Ω resistor in series
 2. Add push button to control LED
 3. Connect to power supply
 
 ### Test Circuit (With Bypass)
+
 1. Set up identical LED circuit
 2. Add 0.1µF capacitor between power and ground
 3. Place capacitor as close as possible to LED circuit
 
-## Experiment Procedure
+## Experiment
 
 ### Part 1: Baseline Measurement
+
 1. Connect oscilloscope probe to power rail
 2. Set oscilloscope:
    - Timebase: 100µs/division
@@ -30,6 +35,7 @@
    - Trigger: Rising edge
 
 ### Part 2: Testing
+
 1. Press buttons in sequence:
    a. Control circuit button only
    b. Test circuit button only
@@ -37,88 +43,32 @@
    d. Rapidly toggle buttons
 
 ### Measurements to Record
+
 1. Voltage ripple without bypass capacitor
 2. Voltage ripple with bypass capacitor
 3. Transient response during switching
 4. Recovery time after load changes
 
-### Expected Observations
+### Observations
+
 - Without bypass: Visible voltage fluctuations when switching
 - With bypass: More stable voltage during switching
 - LED brightness should be more stable in bypassed circuit
 
-## Analysis Points
+## Analysis
+
 1. Peak-to-peak voltage ripple
 2. Settling time after transients
 3. Effect on LED brightness stability
 
 ## Variables to Experiment With
+
 - Different capacitor values
 - Different switching speeds
 - Multiple LEDs for increased load
 
 An experiment to demonstrate how bypass capacitors filter out noise and stabilize voltage can be set up using basic components in Tinkercad. The experiment will show how a bypass capacitor helps maintain steady voltage when there are sudden changes in current draw.
 
-
-
-# Bypass Capacitor Function Demonstration
-
-## Components Required
-- DC Power Supply (5V)
-- Ceramic Capacitor (0.1µF)
-- Two LEDs
-- Two Push Buttons
-- Two Resistors (220Ω)
-- Digital Oscilloscope
-- Breadboard and connecting wires
-
-## Circuit Setup
-### Control Circuit (Without Bypass)
-1. Connect first LED and 220Ω resistor in series
-2. Add push button to control LED
-3. Connect to power supply
-
-### Test Circuit (With Bypass)
-1. Set up identical LED circuit
-2. Add 0.1µF capacitor between power and ground
-3. Place capacitor as close as possible to LED circuit
-
-## Experiment Procedure
-
-### Part 1: Baseline Measurement
-1. Connect oscilloscope probe to power rail
-2. Set oscilloscope:
-   - Timebase: 100µs/division
-   - Voltage: 1V/division
-   - Trigger: Rising edge
-
-### Part 2: Testing
-1. Press buttons in sequence:
-   a. Control circuit button only
-   b. Test circuit button only
-   c. Both buttons simultaneously
-   d. Rapidly toggle buttons
-
-### Measurements to Record
-1. Voltage ripple without bypass capacitor
-2. Voltage ripple with bypass capacitor
-3. Transient response during switching
-4. Recovery time after load changes
-
-### Expected Observations
-- Without bypass: Visible voltage fluctuations when switching
-- With bypass: More stable voltage during switching
-- LED brightness should be more stable in bypassed circuit
-
-## Analysis Points
-1. Peak-to-peak voltage ripple
-2. Settling time after transients
-3. Effect on LED brightness stability
-
-## Variables to Experiment With
-- Different capacitor values
-- Different switching speeds
-- Multiple LEDs for increased load
 
 
 This experiment demonstrates three key bypass capacitor functions:
@@ -130,8 +80,6 @@ The oscilloscope will show:
 - Voltage spikes without the bypass capacitor
 - Smoother voltage with the bypass capacitor
 - Reduced recovery time after load changes
-
-
 
 To demonstrate a bypass capacitor we can create a circuit that shows how it stabilizes the voltage by filtering out noise, especially in circuits with AC signals or switching transients.
 
