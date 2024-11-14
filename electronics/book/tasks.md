@@ -1,7 +1,12 @@
+Complete steps for:
+7.md (images in capacitor folder)
+Band Pass Filter (images in band-pass-filter folder)
+
+
 Back EMF Demo AC
 Back EMF Demo DC
 Capacitor DC Block
-Band Pass Filter
+
 
 
 Capacitor AC Pass (not working ?)
@@ -25,8 +30,6 @@ Compare side by side:
 
 voltage-regulator-experiment.md
 
-
-7.md
 23.md
 
 Review electronics/design/oscilloscope.md. Condense the notes.
