@@ -1,7 +1,5 @@
 Complete steps for:
 
-Back EMF Demo AC (see back-emf-ac folder)
-
 Capacitor AC Pass (not working ?)
 
 21, 22.md
