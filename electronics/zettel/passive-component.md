@@ -28,8 +28,6 @@ So, produce is a better fit than create when referring to how passive components
 
    A resistor limits the flow of electrical current and dissipates energy as heat. It follows Ohm's Law: $V = IR$, where $V$ is the voltage across the resistor, $I$ is the current through the resistor, and $R$ is the resistance in ohms.
 
-   Imagine water flowing through a narrow pipe. The narrower the pipe (higher resistance), the more it restricts the water flow (current).
-
    In a simple circuit with a 10V battery and a 5Ω resistor, the current is $I = \frac{V}{R} = \frac{10}{5} = 2A$.
 
 3. How does a capacitor store energy?
@@ -123,15 +121,6 @@ Atomic Ideas:
 A passive electronic component interacts with electrical energy without requiring an external power source for operation. It cannot generate, amplify, or process electrical signals using external power. Passive components either dissipate, store, or release electrical energy.
 
 Passive components resemble various types of plumbing fixtures. Like how pipes, valves, and tanks control water flow without pumping, passive components manage electrical energy without actively generating or boosting it.
-
-This experiment is already complete.
-
-To demonstrate a passive component's behavior:
-
-a) Obtain a simple LED circuit kit with a battery, resistor, and LED.
-b) Connect the LED directly to the battery. Observe it may burn out due to excessive current.
-c) Insert a resistor in series with the LED and battery.
-d) Observe how the resistor (passive component) limits current flow, allowing the LED to light safely without adding energy to the system.
 
 2. How do resistors function as passive components?
 

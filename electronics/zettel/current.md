@@ -6,8 +6,6 @@ TAG
 
 current
 
-## Overview: Current
-
 Current is the flow of electric charge through a conductor, such as a wire, over time. It represents the movement of electrons due to an electric field or potential difference (voltage) applied across two points. The unit of current is the ampere (A), which measures how much charge passes through a point in the circuit per second. Electrical current can flow as direct current (DC) or alternating current (AC) depending on whether the charge flows in one direction or oscillates back and forth.
 
 ## Atomic Ideas
@@ -15,8 +13,6 @@ Current is the flow of electric charge through a conductor, such as a wire, over
 What is current?
 
    Current is the rate at which electric charge flows through a conductor. It tells us how many coulombs of charge pass through a point in a circuit per second.
-
-   Imagine water flowing through a pipe. The amount of water flowing past a point in the pipe per second is like the current in a wire.
 
    In a circuit with 2 coulombs of charge flowing through a wire every second, the current would be 2 amperes.
 

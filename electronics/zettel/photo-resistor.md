@@ -2,13 +2,16 @@ TAG
 
 resistor
 
-A photoresistor (also known as a light-dependent resistor or LDR) is a passive electronic component whose resistance changes depending on the amount of light it receives. When exposed to light, its resistance decreases, allowing more current to flow through the circuit. Photoresistors are  used in light-sensitive devices such as automatic lighting systems, light meters, and alarm systems.
+A photoresistor is a passive electronic component whose resistance changes depending on the amount of light it receives. When exposed to light, its resistance decreases, allowing more current to flow through the circuit. Photoresistors are  used in light-sensitive devices such as automatic lighting systems, light meters, and alarm systems.
+
+Photoresistor is also known as light-dependent resistor or LDR.
 
 ### Atomic Ideas:
 
 1. What is a photoresistor, and how does it work?
 
    A photoresistor is a variable resistor whose resistance decreases as the intensity of light increases. It operates based on the principle that certain materials change their electrical conductivity when exposed to light.
+
     Think of a photoresistor like a window blind. The more you open the blind (expose the photoresistor to light), the more light (current) can enter the room (flow through the circuit).
     In an automatic streetlight, a photoresistor can detect ambient light levels. As it gets dark, its resistance increases, triggering the streetlight to turn on.
 
@@ -73,7 +76,7 @@ Photoresistors rely on semiconductor materials, and knowing the basics of semico
    Research how photoresistors can be used in solar energy systems to track light levels and optimize panel alignment or regulate power based on sunlight intensity.
 
 
-A photoresistor, also known as a light-dependent resistor (LDR) or photocell, functions as a variable resistor that changes its resistance in response to the intensity of light falling on its surface. It consists of a semiconductor material sensitive to light,  cadmium sulfide (CdS) or cadmium selenide (CdSe). As light intensity increases, the resistance of the photoresistor decreases, allowing more current to flow through it. This property makes photoresistors valuable in various light-sensing applications, from automatic street lights to camera exposure control systems.
+A photoresistor, also known as a photocell, is a variable resistor that changes its resistance in response to the intensity of light falling on its surface. It consists of a semiconductor material sensitive to light,  cadmium sulfide (CdS) or cadmium selenide (CdSe). As light intensity increases, the resistance of the photoresistor decreases, allowing more current to flow through it. This property makes photoresistors valuable in various light-sensing applications, from automatic street lights to camera exposure control systems.
 
 Atomic Ideas:
 

@@ -18,7 +18,7 @@ The Time Constant
 
 When a capacitor is charged in series through a resistor. RC circuit. It begins with no charge on its plates, the time constant is the time in seconds required to charge the capacitor to 63% of the supply voltage.
 
-Time Constant = R * C
+Time Constant = R  C
 
 R is the value of the resistor in ohms and C is the value of the capacitor in farads.
 
@@ -58,7 +58,7 @@ Review the experiments in this file and see which ones can be used and move to e
 
 4. What is the difference between a linear and logarithmic potentiometer?
 
-   A linear potentiometer changes resistance at a constant rate as you turn the knob, while a **logarithmic potentiometer** changes resistance exponentially, making it more suitable for audio volume controls.
+   A linear potentiometer changes resistance at a constant rate as you turn the knob, while a logarithmic potentiometer changes resistance exponentially, making it more suitable for audio volume controls.
     A linear potentiometer is like a straight road where you drive at a constant speed, while a logarithmic potentiometer is like a steep hill, where your speed increases rapidly as you descend.
     In an audio system, a logarithmic potentiometer adjusts volume because human perception of sound intensity is logarithmic, meaning small changes in the knob position have a larger impact on perceived volume.
 
@@ -134,6 +134,10 @@ Atomic Ideas:
 
  The structure of a potentiometer resembles a adjustable water pipe with two fixed ends and a movable tap in between. Just as the tap can be moved to control water flow between the two ends of the pipe, the wiper in a potentiometer moves to control the electrical resistance between its two fixed terminals.
 
+PENDING
+
+Run this experiment
+
  To understand the structure of a potentiometer, follow these steps:
 
  1) Obtain a basic rotary potentiometer.
@@ -148,6 +152,10 @@ Atomic Ideas:
 
  When used as a voltage divider, a potentiometer splits an input voltage into two parts based on the wiper position, allowing for adjustable output voltage.
  A potentiometer functioning as a voltage divider acts like an adjustable dam in a river. Just as the dam controls the water level on either side by adjusting its height, the potentiometer's wiper controls the voltage on either side by adjusting its position.
+
+PENDING
+
+Run this experiment
 
  To demonstrate a potentiometer as a voltage divider, set up this circuit:
 
@@ -164,6 +172,10 @@ Atomic Ideas:
  Linear potentiometers have a resistive element where the resistance changes proportionally to the wiper movement, while logarithmic potentiometers have a non-linear resistance change designed to match human perception of sound volume.
  The difference between linear and logarithmic potentiometers is like the difference between a straight staircase and a spiral staircase. In a straight staircase (linear potentiometer), each step represents an equal change in height. In a spiral staircase (logarithmic potentiometer), the change in height per step increases as you climb, similar to how a logarithmic potentiometer changes resistance more rapidly at one end.
 
+PENDING
+
+Run this experiment:
+
  To compare linear and logarithmic potentiometers:
 
  1) Obtain a linear (type B) and a logarithmic (type A) 10kΩ potentiometer.
@@ -179,6 +191,10 @@ Atomic Ideas:
  Wiper resolution refers to the smallest change in position that the wiper can make, affecting the precision of the potentiometer's adjustment. Higher resolution allows for finer control but may increase cost and complexity.
  Wiper resolution in a potentiometer is like the zoom function on a camera. A camera with more zoom levels (higher resolution) allows for finer adjustments to the image, similar to how a potentiometer with higher wiper resolution allows for more precise resistance adjustments.
 
+PENDING
+
+Run this experiment
+
  To understand wiper resolution, compare two potentiometers:
 
  1) Obtain a cheap 10kΩ potentiometer and a precision 10-turn 10kΩ potentiometer.
@@ -193,11 +209,15 @@ Atomic Ideas:
  The power rating of a potentiometer indicates the maximum power it can dissipate without damage. It's crucial for selecting the right potentiometer for a given application to ensure safe and reliable operation.
  The power rating of a potentiometer is like the weight capacity of a bridge. Just as exceeding a bridge's weight limit can cause structural damage, exceeding a potentiometer's power rating can cause overheating and failure.
 
+PENDING
+
+Run this experiment.
+
  To understand potentiometer power ratings, consider this scenario:
 
  1) You need to create an adjustable load for a 12V power supply that can draw up to 100mA.
  2) Calculate the minimum resistance: R = V / I = 12V / 0.1A = 120Ω.
- 3) Calculate the maximum power dissipation: P = V * I = 12V * 0.1A = 1.2W.
+ 3) Calculate the maximum power dissipation: P = V  I = 12V  0.1A = 1.2W.
  4) You'd need a potentiometer with a resistance of at least 120Ω and a power rating above 1.2W.
  5) In practice, you'd choose a potentiometer with a higher power rating for safety, perhaps 2W or 3W. 6) If you used a standard 1/4W potentiometer, it would overheat and potentially fail when subjected to the full 1.2W. This example demonstrates the importance of considering power ratings when selecting potentiometers for power-handling applications.
 

@@ -12,8 +12,6 @@ A slide switch is a mechanical switch that opens or closes an electrical circuit
 
    A slide switch is a mechanical device that opens or closes a circuit when a lever slides between different positions. By changing the position of the lever, you either connect or disconnect contacts inside the switch.
 
-    Think of a slide switch as a sliding door. When the door is open, people can pass through (current flows); when the door is closed, people are blocked (current stops).
-
     In a flashlight, a slide switch allows you to turn the light on by sliding the switch to one position and off by sliding it to another.
 
 2. What are the main positions of a slide switch?

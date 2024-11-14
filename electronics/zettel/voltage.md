@@ -6,35 +6,43 @@ Voltage represents the measure of the potential energy per unit charge between t
 
 ## Atomic Ideas
 
-1. What is Voltage?
+   Voltage measures the potential difference between two points in a circuit. This potential difference indicates how much work one must perform to move a charge from one point to another.
 
-   -  Voltage measures the potential difference between two points in a circuit. This potential difference indicates how much work one must perform to move a charge from one point to another.
-   -  Imagine voltage as water pressure in a pipe. The higher the pressure (voltage), the more forcefully water (or electrons) moves through the pipe.
-   - In a simple flashlight circuit, the battery provides 1.5V. This means the battery creates a potential difference of 1.5 volts, pushing electrons through the bulb and causing it to light up.
+   Imagine voltage as water pressure in a pipe. The higher the pressure (voltage), the more forcefully water (or electrons) moves through the pipe.
+
+   In a simple flashlight circuit, the battery provides 1.5V. This means the battery creates a potential difference of 1.5 volts, pushing electrons through the bulb and causing it to light up.
 
 2. How does Voltage Relate to Energy and Charge?
 
-   -  Voltage quantifies the amount of electrical potential energy per unit charge. Mathematically, $V = \frac{E}{Q}$, where $V$ represents voltage, $E$ represents electrical potential energy in joules, and $Q$ represents charge in coulombs.
-   -  Think of voltage as the height from which water falls. The greater the height (voltage), the more energy the water (or charge) gains as it falls.
-   - If 2 joules of energy move through a circuit and 1 coulomb of charge passes, the voltage across the circuit is $V = \frac{2 \, \text{J}}{1 \, \text{C}} = 2 \, \text{V}$.
+   Voltage quantifies the amount of electrical potential energy per unit charge. Mathematically, $V = \frac{E}{Q}$, where $V$ represents voltage, $E$ represents electrical potential energy in joules, and $Q$ represents charge in coulombs.
+
+   Think of voltage as the height from which water falls. The greater the height (voltage), the more energy the water (or charge) gains as it falls.
+
+   If 2 joules of energy move through a circuit and 1 coulomb of charge passes, the voltage across the circuit is $V = \frac{2 \, \text{J}}{1 \, \text{C}} = 2 \, \text{V}$.
 
 3. How does Voltage Drive Current?
 
-   -  Voltage creates the "push" that moves electrons, resulting in current flow. According to Ohm's Law, $V = IR$, where $V$ is voltage, $I$ is current, and $R$ is resistance.
-   -  Voltage acts like a water pump pushing water through a hose. The higher the pressure (voltage), the faster the water flows (current), assuming the hose (resistance) stays the same.
-   - In a circuit with a resistance of 10 ohms and a voltage of 5V, the current is $I = \frac{V}{R} = \frac{5 \, \text{V}}{10 \, \Omega} = 0.5 \, \text{A}$.
+   Voltage creates the "push" that moves electrons, resulting in current flow. According to Ohm's Law, $V = IR$, where $V$ is voltage, $I$ is current, and $R$ is resistance.
+
+   Voltage acts like a water pump pushing water through a hose. The higher the pressure (voltage), the faster the water flows (current), assuming the hose (resistance) stays the same.
+
+   In a circuit with a resistance of 10 ohms and a voltage of 5V, the current is $I = \frac{V}{R} = \frac{5 \, \text{V}}{10 \, \Omega} = 0.5 \, \text{A}$.
 
 4. What are the Types of Voltage?
 
-   -  The two primary types of voltage are Direct Current (DC) voltage and Alternating Current (AC) voltage. DC voltage maintains a constant polarity, while AC voltage periodically reverses its direction.
-   -  DC voltage can be compared to a steady river flowing in one direction, whereas AC voltage is like the ocean tide, which moves back and forth.
-   - A battery provides DC voltage, while a household electrical outlet supplies AC voltage.
+   The two primary types of voltage are Direct Current (DC) voltage and Alternating Current (AC) voltage. DC voltage maintains a constant polarity, while AC voltage periodically reverses its direction.
+
+   DC voltage can be compared to a steady river flowing in one direction, whereas AC voltage is like the ocean tide, which moves back and forth.
+
+   A battery provides DC voltage, while a household electrical outlet supplies AC voltage.
 
 5. How does Voltage Affect Power?
 
-   -  Power, the rate of energy transfer, depends on both voltage and current. Mathematically, $P = VI$, where $P$ represents power in watts, $V$ represents voltage in volts, and $I$ represents current in amperes.
-   -  Imagine voltage as the pressure of water in a hose and current as the flow of water. Power would then be the amount of water pushed through the hose every second.
-   - In a circuit with a 10V source and a current of 2A, the power is $P = 10 \, \text{V} \times 2 \, \text{A} = 20 \, \text{W}$.
+   Power, the rate of energy transfer, depends on both voltage and current. Mathematically, $P = VI$, where $P$ represents power in watts, $V$ represents voltage in volts, and $I$ represents current in amperes.
+
+   Imagine voltage as the pressure of water in a hose and current as the flow of water. Power would then be the amount of water pushed through the hose every second.
+
+   In a circuit with a 10V source and a current of 2A, the power is $P = 10 \, \text{V} \times 2 \, \text{A} = 20 \, \text{W}$.
 
 ### Problem Statement:
 
@@ -97,8 +105,6 @@ Voltage exists due to electric fields between two points. Understanding electric
 Voltage, also known as electrical potential difference, represents the energy per unit charge available to move electrons through a conductor. It serves as the driving force in electrical circuits, causing current to flow when a complete path exists. Measured in volts (V), voltage plays a crucial role in determining the behavior and capabilities of electrical systems.
 
 Atomic Ideas:
-
-1. What is the fundamental definition of voltage?
 
 Voltage represents the electric potential difference between two points in an electrical circuit. It quantifies the energy required to move a unit charge from one point to another within an electric field.
 

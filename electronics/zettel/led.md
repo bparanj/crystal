@@ -153,12 +153,16 @@ LED brightness generally increases with current, but excessive current can cause
 
 Controlling current in an LED circuit is like controlling water flow to a fountain. Too little water (current) results in a weak display, while too much can damage the fountain's mechanisms. The right amount creates the desired effect safely.
 
+PENDING
+
+Check if this experiment will work in Tinkercad
+
 To explore the relationship between current and LED brightness, conduct this experiment:
 
 1) Set up a circuit with a variable power supply, an LED, and a current-limiting resistor.
 2) Start with a low current (e.g., 1 mA) and gradually increase it while observing the LED brightness.
 3) Measure the LED's light output using a light meter or a photodiode circuit at different current levels.
-4) Plot a graph of brightness vs. current. You'll likely observe that brightness increases roughly linearly with current up to a point, then begins to level off.
+4) Plot a graph of brightness vs. current. You'll observe that brightness increases roughly linearly with current up to a point, then begins to level off.
 5) Calculate the LED's efficiency (light output / electrical input) at different current levels.
 
 You may notice that efficiency peaks at a certain current and decreases at higher currents due to heating effects. This demonstrates why proper current control is essential for optimal LED performance and longevity.
@@ -168,6 +172,10 @@ You may notice that efficiency peaks at a certain current and decreases at highe
 The forward voltage of an LED is the minimum voltage required for significant current flow and light emission. It relates to the band gap energy of the semiconductor and varies with the LED color.
 
 An LED's forward voltage is like the minimum height a waterfall needs to flow properly. Just as different waterfalls require different heights to create a strong flow, different colored LEDs require different voltages to emit light effectively.
+
+PENDING
+
+Check if this experiment will work in Tinkercad
 
 To explore forward voltage, perform this experiment:
 
@@ -183,7 +191,7 @@ White LEDs use either a combination of red, green, and blue LEDs, or more , a bl
 
 Creating white light with LEDs is like mixing paint colors. Just as you can create white paint by mixing red, green, and blue paints, or by starting with blue and adding yellow, white LED light can be created by combining different colored LEDs or using a blue LED with a yellow phosphor.
 
-To understand white LED technology, try this experiment:
+To understand white LED technology:
 
 1) Obtain a white LED and a magnifying glass.
 2) Examine the LED closely under the magnifying glass. You may notice a yellowish coating over the LED chip.

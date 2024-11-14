@@ -164,36 +164,11 @@ The reverse breakdown voltage specifies the reverse-bias voltage at which a diod
 
 Reverse breakdown resembles a dam holding back water. The dam (diode) blocks water (current) effectively up to a certain water level (reverse voltage). If the water level exceeds this point (breakdown voltage), the dam fails, and water rushes through (reverse current flows).
 
-PENDING
-
-Review and see if this experiment can be done in Tinkercad
-
-Demonstrate Zener diode voltage regulation:
-
-a) Set up a circuit with a variable power supply, a 470Ω resistor, and a 5.1V Zener diode.
-b) Connect a voltmeter across the Zener diode.
-c) Increase the supply voltage from 0V to 12V.
-d) Observe the voltage across the Zener diode:
-   - Below 5.1V, it follows the supply voltage.
-   - Above 5.1V, it remains constant at approximately 5.1V due to the controlled breakdown effect.
-
 5. What defines the capacitance of a diode and its significance?
 
 Diode capacitance arises from the charge stored in the depletion region at the p-n junction. It varies with applied reverse voltage and affects the diode's high-frequency performance. The junction capacitance $C_j$ relates to the applied reverse voltage V: $C_j = \frac{C_{j0}}{(1 + \frac{V}{V_0})^m}$, where $C_{j0}$, $V_0$, and m are device-specific parameters.
 
 Diode capacitance resembles a variable-size bucket in a water system. As you increase water pressure (reverse voltage), the bucket shrinks (capacitance decreases), allowing faster changes in water flow (better high-frequency response).
-
-PENDING
-
-Review and see if this experiment can be done in Tinkercad
-
-To observe the effect of diode capacitance:
-
-a) Set up a circuit with a signal generator, a diode, and an oscilloscope.
-b) Apply a high-frequency (e.g., 10MHz) square wave to the diode.
-c) Observe the output waveform on the oscilloscope.
-d) Notice the rounding of square wave edges due to diode capacitance.
-e) Increase the reverse bias across the diode and observe how the waveform becomes sharper, demonstrating reduced capacitance.
 
 Related Atomic Ideas:
 

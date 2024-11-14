@@ -6,7 +6,7 @@ PENDING
 
 Is this resistor combination complete:
 
-Voltage Divider Experiment 
+Voltage Divider Experiment
 
 1k + 1 k
 1k + 2 k
@@ -88,8 +88,6 @@ Let’s design a voltage divider to reduce a 9V input down to 3V.
    Connect $R_1$ and $R_2$ in series, apply 9V across the resistors, and measure the voltage across $R_2$. The output should be 3V.
 
 This solution demonstrates how to apply the voltage divider formula to design a circuit with specific voltage requirements.
-
----
 
 ### Related Atomic Ideas:
 
@@ -177,6 +175,7 @@ See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge
  To minimize loading effects, design the voltage divider with much lower resistance values than the expected load resistance. A general rule of thumb is to make the divider current at least 10 times larger than the expected load current.
 
  Designing a voltage divider to minimize loading is like building a sturdy table. Just as a table built with thick, strong legs won't wobble much when weight is added, a voltage divider designed with appropriately low resistances won't change its output much when a load is connected.
+
  Let's design a voltage divider for a 5V input to provide a 2V output to a 100kΩ load:
 
  1) Determine the divider ratio: 2V/5V = 0.4.
