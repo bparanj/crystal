@@ -1,7 +1,5 @@
 Complete steps for:
 
-Capacitor DC Block (see capacitor-dc-block folder)
-Back EMF Demo DC (see back-emf-dc folder)
 Back EMF Demo AC (see back-emf-ac folder)
 
 Capacitor AC Pass (not working ?)
