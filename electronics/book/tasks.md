@@ -2,9 +2,10 @@ Complete steps for:
 7.md (images in capacitor folder)
 Band Pass Filter (images in band-pass-filter folder)
 Capacitor DC Block (see capacitor-dc-block folder)
+Back EMF Demo DC (see back-emf-dc folder)
 
 Back EMF Demo AC
-Back EMF Demo DC
+
 
 
 Capacitor AC Pass (not working ?)
