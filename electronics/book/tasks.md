@@ -1,6 +1,14 @@
-21, 22.md FEEDing required
-How is the current controlled in current controller? See 16.md. How does varying the resistor value affect the amount of current flowing through the circuit. This concept should be a different experiment. This should only focus on the concept: Changing the resistor values does not have any effect of the current value before or after the resistor.
+Back EMF Demo AC
+Back EMF Demo DC
+Capacitor DC Block
+Band Pass Filter
 
+
+Capacitor AC Pass (not working ?)
+
+21, 22.md
+
+How is the current controlled in current controller? See 16.md. How does varying the resistor value affect the amount of current flowing through the circuit. This concept should be a different experiment. This should only focus on the concept: Changing the resistor values does not have any effect of the current value before or after the resistor.
 
 Experiments
 
@@ -12,7 +20,6 @@ transistor-current.md
 
 Design a simple experiment using Tinkercad for light sensor
 Does Tinkercad have temperature sensor
-
 
 
 Compare side by side:
