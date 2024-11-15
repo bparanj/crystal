@@ -44,7 +44,7 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
 
 ---
 
-### Steps to Perform:
+### Steps:
 
 1. Initial Measurements:
    - Set the AC voltage source to 10V RMS at 50Hz.
@@ -60,7 +60,7 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
 
 ---
 
-### Expected Observations:
+### Observations:
 
 1. Voltage Drop:
    - At lower frequencies (\( f = 10Hz \)), the capacitive reactance is higher, causing a greater voltage drop across the capacitor and reducing \( V_{load} \).
@@ -77,7 +77,7 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
 
 ---
 
-### Practical Insights:
+### Insights:
 1. AC Coupling:
    - Series capacitors are often used in audio and signal circuits for AC coupling to block DC components while passing AC signals.
 

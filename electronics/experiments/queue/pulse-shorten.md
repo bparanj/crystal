@@ -43,7 +43,7 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 
 ---
 
-### Steps to Perform:
+### Steps:
 
 1. Set Input Pulse:
    - Configure the pulse generator to produce a square wave with:
@@ -62,7 +62,7 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 
 ---
 
-### Expected Observations:
+### Observations:
 
 1. Pulse Shortening:
    - The output pulse consists only of short spikes at the rising and falling edges of the input pulse. The rest of the pulse is blocked.
@@ -76,7 +76,7 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 
 ---
 
-### Practical Insights:
+### Insights:
 
 1. Differentiation Effect:
    - A series capacitor effectively differentiates the input pulse, highlighting rapid changes (edges).

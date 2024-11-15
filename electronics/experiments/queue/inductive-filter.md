@@ -47,7 +47,7 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 
 ---
 
-### Steps to Perform:
+### Steps:
 
 1. Initial Measurements:
    - Set the AC voltage source to 10V RMS at 50Hz.
@@ -63,7 +63,7 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 
 ---
 
-### Expected Observations:
+### Observations:
 
 1. Voltage Drop:
    - At lower frequencies (\( f = 10Hz \)), \( X_L \) is small, allowing more voltage to reach the load.
@@ -77,7 +77,7 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 
 ---
 
-### Practical Insights:
+### Insights:
 
 1. High-Frequency Decoupling:
    - Series inductors are effective at attenuating high-frequency AC components while allowing low-frequency or DC components to pass.

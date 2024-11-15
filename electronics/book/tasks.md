@@ -1,15 +1,15 @@
 29.md
 
 
-
 Run this next:
 
-
 inverter-circuit.md (Inverter Circuit Demo on personal email account)
+voltage-stabilizer.md
+
 
 Complete steps for:
 
-Capacitor AC Pass (not working ?)
+
 
 21, 22.md
 
@@ -44,8 +44,8 @@ https://www.youtube.com/watch?v=pb0yduMthWE
 
 Review 18.md, 8b.md
 
-- Show that the current through the circuit will be the same. FOR LED + resistor circuit
-- Connect multimeter before and after a resistor to show the current flowing is the same before or after the resistor.
+Capacitor AC Pass (not working ?)
+
 
 Review
 

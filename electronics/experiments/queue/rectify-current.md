@@ -2,9 +2,7 @@
 
 A series diode can rectify current, allowing it to flow only in one direction. This behavior is the basis of rectification, where AC is converted to pulsating DC. The diode blocks the negative half-cycles of an AC signal, effectively filtering out the reverse current.
 
----
-
-### Key Concepts:
+### Concepts:
 
 1. Forward Bias:
    - When the anode is at a higher potential than the cathode, the diode conducts, allowing current to flow.
@@ -15,20 +13,17 @@ A series diode can rectify current, allowing it to flow only in one direction. T
 3. Half-Wave Rectification:
    - A single diode in series with an AC source passes only the positive half-cycles of the AC waveform.
 
----
-
-### Experiment Design for Tinkercad:
+### Experiment for Tinkercad:
 
 #### Components:
+
 1. AC voltage source (\( V_{peak} = 10V, f = 50Hz \)).
 2. Diode (e.g., 1N4148 or 1N4007).
 3. Resistor (Load) (\( R = 1k\Omega \)).
 4. Oscilloscope (to observe the waveform).
 5. Breadboard and wires.
 
----
-
-### Circuit Setup:
+### Setup:
 
 1. Series Diode:
    - Connect the anode of the diode to the positive terminal of the AC voltage source.
@@ -39,9 +34,7 @@ A series diode can rectify current, allowing it to flow only in one direction. T
    - Channel 1: Across the AC source to observe the input signal.
    - Channel 2: Across the resistor to observe the rectified output.
 
----
-
-### Steps to Perform:
+### Steps:
 
 1. Set Input Signal:
    - Configure the AC voltage source to produce a sine wave:
@@ -58,9 +51,7 @@ A series diode can rectify current, allowing it to flow only in one direction. T
 4. Experiment with Load:
    - Change the resistor (\( R = 500\Omega, 1k\Omega \)) and observe changes in the output waveform.
 
----
-
-### Expected Observations:
+### Observations:
 
 1. Rectified Output:
    - The output waveform consists only of the positive half-cycles of the input sine wave.
@@ -74,7 +65,7 @@ A series diode can rectify current, allowing it to flow only in one direction. T
 
 ---
 
-### Practical Insights:
+### Insights:
 
 1. Half-Wave Rectification:
    - Simple rectification technique suitable for low-power applications.

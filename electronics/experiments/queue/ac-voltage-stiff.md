@@ -35,7 +35,7 @@ When a capacitor is connected in parallel with a load in an AC circuit:
 
 ---
 
-### Steps to Perform:
+### Steps:
 
 1. Without Capacitor:
    - Disconnect the capacitor from the circuit.
@@ -51,7 +51,7 @@ When a capacitor is connected in parallel with a load in an AC circuit:
 
 ---
 
-### Expected Observations:
+### Observations:
 
 1. Voltage Stabilization:
    - The RMS voltage across the resistor remains more stable with the capacitor connected, especially if transient fluctuations occur.
@@ -64,7 +64,7 @@ When a capacitor is connected in parallel with a load in an AC circuit:
 
 ---
 
-### Practical Insights:
+### Insights:
 
 1. Capacitor Size:
    - A larger capacitor (\( C \)) provides better stiffening but may delay the response to rapid voltage changes.

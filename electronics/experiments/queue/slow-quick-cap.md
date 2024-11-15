@@ -1,8 +1,6 @@
 The "slowly charging, quickly discharging" behavior is a common characteristic of circuits involving a capacitor and a resistor. This behavior can be achieved using an RC circuit with a diode for asymmetric charge and discharge paths.
 
----
-
-### Key Concept:
+### Concept:
 
 1. Charging Path:
    - When the capacitor charges, it does so through a resistor (\( R_{charge} \)).
@@ -21,11 +19,10 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
 3. Diode Role:
    - A diode ensures the capacitor uses separate paths for charging and discharging by directing the current flow.
 
----
-
 ### Experiment Design for Tinkercad:
 
 #### Components:
+
 1. DC voltage source (\( V_{supply} = 5V \)).
 2. Capacitor (\( C = 100\mu F \)).
 3. Resistors:
@@ -36,9 +33,7 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
 6. Multimeter (to monitor capacitor voltage).
 7. Breadboard and wires.
 
----
-
-### Circuit Setup:
+### Setup:
 
 1. Charging Circuit:
    - Connect the DC voltage source to the capacitor through \( R_{charge} \).
@@ -51,9 +46,7 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
 3. Voltage Measurement:
    - Place the multimeter across the capacitor to monitor its voltage.
 
----
-
-### Steps to Perform:
+### Steps:
 
 1. Charging:
    - Close the circuit to allow the capacitor to charge through \( R_{charge} \).
@@ -67,9 +60,7 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
    - Release the push-button switch to allow the capacitor to charge again.
    - Monitor the difference in charging and discharging times.
 
----
-
-### Expected Observations:
+### Observations:
 
 1. Slow Charging:
    - The capacitor voltage rises gradually, following an exponential curve with a time constant:
@@ -86,9 +77,7 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
 3. Time Constant Comparison:
    - Charging time constant (\( \tau_{charge} = R_{charge} \cdot C \)) is much larger than discharging time constant (\( \tau_{discharge} = R_{discharge} \cdot C \)).
 
----
-
-### Practical Insights:
+### Insights:
 
 1. Applications:
    - This behavior is common in circuits like camera flashes, pulse generators, or debouncing switches.
@@ -98,7 +87,5 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
 
 3. Adjusting Behavior:
    - Modify \( R_{charge} \) and \( R_{discharge} \) to tune the charging and discharging rates.
-
----
 
 This circuit is straightforward to build and simulate in Tinkercad, where you can visualize the capacitor's voltage over time and experiment with different component values.

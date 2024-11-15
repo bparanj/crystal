@@ -75,7 +75,7 @@ Demonstrate how to sum voltages by connecting two DC voltage sources in series.
    - Positive terminal of \( V_1 \) (1a) and Negative terminal of \( V_2 \) (2b).
 
 
-#### Steps to Perform:
+#### Steps:
 1. Set \( V_1 = 5V \) and \( V_2 = 3V \).
 2. Measure the voltage across 1a and 2b.
 3. Record the result.
@@ -120,7 +120,7 @@ Demonstrate how to subtract voltages by connecting two DC voltage sources in ser
 
 ---
 
-#### Steps to Perform:
+#### Steps:
 1. Set \( V_1 = 5V \) and \( V_2 = 3V \).
 2. Measure the voltage across 1b and 2b.
 3. Record the result.

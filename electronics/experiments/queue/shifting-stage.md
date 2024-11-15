@@ -33,7 +33,7 @@ To observe how a resistor in series with a DC voltage source causes a voltage sh
 
 ---
 
-### Steps to Perform:
+### Steps:
 1. Set Initial Conditions:
    - Set the DC voltage source to 5V.
    - Set the current source to supply a constant current, e.g., 1 mA.
@@ -47,7 +47,7 @@ To observe how a resistor in series with a DC voltage source causes a voltage sh
 
 ---
 
-### Expected Observations:
+### Observations:
 1. Voltage Shift:
    - When the current increases, the voltage across the resistor (\( V_R = I \cdot R \)) increases, causing the output voltage to increase (if in series with the positive terminal).
 

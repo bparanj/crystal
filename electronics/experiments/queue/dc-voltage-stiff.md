@@ -50,7 +50,7 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
 
 ---
 
-### Steps to Perform:
+### Steps:
 
 1. Set Input Voltage:
    - Set the DC voltage source to \( V_{in} = 10V \).
@@ -68,7 +68,7 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
 
 ---
 
-### Expected Observations:
+### Observations:
 
 1. Voltage Regulation:
    - When \( V_{in} \) exceeds \( V_Z \), the output voltage clamps at \( V_Z \) (e.g., 5.1V for a 5.1V Zener diode).
@@ -81,7 +81,7 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
 
 ---
 
-### Practical Insights:
+### Insights:
 
 1. Current-Limiting Resistor:
    - The resistor \( R_s \) must be sized to ensure the Zener diode does not exceed its maximum power rating:

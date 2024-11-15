@@ -46,7 +46,7 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 
 ---
 
-### Steps to Perform:
+### Steps:
 
 1. Set Input Signal:
    - Configure the AC voltage source to produce a sine wave:
@@ -64,7 +64,7 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 
 ---
 
-### Expected Observations:
+### Observations:
 
 1. Voltage Clamping:
    - During the positive half-cycle, when the input voltage exceeds \( V_f \), the diode conducts, clamping the voltage across the load to:
@@ -80,7 +80,7 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 
 ---
 
-### Practical Insights:
+### Insights:
 
 1. Overvoltage Protection:
    - This configuration protects components by limiting excessive positive voltages.

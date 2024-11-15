@@ -48,7 +48,7 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 
 ---
 
-### Steps to Perform:
+### Steps:
 
 #### Charging to Maximal Value:
 1. Close the circuit to allow the capacitor to charge.
@@ -64,7 +64,7 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 
 ---
 
-### Expected Observations:
+### Observations:
 
 1. Charging:
    - The capacitor voltage increases exponentially, reaching 63% of \( V_{supply} \) after one time constant (\( \tau \)) and almost \( V_{supply} \) after \( 5\tau \).
@@ -77,7 +77,7 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 
 ---
 
-### Practical Insights:
+### Insights:
 
 1. Maximal Voltage:
    - The capacitor cannot exceed \( V_{supply} \), making it predictable for use in energy storage and smoothing circuits.

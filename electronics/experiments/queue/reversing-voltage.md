@@ -40,7 +40,7 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 
 ---
 
-### Steps to Perform:
+### Steps:
 
 1. Set Input Signal:
    - Configure the pulse generator to produce a square wave with:
@@ -59,7 +59,7 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 
 ---
 
-### Expected Observations:
+### Observations:
 
 1. Polarity Reversals:
    - At the rising edge of the input DC pulse, the output voltage spikes positive.
@@ -75,7 +75,7 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 
 ---
 
-### Practical Insights:
+### Insights:
 
 1. Edge Detection:
    - This method is used for edge detection in signal processing and timing circuits.

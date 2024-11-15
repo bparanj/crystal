@@ -2,9 +2,7 @@
 
 A series diode can limit voltage in a circuit by exploiting its forward voltage drop (\(V_f\)) and conducting only when the input voltage exceeds this threshold. This behavior is commonly used to protect sensitive components from overvoltage.
 
----
-
-### Key Concepts:
+### Concepts:
 
 1. Forward Voltage Drop (\(V_f\)):
    - A silicon diode typically has a \(V_f \approx 0.7V\).
@@ -18,18 +16,15 @@ A series diode can limit voltage in a circuit by exploiting its forward voltage 
    - Protecting circuits from voltage spikes.
    - Ensuring voltage does not exceed a safe level for sensitive components.
 
----
-
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
+
 1. AC voltage source (\( V_{peak} = 5V, f = 50Hz \)).
 2. Diode (e.g., 1N4148 or Schottky diode).
 3. Resistor (Load) (\( R = 1k\Omega \)).
 4. Oscilloscope (to observe the waveform).
 5. Breadboard and wires.
-
----
 
 ### Circuit Setup:
 
@@ -42,9 +37,7 @@ A series diode can limit voltage in a circuit by exploiting its forward voltage 
    - Channel 1: Across the AC voltage source to observe the input waveform.
    - Channel 2: Across the resistor to observe the output waveform.
 
----
-
-### Steps to Perform:
+### Steps
 
 1. Set Input Signal:
    - Configure the AC voltage source to produce a sine wave:
@@ -60,9 +53,7 @@ A series diode can limit voltage in a circuit by exploiting its forward voltage 
 4. Experiment with Diode Types:
    - Replace the diode with a Schottky diode and observe the effect on the output waveform.
 
----
-
-### Expected Observations:
+### Observations:
 
 1. Forward Limiting:
    - During the positive half-cycle of the input, the diode conducts once the voltage exceeds \( V_f \), limiting the output to:
@@ -76,9 +67,7 @@ A series diode can limit voltage in a circuit by exploiting its forward voltage 
 3. Diode Type Effect:
    - A Schottky diode reduces the voltage drop to \( \approx 0.3V \), limiting the output less compared to a silicon diode.
 
----
-
-### Practical Insights:
+### Insights:
 
 1. Voltage Protection:
    - Series diodes are commonly used to protect circuits by limiting voltage spikes.
@@ -88,7 +77,5 @@ A series diode can limit voltage in a circuit by exploiting its forward voltage 
 
 3. Applications:
    - Overvoltage protection in power supplies and signal conditioning.
-
----
 
 This experiment can be simulated in Tinkercad, where you can visualize how the diode limits the voltage and experiment with different diodes to observe their effects on the output waveform.

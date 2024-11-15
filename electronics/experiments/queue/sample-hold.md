@@ -1,7 +1,5 @@
 The paradox of a sample & hold circuit arises from the behavior of the sampling capacitor and its interaction with the voltage source. The issue lies in how the circuit imposes demands on the voltage source that can lead to instability or inaccuracies. Here’s the explanation:
 
----
-
 ### The Paradox: Voltage Source and Capacitor Mismatch
 
 1. What Voltage Sources "Like" and "Hate":
@@ -26,8 +24,6 @@ The paradox of a sample & hold circuit arises from the behavior of the sampling 
    - The sample & hold circuit is designed to provide accurate voltage sampling and holding.
    - However, the very act of sampling can disturb the input voltage source, leading to inaccuracies and defeating the purpose of the circuit.
 
----
-
 ### Resolution of the Paradox
 
 1. Add a Decoupling Capacitor:
@@ -42,7 +38,4 @@ The paradox of a sample & hold circuit arises from the behavior of the sampling 
 4. Buffer the Input Signal:
    - Use a high-speed op-amp as a buffer before the sampling switch to isolate the voltage source from the capacitor's current demands.
 
----
-
-### Summary
 The paradox in a sample & hold circuit lies in the current spikes required to charge the sampling capacitor during the sampling phase, which voltage sources "hate." This can lead to voltage instability and inaccuracies. The issue is resolved by adding decoupling capacitors, buffering the input, or limiting the charge rate to reduce the impact on the voltage source.
