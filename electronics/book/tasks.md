@@ -1,9 +1,11 @@
-inverter-circuit.md (Inverter Circuit Demo on personal email account)
+29.md
+
 
 
 Run this next:
-RC Delay Timer
-RC Phase Shift
+
+
+inverter-circuit.md (Inverter Circuit Demo on personal email account)
 
 Complete steps for:
 

@@ -1,3 +1,37 @@
+Difficult with Tinkercad. Skip it.
+
+Here is the step-by-step setup for your RC circuit with clear terminal connections:
+
+### Step 1: Connect the Resistor to the AC Power Source
+- Take the **AC power source** and identify its **positive terminal (P)** and **negative terminal (N)**.
+- Connect one terminal of the **resistor (R)** (e.g., terminal **R1**) to the **positive terminal (P)** of the AC power source.
+
+### Step 2: Connect the Resistor to the Capacitor
+- Connect the other terminal of the **resistor (R)** (e.g., terminal **R2**) to one terminal of the **capacitor (C)** (e.g., terminal **C1**).
+
+### Step 3: Complete the RC Circuit
+- Connect the other terminal of the **capacitor (C)** (e.g., terminal **C2**) to the **negative terminal (N)** of the AC power source.
+
+### Step 4: Add the First LED (Across the Resistor)
+- Take an LED (LED1):
+  - Connect the **anode (A1)** of LED1 to **R1** (resistor terminal connected to the positive terminal of the AC power source).
+  - Connect the **cathode (K1)** of LED1 to **R2** (resistor terminal connected to the capacitor).
+
+
+### Step 5: Add the Second LED (Across the Capacitor)
+- Take another LED (LED2):
+  - Connect the **anode (A2)** of LED2 to **C1** (capacitor terminal connected to the resistor).
+  - Connect the **cathode (K2)** of LED2 to **C2** (capacitor terminal connected to the negative terminal of the AC power source).
+
+
+### Summary of Connections
+1. **Resistor (R)**: \( R1 \to P \) and \( R2 \to C1 \).
+2. **Capacitor (C)**: \( C1 \to R2 \) and \( C2 \to N \).
+3. **LED1 (Across Resistor)**: \( A1 \to R1 \), \( K1 \to R2 \).
+4. **LED2 (Across Capacitor)**: \( A2 \to C1 \), \( K2 \to C2 \).
+
+With this setup, the LEDs will indicate the voltage across the resistor (LED1, proportional to current) and the capacitor (LED2, showing voltage across it).
+
 To demonstrate the voltage-current phase shift using an RC (Resistor-Capacitor) circuit in Tinkercad, you can set up a simple AC circuit. While Tinkercad doesn’t directly show phase shift with oscilloscopes, you can observe the effect by using LEDs to show the charging and discharging behavior.
 
 ### Objective:
@@ -49,3 +83,4 @@ In this RC phase shift experiment:
 - Capacitor: Represents the voltage phase.
 
 This difference in the behavior of the LEDs shows the phase shift between current and voltage in the RC circuit.
+
