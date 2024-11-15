@@ -1,5 +1,9 @@
 Cannot be done in Tinkercad
 
+PENDING
+
+Move to out of scope folder
+
 Objective:
 
 Demonstrate how a capacitor can be used to filter signals by blocking DC components and allowing AC components to pass.

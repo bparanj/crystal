@@ -2,9 +2,8 @@
 
 Connecting a capacitor in series with an AC voltage source shifts the voltage across a load due to the capacitor’s reactance (\(X_C\)), which depends on the frequency of the AC signal and the capacitor's value. This property can cause a phase shift between the current and voltage, and the voltage across the load will no longer align perfectly with the source voltage.
 
----
+### Concepts:
 
-### Key Concepts:
 1. Capacitive Reactance (\(X_C\)):
    - The capacitor introduces impedance that depends on the frequency (\(f\)) of the AC signal:
      \[
@@ -19,8 +18,6 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
 3. Phase Shift:
    - A capacitor causes a phase shift of 90° between current and voltage, with current leading voltage.
 
----
-
 ### Experiment Design for Tinkercad:
 
 #### Components:
@@ -31,9 +28,7 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
 5. Multimeter (to measure RMS voltage across the load).
 6. Breadboard and connecting wires.
 
----
-
-### Circuit Setup:
+### Setup:
 1. Connect the AC voltage source to the breadboard.
 2. Insert the capacitor (\( C \)) in series with the AC voltage source.
 3. Connect a resistor (\( R \)) as the load in series with the capacitor.
@@ -42,7 +37,6 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
    - Across the resistor to observe the output voltage.
 5. Optionally, connect a multimeter across the resistor to measure the RMS voltage.
 
----
 
 ### Steps:
 
@@ -58,8 +52,6 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
 3. Observe Phase Shift:
    - Compare the phase of the voltage across the load with the input voltage on the oscilloscope.
 
----
-
 ### Observations:
 
 1. Voltage Drop:
@@ -74,8 +66,6 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
      \[
      V_{load} = V_{source} \cdot \frac{Z_{load}}{\sqrt{X_C^2 + Z_{load}^2}}
      \]
-
----
 
 ### Insights:
 1. AC Coupling:

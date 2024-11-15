@@ -1,7 +1,5 @@
 This phenomenon arises from the context of how conductors and resistors behave under different conditions. In certain circuits, conductors can exhibit resistance, while resistors may effectively act as conductors depending on factors like temperature, current, and frequency. Here’s an explanation with examples:
 
----
-
 ### Conductors Acting as Resistors
 In some cases, materials we typically consider conductors (like copper or aluminum) exhibit significant resistance due to certain conditions, effectively acting as resistors.
 
@@ -17,8 +15,6 @@ In some cases, materials we typically consider conductors (like copper or alumin
 3. Overheating Conductors:
    - When conductors carry excessive current, they can overheat, increasing their resistance due to the temperature coefficient of resistivity.
    - This can lead to a situation where the conductor behaves more like a resistor, reducing efficiency and causing further heating.
-
----
 
 ### Resistors Acting as Conductors
 Resistors are designed to limit current, but in some scenarios, they can act as conductors with minimal resistance.
@@ -36,8 +32,6 @@ Resistors are designed to limit current, but in some scenarios, they can act as 
    - Certain resistors, like Positive Temperature Coefficient (PTC) thermistors, have resistance that decreases as temperature rises initially.
    - At lower temperatures, these resistors act almost like conductors, allowing current to flow with little restriction.
 
----
-
 ### Explanation of the Paradox
 
 #### Context-Dependent Behavior:
@@ -52,8 +46,6 @@ Resistors are designed to limit current, but in some scenarios, they can act as 
 3. Dynamic Behavior:
    - The behavior of both conductors and resistors can change dynamically with operating conditions, such as temperature changes, high-frequency effects, and excessive current flow.
 
----
-
 ### Circuits Exhibiting These Behaviors
 1. Power Distribution Lines:
    - Conductors in power lines act as resistors over long distances, causing power losses due to their resistance.
@@ -64,14 +56,9 @@ Resistors are designed to limit current, but in some scenarios, they can act as 
 3. High-Frequency Transmission Lines:
    - Skin effect causes conductors to act as resistors, impacting signal integrity at high frequencies.
 
----
-
-### Summary:
 The paradox occurs because conductors can show resistive behavior under certain physical or environmental conditions, and resistors can act as conductors in specific applications or extreme conditions. This behavior depends on the circuit context and operating conditions.
 
 Here are two simple experiments to demonstrate the concept where conductors act as resistors and resistors act as conductors under specific conditions:
-
----
 
 ### Experiment 1: Conductor Acting as a Resistor
 
@@ -98,8 +85,6 @@ To show that even a good conductor (wire) can exhibit resistance, especially wit
 3. Explanation:
    - The long wire introduces measurable resistance, causing a voltage drop that dims the LED, effectively making the conductor act as a resistor.
 
----
-
 ### Experiment 2: Resistor Acting as a Conductor
 
 #### Objective:
@@ -123,8 +108,6 @@ To show that a low-value resistor can behave similarly to a conductor by allowin
 
 3. Explanation:
    - The low resistance of the 1 Ω resistor allows nearly unrestricted current flow, making it behave like a conductor. The LED brightness is nearly unaffected, showing that the resistor is acting as a conductor in this context.
-
----
 
 ### Summary of Experiments:
 - Experiment 1 (Conductor as Resistor): Demonstrates that a long wire introduces measurable resistance, affecting current flow.

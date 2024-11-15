@@ -1,7 +1,5 @@
 The paradox of a common-base amplifier lies in the relationship between the input impedance and the behavior of the voltage source driving the circuit. Specifically, the very low input impedance of the common-base configuration creates a conflict with the voltage source. Here’s the explanation:
 
----
-
 ### The Paradox: Voltage Source and Low Input Impedance
 
 1. What Voltage Sources "Like" and "Hate":
@@ -24,8 +22,6 @@ The paradox of a common-base amplifier lies in the relationship between the inpu
    - The common-base amplifier is prized for its high gain and wide bandwidth.
    - However, its low input impedance, which is key to its operation, makes it problematic for voltage sources or prior stages that struggle to drive such loads.
 
----
-
 ### Resolution of the Paradox
 
 1. Impedance Matching:
@@ -40,7 +36,4 @@ The paradox of a common-base amplifier lies in the relationship between the inpu
 4. Optimize the Voltage Source:
    - Use a low-impedance voltage source capable of supplying the required current without instability.
 
----
-
-### Summary
 The paradox in a common-base amplifier arises from its low input impedance, which voltage sources "hate" due to the high current demand. This impedance mismatch can cause instability or performance degradation. The issue is resolved by impedance matching, using a current source, or optimizing the voltage source to handle the low-impedance load effectively.

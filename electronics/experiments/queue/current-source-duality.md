@@ -1,7 +1,5 @@
 This phenomenon arises because certain electronic components and circuits can switch between acting as current sources or loads, depending on their operating conditions. Here’s a detailed explanation with examples:
 
----
-
 ### Current Sources Acting as Loads
 A current source can act as a load when connected to another current source or power-providing circuit. In this case, the "current source" sinks energy from the other circuit.
 
@@ -11,13 +9,11 @@ A current source can act as a load when connected to another current source or p
    - However, the transistor’s base also draws a small current from the driving circuit, acting as a load for the signal source.
 
 2. Current Mirrors:
-   - A current mirror replicates a reference current by sourcing or sinking current. 
+   - A current mirror replicates a reference current by sourcing or sinking current.
    - One branch of the current mirror sources current to a load, but the reference branch sinks current from a power supply, effectively acting as a load.
 
 3. Constant Current LED Drivers:
    - While these circuits regulate current to the LEDs (acting as current sources), they draw current from the power supply, acting as loads in the overall system.
-
----
 
 ### Loads Acting as Current Sources
 Certain loads can behave as current sources when they store and release energy or when their behavior in the circuit mimics a constant current output.
@@ -35,8 +31,6 @@ Certain loads can behave as current sources when they store and release energy o
    - A solar cell can act as a load when connected to a current-limited source (e.g., during maximum power point tracking) to absorb energy.
    - However, it acts as a current source when delivering energy to a load under illumination.
 
----
-
 ### Explanation of the Paradox
 
 #### Energy Flow Defines Roles:
@@ -49,8 +43,6 @@ Certain loads can behave as current sources when they store and release energy o
 - Components like transistors, inductors, capacitors, and even active devices can switch between sourcing and sinking current depending on their circuit role.
 - The key is that loads do not always consume energy, and current sources do not always provide energy.
 
----
-
 ### Circuits Exhibiting These Behaviors:
 
 1. Amplifier Circuits:
@@ -62,15 +54,9 @@ Certain loads can behave as current sources when they store and release energy o
 3. Regenerative Braking Circuits:
    - Motors (acting as inductive loads) become current sources during regenerative braking, delivering current back to the battery.
 
----
-
-### Summary:
-
 The "paradox" is explained by the fact that roles in electronics are dynamic and context-dependent, determined by energy flow and the operating conditions of components. Loads can temporarily supply current, and current sources can absorb energy, demonstrating the flexible roles components play in circuits.
 
 Here are two simple experiments to demonstrate the **dual nature** of circuits where current sources can act as loads and loads can act as current sources:
-
----
 
 ### **Experiment 1: Inductor as Load and Current Source**
 
@@ -97,8 +83,6 @@ To show how an inductor can act as a load when storing energy and as a current s
    - Add an LED in parallel with a diode across the inductor, with the diode's cathode connected to the inductor's positive terminal.
    - Open the switch. The inductor will release its stored energy, and the LED will light up briefly, demonstrating the inductor acting as a **current source**.
 
----
-
 ### **Experiment 2: Capacitor as Load and Current Source**
 
 #### Objective:
@@ -121,13 +105,9 @@ To show how a capacitor can act as a load when charging and as a current source 
    - Add an LED across the resistor.
    - Observe the LED lighting up briefly as the capacitor discharges. The capacitor is acting as a **current source** by providing current to the LED.
 
----
-
-### Key Observations:
+### Observations:
 1. In both experiments, the **inductor** and **capacitor** transition between acting as loads and current sources depending on whether they are storing or releasing energy.
 2. The LED lighting up demonstrates the component acting as a current source, while the initial charging process shows it acting as a load.
-
----
 
 ### Explanation:
 - **Inductor Behavior:**
@@ -137,8 +117,6 @@ To show how a capacitor can act as a load when charging and as a current source 
 - **Capacitor Behavior:**
   - Acts as a load when storing charge.
   - Acts as a current source when discharging through a load.
-
----
 
 These experiments can also be simulated in **Tinkercad** for easier observation and experimentation.
 

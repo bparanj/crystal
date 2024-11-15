@@ -1,27 +1,36 @@
-30.md
-
+8 seems to be incomplete
 
 Run this next:
 
 voltage-stabilizer.md
 
+Next experiments:
 
-Complete steps for:
+current source.md
+current source duality
+capacitive-integrator.md
+amplifier-attenuate.md
+ac-voltage-stiff.md
+ac-voltage-shift.md
+capacitive-voltage-divider.md
+capacitor-parallel.md
+capacitor-series.md
 
-21, 22.md
+
+Questions:
+
+bypass-capacitor.md
 
 How is the current controlled in current controller? See 16.md. How does varying the resistor value affect the amount of current flowing through the circuit. This concept should be a different experiment. This should only focus on the concept: Changing the resistor values does not have any effect of the current value before or after the resistor.
 
 Experiments
 
-bypass-capacitor.md
-voltage-doubler.md
+voltage-doubler.md (This needs the transistor oscillator to be completed first)
 transistor-oscillator.md
 transistor-current.md
 
 Design a simple experiment using Tinkercad for light sensor
 Does Tinkercad have temperature sensor
-
 
 Compare side by side:
 
@@ -31,7 +40,6 @@ Review electronics/design/oscilloscope.md. Condense the notes.
 Review function-generator.md. Condense the notes.
 
 Positive Clamper - Watch videos. Break down into smaller experiments.
-
 
 Time constant of capacitor:
 

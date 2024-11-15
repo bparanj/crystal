@@ -98,10 +98,16 @@ To demonstrate a bypass capacitor we can create a circuit that shows how it stab
 1. Set Up the Power and Load Circuit:
    - Connect the 9V DC battery as the power source.
    - Create a simple load circuit with an NPN transistor and resistor to simulate a device that switches on and off, causing fluctuations on the power rail.
+
+   THIS IS NOT CLEAR. HOW?
+
    - Connect the emitter of the NPN transistor to ground, the collector to a 1kΩ resistor, and the other end of the resistor to the positive terminal of the battery.
 
 2. Add the Signal Generator:
    - Connect the signal generator to the base of the transistor with a small current-limiting resistor (e.g., 10kΩ). Set the signal generator to output a 100 Hz square wave (5V amplitude) to toggle the transistor on and off.
+
+   Which terminal of the signal generator is connected to the base? Which temrinal is connected to the reistor? NOT CLEAR
+
    - This setup will create voltage fluctuations on the power line as the transistor switches, mimicking noise.
 
 3. Place the Bypass Capacitor:

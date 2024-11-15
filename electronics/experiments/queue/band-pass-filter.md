@@ -3,6 +3,7 @@ A band-pass filter experiment using a simple RC-RC band-pass filter. This filter
 PENDING
 
 Find a circuit diagram online
+Merge with 24.md
 
 ### Objective
 
@@ -49,11 +50,11 @@ Yes, seeing a sawtooth-like output from a square wave input suggests that your b
 
 1. Square Wave Composition:
    - A square wave consists of a fundamental frequency and a series of odd harmonics (higher frequencies).
-   
+
 2. Band-Pass Filtering Action:
    - The high-pass filter removes the DC component and very low frequencies, which smooths out the flat parts of the square wave.
    - The low-pass filter attenuates higher harmonics, which normally create the sharp transitions in a square wave.
-   
+
 3. Resulting Sawtooth Shape:
    - With only the mid-range harmonics passing through, the sharp edges of the square wave are softened.
    - This creates the rounded, sawtooth-like shape in the output, as the filter has smoothed out the waveform by removing extreme high and low frequencies.
@@ -66,7 +67,7 @@ With a square wave input and the observed curvy sawtooth output, your circuit's 
 
 1. Square Wave Input:
    - A square wave is composed of a fundamental frequency plus many higher-frequency harmonics.
-   
+
 2. Band-Pass Filtering:
    - The high-pass filter stage removes lower frequencies below its cutoff, including the DC component and some lower harmonics.
    - The low-pass filter stage removes frequencies above its cutoff, reducing higher harmonics.
@@ -80,7 +81,7 @@ With a square wave input and the observed curvy sawtooth output, your circuit's 
 #### 2. Oscilloscope Time per Division Setting:
    - For the input square wave, set the time per division to 500 μs or 200 μs. This setting will let you see 2–5 cycles of the square wave clearly.
    - For the output (curvy sawtooth), use the same time per division as the input, starting with 500 μs per division.
-   
+
 If you want to analyze one cycle in detail, set a longer time per division (e.g., 1 ms per division). This setup will help visualize how the filter stages are shaping each transition of the square wave into the sawtooth pattern.
 
 To set the time per division for the input and output oscilloscopes, you should base it on the frequency of the signal and the behavior of the filter.

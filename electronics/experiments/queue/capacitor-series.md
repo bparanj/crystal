@@ -126,7 +126,7 @@ To show that when two capacitors are connected in series, the total capacitance 
 
 4. Add a Switch to Control Charging and Discharging:
    - Place a switch between the positive rail and the capacitors, allowing you to control when the capacitors are connected to the battery and start charging.
-   
+
 5. Attach a Multimeter (Optional):
    - Set up a multimeter in Tinkercad to measure the voltage across both capacitors. This helps you observe the charging behavior more precisely.
 
@@ -156,6 +156,5 @@ This lower capacitance means that the capacitors store less total charge for the
 
 - Reduced Total Capacitance: The two capacitors in series result in a total capacitance that is lower than each individual capacitor, meaning the circuit will store less energy.
 - Faster Charging and Discharging: Due to the reduced capacitance, the capacitors charge and discharge faster than a single capacitor of 100 µF would.
-
 
 This experiment demonstrates that connecting capacitors in series reduces the total capacitance, which affects the charging and discharging time of an RC circuit. In practical circuits, series capacitors are used to reduce capacitance or increase voltage tolerance.

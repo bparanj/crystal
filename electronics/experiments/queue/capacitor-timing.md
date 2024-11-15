@@ -1,5 +1,7 @@
 an experiment that demonstrates how a capacitor can be used for timing in electronic circuits using a simple LED flasher circuit.
+PENDING
 
+Move to out of scope folder
 
 ```python
 import numpy as np
@@ -14,12 +16,12 @@ def calculate_timing(R, C):
     tau = R * C  # Time constant
     charge_time = 5 * tau  # Time to fully charge (5 time constants)
     frequency = 1 / (2 * charge_time)  # Oscillation frequency
-    
+
     # Calculate voltage over time
     t = np.linspace(0, charge_time, 1000)
     v_charge = 9 * (1 - np.exp(-t / tau))
     v_discharge = 9 * np.exp(-t / tau)
-    
+
     return {
         'tau': tau,
         'charge_time': charge_time,

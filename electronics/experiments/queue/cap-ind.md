@@ -6,8 +6,6 @@
 - Energy Behavior:
   - Capacitors and inductors alternately store and release energy in AC circuits. This oscillation of energy between electric and magnetic fields does not result in dissipation but can lead to energy transfer within the circuit.
 
----
-
 ### What Do Capacitors and Inductors Really Do?
 1. Capacitors:
    - Store Energy: Temporarily store charge in an electric field.
@@ -19,8 +17,6 @@
    - Oppose Current Changes: Resist changes in current, smoothing or filtering fluctuations.
    - Introduce Phase Shift: Cause voltage to lead current by 90° in pure inductive loads.
 
----
-
 ### Do Passive and Active Circuits Dissipate Energy?
 - Passive Circuits:
   - Dissipate Energy: Yes, some passive components like resistors dissipate energy as heat due to resistance (\( P = I^2 R \)).
@@ -30,16 +26,12 @@
   - Dissipate Energy: Yes, active components like transistors and op-amps dissipate energy as heat due to internal resistances and inefficiencies.
   - External Power Source: Active circuits draw energy from an external source and dissipate some of it during signal amplification or processing.
 
----
-
 ### Energy Dissipation vs. Energy Transformation
 - Resistors: Only dissipate energy as heat.
 - Capacitors and Inductors: Store and transfer energy without dissipation, but some energy may be dissipated indirectly in resistive components of practical circuits.
 - Active Circuits: Draw energy from external sources, transforming it to perform useful functions like amplification, but also dissipate energy in the process.
 
----
-
-### Key Takeaways
+### Takeaways
 1. Capacitors and Inductors:
    - Do not dissipate energy but store and release it dynamically.
 2. Passive Circuits:

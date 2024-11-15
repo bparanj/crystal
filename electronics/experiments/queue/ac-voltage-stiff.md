@@ -5,14 +5,10 @@ A parallel capacitor in an AC circuit helps stabilize or "stiffen" the AC voltag
 1. Store Energy: A capacitor stores energy during voltage peaks and releases it during voltage drops, smoothing the voltage waveform.
 2. React to AC Signals: The capacitive reactance (\(X_C\)) decreases at higher frequencies, making the capacitor more effective in filtering high-frequency noise.
 
----
-
-### Key Concept:
+### Concept:
 When a capacitor is connected in parallel with a load in an AC circuit:
 - It provides a low-impedance path for high-frequency signals.
 - It helps maintain a steady voltage across the load by compensating for momentary drops in supply voltage.
-
----
 
 ### Experiment Design for Tinkercad:
 
@@ -24,16 +20,12 @@ When a capacitor is connected in parallel with a load in an AC circuit:
 5. Oscilloscope (to observe voltage waveform with and without the capacitor).
 6. Breadboard and connecting wires.
 
----
-
-#### Circuit Setup:
+#### Setup:
 1. Connect the AC voltage source to the breadboard.
 2. Connect a resistor (\( R \)) as a load across the AC voltage source terminals.
 3. Connect a capacitor (\( C \)) in parallel with the resistor (across the same terminals).
 4. Connect a multimeter across the resistor to measure the RMS voltage.
 5. Optionally, connect an oscilloscope across the resistor to observe voltage waveforms.
-
----
 
 ### Steps:
 
@@ -49,8 +41,6 @@ When a capacitor is connected in parallel with a load in an AC circuit:
    - Observe the voltage waveform on the oscilloscope.
    - Compare the voltage readings and waveform stability with and without the capacitor.
 
----
-
 ### Observations:
 
 1. Voltage Stabilization:
@@ -61,8 +51,6 @@ When a capacitor is connected in parallel with a load in an AC circuit:
 
 3. Reduced Voltage Drop:
    - During transient current spikes (e.g., if the load momentarily draws more current), the capacitor helps maintain voltage by discharging.
-
----
 
 ### Insights:
 

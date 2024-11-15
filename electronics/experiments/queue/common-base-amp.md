@@ -1,8 +1,6 @@
 The idea that a common-base amplifier is a "reversed" common-collector amplifier (emitter follower) stems from their symmetrical operation but opposite roles in signal handling. Here’s how we resolve this apparent paradox:
 
----
-
-### Key Characteristics of Each Configuration
+### Characteristics of Each Configuration
 
 #### Common-Base Amplifier (CBA):
 - Input: Applied to the emitter.
@@ -22,8 +20,6 @@ The idea that a common-base amplifier is a "reversed" common-collector amplifier
   - Low output impedance: The emitter directly drives the load, providing a low-impedance output.
   - Current Amplifier: It amplifies current while maintaining unity voltage gain.
 
----
-
 ### How They Are Opposite Yet Symmetrical
 
 1. Signal Path:
@@ -42,8 +38,6 @@ The idea that a common-base amplifier is a "reversed" common-collector amplifier
    - The CBA has inherently high bandwidth due to the low impedance at its input.
    - The CCA has limited bandwidth because of the high input impedance and capacitance at the base.
 
----
-
 ### Explaining the Paradox
 
 1. Symmetrical Nature:
@@ -59,10 +53,6 @@ The idea that a common-base amplifier is a "reversed" common-collector amplifier
    - The signal input/output locations and impedance characteristics are reversed:
      - In the CBA, the input is low-impedance, and the output is high-impedance.
      - In the CCA, the input is high-impedance, and the output is low-impedance.
-
----
-
-### Conclusion
 
 The common-base amplifier and the common-collector amplifier are not literal reversals but mirror images in function and operation:
 - One emphasizes voltage gain (CBA), while the other emphasizes current buffering and impedance matching (CCA).

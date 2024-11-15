@@ -2,7 +2,7 @@ To demonstrate the concept of a capacitor smoothing voltage fluctuations as a de
 
 PENDING
 
-Is this already done?
+What should be the value of the time per division in the oscilloscope to see the noise in the output when capacitor is not yet connected? The frequency is set to 1 Hz.
 
 ### Objective
 
