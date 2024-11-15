@@ -1,0 +1,74 @@
+A basic inverter (NOT gate) circuit that can be simulated in Tinkercad.
+
+```mermaid
+graph LR
+    VCC["+5V"] --> R1["R1\n1kΩ"]
+    R1 --> C[Collector]
+    C --> Output["Output"]
+    Input["Input"] --> R2["R2\n10kΩ"]
+    R2 --> B[Base]
+    E[Emitter] --> GND["Ground"]
+    
+    subgraph Q1[NPN Transistor]
+        B
+        C
+        E
+    end
+
+    style VCC fill:#f99,stroke:#333
+    style GND fill:#999,stroke:#333
+    style Q1 fill:#cfc,stroke:#333
+    style Input fill:#9cf,stroke:#333
+    style Output fill:#9cf,stroke:#333
+```
+
+This is a simple transistor-based inverter circuit that you can build in Tinkercad. Here's how to set it up:
+
+Components:
+
+1. 1x NPN transistor (2N3904)
+2. 1x 1kΩ resistor (R1)
+3. 1x 10kΩ resistor (R2)
+4. 5V power supply
+5. Breadboard
+6. Connecting wires
+
+How it works:
+
+- When the input is LOW (0V), the transistor is OFF, and the output is HIGH (≈5V)
+- When the input is HIGH (5V), the transistor turns ON, and the output is LOW (≈0V)
+
+Steps:
+
+1. Place a breadboard
+2. Connect the 5V power supply to the power rail
+3. Place the NPN transistor
+4. Connect R1 (1kΩ) from 5V to the collector
+5. Connect R2 (10kΩ) from input to the base
+6. Connect the emitter to ground
+7. Take the output from the collector
+
+Ah, yes! Let me explain what's happening:
+
+1. When R2 is connected to ground or left unconnected (floating):
+   - The transistor's base doesn't receive enough voltage to turn ON
+   - The transistor stays OFF (like an open switch)
+   - Current flows through R1 → LED → R3 → Ground
+   - So the LED stays ON
+
+2. When R2 is connected to 5V (positive):
+   - The transistor's base receives voltage through R2
+   - The transistor turns ON (like a closed switch)
+   - The collector-emitter path becomes almost a short circuit
+   - Most current flows through R1 → transistor → ground (bypassing the LED)
+   - So the LED turns OFF
+
+This is normal behavior because:
+- The transistor's base-emitter junction needs about 0.7V to conduct
+- When floating or grounded, this voltage isn't reached
+- The high-value resistor R2 (10kΩ) also helps prevent any stray voltage from accidentally turning on the transistor
+
+So you're seeing the correct operation of the inverter:
+- Input HIGH (5V) → Output LOW (LED OFF)
+- Input LOW (0V or floating) → Output HIGH (LED ON)
+

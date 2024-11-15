@@ -70,7 +70,6 @@
 An experiment to demonstrate how bypass capacitors filter out noise and stabilize voltage can be set up using basic components in Tinkercad. The experiment will show how a bypass capacitor helps maintain steady voltage when there are sudden changes in current draw.
 
 
-
 This experiment demonstrates three key bypass capacitor functions:
 1. Noise reduction during switching
 2. Voltage stabilization during current changes
@@ -119,3 +118,29 @@ To demonstrate a bypass capacitor we can create a circuit that shows how it stab
 - When the bypass capacitor is added, the oscilloscope will show a smoother voltage with reduced ripple, as the capacitor filters out the high-frequency noise from the switching transistor.
 
 The bypass capacitor provides a quick source of current when the load switches, reducing voltage fluctuations on the power line by shorting high-frequency noise to ground. This demonstrates the capacitor's function as a bypass capacitor, stabilizing power and protecting sensitive components.
+
+In this bypass capacitor experiment, multiple components are needed to simulate power line fluctuations and observe how a bypass capacitor stabilizes the voltage. Here’s why each component is used:
+
+1. DC Power Supply (5V):
+   - Provides the main voltage for the circuit.
+
+2. Ceramic Capacitor (0.1µF):
+   - Acts as the bypass capacitor. This capacitor will smooth out the fluctuations on the power line by providing a low-impedance path to ground for high-frequency noise.
+
+3. Two LEDs:
+   - Used to visually indicate power line fluctuations. Each LED can show changes in voltage when the buttons are pressed, creating variations that the capacitor will help stabilize.
+
+4. Two Push Buttons:
+   - Used to create on/off switching of the LEDs, simulating load changes on the power rail. When pressed, the buttons cause fluctuations on the 5V line that the bypass capacitor will counteract.
+
+5. Two Resistors (220Ω):
+   - Current-limiting resistors for the LEDs to prevent excessive current from damaging them. Each LED needs its own resistor to ensure safe operation.
+
+6. Digital Oscilloscope:
+   - Allows you to monitor the power line voltage with and without the capacitor connected, so you can observe the capacitor’s effect on smoothing out fluctuations.
+
+### Purpose of Multiple LEDs, Resistors, and Buttons
+
+By using two LEDs and two push buttons, you create multiple points of load fluctuation on the power line. This increases the demand for stabilization, making the bypass capacitor’s effect more noticeable. Each button press causes a small voltage dip due to the LED turning on and drawing current, simulating real-life noise on the power supply rail. The capacitor works to smooth out these variations.
+
+This setup is designed to demonstrate how a bypass capacitor stabilizes a power line under fluctuating loads, and each component contributes to creating and observing that effect.
