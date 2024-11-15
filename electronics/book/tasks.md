@@ -1,6 +1,5 @@
 29.md
 30.md
-31.md
 
 
 Run this next:
@@ -141,15 +140,15 @@ graph TB
     subgraph Truth Table
         tt[" Input | Output
         ---------------
-          0V  |   5V  
+          0V  |   5V
           5V  |   0V  "]
     end
-    
+
     subgraph Waveform
         direction TB
         Input["Input Signal"]
         Output["Output Signal"]
-        
+
         Note["Note: When Input goes UP,
         Output goes DOWN and vice versa"]
     end
