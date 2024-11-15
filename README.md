@@ -1,4 +1,4 @@
-
+https://www.circuit-fantasia.com/e-paradoxes/list_of_paradoxes.htm
 ## Electric Charge and Current
 
 We need different units for electric charge and current because they measure different aspects of electricity:
