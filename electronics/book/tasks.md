@@ -1,5 +1,4 @@
 inverter-circuit.md (Inverter Circuit Demo on personal email account)
-least-resistance.md Least Resistance (same account)
 
 
 Run this next:
