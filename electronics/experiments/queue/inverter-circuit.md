@@ -1,28 +1,4 @@
-A basic inverter (NOT gate) circuit that can be simulated in Tinkercad.
-
-```mermaid
-graph LR
-    VCC["+5V"] --> R1["R1\n1kΩ"]
-    R1 --> C[Collector]
-    C --> Output["Output"]
-    Input["Input"] --> R2["R2\n10kΩ"]
-    R2 --> B[Base]
-    E[Emitter] --> GND["Ground"]
-    
-    subgraph Q1[NPN Transistor]
-        B
-        C
-        E
-    end
-
-    style VCC fill:#f99,stroke:#333
-    style GND fill:#999,stroke:#333
-    style Q1 fill:#cfc,stroke:#333
-    style Input fill:#9cf,stroke:#333
-    style Output fill:#9cf,stroke:#333
-```
-
-This is a simple transistor-based inverter circuit that you can build in Tinkercad. Here's how to set it up:
+A basic inverter (NOT gate) circuit.
 
 Components:
 
@@ -44,11 +20,10 @@ Steps:
 2. Connect the 5V power supply to the power rail
 3. Place the NPN transistor
 4. Connect R1 (1kΩ) from 5V to the collector
-5. Connect R2 (10kΩ) from input to the base
+5. Connect R2 (10kΩ) to the base
 6. Connect the emitter to ground
 7. Take the output from the collector
 
-Ah, yes! Let me explain what's happening:
 
 1. When R2 is connected to ground or left unconnected (floating):
    - The transistor's base doesn't receive enough voltage to turn ON

@@ -1,15 +1,13 @@
 29.md
+30.md
 
 
 Run this next:
 
-inverter-circuit.md (Inverter Circuit Demo on personal email account)
 voltage-stabilizer.md
 
 
 Complete steps for:
-
-
 
 21, 22.md
 
