@@ -19,7 +19,7 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
 3. Diode Role:
    - A diode ensures the capacitor uses separate paths for charging and discharging by directing the current flow.
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
 

@@ -2,9 +2,7 @@
 
 A parallel diode connected across a load limits voltage by clamping the voltage to the diode’s forward voltage drop (\(V_f\)). This configuration is commonly used for voltage clamping or overvoltage protection in circuits.
 
----
-
-### Key Concepts:
+### Concepts:
 
 1. Clamping Behavior:
    - When the input voltage exceeds the diode’s forward voltage (\(V_f\)), the diode conducts and limits the voltage across the load to approximately \(V_f\).
@@ -18,9 +16,7 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
    - Protecting sensitive components from overvoltage.
    - Stabilizing voltage levels in low-voltage circuits.
 
----
-
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
 1. AC voltage source (\( V_{peak} = 5V, f = 50Hz \)).
@@ -29,9 +25,7 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 4. Oscilloscope (to observe the waveform).
 5. Breadboard and wires.
 
----
-
-### Circuit Setup:
+### Setup:
 
 1. Parallel Diode:
    - Connect one terminal of the AC voltage source to the resistor (\( R \)).
@@ -43,8 +37,6 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 2. Oscilloscope Connections:
    - Channel 1: Across the AC voltage source to observe the input waveform.
    - Channel 2: Across the resistor to observe the output waveform.
-
----
 
 ### Steps:
 
@@ -62,8 +54,6 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 4. Experiment with Diode Types:
    - Replace the silicon diode with a Schottky diode and observe the effect on the output waveform.
 
----
-
 ### Observations:
 
 1. Voltage Clamping:
@@ -78,8 +68,6 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 3. Effect of Diode Type:
    - A silicon diode clamps at \( V_f \approx 0.7V \), while a Schottky diode clamps at \( V_f \approx 0.3V \).
 
----
-
 ### Insights:
 
 1. Overvoltage Protection:
@@ -91,6 +79,4 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 3. Applications:
    - Used in signal conditioning, power supplies, and circuits requiring precise voltage limits.
 
----
-
-This experiment can be easily simulated in Tinkercad, where you can visualize the clamping effect of the parallel diode and experiment with different diodes to observe how they impact the voltage-limiting behavior.
+you can visualize the clamping effect of the parallel diode and experiment with different diodes to observe how they impact the voltage-limiting behavior.

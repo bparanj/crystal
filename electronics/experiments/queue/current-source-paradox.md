@@ -1,9 +1,11 @@
 This paradox arises from the circuit context and the specific load or conditions in which a current source operates. A good current source provides a stable current despite load changes, but it may behave poorly under specific circumstances. Conversely, a "bad" current source may perform well when certain conditions compensate for its limitations. Here’s an explanation with examples:
 
 ### Good Current Sources Acting as Bad Ones
+
 This happens when a high-quality current source fails to deliver stable current due to particular load characteristics or environmental factors.
 
 #### Examples:
+
 1. High-Frequency Circuits with Inductive Loads:
    - Even a well-designed current source may perform poorly with inductive loads, especially at high frequencies. The inductor resists current changes, causing instability in the current source.
 
@@ -14,9 +16,11 @@ This happens when a high-quality current source fails to deliver stable current 
    - In low-voltage circuits, even a well-designed current mirror may act as a poor current source, as the available headroom to maintain stable current is limited, making the mirror sensitive to small load variations.
 
 ### Bad Current Sources Acting as Good Ones
+
 A current source with poor regulation or stability can sometimes act effectively if the circuit compensates for its weaknesses or if the load characteristics make precise current control less critical.
 
 #### Examples:
+
 1. LED Circuits with Passive Resistor Compensation:
    - A simple resistor in series with an unregulated power source (which acts as a poor current source) can provide stable current to an LED, as the resistor limits current fluctuations even if the source is unstable.
 
@@ -29,6 +33,7 @@ A current source with poor regulation or stability can sometimes act effectively
 ### Explanation of the Paradox
 
 #### Circuit Context Matters:
+
 1. Load Characteristics:
    - A "good" current source may act poorly if the load presents inductance, capacitance, or requires high-speed current changes.
    - A "bad" current source may act well if the load has stable, low-current needs or includes resistance to stabilize the current.
@@ -58,15 +63,18 @@ Here are two simple experiments to demonstrate the concept where a good current 
 ### Experiment 1: Good Current Source Acting as a Bad One
 
 #### Objective:
+
 To show that a well-regulated current source can act poorly when used with a capacitive load due to instability in maintaining steady current.
 
 #### Components:
+
 - 1 Adjustable DC Power Supply (simulate a current source, e.g., set to constant current mode at 10 mA)
 - 1 Capacitor (e.g., 100 μF)
 - 1 LED with a current-limiting resistor (e.g., 220 Ω)
 - Breadboard and Wires
 
 #### Steps:
+
 1. Set Up the Current Source:
    - Set the DC power supply to constant current mode at 10 mA.
    - Connect it to the LED and current-limiting resistor in series to verify it provides a steady current.
@@ -81,9 +89,11 @@ To show that a well-regulated current source can act poorly when used with a cap
 ### Experiment 2: Bad Current Source Acting as a Good One
 
 #### Objective:
+
 To show that an unregulated, simple resistor-based current source can act as a stable current source for low-power LEDs.
 
 #### Components:
+
 - 1 Unregulated Power Source (e.g., 9V battery)
 - 1 Resistor (e.g., 470 Ω)
 - 2 LEDs

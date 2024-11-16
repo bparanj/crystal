@@ -30,7 +30,7 @@ In Tinkercad, you can design a simple experiment to create and observe an RC Dif
    - Observe the voltage across the resistor. You should see sharp voltage spikes at the transitions of the square wave input (when it changes from low to high and high to low).
    - These spikes are the result of the differentiator circuit, showing the changes in the input signal’s slope.
 
-### Expected Results
+### Results
 - The output across the resistor will show spikes whenever the input square wave transitions. These spikes represent the differentiation of the input signal, as the circuit responds to rapid changes in the input voltage.
 - When the input is steady (at the high or low level of the square wave), the output will remain close to zero, as there is no change in the input signal at those points.
 

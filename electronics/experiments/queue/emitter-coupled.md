@@ -1,6 +1,4 @@
-The paradox of an emitter-coupled amplifier (or differential amplifier) arises from the shared emitter connection between the two transistors and the resulting interaction with the voltage source driving the input signals. The issue lies in how the voltage source reacts to the dynamic current sharing between the transistors. Here’s the explanation:
-
----
+The paradox of an emitter-coupled amplifier (or differential amplifier) arises from the shared emitter connection between the two transistors and the resulting interaction with the voltage source driving the input signals. The issue lies in how the voltage source reacts to the dynamic current sharing between the transistors.
 
 ### The Paradox: Voltage Source and Dynamic Current Sharing
 
@@ -26,8 +24,6 @@ The paradox of an emitter-coupled amplifier (or differential amplifier) arises f
    - The emitter-coupled amplifier is designed to provide accurate differential amplification and reject common-mode signals.
    - However, its very operation, based on dynamic current sharing, creates fluctuating demands on the input voltage sources, potentially causing instability or distortion.
 
----
-
 ### Resolution of the Paradox
 
 1. Buffer the Input Signals:
@@ -42,7 +38,4 @@ The paradox of an emitter-coupled amplifier (or differential amplifier) arises f
 4. Limit Signal Swing:
    - Restrict the amplitude of the input signals to reduce large current shifts between the transistors, minimizing stress on the input voltage sources.
 
----
-
-### Summary
 The paradox in an emitter-coupled amplifier lies in the fluctuating current demands caused by dynamic current sharing between the transistors, which voltage sources "hate." This can lead to instability or distortion in the input signals. The issue is resolved by buffering the inputs, using low-impedance sources, or improving the circuit's design to stabilize current flow.

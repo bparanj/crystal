@@ -30,7 +30,7 @@ You can design a simple experiment to create and observe an RC Integrator Circui
    - Start the simulation in Tinkercad.
    - Observe the voltage across the capacitor. The output will show a smoother, ramp-like waveform instead of the sharp square wave input. This is due to the integrative effect of the RC circuit, which “smooths” the input signal.
 
-### Expected Results
+### Results
 
 - Output Waveform: The output across the capacitor will resemble a triangular waveform when the input is a square wave. The capacitor charges and discharges gradually, integrating the changes in the square wave, which leads to a smooth, sloped waveform.
 - When the input square wave is high, the capacitor charges, causing the output voltage to rise linearly. When the input square wave goes low, the capacitor discharges, causing the output to fall linearly.

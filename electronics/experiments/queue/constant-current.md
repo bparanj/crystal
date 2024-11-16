@@ -1,6 +1,5 @@
 To obtain a constant current by decreasing the voltage across a load, you can use a constant current source or circuit. Here’s how it works:
 
-### Concept
 A constant current source ensures that the current remains the same regardless of the voltage across the load. This is achieved by dynamically adjusting the voltage to counter variations in the load resistance.
 
 ### Methods to Implement
@@ -23,11 +22,13 @@ A constant current source ensures that the current remains the same regardless o
    - Working: The op-amp adjusts the gate voltage of the transistor to regulate the load current.
 
 ### Example Circuit: LM317 as a Constant Current Source
-- Set Resistor \( R_{\text{set}} \): 
+
+- Set Resistor \( R_{\text{set}} \):
   For a 1 A current, use \( R_{\text{set}} = \frac{1.25}{1} = 1.25 \, \Omega \).
 - Voltage Adjustment: The regulator modifies the output voltage to maintain 1 A through the load, even if the resistance changes.
 
 ### Applications
+
 - LED drivers (LEDs require constant current to avoid overheating).
 - Battery charging (precise current ensures safe charging).
 - Testing components (constant current simplifies measurement of voltage drops).

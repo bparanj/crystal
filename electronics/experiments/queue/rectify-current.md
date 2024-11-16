@@ -13,7 +13,7 @@ A series diode can rectify current, allowing it to flow only in one direction. T
 3. Half-Wave Rectification:
    - A single diode in series with an AC source passes only the positive half-cycles of the AC waveform.
 
-### Experiment for Tinkercad:
+### Experiment
 
 #### Components:
 
@@ -63,8 +63,6 @@ A series diode can rectify current, allowing it to flow only in one direction. T
 3. Current Flow:
    - Current flows through the load only during the positive half-cycles.
 
----
-
 ### Insights:
 
 1. Half-Wave Rectification:
@@ -79,15 +77,13 @@ A series diode can rectify current, allowing it to flow only in one direction. T
 4. Full-Wave Rectification:
    - To rectify both halves of the AC signal, a full-wave rectifier circuit (using multiple diodes) can be used.
 
----
-
 This experiment can be simulated in Tinkercad, allowing you to visualize the input and output waveforms on the oscilloscope and understand the rectification process.
 
 Yes, the experiments require these modifications for Tinkercad:
 
 1. AC Source Simulation:
    - Use a function generator to create a sine wave as the AC input.
-   
+
 2. Diode Selection:
    - Use a standard diode (e.g., 1N4007) from Tinkercad's components.
 

@@ -18,9 +18,10 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
 3. Phase Shift:
    - A capacitor causes a phase shift of 90° between current and voltage, with current leading voltage.
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
+
 1. AC Voltage Source (\( V_{rms} = 10V, f = 50Hz \)).
 2. Resistor (Load) (\( R = 1k\Omega \)).
 3. Capacitor (\( C = 10\mu F \)).
@@ -29,6 +30,7 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
 6. Breadboard and connecting wires.
 
 ### Setup:
+
 1. Connect the AC voltage source to the breadboard.
 2. Insert the capacitor (\( C \)) in series with the AC voltage source.
 3. Connect a resistor (\( R \)) as the load in series with the capacitor.
@@ -68,6 +70,7 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
      \]
 
 ### Insights:
+
 1. AC Coupling:
    - Series capacitors are often used in audio and signal circuits for AC coupling to block DC components while passing AC signals.
 

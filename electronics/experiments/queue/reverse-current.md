@@ -4,7 +4,7 @@ Here’s how to design a simple experiment in Tinkercad to demonstrate reverse c
 
 To show how a diode can protect components from damage by blocking reverse current in a circuit.
 
-### Components Needed in Tinkercad
+### Components
 
 1. Breadboard
 2. 9V battery

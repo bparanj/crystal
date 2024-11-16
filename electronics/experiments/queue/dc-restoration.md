@@ -1,10 +1,12 @@
+PENDING
+
+Move to out of scope folder
+
 ### Automatic Voltage Shifting of an AC Signal with Peak Value
 
 Automatic voltage shifting of an AC signal involves modifying its DC offset based on its peak value, such that the signal is aligned with a new reference voltage or shifted to a desired level. This is often done in circuits like automatic gain controllers (AGC), signal conditioners, or precision rectifiers.
 
----
-
-### Key Concept:
+### Concept:
 
 1. Voltage Shifting:
    - Adjusting the AC signal's reference level (DC offset) to align its peaks or troughs with a desired voltage.
@@ -14,9 +16,7 @@ Automatic voltage shifting of an AC signal involves modifying its DC offset base
    - The circuit automatically adjusts the DC offset in real time, based on the peak value of the AC signal.
    - Uses a peak detector circuit to monitor the AC signal's amplitude.
 
----
-
-### Example Circuit Components:
+### Components:
 
 1. AC Signal Source: Provides the input signal to be shifted.
 2. Peak Detector Circuit:
@@ -27,11 +27,10 @@ Automatic voltage shifting of an AC signal involves modifying its DC offset base
    - Combines the AC signal with the derived DC offset voltage from the peak detector.
 4. Output Load: Displays or utilizes the shifted signal.
 
----
-
-### Circuit Design:
+### Circuit
 
 #### Components:
+
 1. AC Voltage Source: \( V_{AC}(t) = A \sin(\omega t) \).
 2. Peak Detector:
    - Diode: 1N4148.
@@ -39,8 +38,6 @@ Automatic voltage shifting of an AC signal involves modifying its DC offset base
    - Resistor: \( R = 10k\Omega \) (optional, for discharge rate).
 3. Operational Amplifier (Summing Amplifier).
 4. Resistors for Summing Amplifier: \( R_1 = R_2 = 10k\Omega \).
-
----
 
 ### Circuit Operation:
 
@@ -55,9 +52,7 @@ Automatic voltage shifting of an AC signal involves modifying its DC offset base
      V_{out}(t) = V_{AC}(t) + V_{peak}
      \]
 
----
-
-### Steps to Implement:
+### Steps
 
 1. Connect the Peak Detector:
    - Feed the AC signal into the diode.
@@ -70,9 +65,7 @@ Automatic voltage shifting of an AC signal involves modifying its DC offset base
 3. Observe the Output:
    - The output signal will be the AC signal shifted automatically by its peak voltage.
 
----
-
-### Expected Results:
+### Results:
 
 1. Dynamic Shifting:
    - The AC signal is automatically shifted upwards or downwards by a voltage equal to its peak value.
@@ -80,8 +73,6 @@ Automatic voltage shifting of an AC signal involves modifying its DC offset base
 2. Stable Output:
    - For a steady AC signal, the output is consistent.
    - For a dynamic signal, the peak detector ensures continuous adjustment.
-
----
 
 ### Applications:
 
@@ -94,12 +85,10 @@ Automatic voltage shifting of an AC signal involves modifying its DC offset base
 3. Power Systems:
    - Aligning AC waveforms for rectification or energy management.
 
----
-
-### Key Insights:
+### Insights:
 
 - The peak detector is critical for dynamic offset calculation.
 - The summing amplifier provides precise voltage adjustment.
 - This circuit is suitable for both sinusoidal and arbitrary AC waveforms.
 
-This design can be simulated in Tinkercad or similar tools to observe the dynamic voltage shifting behavior.
+This design is used to observe the dynamic voltage shifting behavior.

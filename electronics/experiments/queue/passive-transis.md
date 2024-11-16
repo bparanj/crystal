@@ -11,17 +11,13 @@ Yes, a passive circuit can contain transistors, but the transistors must be used
   - Clamping or limiting circuits (e.g., using a transistor as a diode).
   - Protection circuits where transistors passively block or allow current flow.
 
----
-
 ### Can a Transistor Act as a Passive Element?
 
 Yes, a transistor can act as a passive element if it:
 - Does not amplify signals or add energy to the circuit.
 - Operates in a purely on/off (switching) mode or behaves like a diode.
-  
-However, this use is limited because transistors are primarily designed to function as active elements for amplification, switching, or signal processing.
 
----
+However, this use is limited because transistors are primarily designed to function as active elements for amplification, switching, or signal processing.
 
 ### Can a Resistor Act as an Active Element?
 
@@ -30,9 +26,7 @@ No, a resistor cannot act as an active element because:
 - No Control or Amplification: A resistor provides a fixed or linear opposition to current flow, with no ability to control or modify signals dynamically.
 - Passive by Nature: Resistors are purely passive elements by design and function.
 
----
-
-### Key Differences Between Passive and Active Roles
+### Differences Between Passive and Active Roles
 
 1. Energy Addition:
    - A passive element stores or dissipates energy but does not add energy.
@@ -42,13 +36,10 @@ No, a resistor cannot act as an active element because:
    - Passive elements respond passively to existing signals.
    - Active elements dynamically control, amplify, or generate signals.
 
----
-
 ### In What Way Are They Alike?
 - Passive and active elements both influence current and voltage in a circuit.
 - Transistors can bridge the gap: depending on how they are configured, they can behave passively (as diodes or switches) or actively (as amplifiers or oscillators).
 
-### Summary
 - A passive circuit can contain transistors if they are used as diodes or switches without external control.
 - A transistor can act as a passive element in certain configurations.
 - A resistor cannot act as an active element because it lacks the ability to add energy or control signals.

@@ -2,9 +2,7 @@
 
 A series capacitor can shorten the duration of a pulse by blocking low-frequency or DC components of a signal while allowing high-frequency components to pass through. The capacitor essentially acts as a high-pass filter, allowing only the changing portions of the signal (like the edges of the pulse) to be transmitted.
 
----
-
-### Key Concepts:
+### Concepts:
 
 1. Capacitive Behavior:
    - A capacitor blocks steady-state (DC) signals and only reacts to changes in voltage.
@@ -20,9 +18,7 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 3. Pulse Shortening:
    - The capacitor differentiates the input pulse, producing a sharp output pulse corresponding to the edges of the input pulse.
 
----
-
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
 1. Pulse generator (or AC voltage source with square wave output).
@@ -31,8 +27,6 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 4. Oscilloscope (to observe input and output pulses).
 5. Breadboard and connecting wires.
 
----
-
 ### Circuit Setup:
 1. Connect the pulse generator to the breadboard.
 2. Place the capacitor (\( C \)) in series with the pulse generator.
@@ -40,8 +34,6 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 4. Attach the oscilloscope probes:
    - Across the pulse generator to observe the input pulse.
    - Across the resistor (\( R_L \)) to observe the output pulse.
-
----
 
 ### Steps:
 
@@ -60,8 +52,6 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
    - Change the capacitor value (\( C = 0.1\mu F, 1\mu F \)).
    - Observe how the output pulse width changes with the RC time constant.
 
----
-
 ### Observations:
 
 1. Pulse Shortening:
@@ -74,8 +64,6 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 3. Waveform Shape:
    - The output appears as sharp peaks for each transition of the input pulse.
 
----
-
 ### Insights:
 
 1. Differentiation Effect:
@@ -86,7 +74,5 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 
 3. Capacitor Selection:
    - The capacitor value should be chosen based on the desired pulse duration and input signal frequency.
-
----
 
 This experiment can be simulated in Tinkercad using a square wave generator as the input and observing the shortened pulses across the load resistor.

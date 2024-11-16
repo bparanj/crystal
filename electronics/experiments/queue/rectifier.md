@@ -1,14 +1,14 @@
 Rectifiers are used in various types of circuits to convert alternating current (AC) to direct current (DC). Here are some common applications:
 
-1. **Power Supply Circuits**: Rectifiers are a crucial component in power supplies for electronic devices, converting AC from the mains into DC for use by the device.
-2. **Battery Charging Circuits**: They are used in battery chargers to convert AC to DC to charge batteries.
-3. **Radio Signal Demodulation**: Rectifiers are used in radios to extract audio signals from the modulated carrier wave.
+1. Power Supply Circuits: Rectifiers are a crucial component in power supplies for electronic devices, converting AC from the mains into DC for use by the device.
+2. Battery Charging Circuits: They are used in battery chargers to convert AC to DC to charge batteries.
+3. Radio Signal Demodulation: Rectifiers are used in radios to extract audio signals from the modulated carrier wave.
 
 Rectifiers are versatile components found in many electronic applications where AC to DC conversion is needed.
 
 Is this the same: https://www.tinkercad.com/things/jvxAvNYx90A/editel
 
-You can design a basic experiment to demonstrate the rectifier function of a single diode, converting AC to pulsating DC. 
+You can design a basic experiment to demonstrate the rectifier function of a single diode, converting AC to pulsating DC.
 
 ### Objective
 

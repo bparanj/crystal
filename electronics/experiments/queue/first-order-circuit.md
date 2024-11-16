@@ -68,7 +68,7 @@ Yes, a first-order RC circuit and an RC circuit generally refer to the same thin
 - Exponential Response: The voltage across the capacitor or resistor changes exponentially over time, approaching its final value gradually.
 - Simple Dynamics: Because it’s a first-order system, the analysis is straightforward, making it a common choice for filters, timing circuits, and signal processing applications.
 
-### Key Applications
+### Applications
 
 First-order RC circuits are widely used for:
 - Low-pass and high-pass filters (to filter out certain frequency components in signals),
@@ -77,7 +77,7 @@ First-order RC circuits are widely used for:
 
 ### Summary
 
-A "first-order RC circuit" and an "RC circuit" are effectively the same thing in the context of single resistor-capacitor combinations. The term "first-order" simply highlights the type of response and mathematical behavior associated with this configuration.
+A "first-order RC circuit" and an "RC circuit" are the same thing in the context of single resistor-capacitor combinations. The term "first-order" simply highlights the type of response and mathematical behavior associated with this configuration.
 
 
 Yes, a first-order RC circuit and an RC circuit refer to the same thing - a basic electrical circuit containing a resistor (R) and a capacitor (C) connected in series. It's called "first-order" because:

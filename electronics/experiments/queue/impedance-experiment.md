@@ -66,7 +66,6 @@ In Tinkercad, this exact setup to demonstrate impedance effects on AC flow is pa
 - No Inductor or True Oscilloscope: Without an inductor, only capacitive impedance can be demonstrated. The lack of an oscilloscope also means the waveform shape and phase shift can’t be directly visualized.
 - Frequency Adjustment Limitations: Tinkercad does not allow for real-time frequency adjustments or waveform observations, so experimentation with different frequencies is limited.
 
-### Summary
 This setup in Tinkercad provides a basic understanding of capacitive reactance in an AC circuit but doesn’t fully capture the impedance behavior with varying AC frequencies. A more advanced simulator would be needed for detailed exploration with inductors and an oscilloscope.
 
 Experiment:

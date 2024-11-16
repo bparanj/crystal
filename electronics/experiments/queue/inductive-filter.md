@@ -2,8 +2,6 @@
 
 When an inductor is connected in series with an AC voltage source, it can decouple or reduce the AC voltage across the load by introducing inductive reactance (\(X_L\)). This decoupling effect depends on the frequency of the AC signal and the value of the inductor.
 
----
-
 ### Concepts:
 
 1. Inductive Reactance (\(X_L\)):
@@ -22,9 +20,7 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 3. Phase Shift:
    - An inductor causes the current to lag the voltage by 90°.
 
----
-
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
 1. AC Voltage Source (\( V_{rms} = 10V, f = 50Hz \)).
@@ -34,8 +30,6 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 5. Multimeter (to measure RMS voltage across the load).
 6. Breadboard and connecting wires.
 
----
-
 ### Circuit Setup:
 1. Connect the AC voltage source to the breadboard.
 2. Place the inductor (\( L \)) in series with the AC voltage source.
@@ -44,8 +38,6 @@ When an inductor is connected in series with an AC voltage source, it can decoup
    - Across the AC source to observe the input voltage.
    - Across the resistor to observe the output voltage.
 5. Optionally, connect a multimeter across the resistor to measure the RMS voltage.
-
----
 
 ### Steps:
 
@@ -61,8 +53,6 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 3. Observe Phase Shift:
    - Compare the phase of the voltage across the load with the input voltage on the oscilloscope.
 
----
-
 ### Observations:
 
 1. Voltage Drop:
@@ -75,8 +65,6 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 3. Frequency Dependence:
    - The decoupling effect strengthens as the frequency increases because \( X_L \propto f \).
 
----
-
 ### Insights:
 
 1. High-Frequency Decoupling:
@@ -87,7 +75,5 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 
 3. Inductor Selection:
    - Larger inductors provide stronger decoupling at lower frequencies, making them suitable for specific filtering needs.
-
----
 
 This experiment is easily simulated in Tinkercad, allowing you to observe the decoupling effects of a series inductor on AC voltage.

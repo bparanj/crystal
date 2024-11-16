@@ -93,7 +93,7 @@ Yes, this setup can be created in Tinkercad, as it has the necessary components 
      - Decrease Light Level: As you reduce the light, the resistance of the photoresistor will increase. This should cause the LED to dim or turn off as less current flows through it. The multimeter will show a higher resistance or lower voltage across the LDR.
      - Increase Light Level: Increasing the light level decreases the resistance of the LDR, allowing more current to flow, making the LED brighter. The multimeter will show a lower resistance or higher voltage.
 
-### Expected Results
+### Results
 
 - In brighter light, the LED will be brighter, and the multimeter will show a lower resistance across the LDR.
 - In dimmer light, the LED will dim or turn off, and the multimeter will show a higher resistance.

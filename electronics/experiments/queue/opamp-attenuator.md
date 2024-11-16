@@ -1,7 +1,5 @@
 This statement highlights the conceptual operation of an operational amplifier (op-amp), which fundamentally relies on attenuation of the input difference to achieve what is perceived as amplification. Here’s an explanation of this apparent paradox:
 
----
-
 ### Why an Op-Amp is Seen as an Attenuator
 
 1. Op-Amp’s Key Function:
@@ -20,8 +18,6 @@ This statement highlights the conceptual operation of an operational amplifier (
    - The op-amp’s output voltage is proportional to the input difference (\( V_{\text{out}} = A \cdot (V_{+} - V_{-}) \), where \( A \) is the open-loop gain).
    - In a closed-loop system, \( V_{+} - V_{-} \) (the difference) becomes extremely small (attenuated), but the resulting output is large because of the external power supply and feedback.
 
----
-
 ### How This Paradox Is Resolved
 
 1. Attenuation Leads to Amplification:
@@ -35,13 +31,8 @@ This statement highlights the conceptual operation of an operational amplifier (
 3. Power Comes from External Sources:
    - As with transistors, the op-amp does not create energy; it controls the flow of external energy (from \( V_{CC} \) and \( V_{EE} \)) to generate the amplified signal.
 
----
-
-### Key Insight
+### Insight
 - The op-amp itself attenuates the input difference to nearly zero, but this controlled attenuation drives the output.
 - The amplification observed in op-amp circuits is the result of external power and the feedback loop, not the op-amp itself directly creating an amplified signal.
 
----
-
-### Summary
 An op-amp doesn’t amplify directly; it attenuates the difference between its inputs to nearly zero. The observed amplification is due to the circuit’s feedback and external power supply. This paradox emphasizes the op-amp's role as a controller of input difference rather than a direct generator of amplification.

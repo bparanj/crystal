@@ -1,8 +1,6 @@
 To sum or subtract voltages by preconverting them into currents, you can use resistors to convert the input voltages into currents, then process the currents in parallel (summing/subtracting) and reconvert the result back into a voltage using a load resistor.
 
----
-
-### Key Concepts:
+### Concepts:
 
 1. Voltage-to-Current Conversion:
    - By Ohm’s Law, a voltage source \( V \) across a resistor \( R \) generates a current:
@@ -19,8 +17,6 @@ To sum or subtract voltages by preconverting them into currents, you can use res
      V_{out} = I_{total} \cdot R_L
      \]
 
----
-
 ### Experiment Design for Tinkercad:
 
 #### Components:
@@ -29,8 +25,6 @@ To sum or subtract voltages by preconverting them into currents, you can use res
 3. One load resistor (\( R_L \)) for current-to-voltage conversion.
 4. Multimeter to measure the output voltage.
 5. Breadboard and wires.
-
----
 
 ### Experiment 1: Summing Voltages
 
@@ -58,8 +52,6 @@ To sum or subtract voltages by preconverting them into currents, you can use res
    V_{out} = I_{total} \cdot R_L = 8mA \cdot 1k\Omega = 8V
    \]
 
----
-
 ### Experiment 2: Subtracting Voltages
 
 #### Circuit Setup:
@@ -83,9 +75,7 @@ To sum or subtract voltages by preconverting them into currents, you can use res
    V_{out} = I_{total} \cdot R_L = 2mA \cdot 1k\Omega = 2V
    \]
 
----
-
-### Notes for Tinkercad:
+### Notes
 - Replace ideal current sources with DC voltage sources and resistors for conversion.
 - Ensure polarity alignment for summing or subtraction.
 - Use the ammeter to measure total current at the node if needed.

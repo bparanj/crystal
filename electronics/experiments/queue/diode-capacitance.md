@@ -1,5 +1,7 @@
 PENDING
 
+QUESTIONS
+
 Review and see if this experiment can be done in Tinkercad
 
 To observe the effect of diode capacitance:

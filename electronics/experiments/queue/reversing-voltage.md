@@ -1,8 +1,6 @@
 DC Voltage Reversing by Differentiation involves using a capacitor in series to create a differentiated signal that reverses the polarity of a DC voltage during transitions. This process effectively produces an alternating-like signal by responding only to changes (e.g., rising or falling edges of a pulse).
 
----
-
-### Key Concept:
+### Concept:
 
 1. Capacitor Behavior:
    - A capacitor blocks DC but reacts to changes in voltage.
@@ -17,9 +15,7 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
      \]
    - The output is proportional to the rate of change of the input voltage.
 
----
-
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
 1. DC pulse generator (or square wave generator).
@@ -28,8 +24,6 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 4. Oscilloscope (to observe input and output signals).
 5. Breadboard and wires.
 
----
-
 ### Circuit Setup:
 1. Connect the pulse generator to the breadboard to provide a square wave with DC transitions.
 2. Place the capacitor (\( C \)) in series with the pulse generator's output.
@@ -37,8 +31,6 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 4. Attach the oscilloscope probes:
    - Across the pulse generator to observe the input voltage.
    - Across the resistor (\( R_L \)) to observe the differentiated output voltage.
-
----
 
 ### Steps:
 
@@ -57,8 +49,6 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
    - Change the capacitor (\( C = 0.1\mu F, 1\mu F \)).
    - Observe how the pulse shape and amplitude change with \( R_L \) and \( C \).
 
----
-
 ### Observations:
 
 1. Polarity Reversals:
@@ -73,8 +63,6 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
    - A larger capacitor (\( C \)) or resistor (\( R_L \)) increases the output pulse width.
    - Smaller \( C \) or \( R_L \) produces narrower pulses.
 
----
-
 ### Insights:
 
 1. Edge Detection:
@@ -85,7 +73,5 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 
 3. Applications:
    - Voltage reversing is used in applications requiring alternating signals or detecting transitions in digital logic.
-
----
 
 This experiment can be easily simulated in Tinkercad using a square wave generator and observing the differentiated output on an oscilloscope. Adjusting \( C \) and \( R_L \) helps visualize how the differentiation process affects polarity reversal.

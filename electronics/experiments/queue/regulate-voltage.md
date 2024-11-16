@@ -19,8 +19,6 @@ If \( V_{\text{in}} = 10 \, \text{V} \), \( R_1 = 2 \, \Omega \), and \( R_2 = 3
 V_{\text{out}} = 10 \times \frac{3}{2+3} = 6 \, \text{V}
 \]
 
----
-
 ### 2. Current-Limiting and Load Voltage Regulation
 Using a single resistor to regulate voltage involves connecting a load in parallel or series, with the resistor adjusting the voltage supplied to the load.
 
@@ -33,17 +31,11 @@ The resistor's value determines the voltage drop, which impacts the voltage avai
   R = \frac{V_{\text{drop}}}{I} = \frac{5 - 2}{0.02} = 150 \, \Omega
   \]
 
----
-
 ### Applications:
 1. Voltage Dividers: Used for biasing transistors, scaling signals, or providing reference voltages.
 2. LEDs: A resistor ensures the correct operating voltage and current.
 3. Adjustable Voltage: Using a variable resistor (potentiometer) allows dynamic voltage control.
 
----
-
 ### Insights:
 - The load connected to the circuit impacts the voltage regulation. For precise regulation, additional components like voltage regulators or Zener diodes are often used.
-- Voltage regulation with resistance alone is less efficient in high-power circuits due to energy loss as heat in the resistor. 
-
-Let me know if you'd like a circuit diagram for any of these examples!
+- Voltage regulation with resistance alone is less efficient in high-power circuits due to energy loss as heat in the resistor.

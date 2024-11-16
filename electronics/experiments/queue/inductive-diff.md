@@ -1,7 +1,5 @@
 The paradox of an inductive differentiator lies in the behavior of the inductor and its interaction with the current source driving it. This circuit creates a situation that a current source "hates", leading to potential instability or inefficiency. Here’s the explanation:
 
----
-
 ### The Paradox: Current Source and Inductor Interaction
 
 1. What Current Sources "Like" and "Hate":
@@ -20,14 +18,10 @@ The paradox of an inductive differentiator lies in the behavior of the inductor 
 4. The Paradox:
    - The inductive differentiator is designed to respond to rapidly changing signals, yet it can behave unpredictably or inefficiently when the input signal is slow-changing or constant, creating a situation the current source dislikes.
 
----
-
 ### Why This Is a Problem
 - Voltage Stress: At low frequencies, the current source must increase its output voltage significantly to overcome the low impedance of the inductor.
 - Instability: The dynamic impedance mismatch between the inductor and the current source can cause oscillations or distortion in the circuit.
 - Inefficiency: The current source may waste energy compensating for the inductor’s low impedance, leading to power dissipation and reduced performance.
-
----
 
 ### Resolution of the Paradox
 
@@ -43,21 +37,14 @@ The paradox of an inductive differentiator lies in the behavior of the inductor 
 4. Decouple the Current Source:
    - Use a buffer or isolation circuit to protect the current source from the inductor’s low-impedance behavior at low frequencies.
 
----
-
-### Summary
 The paradox of an inductive differentiator lies in the inductor’s low-impedance behavior at low frequencies, which current sources "hate." This can lead to instability, inefficiency, or distortion. The issue is resolved by limiting the input frequency range, adding series resistance, or using a voltage source instead.
 
 Here’s a simple experiment to demonstrate the paradox of an inductive differentiator, showing how an inductor’s low impedance at low frequencies creates issues for a current source.
-
----
 
 ### Experiment: Inductive Differentiator and Current Source Paradox
 
 #### Objective:
 To show how an inductor in a differentiator circuit behaves like a low-impedance load at low frequencies, creating a situation that a current source dislikes.
-
----
 
 #### Components:
 - 1 Adjustable Current Source (e.g., a bench power supply in constant current mode)
@@ -65,8 +52,6 @@ To show how an inductor in a differentiator circuit behaves like a low-impedance
 - 1 Resistor (e.g., 100 Ω, for differentiation and voltage measurement)
 - Multimeter or Oscilloscope (to measure voltage across the resistor)
 - Breadboard and Wires
-
----
 
 #### Steps:
 
@@ -92,23 +77,15 @@ To show how an inductor in a differentiator circuit behaves like a low-impedance
    - Insert a small resistor (e.g., 10 Ω) in series with the current source to limit the current source's voltage demands at low frequencies.
    - Observe how this reduces the stress on the current source during low-frequency operation.
 
----
-
 ### Observations:
 1. Low Frequencies:
    - The inductor behaves like a low-impedance load, causing the current source to struggle or produce distorted signals.
 2. High Frequencies:
    - The inductor’s impedance increases, and the circuit works as a proper differentiator, producing a voltage across the resistor proportional to the rate of change of the input current.
 
----
-
-### Explanation:
 - At low frequencies, the inductor’s impedance is near zero, creating a condition that the current source "hates" (low impedance).
 - At high frequencies, the inductor’s impedance rises, making the circuit behave as intended, differentiating the input signal.
 
----
-
-### Summary:
 This experiment demonstrates how an inductive differentiator creates issues for a current source at low frequencies, highlighting the impedance mismatch. Adding a series resistor or limiting the frequency range resolves the problem, ensuring stable operation.
 
 Yes, modifications are needed for Tinkercad:

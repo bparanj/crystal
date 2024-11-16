@@ -1,10 +1,12 @@
+PENDING
+
+Is this the same as the clamping circuit?
+
 ### DC Voltage Stiffening Using a Parallel Zener Diode
 
 A parallel Zener diode provides a regulated and "stiffened" DC voltage by clamping the voltage to a fixed value. It ensures the output voltage remains stable and is unaffected by minor fluctuations in the input voltage or load variations.
 
----
-
-### Key Concepts:
+### Concepts:
 
 1. Zener Diode Behavior:
    - A Zener diode is designed to operate in reverse breakdown mode.
@@ -18,10 +20,6 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
    - Zener Voltage (\(V_Z\)): The regulated output voltage.
    - Current-Limiting Resistor (\(R_s\)): Limits current through the Zener diode to prevent damage.
 
----
-
-### Circuit Design:
-
 #### Components:
 1. DC Voltage Source (\( V_{in} = 10V \)).
 2. Zener Diode (\( V_Z = 5.1V \)).
@@ -29,9 +27,7 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
 4. Load Resistor (\( R_L = 1k\Omega \)).
 5. Multimeter (to measure output voltage).
 
----
-
-### Circuit Setup:
+### Setup:
 
 1. Voltage Source:
    - Connect the positive terminal of the DC source to one end of the series resistor (\( R_s \)).
@@ -47,8 +43,6 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
 
 4. Voltage Measurement:
    - Place the multimeter across the load resistor to measure the stabilized output voltage.
-
----
 
 ### Steps:
 
@@ -66,8 +60,6 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
    - Replace \( R_L \) with different resistor values (e.g., \( 500\Omega, 2k\Omega \)) and observe the output voltage.
    - The voltage remains stiffened as long as the Zener diode operates within its current limits.
 
----
-
 ### Observations:
 
 1. Voltage Regulation:
@@ -78,8 +70,6 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
 
 3. Load Independence:
    - The output voltage remains stable regardless of the load resistor value (within the Zener diode's current limits).
-
----
 
 ### Insights:
 
@@ -98,8 +88,6 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
 
 3. Design Limitations:
    - The Zener diode's current-handling capacity limits its use to low-power circuits.
-
----
 
 This circuit can be simulated in Tinkercad to observe how the Zener diode clamps the voltage and ensures a stiff, regulated output.
 

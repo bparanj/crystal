@@ -1,4 +1,4 @@
-Here’s how to design a simple experiment in Tinkercad to demonstrate the behavior of two inductors connected in series.
+A simple experiment in Tinkercad to demonstrate the behavior of two inductors connected in series.
 
 ### Objective
 

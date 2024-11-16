@@ -69,13 +69,14 @@
 
 An experiment to demonstrate how bypass capacitors filter out noise and stabilize voltage can be set up using basic components in Tinkercad. The experiment will show how a bypass capacitor helps maintain steady voltage when there are sudden changes in current draw.
 
-
 This experiment demonstrates three key bypass capacitor functions:
+
 1. Noise reduction during switching
 2. Voltage stabilization during current changes
 3. Transient response improvement
 
 The oscilloscope will show:
+
 - Voltage spikes without the bypass capacitor
 - Smoother voltage with the bypass capacitor
 - Reduced recovery time after load changes

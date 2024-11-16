@@ -1,8 +1,6 @@
 Charging a capacitor to its maximal or minimal value involves configuring the circuit to control the capacitor's charge and discharge process. The maximal value is determined by the supply voltage in the circuit, while the minimal value corresponds to the capacitor being fully discharged.
 
----
-
-### Key Concepts:
+### Concepts:
 
 1. Maximal Value:
    - A capacitor charges to a voltage equal to the supply voltage (\( V_{supply} \)) when connected to a DC source.
@@ -19,9 +17,7 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
      V_c(t) = V_{initial} \cdot e^{-t / \tau}
      \]
 
----
-
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
 1. DC voltage source (\( V_{supply} = 5V \)).
@@ -30,8 +26,6 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 4. Push-button switch (for discharging).
 5. Multimeter (to monitor capacitor voltage).
 6. Breadboard and wires.
-
----
 
 ### Circuit Setup:
 
@@ -45,8 +39,6 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 
 3. Voltage Monitoring:
    - Attach a multimeter across the capacitor terminals to monitor its voltage.
-
----
 
 ### Steps:
 
@@ -62,8 +54,6 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 1. Change the resistance (\( R = 5k\Omega, 10k\Omega \)) and observe the effect on the charging/discharging rate.
 2. Note that a higher resistance or capacitance increases the time constant, slowing the process.
 
----
-
 ### Observations:
 
 1. Charging:
@@ -74,8 +64,6 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 
 3. RC Time Constant:
    - Larger \( R \) or \( C \) values result in slower charging and discharging, while smaller values speed up the process.
-
----
 
 ### Insights:
 
@@ -88,8 +76,6 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 3. Applications:
    - Used in filters, energy storage, timers, and signal smoothing.
 
----
-
 This experiment can be easily simulated in Tinkercad, where you can visualize the capacitor's charging and discharging behavior by monitoring the voltage over time with the multimeter.
 
 The circuit you described is commonly called an RC (Resistor-Capacitor) Circuit. Depending on its specific configuration and purpose, it can be referred to more specifically as:
@@ -97,15 +83,13 @@ The circuit you described is commonly called an RC (Resistor-Capacitor) Circuit.
 1. RC Charging Circuit: When the focus is on charging the capacitor through the resistor.
 2. RC Discharging Circuit: When the focus is on discharging the capacitor through a resistor or directly to ground.
 3. RC Time Constant Circuit: When it's used to study or control the time constant (\( \tau = R \cdot C \)).
-4. RC Filter: In some configurations, this circuit can also act as a basic low-pass or high-pass filter, though that application isn't the primary focus here. 
+4. RC Filter: In some configurations, this circuit can also act as a basic low-pass or high-pass filter, though that application isn't the primary focus here.
 
 These circuits are foundational in electronics for understanding capacitor behavior, timing, and energy storage.
 
 Yes, a Peak Detector Circuit is different from a simple RC Circuit in purpose and design, though it may include an RC circuit as part of its configuration.
 
----
-
-### Key Differences:
+## Differences:
 
 #### RC Circuit:
 - Purpose:
@@ -128,8 +112,6 @@ Yes, a Peak Detector Circuit is different from a simple RC Circuit in purpose an
 - Output:
   - A voltage equal to the peak value of the input signal.
 
----
-
 ### Example: Peak Detector Circuit
 
 #### Components:
@@ -147,8 +129,6 @@ Yes, a Peak Detector Circuit is different from a simple RC Circuit in purpose an
 - Audio signal processing.
 - RF signal detection.
 - Measuring peak amplitudes in oscilloscopes and multimeters.
-
----
 
 ### Comparison
 

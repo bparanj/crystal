@@ -12,6 +12,17 @@ voltage-stabilizer.md
 
 Next experiments:
 
+bypass-capacitor.md
+current-source-duality.md
+current-source-paradox.md
+current-source.md
+dc-decoupling.md
+high pass filter.md
+conductor paradox.md
+ideal vi load.md
+impedance conflict.md
+parallel current
+
 half wave rectifier must go before 20.md
 current source.md
 current source duality

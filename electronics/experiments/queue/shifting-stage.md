@@ -3,9 +3,7 @@ Here's a step-by-step design for a simple experiment to demonstrate the concept 
 ### Objective:
 To observe how a resistor in series with a DC voltage source causes a voltage shift when supplied with a constant current from a current source.
 
----
-
-### Components Needed:
+### Components
 1. DC Voltage Source (e.g., 5V)
 2. Resistor (e.g., 1 kΩ)
 3. Constant Current Source (simulate with a current-controlled source or an adjustable power supply with current-limiting capability)
@@ -13,9 +11,7 @@ To observe how a resistor in series with a DC voltage source causes a voltage sh
 5. Breadboard
 6. Connecting wires
 
----
-
-### Circuit Design:
+### Circuit
 1. Set Up the DC Voltage Source:
    - Place a 5V DC voltage source on the breadboard.
    - Label its terminals as 1a (positive) and 1b (negative).
@@ -31,8 +27,6 @@ To observe how a resistor in series with a DC voltage source causes a voltage sh
 4. Add a Multimeter:
    - Place a multimeter across 2a and 1b to measure the output voltage.
 
----
-
 ### Steps:
 1. Set Initial Conditions:
    - Set the DC voltage source to 5V.
@@ -45,16 +39,12 @@ To observe how a resistor in series with a DC voltage source causes a voltage sh
    - Change the resistor value (e.g., to 2 kΩ or 500 Ω) or adjust the current (e.g., 2 mA) in the current source.
    - Observe how the voltage across the resistor shifts the output voltage.
 
----
-
 ### Observations:
 1. Voltage Shift:
    - When the current increases, the voltage across the resistor (\( V_R = I \cdot R \)) increases, causing the output voltage to increase (if in series with the positive terminal).
 
 2. Adjustable Behavior:
    - Changing the resistor value or current demonstrates how the output voltage can be tuned.
-
----
 
 ### Insights:
 - This setup demonstrates how a resistor and current source influence a DC voltage.
@@ -89,22 +79,22 @@ When a DC voltage source is connected in series with a resistor, and a current s
 ### Concepts:
 
 1. Voltage across the resistor (V_R):
-   The current supplied by the current source (\(I\)) flows through the resistor (\(R\)), creating a voltage drop. 
+   The current supplied by the current source (\(I\)) flows through the resistor (\(R\)), creating a voltage drop.
 
 2. Resultant voltage:
    The new voltage at the terminal connected to the resistor depends on whether the resistor is connected to the positive or negative terminal of the DC voltage source:
-   
-   - Positive terminal side:  
+
+   - Positive terminal side:
      The output voltage increases if the current flows from the DC source's positive terminal, as:
      \[ V_{out} = V_{source} + V_R \]
-     
-   - Negative terminal side:  
+
+   - Negative terminal side:
      The output voltage decreases if the current flows towards the DC source's negative terminal, as:
      \[ V_{out} = V_{source} - V_R \]
 
 3. Current source role:
    The current source ensures a constant current (\(I\)) through the resistor, making the voltage shift predictable based on the resistor's value.
 
-### Practical Application:
+### Application:
 This setup is often used in circuits for biasing or offsetting a signal, where the resistor transforms the input voltage by an amount proportional to the current supplied by the current source.
 
