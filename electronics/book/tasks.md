@@ -1,13 +1,10 @@
-32.md see screenshots in polarized-capacitor-damage
-13.md 
+13.md
 
 
 transistor-current.md
 capacitor-voltage.md
 
 Compared the bottom and top sections side by side for 12.md. Merge the content within the steps.
-
-Create a table of folder name and experiment name.
 
 Run this next:
 
