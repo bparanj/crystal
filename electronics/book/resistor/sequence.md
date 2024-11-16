@@ -1,36 +1,45 @@
 
+0. Work and Energy (0.md)
+0. Breadboard (breadboard.md , breadboard folder)
 1. Short Circuit
 2. LED Damage
 3. LED Circuit
 4. Push Button
-5. Open vs Closed Circuit
+5. Slideswitch - Open vs Closed Circuit
 6. Potentiometer
-7. Polarized Capacitor - Charging and Discharging
-8. Polarized Capacitor Damage
-9. Polarized Capacitor - Charging and Discharging How is this different from 7? (8b.md)
-10. Diode (9.md)
-11. Diode - Threshold Voltage (9b.md)
-12. Transistor as a Switch (10.md)
-13. Inductor (11.md)
-14. Voltage Divider (12.md)
-15. Current Divider (13.md)
-16. Battery Series (14.md)
-17. Battery Parallel (15.md)
-18. Current Controller (16.md)
-19. Negative Clamping Circuit (17.md)
-20. Capacitor Filter (18.md)
-21. Negative Clipper (19.md)
-22. Polarized Capacitor DC (20.md)
-23. Zener Diode (21.md)
-24. Positive Clipper (22.md)
-25. RC Low Pass Filter (23.md)
-26. Band Pass Filter (24.md)
-27. Capacitor DC Block (25.md)
-28. Back EMF DC (26.md)
-29. Back EMF AC (27.md)
-30. Voltage Regulator (28.md)
-31. Path of Least Resistance (29.md)
-32. RC Delay Timer (30.md)
-33. Inverter (31.md)
-34.
-35.
+7. RC Circuit : Polarized Capacitor - Charging and Discharging
+8. Polarized Capacitor  - Charging and Discharging How is this different from 7? 
+9. Diode (9.md)
+9b. Diode Threshold Voltage 
+10. Transistor as a Switch 
+11. Basic Inductor Demo			
+12. Voltage Divider				
+13. Current Divider				
+14. Battery Series				
+15. Battery Parallel			
+16. Current Controller		
+17. Negative Clamping Circuit
+18. Capacitor Filter				
+19. Negative Clipper			
+20. Incomplete						
+21. Zener Diode						
+22. Positive Clipper			
+23. RC Low-Pass Filter		
+24. Band Pass Filter			
+25. Capacitor DC Block		
+26. Back EMF DC						
+27. Back EMF AC				
+28. Voltage Regulator
+29. Path of Least Resistance
+30. RC Delay Timer
+31. Inverter Circuit
+32. Polarized Capacitor Damage
+33. 
+34. 
+
+
+
+
+
+
+

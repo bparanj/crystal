@@ -1,6 +1,9 @@
-8.md needs screenshots in a new folder called capacitor-damage
+32.md see screenshots in polarized-capacitor-damage
 13.md retake screenshots in squence
 28.md Replace DC with AC and run simulation
+
+
+capacitor-voltage.md
 
 Compared the bottom and top sections side by side for 12.md. Merge the content within the steps.
 
