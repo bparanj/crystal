@@ -114,8 +114,13 @@ Let's take a smartphone as an example:
 
 During the development phase, engineers use an oscilloscope to:
 
-- Analyze Signal Integrity: Verify that high-speed data signals (like those on USB, HDMI, or other communication lines) are clean and free from noise or distortion.
-- Debugging: Identify and fix timing issues, glitches, or unexpected behavior in the circuit.
+Analyze Signal Integrity: 
+
+Verify that high-speed data signals (like those on USB, HDMI, or other communication lines) are clean and free from noise or distortion.
+
+Debugging: 
+
+Identify and fix timing issues, glitches, or unexpected behavior in the circuit.
 
 ### Real-World Setting:
 

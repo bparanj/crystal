@@ -1,8 +1,8 @@
 32.md see screenshots in polarized-capacitor-damage
-13.md retake screenshots in squence
-28.md Replace DC with AC and run simulation
+13.md 
 
 
+transistor-current.md
 capacitor-voltage.md
 
 Compared the bottom and top sections side by side for 12.md. Merge the content within the steps.
@@ -37,14 +37,9 @@ Experiments
 
 voltage-doubler.md (This needs the transistor oscillator to be completed first)
 transistor-oscillator.md
-transistor-current.md
 
 Design a simple experiment using Tinkercad for light sensor
 Does Tinkercad have temperature sensor
-
-Compare side by side:
-
-23.md
 
 Review electronics/design/oscilloscope.md. Condense the notes.
 Review function-generator.md. Condense the notes.
@@ -56,11 +51,7 @@ Time constant of capacitor:
 https://www.youtube.com/watch?v=T0_Z0jw2DhI
 https://www.youtube.com/watch?v=pb0yduMthWE
 
-
-Review 18.md, 8b.md
-
 Capacitor AC Pass (not working ?)
-
 
 Review
 
@@ -142,48 +133,3 @@ Author
 - Sequence of experiments
 - Insights from basic principles
 - Using innovation in the context of electronics
-
-An inverter is called that way because it "inverts" or reverses the input signal:
-
-- When input is HIGH (5V), output is LOW (0V)
-- When input is LOW (0V), output is HIGH (5V)
-
-Let me show this with a truth table and waveform diagram:
-
-Design a simplest inversion circuit that can be run using Tinkercad
-
-```mermaid
-graph TB
-    subgraph Truth Table
-        tt[" Input | Output
-        ---------------
-          0V  |   5V
-          5V  |   0V  "]
-    end
-
-    subgraph Waveform
-        direction TB
-        Input["Input Signal"]
-        Output["Output Signal"]
-
-        Note["Note: When Input goes UP,
-        Output goes DOWN and vice versa"]
-    end
-
-    style tt fill:#f5f5f5,stroke:#333
-    style Input fill:#9cf,stroke:#333
-    style Output fill:#fc9,stroke:#333
-    style Note fill:#fff,stroke:#333
-
-```
-
-In your LED circuit:
-1. When you connect the input (R2) to 5V:
-   - Input is HIGH
-   - LED turns OFF (output is LOW)
-
-2. When you connect input to ground (or leave it floating):
-   - Input is LOW
-   - LED turns ON (output is HIGH)
-
-This inverting behavior is fundamental to digital logic, and this circuit is also known as a NOT gate because it performs the logical NOT operation: whatever the input is, the output is the opposite.

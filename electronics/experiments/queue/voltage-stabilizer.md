@@ -1,8 +1,35 @@
-To demonstrate the concept of a capacitor smoothing voltage fluctuations as a decoupling or bypass capacitor in Tinkercad, follow this experiment setup:
-
-PENDING
 
 What should be the value of the time per division in the oscilloscope to see the noise in the output when capacitor is not yet connected? The frequency is set to 1 Hz.
+
+### Setting the Time Per Division
+
+To observe the noise at 1 Hz, the oscilloscope’s time per division should be chosen based on the signal's frequency and waveform period:
+
+1. Signal Period:
+   - The frequency of the noise is 1 Hz, so the period is:
+     \[
+     T = \frac{1}{f} = \frac{1}{1} = 1 \, \text{second}
+     \]
+
+2. Optimal Time Per Division:
+   - A good practice is to set the time per division to capture at least one full cycle across 8–10 divisions of the oscilloscope display.
+   - For a 1-second period, set the time per division to approximately:
+     \[
+     0.1 \, \text{seconds/division}
+     \]
+
+3. Adjustment Range:
+   - Start with 0.1 s/div to view the overall waveform, and adjust up or down (e.g., 0.2 s/div or 50 ms/div) to see specific details of the fluctuations.
+
+### Observing Noise Without the Capacitor
+- At 0.1 s/div, you should clearly see the square wave fluctuations introduced by the function generator on the oscilloscope.
+
+### Observing With the Capacitor
+- After connecting the capacitor, the square wave fluctuations will smooth out, resulting in a more stable DC voltage line with reduced noise amplitude.
+
+This experiment demonstrates the capacitor's role as a decoupling element, effectively filtering out low-frequency noise on a power supply.
+
+To demonstrate the concept of a capacitor smoothing voltage fluctuations as a decoupling or bypass capacitor in Tinkercad, follow this experiment setup:
 
 ### Objective
 
