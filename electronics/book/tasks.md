@@ -27,6 +27,8 @@ capacitor-parallel.md
 capacitor-series.md
 
 
+Start with first one in Diode Circuit Building Blocks (21).
+
 Questions:
 
 bypass-capacitor.md
