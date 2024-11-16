@@ -93,11 +93,13 @@ To demonstrate a bypass capacitor we can create a circuit that shows how it stab
 - NPN Transistor (e.g., 2N2222 to simulate a switching load)
 - Oscilloscope (to measure voltage ripple)
 
-#### Circuit Design:
+#### Circuit:
 
 1. Set Up the Power and Load Circuit:
    - Connect the 9V DC battery as the power source.
    - Create a simple load circuit with an NPN transistor and resistor to simulate a device that switches on and off, causing fluctuations on the power rail.
+
+PENDING
 
    THIS IS NOT CLEAR. HOW?
 

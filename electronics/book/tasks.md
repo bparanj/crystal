@@ -1,4 +1,10 @@
-8 seems to be incomplete
+8.md needs screenshots in a new folder called capacitor-damage
+13.md retake screenshots in squence
+28.md Replace DC with AC and run simulation
+
+Compared the bottom and top sections side by side for 12.md. Merge the content within the steps.
+
+Create a table of folder name and experiment name.
 
 Run this next:
 
@@ -6,6 +12,7 @@ voltage-stabilizer.md
 
 Next experiments:
 
+half wave rectifier must go before 20.md
 current source.md
 current source duality
 capacitive-integrator.md

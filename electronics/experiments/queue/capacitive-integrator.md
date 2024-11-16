@@ -1,4 +1,8 @@
-This paradox occurs because increasing the resistance in a passive capacitive integrator actually improves the accuracy of integration by enhancing the circuit’s response to slowly varying signals, even though it leads to greater energy dissipation. Here’s how it works:
+PENDING
+
+Is this experiment different from a basic capcitive integrator?
+
+This paradox occurs because increasing the resistance in a passive capacitive integrator actually improves the accuracy of integration by enhancing the circuit’s response to slowly varying signals, even though it leads to greater energy dissipation.
 
 ### Why Increasing Resistance Improves Integration Accuracy
 
@@ -21,18 +25,22 @@ This paradox occurs because increasing the resistance in a passive capacitive in
 
 The paradox exists because, although resistors dissipate energy (normally seen as wasteful), increasing resistance improves the accuracy of integration by ensuring the circuit responds gradually to input signals. This increased resistance smooths the output, making it more representative of the integral of the input signal over time.
 
-Accuracy Over Efficiency: The increase in resistance sacrifices efficiency for improved accuracy, which is critical in integration applications.
+Accuracy Over Efficiency:
+
+The increase in resistance sacrifices efficiency for improved accuracy, which is critical in integration applications.
 
 Increasing resistance in a passive integrator improves accuracy by slowing the circuit's response, enabling proper integration of the input signal. This paradox highlights the trade-off between energy dissipation and accurate signal processing.
 
-Here’s a simple experiment to demonstrate how increasing resistance in a passive capacitive integrator improves integration accuracy, even though it leads to greater energy dissipation.
+A simple experiment to demonstrate how increasing resistance in a passive capacitive integrator improves integration accuracy, even though it leads to greater energy dissipation.
 
 ### Experiment: Improving Integration Accuracy with Increased Resistance
 
 #### Objective:
+
 To show that increasing the resistance in an RC integrator circuit enhances the accuracy of integration by slowing the response, even though it results in more energy dissipation.
 
 #### Components:
+
 - 1 AC Signal Generator (set to a low-frequency square wave, e.g., 1 Hz)
 - 1 Capacitor (e.g., 10 μF)
 - 2 Resistors (e.g., 1 kΩ and 10 kΩ, for comparison)
@@ -63,12 +71,13 @@ To show that increasing the resistance in an RC integrator circuit enhances the 
 - The lower resistance fails to perform accurate integration, as the capacitor charges too quickly, resulting in a less smooth output.
 
 ### Observations:
+
 1. Low Resistance: The output is less smooth, failing to accurately integrate the input signal.
 2. High Resistance: The output is smoother, providing a better integration effect but at the cost of increased energy dissipation.
 
 This experiment demonstrates that increasing resistance in an RC integrator circuit improves integration accuracy by slowing the circuit’s response. This increased accuracy comes with the trade-off of greater energy dissipation, illustrating the concept effectively.
 
-Yes, modifications are needed for Tinkercad:
+Modifications needed for Tinkercad:
 
 1. AC Signal Source:
    - Use a 9V DC power source with a switch to manually simulate a square wave (turning it on and off at a low frequency).
@@ -78,5 +87,3 @@ Yes, modifications are needed for Tinkercad:
 
 3. Resistance Values:
    - Use 1 kΩ and 10 kΩ resistors to observe the effect of resistance changes on the capacitor's charging curve.
-
-These adjustments make the experiment feasible in Tinkercad.

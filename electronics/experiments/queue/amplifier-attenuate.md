@@ -17,6 +17,7 @@ The statement challenges the conventional understanding of amplification and emp
    - The actual operation of the amplifier involves the attenuation of the input signal to generate a controlled response.
 
 ### Amplification as Attenuation in Reverse
+
 1. Small Input for Large Control:
    - Amplifiers rely on the principle that a small input can control a larger energy source.
    - This control process is achieved by attenuating the input signal into a smaller, manageable control action.
@@ -25,7 +26,8 @@ The statement challenges the conventional understanding of amplification and emp
    - The external energy source (e.g., \( V_{CC} \) and \( V_{EE} \)) provides the power for the large output.
    - Without this external source, the amplifier cannot produce a larger signal, reinforcing the idea that the input signal itself is not "amplified" but used to attenuate and shape the external energy.
 
-### The Core Concept: Amplification is an Illusion
+### Amplification is an Illusion
+
 1. Amplification is Energy Modulation:
    - The amplifier doesn’t "amplify" the input signal itself; it uses the input to modulate energy from the external source.
    - The result is a larger output signal, which gives the perception of amplification.
@@ -34,10 +36,11 @@ The statement challenges the conventional understanding of amplification and emp
    - The input is attenuated to control the output effectively. The smaller the input signal’s control, the higher the apparent amplification.
 
 ### Examples
+
 1. Transistor Amplifier:
    - A small base current (input) controls a much larger collector current. The base current is attenuated to modulate the external power supply's energy.
 
 2. Op-Amp:
    - The voltage difference between the inverting and non-inverting inputs is reduced (attenuated) to nearly zero, driving a proportional output.
 
-The idea that "amplifiers attenuate" challenges the traditional concept of amplification by focusing on the internal mechanism: attenuation of the input to control external power. Amplification, in essence, is the modulation of external energy to produce a larger output signal. This perspective highlights the energy flow and control dynamics underlying the amplification process.
+The idea that amplifiers attenuate challenges the traditional concept of amplification by focusing on the internal mechanism: attenuation of the input to control external power. Amplification is the modulation of external energy to produce a larger output signal. This perspective highlights the energy flow and control dynamics underlying the amplification process.

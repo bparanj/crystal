@@ -1,4 +1,4 @@
-The paradox of a nonconducting dielectric material between capacitor plates seemingly allowing AC current to pass is explained by the physics of capacitors and how they interact with alternating current (AC). Here’s the detailed explanation:
+The paradox of a nonconducting dielectric material between capacitor plates seemingly allowing AC current to pass is explained by the physics of capacitors and how they interact with alternating current (AC).
 
 ### How a Capacitor Passes AC with a Nonconducting Dielectric
 
@@ -15,10 +15,17 @@ The paradox of a nonconducting dielectric material between capacitor plates seem
    - This results in a flow of electrons in the external circuit, which is observed as AC current.
 
 ### Why It Blocks DC Current
+
 - In contrast, DC voltage creates a steady electric field in the capacitor. Once the capacitor is fully charged, the electric field stabilizes, and no further current flows through the circuit. The nonconducting dielectric prevents any physical flow of charge, so the circuit becomes an open circuit for DC.
 
 ### Insights
-- AC "Passes" Through the Capacitor: The current observed in the circuit is due to the oscillation of charge on the plates and the displacement current in the dielectric, not a physical flow of charge through the dielectric.
-- DC Is Blocked: The nonconducting dielectric prevents continuous charge flow, which is why the capacitor blocks DC once charged.
+
+AC "Passes" Through the Capacitor:
+
+The current observed in the circuit is due to the oscillation of charge on the plates and the displacement current in the dielectric, not a physical flow of charge through the dielectric.
+
+DC Is Blocked:
+
+The nonconducting dielectric prevents continuous charge flow, which is why the capacitor blocks DC once charged.
 
 The capacitor with a nonconducting dielectric passes AC current due to the oscillation of charges on the plates and the displacement current in the dielectric, even though no physical charge flows through the insulating material. This apparent paradox is resolved by understanding the role of the electric field and the time-varying nature of AC.
