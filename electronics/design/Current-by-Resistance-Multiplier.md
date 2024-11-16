@@ -21,12 +21,12 @@ This circuit often uses **operational amplifiers (op-amps)** or **transconductan
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To design and simulate a **Current-by-Resistance Multiplier** using an operational amplifier and demonstrate how the output current varies as the resistance changes.
 
-#### **Components**:
+#### Components
 1. **DC Voltage Source** (\( V_{supply} = 10V \)).
 2. **Operational Amplifier** (e.g., LM741).
 3. **Fixed Resistor** (\( R_f = 1k\Omega \), feedback resistor).
@@ -37,7 +37,7 @@ To design and simulate a **Current-by-Resistance Multiplier** using an operation
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Input Current Source**:
    - Connect the input current source (\( I_{in} \)) to the inverting input of the op-amp.
@@ -56,7 +56,7 @@ To design and simulate a **Current-by-Resistance Multiplier** using an operation
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Build the circuit as described above, ensuring correct polarity and connections.
@@ -72,7 +72,7 @@ To design and simulate a **Current-by-Resistance Multiplier** using an operation
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Output Current**:
    - The output current (\( I_{out} \)) is proportional to the product of \( I_{in} \) and \( R \):
@@ -88,7 +88,7 @@ To design and simulate a **Current-by-Resistance Multiplier** using an operation
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Accuracy**:
    - The circuit provides precise multiplication of current and resistance, making it useful for control systems.

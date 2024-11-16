@@ -4,7 +4,7 @@ A **Capacitive I-to-V Integrator** is a circuit that converts an input current i
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Capacitor Behavior**:
    - The voltage across a capacitor is proportional to the integral of the current:
@@ -29,12 +29,12 @@ A **Capacitive I-to-V Integrator** is a circuit that converts an input current i
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To design and simulate a **Capacitive I-to-V Integrator** and demonstrate how the output voltage integrates the input current.
 
-#### **Components**:
+#### Components
 1. **Operational Amplifier** (e.g., LM741).
 2. **Capacitor** (\( C = 1\mu F \)).
 3. **Current Source** (\( I_{in} \), simulated with a variable resistor or function generator).
@@ -45,7 +45,7 @@ To design and simulate a **Capacitive I-to-V Integrator** and demonstrate how th
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Input Current**:
    - Connect the input current source (\( I_{in} \)) to the inverting input of the op-amp.
@@ -67,7 +67,7 @@ To design and simulate a **Capacitive I-to-V Integrator** and demonstrate how th
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Build the circuit as described above, ensuring proper connections and polarity.
@@ -87,7 +87,7 @@ To design and simulate a **Capacitive I-to-V Integrator** and demonstrate how th
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Constant Input Current**:
    - For a constant \( I_{in} \), \( V_{out} \) increases linearly with time:
@@ -103,7 +103,7 @@ To design and simulate a **Capacitive I-to-V Integrator** and demonstrate how th
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Waveform Integration**:
    - The circuit accurately integrates input current waveforms, providing an analog method for mathematical operations.

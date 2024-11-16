@@ -4,7 +4,7 @@ An R1(R2)-to-Voltage Converter is a circuit that converts the ratio of two resis
 
 ---
 
-### Key Concepts:
+### Concepts
 
 1. Resistive Ratio:
    - The ratio \( R_1 / R_2 \) determines the voltage output of the circuit.
@@ -23,7 +23,7 @@ An R1(R2)-to-Voltage Converter is a circuit that converts the ratio of two resis
 
 ---
 
-### Circuit Design for Tinkercad:
+### Circuit
 
 #### Objective:
 To design and simulate an R1(R2)-to-Voltage Converter and observe how the output voltage varies with the ratio of \( R_1 \) and \( R_2 \).
@@ -38,7 +38,7 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 
 ---
 
-### Circuit Configuration:
+### Circuit
 
 1. Voltage Divider:
    - Connect \( R_1 \) and \( R_2 \) in series.
@@ -53,7 +53,7 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Build the circuit as described above.
@@ -73,7 +73,7 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 
 ---
 
-### Expected Results:
+### Results:
 
 1. Output Voltage:
    - The output voltage is proportional to the ratio of \( R_2 \) to \( R_1 + R_2 \):
@@ -98,7 +98,7 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. Ratio Sensitivity:
    - The circuit provides a direct relationship between resistance ratio and output voltage, making it ideal for monitoring resistive changes.

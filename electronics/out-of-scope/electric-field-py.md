@@ -91,7 +91,7 @@ def explain_electric_field():
        - Measured in Newtons/Coulomb or Volts/meter
        - Shows how charged particles would move
 
-    2. Key Characteristics:
+    2. Characteristics:
        a) Field Lines:
           - Start from positive charges
           - End on negative charges
@@ -232,7 +232,7 @@ def explain_electric_field():
        - Measured in Newtons/Coulomb or Volts/meter
        - Shows how charged particles would move
 
-    2. Key Characteristics:
+    2. Characteristics:
        a) Field Lines:
           - Start from positive charges
           - End on negative charges

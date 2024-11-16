@@ -4,7 +4,7 @@ A **decoupling inductor** is used in circuits to block or filter high-frequency 
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Inductive Reactance**:
    - The impedance of an inductor increases with frequency:
@@ -24,12 +24,12 @@ A **decoupling inductor** is used in circuits to block or filter high-frequency 
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To demonstrate how a **decoupling inductor** blocks high-frequency signals while allowing low-frequency signals or DC to pass.
 
-#### **Components**:
+#### Components
 1. **AC Voltage Source** (\( V_{AC} = 5V_{peak}, f = 1kHz - 100kHz \)).
 2. **DC Voltage Source** (\( V_{DC} = 5V \)).
 3. **Inductor** (\( L = 10mH \)).
@@ -40,7 +40,7 @@ To demonstrate how a **decoupling inductor** blocks high-frequency signals while
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Voltage Source**:
    - Combine the DC voltage source and AC voltage source to simulate a power line with superimposed noise.
@@ -59,7 +59,7 @@ To demonstrate how a **decoupling inductor** blocks high-frequency signals while
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Input Signal**:
    - Configure the AC voltage source to simulate noise with frequencies \( 1kHz, 10kHz, 50kHz, 100kHz \).
@@ -79,7 +79,7 @@ To demonstrate how a **decoupling inductor** blocks high-frequency signals while
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Low-Frequency Signals**:
    - At \( f = 1kHz \), the output signal includes both DC and AC components with minimal attenuation.
@@ -92,7 +92,7 @@ To demonstrate how a **decoupling inductor** blocks high-frequency signals while
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Decoupling Performance**:
    - The inductor effectively blocks high-frequency noise, ensuring clean DC power or low-frequency signal transmission.

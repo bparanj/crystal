@@ -18,7 +18,7 @@ Controls the phase of AC signals, enabling smooth control over devices like dimm
 
 Thyristors are widely used in industrial and consumer applications requiring reliable, high-power control, and are essential for efficient and precise power management in electronics.
 
-Thyristors solve several critical problems in power electronics and control systems:
+Thyristors solve several problems in power electronics and control systems:
 
 1. Power Control Problems:
    - Enables high-power switching with minimal control power

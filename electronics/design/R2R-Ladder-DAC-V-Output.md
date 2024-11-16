@@ -4,7 +4,7 @@ An **R/2R Ladder Digital-to-Analog Converter (DAC)** with a **voltage output** c
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **R/2R Resistor Network**:
    - The network consists of resistors in a repeating R and 2R configuration.
@@ -26,12 +26,12 @@ An **R/2R Ladder Digital-to-Analog Converter (DAC)** with a **voltage output** c
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To design and simulate an **R/2R Ladder DAC (Voltage Output)** using Tinkercad and demonstrate the relationship between binary input and output voltage.
 
-#### **Components**:
+#### Components
 1. **DC Voltage Source** (\( V_{ref} = 5V \)).
 2. **Resistors**:
    - \( R = 1k\Omega \).
@@ -42,7 +42,7 @@ To design and simulate an **R/2R Ladder DAC (Voltage Output)** using Tinkercad a
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **R/2R Ladder Network**:
    - Arrange resistors in an R/2R ladder configuration for a 3-bit DAC:
@@ -65,7 +65,7 @@ To design and simulate an **R/2R Ladder DAC (Voltage Output)** using Tinkercad a
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Build the R/2R ladder as described.
@@ -82,7 +82,7 @@ To design and simulate an **R/2R Ladder DAC (Voltage Output)** using Tinkercad a
 
 ---
 
-### **Expected Results**:
+### Results
 
 For a 3-bit DAC with \( V_{ref} = 5V \):
 
@@ -107,7 +107,7 @@ For a 3-bit DAC with \( V_{ref} = 5V \):
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Scalability**:
    - The R/2R ladder design is easily scalable for higher bit DACs with minimal resistors.

@@ -75,7 +75,7 @@ Lenz’s Law: The direction of the induced current is such that it opposes the c
    - Induction Motors: Use electromagnetic induction to produce mechanical motion. The rotating magnetic field induces a current in the rotor, generating torque.
    - Induction Cooktops: Use electromagnetic induction to directly heat pots and pans, providing efficient cooking.
 
-5. Key Concepts:
+5. Concepts
 
    - Relative Motion: Electromagnetic induction occurs when there is relative motion between a conductor and a magnetic field. This can be achieved by moving the conductor, changing the magnetic field, or both.
    - Eddy Currents: Circulating currents induced within conductors exposed to changing magnetic fields. These can cause energy losses in the form of heat but are also useful in applications like magnetic braking.

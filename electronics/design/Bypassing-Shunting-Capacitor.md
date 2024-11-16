@@ -4,7 +4,7 @@ A **bypassing (or shunting) capacitor** is used to redirect high-frequency noise
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Capacitive Reactance**:
    - The impedance of a capacitor decreases with frequency:
@@ -23,12 +23,12 @@ A **bypassing (or shunting) capacitor** is used to redirect high-frequency noise
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To demonstrate the behavior of a **bypassing capacitor** in filtering high-frequency noise while maintaining stable DC voltage.
 
-#### **Components**:
+#### Components
 1. **DC Voltage Source** (\( V_{DC} = 5V \)).
 2. **AC Voltage Source** (\( V_{AC} = 0.5V_{peak}, f = 10kHz \)).
 3. **Capacitor** (\( C = 1\mu F \)).
@@ -38,7 +38,7 @@ To demonstrate the behavior of a **bypassing capacitor** in filtering high-frequ
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Combined Signal**:
    - Connect the DC voltage source and AC voltage source in series to simulate a power line with superimposed noise.
@@ -56,7 +56,7 @@ To demonstrate the behavior of a **bypassing capacitor** in filtering high-frequ
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Input Signal**:
    - Configure the DC voltage source to \( 5V \).
@@ -76,7 +76,7 @@ To demonstrate the behavior of a **bypassing capacitor** in filtering high-frequ
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Without the Capacitor**:
    - The output across \( R \) shows both the DC voltage and the superimposed AC noise.
@@ -92,7 +92,7 @@ To demonstrate the behavior of a **bypassing capacitor** in filtering high-frequ
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **High-Frequency Noise Suppression**:
    - Bypassing capacitors effectively filter out high-frequency noise, stabilizing sensitive circuits.

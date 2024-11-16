@@ -4,7 +4,7 @@ A Capacitive V-to-V Differentiator is a circuit that generates an output voltage
 
 ---
 
-### Key Concepts:
+### Concepts
 
 1. Differentiation:
    - The current through a capacitor is proportional to the time derivative of the input voltage:
@@ -23,7 +23,7 @@ A Capacitive V-to-V Differentiator is a circuit that generates an output voltage
 
 ---
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Objective:
 To design and simulate a Capacitive V-to-V Differentiator and observe how the output voltage responds to time-varying input signals.
@@ -37,7 +37,7 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 
 ---
 
-### Circuit Configuration:
+### Circuit
 
 1. Input Voltage:
    - Connect the function generator output to one terminal of the capacitor (\( C \)).
@@ -55,7 +55,7 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Build the circuit on a breadboard as described.
@@ -72,7 +72,7 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 
 ---
 
-### Expected Results:
+### Results:
 
 1. Sinusoidal Input:
    - For \( V_{in}(t) = V_{peak} \sin(\omega t) \):
@@ -95,7 +95,7 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. Differentiation Behavior:
    - The circuit emphasizes rapid changes in the input voltage, effectively differentiating the waveform.

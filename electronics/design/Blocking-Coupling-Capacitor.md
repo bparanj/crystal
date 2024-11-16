@@ -4,7 +4,7 @@ A **blocking capacitor**, also called a **coupling capacitor**, is used to pass 
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Capacitive Reactance**:
    - The impedance of a capacitor decreases with increasing frequency:
@@ -22,12 +22,12 @@ A **blocking capacitor**, also called a **coupling capacitor**, is used to pass 
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To demonstrate the behavior of a **blocking (coupling) capacitor** in separating AC signals from DC components.
 
-#### **Components**:
+#### Components
 1. **DC Voltage Source** (\( V_{DC} = 5V \)).
 2. **AC Voltage Source** (\( V_{AC} = 2V_{peak}, f = 1kHz \)).
 3. **Capacitor** (\( C = 1\mu F \)).
@@ -37,7 +37,7 @@ To demonstrate the behavior of a **blocking (coupling) capacitor** in separating
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Input Signal**:
    - Combine the DC voltage source and AC voltage source using a summing point.
@@ -56,7 +56,7 @@ To demonstrate the behavior of a **blocking (coupling) capacitor** in separating
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Input Signal**:
    - Configure the AC voltage source to produce a sine wave:
@@ -79,7 +79,7 @@ To demonstrate the behavior of a **blocking (coupling) capacitor** in separating
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **DC Blocking**:
    - The output signal consists only of the AC component, with the DC offset removed.
@@ -93,7 +93,7 @@ To demonstrate the behavior of a **blocking (coupling) capacitor** in separating
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Signal Isolation**:
    - A blocking capacitor effectively isolates the AC signal while preventing DC interference between circuit stages.

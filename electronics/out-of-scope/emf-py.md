@@ -97,7 +97,7 @@ def explain_emf():
           - Light energy to EMF
           - Typically 0.5-0.7V per cell
           
-    3. Key Characteristics:
+    3. Characteristics:
        - Independent of circuit current
        - Internal resistance affects output
        - Can be AC or DC
@@ -275,7 +275,7 @@ def explain_emf():
           - Light energy to EMF
           - Typically 0.5-0.7V per cell
           
-    3. Key Characteristics:
+    3. Characteristics:
        - Independent of circuit current
        - Internal resistance affects output
        - Can be AC or DC

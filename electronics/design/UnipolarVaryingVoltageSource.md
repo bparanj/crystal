@@ -2,9 +2,7 @@
 
 A unipolar varying voltage source generates a voltage that changes over time within a single polarity range (e.g., \(0V\) to \(+V_{max}\)) or (\(-V_{max}\) to \(0V\)). It is commonly used in signal generation, analog processing, and control systems where a non-alternating (unipolar) voltage is required.
 
----
-
-### Key Features:
+### Features:
 
 1. Unipolar Voltage:
    - The voltage stays within a single polarity (e.g., entirely positive or entirely negative).
@@ -17,14 +15,14 @@ A unipolar varying voltage source generates a voltage that changes over time wit
    - Sensor excitation.
    - Driving unipolar circuits or devices.
 
----
-
-### Circuit Design for Tinkercad:
+### Circuit
 
 #### Objective:
+
 To design and simulate a unipolar varying voltage source and observe its behavior over time.
 
 #### Components:
+
 1. DC Voltage Source (\( V_{DC} = 10V \)).
 2. Operational Amplifier (e.g., LM741 or similar).
 3. Function Generator to create a varying signal.
@@ -34,9 +32,7 @@ To design and simulate a unipolar varying voltage source and observe its behavio
 7. Oscilloscope to observe the output waveform.
 8. Breadboard and wires.
 
----
-
-### Circuit Configuration:
+### Circuit
 
 #### 1. Unipolar Ramp Generator:
 1. Voltage Supply:
@@ -58,9 +54,7 @@ To design and simulate a unipolar varying voltage source and observe its behavio
    - Use a diode to rectify the sinusoidal waveform to make it unipolar.
    - Optionally, add a capacitor to smooth the rectified signal.
 
----
-
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Build the ramp generator or sinusoidal source as described above.
@@ -74,9 +68,7 @@ To design and simulate a unipolar varying voltage source and observe its behavio
    - Vary \( R \) and \( C \) to see how they affect the ramp's rise and fall time.
    - Adjust the frequency of the function generator to observe changes in the unipolar sinusoidal signal.
 
----
-
-### Expected Results:
+### Results:
 
 1. Unipolar Ramp:
    - The voltage ramps up linearly during the capacitor charging phase and resets when discharged via the diode.
@@ -88,9 +80,7 @@ To design and simulate a unipolar varying voltage source and observe its behavio
    - Larger \( C \): Slower ramp or more smoothing.
    - Larger \( R \): Slower charging/discharging or reduced amplitude.
 
----
-
-### Key Insights:
+### Insights:
 
 1. Controlled Unipolar Output:
    - The circuit ensures that the voltage remains within a single polarity, suitable for unipolar systems.
@@ -101,6 +91,4 @@ To design and simulate a unipolar varying voltage source and observe its behavio
 3. Applications:
    - Ideal for control systems, sensor excitation, or signal conditioning in analog circuits.
 
----
-
-This experiment can be implemented in Tinkercad, where you can simulate and visualize the unipolar varying voltage output using an oscilloscope.
+you can simulate and visualize the unipolar varying voltage output using an oscilloscope.

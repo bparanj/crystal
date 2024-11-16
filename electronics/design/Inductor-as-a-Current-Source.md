@@ -4,7 +4,7 @@ An **inductor** can act as a current source because of its ability to resist cha
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Inductor Behavior**:
    - The voltage across an inductor is proportional to the rate of change of current:
@@ -35,12 +35,12 @@ An **inductor** can act as a current source because of its ability to resist cha
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To demonstrate how an inductor behaves like a current source when connected to a load.
 
-#### **Components**:
+#### Components
 1. **Inductor** (\( L = 10mH \)).
 2. **DC Voltage Source** (\( V_{supply} = 10V \)).
 3. **Switch** (SPST).
@@ -51,7 +51,7 @@ To demonstrate how an inductor behaves like a current source when connected to a
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Charging Phase**:
    - Connect the inductor (\( L \)) in series with the voltage source (\( V_{supply} \)).
@@ -67,7 +67,7 @@ To demonstrate how an inductor behaves like a current source when connected to a
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Charging the Inductor**:
    - Close the switch to connect \( V_{supply} \) to the inductor.
@@ -86,7 +86,7 @@ To demonstrate how an inductor behaves like a current source when connected to a
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Charging Phase**:
    - Current through \( L \) increases linearly with time until it stabilizes:
@@ -107,7 +107,7 @@ To demonstrate how an inductor behaves like a current source when connected to a
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Current Source Behavior**:
    - An inductor maintains current flow temporarily, effectively acting as a short-term current source.

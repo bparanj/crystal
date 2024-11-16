@@ -16,7 +16,7 @@ When a capacitor is connected in parallel with a load in an AC circuit:
 - It provides a low-impedance path for high-frequency signals.
 - It helps maintain a steady voltage across the load by compensating for momentary drops in supply voltage.
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
 

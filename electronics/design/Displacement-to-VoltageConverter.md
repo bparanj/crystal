@@ -4,7 +4,7 @@ A **Displacement-to-Voltage Converter** is a system that converts a mechanical d
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Displacement Sensing**:
    - Mechanical displacement is detected by a transducer, such as a potentiometer, capacitive sensor, inductive sensor, or strain gauge.
@@ -39,10 +39,10 @@ A **Displacement-to-Voltage Converter** is a system that converts a mechanical d
 
 ### **Experiment Design for Tinkercad (Potentiometric Method)**:
 
-#### **Objective**:
+#### Objective
 To design and simulate a **Displacement-to-Voltage Converter** using a potentiometer and observe how the output voltage changes with displacement.
 
-#### **Components**:
+#### Components
 1. **DC Voltage Source** (\( V_{in} = 5V \)).
 2. **Potentiometer** (\( R_{total} = 10k\Omega \), simulates displacement).
 3. **Multimeter** to measure output voltage (\( V_{out} \)).
@@ -50,7 +50,7 @@ To design and simulate a **Displacement-to-Voltage Converter** using a potentiom
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Potentiometer Connection**:
    - Connect one end of the potentiometer to \( V_{in} \) and the other end to ground.
@@ -61,7 +61,7 @@ To design and simulate a **Displacement-to-Voltage Converter** using a potentiom
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Build the circuit on a breadboard as described above.
@@ -77,7 +77,7 @@ To design and simulate a **Displacement-to-Voltage Converter** using a potentiom
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Output Voltage**:
    - \( V_{out} \) varies linearly with the wiper position:
@@ -94,7 +94,7 @@ To design and simulate a **Displacement-to-Voltage Converter** using a potentiom
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Simplicity**:
    - Potentiometers provide an easy and cost-effective method for displacement-to-voltage conversion.

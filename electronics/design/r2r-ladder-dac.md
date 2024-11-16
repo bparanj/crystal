@@ -4,7 +4,7 @@ An **R/2R Ladder DAC** is a digital-to-analog converter (DAC) that uses a resist
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **R/2R Resistor Network**:
    - The network consists of resistors arranged in a repeating pattern of \( R \) and \( 2R \), simplifying implementation.
@@ -25,12 +25,12 @@ An **R/2R Ladder DAC** is a digital-to-analog converter (DAC) that uses a resist
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To design and simulate an **R/2R Ladder DAC with current output** and observe the relationship between digital input and output current.
 
-#### **Components**:
+#### Components
 1. **DC Voltage Source** (\( V_{ref} = 5V \)).
 2. **Resistors**:
    - \( R = 1k\Omega \), \( 2R = 2k\Omega \).
@@ -40,7 +40,7 @@ To design and simulate an **R/2R Ladder DAC with current output** and observe th
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **R/2R Network**:
    - Arrange resistors in an R/2R ladder pattern. For a 3-bit DAC:
@@ -58,7 +58,7 @@ To design and simulate an **R/2R Ladder DAC with current output** and observe th
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Connect the R/2R ladder as described.
@@ -74,7 +74,7 @@ To design and simulate an **R/2R Ladder DAC with current output** and observe th
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Current Output**:
    - The output current increases proportionally to the binary input:
@@ -94,7 +94,7 @@ To design and simulate an **R/2R Ladder DAC with current output** and observe th
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Precision**:
    - The R/2R ladder structure ensures accurate and scalable digital-to-analog conversion with minimal resistor values.

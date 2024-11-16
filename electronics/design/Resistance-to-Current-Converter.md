@@ -4,7 +4,7 @@ A **Resistance-to-Current Converter (R-I Converter)** is a circuit that generate
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Ohm’s Law**:
    - The current (\(I\)) flowing through a resistor is directly proportional to the voltage across it:
@@ -19,12 +19,12 @@ A **Resistance-to-Current Converter (R-I Converter)** is a circuit that generate
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To design and simulate a **Resistance-to-Current Converter** and observe how current changes with varying resistance.
 
-#### **Components**:
+#### Components
 1. **DC Voltage Source** (\( V_{supply} = 5V \)).
 2. **Variable Resistor (Potentiometer)** (\( R = 1k\Omega \) max).
 3. **Fixed Resistor** (\( R_{lim} = 470\Omega \)) for current limiting.
@@ -33,7 +33,7 @@ To design and simulate a **Resistance-to-Current Converter** and observe how cur
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Voltage Source**:
    - Connect the positive terminal of the DC voltage source (\( V_{supply} \)) to one end of the fixed resistor (\( R_{lim} \)).
@@ -49,7 +49,7 @@ To design and simulate a **Resistance-to-Current Converter** and observe how cur
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Input Voltage**:
    - Set the DC voltage source to \( V_{supply} = 5V \).
@@ -70,7 +70,7 @@ To design and simulate a **Resistance-to-Current Converter** and observe how cur
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Current-Resistance Relationship**:
    - Current decreases as resistance (\( R \)) increases, demonstrating the inverse relationship:
@@ -89,7 +89,7 @@ To design and simulate a **Resistance-to-Current Converter** and observe how cur
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Applications**:
    - The circuit is widely used in **sensor interfacing** where the resistance of the sensor varies with environmental factors.

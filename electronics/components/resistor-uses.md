@@ -2,7 +2,7 @@ TAG
 
 resistor
 
-Resistors are fundamental components in electronics with numerous applications. uses of resistors:
+Resistors are fundamental components in electronics with numerous applications. Uses:
 
 1. Current limiting:
 

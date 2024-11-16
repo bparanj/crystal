@@ -57,6 +57,10 @@ It's like setting up the correct polarity to make the device work as intended.
 
 To plot linear and non-linear relationships involving a resistor and a diode, you can design simple experiments with varying voltage inputs and measure the resulting current. Here are two experiments:
 
+PENDING
+
+Experiments
+
 ### 1. Linear Relationship (Resistor: Ohm’s Law Experiment)
 
 - Objective:

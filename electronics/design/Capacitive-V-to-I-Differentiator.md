@@ -8,7 +8,7 @@ I_C = C \cdot \frac{dV}{dt}
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Capacitive Behavior**:
    - The current through a capacitor is proportional to the time rate of change of the voltage across it.
@@ -30,12 +30,12 @@ I_C = C \cdot \frac{dV}{dt}
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To demonstrate the concept of a **Capacitive V-to-I Differentiator** using a capacitor and observe the output current for varying input voltages.
 
-#### **Components**:
+#### Components
 1. **AC Voltage Source** (\( V_{in} = 5V_{peak}, f = 1kHz \)).
 2. **Capacitor** (\( C = 1\mu F \)).
 3. **Resistor** (\( R = 1k\Omega \)) for current-to-voltage conversion (optional).
@@ -45,7 +45,7 @@ To demonstrate the concept of a **Capacitive V-to-I Differentiator** using a cap
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Voltage Source**:
    - Connect the AC voltage source (\( V_{in} \)) to one terminal of the capacitor (\( C \)).
@@ -62,7 +62,7 @@ To demonstrate the concept of a **Capacitive V-to-I Differentiator** using a cap
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Input Signal**:
    - Configure the AC voltage source to generate a sine wave:
@@ -85,7 +85,7 @@ To demonstrate the concept of a **Capacitive V-to-I Differentiator** using a cap
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Current Proportional to Derivative**:
    - The current waveform (\( I_C \)) will be a sine wave that leads the input voltage waveform by 90°, representing the time derivative.
@@ -101,7 +101,7 @@ To demonstrate the concept of a **Capacitive V-to-I Differentiator** using a cap
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **High-Pass Behavior**:
    - The circuit behaves as a high-pass filter, passing higher frequency components more effectively.

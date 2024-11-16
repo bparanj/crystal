@@ -4,7 +4,7 @@ A bipolar varying voltage source generates a voltage that oscillates between pos
 
 ---
 
-### Key Features:
+### Features:
 
 1. Voltage Range:
    - The output voltage swings symmetrically or asymmetrically between positive and negative values (e.g., \( -5V \) to \( +5V \)).
@@ -19,7 +19,7 @@ A bipolar varying voltage source generates a voltage that oscillates between pos
 
 ---
 
-### Circuit Design for Tinkercad:
+### Circuit
 
 #### Objective:
 To design and simulate a bipolar varying voltage source using a function generator circuit.
@@ -34,7 +34,7 @@ To design and simulate a bipolar varying voltage source using a function generat
 
 ---
 
-### Circuit Configuration:
+### Circuit
 
 #### 1. Bipolar Square Wave Generator:
 1. Op-Amp in Astable Mode:
@@ -54,7 +54,7 @@ To design and simulate a bipolar varying voltage source using a function generat
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Build the circuit for either square wave or sine wave generation.
@@ -70,7 +70,7 @@ To design and simulate a bipolar varying voltage source using a function generat
 
 ---
 
-### Expected Results:
+### Results:
 
 1. Square Wave Output:
    - A square wave alternating between \( \pm V_{supply} \) with a fixed frequency.
@@ -85,7 +85,7 @@ To design and simulate a bipolar varying voltage source using a function generat
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. Waveform Flexibility:
    - Bipolar varying voltage sources can generate sine, square, or triangular waveforms depending on the circuit design.

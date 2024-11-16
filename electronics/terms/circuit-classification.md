@@ -536,27 +536,27 @@ The AM radio receiver will consist of several subsystems, each built with discre
 #### Subsystems and Relevant Experiments
 
 1. Antenna and Tuning Circuit (Signal Reception)
-   - Key Concepts: Filtering, resonance.
+   - Concepts Filtering, resonance.
    - Relevant Experiments: Band-pass filters (Intermediate Level).
    - Implementation: Design an LC tuning circuit with a coil and variable capacitor to select AM frequencies. The LC circuit resonates at a specific frequency, allowing tuning to different AM stations.
 
 2. RF Amplifier (Signal Amplification)
-   - Key Concepts: Amplification, biasing, transistor gain.
+   - Concepts Amplification, biasing, transistor gain.
    - Relevant Experiments: Basic transistor amplifier (Common Emitter), Class A amplifier (Basic and Intermediate Level).
    - Implementation: Build a high-frequency amplifier using a transistor to amplify the weak RF signals picked up by the antenna. This stage boosts the signal without distorting it, preparing it for demodulation.
 
 3. Detector (Demodulation)
-   - Key Concepts: Diode rectification, signal detection.
+   - Concepts Diode rectification, signal detection.
    - Relevant Experiments: Half-wave rectifier, diode clipping circuits (Basic Level).
    - Implementation: Use a diode for envelope detection to extract the audio signal from the modulated AM carrier wave. This stage converts the AM signal into audio frequency, which can be further amplified and heard.
 
 4. Audio Amplifier (Sound Output)
-   - Key Concepts: Low-frequency amplification, class A/B amplification.
+   - Concepts Low-frequency amplification, class A/B amplification.
    - Relevant Experiments: Common-emitter amplifier, Class A amplifier (Basic and Intermediate Level).
    - Implementation: Amplify the audio signal using a low-frequency amplifier (e.g., a transistor-based Class A amplifier). This final amplification stage boosts the audio signal to drive a small speaker or headphone.
 
 5. Power Supply
-   - Key Concepts: Voltage regulation, smoothing.
+   - Concepts Voltage regulation, smoothing.
    - Relevant Experiments: Zener-based voltage regulator, DC smoothing (Basic and Intermediate Level).
    - Implementation: Design a stable DC power supply for the radio, using a Zener diode for voltage regulation and capacitors for smoothing. Alternatively, you could design a simple battery-powered supply with stabilization.
 

@@ -3,7 +3,7 @@
   - Passive circuits process signals without adding energy to the system. They can attenuate, filter, or redirect signals but cannot amplify or generate signals.
   - They rely on components like resistors, capacitors, inductors, and transformers, which do not require external power to function.
 
-- Key Characteristics:
+- Characteristics:
   - Energy Conservation: Passive components dissipate or store energy; they cannot generate or replenish it.
   - Signal Attenuation: Passive circuits often reduce signal strength (attenuation) because they lack active elements to boost the energy.
   - Frequency and Time Domain Processing: They shape signals through filtering (e.g., low-pass, high-pass) or delay signals (e.g., RC circuits).
@@ -14,7 +14,7 @@
   - Active circuits control and modify signals by adding energy to the system. They amplify, switch, or regulate signals, making them capable of driving loads or generating oscillations.
   - They rely on components like transistors, operational amplifiers, and other active devices that require an external power source.
 
-- Key Characteristics:
+- Characteristics:
   - Energy Addition: Active circuits amplify signals or generate outputs using energy from an external source (e.g., a power supply).
   - Signal Generation: Active components can create new signals (e.g., oscillators) or modulate existing ones.
   - Nonlinear Behavior: Active circuits often introduce nonlinearities, enabling complex functions like amplification, switching, and rectification.

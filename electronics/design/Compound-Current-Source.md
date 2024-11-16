@@ -41,7 +41,7 @@ A **Compound Current Source** is a circuit that combines multiple current source
 
 ### **General Configuration of a Compound Current Source**:
 
-#### **Components**:
+#### Components
 1. **Reference Current Source**:
    - Provides a stable reference current.
    - Can be implemented with a simple resistor, transistor, or IC.
@@ -84,21 +84,21 @@ A **Compound Current Source** is a circuit that combines multiple current source
 
 ---
 
-### **Key Insights**:
+### Insights
 - Compound current sources are essential in **precision analog circuits** and **signal processing** where stable and accurate current sources are required.
 - Designs like the **Wilson** and **Cascode** current sources are optimized for different performance criteria, such as high output impedance or low voltage sensitivity.
 
 
 ### **Experiment: Compound Current Source**
 
-#### **Objective**:
+#### Objective
 To design and simulate a **compound current source** using a **cascode configuration** and demonstrate its high output impedance and stable current behavior.
 
 ---
 
 ### **Circuit Design: Cascode Current Source**
 
-#### **Components**:
+#### Components
 1. **DC Power Supply** (\( V_{supply} = 12V \))
 2. **Two NPN Transistors** (e.g., 2N2222)
 3. **Resistor** (\( R_{ref} = 1k\Omega \))
@@ -108,7 +108,7 @@ To design and simulate a **compound current source** using a **cascode configura
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Reference Current**:
    - Use the first transistor (Q1) and resistor (\( R_{ref} \)) to set a reference current:
@@ -130,7 +130,7 @@ To design and simulate a **compound current source** using a **cascode configura
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Build the circuit in Tinkercad as described above.
@@ -148,7 +148,7 @@ To design and simulate a **compound current source** using a **cascode configura
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Stable Output Current**:
    - The current through \( R_{load} \) remains nearly constant regardless of variations in load resistance, demonstrating high output impedance.
@@ -161,7 +161,7 @@ To design and simulate a **compound current source** using a **cascode configura
 
 ---
 
-### **Key Insights**:
+### Insights
 
 - **Compound Current Source**:
   - The use of a cascode stage results in higher output impedance compared to a simple current source, making the circuit behave closer to an ideal current source.

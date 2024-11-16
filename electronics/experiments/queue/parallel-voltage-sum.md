@@ -17,7 +17,7 @@ To sum or subtract voltages by preconverting them into currents, you can use res
      V_{out} = I_{total} \cdot R_L
      \]
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Components:
 1. Two DC voltage sources (e.g., \( V_1 = 5V \), \( V_2 = 3V \)).

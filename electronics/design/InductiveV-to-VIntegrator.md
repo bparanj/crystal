@@ -4,7 +4,7 @@ An Inductive V-to-V Integrator is a circuit that integrates an input voltage sig
 
 ---
 
-### Key Concepts:
+### Concepts
 
 1. Inductor Behavior:
    - The current through an inductor is the integral of the input voltage:
@@ -26,7 +26,7 @@ An Inductive V-to-V Integrator is a circuit that integrates an input voltage sig
 
 ---
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Objective:
 To design and simulate an Inductive V-to-V Integrator and observe how the output voltage responds to an input signal.
@@ -40,7 +40,7 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
 
 ---
 
-### Circuit Configuration:
+### Circuit
 
 1. Input Voltage:
    - Connect the AC voltage source to one terminal of the inductor (\( L \)).
@@ -58,7 +58,7 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Build the circuit on a breadboard as described.
@@ -77,7 +77,7 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
 
 ---
 
-### Expected Results:
+### Results:
 
 1. Sinusoidal Input:
    - For \( V_{in}(t) = V_{peak} \sin(\omega t) \):
@@ -95,7 +95,7 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. Frequency Dependence:
    - The output amplitude decreases with increasing input frequency because the integration effect is inversely proportional to frequency.

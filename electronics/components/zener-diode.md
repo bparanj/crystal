@@ -296,4 +296,4 @@ Use Cases:
 - Reference voltage sources
 - Protection circuits
 
-While frequently used, modern circuits often use integrated voltage regulators for better efficiency in complex applications.
+Modern circuits often use integrated voltage regulators for better efficiency in complex applications.

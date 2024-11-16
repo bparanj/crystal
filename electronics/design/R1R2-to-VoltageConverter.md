@@ -4,7 +4,7 @@ An R1/R2-to-Voltage Converter produces an output voltage proportional to the rat
 
 ---
 
-### Key Concepts:
+### Concepts
 
 1. Resistive Ratio:
    - The resistances \( R_1 \) and \( R_2 \) form a relationship that determines the output voltage.
@@ -54,7 +54,7 @@ To design and simulate an R1/R2-to-Voltage Converter using a voltage divider.
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Build the circuit as described above.
@@ -85,7 +85,7 @@ To design and simulate an R1/R2-to-Voltage Converter using a voltage divider.
 
 ### Op-Amp Method for Higher Precision:
 
-#### Circuit Configuration:
+#### Circuit
 1. Use an operational amplifier in a non-inverting configuration.
 2. Connect \( R_1 \) and \( R_2 \) to form a feedback network.
 3. The output voltage:
@@ -100,7 +100,7 @@ To design and simulate an R1/R2-to-Voltage Converter using a voltage divider.
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. Precision:
    - Voltage divider circuits are simple but may suffer from loading effects.

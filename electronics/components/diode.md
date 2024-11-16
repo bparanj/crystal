@@ -1,8 +1,24 @@
 A diode can be thought of as a type of electronic switch with specific characteristics. Here's how a diode functions similarly to a switch:
 
-PENDING
-
 Explain forward bias without adding anything else. What is forward bias? What electronic components can we forward bias?
+
+### What is Forward Bias?
+
+Forward bias occurs when a voltage is applied across a semiconductor device such that the current flows easily through it. This happens when the positive terminal of the voltage source is connected to the p-type material and the negative terminal to the n-type material, reducing the depletion region and allowing charge carriers to flow.
+
+### What Electronic Components Can We Forward Bias?
+
+1. Diodes:
+   - Current flows when the anode is connected to the positive terminal and the cathode to the negative terminal.
+
+2. LEDs:
+   - Light is emitted when forward-biased and the current exceeds the forward voltage.
+
+3. PNP and NPN Transistors:
+   - The base-emitter junction is forward-biased during normal operation to allow current flow.
+
+4. Zener Diodes:
+   - Operate in forward bias like regular diodes but are typically used in reverse bias for voltage regulation.
 
 ### 1. Directional Current Flow:
 

@@ -4,7 +4,7 @@ A **Current-to-Voltage Converter (I-to-V Converter)** is a circuit that converts
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Conversion Principle**:
    - Ohm's law relates current and voltage: \( V = I \cdot R \).
@@ -23,12 +23,12 @@ A **Current-to-Voltage Converter (I-to-V Converter)** is a circuit that converts
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To design and simulate a **Current-to-Voltage Converter** using an op-amp and observe the relationship between input current and output voltage.
 
-#### **Components**:
+#### Components
 1. **Operational Amplifier** (e.g., LM741).
 2. **Resistor** (\( R_f = 10k\Omega \), feedback resistor).
 3. **Current Source** (simulate with a variable resistor or a photodiode).
@@ -37,7 +37,7 @@ To design and simulate a **Current-to-Voltage Converter** using an op-amp and ob
 
 ---
 
-### **Circuit Configuration**:
+### Circuit
 
 1. **Input Current**:
    - Connect the current source to the inverting input of the op-amp.
@@ -56,7 +56,7 @@ To design and simulate a **Current-to-Voltage Converter** using an op-amp and ob
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Build the circuit as per the configuration above, ensuring proper polarity for the current source.
@@ -75,7 +75,7 @@ To design and simulate a **Current-to-Voltage Converter** using an op-amp and ob
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Linear Relationship**:
    - The output voltage varies linearly with the input current:
@@ -91,7 +91,7 @@ To design and simulate a **Current-to-Voltage Converter** using an op-amp and ob
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Versatility**:
    - This circuit is ideal for converting small currents from sensors (e.g., photodiodes, current loops) into measurable voltages.

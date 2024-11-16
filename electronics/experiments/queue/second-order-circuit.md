@@ -96,7 +96,7 @@ A second-order circuit typically includes two energy storage components, such as
    - Close the switch to connect the 5V DC source to the circuit, initiating the transient response.
    - Observe the voltage across the capacitor on the oscilloscope.
 
-2. Expected Results:
+2. Results:
 
    - The nature of the voltage waveform across the capacitor will depend on the values of \( R \), \( L \), and \( C \):
      - Underdamped Response: If the circuit parameters are set so that the response is underdamped (e.g., lower resistance), you’ll see oscillations that gradually decay over time.

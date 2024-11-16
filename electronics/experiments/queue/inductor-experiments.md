@@ -50,7 +50,7 @@ Upon opening the circuit, the inductor's stored energy discharges through the LE
 
 - Inductor's Role: Acts as an energy reservoir, releasing stored energy when the circuit opens.
 - LED Response: Utilizes the inductor's discharged energy, resulting in a temporary, fading glow.
-- Circuit Configuration: This phenomenon occurs even if the circuit is open after the inductor has been energized.
+- Circuit This phenomenon occurs even if the circuit is open after the inductor has been energized.
 
 This behavior is a fundamental characteristic of inductors in electrical circuits, demonstrating their ability to oppose sudden changes in current by releasing stored energy.
 

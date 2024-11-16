@@ -6,7 +6,7 @@ The idea that a common-base amplifier is a "reversed" common-collector amplifier
 - Input: Applied to the emitter.
 - Output: Taken from the collector.
 - Base: Held at a constant voltage (hence "common").
-- Key Features:
+- Features:
   - Low input impedance: The emitter directly receives the input signal, and the base-emitter junction is forward-biased, presenting a very low impedance.
   - High output impedance: The collector circuit provides high impedance, allowing for significant voltage gain.
   - Voltage Amplifier: It amplifies the input voltage with high bandwidth.
@@ -15,7 +15,7 @@ The idea that a common-base amplifier is a "reversed" common-collector amplifier
 - Input: Applied to the base.
 - Output: Taken from the emitter.
 - Collector: Connected to the supply (hence "common").
-- Key Features:
+- Features:
   - High input impedance: The base-emitter junction is the primary input, presenting high impedance to the source.
   - Low output impedance: The emitter directly drives the load, providing a low-impedance output.
   - Current Amplifier: It amplifies current while maintaining unity voltage gain.

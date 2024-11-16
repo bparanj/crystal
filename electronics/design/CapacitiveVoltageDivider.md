@@ -4,7 +4,7 @@ A Capacitive Voltage Divider is a circuit that divides the input voltage across 
 
 ---
 
-### Key Concepts:
+### Concepts
 
 1. Voltage Division Principle:
    - The output voltage (\( V_{out} \)) depends on the ratio of the two capacitances:
@@ -25,7 +25,7 @@ A Capacitive Voltage Divider is a circuit that divides the input voltage across 
 
 ---
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Objective:
 To design and simulate a Capacitive Voltage Divider and observe how the output voltage changes with different capacitance ratios.
@@ -38,7 +38,7 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 
 ---
 
-### Circuit Configuration:
+### Circuit
 
 1. Voltage Divider:
    - Connect \( C_1 \) and \( C_2 \) in series.
@@ -56,7 +56,7 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Assemble the capacitors and voltage source on the breadboard as described.
@@ -72,7 +72,7 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 
 ---
 
-### Expected Results:
+### Results:
 
 1. Output Voltage:
    - For \( C_1 = 1\mu F \), \( C_2 = 2\mu F \), and \( V_{in} = 5V \):
@@ -88,7 +88,7 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. High-Frequency Applications:
    - Capacitive dividers are ideal for RF and AC circuits due to their high-frequency characteristics.

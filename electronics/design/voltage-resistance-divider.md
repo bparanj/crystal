@@ -4,7 +4,7 @@ A **Voltage-into-Resistance Divider** (commonly called a **Voltage Divider**) is
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Voltage Division Rule**:
    - The output voltage across one of the resistors is proportional to its resistance relative to the total resistance:
@@ -22,12 +22,12 @@ A **Voltage-into-Resistance Divider** (commonly called a **Voltage Divider**) is
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 Demonstrate the operation of a **Voltage Divider** circuit and observe the output voltage as a function of resistance.
 
-#### **Components**:
+#### Components
 1. **DC Voltage Source** (\( V_{in} = 10V \)).
 2. **Two Resistors** (\( R_1 = 1k\Omega, R_2 = 2k\Omega \)).
 3. **Multimeter** (to measure output voltage).
@@ -47,7 +47,7 @@ Demonstrate the operation of a **Voltage Divider** circuit and observe the outpu
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Input Voltage**:
    - Set \( V_{in} = 10V \) on the DC voltage source.
@@ -68,7 +68,7 @@ Demonstrate the operation of a **Voltage Divider** circuit and observe the outpu
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Voltage Division**:
    - \( V_{out} \) decreases as \( R_2 \) decreases or \( R_1 \) increases.
@@ -81,7 +81,7 @@ Demonstrate the operation of a **Voltage Divider** circuit and observe the outpu
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Scaling Voltage**:
    - Voltage dividers are a simple way to produce a reduced voltage.

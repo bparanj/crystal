@@ -4,7 +4,7 @@ A Capacitive V-to-V Integrator is a circuit that integrates an input voltage ove
 
 ---
 
-### Key Concepts:
+### Concepts
 
 1. Integration Principle:
    - A capacitor in the feedback loop integrates the input signal:
@@ -20,7 +20,7 @@ A Capacitive V-to-V Integrator is a circuit that integrates an input voltage ove
 
 ---
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Objective:
 To design and simulate a Capacitive V-to-V Integrator and observe how the output waveform integrates the input waveform.
@@ -35,7 +35,7 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 
 ---
 
-### Circuit Configuration:
+### Circuit
 
 1. Input Voltage:
    - Connect the function generator to the inverting input (\( - \)) of the op-amp through the resistor (\( R \)).
@@ -54,7 +54,7 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Assemble the circuit on the breadboard as described.
@@ -72,7 +72,7 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 
 ---
 
-### Expected Results:
+### Results:
 
 1. Square Wave Input:
    - The output (\( V_{out} \)) will be a triangular wave, as the integral of a constant input is a linear ramp.
@@ -89,7 +89,7 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. Waveform Transformation:
    - The circuit converts waveforms based on their integrals, making it useful for waveform shaping and signal processing.

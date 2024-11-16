@@ -2,7 +2,7 @@ When two voltage sources are connected in series, their voltages either add or s
 
 ---
 
-### Key Concepts:
+### Concepts
 1. Summing Voltages:
    - When two voltage sources are connected in series with their polarities aligned (positive terminal of one connected to the negative terminal of the other), their voltages add:
    \[

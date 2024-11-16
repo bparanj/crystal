@@ -4,7 +4,7 @@ A pulse shortening circuit reduces the duration of an input pulse to a shorter, 
 
 ---
 
-### Key Concepts:
+### Concepts
 
 1. Pulse Shortening Using RC Differentiator:
    - A capacitor and resistor in series create a circuit where only rapid changes in the input signal (edges) result in output voltage spikes.
@@ -32,7 +32,7 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
 
 ---
 
-### Circuit Configuration:
+### Circuit
 
 1. RC Differentiator:
    - Connect the capacitor (\( C \)) in series with the input pulse source.
@@ -50,7 +50,7 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Build the circuit as described above.
@@ -68,7 +68,7 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
 
 ---
 
-### Expected Results:
+### Results:
 
 1. Pulse Shortening:
    - The output consists of sharp spikes at the rising and falling edges of the input pulse.
@@ -86,7 +86,7 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
 
 ### Alternative: Monostable Multivibrator Method
 
-#### Key Features:
+#### Features:
 - Generates a consistent output pulse width (\( T \)) regardless of input pulse duration.
 - The pulse width is determined by \( R \) and \( C \) in the timing network:
   \[
@@ -106,7 +106,7 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. RC Differentiator:
    - Simple and effective for sharp pulse shortening.

@@ -51,12 +51,12 @@ A **Compound Voltage Source** is a circuit that combines multiple voltage source
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
-#### **Objective**:
+#### Objective
 To demonstrate the behavior of a **Compound Voltage Source** by combining series and parallel voltage sources and observe their output characteristics.
 
-#### **Components**:
+#### Components
 1. **Two DC Voltage Sources** (\( V_1 = 5V, V_2 = 5V \)).
 2. **Resistors** (\( R = 1k\Omega \)).
 3. **Multimeter** to measure voltage and current.
@@ -95,7 +95,7 @@ To demonstrate the behavior of a **Compound Voltage Source** by combining series
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Series Connection**:
    - Increases total voltage, suitable for high-voltage applications.

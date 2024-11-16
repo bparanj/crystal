@@ -2,9 +2,7 @@
 
 An Inductive V-to-V Differentiator is a circuit that generates an output voltage proportional to the rate of change (time derivative) of the input voltage. This is achieved by utilizing an inductor in series with the input voltage source, with the output voltage taken across a resistor.
 
----
-
-### Key Concepts:
+### Concepts
 
 1. Inductive Differentiation:
    - The voltage across an inductor is proportional to the rate of change of the current:
@@ -21,23 +19,21 @@ An Inductive V-to-V Differentiator is a circuit that generates an output voltage
    - High-pass filtering for AC signals.
    - Derivative computation in analog systems.
 
----
-
-### Experiment Design for Tinkercad:
+### Experiment
 
 #### Objective:
+
 To design and simulate an Inductive V-to-V Differentiator and observe how the output voltage responds to time-varying input signals.
 
 #### Components:
+
 1. Inductor (\( L = 10mH \)).
 2. Resistor (\( R = 1k\Omega \)).
 3. AC Voltage Source (\( V_{in} = 5V_{peak}, f = 1kHz \)).
 4. Oscilloscope (to observe input and output waveforms).
 5. Breadboard and wires.
 
----
-
-### Circuit Configuration:
+### Circuit
 
 1. Input Voltage:
    - Connect the AC voltage source to one terminal of the inductor (\( L \)).
@@ -55,9 +51,7 @@ To design and simulate an Inductive V-to-V Differentiator and observe how the ou
    - Channel 1: Monitor the input voltage (\( V_{in} \)).
    - Channel 2: Monitor the output voltage (\( V_{out} \)).
 
----
-
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Assemble the circuit on the breadboard as described.
@@ -73,9 +67,7 @@ To design and simulate an Inductive V-to-V Differentiator and observe how the ou
 4. Experiment with Components:
    - Replace \( L \) (\( 5mH, 20mH \)) and \( R \) (\( 500\Omega, 10k\Omega \)) to observe their effects on the differentiation.
 
----
-
-### Expected Results:
+### Results:
 
 1. Sinusoidal Input:
    - For \( V_{in}(t) = V_{peak} \sin(\omega t) \):
@@ -94,9 +86,7 @@ To design and simulate an Inductive V-to-V Differentiator and observe how the ou
 4. Frequency Dependence:
    - Higher frequencies result in larger output voltage amplitudes due to the proportionality to \( \omega \).
 
----
-
-### Key Insights:
+### Insights:
 
 1. Waveform Differentiation:
    - The circuit emphasizes rapid changes in the input signal, making it effective for detecting transitions and sharp edges.
@@ -106,7 +96,5 @@ To design and simulate an Inductive V-to-V Differentiator and observe how the ou
 
 3. Applications:
    - Widely used in signal processing, analog computation, and waveform shaping.
-
----
 
 This experiment can be implemented in Tinkercad, where you can observe the input and output waveforms on an oscilloscope. By varying the input signal and component values, you can demonstrate the behavior of the Inductive V-to-V Differentiator.

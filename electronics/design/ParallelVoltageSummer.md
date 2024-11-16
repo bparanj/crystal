@@ -4,7 +4,7 @@ A Parallel Voltage Summer is a circuit that sums multiple input voltages and pro
 
 ---
 
-### Key Concepts:
+### Concepts
 
 1. Summing Principle:
    - The output voltage (\( V_{out} \)) is the weighted sum of the input voltages:
@@ -21,7 +21,7 @@ A Parallel Voltage Summer is a circuit that sums multiple input voltages and pro
 
 ---
 
-### Circuit Design for Tinkercad:
+### Circuit
 
 #### Objective:
 To design and simulate a Parallel Voltage Summer circuit using an operational amplifier.
@@ -35,7 +35,7 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 
 ---
 
-### Circuit Configuration:
+### Circuit
 
 1. Input Voltages:
    - Connect the positive terminals of the voltage sources (\( V_1, V_2 \)) to their respective resistors (\( R_1, R_2 \)).
@@ -52,7 +52,7 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 
 ---
 
-### Steps to Perform:
+### Steps
 
 1. Set Up the Circuit:
    - Assemble the circuit on the breadboard as described.
@@ -68,7 +68,7 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 
 ---
 
-### Expected Results:
+### Results:
 
 1. Unweighted Summer:
    - If \( R_1 = R_2 = R_f \):
@@ -95,7 +95,7 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 
 ---
 
-### Key Insights:
+### Insights:
 
 1. Flexibility:
    - Adjusting \( R_1, R_2, \dots, R_f \) allows for weighted summation of input voltages.

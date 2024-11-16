@@ -78,7 +78,7 @@ Non-contact thermometers, also known as infrared (IR) thermometers, are electron
    - Heat sink efficiency checking
    - Identifying hot spots in electronic assemblies
 
-6. Key Features:
+6. Features:
 
    - Emissivity adjustment for different materials
    - Distance-to-spot ratio (D:S) for measurement accuracy

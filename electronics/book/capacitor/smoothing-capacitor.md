@@ -44,7 +44,7 @@ Steps:
    - Pulsating DC without capacitor
    - Smoothed DC with capacitor
 
-Expected Results:
+Results:
 
 - Without capacitor: LED blinks at 60Hz
 - With capacitor: LED stays steady
