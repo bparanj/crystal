@@ -64,6 +64,8 @@ The "paradox" is explained by the fact that roles in electronics are dynamic and
 
 Here are two simple experiments to demonstrate the dual nature of circuits where current sources can act as loads and loads can act as current sources:
 
+Skipping - Already complete
+
 ### Experiment 1: Inductor as Load and Current Source
 
 #### Objective:
@@ -93,6 +95,8 @@ To show how an inductor can act as a load when storing energy and as a current s
 
    - Add an LED in parallel with a diode across the inductor, with the diode's cathode connected to the inductor's positive terminal.
    - Open the switch. The inductor will release its stored energy, and the LED will light up briefly, demonstrating the inductor acting as a current source.
+
+Skipping - Already complete
 
 ### Experiment 2: Capacitor as Load and Current Source
 

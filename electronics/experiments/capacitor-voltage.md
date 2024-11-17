@@ -24,10 +24,10 @@ Procedure:
 
 The voltage across a capacitor rises exponentially as it charges. The time it takes to charge depends on the capacitance and the resistance in the circuit. This experiment illustrates the relationship between the charge on the capacitor, the voltage across it, and the capacitance.
 
-### Summary
+Demonstrates the role of capacitors in AC circuits, showing how they can filter signals based on frequency.
+
 
 - Experiment 1: Demonstrates the basic charging and discharging behavior of a capacitor, showing how it stores and releases electrical energy.
 - Experiment 2: Illustrates the relationship between voltage and capacitance, showing how voltage across a capacitor changes as it charges.
-- Experiment 3: Demonstrates the role of capacitors in AC circuits, showing how they can filter signals based on frequency.
 
 These experiments provide a practical understanding of capacitance and its effects in different electrical contexts.

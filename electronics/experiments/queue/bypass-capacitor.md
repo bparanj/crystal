@@ -1,4 +1,4 @@
-# Bypass Capacitor
+Bypass Capacitor
 
 ## Components
 

@@ -12,12 +12,13 @@ voltage-stabilizer.md
 
 Next experiments:
 
-bypass-capacitor.md
-current-source-duality.md
+high pass filter.md
+light-sensor.md
+
 current-source-paradox.md
 current-source.md
 dc-decoupling.md
-high pass filter.md
+
 conductor paradox.md
 ideal vi load.md
 impedance conflict.md
@@ -48,8 +49,6 @@ Experiments
 voltage-doubler.md (This needs the transistor oscillator to be completed first)
 transistor-oscillator.md
 
-Design a simple experiment using Tinkercad for light sensor
-Does Tinkercad have temperature sensor
 
 Review electronics/design/oscilloscope.md. Condense the notes.
 Review function-generator.md. Condense the notes.

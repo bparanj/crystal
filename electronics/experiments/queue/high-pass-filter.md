@@ -27,7 +27,6 @@ A high-pass filter allows higher frequencies to pass through while attenuating l
 ### Steps:
 
 1. Run the Simulation:
-   - Start the Tinkercad simulation.
    - Set the AC source to a low frequency, such as 10 Hz, to observe how the circuit behaves at lower frequencies.
 
 2. Observing Low-Frequency Response:
@@ -57,7 +56,7 @@ Cutoff Frequency:
 
 The cutoff frequency is where the filter transitions between attenuating low frequencies and allowing high frequencies. Frequencies above this point pass with minimal attenuation, while frequencies below are increasingly blocked.
 
-This experiment demonstrates how an RC high-pass filter selectively allows higher frequencies while attenuating lower ones, which is useful in applications like audio signal processing and removing unwanted low-frequency noise from signals.
+This experiment demonstrates how an RC high-pass filter allows higher frequencies while attenuating lower ones, which is useful in applications like audio signal processing and removing unwanted low-frequency noise from signals.
 
 To design a high-pass filter experiment using Tinkercad, follow these steps:
 
@@ -73,7 +72,7 @@ Create a simple RC (Resistor-Capacitor) high-pass filter to observe how it allow
 4. Oscilloscope - To observe the input and output signals (use the oscilloscope in Tinkercad)
 5. Breadboard - For connecting components
 
-### Circuit Setup
+### Setup
 
 1. Connect the Capacitor and Resistor in Series:
    - Place the capacitor on the breadboard and connect it directly to the signal generator's output.
@@ -91,7 +90,7 @@ Create a simple RC (Resistor-Capacitor) high-pass filter to observe how it allow
 3. Increase Frequency: Gradually increase the frequency (e.g., 100 Hz, 500 Hz, 1 kHz, 10 kHz, etc.).
 4. Record Observations: Note how the amplitude of the output signal changes relative to the input as the frequency increases.
 
-### Expected Results
+### Results
 
 - At low frequencies, the output signal's amplitude should be much lower than the input amplitude, indicating attenuation.
 - As the frequency increases, the output amplitude should rise, approaching the input amplitude, demonstrating the high-pass filter effect.
