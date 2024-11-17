@@ -2,8 +2,6 @@
 
 An Inductive V-to-V Integrator is a circuit that integrates an input voltage signal over time, producing an output voltage proportional to the time integral of the input. This is achieved using an inductor and a resistor in a specific configuration, leveraging the relationship between an inductor's current and the integral of the input voltage.
 
----
-
 ### Concepts
 
 1. Inductor Behavior:
@@ -20,25 +18,24 @@ An Inductive V-to-V Integrator is a circuit that integrates an input voltage sig
      \]
 
 3. Applications:
+
    - Signal integration in analog circuits.
    - Waveform shaping in audio and communication systems.
    - Analog computation.
 
----
-
 ### Experiment
 
 #### Objective:
+
 To design and simulate an Inductive V-to-V Integrator and observe how the output voltage responds to an input signal.
 
 #### Components:
+
 1. AC Voltage Source (\( V_{in} \), sinusoidal or square wave).
 2. Inductor (\( L = 10mH \)).
 3. Resistor (\( R = 1k\Omega \)).
 4. Oscilloscope (to observe input and output waveforms).
 5. Breadboard and wires.
-
----
 
 ### Circuit
 
@@ -55,8 +52,6 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
 4. Oscilloscope Connections:
    - Channel 1: Monitor the input voltage (\( V_{in} \)).
    - Channel 2: Monitor the output voltage (\( V_{out} \)).
-
----
 
 ### Steps
 
@@ -75,8 +70,6 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
    - Replace \( L \) (\( 5mH, 20mH \)) and \( R \) (\( 500\Omega, 2k\Omega \)) to observe changes in integration behavior.
    - Adjust the input frequency to study frequency dependence.
 
----
-
 ### Results:
 
 1. Sinusoidal Input:
@@ -93,8 +86,6 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
    - Larger \( L \): Slower integration, smaller \( V_{out} \).
    - Larger \( R \): Larger \( V_{out} \).
 
----
-
 ### Insights:
 
 1. Frequency Dependence:
@@ -106,6 +97,4 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
 3. Applications:
    - Used in signal integration, waveform shaping, and analog computation.
 
----
-
-This experiment can be implemented in Tinkercad, where you can simulate and observe the integration behavior of the circuit by analyzing the input and output waveforms on an oscilloscope.
+you can simulate and observe the integration behavior of the circuit by analyzing the input and output waveforms on an oscilloscope.

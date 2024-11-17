@@ -4,7 +4,7 @@ thermal effect
 
 The thermal effect in electronics, also known as Joule heating or ohmic heating, refers to the process by which electrical energy is converted into heat energy when an electric current flows through a conductor. This effect is a direct consequence of the resistance that the conductor offers to the flow of electric current.
 
-### Concepts of the Thermal Effect:
+### Concepts
 
 1. Joule's Law:
 
@@ -47,8 +47,6 @@ The thermal effect in electronics, also known as Joule heating or ohmic heating,
 
    - The thermal effect is more pronounced in materials with higher resistance. In a circuit, components with significant resistance (like resistors or certain types of semiconductors) will generate more heat when current flows through them.
    - Conversely, materials with low resistance (like superconductors) generate very little heat, making them ideal for certain high-efficiency applications.
-
-### Summary:
 
 The thermal effect, or Joule heating, is the process by which electrical energy is converted into heat when current flows through a conductor. This effect is a fundamental principle in electronics and has both practical applications, such as in heating devices and light bulbs, and potential drawbacks, such as overheating and energy loss in circuits. Proper management of the thermal effect is crucial in the design and operation of electronic devices to ensure efficiency, safety, and longevity.
 

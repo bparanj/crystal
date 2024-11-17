@@ -39,8 +39,6 @@ To demonstrate the behavior of an Inductive V-to-I Integrator and observe the cu
 4. Oscilloscope (to observe input voltage and output current waveform).
 5. Breadboard and wires.
 
----
-
 ### Circuit
 
 1. Input Voltage:
@@ -55,8 +53,6 @@ To demonstrate the behavior of an Inductive V-to-I Integrator and observe the cu
 4. Oscilloscope Connections:
    - Channel 1: Monitor the input voltage (\( V_{in} \)).
    - Channel 2: Monitor the voltage across \( R \), which represents the output current.
-
----
 
 ### Steps
 
@@ -74,8 +70,6 @@ To demonstrate the behavior of an Inductive V-to-I Integrator and observe the cu
 4. Change Inductance:
    - Replace \( L \) with \( 5mH, 20mH \) inductors and observe how the integration effect varies.
 
----
-
 ### Results
 
 1. Current Proportional to Integral:
@@ -88,8 +82,6 @@ To demonstrate the behavior of an Inductive V-to-I Integrator and observe the cu
 3. Inductance Effect:
    - Larger inductors reduce the rate of current change (\( \Delta I \)) for the same input voltage.
 
----
-
 ### Insights
 
 1. Integration Behavior:
@@ -101,6 +93,4 @@ To demonstrate the behavior of an Inductive V-to-I Integrator and observe the cu
 3. Impedance Matching:
    - Ensure that the resistor \( R \) does not significantly affect the circuit’s behavior or loading.
 
----
-
-This experiment can be implemented in Tinkercad, where you can observe the current waveform corresponding to the integrated voltage using the oscilloscope and verify the effects of input frequency and inductance value.
+ you can observe the current waveform corresponding to the integrated voltage using the oscilloscope and verify the effects of input frequency and inductance value.

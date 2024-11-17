@@ -3,7 +3,7 @@ TAG
 
 relay
 
-The simplest electronic circuit to learn about relays is using a relay to control a higher-power device with a lower-power signal. Let's design a basic circuit that demonstrates the basic operation of a relay.
+The simplest electronic circuit to learn about relays is using a relay to control a higher-power device with a lower-power signal. 
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
@@ -79,7 +79,7 @@ Here's how this circuit works:
    - The magnetic field created by the coil closes the relay contact in the load circuit
    - The LED turns on
 
-Components needed:
+Components:
 
 1. 5V power source (for the control circuit)
 2. 12V power source (for the load circuit)
@@ -89,7 +89,7 @@ Components needed:
 6. Resistor (appropriate for the LED,  220Ω to 1kΩ)
 7. Breadboard and jumper wires
 
-Learning points:
+Learning:
 
 1. Electrical isolation: The control circuit and load circuit are electrically isolated from each other.
 2. Power amplification: A low-power signal (5V) controls a higher-power circuit (12V).

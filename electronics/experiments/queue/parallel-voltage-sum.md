@@ -28,7 +28,7 @@ To sum or subtract voltages by preconverting them into currents, you can use res
 
 ### Experiment 1: Summing Voltages
 
-#### Circuit Setup:
+#### Circuit
 1. Connect \( V_1 \) across \( R_1 \) and \( V_2 \) across \( R_2 \) separately.
 2. Connect the free ends of \( R_1 \) and \( R_2 \) to a common node.
 3. Connect the common node to \( R_L \), and then connect \( R_L \) to ground.
@@ -54,7 +54,7 @@ To sum or subtract voltages by preconverting them into currents, you can use res
 
 ### Experiment 2: Subtracting Voltages
 
-#### Circuit Setup:
+#### Circuit
 1. Connect \( V_1 \) across \( R_1 \) and reverse the polarity of \( V_2 \) across \( R_2 \).
 2. Connect the free ends of \( R_1 \) and \( R_2 \) to a common node.
 3. Connect the common node to \( R_L \), and then connect \( R_L \) to ground.

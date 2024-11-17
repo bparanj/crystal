@@ -2,8 +2,6 @@
 
 A pulse shortening circuit reduces the duration of an input pulse to a shorter, predefined width. This is commonly achieved using a differentiator circuit or a monostable multivibrator. It is widely used in digital signal processing, pulse shaping, and timing applications.
 
----
-
 ### Concepts
 
 1. Pulse Shortening Using RC Differentiator:
@@ -16,21 +14,19 @@ A pulse shortening circuit reduces the duration of an input pulse to a shorter, 
 2. Pulse Shortening Using Monostable Multivibrator:
    - A one-shot multivibrator generates a fixed-width output pulse in response to an input pulse, regardless of the input pulse duration.
 
----
-
-### Experiment Design for Tinkercad (RC Differentiator Method):
+### Experiment RC Differentiator Method:
 
 #### Objective:
+
 To design and simulate a pulse shortening circuit using an RC differentiator and observe how the output pulse width is reduced compared to the input pulse.
 
 #### Components:
+
 1. Function Generator (to provide input pulses).
 2. Capacitor (\( C = 0.1\mu F \)).
 3. Resistor (\( R = 1k\Omega \)).
 4. Oscilloscope (to observe input and output waveforms).
 5. Breadboard and wires.
-
----
 
 ### Circuit
 
@@ -48,8 +44,6 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
    - Channel 1: Monitor the input pulse.
    - Channel 2: Monitor the output pulse.
 
----
-
 ### Steps
 
 1. Set Up the Circuit:
@@ -66,8 +60,6 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
 4. Experiment with RC Values:
    - Replace \( C \) (\( 0.01\mu F, 1\mu F \)) and \( R \) (\( 500\Omega, 10k\Omega \)) to observe changes in the output pulse width.
 
----
-
 ### Results:
 
 1. Pulse Shortening:
@@ -82,11 +74,10 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
      - Rising edge produces a positive spike.
      - Falling edge produces a negative spike.
 
----
-
 ### Alternative: Monostable Multivibrator Method
 
 #### Features:
+
 - Generates a consistent output pulse width (\( T \)) regardless of input pulse duration.
 - The pulse width is determined by \( R \) and \( C \) in the timing network:
   \[
@@ -94,17 +85,17 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
   \]
 
 #### Components:
+
 1. 555 Timer IC.
 2. Resistor (\( R \)).
 3. Capacitor (\( C \)).
 4. Trigger Signal.
 
 #### Setup:
+
 1. Configure the 555 Timer in monostable mode.
 2. Apply the input pulse as the trigger signal.
 3. Observe the output pulse, which will have a fixed duration.
-
----
 
 ### Insights:
 
@@ -121,6 +112,4 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
    - Edge detection.
    - Pulse shaping in communication systems.
 
----
-
-This experiment can be implemented in Tinkercad, where you can simulate the pulse shortening behavior and observe the effect of varying \( R \) and \( C \) values on the output pulse.
+ you can simulate the pulse shortening behavior and observe the effect of varying \( R \) and \( C \) values on the output pulse.

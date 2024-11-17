@@ -272,8 +272,6 @@ Common Control Methods:
 - Capacitors
 - Inductors
 
-Would you like me to explain more about any specific type of signal control or its applications?
-
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
     <!-- Grid for each section -->
     <defs>
@@ -337,8 +335,6 @@ The term "solid-state" refers to the fact that these devices operate using the p
 
 3. Semiconductor Physics:
    - The behavior of solid-state devices is based on solid-state physics, which studies how electrons behave in solid materials. The control of electron flow in these materials is what allows the device to function as a switch, amplifier, or other electronic component.
-
-### Summary:
 
 The term "solid-state" highlights the fact that these devices function using the principles of solid materials, primarily semiconductors, without relying on moving parts or the need for a vacuum. This marks a significant shift from earlier electronic technologies and is key to the reliability and miniaturization of modern electronic components.
 

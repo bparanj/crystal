@@ -1,8 +1,8 @@
+Requires IC
+
 ### Parallel Voltage Summer
 
 A Parallel Voltage Summer is a circuit that sums multiple input voltages and provides a weighted or unweighted total voltage at the output. It is often implemented using resistors in parallel with an operational amplifier to achieve precise voltage addition.
-
----
 
 ### Concepts
 
@@ -19,11 +19,10 @@ A Parallel Voltage Summer is a circuit that sums multiple input voltages and pro
    - Analog signal processing.
    - Voltage level scaling.
 
----
-
 ### Circuit
 
 #### Objective:
+
 To design and simulate a Parallel Voltage Summer circuit using an operational amplifier.
 
 #### Components:
@@ -32,8 +31,6 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 3. DC Voltage Sources (\( V_1 = 2V, V_2 = 3V \)).
 4. Multimeter to measure \( V_{out} \).
 5. Breadboard and wires.
-
----
 
 ### Circuit
 
@@ -50,8 +47,6 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 4. Output Voltage:
    - Measure \( V_{out} \) at the op-amp output terminal.
 
----
-
 ### Steps
 
 1. Set Up the Circuit:
@@ -65,8 +60,6 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 
 4. Experiment with Resistor Values:
    - Change \( R_1, R_2 \), or \( R_f \) to observe their effect on \( V_{out} \).
-
----
 
 ### Results:
 
@@ -93,8 +86,6 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 3. Linearity:
    - \( V_{out} \) varies linearly with the input voltages.
 
----
-
 ### Insights:
 
 1. Flexibility:
@@ -106,6 +97,4 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 3. Applications:
    - Used in audio mixers, waveform generators, and signal processing circuits.
 
----
-
-This experiment can be implemented in Tinkercad, where you can vary input voltages and resistor values to observe the summing behavior of the circuit.
+you can vary input voltages and resistor values to observe the summing behavior of the circuit.

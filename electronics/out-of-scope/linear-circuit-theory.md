@@ -21,6 +21,7 @@ Linear circuit theory is a fundamental framework for analyzing circuits that fol
 Applications:
 
 1. Analysis Methods:
+
 - Mesh analysis
 - Nodal analysis
 - Thevenin/Norton equivalents

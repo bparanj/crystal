@@ -24,7 +24,7 @@ The thermoelectric effect, a manifestation of the interplay between thermal and 
 
 1.  child :
 
-Imagine you have two special blocks. When one block gets hot and the other stays cool, they can make a tiny bit of electricity! It's like magic, but it's ly science. We can use this to make little lights glow or even to keep our drinks cold in a special cooler.
+Imagine you have two special blocks. When one block gets hot and the other stays cool, they can make a tiny bit of electricity. We can use this to make little lights glow or even to keep our drinks cold in a special cooler.
 
 2.  teenager :
 
@@ -50,7 +50,7 @@ Concepts:
 
 4.  graduate student:
 
-At an advanced level, we delve deeper into the quantum mechanics and solid-state physics underlying thermoelectric phenomena:
+We delve deeper into the quantum mechanics and solid-state physics underlying thermoelectric phenomena:
 
 - Boltzmann transport equation for electrons and phonons
 - Density of states engineering in low-dimensional structures
@@ -60,7 +60,7 @@ At an advanced level, we delve deeper into the quantum mechanics and solid-state
 - Topological insulators and their potential in thermoelectrics
 - Spin Seebeck effect and spin caloritronics
 
-We also explore advanced concepts and techniques:
+Advanced concepts and techniques:
 
 - Transient thermoelectric effects
 - Thermomagnetic effects (Nernst-Ettingshausen effect)
@@ -69,8 +69,6 @@ We also explore advanced concepts and techniques:
 - Characterization techniques: Harman method, 3ω method, scanning probe microscopy
 
 5.  colleague:
-
-In a peer-to-peer discussion, we'd focus on cutting-edge research and challenges in thermoelectrics:
 
 - Novel materials: discussing recent advancements in organic thermoelectrics, hybrid perovskites, and two-dimensional materials like graphene and transition metal dichalcogenides.
 - Nanostructuring approaches: exploring hierarchical architectures, superlattices, and nanoinclusions for phonon scattering optimization.

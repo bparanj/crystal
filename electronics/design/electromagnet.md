@@ -8,45 +8,45 @@ Electric Current and Magnetic Field: When an electric current flows through a wi
 
 Coil of Wire:
 
-   An electromagnet is  made by winding a wire into a coil, often around a core made of a ferromagnetic material like iron. The wire is usually insulated to prevent short circuits between the turns.
+An electromagnet is  made by winding a wire into a coil, often around a core made of a ferromagnetic material like iron. The wire is usually insulated to prevent short circuits between the turns.
 
 Core Material:
 
-   The ferromagnetic core, such as an iron rod, enhances the magnetic field produced by the coil. The core becomes magnetized when current flows through the coil, significantly increasing the strength of the electromagnet compared to a coil without a core.
+The ferromagnetic core, such as an iron rod, enhances the magnetic field produced by the coil. The core becomes magnetized when current flows through the coil, significantly increasing the strength of the electromagnet compared to a coil without a core.
 
 Operation:
 
-   - Current Flow:
+Current Flow:
 
-   When an electric current is passed through the coil, the coil generates a magnetic field, and the core becomes magnetized. This turns the entire assembly into a magnet.
+When an electric current is passed through the coil, the coil generates a magnetic field, and the core becomes magnetized. This turns the entire assembly into a magnet.
 
-   - Magnetization Control:
+Magnetization Control:
 
-   The strength of the magnetic field depends on the amount of current flowing through the coil, the number of turns in the coil, and the properties of the core material. The direction of the magnetic field can be reversed by reversing the direction of the current.
+The strength of the magnetic field depends on the amount of current flowing through the coil, the number of turns in the coil, and the properties of the core material. The direction of the magnetic field can be reversed by reversing the direction of the current.
 
 Applications:
 
-   - Electromechanical Devices:
+Electromechanical Devices:
 
-   Electromagnets are used in devices like electric motors, generators, relays, and solenoids. In motors and generators, electromagnets are crucial for converting electrical energy into mechanical energy and vice versa.
+Electromagnets are used in devices like electric motors, generators, relays, and solenoids. In motors and generators, electromagnets are crucial for converting electrical energy into mechanical energy and vice versa.
 
-   - Magnetic Lifting:
+Magnetic Lifting:
 
-   Large electromagnets are used in scrap yards to lift heavy metal objects. The magnet can be turned on to pick up the metal and turned off to release it.
+Large electromagnets are used in scrap yards to lift heavy metal objects. The magnet can be turned on to pick up the metal and turned off to release it.
 
-   - Magnetic Resonance Imaging (MRI):
+Magnetic Resonance Imaging (MRI):
 
-   Powerful electromagnets are used in MRI machines to generate the magnetic fields necessary for imaging the inside of the human body.
+Powerful electromagnets are used in MRI machines to generate the magnetic fields necessary for imaging the inside of the human body.
 
 Advantages:
 
-   - Control:
+Control:
 
-   Unlike permanent magnets, electromagnets can be turned on and off and their strength can be controlled by adjusting the current.
+Unlike permanent magnets, electromagnets can be turned on and off and their strength can be controlled by adjusting the current.
 
-   - Versatility:
+Versatility:
 
-   They can be made in a wide range of sizes and strengths, depending on the application.
+They can be made in a wide range of sizes and strengths, depending on the application.
 
 An electromagnet is a type of magnet that is powered by electricity. It consists of a coil of wire, often wrapped around a ferromagnetic core, that generates a magnetic field when current flows through it. Electromagnets are widely used in various applications where controlled magnetic fields are needed, such as in motors, relays, lifting equipment, and medical imaging devices. Their ability to be turned on and off and to vary their strength makes them incredibly versatile compared to permanent magnets.
 
@@ -54,39 +54,39 @@ An electromagnet is directly related to the broader concept of electromagnetism 
 
 ### 1. Electromagnetism:
 
-   - Fundamental Force:
+Fundamental Force:
 
-   Electromagnetism is one of the four fundamental forces of nature and describes how electric charges interact with each other and with magnetic fields. It encompasses the behavior and interaction of electric and magnetic fields, as well as how they are influenced by charges and currents.
+Electromagnetism is one of the four fundamental forces of nature and describes how electric charges interact with each other and with magnetic fields. It encompasses the behavior and interaction of electric and magnetic fields, as well as how they are influenced by charges and currents.
 
-   - Principles:
+Principles:
 
-     - Ampère's Law:
+Ampère's Law:
 
-     Describes how an electric current flowing through a conductor generates a magnetic field around it.
+Describes how an electric current flowing through a conductor generates a magnetic field around it.
 
-     - Faraday’s Law of Induction:
+Faraday’s Law of Induction:
 
-     Describes how a changing magnetic field can induce an electric current in a conductor.
+Describes how a changing magnetic field can induce an electric current in a conductor.
 
-     - Maxwell’s Equations:
+Maxwell’s Equations:
 
-     A set of equations that summarize the behavior of electric and magnetic fields and their interactions.
+A set of equations that summarize the behavior of electric and magnetic fields and their interactions.
 
 ### 2. Electromagnet:
 
-   - Application of Electromagnetism:
+Application of Electromagnetism:
 
-   An electromagnet is a device that uses the principles of electromagnetism to generate a controllable magnetic field. It consists of a coil of wire (often wrapped around a ferromagnetic core) through which an electric current is passed. The current flowing through the wire creates a magnetic field, magnetizing the core and turning the entire assembly into a magnet.
+An electromagnet is a device that uses the principles of electromagnetism to generate a controllable magnetic field. It consists of a coil of wire (often wrapped around a ferromagnetic core) through which an electric current is passed. The current flowing through the wire creates a magnetic field, magnetizing the core and turning the entire assembly into a magnet.
 
-   - How It Works:
+How It Works:
 
-     - Ampère’s Law in Action:
+Ampère’s Law in Action:
 
-     When current flows through the coil of wire in an electromagnet, it generates a magnetic field around the wire, according to Ampère’s Law. This magnetic field is concentrated and strengthened by the coiled shape and the presence of a ferromagnetic core.
+When current flows through the coil of wire in an electromagnet, it generates a magnetic field around the wire, according to Ampère’s Law. This magnetic field is concentrated and strengthened by the coiled shape and the presence of a ferromagnetic core.
 
-     - Magnetic Field Control:
+Magnetic Field Control:
 
-     By adjusting the amount of current flowing through the wire, the strength of the magnetic field can be controlled. Turning off the current effectively turns off the magnet, which is a key feature that differentiates electromagnets from permanent magnets.
+By adjusting the amount of current flowing through the wire, the strength of the magnetic field can be controlled. Turning off the current effectively turns off the magnet, which is a key feature that differentiates electromagnets from permanent magnets.
 
 ### Connection Between Electromagnet and Electromagnetism:
 

@@ -97,4 +97,4 @@ To design and simulate an Inductive V-to-V Differentiator and observe how the ou
 3. Applications:
    - Widely used in signal processing, analog computation, and waveform shaping.
 
-This experiment can be implemented in Tinkercad, where you can observe the input and output waveforms on an oscilloscope. By varying the input signal and component values, you can demonstrate the behavior of the Inductive V-to-V Differentiator.
+you can observe the input and output waveforms on an oscilloscope. By varying the input signal and component values, you can demonstrate the behavior of the Inductive V-to-V Differentiator.

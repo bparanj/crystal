@@ -8,8 +8,13 @@ For AC circuits, impedance (Z) combines resistance and reactance, and it is meas
 
 Examples
 
-Transmission Lines: When a signal travels through a transmission line (like a coaxial cable) and encounters a device with a different impedance, part of the signal reflects back, reducing the strength of the transmitted signal.
-Audio Systems: If you connect speakers with a different impedance than what the amplifier is designed for, you may get distortion or reduced sound quality.
+Transmission Lines: 
+
+When a signal travels through a transmission line (like a coaxial cable) and encounters a device with a different impedance, part of the signal reflects back, reducing the strength of the transmitted signal.
+
+Audio Systems: 
+
+If you connect speakers with a different impedance than what the amplifier is designed for, you may get distortion or reduced sound quality.
 RF (Radio Frequency) Circuits: Impedance matching is critical in RF circuits (e.g., antennas, transmitters) to ensure maximum power transfer and minimize reflections.
 
 An impedance mismatch leads to power being reflected back to the source instead of being delivered to the load, causing inefficiency.

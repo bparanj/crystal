@@ -27,7 +27,7 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 4. Oscilloscope (to observe input and output pulses).
 5. Breadboard and connecting wires.
 
-### Circuit Setup:
+### Circuit
 1. Connect the pulse generator to the breadboard.
 2. Place the capacitor (\( C \)) in series with the pulse generator.
 3. Connect the resistor (\( R_L \)) between the output of the capacitor and ground.

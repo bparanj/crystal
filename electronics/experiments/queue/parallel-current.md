@@ -93,7 +93,7 @@ Demonstrate summing of currents by connecting two current sources in parallel wi
 4. Ammeter (or multimeter in current mode).
 5. Breadboard and connecting wires.
 
-#### Circuit Setup:
+#### Circuit
 
 1. Use \( V_1 \) and \( V_2 \) as voltage sources to simulate current sources. Connect each through its respective series resistor \( R_1 \) and \( R_2 \).
    - \( V_1 \) and \( V_2 \) should have their positive terminals connected to a common node.

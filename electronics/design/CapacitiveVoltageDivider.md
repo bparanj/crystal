@@ -2,8 +2,6 @@
 
 A Capacitive Voltage Divider is a circuit that divides the input voltage across two capacitors connected in series. The output voltage is determined by the capacitance ratio, making it ideal for high-frequency AC signals.
 
----
-
 ### Concepts
 
 1. Voltage Division Principle:
@@ -23,20 +21,18 @@ A Capacitive Voltage Divider is a circuit that divides the input voltage across 
      X_C = \frac{1}{2 \pi f C}
      \]
 
----
-
 ### Experiment
 
 #### Objective:
+
 To design and simulate a Capacitive Voltage Divider and observe how the output voltage changes with different capacitance ratios.
 
 #### Components:
+
 1. AC Voltage Source (\( V_{in} = 5V_{peak}, f = 1kHz \)).
 2. Capacitors (\( C_1 = 1\mu F, C_2 = 2\mu F \)).
 3. Oscilloscope (to observe waveforms).
 4. Breadboard and wires.
-
----
 
 ### Circuit
 
@@ -54,8 +50,6 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
    - Channel 1: Monitor the input voltage (\( V_{in} \)).
    - Channel 2: Monitor the output voltage (\( V_{out} \)).
 
----
-
 ### Steps
 
 1. Set Up the Circuit:
@@ -69,8 +63,6 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 
 4. Experiment with Capacitance Values:
    - Replace \( C_1 \) and \( C_2 \) with different values (\( 0.1\mu F, 10\mu F \)) to observe changes in \( V_{out} \).
-
----
 
 ### Results:
 
@@ -86,8 +78,6 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 3. Frequency Dependence:
    - The divider works effectively at high frequencies where \( X_C \) is small and the capacitive reactance is significant.
 
----
-
 ### Insights:
 
 1. High-Frequency Applications:
@@ -99,6 +89,4 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 3. Advantages:
    - No energy dissipation in resistors (unlike resistive dividers), making it efficient for AC applications.
 
----
-
-This experiment can be implemented in Tinkercad, where you can visualize the input and output voltages on an oscilloscope. By adjusting \( C_1 \) and \( C_2 \), you can observe the impact of capacitance ratios on the output voltage in a Capacitive Voltage Divider.
+you can visualize the input and output voltages on an oscilloscope. By adjusting \( C_1 \) and \( C_2 \), you can observe the impact of capacitance ratios on the output voltage in a Capacitive Voltage Divider.

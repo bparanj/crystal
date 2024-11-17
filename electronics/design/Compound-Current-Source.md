@@ -4,7 +4,7 @@ A **Compound Current Source** is a circuit that combines multiple current source
 
 ---
 
-### **Key Features**:
+### Features
 
 1. **Improved Output Impedance**:
    - The circuit provides a high output impedance, making it behave like an ideal current source over a wide range of load conditions.

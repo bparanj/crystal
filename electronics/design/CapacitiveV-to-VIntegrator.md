@@ -102,4 +102,4 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 
 ---
 
-This experiment can be implemented in Tinkercad, where you can visualize the input and output waveforms using an oscilloscope. Adjusting \( R \) and \( C \) demonstrates the flexibility and functionality of the Capacitive V-to-V Integrator.
+ you can visualize the input and output waveforms using an oscilloscope. Adjusting \( R \) and \( C \) demonstrates the flexibility and functionality of the Capacitive V-to-V Integrator.

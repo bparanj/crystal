@@ -102,4 +102,4 @@ To design and simulate a Voltage-by-Ratio Multiplier using an operational amplif
 3. Applications:
    - Voltage scaling in instrumentation, sensor interfaces, and signal processing.
 
-This experiment can be implemented in Tinkercad, where you can adjust resistor values and input voltages to observe the scaling effect. The op-amp configuration offers a practical and versatile way to implement a Voltage-by-Ratio Multiplier.
+ you can adjust resistor values and input voltages to observe the scaling effect. The op-amp configuration offers a practical and versatile way to implement a Voltage-by-Ratio Multiplier.

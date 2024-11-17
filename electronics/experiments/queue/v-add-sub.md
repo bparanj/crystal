@@ -63,7 +63,7 @@ Demonstrate how to sum voltages by connecting two DC voltage sources in series.
 4. Connecting wires.
 
 
-#### Circuit Setup:
+#### Circuit
 1. Place two DC voltage sources on the breadboard.
    - Label their terminals as follows:
      - \( V_1 \): Positive (1a) and Negative (1b).
@@ -107,7 +107,7 @@ Demonstrate how to subtract voltages by connecting two DC voltage sources in ser
 
 ---
 
-#### Circuit Setup:
+#### Circuit
 1. Place the two DC voltage sources on the breadboard.
    - Label their terminals as follows:
      - \( V_1 \): Positive (1a) and Negative (1b).

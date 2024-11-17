@@ -58,8 +58,6 @@ We analyze it using phasor notation and complex algebra. Impedance matching beco
 
 5. Colleague :
 
-impedance is fundamental to our field. We could discuss:
-
 - Negative impedance converters and their applications in active filters and oscillators
 - The role of surface acoustic wave (SAW) devices in creating complex impedance characteristics
 - Optimization techniques for broadband impedance matching networks

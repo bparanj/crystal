@@ -18,11 +18,11 @@ NO-OP Behavior: It simply closes the circuit, allowing current to pass through a
 
 ### Buffer (Unity Gain Amplifier):
 
-   A buffer, such as a unity gain operational amplifier (op-amp), is used to pass a signal from input to output without amplification (gain of 1).
+A buffer, such as a unity gain operational amplifier (op-amp), is used to pass a signal from input to output without amplification (gain of 1).
 
-   - NO-OP Behavior:
+- NO-OP Behavior:
 
-   The buffer provides isolation but does not alter the signal in terms of amplitude. It’s similar to a NO-OP because it preserves the signal without changing it.
+The buffer provides isolation but does not alter the signal in terms of amplitude. It’s similar to a NO-OP because it preserves the signal without changing it.
 
 ### No Load:
 

@@ -27,7 +27,7 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 5. Multimeter (to monitor capacitor voltage).
 6. Breadboard and wires.
 
-### Circuit Setup:
+### Circuit
 
 1. Charging Circuit:
    - Connect the positive terminal of the DC voltage source to one end of the resistor.

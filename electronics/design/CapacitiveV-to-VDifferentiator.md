@@ -108,4 +108,4 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 
 ---
 
-This experiment can be implemented in Tinkercad, where you can observe the differentiation effect by analyzing the input and output waveforms on an oscilloscope.
+ you can observe the differentiation effect by analyzing the input and output waveforms on an oscilloscope.

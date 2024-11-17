@@ -109,4 +109,3 @@ Advanced applications include:
 TAG
 
 passive device
-

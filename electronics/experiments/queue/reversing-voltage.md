@@ -24,7 +24,7 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 4. Oscilloscope (to observe input and output signals).
 5. Breadboard and wires.
 
-### Circuit Setup:
+### Circuit
 1. Connect the pulse generator to the breadboard to provide a square wave with DC transitions.
 2. Place the capacitor (\( C \)) in series with the pulse generator's output.
 3. Connect the load resistor (\( R_L \)) between the capacitor’s output and ground.

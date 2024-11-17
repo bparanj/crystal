@@ -39,7 +39,7 @@ Reactance is the imaginary part of impedance in AC circuits. It's expressed in o
 
 We delve deeper into the implications of reactance in complex systems. We analyze how reactance affects power factor in AC systems and its role in power quality. We explore the concept of complex power (S = P + jQ) and how reactive power (Q) relates to reactance. We study the behavior of reactance in resonant circuits,  series and parallel RLC circuits, and its applications in filter design. We also examine the effects of parasitic reactances in high-frequency circuits and transmission lines,  concepts like skin effect and proximity effect.
 
-5. Colleague :
+5. Colleague:
 
 - The role of reactance in matching networks for RF and microwave circuits
 - Non-linear reactances in varactor diodes and their applications in voltage-controlled oscillators

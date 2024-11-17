@@ -7,8 +7,6 @@ Definition:
 - Power Gain = Output Power / Input Power
 - Usually expressed in decibels (dB): Gain(dB) = 10 * log₁₀(Pout/Pin)
 
-Key Points:
-
 1. Types of Power Gain:
 - Voltage gain × Current gain = Power gain
 - Power gain > 1 means amplification

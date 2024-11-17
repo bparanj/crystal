@@ -26,7 +26,7 @@ A series diode can limit voltage in a circuit by exploiting its forward voltage 
 4. Oscilloscope (to observe the waveform).
 5. Breadboard and wires.
 
-### Circuit Setup:
+### Circuit
 
 1. Series Diode:
    - Connect the anode of the diode to the AC voltage source's positive terminal.

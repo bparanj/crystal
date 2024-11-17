@@ -2,8 +2,6 @@
 
 An R1(R2)-to-Voltage Converter is a circuit that converts the ratio of two resistances into a proportional voltage signal. This type of converter is commonly used in applications where resistive sensors or dividers provide an analog measurement based on the ratio of two resistors.
 
----
-
 ### Concepts
 
 1. Resistive Ratio:
@@ -21,22 +19,20 @@ An R1(R2)-to-Voltage Converter is a circuit that converts the ratio of two resis
    - Analog signal processing.
    - Monitoring systems using resistive dividers.
 
----
-
 ### Circuit
 
 #### Objective:
+
 To design and simulate an R1(R2)-to-Voltage Converter and observe how the output voltage varies with the ratio of \( R_1 \) and \( R_2 \).
 
 #### Components:
+
 1. DC Voltage Source (\( V_{in} = 5V \)).
 2. Resistors:
    - \( R_1 = 1k\Omega \).
    - \( R_2 = 2k\Omega \) (variable to observe changes).
 3. Multimeter to measure the output voltage.
 4. Breadboard and wires.
-
----
 
 ### Circuit
 
@@ -50,8 +46,6 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 
 3. Ground Reference:
    - Connect the free end of \( R_2 \) to the ground terminal of \( V_{in} \).
-
----
 
 ### Steps
 
@@ -70,8 +64,6 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 
 5. Vary \( R_1 \) and \( R_2 \) Ratios:
    - Observe how the output voltage changes as the ratio \( R_1 / R_2 \) is modified.
-
----
 
 ### Results:
 
@@ -96,8 +88,6 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 3. Effect of Resistor Values:
    - Larger \( R_2 \) increases \( V_{out} \), while larger \( R_1 \) decreases \( V_{out} \).
 
----
-
 ### Insights:
 
 1. Ratio Sensitivity:
@@ -109,6 +99,4 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 3. Applications:
    - Widely used in resistive sensor circuits, where \( R_1 \) or \( R_2 \) changes based on environmental conditions.
 
----
-
-This experiment can be implemented in Tinkercad, where you can dynamically vary resistor values and observe the effect on \( V_{out} \), demonstrating the principle of R1(R2)-to-Voltage conversion.
+you can dynamically vary resistor values and observe the effect on \( V_{out} \), demonstrating the principle of R1(R2)-to-Voltage conversion.

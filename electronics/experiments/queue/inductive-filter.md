@@ -30,7 +30,7 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 5. Multimeter (to measure RMS voltage across the load).
 6. Breadboard and connecting wires.
 
-### Circuit Setup:
+### Circuit
 1. Connect the AC voltage source to the breadboard.
 2. Place the inductor (\( L \)) in series with the AC voltage source.
 3. Connect the resistor (\( R \)) as a load in series with the inductor.

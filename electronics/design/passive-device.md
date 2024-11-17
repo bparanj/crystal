@@ -13,8 +13,6 @@ passive device
 
 ## Passive Devices
 
-Create a list of passive devices
-
 Passive electronic devices (no external power required):
 
 1. Resistors
@@ -158,6 +156,7 @@ PENDING
 Why do we need to store energy in magnetic field?
 
 A passive device in electronics does not require an external power source to operate. It does not amplify or ? is increase power same as amplify?
+
 A passive device in electronics is a component that does not require an external power source to operate and does not amplify or generate energy. Instead, passive devices rely solely on the energy present in the circuit to perform their functions, which  involve controlling, storing, or dissipating electrical energy.
 
 ### Characteristics of Passive Devices:
@@ -201,7 +200,6 @@ A passive device in electronics is a component that does not require an external
    - Function: Diodes allow current to flow in only one direction and are used in rectification, signal clipping, and protection circuits. Diodes do not amplify signals, so they are considered passive in that context.
    - Symbol: ![Diode Symbol](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Diode_symbol.svg/120px-Diode_symbol.svg.png)
 
-### Summary:
 
 A passive device in electronics is a component that does not require external power to operate and does not amplify or generate energy. Instead, passive devices control, store, or dissipate energy already present in the circuit. Common examples include resistors, capacitors, inductors, transformers, and diodes in certain contexts. These components are essential for shaping and managing electrical signals in circuits.
 
@@ -237,7 +235,6 @@ For any passive device to perform its function—whether it's resisting current,
 
 In signal processing, passive components shape, filter, or divide the signal that originates from a powered source. Without that source, the passive device would have nothing to interact with.
 
-### Summary:
 
 While passive devices do not require their own independent power source to function, they must be used in a circuit that has a power supply. This supply provides the necessary energy that these devices regulate, store, or transform within the circuit.
 

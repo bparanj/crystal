@@ -23,12 +23,15 @@ The piezoelectric effect arises in non-centrosymmetric crystals, where the absen
 The piezoelectric effect in non-centrosymmetric materials, governed by the third-rank tensor relationship \(D_i = d_{ijk} T_{jk}\) for the direct effect and \(S_{ij} = d_{ijk} E_k\) for the converse effect, plays a crucial role in advanced electromechanical systems. The coupling between mechanical and electrical domains enables high-precision actuation and sensing, with applications spanning from MEMS devices to medical ultrasound transducers. Optimizing material properties such as the piezoelectric charge constant \(d_{33}\), and minimizing losses due to dielectric and mechanical damping, is essential for enhancing the efficiency and performance of piezoelectric components in both resonant and non-resonant applications. The development of novel piezoelectric materials, such as lead-free ceramics and polymer composites, is also advancing the field, enabling new functionalities and higher environmental compliance.
 
 1.  child :
+
 Imagine you have a special crystal that's like magic. When you squeeze it, it makes a tiny spark of electricity. And if you give it electricity, it wiggles a little bit. It's like the crystal is ticklish! We use these special crystals in things like birthday cards that play music when you open them.
 
 2.  teenager :
+
 The piezoelectric effect is a property of certain materials, usually crystals, that can generate an electric charge when mechanical stress is applied to them. This works both ways: if you apply an electric field to these materials, they will change shape slightly. This effect is used in many devices, like electric lighters, speakers in headphones, and even some types of sensors in phones and game controllers.
 
 3. Explaining to an undergraduate student:
+
 The piezoelectric effect occurs in non-centrosymmetric crystals or ceramics. When mechanical stress is applied, it causes a displacement of charge within the crystal structure, resulting in a net electrical polarization. This is described by the equation:
 
 D = dT + εE
@@ -44,7 +47,8 @@ Concepts:
 - Applications in sensors, actuators, and energy harvesting
 
 4.  graduate student:
-At an advanced level, we delve deeper into the solid-state physics and materials science aspects:
+
+We delve deeper into the solid-state physics and materials science aspects:
 
 - Tensor notation and symmetry considerations in piezoelectric materials
 - Landau theory of phase transitions and ferroelectricity
@@ -54,15 +58,15 @@ At an advanced level, we delve deeper into the solid-state physics and materials
 - Piezoelectric thin films and nanostructures
 - Advanced characterization techniques: Piezoresponse Force Microscopy, Laser Doppler Vibrometry
 
-We also explore advanced concepts and applications:
+Advanced concepts and applications:
+
 - High-power piezoelectric devices and heat generation
 - Piezoelectric transformers and their advantages
 - Piezoelectric MEMS devices
 - Surface acoustic wave (SAW) devices
 - Piezoelectric energy harvesting from ambient vibrations
 
-5.  colleague (expert level):
-In a peer-to-peer discussion, we'd focus on cutting-edge research and challenges in piezoelectrics:
+5.  colleague:
 
 - Novel materials: discussing recent advancements in lead-free piezoelectrics, relaxor ferroelectrics, and organic piezoelectric materials.
 - Flexoelectricity and its interplay with piezoelectricity at the nanoscale.
