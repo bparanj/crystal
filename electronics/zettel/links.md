@@ -1,3 +1,4 @@
+- [Circuit Simulation](https://www.falstad.com/circuit/e-index.html)
 - [Video 1](https://www.youtube.com/watch?v=nGQbA2jwkWI)
 - [Video 2](https://www.youtube.com/watch?v=x1-SibwIPM4)
 - [Electronmagnetic Waves](https://www.noaa.gov/jetstream/satellites/electromagnetic-waves)
