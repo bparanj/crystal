@@ -1,3 +1,19 @@
+
+1. Fundamental Electrical and Electronic Principles by Christopher R Robertson
+2. Teach Yourself Electricity and Electronics by Stan Gibilisco
+
+
+I don't understand this statement: Energy is power dissipated over a length of time. 
+
+Power is the rate at which energy is expended.
+
+ • The current in a series circuit is the same at every point along the way.
+ • The voltage across any component in a parallel circuit is the same as the voltage across any other, or across the whole set.
+ • The voltages across elements in a series circuit always add up to the supply voltage.
+ • The currents through elements in a parallel circuit always add up to the total current drawn from the supply.
+ • The total power consumed in a series or parallel circuit is always equal to the sum of the wattages dissipated in each of the elements
+
+
 https://www.circuit-fantasia.com/e-paradoxes/list_of_paradoxes.htm
 ## Electric Charge and Current
 
