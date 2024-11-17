@@ -20,6 +20,7 @@ A Resistance-to-Voltage Converter (R-to-V Converter) is a circuit that converts 
 ### Types of R-to-V Converters:
 
 #### 1. Using Constant Current Source:
+
    - A constant current source provides a fixed current through the resistive element, and the voltage drop is measured.
    - Output Voltage:
      \[
@@ -27,12 +28,14 @@ A Resistance-to-Voltage Converter (R-to-V Converter) is a circuit that converts 
      \]
 
 #### 2. Using a Voltage Divider:
+
    - A voltage divider converts resistance into a voltage signal by creating a ratio with a fixed reference resistor:
      \[
      V_{out} = V_{in} \cdot \frac{R}{R + R_{ref}}
      \]
 
 #### 3. Using an Operational Amplifier:
+
    - An op-amp in a current-to-voltage configuration drives the resistance, producing a proportional output voltage.
 
 ### Experiment

@@ -93,4 +93,4 @@ To demonstrate the behavior of an Inductive V-to-I Integrator and observe the cu
 3. Impedance Matching:
    - Ensure that the resistor \( R \) does not significantly affect the circuit’s behavior or loading.
 
- you can observe the current waveform corresponding to the integrated voltage using the oscilloscope and verify the effects of input frequency and inductance value.
+you can observe the current waveform corresponding to the integrated voltage using the oscilloscope and verify the effects of input frequency and inductance value.

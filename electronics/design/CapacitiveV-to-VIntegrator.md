@@ -2,8 +2,6 @@
 
 A Capacitive V-to-V Integrator is a circuit that integrates an input voltage over time, producing an output voltage proportional to the time integral of the input. It typically uses a capacitor and an operational amplifier in a feedback configuration.
 
----
-
 ### Concepts
 
 1. Integration Principle:
@@ -18,22 +16,20 @@ A Capacitive V-to-V Integrator is a circuit that integrates an input voltage ove
    - Analog computation.
    - Signal smoothing and integration in control systems.
 
----
-
 ### Experiment
 
 #### Objective:
+
 To design and simulate a Capacitive V-to-V Integrator and observe how the output waveform integrates the input waveform.
 
 #### Components:
+
 1. Operational Amplifier (e.g., LM741).
 2. Resistor (\( R = 10k\Omega \)).
 3. Capacitor (\( C = 1\mu F \)).
 4. Function Generator (for input voltage, \( V_{in} \)).
 5. Oscilloscope (to observe waveforms).
 6. Breadboard and wires.
-
----
 
 ### Circuit
 
@@ -70,8 +66,6 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 4. Experiment with Components:
    - Replace \( R \) and \( C \) with different values to observe their effect on the integration.
 
----
-
 ### Results:
 
 1. Square Wave Input:
@@ -87,8 +81,6 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
    - Larger \( R \cdot C \) values result in slower integration and reduced output amplitude.
    - Smaller \( R \cdot C \) values lead to faster integration and higher output amplitude.
 
----
-
 ### Insights:
 
 1. Waveform Transformation:
@@ -100,6 +92,4 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 3. Applications:
    - Signal conditioning, waveform generation, and analog computation.
 
----
-
- you can visualize the input and output waveforms using an oscilloscope. Adjusting \( R \) and \( C \) demonstrates the flexibility and functionality of the Capacitive V-to-V Integrator.
+you can visualize the input and output waveforms using an oscilloscope. Adjusting \( R \) and \( C \) demonstrates the flexibility and functionality of the Capacitive V-to-V Integrator.

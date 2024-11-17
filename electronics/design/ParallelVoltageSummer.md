@@ -1,5 +1,7 @@
 Requires IC
 
+Can this experiment be done without IC.
+
 ### Parallel Voltage Summer
 
 A Parallel Voltage Summer is a circuit that sums multiple input voltages and provides a weighted or unweighted total voltage at the output. It is often implemented using resistors in parallel with an operational amplifier to achieve precise voltage addition.

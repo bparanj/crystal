@@ -8,27 +8,27 @@ analog device
 
 NEEDS DIAGRAMS
 
-An **analog device** processes continuous signals that vary smoothly over a range. These devices operate with voltages or currents that represent real-world quantities such as sound, light, temperature, or pressure in a continuous manner.
+An analog device processes continuous signals that vary smoothly over a range. These devices operate with voltages or currents that represent real-world quantities such as sound, light, temperature, or pressure in a continuous manner.
 
-### Examples of Analog Devices:
+### Examples
 
-1. **Analog Sensors**:
-   - **Thermocouples**: Measure temperature by producing a voltage proportional to the temperature difference.
-   - **Photodiodes**: Convert light into electrical current, used in light sensors.
-   - **Microphones**: Convert sound waves into electrical signals.
+1. Analog Sensors:
+   - Thermocouples: Measure temperature by producing a voltage proportional to the temperature difference.
+   - Photodiodes: Convert light into electrical current, used in light sensors.
+   - Microphones: Convert sound waves into electrical signals.
 
-2. **Analog Actuators**:
-   - **Speakers**: Convert electrical signals into sound waves.
-   - **Analog Motors**: Controlled by continuous voltage to adjust speed and direction smoothly.
+2. Analog Actuators:
+   - Speakers: Convert electrical signals into sound waves.
+   - Analog Motors: Controlled by continuous voltage to adjust speed and direction smoothly.
 
-3. **Analog Amplifiers**:
-   - **Operational Amplifiers**: Used to amplify continuous signals in audio equipment, sensors, and other applications.
+3. Analog Amplifiers:
+   - Operational Amplifiers: Used to amplify continuous signals in audio equipment, sensors, and other applications.
    
-4. **Analog Meters**:
-   - **Voltmeter/Ammeters**: Measure voltage and current continuously and display it on a dial.
+4. Analog Meters:
+   - Voltmeter/Ammeters: Measure voltage and current continuously and display it on a dial.
 
-5. **Analog Filters**:
-   - **RC/RL/LC Filters**: Used to filter specific frequencies in audio and radio frequency applications.
+5. Analog Filters:
+   - RC/RL/LC Filters: Used to filter specific frequencies in audio and radio frequency applications.
 
 These devices play a crucial role in interfacing electronic systems with the real world, providing the means to measure, process, and respond to continuous, real-world phenomena.
 
@@ -37,17 +37,19 @@ An analog device processes analog signals. Analog signals are continuous signals
 Here are some examples of input and output devices that are also analog devices:
 
 ### Analog Input Devices:
-1. **Microphones**: Convert sound waves into electrical signals.
-2. **Thermocouples and Thermistors**: Measure temperature changes and produce a corresponding voltage.
-3. **Photocells (Photoresistors)**: Detect light intensity and change resistance accordingly.
-4. **Potentiometers**: Measure and provide varying resistance based on the position of a dial or slider.
-5. **Accelerometers**: Measure acceleration forces and produce an analog voltage proportional to the force.
+
+1. Microphones: Convert sound waves into electrical signals.
+2. Thermocouples and Thermistors: Measure temperature changes and produce a corresponding voltage.
+3. Photocells (Photoresistors): Detect light intensity and change resistance accordingly.
+4. Potentiometers: Measure and provide varying resistance based on the position of a dial or slider.
+5. Accelerometers: Measure acceleration forces and produce an analog voltage proportional to the force.
 
 ### Analog Output Devices:
-1. **Speakers**: Convert electrical signals into sound waves.
-2. **Analog Motors**: Operate with varying voltage to control speed and direction.
-3. **Analog Meters (e.g., Analog Voltmeters/Ammeter)**: Display readings with a needle on a dial.
-4. **Incandescent Bulbs**: Provide varying light intensity depending on the voltage applied.
+
+1. Speakers: Convert electrical signals into sound waves.
+2. Analog Motors: Operate with varying voltage to control speed and direction.
+3. Analog Meters (e.g., Analog Voltmeters/Ammeter): Display readings with a needle on a dial.
+4. Incandescent Bulbs: Provide varying light intensity depending on the voltage applied.
 
 These analog input and output devices play a crucial role in interfacing electronic systems with real-world phenomena, offering continuous and precise responses to varying conditions.
 

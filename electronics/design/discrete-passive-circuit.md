@@ -9,9 +9,9 @@ The term discrete means the circuit is made up of separate, distinct components 
 
 Passive components do not generate, amplify, or process electrical signals. They can only attenuate (reduce) or store energy. The three main types of passive components are:
 
-   Resistors: They resist the flow of electric current.
-   Capacitors: They store energy in an electric field.
-   Inductors: They store energy in a magnetic field.
+Resistors: They resist the flow of electric current.
+Capacitors: They store energy in an electric field.
+Inductors: They store energy in a magnetic field.
 
 Characteristics:
 
@@ -103,7 +103,7 @@ This circuit allows low-frequency signals to pass through while attenuating high
 
 The resistor and capacitor work together to create a frequency-dependent impedance. At low frequencies, the capacitor has a high impedance, and most of the signal passes through the resistor. At high frequencies, the capacitor's impedance decreases, causing more of the signal to be shunted to ground, thereby reducing the output signal amplitude.
 
-### Advantages of Discrete Passive Circuits:
+### Advantages
 
 Flexibility:
 
@@ -113,7 +113,7 @@ Ease of Troubleshooting:
 
 Since each component is separate, it's easier to test, replace, or modify components in a circuit.
 
-### Disadvantages of Discrete Passive Circuits:
+### Disadvantages
 
 Size:
 

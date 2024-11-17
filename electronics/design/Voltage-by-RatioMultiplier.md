@@ -32,7 +32,7 @@ A Voltage-by-Ratio Multiplier is a circuit that generates an output voltage prop
   V_{out} = V_{in} \cdot \left(1 + \frac{R_1}{R_2}\right)
   \]
 
-### Experiment Design for Tinkercad (Op-Amp Method):
+### Experiment Op-Amp Method:
 
 #### Objective:
 

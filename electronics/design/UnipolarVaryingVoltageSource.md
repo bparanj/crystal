@@ -35,6 +35,7 @@ To design and simulate a unipolar varying voltage source and observe its behavio
 ### Circuit
 
 #### 1. Unipolar Ramp Generator:
+
 1. Voltage Supply:
    - Use \( V_{DC} \) as the main voltage source.
    - Connect \( V_{DC} \) to a resistor (\( R \)).
@@ -47,6 +48,7 @@ To design and simulate a unipolar varying voltage source and observe its behavio
    - Add a diode across \( C \) to ensure controlled discharge for periodic ramp generation.
 
 #### 2. Unipolar Sinusoidal Source:
+
 1. Function Generator:
    - Use a function generator to create a sinusoidal waveform.
 

@@ -2,8 +2,6 @@
 
 A Capacitive V-to-V Differentiator is a circuit that generates an output voltage proportional to the time derivative of the input voltage. This is achieved by using a capacitor in series with the input signal and a resistor to develop the output voltage.
 
----
-
 ### Concepts
 
 1. Differentiation:
@@ -21,21 +19,19 @@ A Capacitive V-to-V Differentiator is a circuit that generates an output voltage
    - High-pass filtering.
    - Emphasizing rapid voltage changes in waveform analysis.
 
----
-
 ### Experiment
 
 #### Objective:
+
 To design and simulate a Capacitive V-to-V Differentiator and observe how the output voltage responds to time-varying input signals.
 
 #### Components:
+
 1. Function Generator (to provide \( V_{in} \), e.g., sinusoidal, square, or triangular wave).
 2. Capacitor (\( C = 1\mu F \)).
 3. Resistor (\( R = 1k\Omega \)).
 4. Oscilloscope (to observe input and output waveforms).
 5. Breadboard and wires.
-
----
 
 ### Circuit
 
@@ -53,8 +49,6 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
    - Channel 1: Monitor the input voltage (\( V_{in} \)).
    - Channel 2: Monitor the output voltage (\( V_{out} \)).
 
----
-
 ### Steps
 
 1. Set Up the Circuit:
@@ -69,8 +63,6 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 4. Experiment with Components:
    - Vary \( C \) (\( 0.1\mu F, 10\mu F \)) and \( R \) (\( 500\Omega, 10k\Omega \)).
    - Adjust the frequency of the input signal to observe changes in differentiation behavior.
-
----
 
 ### Results:
 
@@ -93,8 +85,6 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
      V_{out} \propto \frac{dV_{in}}{dt} \propto \omega
      \]
 
----
-
 ### Insights:
 
 1. Differentiation Behavior:
@@ -105,7 +95,5 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 
 3. Applications:
    - Widely used in analog signal processing for edge detection, pulse shaping, and high-pass filtering.
-
----
 
  you can observe the differentiation effect by analyzing the input and output waveforms on an oscilloscope.

@@ -153,9 +153,9 @@ Both electric fields and electrostatic fields can occur both inside electronic c
 
    Outside of Circuits:
 
-     Electric fields can also exist in the real world outside of circuits. For example, any charged object creates an electric field around it.
+Electric fields can also exist in the real world outside of circuits. For example, any charged object creates an electric field around it.
 
-     The Earth has an electric field, and so does a charged balloon after being rubbed against hair.
+The Earth has an electric field, and so does a charged balloon after being rubbed against hair.
 
 ### 2. Electrostatic Field:
 

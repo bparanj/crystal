@@ -228,8 +228,6 @@ Review and revise:
 
 Why do we need to generate signals in electronics?
 
-Let me explain why signal generation is important in electronics.
-
 Signal generation is essential because it serves as the foundation for numerous electronic applications and communications. Here are the key reasons:
 
 1. Communication Systems
