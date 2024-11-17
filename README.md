@@ -1,3 +1,4 @@
+## Books
 
 1. Fundamental Electrical and Electronic Principles by Christopher R Robertson
 2. Teach Yourself Electricity and Electronics by Stan Gibilisco
@@ -15,6 +16,7 @@ Power is the rate at which energy is expended.
 
 
 https://www.circuit-fantasia.com/e-paradoxes/list_of_paradoxes.htm
+
 ## Electric Charge and Current
 
 We need different units for electric charge and current because they measure different aspects of electricity:
