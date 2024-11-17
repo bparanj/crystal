@@ -1,7 +1,4 @@
 an experiment that demonstrates how a capacitor can be used for timing in electronic circuits using a simple LED flasher circuit.
-PENDING
-
-Move to out of scope folder
 
 ```python
 import numpy as np

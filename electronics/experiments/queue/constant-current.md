@@ -1,4 +1,4 @@
-To obtain a constant current by decreasing the voltage across a load, you can use a constant current source or circuit. Here’s how it works:
+To obtain a constant current by decreasing the voltage across a load, you can use a constant current source or circuit. 
 
 A constant current source ensures that the current remains the same regardless of the voltage across the load. This is achieved by dynamically adjusting the voltage to counter variations in the load resistance.
 

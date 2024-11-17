@@ -11,14 +11,18 @@ This paradox occurs because current-sensing car alarm systems detect unauthorize
 
 In a degraded battery, higher internal resistance and lower baseline current make current changes more pronounced, improving the alarm’s ability to detect unauthorized activity. So, paradoxically, the worse the car battery, the better the alarm system can detect small current changes.
 
-Here’s a simple experiment to demonstrate the concept that a weaker power source (like a degraded battery) makes a current-sensing system more sensitive to small current changes:
+An experiment to demonstrate the concept that a weaker power source (like a degraded battery) makes a current-sensing system more sensitive to small current changes:
 
-### Experiment: Simulating a Car Alarm Current-Sensing System with Strong vs. Weak Power Sources
+### Experiment
+
+Simulating a Car Alarm Current-Sensing System with Strong vs. Weak Power Sources
 
 #### Objective:
+
 To demonstrate how a degraded (weaker) power source enhances the detection of small current changes compared to a strong power source.
 
 #### Components:
+
 - 1 Stable DC Power Source (e.g., 9V battery)
 - 1 Variable Resistor (or potentiometer, 1 kΩ, to simulate internal resistance)
 - 1 Sensitive Current Sensor Module (e.g., ACS712 or similar)
@@ -27,6 +31,7 @@ To demonstrate how a degraded (weaker) power source enhances the detection of sm
 - Breadboard and Wires
 
 #### Steps:
+
 1. Set Up the Strong Power Source Scenario:
    - Connect the 9V battery to the breadboard to act as the main power source.
    - Connect the current sensor module in series with the positive terminal of the battery.

@@ -1,6 +1,8 @@
 The paradox of a transistor differential amplifier lies in the conflict between the behavior of the input voltage sources and the shared emitter current path. The issue arises because the differential amplifier's operation inherently creates a situation that voltage sources dislike. Here's the detailed explanation:
 
-### The Paradox: Voltage Source and Shared Emitter Path
+### The Paradox
+
+Voltage Source and Shared Emitter Path
 
 1. What Voltage Sources "Like" and "Hate":
    - A voltage source "likes" a stable and predictable load impedance, which allows it to regulate voltage without difficulty.

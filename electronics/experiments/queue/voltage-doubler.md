@@ -1,8 +1,12 @@
-This experiment is commonly referred to as a "Transistor-Based Oscillator with Voltage Doubling" circuit. Specifically, it can be broken down into:
+This experiment is commonly referred to as a "Transistor-Based Oscillator with Voltage Doubling" circuit. It can be broken down into:
 
-1. Transistor-Based Oscillator: A simple oscillation circuit using a single NPN transistor, which is a common way to generate an AC signal from a DC source without using ICs. This type of circuit is sometimes referred to as a transistor relaxation oscillator or astable multivibrator (if configured as such), though it doesn’t use an IC or complex feedback network.
+1. Transistor-Based Oscillator: 
 
-2. Voltage Doubler: The second part of the circuit is a voltage multiplier or voltage doubler, specifically a Cockcroft-Walton voltage doubler. This stage takes the oscillating AC signal from the transistor and doubles its peak voltage using a diode-capacitor network.
+A simple oscillation circuit using a single NPN transistor, which is a common way to generate an AC signal from a DC source without using ICs. This type of circuit is sometimes referred to as a transistor relaxation oscillator or astable multivibrator (if configured as such), though it doesn’t use an IC or complex feedback network.
+
+2. Voltage Doubler: 
+
+The second part of the circuit is a voltage multiplier or voltage doubler, specifically a Cockcroft-Walton voltage doubler. This stage takes the oscillating AC signal from the transistor and doubles its peak voltage using a diode-capacitor network.
 
 Therefore, the full experiment could be described as:
 
@@ -12,7 +16,7 @@ This name highlights both the oscillation generation (via a transistor) and the 
 
 To design a frequency generator that steps up a 9V DC source to approximately 20V AC or DC without using an IC, we can use a transistor-based oscillator circuit along with a voltage doubler. This setup generates an AC signal, and the voltage doubler will amplify the peak voltage.
 
-### Revised Experiment Setup in Tinkercad
+### Experiment Setup in Tinkercad
 
 1. Components Needed:
    - 9V DC power source (battery)

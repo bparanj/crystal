@@ -3,6 +3,7 @@ The idea that a common-base amplifier is a "reversed" common-collector amplifier
 ### Characteristics of Each Configuration
 
 #### Common-Base Amplifier (CBA):
+
 - Input: Applied to the emitter.
 - Output: Taken from the collector.
 - Base: Held at a constant voltage (hence "common").
@@ -12,6 +13,7 @@ The idea that a common-base amplifier is a "reversed" common-collector amplifier
   - Voltage Amplifier: It amplifies the input voltage with high bandwidth.
 
 #### Common-Collector Amplifier (CCA or Emitter Follower):
+
 - Input: Applied to the base.
 - Output: Taken from the emitter.
 - Collector: Connected to the supply (hence "common").
@@ -55,5 +57,6 @@ The idea that a common-base amplifier is a "reversed" common-collector amplifier
      - In the CCA, the input is high-impedance, and the output is low-impedance.
 
 The common-base amplifier and the common-collector amplifier are not literal reversals but mirror images in function and operation:
+
 - One emphasizes voltage gain (CBA), while the other emphasizes current buffering and impedance matching (CCA).
 - Their complementary roles highlight the versatility of the transistor but also explain their distinct applications.

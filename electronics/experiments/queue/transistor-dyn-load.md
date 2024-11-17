@@ -1,7 +1,9 @@
 The paradox of a transistor amplifier with a dynamic load arises from the interaction between the dynamic load and the transistor's behavior, particularly in how it relates to a current source. Here’s the explanation:
 
-### The Paradox: Current Source and Dynamic Load
+### The Paradox
 
+Current Source and Dynamic Load
+ 
 1. What a Current Source "Likes" and "Hates":
    - A current source "likes" high-impedance loads because they allow it to deliver a constant current without significant variation in voltage.
    - A current source "hates" low-impedance or highly dynamic loads because they cause rapid voltage changes or instability, forcing the current source to adapt quickly.
@@ -42,9 +44,12 @@ The paradox of a transistor amplifier with a dynamic load arises from the intera
 
 The paradox in a transistor amplifier with a dynamic load arises because the dynamic load, designed to provide high impedance, can behave unpredictably under rapid signal changes or large voltage swings. This creates conditions a current source "hates," such as instability and low impedance, degrading amplifier performance. Proper design and compensation resolve these issues.
 
-### Experiment: Transistor Amplifier with a Dynamic Load
+### Experiment
+
+Transistor Amplifier with a Dynamic Load
 
 #### Objective:
+
 To demonstrate the paradox in a transistor amplifier with a dynamic load, showing how the load's impedance fluctuations impact amplifier performance under varying signal conditions.
 
 #### Components:

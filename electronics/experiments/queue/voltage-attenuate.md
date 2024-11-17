@@ -5,11 +5,13 @@ Attenuating a voltage by taking a partial voltage drop across a resistor is comm
 A voltage divider consists of two resistors connected in series. The input voltage (\( V_{\text{in}} \)) is applied across the series combination, and the output voltage (\( V_{\text{out}} \)) is taken across one of the resistors.
 
 #### Formula:
+
 \[
 V_{\text{out}} = V_{\text{in}} \times \frac{R_2}{R_1 + R_2}
 \]
 
 Where:
+
 - \( V_{\text{in}} \): Total input voltage
 - \( R_1 \): Resistor connected to the input voltage
 - \( R_2 \): Resistor connected to ground (or reference)

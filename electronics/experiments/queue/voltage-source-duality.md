@@ -1,5 +1,4 @@
-This observation arises from the dual nature of many electronic components and circuits, where a device can function as either a voltage source or a current source depending on its role in the circuit. Here's an explanation with examples:
-
+This observation arises from the dual nature of many electronic components and circuits, where a device can function as either a voltage source or a current source depending on its role in the circuit. 
 
 ### Voltage Sources Acting as Loads:
 
@@ -85,8 +84,6 @@ To show how a battery can act as a voltage source when powering a load and as a 
 
 The battery provides power as a source when connected to the LED but absorbs power as a load when connected to the DC power supply.
 
-
-
 ### Experiment 2: Capacitor as Source and Load
 
 #### Objective:
@@ -116,16 +113,15 @@ To show how a capacitor can act as a load when charging and as a voltage source 
 
 The capacitor stores energy when charging (acting as a load) and releases energy when discharging (acting as a source).
 
-### Summary
 - Experiment 1 (Battery): Demonstrates the dual nature in a chemical energy storage system.
 - Experiment 2 (Capacitor): Demonstrates the dual nature in an electrical energy storage system.
 
 Yes, both experiments can be run in Tinkercad with slight modifications to accommodate the platform’s simulation capabilities. Here's how you can adapt each experiment:
 
-
 ### Experiment 1: Battery as Source and Load
 
 #### Adaptation for Tinkercad:
+
 1. Battery Acting as a Source:
    - Replace the battery with a 9V DC Power Source in Tinkercad.
    - Connect the power source to an LED in series with a 220 Ω resistor.
@@ -141,7 +137,6 @@ Yes, both experiments can be run in Tinkercad with slight modifications to accom
 
 - Tinkercad does not simulate rechargeable batteries directly, so the second power source acts as a proxy for the charging behavior.
 
-
 ### Experiment 2: Capacitor as Source and Load
 
 #### Adaptation for Tinkercad:
@@ -155,7 +150,7 @@ Yes, both experiments can be run in Tinkercad with slight modifications to accom
    - Disconnect the DC power source and connect the capacitor and resistor in series with an LED.
    - Run the simulation again, and observe the LED lighting up briefly as the capacitor discharges.
 
-### Explanation of Tinkercad Limitations:
+### Tinkercad Limitations:
 
 - Tinkercad doesn't simulate chemical storage (like rechargeable batteries), but it can effectively demonstrate capacitor-based energy storage and discharge.
 - For the battery as a load, the "charging" setup is conceptual and uses a second DC source to mimic real-world behavior.

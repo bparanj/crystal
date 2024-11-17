@@ -1,19 +1,40 @@
 An ideal current load is a theoretical load that can accept any amount of current without causing any change in the current source's behavior. In practical terms, it’s represented as a short circuit (zero impedance), which allows unrestricted current flow. This ideal current load would draw all the current supplied by the source without affecting the source’s stability, as it imposes no resistance to the flow.
 
 ### Characteristics of an Ideal Current Load:
-- Zero impedance: It presents no resistance to current flow, allowing all current to pass through freely.
-- Perfect acceptance of current: It draws as much current as the current source supplies, with no effect on the source’s behavior.
-- Theoretical: In reality, a true zero-impedance load does not exist, as even low-resistance loads still cause some voltage drop and affect the circuit.
+
+Zero impedance: 
+
+It presents no resistance to current flow, allowing all current to pass through freely.
+
+Perfect acceptance of current: 
+
+It draws as much current as the current source supplies, with no effect on the source’s behavior.
+
+Theoretical: In reality, a true zero-impedance load does not exist, as even low-resistance loads still cause some voltage drop and affect the circuit.
 
 ### Comparison with an Ideal Voltage Load:
+
 An ideal voltage load is the opposite in terms of impedance and current behavior:
-- Infinite impedance: It allows for no current draw, creating no demand on the source.
-- Perfectly stable voltage: The voltage across the load remains constant, with no impact from any current flow since there is none.
-- Theoretical: No real load has infinite impedance; even open circuits have some parasitic capacitance or leakage current.
+
+Infinite impedance: 
+
+It allows for no current draw, creating no demand on the source.
+
+Perfectly stable voltage: 
+
+The voltage across the load remains constant, with no impact from any current flow since there is none.
+
+Theoretical: No real load has infinite impedance; even open circuits have some parasitic capacitance or leakage current.
 
 ### Summary:
-- Ideal Current Load: Zero impedance, draws unrestricted current, acts as a short circuit.
-- Ideal Voltage Load: Infinite impedance, draws no current, acts as an open circuit.
+
+Ideal Current Load: 
+
+Zero impedance, draws unrestricted current, acts as a short circuit.
+
+Ideal Voltage Load: 
+
+Infinite impedance, draws no current, acts as an open circuit.
 
 These concepts are theoretical extremes used in circuit analysis but don’t exist in practical electronics, where all loads have some impedance that affects current and voltage to some extent.
 
@@ -46,8 +67,6 @@ To simulate an ideal current load (zero impedance) using a low-resistance load a
 
 4. Observe the Behavior:
    - Since the voltage drop across the low-impedance resistor is close to zero, the load behaves similarly to an ideal current load, allowing most of the current to pass without impacting the current source’s stability.
-
-#### Explanation:
 
 This setup approximates an ideal current load. The low-resistance load draws all the current set by the source while creating minimal voltage drop, demonstrating the effect of a near-zero impedance load.
 

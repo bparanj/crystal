@@ -34,7 +34,7 @@ This experiment demonstrates the transistor’s ability to work in a feedback lo
 
 Creating a transistor-based oscillator circuit to generate a periodic signal like a square wave can be set up in Tinkercad, but with limitations:
 
-### Circuit Setup in Tinkercad
+### Setup
 
 1. Circuit Assembly:
    - NPN Transistor: Use a 2N2222 transistor.

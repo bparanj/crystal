@@ -1,3 +1,5 @@
+The experiments are trivial. Skip both experiments.
+
 This phenomenon arises from the context of how conductors and resistors behave under different conditions. In certain circuits, conductors can exhibit resistance, while resistors may effectively act as conductors depending on factors like temperature, current, and frequency. Here’s an explanation with examples:
 
 ### Conductors Acting as Resistors
@@ -73,6 +75,7 @@ Here are two simple experiments to demonstrate the concept where conductors act 
 To show that even a good conductor (wire) can exhibit resistance, especially with increased length.
 
 #### Components:
+
 - Long copper wire (e.g., 10 meters of 22 AWG copper wire)
 - DC Power Source (e.g., 9V battery)
 - LED with Resistor (220 Ω, for visibility of voltage drop)
@@ -80,6 +83,7 @@ To show that even a good conductor (wire) can exhibit resistance, especially wit
 - Breadboard and Wires
 
 #### Steps:
+
 1. Set Up the Circuit:
    - Connect one end of the long copper wire to the positive terminal of the 9V battery.
    - Connect the other end of the wire to one side of the LED and the 220 Ω resistor in series.
@@ -89,8 +93,7 @@ To show that even a good conductor (wire) can exhibit resistance, especially wit
    - Use the multimeter to measure the voltage drop across the length of the copper wire.
    - Observe the LED’s brightness. Due to the resistance of the long wire, you may notice a slight dimming compared to a shorter wire setup.
 
-3. Explanation:
-   - The long wire introduces measurable resistance, causing a voltage drop that dims the LED, effectively making the conductor act as a resistor.
+The long wire introduces measurable resistance, causing a voltage drop that dims the LED, effectively making the conductor act as a resistor.
 
 ### Experiment 2: Resistor Acting as a Conductor
 
@@ -119,7 +122,7 @@ To show that a low-value resistor can behave similarly to a conductor by allowin
 3. Explanation:
    - The low resistance of the 1 Ω resistor allows nearly unrestricted current flow, making it behave like a conductor. The LED brightness is nearly unaffected, showing that the resistor is acting as a conductor in this context.
 
-### Summary of Experiments:
+### Summary
 
 - Experiment 1 (Conductor as Resistor): Demonstrates that a long wire introduces measurable resistance, affecting current flow.
 - Experiment 2 (Resistor as Conductor): Shows that a low-value resistor behaves like a conductor, allowing current to flow with minimal resistance.

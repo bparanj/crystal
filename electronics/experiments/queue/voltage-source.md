@@ -1,6 +1,6 @@
 To illustrate why a good voltage source is a bad current source (and vice versa), here are two simple experiments you can set up:
 
-### Experiment 1: Voltage Source with Variable Load
+### Voltage Source with Variable Load
 
 Objective: Show that a good voltage source maintains a constant voltage but variable current with changes in load.
 

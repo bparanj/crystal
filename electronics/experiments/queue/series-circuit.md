@@ -2,7 +2,9 @@
 
 The paradox of connecting current sources in series lies in the incompatibility of their ideal behavior. While current sources are designed to provide a constant current, connecting them in series creates a scenario that is inherently contradictory and problematic. Here’s the explanation:
 
-### The Paradox: Current Sources in Series
+### The Paradox
+
+Current Sources in Series
 
 1. Ideal Current Sources and Their Behavior:
    - An ideal current source supplies a fixed current regardless of the load impedance or the voltage across it.
@@ -44,6 +46,7 @@ Despite the inherent issues, series-connected current sources can have specific,
 ### May We Apply This Connection in Practice?
 
 Yes, under strict conditions:
+
 1. Matched Current Sources:
    - Ensure all current sources are configured to supply exactly the same current.
 
@@ -56,16 +59,16 @@ Yes, under strict conditions:
 4. Applications Requiring Series Operation:
    - Only use this configuration in scenarios where the circuit explicitly requires or benefits from it (e.g., specialized test setups or voltage stacking).
 
-### Summary
-
 The paradox of series-connected current sources arises from their conflicting behavior, as they cannot simultaneously enforce different current values through the same path. While this configuration is theoretically incorrect in most cases, it can be useful in specific, carefully controlled applications where the sources are matched or synchronized. Without these precautions, the connection is impractical and may lead to instability or damage.
 
 ### Experiment: Demonstrating the Paradox of Series-Connected Current Sources
 
 #### Objective:
+
 To demonstrate the conflict in a circuit with series-connected current sources and observe the resulting instability or excessive voltage drops.
 
 ### Components:
+
 - 2 Adjustable Current Sources (e.g., two adjustable bench power supplies in constant current mode)
 - 1 Resistor (e.g., 1 kΩ, to act as the load)
 - 1 Multimeter (to measure voltage and current)
@@ -74,27 +77,33 @@ To demonstrate the conflict in a circuit with series-connected current sources a
 ### Steps:
 
 #### 1. Set Up the Series Connection:
+
 - Connect the positive terminal of the first current source to the negative terminal of the second current source.
 - Place the 1 kΩ resistor in series with the current sources to complete the circuit.
 
 #### 2. Adjust the Current Sources:
+
 - Set one current source to supply 2 mA and the other to supply 3 mA (intentional mismatch).
 
 #### 3. Measure the Voltages:
+
 - Use the multimeter to measure:
   - The voltage across each current source.
   - The total voltage across the 1 kΩ resistor.
 
 #### 4. Observe the Conflict:
+
 - Note the behavior:
   - The current through the resistor is dictated by the series connection and cannot satisfy both current sources simultaneously.
   - This creates excessive voltage across one or both current sources as they attempt to enforce their respective currents.
 
 #### 5. Match the Current Settings:
+
 - Adjust both current sources to supply the same current (e.g., 2 mA).
 - Measure the voltages again and observe that the circuit stabilizes, with no excessive voltage drops.
 
 ### Observations:
+
 1. Mismatched Currents:
    - When the current settings are different, the current sources conflict, leading to large voltage drops or instability in the circuit.
    - This demonstrates the inherent incompatibility of series-connected current sources with mismatched settings.
@@ -102,10 +111,8 @@ To demonstrate the conflict in a circuit with series-connected current sources a
 2. Matched Currents:
    - When the current settings are identical, the circuit stabilizes, and the resistor sees a steady current and voltage.
 
-### Explanation:
 - In the mismatched case, the current sources try to enforce different currents through the same path, which is physically impossible.
 - This results in unstable operation, excessive voltage drops, and potential damage to the sources.
 - When the sources are matched, the conflict disappears, demonstrating that series-connected current sources can only work under specific, controlled conditions.
 
-### Summary:
 This experiment illustrates the paradox of series-connected current sources. It shows how mismatched current settings lead to conflict and instability, while matched settings resolve the issue. This highlights the impracticality of this configuration without strict controls.

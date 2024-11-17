@@ -22,9 +22,11 @@ To observe the noise at 1 Hz, the oscilloscope’s time per division should be c
    - Start with 0.1 s/div to view the overall waveform, and adjust up or down (e.g., 0.2 s/div or 50 ms/div) to see specific details of the fluctuations.
 
 ### Observing Noise Without the Capacitor
+
 - At 0.1 s/div, you should clearly see the square wave fluctuations introduced by the function generator on the oscilloscope.
 
 ### Observing With the Capacitor
+
 - After connecting the capacitor, the square wave fluctuations will smooth out, resulting in a more stable DC voltage line with reduced noise amplitude.
 
 This experiment demonstrates the capacitor's role as a decoupling element, effectively filtering out low-frequency noise on a power supply.
