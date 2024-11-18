@@ -1,5 +1,11 @@
 20.md -> Break it down brandy with falstad.
 
+capacitors damage image folder is empty -  images
+this is in polarazed capacitor damage folder
+
+capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
+why is charge-discharge folder empty Where are the images?
+
 10.md
 12.md
 13.md
