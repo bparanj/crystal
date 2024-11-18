@@ -4,7 +4,7 @@ A **Parallel Reverse Polarity Protector** is a simple circuit designed to protec
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Reverse Polarity Protection**:
    - When the power supply polarity is reversed, the diode becomes forward-biased and conducts, creating a short circuit to protect the load.
@@ -18,7 +18,7 @@ A **Parallel Reverse Polarity Protector** is a simple circuit designed to protec
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **Parallel Reverse Polarity Protector** circuit and observe how it protects a load from damage when the power supply polarity is reversed.
@@ -57,7 +57,7 @@ To design and simulate a **Parallel Reverse Polarity Protector** circuit and obs
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Correct Polarity**:
 1. Connect the power supply correctly (\( V_{supply} = +5V \) to the load's positive terminal).
@@ -81,7 +81,7 @@ To design and simulate a **Parallel Reverse Polarity Protector** circuit and obs
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Correct Polarity**:
    - Voltage across the load is \( ~5V \).
@@ -97,7 +97,7 @@ To design and simulate a **Parallel Reverse Polarity Protector** circuit and obs
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Protection Mechanism**:
    - The diode acts as a safeguard, conducting during reverse polarity and preventing current from reaching the load.
@@ -110,7 +110,7 @@ To design and simulate a **Parallel Reverse Polarity Protector** circuit and obs
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can simulate this circuit by:
 1. Reversing the polarity of the power supply.
 2. Observing the behavior of the diode, load, and fuse.

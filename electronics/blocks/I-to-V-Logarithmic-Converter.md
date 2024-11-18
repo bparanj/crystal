@@ -4,7 +4,7 @@ An **I-to-V Logarithmic Converter** is a circuit that generates a voltage output
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Diode Exponential Relationship**:
    - The current through a diode is described by the equation:
@@ -31,7 +31,7 @@ An **I-to-V Logarithmic Converter** is a circuit that generates a voltage output
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate an **I-to-V Logarithmic Converter** using a diode and observe how the output voltage varies logarithmically with the input current.
@@ -61,7 +61,7 @@ To design and simulate an **I-to-V Logarithmic Converter** using a diode and obs
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Generate Input Current**:
 1. Use the DC power supply and resistor to generate a variable input current.
@@ -84,7 +84,7 @@ To design and simulate an **I-to-V Logarithmic Converter** using a diode and obs
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Logarithmic Voltage Response**:
    - The output voltage (\( V \)) follows:
@@ -101,7 +101,7 @@ To design and simulate an **I-to-V Logarithmic Converter** using a diode and obs
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Logarithmic Conversion**:
    - The circuit effectively converts an exponentially increasing current into a logarithmically increasing voltage.
@@ -114,7 +114,7 @@ To design and simulate an **I-to-V Logarithmic Converter** using a diode and obs
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Simulate the current source using a DC power supply and resistor.
 2. Measure the diode voltage (\( V \)) for different input currents (\( I \)).

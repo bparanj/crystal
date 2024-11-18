@@ -4,7 +4,7 @@
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Diode Forward Voltage (\( V_f \))**:
    - In forward bias, a diode drops a voltage of approximately \( 0.7V \) (for silicon diodes), which decreases by around **2mV/°C** as temperature increases.
@@ -18,7 +18,7 @@
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **Diode Voltage Compensation Circuit** and observe how a diode's voltage drop compensates for temperature-induced changes in a reference voltage.
@@ -51,7 +51,7 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Observe Voltage Compensation**:
 1. Set \( V_{ref} = 5V \) using the voltage source.
@@ -76,7 +76,7 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Stable Load Voltage**:
    - The diode offsets voltage changes caused by temperature variations, keeping the load voltage more stable.
@@ -89,7 +89,7 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Diode's Role**:
    - The diode's temperature-dependent forward voltage helps counteract voltage variations, ensuring stability.
@@ -102,7 +102,7 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Build the described circuit.
 2. Adjust \( V_{ref} \) to observe how the diode compensates for voltage variations.

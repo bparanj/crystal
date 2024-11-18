@@ -5,7 +5,7 @@ A **V-to-I Antilogarithmic Converter** using a diode exploits the exponential \(
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Diode Exponential Relationship**:
    - The current through a diode is governed by:
@@ -27,7 +27,7 @@ A **V-to-I Antilogarithmic Converter** using a diode exploits the exponential \(
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **V-to-I Antilogarithmic Converter** using a diode and demonstrate its exponential current response to an input voltage.
@@ -60,7 +60,7 @@ To design and simulate a **V-to-I Antilogarithmic Converter** using a diode and 
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Set Input Voltage**:
 1. Set \( V_{in} = 0V \) using the DC voltage source.
@@ -81,7 +81,7 @@ To design and simulate a **V-to-I Antilogarithmic Converter** using a diode and 
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Exponential Current Response**:
    - The output current (\( I \)) grows exponentially with the input voltage (\( V_{in} \)), as described by the diode equation.
@@ -94,7 +94,7 @@ To design and simulate a **V-to-I Antilogarithmic Converter** using a diode and 
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Exponential Behavior**:
    - The diode's \( I-V \) characteristics naturally produce an exponential relationship between \( V_{in} \) and the current.
@@ -107,7 +107,7 @@ To design and simulate a **V-to-I Antilogarithmic Converter** using a diode and 
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Build the described circuit and use multimeters to measure \( V_{in} \) and \( V_R \) (voltage across \( R \)).
 2. Gradually vary \( V_{in} \) and observe the corresponding current through the load resistor.
@@ -121,7 +121,7 @@ A **Voltage-to-Current Antilogarithmic Converter** is a circuit that generates a
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Exponential Relationship**:
    - The circuit exploits the exponential \( I-V \) relationship of a diode or a transistor in the base-emitter configuration:
@@ -144,7 +144,7 @@ A **Voltage-to-Current Antilogarithmic Converter** is a circuit that generates a
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **V-to-I Antilogarithmic Converter** using a BJT transistor and demonstrate the exponential relationship between input voltage and output current.
@@ -177,7 +177,7 @@ To design and simulate a **V-to-I Antilogarithmic Converter** using a BJT transi
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Set Up Input Voltage**:
 1. Set \( V_{in} = 0V \).
@@ -198,7 +198,7 @@ To design and simulate a **V-to-I Antilogarithmic Converter** using a BJT transi
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Exponential Growth**:
    - The output current increases exponentially with the input voltage, following the transistor's base-emitter characteristics.
@@ -211,7 +211,7 @@ To design and simulate a **V-to-I Antilogarithmic Converter** using a BJT transi
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Exponential Behavior**:
    - The circuit demonstrates how a small change in \( V_{in} \) results in a large change in output current, characteristic of an antilogarithmic response.
@@ -224,7 +224,7 @@ To design and simulate a **V-to-I Antilogarithmic Converter** using a BJT transi
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Build the circuit as described and use multimeters to measure \( V_{in} \) and \( V_R \) (voltage across \( R \)).
 2. Gradually vary \( V_{in} \) and observe the exponential increase in current.

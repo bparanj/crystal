@@ -4,7 +4,7 @@ A **Voltage-to-Voltage (V-to-V) Logarithmic Converter** generates an output volt
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Diode Logarithmic Relationship**:
    - The current through a diode is given by:
@@ -30,7 +30,7 @@ A **Voltage-to-Voltage (V-to-V) Logarithmic Converter** generates an output volt
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **V-to-V Logarithmic Converter** using a diode and demonstrate its logarithmic response.
@@ -65,7 +65,7 @@ To design and simulate a **V-to-V Logarithmic Converter** using a diode and demo
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Apply Input Voltage**:
 1. Set \( V_{in} = 0V \) using the DC voltage source.
@@ -83,7 +83,7 @@ To design and simulate a **V-to-V Logarithmic Converter** using a diode and demo
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Logarithmic Voltage Response**:
    - The output voltage (\( V_{out} \)) follows the logarithmic equation:
@@ -100,7 +100,7 @@ To design and simulate a **V-to-V Logarithmic Converter** using a diode and demo
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Logarithmic Conversion**:
    - The circuit converts an input voltage to a logarithmically scaled output voltage using the diode’s \( V-I \) characteristics.
@@ -113,7 +113,7 @@ To design and simulate a **V-to-V Logarithmic Converter** using a diode and demo
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Build the circuit using the described components.
 2. Gradually vary \( V_{in} \) using the DC power supply.

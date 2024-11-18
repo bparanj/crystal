@@ -4,7 +4,7 @@ A **Multidiode Stabilizer**, also known as a **Voltage Dropper**, uses multiple 
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Diode Voltage Drop**:
    - When forward-biased, each silicon diode drops approximately **0.7V**, and the total voltage drop across a series of diodes is the sum of the individual drops.
@@ -18,7 +18,7 @@ A **Multidiode Stabilizer**, also known as a **Voltage Dropper**, uses multiple 
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **Multidiode Stabilizer Circuit** and demonstrate how the diodes in series create a controlled voltage drop to stabilize the output voltage.
@@ -52,7 +52,7 @@ To design and simulate a **Multidiode Stabilizer Circuit** and demonstrate how t
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Observe Voltage Stabilization**:
 1. Set \( V_{in} \) to \( 5V \) using the variable power supply.
@@ -77,7 +77,7 @@ To design and simulate a **Multidiode Stabilizer Circuit** and demonstrate how t
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Output Voltage**:
    - With 4 diodes, the output voltage is stabilized at approximately:
@@ -94,7 +94,7 @@ To design and simulate a **Multidiode Stabilizer Circuit** and demonstrate how t
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Controlled Voltage Drop**:
    - The diodes create a predictable and consistent voltage drop, useful for simple voltage regulation.
@@ -107,7 +107,7 @@ To design and simulate a **Multidiode Stabilizer Circuit** and demonstrate how t
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Simulate the circuit by varying \( V_{in} \).
 2. Measure the output voltage and current using multimeters.

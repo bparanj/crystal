@@ -4,7 +4,7 @@ A **Voltage-Multiplier Circuit** uses diodes and capacitors to generate higher v
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Voltage Doubling/Multiplying**:
    - Diodes direct the flow of charge to specific capacitors, while capacitors store charge to create voltages higher than the input.
@@ -19,7 +19,7 @@ A **Voltage-Multiplier Circuit** uses diodes and capacitors to generate higher v
 
 ---
 
-### **Experiment Design for Tinkercad: Voltage Doubler**
+### **Experiment Voltage Doubler**
 
 #### **Objective**:
 To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and observe how diodes and capacitors work together to double the input voltage.
@@ -56,7 +56,7 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Assemble the circuit on the breadboard in Tinkercad as described above.
@@ -74,7 +74,7 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Input Voltage**:
    - Sine wave (\( 10V_{peak}, 50Hz \)) from the AC source.
@@ -87,7 +87,7 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Voltage Doubling**:
    - The circuit effectively doubles the peak input voltage using diodes and capacitors to store and transfer charge.
@@ -105,5 +105,5 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 This experiment can be simulated in **Tinkercad**, where you can observe the input AC waveform and the doubled DC voltage across \( C_2 \). Adjusting the load resistor and capacitors demonstrates the practical behavior of the circuit.

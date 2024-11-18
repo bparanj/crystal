@@ -20,7 +20,7 @@ A **Series Reverse Polarity Protector** is a simple circuit used to protect sens
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **Series Reverse Polarity Protector** circuit and observe how the diode protects the load from reverse polarity.
@@ -49,7 +49,7 @@ To design and simulate a **Series Reverse Polarity Protector** circuit and obser
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 1. **Set Up the Circuit**:
    - Assemble the components in Tinkercad as described above.
@@ -68,7 +68,7 @@ To design and simulate a **Series Reverse Polarity Protector** circuit and obser
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Correct Polarity**:
    - The load receives power, with current flowing through the resistor.
@@ -80,7 +80,7 @@ To design and simulate a **Series Reverse Polarity Protector** circuit and obser
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Simplicity**:
    - The circuit uses only a single diode to provide effective reverse polarity protection.

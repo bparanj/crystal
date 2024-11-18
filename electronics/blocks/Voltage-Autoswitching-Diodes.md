@@ -4,7 +4,7 @@ A **Voltage Autoswitching Diode Circuit** automatically switches between two pow
 
 ---
 
-### **Key Concepts**:
+### Concepts
 1. **Diode Behavior**:
    - A diode allows current to flow only in one direction, ensuring the higher voltage source powers the load.
    - The source with the higher voltage forward-biases its diode, while the lower voltage source is blocked.
@@ -20,7 +20,7 @@ A **Voltage Autoswitching Diode Circuit** automatically switches between two pow
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate how the load is automatically powered by the higher voltage source.
@@ -55,7 +55,7 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Normal Operation (Primary Power On)**:
 1. Turn on both power supplies (\( V_1 = 12V, V_2 = 9V \)).
@@ -76,7 +76,7 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **When \( V_1 > V_2 \)**:
    - The load is powered by \( V_1 \), with \( D_1 \) conducting and \( D_2 \) blocking.
@@ -89,7 +89,7 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Diode Selection**:
    - Use low forward-voltage-drop diodes (e.g., Schottky diodes) for minimal power loss.
@@ -103,7 +103,7 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can toggle the power supplies to simulate power switching and observe:
 1. Which diode conducts.
 2. The voltage across the load resistor.

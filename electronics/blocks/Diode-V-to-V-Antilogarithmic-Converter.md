@@ -4,7 +4,7 @@ A **Voltage-to-Voltage Antilogarithmic Converter** produces an output voltage th
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Diode Exponential Relationship**:
    - The current through a diode is described by:
@@ -27,7 +27,7 @@ A **Voltage-to-Voltage Antilogarithmic Converter** produces an output voltage th
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **Voltage-to-Voltage Antilogarithmic Converter** and demonstrate how the output voltage grows exponentially with the input voltage.
@@ -62,7 +62,7 @@ To design and simulate a **Voltage-to-Voltage Antilogarithmic Converter** and de
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Set Input Voltage**:
 1. Set \( V_{in} = 0V \) using the DC voltage source.
@@ -80,7 +80,7 @@ To design and simulate a **Voltage-to-Voltage Antilogarithmic Converter** and de
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Exponential Voltage Growth**:
    - The output voltage grows exponentially with the input voltage, following the diode's \( I-V \) characteristics.
@@ -93,7 +93,7 @@ To design and simulate a **Voltage-to-Voltage Antilogarithmic Converter** and de
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Exponential Conversion**:
    - The diode's natural exponential \( I-V \) relationship enables the conversion of an input voltage to an exponentially increasing output voltage.
@@ -106,7 +106,7 @@ To design and simulate a **Voltage-to-Voltage Antilogarithmic Converter** and de
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Build the described circuit with a DC power source, diode, and resistors.
 2. Use a multimeter to measure the output voltage (\( V_{out} \)) across the load resistor.

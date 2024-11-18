@@ -4,7 +4,7 @@ A **Series Diode Limiter**, also known as a **Clipping Circuit**, limits the amp
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Clipping Operation**:
    - When the input voltage exceeds the forward voltage of the diode (\( V_f \)), the diode conducts and "clips" the excess voltage.
@@ -19,7 +19,7 @@ A **Series Diode Limiter**, also known as a **Clipping Circuit**, limits the amp
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **Series Diode Limiter Circuit** and observe its ability to clip the input signal at a specific threshold.
@@ -55,7 +55,7 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Observe Input and Output Waveforms**:
 1. Set the AC voltage source to \( \pm 10V, 1kHz \).
@@ -74,7 +74,7 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Without DC Offset**:
    - The input signal (\( \pm 10V \)) is clipped at \( \pm 0.7V \) (the forward voltage of the diodes).
@@ -86,7 +86,7 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Clipping Threshold**:
    - The threshold is determined by the diode's forward voltage (\( V_f \)) and any added offset voltage.
@@ -100,7 +100,7 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Build the circuit with the diodes, resistor, and AC voltage source.
 2. Use the oscilloscope to monitor the input and output waveforms.

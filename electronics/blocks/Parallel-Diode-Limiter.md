@@ -4,7 +4,7 @@ A **Parallel Diode Limiter**, or Clipping Circuit, restricts the amplitude of an
 
 ---
 
-### **Key Concepts**:
+### Concepts
 
 1. **Clipping Behavior**:
    - When the input voltage exceeds the diode's forward voltage (\( V_f \)), the diode conducts, effectively "clipping" the voltage at that threshold.
@@ -19,7 +19,7 @@ A **Parallel Diode Limiter**, or Clipping Circuit, restricts the amplitude of an
 
 ---
 
-### **Experiment Design for Tinkercad**:
+### Experiment
 
 #### **Objective**:
 To design and simulate a **Parallel Diode Limiter Circuit** and observe its ability to clip the input signal at specific voltage thresholds.
@@ -54,7 +54,7 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
 
 ---
 
-### **Steps to Perform**:
+### Steps
 
 #### **1. Set Up the Input Signal**:
 1. Configure the AC source to generate a sinusoidal waveform (\( V_{in} = \pm 10V, 1kHz \)).
@@ -73,7 +73,7 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
 
 ---
 
-### **Expected Results**:
+### Results
 
 1. **Without Offset**:
    - The input signal (\( \pm 10V \)) is clipped at \( \pm 0.7V \), the forward voltage of the diodes.
@@ -88,7 +88,7 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
 
 ---
 
-### **Key Insights**:
+### Insights
 
 1. **Voltage Threshold Control**:
    - The clipping levels are determined by the diodes’ forward voltage (\( V_f \)) and any added offset voltages.
@@ -102,7 +102,7 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
 
 ---
 
-### **Tinkercad Simulation**:
+### Simulation
 In **Tinkercad**, you can:
 1. Build the circuit using the described components.
 2. Use the oscilloscope to observe the input and output waveforms.
