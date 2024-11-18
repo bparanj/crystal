@@ -2,8 +2,6 @@
 
 A series capacitor can shorten the duration of a pulse by blocking low-frequency or DC components of a signal while allowing high-frequency components to pass through. The capacitor essentially acts as a high-pass filter, allowing only the changing portions of the signal (like the edges of the pulse) to be transmitted.
 
-### Concepts:
-
 1. Capacitive Behavior:
    - A capacitor blocks steady-state (DC) signals and only reacts to changes in voltage.
    - When a pulse passes through a capacitor, only the rising and falling edges of the pulse are transmitted, leading to a shorter duration at the output.
@@ -21,13 +19,14 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 ### Experiment
 
 #### Components:
+
 1. Pulse generator (or AC voltage source with square wave output).
 2. Capacitor (\( C = 1\mu F \)).
 3. Resistor (Load) (\( R_L = 10k\Omega \)).
 4. Oscilloscope (to observe input and output pulses).
-5. Breadboard and connecting wires.
 
 ### Circuit
+
 1. Connect the pulse generator to the breadboard.
 2. Place the capacitor (\( C \)) in series with the pulse generator.
 3. Connect the resistor (\( R_L \)) between the output of the capacitor and ground.

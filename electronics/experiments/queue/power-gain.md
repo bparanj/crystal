@@ -1,8 +1,6 @@
 Power Gain and Transistor Amplifier is the same experiment
 
-Here’s a simple experiment to demonstrate power gain in electronics using a basic transistor amplifier circuit. In this setup, we will use a small input signal to control a larger output signal, effectively amplifying power.
-
-### Objective
+a simple experiment to demonstrate power gain in electronics using a basic transistor amplifier circuit. In this setup, we will use a small input signal to control a larger output signal, effectively amplifying power.
 
 To show how a transistor amplifier can increase (or "gain") the power of a weak input signal, resulting in a stronger output signal.
 
@@ -51,7 +49,7 @@ The transistor acts as a current amplifier. A small current at the base controls
 
 This experiment illustrates power gain simply by amplifying a low-power signal into a more powerful output that’s easy to observe.
 
-A simple experiment to demonstrate power gain using a basic transistor amplifier circuit:
+A experiment to demonstrate power gain using a basic transistor amplifier circuit:
 
 1. Components needed:
    - Input resistor (1kΩ)

@@ -4,8 +4,6 @@ When capacitors are connected in parallel, their total or equivalent capacitance
 
 An experiment to demonstrate the behavior of two capacitors connected in parallel.
 
-### Objective
-
 To show that when two capacitors are connected in parallel, the total capacitance is the sum of the individual capacitances, allowing the circuit to store more energy and demonstrating a longer charge/discharge time in an RC circuit.
 
 ### Components

@@ -18,30 +18,24 @@ A snubber circuit is typically used to suppress voltage spikes across a switch o
 
 ### Setup:
 
-1. Inductive Load Setup:
    - Connect the positive terminal of the DC power source to one terminal of the inductor.
    - Connect the other terminal of the inductor to one side of the switch.
    - Connect the other side of the switch to the ground.
 
-2. Add the RC Snubber:
    - Connect a 100 Ω resistor and a 0.1 µF capacitor in series.
    - Place this RC series combination across the switch, with one end connected to the side of the switch connected to the inductor and the other end connected to ground.
    - This setup allows the RC snubber to absorb the voltage spike generated when the switch opens.
 
-3. Set Up the Oscilloscope:
    - Connect the oscilloscope probes across the switch to monitor voltage spikes that occur when the switch is opened.
 
 ### Steps:
 
-1. Run the Simulation:
    - Start the Tinkercad simulation.
    - Close the switch to allow current to flow through the inductor, building up magnetic energy.
 
-2. Open the Switch to Observe Voltage Spike:
    - Open the switch to interrupt the current flow through the inductor.
    - Expected Outcome: Without the snubber, you would typically see a sharp voltage spike across the switch due to the inductor’s stored energy. With the RC snubber in place, the voltage spike should be significantly reduced, as the snubber absorbs the excess energy.
 
-3. Observe the Oscilloscope:
    - Watch the oscilloscope to see how the RC snubber affects the voltage across the switch when it opens. The capacitor should absorb some of the energy, and the resistor dissipates it, smoothing out the spike.
 
 When the switch opens, the inductor tries to maintain current flow, creating a high voltage spike. The RC snubber provides an alternate path for this energy, reducing the spike and preventing arcing across the switch.

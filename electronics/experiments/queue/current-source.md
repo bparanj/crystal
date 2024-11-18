@@ -1,6 +1,6 @@
 ### Current Source with Variable Load (Simulated with a High Resistance Series Resistor)
 
-Objective: Show that a good current source maintains constant current but variable voltage with changes in load.
+Show that a good current source maintains constant current but variable voltage with changes in load.
 
 Components:
 

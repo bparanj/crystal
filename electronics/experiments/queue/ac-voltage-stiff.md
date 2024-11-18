@@ -10,8 +10,6 @@ A capacitor stores energy during voltage peaks and releases it during voltage dr
 
 The capacitive reactance (\(X_C\)) decreases at higher frequencies, making the capacitor more effective in filtering high-frequency noise.
 
-### Concept:
-
 When a capacitor is connected in parallel with a load in an AC circuit:
 - It provides a low-impedance path for high-frequency signals.
 - It helps maintain a steady voltage across the load by compensating for momentary drops in supply voltage.

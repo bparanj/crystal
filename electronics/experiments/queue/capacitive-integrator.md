@@ -35,8 +35,6 @@ A simple experiment to demonstrate how increasing resistance in a passive capaci
 
 ### Experiment: Improving Integration Accuracy with Increased Resistance
 
-#### Objective:
-
 To show that increasing the resistance in an RC integrator circuit enhances the accuracy of integration by slowing the response, even though it results in more energy dissipation.
 
 #### Components:

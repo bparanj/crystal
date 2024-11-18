@@ -1,6 +1,6 @@
 ### Can a Passive Circuit Contain Transistors?
 
-Yes, a passive circuit can contain transistors, but the transistors must be used in a manner that does not require an external power source or active control signals. In such cases, transistors behave as passive elements, acting like controlled switches or diodes.
+a passive circuit can contain transistors, but the transistors must be used in a manner that does not require an external power source or active control signals. In such cases, transistors behave as passive elements, acting like controlled switches or diodes.
 
 - Transistors as Passive Components:
   - Diode Mode: When a transistor is configured with its base connected to the collector or emitter, it acts as a diode, which is a passive element.
@@ -13,7 +13,7 @@ Yes, a passive circuit can contain transistors, but the transistors must be used
 
 ### Can a Transistor Act as a Passive Element?
 
-Yes, a transistor can act as a passive element if it:
+a transistor can act as a passive element if it:
 - Does not amplify signals or add energy to the circuit.
 - Operates in a purely on/off (switching) mode or behaves like a diode.
 
@@ -37,6 +37,7 @@ No, a resistor cannot act as an active element because:
    - Active elements dynamically control, amplify, or generate signals.
 
 ### In What Way Are They Alike?
+
 - Passive and active elements both influence current and voltage in a circuit.
 - Transistors can bridge the gap: depending on how they are configured, they can behave passively (as diodes or switches) or actively (as amplifiers or oscillators).
 

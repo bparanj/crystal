@@ -6,8 +6,6 @@ Is this the same as the clamping circuit?
 
 A parallel Zener diode provides a regulated and "stiffened" DC voltage by clamping the voltage to a fixed value. It ensures the output voltage remains stable and is unaffected by minor fluctuations in the input voltage or load variations.
 
-### Concepts:
-
 1. Zener Diode Behavior:
    - A Zener diode is designed to operate in reverse breakdown mode.
    - When the input voltage exceeds the Zener voltage (\(V_Z\)), the diode conducts in reverse, clamping the output voltage to \(V_Z\).
@@ -21,6 +19,7 @@ A parallel Zener diode provides a regulated and "stiffened" DC voltage by clampi
    - Current-Limiting Resistor (\(R_s\)): Limits current through the Zener diode to prevent damage.
 
 #### Components:
+
 1. DC Voltage Source (\( V_{in} = 10V \)).
 2. Zener Diode (\( V_Z = 5.1V \)).
 3. Resistor (\( R_s = 470\Omega \)).

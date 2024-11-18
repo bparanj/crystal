@@ -20,6 +20,7 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 ### Experiment
 
 #### Components:
+
 1. DC voltage source (\( V_{supply} = 5V \)).
 2. Capacitor (\( C = 100\mu F \)).
 3. Resistor (\( R = 10k\Omega \)).
@@ -43,14 +44,17 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 ### Steps:
 
 #### Charging to Maximal Value:
+
 1. Close the circuit to allow the capacitor to charge.
 2. Observe the voltage across the capacitor using the multimeter. The voltage will gradually rise and asymptotically approach \( V_{supply} \) (5V).
 
 #### Discharging to Minimal Value:
+
 1. Press the push-button switch to discharge the capacitor fully.
 2. Observe the voltage drop to 0V as the capacitor discharges.
 
 #### Experiment with RC Time Constant:
+
 1. Change the resistance (\( R = 5k\Omega, 10k\Omega \)) and observe the effect on the charging/discharging rate.
 2. Note that a higher resistance or capacitance increases the time constant, slowing the process.
 
@@ -92,6 +96,7 @@ Yes, a Peak Detector Circuit is different from a simple RC Circuit in purpose an
 ## Differences:
 
 #### RC Circuit:
+
 - Purpose:
   - Used for timing, filtering, or studying capacitor charging/discharging behavior.
 - Basic Components:
@@ -102,6 +107,7 @@ Yes, a Peak Detector Circuit is different from a simple RC Circuit in purpose an
   - Depends on the input voltage and RC time constant.
 
 #### Peak Detector Circuit:
+
 - Purpose:
   - Designed to "detect" and hold the maximum (peak) voltage of a varying signal.
   - Commonly used in signal processing to measure the peak amplitude of AC or pulsating signals.
@@ -115,17 +121,20 @@ Yes, a Peak Detector Circuit is different from a simple RC Circuit in purpose an
 ### Example: Peak Detector Circuit
 
 #### Components:
+
 1. Input Signal: AC or pulsating voltage.
 2. Diode: Ensures unidirectional charging.
 3. Capacitor: Stores the peak voltage.
 4. Resistor (optional): Discharges the capacitor slowly, depending on application.
 
 #### How It Works:
+
 1. When the input signal rises, the diode becomes forward-biased, allowing the capacitor to charge to the peak value of the signal.
 2. Once the input signal decreases below the peak, the diode becomes reverse-biased, preventing the capacitor from discharging back through the input.
 3. The capacitor holds the peak voltage, which can be read at the output.
 
 #### Applications:
+
 - Audio signal processing.
 - RF signal detection.
 - Measuring peak amplitudes in oscilloscopes and multimeters.
@@ -141,4 +150,4 @@ Yes, a Peak Detector Circuit is different from a simple RC Circuit in purpose an
 
 ---
 
-In summary, while a Peak Detector may include an RC component (for discharge timing), its primary function and behavior differ significantly from a simple RC circuit.
+while a Peak Detector may include an RC component (for discharge timing), its primary function and behavior differ significantly from a simple RC circuit.

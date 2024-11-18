@@ -68,8 +68,6 @@ Skipping - Already complete
 
 ### Experiment 1: Inductor as Load and Current Source
 
-#### Objective:
-
 To show how an inductor can act as a load when storing energy and as a current source when releasing energy.
 
 #### Components:
@@ -100,8 +98,6 @@ Skipping - Already complete
 
 ### Experiment 2: Capacitor as Load and Current Source
 
-#### Objective:
-
 To show how a capacitor can act as a load when charging and as a current source when discharging.
 
 #### Components:
@@ -129,8 +125,6 @@ To show how a capacitor can act as a load when charging and as a current source 
 
 1. In both experiments, the inductor and capacitor transition between acting as loads and current sources depending on whether they are storing or releasing energy.
 2. The LED lighting up demonstrates the component acting as a current source, while the initial charging process shows it acting as a load.
-
-### Explanation:
 
 - Inductor Behavior:
   - Acts as a load when building a magnetic field (storing energy).

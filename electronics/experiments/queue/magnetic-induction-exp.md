@@ -1,8 +1,6 @@
 
 A simple experiment to illustrate the concept of magnetic induction:
 
-### Objective:
-
 To demonstrate how a changing magnetic field can induce an electric current in a coil of wire.
 
 ### Needed:
@@ -14,30 +12,19 @@ To demonstrate how a changing magnetic field can induce an electric current in a
 
 ### Procedure:
 
-1. Set Up the Circuit:
-
    - Connect the two ends of the coil of wire to the terminals of the galvanometer or multimeter using the connecting wires. This setup will allow you to measure any current induced in the coil.
-
-2. Introduce the Magnet:
 
    - Hold the bar magnet in your hand and move it quickly towards the coil of wire. Observe the galvanometer as you move the magnet.
 
-3. Observe the Deflection:
-
    - As you bring the magnet closer to the coil, the needle on the galvanometer should deflect, indicating that a current is being induced in the coil. The direction of the deflection depends on the direction of the magnet's movement.
 
-4. Reverse the Magnet’s Motion:
-
    - Now, pull the magnet away from the coil. Observe that the needle on the galvanometer deflects again, but in the opposite direction, showing that the direction of the induced current has reversed.
-
-5. Experiment with Different Speeds:
 
    - Move the magnet at different speeds towards and away from the coil. Notice that the faster you move the magnet, the greater the deflection of the galvanometer needle, indicating a stronger induced current.
 
 The experiment demonstrates Faraday's Law of Electromagnetic Induction, which states that a changing magnetic field within a closed loop of wire induces an electromotive force (EMF) and, consequently, an electric current in the wire. The movement of the magnet changes the magnetic flux through the coil, which induces the current observed on the galvanometer. This experiment visually shows how magnetic induction works and how the movement and speed of the magnetic field affect the induced current.
 
 This experiment effectively illustrates the basic principle of magnetic induction in a simple and understandable way.
-
 
 A simple experiment to illustrate magnetic induction. This experiment is suitable for a classroom or home setting and requires minimal materials.
 
@@ -64,7 +51,7 @@ Setup and procedure:
 
 6. Reverse the direction of the magnet's motion and note any changes in the galvanometer's deflection direction.
 
-Expected results:
+results:
 
 - When you move the magnet quickly into or out of the coil, you should see the galvanometer needle deflect or the LED light up momentarily.
 - The faster you move the magnet, the larger the deflection or brighter the LED glow.

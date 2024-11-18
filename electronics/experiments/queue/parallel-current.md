@@ -1,7 +1,5 @@
 When current sources are connected in parallel, their currents add or subtract depending on their direction. This is governed by Kirchhoff’s Current Law (KCL), which states that the total current entering a node equals the total current leaving it.
 
-### Concepts:
-
 1. Summing Currents:
    - When current sources are connected in parallel with the same direction, their currents add.
    \[
@@ -44,7 +42,7 @@ When current sources are connected in parallel, their currents add or subtract d
 1. Set \( I_1 = 2mA \) and \( I_2 = 1mA \).
 2. Measure the current through the resistor.
 
-#### Expected Observation:
+#### Observation:
 
 The total current is:
 \[
@@ -66,7 +64,7 @@ I_{total} = I_1 + I_2 = 2mA + 1mA = 3mA
 1. Set \( I_1 = 2mA \) and \( I_2 = 1mA \).
 2. Measure the current through the resistor.
 
-#### Expected Observation:
+#### Observation:
 
 The total current is:
 \[

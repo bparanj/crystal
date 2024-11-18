@@ -1,7 +1,5 @@
 To sum or subtract voltages by preconverting them into currents, you can use resistors to convert the input voltages into currents, then process the currents in parallel (summing/subtracting) and reconvert the result back into a voltage using a load resistor.
 
-### Concepts:
-
 1. Voltage-to-Current Conversion:
    - By Ohm’s Law, a voltage source \( V \) across a resistor \( R \) generates a current:
      \[
@@ -20,6 +18,7 @@ To sum or subtract voltages by preconverting them into currents, you can use res
 ### Experiment
 
 #### Components:
+
 1. Two DC voltage sources (e.g., \( V_1 = 5V \), \( V_2 = 3V \)).
 2. Two resistors (\( R_1 \), \( R_2 \)) for voltage-to-current conversion.
 3. One load resistor (\( R_L \)) for current-to-voltage conversion.
@@ -29,12 +28,14 @@ To sum or subtract voltages by preconverting them into currents, you can use res
 ### Experiment 1: Summing Voltages
 
 #### Circuit
+
 1. Connect \( V_1 \) across \( R_1 \) and \( V_2 \) across \( R_2 \) separately.
 2. Connect the free ends of \( R_1 \) and \( R_2 \) to a common node.
 3. Connect the common node to \( R_L \), and then connect \( R_L \) to ground.
 4. Measure the output voltage across \( R_L \).
 
 #### Steps:
+
 1. Set \( V_1 = 5V \), \( V_2 = 3V \), \( R_1 = 1k\Omega \), \( R_2 = 1k\Omega \), and \( R_L = 1k\Omega \).
 2. Calculate the individual currents:
    \[
@@ -55,12 +56,14 @@ To sum or subtract voltages by preconverting them into currents, you can use res
 ### Experiment 2: Subtracting Voltages
 
 #### Circuit
+
 1. Connect \( V_1 \) across \( R_1 \) and reverse the polarity of \( V_2 \) across \( R_2 \).
 2. Connect the free ends of \( R_1 \) and \( R_2 \) to a common node.
 3. Connect the common node to \( R_L \), and then connect \( R_L \) to ground.
 4. Measure the output voltage across \( R_L \).
 
 #### Steps:
+
 1. Set \( V_1 = 5V \), \( V_2 = 3V \), \( R_1 = 1k\Omega \), \( R_2 = 1k\Omega \), and \( R_L = 1k\Omega \).
 2. Calculate the individual currents:
    \[
@@ -76,6 +79,7 @@ To sum or subtract voltages by preconverting them into currents, you can use res
    \]
 
 ### Notes
+
 - Replace ideal current sources with DC voltage sources and resistors for conversion.
 - Ensure polarity alignment for summing or subtraction.
 - Use the ammeter to measure total current at the node if needed.

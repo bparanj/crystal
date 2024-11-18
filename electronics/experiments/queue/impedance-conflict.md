@@ -43,8 +43,6 @@ Here are two simple experiments to demonstrate why a good voltage load acts as a
 
 ### Experiment 1: Good Voltage Load as a Bad Current Load
 
-#### Objective:
-
 To show that a high-impedance load (good voltage load) cannot support stable current flow, demonstrating its unsuitability as a current load.
 
 #### Components:
@@ -56,22 +54,15 @@ To show that a high-impedance load (good voltage load) cannot support stable cur
 
 #### Steps:
 
-1. Set Up the Constant Current Source:
    - Set the DC power supply to constant current mode, set to 10 mA.
 
-2. Connect the High-Value Resistor:
    - Connect the 1 MΩ resistor as the load across the current source terminals.
 
-3. Measure Voltage and Observe Behavior:
    - Use the multimeter to measure the voltage across the 1 MΩ resistor. Due to the high resistance, the power source may fail to maintain a stable current, and voltage may fluctuate or spike significantly, demonstrating instability.
-
-#### Explanation:
 
 The high impedance of the resistor makes it unsuitable for the current source, as it prevents stable current flow, showing that a good voltage load (high impedance) acts as a poor current load.
 
 ### Experiment 2: Good Current Load as a Bad Voltage Load
-
-#### Objective:
 
 To show that a low-impedance load (good current load) causes instability in a voltage source by drawing excessive current, demonstrating its unsuitability as a voltage load.
 
@@ -89,8 +80,6 @@ To show that a low-impedance load (good current load) causes instability in a vo
 
 2. Measure Current and Observe Behavior:
    - Use the multimeter to measure the current flowing through the 1 Ω resistor. The resistor will draw excessive current, causing the voltage to drop and potentially heating up the resistor.
-
-#### Explanation:
 
 The low-impedance resistor draws a high current from the voltage source, which may cause the voltage to drop or fluctuate. This shows that a good current load (low impedance) is unsuitable for voltage sources, acting as a bad voltage load.
 

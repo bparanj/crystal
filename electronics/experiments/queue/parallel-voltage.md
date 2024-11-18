@@ -20,6 +20,7 @@ Connecting voltage sources in parallel creates a paradox due to the fundamental 
    - This creates a situation where the sources behave inefficiently or even destructively.
 
 ### Is It Wrong?
+
 1. Theoretical Ideal Case:
    - In an ideal scenario, where all parallel-connected voltage sources have the exact same voltage and zero internal resistance, the connection is theoretically correct.
    - In this case, the total available current capacity increases, as each source contributes to the total current supplied to the load.
@@ -31,6 +32,7 @@ Connecting voltage sources in parallel creates a paradox due to the fundamental 
      - Instability or damage to one or more sources.
 
 ### Is It Useful?
+
 Despite the challenges, there are practical applications of parallel-connected voltage sources under controlled conditions:
 
 1. Batteries in Parallel:
@@ -44,6 +46,7 @@ Despite the challenges, there are practical applications of parallel-connected v
    - Current-sharing circuits are included to ensure each power supply contributes equally and prevent damage.
 
 ### May We Apply This Connection into Practice?
+
 Yes, but only under specific conditions:
 1. Matched Voltages: The sources must have closely matched output voltages to minimize circulating currents.
 2. Current Sharing Mechanisms: Use balancing resistors, diodes, or active current-sharing circuits to control the distribution of current between sources.
@@ -56,9 +59,11 @@ Here’s a simple experiment to demonstrate the paradox of parallel-connected vo
 ### Experiment: Parallel-Connected Voltage Sources
 
 #### Objective:
+
 To demonstrate the potential issues (circulating currents, inefficiency) and the proper use of parallel-connected voltage sources.
 
 #### Components:
+
 - 2 DC Power Sources (e.g., adjustable bench power supplies or 9V batteries)
 - 2 Resistors (e.g., 10 Ω for load and 1 Ω for current limiting)
 - Multimeter (to measure current and voltage)
@@ -67,6 +72,7 @@ To demonstrate the potential issues (circulating currents, inefficiency) and the
 #### Steps:
 
 ### Part 1: Demonstrating the Paradox (Mismatched Sources)
+
 1. Set Up Mismatched Voltage Sources:
    - Connect the two DC power sources in parallel on the breadboard.
    - Adjust one power source to 5V and the other to 4.5V (intentional mismatch).
@@ -79,6 +85,7 @@ To demonstrate the potential issues (circulating currents, inefficiency) and the
    - Measure the voltage across the 1 Ω resistors (used for current limiting) to confirm power loss due to the circulating currents.
 
 ### Part 2: Proper Design with Balancing
+
 1. Add Current-Limiting Resistors:
    - Place a 1 Ω resistor in series with each voltage source before connecting them in parallel.
    - This ensures the current is distributed more evenly between the sources.
@@ -88,12 +95,12 @@ To demonstrate the potential issues (circulating currents, inefficiency) and the
    - Re-measure the current through each source and the resistors. The current sharing should now be balanced, with minimal circulating currents.
 
 ### Observations:
+
 1. Without Matching or Balancing:
    - Circulating currents cause power loss and instability between mismatched voltage sources.
 2. With Proper Balancing:
    - Current-limiting resistors and matching voltages stabilize the circuit, allowing the sources to share the load effectively.
 
-### Explanation:
 - The experiment demonstrates the paradox of parallel voltage sources:
   - Mismatched sources lead to internal current conflicts.
   - Properly matched sources, with balancing resistors, enable safe and efficient parallel operation.

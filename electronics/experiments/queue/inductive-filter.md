@@ -2,8 +2,6 @@
 
 When an inductor is connected in series with an AC voltage source, it can decouple or reduce the AC voltage across the load by introducing inductive reactance (\(X_L\)). This decoupling effect depends on the frequency of the AC signal and the value of the inductor.
 
-### Concepts:
-
 1. Inductive Reactance (\(X_L\)):
    - The inductor opposes changes in current, and its impedance increases with frequency:
      \[
@@ -23,6 +21,7 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 ### Experiment
 
 #### Components:
+
 1. AC Voltage Source (\( V_{rms} = 10V, f = 50Hz \)).
 2. Resistor (Load) (\( R = 1k\Omega \)).
 3. Inductor (\( L = 100mH \)).
@@ -31,6 +30,7 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 6. Breadboard and connecting wires.
 
 ### Circuit
+
 1. Connect the AC voltage source to the breadboard.
 2. Place the inductor (\( L \)) in series with the AC voltage source.
 3. Connect the resistor (\( R \)) as a load in series with the inductor.

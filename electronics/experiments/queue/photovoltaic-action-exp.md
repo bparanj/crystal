@@ -1,11 +1,9 @@
 
-A simple experiment to illustrate the concept of photovoltaic action:
+A experiment to illustrate the concept of photovoltaic action:
 
 PENDING
 
 Can this be run in Tinkercad?
-
-### Objective:
 
 To demonstrate how sunlight can be converted directly into electrical energy using a solar cell.
 
@@ -71,7 +69,7 @@ Setup and procedure:
 
 8. If possible, use different colored filters or lights to observe any changes in output.
 
-Expected results:
+results:
 
 - When fully exposed to light, the solar cell should produce a measurable voltage.
 - As you cover portions of the cell, the voltage should decrease.

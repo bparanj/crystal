@@ -13,8 +13,6 @@ A simple experiment to demonstrate the concept of a pull-down resistor using an 
 
 Is this the same: https://www.tinkercad.com/things/hrMmi5ZQvhw-resistor-pull-up-and-pull-down
 
-### Objective
-
 To show how a pull-down resistor works to ensure a stable LOW (logic “0”) signal when a switch is open and a HIGH (logic “1”) signal when the switch is closed.
 
 ### Components
@@ -24,11 +22,8 @@ To show how a pull-down resistor works to ensure a stable LOW (logic “0”) si
 - 1 x Pushbutton switch
 - 1 x Power supply 5V
 - 1 x Resistor (330Ω for LED current limiting)
-- Connecting wires
 
 ### Setup
-
-1. Power Supply:
 
 Connect the positive terminal of the power supply 5V to one side of the pushbutton switch.
 
@@ -36,8 +31,7 @@ Connect the positive terminal of the power supply 5V to one side of the pushbutt
    - Connect the other side of the pushbutton switch to ground (GND).
    - At the junction between the switch and ground, connect a 10 kΩ resistor between this point and ground.
 
-3. LED and Observation Point:
-   - Connect an LED (with a 330Ω resistor in series) between the junction of the switch and ground, and the positive power supply. The LED will turn on when the junction goes HIGH.
+   Connect an LED (with a 330Ω resistor in series) between the junction of the switch and ground, and the positive power supply. The LED will turn on when the junction goes HIGH.
 
 ### Procedure
 

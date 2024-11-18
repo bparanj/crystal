@@ -1,7 +1,5 @@
 The "slowly charging, quickly discharging" behavior is a common characteristic of circuits involving a capacitor and a resistor. This behavior can be achieved using an RC circuit with a diode for asymmetric charge and discharge paths.
 
-### Concept:
-
 1. Charging Path:
    - When the capacitor charges, it does so through a resistor (\( R_{charge} \)).
    - A large \( R_{charge} \) value causes a slow charge due to the RC time constant:

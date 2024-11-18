@@ -2,8 +2,6 @@
 
 Connecting a capacitor in series with an AC voltage source shifts the voltage across a load due to the capacitor’s reactance (\(X_C\)), which depends on the frequency of the AC signal and the capacitor's value. This property can cause a phase shift between the current and voltage, and the voltage across the load will no longer align perfectly with the source voltage.
 
-### Concepts:
-
 1. Capacitive Reactance (\(X_C\)):
    - The capacitor introduces impedance that depends on the frequency (\(f\)) of the AC signal:
      \[
@@ -38,7 +36,6 @@ Connecting a capacitor in series with an AC voltage source shifts the voltage ac
    - Across the AC source to observe input voltage.
    - Across the resistor to observe the output voltage.
 5. Optionally, connect a multimeter across the resistor to measure the RMS voltage.
-
 
 ### Steps:
 

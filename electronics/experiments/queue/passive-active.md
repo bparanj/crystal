@@ -1,4 +1,5 @@
 ### What Passive Circuits Really Do
+
 - Core Functionality:
   - Passive circuits process signals without adding energy to the system. They can attenuate, filter, or redirect signals but cannot amplify or generate signals.
   - They rely on components like resistors, capacitors, inductors, and transformers, which do not require external power to function.
@@ -10,6 +11,7 @@
   - Linear Behavior: Most passive circuits are linear, meaning their behavior doesn’t depend on the amplitude of the input signal.
 
 ### What Active Circuits Really Do
+
 - Core Functionality:
   - Active circuits control and modify signals by adding energy to the system. They amplify, switch, or regulate signals, making them capable of driving loads or generating oscillations.
   - They rely on components like transistors, operational amplifiers, and other active devices that require an external power source.
@@ -21,6 +23,7 @@
   - Gain: They provide power, voltage, or current gain, making them essential for applications like audio amplifiers or radio transmitters.
 
 ### Differences Between Passive and Active Circuits
+
 | Aspect               | Passive Circuits                           | Active Circuits                           |
 |--------------------------|-----------------------------------------------|----------------------------------------------|
 | Energy Contribution   | No external energy added                      | External energy added                        |
@@ -31,6 +34,7 @@
 | Linear/Nonlinear      | Mostly linear                                 | Often nonlinear                              |
 
 ### In What Way Are Passive and Active Circuits Alike?
+
 1. Signal Processing:
    - Both passive and active circuits manipulate signals in ways that are critical for electronic systems. For instance:
      - Passive circuits shape the signal (filtering, impedance matching).
@@ -50,7 +54,18 @@
    - Both types are combined in most real-world systems. For example:
      - A passive filter (e.g., RC low-pass) may be followed by an active amplifier in an audio system.
 
-- Passive Circuits: Process signals without adding energy, typically for filtering, impedance matching, or signal attenuation.
-- Active Circuits: Modify signals by adding energy, enabling amplification, switching, and generation.
-- Key Difference: Passive circuits cannot amplify signals, while active circuits can.
-- Similarity: Both are essential for signal processing and are often combined in practical systems.
+Passive Circuits:
+
+Process signals without adding energy, typically for filtering, impedance matching, or signal attenuation.
+
+Active Circuits:
+
+Modify signals by adding energy, enabling amplification, switching, and generation.
+
+Difference:
+
+Passive circuits cannot amplify signals, while active circuits can.
+
+Similarity:
+
+Both are essential for signal processing and are often combined in practical systems.

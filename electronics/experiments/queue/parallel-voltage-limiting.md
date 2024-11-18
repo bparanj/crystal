@@ -2,8 +2,6 @@
 
 A parallel diode connected across a load limits voltage by clamping the voltage to the diode’s forward voltage drop (\(V_f\)). This configuration is commonly used for voltage clamping or overvoltage protection in circuits.
 
-### Concepts:
-
 1. Clamping Behavior:
    - When the input voltage exceeds the diode’s forward voltage (\(V_f\)), the diode conducts and limits the voltage across the load to approximately \(V_f\).
    - For reverse bias, the diode does not conduct, leaving the load unaffected.
@@ -19,6 +17,7 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 ### Experiment
 
 #### Components:
+
 1. AC voltage source (\( V_{peak} = 5V, f = 50Hz \)).
 2. Diode (e.g., 1N4148 or Schottky diode).
 3. Resistor (Load) (\( R = 1k\Omega \)).

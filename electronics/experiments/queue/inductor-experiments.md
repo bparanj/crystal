@@ -36,7 +36,7 @@ The multimeter can be used to measure the current flowing through the inductor. 
 
 Explanation of Tinekrcad simulation:
 
-The demonstration you described involves two circuits with an inductor and a light bulb, but they behave very differently due to the varying parameters of voltage, current, and frequency.
+The demonstration involves two circuits with an inductor and a light bulb, but they behave very differently due to the varying parameters of voltage, current, and frequency.
 
 An inductor can cause an LED to glow dimly and gradually turn off even in an open circuit due to its ability to store energy in its magnetic field. Here's how this works:
 
@@ -111,7 +111,6 @@ This demonstration highlights how inductors behave differently in AC (especially
 
 
 CONTINUE WITH STEP BY STEP SCREEN CAPTURE FOR THE EXPERIMENT
-
 
 No, a sine wave generator is not typically considered a power source for an electronic circuit. Instead, it is used to provide an alternating signal, often for testing, signal processing, or as an input to a circuit. A power source, on the other hand, supplies the energy needed to operate the circuit, typically in the form of a constant voltage or current, like a battery or power supply.
 

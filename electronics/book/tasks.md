@@ -1,6 +1,5 @@
 13.md
 
-
 transistor-current.md
 capacitor-voltage.md
 
@@ -34,7 +33,6 @@ ac-voltage-shift.md
 capacitive-voltage-divider.md
 capacitor-parallel.md
 capacitor-series.md
-
 
 Questions:
 
@@ -133,6 +131,7 @@ Scope
 - No discussion of topics not in Tinkercad basic section
 - Basics of physics in the context of electronics
 - Basics of TRIZ in the context of electronics
+- Not an engineering textbook
 
 Author
 

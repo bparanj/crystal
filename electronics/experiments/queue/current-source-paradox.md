@@ -62,8 +62,6 @@ Here are two simple experiments to demonstrate the concept where a good current 
 
 ### Experiment 1: Good Current Source Acting as a Bad One
 
-#### Objective:
-
 To show that a well-regulated current source can act poorly when used with a capacitive load due to instability in maintaining steady current.
 
 #### Components:
@@ -83,12 +81,9 @@ To show that a well-regulated current source can act poorly when used with a cap
    - Connect the 100 μF capacitor in parallel with the LED and resistor.
    - Observe the instability in current delivery as the capacitor charges, causing flickering or dimming of the LED.
 
-3. Explanation:
-   - The power supply (current source) initially struggles to maintain a steady current because the capacitor resists changes in voltage, drawing variable current while charging. This shows the current source acting poorly with a capacitive load.
+ The power supply (current source) initially struggles to maintain a steady current because the capacitor resists changes in voltage, drawing variable current while charging. This shows the current source acting poorly with a capacitive load.
 
 ### Experiment 2: Bad Current Source Acting as a Good One
-
-#### Objective:
 
 To show that an unregulated, simple resistor-based current source can act as a stable current source for low-power LEDs.
 
@@ -109,10 +104,7 @@ To show that an unregulated, simple resistor-based current source can act as a s
    - With the resistor limiting the current, both LEDs should light up steadily despite the unregulated nature of the battery.
    - Measure the current across the LEDs. It should remain relatively stable, as the resistor absorbs any minor fluctuations in battery output.
 
-3. Explanation:
-   - The unregulated 9V battery, paired with a current-limiting resistor, acts as a stable current source for the LEDs because the resistor stabilizes the current by dropping voltage accordingly. This demonstrates a "bad" current source acting as a good one in a low-power, steady-load scenario.
-
-### Summary:
+ The unregulated 9V battery, paired with a current-limiting resistor, acts as a stable current source for the LEDs because the resistor stabilizes the current by dropping voltage accordingly. This demonstrates a "bad" current source acting as a good one in a low-power, steady-load scenario.
 
 - Experiment 1 demonstrates a good current source acting poorly with a capacitive load.
 - Experiment 2 shows a bad current source acting well when stabilized by a resistor for low-power LEDs.

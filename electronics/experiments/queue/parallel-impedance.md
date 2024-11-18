@@ -1,6 +1,7 @@
-This paradox arises from the interplay between the load impedance and the source's ability to maintain a constant current. To improve the performance of a nonideal current source in the presence of a nonideal current load, we often add impedance in the circuit (typically in parallel or series). This seemingly contradictory approach—introducing or increasing an obstacle (impedance)—helps stabilize the current source's performance. Here’s how it works:
+This paradox arises from the interplay between the load impedance and the source's ability to maintain a constant current. To improve the performance of a nonideal current source in the presence of a nonideal current load, we often add impedance in the circuit (typically in parallel or series). This seemingly contradictory approach—introducing or increasing an obstacle (impedance)—helps stabilize the current source's performance.
 
 ### How Adding Impedance Reduces the Obstacle
+
 1. Nonideal Current Load Behavior:
    - A nonideal current load, such as a low-impedance device, tends to "force" the current source to behave more like a voltage source because the load draws more current than the source can deliver.
    - This mismatch creates instability in the current source's output.
@@ -13,11 +14,13 @@ This paradox arises from the interplay between the load impedance and the source
    - The "obstacle" (higher impedance) introduced serves as a stabilizing element for the system. Although it adds resistance to the circuit, it ensures that the current source operates as intended by isolating the load's behavior from the source.
 
 ### Example: Parallel Impedance
+
 - If a nonideal current source is connected to a low-impedance load, the current source may fail to maintain a steady current.
 - Adding a high-value parallel resistor across the load creates a new path for current, effectively increasing the overall circuit impedance and stabilizing the current delivery.
 - The paradox is that the added resistor (an "obstacle") improves the system's performance by compensating for the nonideal load.
 
 ### Explanation of the Paradox
+
 The paradox exists because:
 1. Stability Over Efficiency:
    - The added impedance sacrifices some efficiency (dissipating energy in the resistor or active element) to ensure stability in the current delivery.
@@ -35,9 +38,11 @@ Here’s a simple experiment to demonstrate the concept of stabilizing a nonidea
 ### Experiment: Stabilizing a Nonideal Current Load with Added Impedance
 
 #### Objective:
+
 To show that adding a high-impedance parallel resistor across a low-impedance load stabilizes current flow from a current source.
 
 #### Components:
+
 - 1 Adjustable DC Power Source (set to constant current mode, e.g., 20 mA)
 - 1 Low-Value Resistor (e.g., 10 Ω to simulate a nonideal low-impedance current load)
 - 1 High-Value Resistor (e.g., 1 kΩ as added impedance)
@@ -61,6 +66,7 @@ To show that adding a high-impedance parallel resistor across a low-impedance lo
 - Although this added resistor dissipates some power, it balances the load and reduces the fluctuations in current.
 
 ### Observations:
+
 1. Without Parallel Resistor: The low-impedance load causes instability in current delivery.
 2. With Parallel Resistor: The added impedance smooths out the current and stabilizes the current source output.
 

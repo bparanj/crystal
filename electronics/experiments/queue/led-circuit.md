@@ -22,7 +22,7 @@ Some LEDs have a flat edge on the side of the cathode or a slightly larger inter
 
 If you connect an LED with incorrect polarity (reverse bias), it will not light up, and if a high enough reverse voltage is applied, the LED could be damaged. Therefore, it is crucial to connect an LED correctly to ensure it functions properly and avoid potential damage.
 
-The next step after the basic "Hello World" circuit would  be a circuit that introduces a new concept or component while still being relatively simple. A perfect example of this is the LED circuit with a current-limiting resistor. Let's explore this:
+The next step after the basic "Hello World" circuit would  be a circuit that introduces a new concept or component while still being relatively simple. A perfect example of this is the LED circuit with a current-limiting resistor.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
@@ -316,4 +316,4 @@ Consider a circuit with a 9V battery, a 220-ohm resistor, and an LED with a forw
 
 - Whether you connect the resistor before the LED or after, the current flowing through both the resistor and the LED is 32 mA. The resistor limits this current to prevent the LED from burning out, regardless of its position in the series.
 
-The key takeaway is that in a series circuit, the current is the same through all components. The resistor will protect the LED by limiting the current flow, whether it is placed before or after the LED. Therefore, the resistor effectively controls the current throughout the entire circuit, ensuring safe operation for the LED.
+in a series circuit, the current is the same through all components. The resistor will protect the LED by limiting the current flow, whether it is placed before or after the LED. Therefore, the resistor effectively controls the current throughout the entire circuit, ensuring safe operation for the LED.

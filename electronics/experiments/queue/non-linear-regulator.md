@@ -1,7 +1,5 @@
 This paradox arises because a nonlinear regulating element, such as a transistor, can provide linear regulation by leveraging feedback or circuit design principles that compensate for its inherent nonlinearity. Here’s how this paradox can be explained:
 
----
-
 ### How Nonlinear Elements Achieve Linear Regulation
 
 1. Transistor Nonlinearity:
@@ -22,14 +20,11 @@ This paradox arises because a nonlinear regulating element, such as a transistor
    - The overall circuit, including resistors, feedback loops, and the power source, effectively "linearizes" the nonlinear properties of the transistor.
    - For instance, in a current source, the transistor’s nonlinear relationship is offset by the resistor, creating a nearly constant current output over a range of voltages.
 
----
-
 ### Why This Paradox Exists
+
 - The paradox arises because we focus on the element itself, which is inherently nonlinear.
 - However, the system in which the element operates uses design techniques (feedback, biasing, and proper region selection) to achieve linear regulation at the output.
 - This results in the illusion that the nonlinear element is providing linear behavior.
-
----
 
 ### Examples
 
@@ -42,7 +37,4 @@ This paradox arises because a nonlinear regulating element, such as a transistor
 3. Operational Amplifiers:
    - Transistors inside an op-amp are nonlinear, but the overall design uses feedback to produce linear input-output behavior.
 
----
-
-### Summary
 A nonlinear regulating element, like a transistor, provides linear regulation because the circuit design compensates for its nonlinearity. Feedback, dynamic operating regions, and system-level design ensure that the output behaves linearly, resolving the apparent paradox. The transistor’s nonlinearity is hidden behind the system’s ability to enforce linear behavior in the desired range.

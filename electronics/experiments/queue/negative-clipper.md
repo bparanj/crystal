@@ -28,15 +28,12 @@ If you want to set the clipping level at a specific voltage, you can add a DC po
 
 ### Steps:
 
-1. Run the Simulation:
    - Start the simulation in Tinkercad.
    - Set the AC source to a small amplitude, like 5V peak-to-peak, and a moderate frequency (e.g., 50 Hz) to easily observe the waveform.
 
-2. Observe the Oscilloscope Readings:
    - Observe the input waveform on one channel of the oscilloscope and the output waveform on the other.
    - Expected Outcome: On the output waveform, you should see the negative portion of the AC signal clipped at approximately 0V (or the level of the DC offset if added). The positive portion of the AC signal should pass through unaffected.
 
-3. Adjusting Clipping Level (Optional):
    - If you added a DC power supply in series with the diode, adjust the voltage to see how the clipping level changes. Increasing the DC voltage will clip the signal at a lower negative level.
 
 Diode Action:

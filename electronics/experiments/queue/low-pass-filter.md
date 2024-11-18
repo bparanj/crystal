@@ -1,4 +1,4 @@
-A low-pass filter allows lower frequencies to pass through while attenuating higher frequencies. 
+A low-pass filter allows lower frequencies to pass through while attenuating higher frequencies.
 
 A simple RC low-pass filter to observe how it filters out high frequencies and allows low frequencies to pass.
 
@@ -21,7 +21,6 @@ For a square wave input:
 
 - Use a non-polarized capacitor if the waveform has both positive and negative cycles.
 - If the square wave has a DC offset that keeps it entirely positive or entirely negative, a polarized capacitor would also work, as it won’t experience polarity reversal.
-
 
 This is a classic first-order low-pass filter.
 
@@ -58,8 +57,6 @@ This explains why you're seeing a millivolt-level sine wave across the capacitor
 
 An experiment that demonstrates how a capacitor acts as a filter in an AC circuit.
 
-### Objective
-
 To show how a capacitor can filter high frequencies in an AC circuit by reducing the output voltage at higher frequencies.
 
 ### Components
@@ -73,19 +70,15 @@ To show how a capacitor can filter high frequencies in an AC circuit by reducing
 
 ### Setup
 
-1. Build the RC Low-Pass Filter:
    - Connect the AC source (approximated in Tinkercad using a square wave generator with a frequency you can change) to one end of the resistor.
    - Connect the other end of the resistor to the positive terminal of the capacitor.
    - Connect the negative terminal of the capacitor to the ground of the AC source.
 
-2. Measurement Setup:
    - Connect the multimeter (set to measure AC voltage) across the capacitor to monitor how the output voltage changes with frequency.
 
-3. Set the AC Frequency:
    - Start with a low frequency (simulate around 1 Hz using the frequency adjustment for the square wave in Tinkercad).
    - Measure the voltage across the capacitor. At low frequency, the capacitor will block less of the AC signal, so you should see a voltage close to the input.
 
-4. Increase Frequency:
    - Gradually increase the square wave frequency in Tinkercad (e.g., 10 Hz, 100 Hz).
    - At higher frequencies, observe that the voltage across the capacitor decreases as the capacitor acts as a filter, blocking higher frequencies.
 
@@ -105,30 +98,24 @@ This experiment demonstrates a low-pass filter effect, where the capacitor allow
 
 ### Setup:
 
-1. Create the RC Low-Pass Filter:
    - Connect one terminal of the AC source to the resistor.
    - Connect the other end of the resistor to one terminal of the capacitor.
    - Connect the other terminal of the capacitor to ground.
 
-2. Output Point:
    - The output is taken across the capacitor. Connect the oscilloscope probe here to observe the output signal.
    - Also, place another oscilloscope probe across the AC source to observe the input signal for comparison.
 
-3. Set Up the Oscilloscope:
    - Connect the first oscilloscope probe to the input (AC source) and the second probe to the output (across the capacitor).
    - This setup allows you to observe how the input and output signals compare at different frequencies.
 
 ### Steps:
 
-1. Run the Simulation:
    - Start the Tinkercad simulation.
    - Set the AC source to a high frequency, such as 10 kHz, to observe how the circuit behaves at higher frequencies.
 
-2. Observing High-Frequency Response:
    - With a high-frequency input, check the oscilloscope to see the output across the capacitor.
    - Expected Outcome: At high frequencies, the output signal will be much weaker or nearly zero. This is because the capacitor’s impedance is low at high frequencies, causing most of the signal to bypass the output and go to ground.
 
-3. Decrease the Frequency:
    - Gradually decrease the frequency of the AC source to around 1 kHz and then lower (e.g., 10 Hz).
    - Expected Outcome: As the frequency decreases, the output signal amplitude should increase. This is because the capacitor’s impedance increases at lower frequencies, allowing more of the input signal to pass through to the output.
 
@@ -174,8 +161,6 @@ Let’s assume we want to design a low-pass filter using an inductor and resisto
 This demonstrates how an inductor can be used to filter out unwanted high-frequency noise in a circuit.
 
 To design a low-pass filter experiment using Tinkercad, follow these steps:
-
-### Objective
 
 Create a simple RC (Resistor-Capacitor) low-pass filter to observe how it allows low-frequency signals to pass while attenuating higher frequencies.
 

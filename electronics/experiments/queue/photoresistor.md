@@ -31,7 +31,7 @@ To demonstrate how a photoresistor (light-dependent resistor or LDR) works, you 
 1. Photoresistor (LDR)
 2. LED: To visually display changes in brightness.
 3. Resistor: 220 Ω (for current limiting with the LED).
-4. Power Source: 5V DC power supply.
+4. 5V DC power supply.
 5. Multimeter: To measure the voltage across the photoresistor or the resistance.
 6. Potentiometer (optional): To adjust the sensitivity of the circuit.
 
@@ -71,7 +71,6 @@ Yes, this setup can be created in Tinkercad, as it has the necessary components 
 
 ### Steps to Create the Circuit in Tinkercad
 
-1. Circuit Assembly:
    - Power Source: Use a 5V DC power source.
    - Photoresistor (LDR): Add a photoresistor from the components menu.
    - Fixed Resistor: Use a 220 Ω resistor to create a voltage divider with the LDR.
@@ -79,7 +78,6 @@ Yes, this setup can be created in Tinkercad, as it has the necessary components 
    - Multimeter: Place a multimeter across the photoresistor to measure either resistance or voltage changes as light levels change.
    - Potentiometer (Optional): If desired, add a potentiometer in series with the fixed resistor to adjust the sensitivity of the circuit.
 
-2. Circuit Connection:
    - Connect one end of the photoresistor to the positive terminal of the 5V power source.
    - Connect the other end of the photoresistor to the fixed 220 Ω resistor.
    - Connect the other end of the resistor to ground.
@@ -87,7 +85,6 @@ Yes, this setup can be created in Tinkercad, as it has the necessary components 
    - Connect the cathode of the LED to ground. This LED setup should include the 220 Ω resistor in series with it.
    - Place the multimeter across the photoresistor to measure voltage or resistance.
 
-3. Running the Simulation:
    - Observe in Ambient Light: Run the simulation in Tinkercad’s standard light setting. The LED should light up at a brightness that corresponds to the default resistance of the photoresistor. The multimeter will show a resistance or voltage level across the photoresistor.
    - Simulate Changing Light Levels: In Tinkercad, click on the photoresistor and adjust the “Light Level” slider to simulate varying light intensities.
      - Decrease Light Level: As you reduce the light, the resistance of the photoresistor will increase. This should cause the LED to dim or turn off as less current flows through it. The multimeter will show a higher resistance or lower voltage across the LDR.

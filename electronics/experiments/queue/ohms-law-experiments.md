@@ -17,21 +17,17 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit:
    - Connect the resistor in series with the battery.
    - Connect the ammeter in series with the resistor to measure the current.
    - Connect the voltmeter across the resistor to measure the voltage drop.
 
-2. Measure and Record:
    - Measure the voltage across the resistor using the voltmeter.
    - Measure the current through the resistor using the ammeter.
    - Record the values of voltage (V) and current (I).
 
-3. Calculate Resistance:
    - Use Ohm’s Law \( R = \frac{V}{I} \) to calculate the resistance.
    - Compare the calculated resistance with the known value of the resistor.
 
-4. Explain:
    - This experiment demonstrates Ohm’s Law by showing that the voltage across the resistor is proportional to the current through it, and the proportionality constant is the resistance.
 
 ### 2. Varying Voltage to Observe Changes in Current
@@ -50,20 +46,16 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit:
    - Connect the resistor in series with the variable power supply.
    - Connect the ammeter in series to measure the current.
    - Connect the voltmeter across the resistor to measure the voltage drop.
 
-2. Vary the Voltage:
    - Start with a low voltage setting on the power supply. Measure and record the voltage across the resistor and the current through the circuit.
    - Gradually increase the voltage and record the corresponding current for each setting.
 
-3. Plot the Results:
    - Plot a graph of the voltage (V) on the x-axis versus the current (I) on the y-axis.
    - The graph should show a straight line, indicating a linear relationship, which confirms Ohm's Law.
 
-4. Explain:
    - This experiment shows that as you increase the voltage, the current increases proportionally, confirming that \( V = IR \).
 
 ### 3 Varying Resistance to Observe Changes in Current
@@ -82,21 +74,17 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit:
    - Connect one of the resistors in series with the battery.
    - Connect the ammeter in series to measure the current.
    - Connect the voltmeter across the resistor to measure the voltage drop.
 
-2. Measure with Different Resistors:
    - Measure the voltage and current with the first resistor (e.g., 100Ω).
    - Replace the resistor with a different value (e.g., 500Ω) and measure the voltage and current again.
    - Repeat with the third resistor (e.g., 1 kΩ).
 
-3. Observe and Analyze:
    - For each resistor, calculate the expected current using \( I = \frac{V}{R} \) and compare it with the measured current.
    - Notice how the current decreases as the resistance increases, verifying the inverse relationship in Ohm’s Law.
 
-4. Explain:
    - This experiment demonstrates that for a constant voltage, increasing the resistance decreases the current, and decreasing the resistance increases the current, in accordance with Ohm’s Law.
 
 - Experiment 1: Verifies the basic relationship of Ohm’s Law by directly measuring voltage and current.

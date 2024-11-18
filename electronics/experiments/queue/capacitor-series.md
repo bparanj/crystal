@@ -23,7 +23,7 @@ When capacitors are connected in series, they all store the same amount of elect
 
 Series capacitors are often used in applications where voltage requirements exceed the ratings of individual capacitors, but this configuration comes at the cost of reduced total capacitance.
 
-You can use Tinkercad to demonstrate the effect of connecting capacitors in series by observing how the total capacitance changes compared to a single capacitor. In this experiment, we’ll measure the charge and discharge behavior of capacitors connected in series and compare it to a single capacitor.
+demonstrate the effect of connecting capacitors in series by observing how the total capacitance changes compared to a single capacitor. In this experiment, we’ll measure the charge and discharge behavior of capacitors connected in series and compare it to a single capacitor.
 
 ### Components:
 
@@ -92,12 +92,12 @@ The reduced capacitance leads to a slower charge and discharge rate compared to 
 
 This experiment allows you to visualize how connecting capacitors in series affects total capacitance and charging/discharging behavior, which is valuable in understanding circuit design and component selection.
 
-Here’s a simple experiment you can set up in Tinkercad to demonstrate the behavior of two capacitors connected in series.
+Here’s a simple experiment to demonstrate the behavior of two capacitors connected in series.
 
-### Objective
 To show that when two capacitors are connected in series, the total capacitance is lower than that of either capacitor alone, and to observe how this affects the charge and discharge time in an RC circuit.
 
-### Components Needed in Tinkercad
+### Components
+
 1. Breadboard
 2. DC Power Supply (e.g., 9V battery)
 3. Two capacitors (e.g., 100 µF each)
@@ -108,7 +108,6 @@ To show that when two capacitors are connected in series, the total capacitance 
 
 ### Steps
 
-1. Set Up the Power Supply:
    - Place the 9V battery on the breadboard.
    - Connect the positive terminal of the battery to the positive rail of the breadboard.
    - Connect the negative terminal of the battery to the negative rail of the breadboard.

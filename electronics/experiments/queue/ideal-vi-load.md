@@ -25,8 +25,6 @@ Here are two simple experiments to demonstrate the concepts of ideal voltage loa
 
 ### Experiment 1: Approximating an Ideal Voltage Load
 
-#### Objective:
-
 To simulate an ideal voltage load (infinite impedance) by creating a load with very high resistance and observe how it draws minimal current, thus minimally affecting the voltage source.
 
 #### Components:
@@ -38,19 +36,14 @@ To simulate an ideal voltage load (infinite impedance) by creating a load with v
 
 #### Steps:
 
-1. Set Up the Circuit:
    - Connect the 10 MΩ resistor across the terminals of the 9V battery to act as a high-impedance load.
 
-2. Measure Current Draw:
    - Use the multimeter to measure the current flowing through the resistor.
    - The current should be extremely low (in the microampere range), indicating that the load draws negligible current, closely approximating an ideal voltage load.
 
-3. Explanation:
    - Because of the high resistance, the circuit draws minimal current, which means the battery’s voltage remains largely unaffected. This demonstrates how an ideal voltage load, if achievable, would minimally impact the voltage source by drawing no current.
 
 ### Experiment 2: Approximating an Ideal Current Load
-
-#### Objective:
 
 To simulate an ideal current load (zero impedance) by creating a load with very low resistance and observe how it draws significant current, creating a “short circuit.”
 
@@ -63,16 +56,12 @@ To simulate an ideal current load (zero impedance) by creating a load with very 
 
 #### Steps:
 
-1. Set Up the Circuit:
    - Connect the 0.1 Ω resistor across the terminals of the 9V battery to act as a low-impedance load.
 
-2. Measure Voltage Drop:
    - Use the multimeter to measure the voltage across the resistor. It should show a very low voltage, as the resistor approximates a near-short circuit.
 
-3. Measure Current:
    - Measure the current through the resistor, which should be high, demonstrating the behavior of a nearly ideal current load.
 
-4. Explanation:
    - The low resistance allows almost unrestricted current flow, drawing significant current from the battery and approximating the behavior of an ideal current load (short circuit).
 
 ### Summary of Experiments:
@@ -91,5 +80,3 @@ Yes, modifications are needed for Tinkercad:
 2. Experiment 2 (Ideal Current Load Approximation):
    - Use a 1 Ω resistor to approximate a low-impedance load (Tinkercad doesn’t support very low resistances like 0.1 Ω).
    - Measure the high current flow with a multimeter to simulate the low impedance effect.
-
-These adjustments make the experiment feasible in Tinkercad.

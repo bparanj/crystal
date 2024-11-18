@@ -14,7 +14,6 @@ This experiment demonstrates the use of a photoresistor (LDR) as a light sensor 
 
 ### Steps
 
-1. Power Supply Setup:
    - Connect the positive terminal of the 5V power supply to the positive rail of the breadboard.
    - Connect the negative terminal of the power supply to the negative rail of the breadboard.
 

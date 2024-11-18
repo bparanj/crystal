@@ -2,20 +2,22 @@ First order RL circuit
 
 It this the same: https://www.tinkercad.com/things/0fsMDmFYYU2/editel
 
-a first-order RL circuit and an RL circuit generally refer to the same thing, just as in the case of an RC circuit. The term "first-order" specifies that the circuit’s behavior is governed by a first-order differential equation, which applies to any RL circuit consisting of a single resistor and a single inductor.
+a first-order RL circuit and an RL circuit refer to the same thing. The term first-order specifies that the circuit’s behavior is governed by a first-order differential equation, which applies to any RL circuit consisting of a single resistor and a single inductor.
 
-### Why It’s Called a First-Order RL Circuit
+In an RL circuit, the inductor (L) creates a dependency on the rate of change of current in the circuit. This results in a first-order differential equation because there is only one reactive component (the inductor) affecting the rate of current change.
+This type of circuit has an exponential response that is similar in form to that of an RC circuit but applies to current rather than voltage.
 
-- In an RL circuit, the inductor (L) creates a dependency on the rate of change of current in the circuit. This results in a first-order differential equation because there is only one reactive component (the inductor) affecting the rate of current change.
-- This type of circuit has an exponential response that is similar in form to that of an RC circuit but applies to current rather than voltage.
+Time Constant (\( \tau = \frac{L}{R} \)):
 
-### Characteristics of a First-Order RL Circuit:
+Determines how quickly the current rises or falls in response to a change, where \( L \) is the inductance and \( R \) is the resistance.
 
-- Time Constant (\( \tau = \frac{L}{R} \)): Determines how quickly the current rises or falls in response to a change, where \( L \) is the inductance and \( R \) is the resistance.
-- Exponential Current Change: When voltage is applied, the current in an RL circuit doesn’t jump instantly to its final value. Instead, it rises or decays exponentially, approaching a steady state over time.
-- Inductive Behavior: The inductor opposes sudden changes in current, so when the circuit is switched on or off, the current adjusts gradually rather than abruptly.
+Exponential Current Change:
 
-### Applications of First-Order RL Circuits
+When voltage is applied, the current in an RL circuit doesn’t jump instantly to its final value. Instead, it rises or decays exponentially, approaching a steady state over time.
+
+Inductive Behavior:
+
+The inductor opposes sudden changes in current, so when the circuit is switched on or off, the current adjusts gradually rather than abruptly.
 
 First-order RL circuits are commonly used in:
 
@@ -23,16 +25,15 @@ First-order RL circuits are commonly used in:
 - Low-pass and high-pass filters (similar to RC circuits but for current control),
 - Inductive sensors and switching circuits where inductor behavior is beneficial.
 
-### Summary
+The term first-order emphasizes the mathematical nature of the circuit, describing the exponential response and time-dependent behavior due to the inductor.
 
-A "first-order RL circuit" and an "RL circuit" are essentially the same when dealing with a single resistor-inductor combination. The term "first-order" emphasizes the mathematical nature of the circuit, describing the exponential response and time-dependent behavior due to the inductor.
-
-Yes, a first-order RL circuit and an RL circuit refer to the same thing - a basic electrical circuit containing a resistor (R) and an inductor (L) connected in series. It's called "first-order" because:
+First-order RL circuit and an RL circuit refer to the same thing - a basic electrical circuit containing a resistor (R) and an inductor (L) connected in series. It's called "first-order" because:
 
 1. The circuit behavior is described by a first-order differential equation
 2. It has one energy storage element (the inductor)
 
 The circuit has two common configurations:
+
 1. RL energizing circuit (when current builds up in the inductor)
 2. RL de-energizing circuit (when current decays in the inductor)
 

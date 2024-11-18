@@ -1,6 +1,7 @@
-The paradox of a conducting wire connected across the leads of an inductor seemingly stopping AC current can be explained by the physics of inductors and how they interact with alternating current (AC) in the presence of a short circuit. Here's a detailed explanation:
+The paradox of a conducting wire connected across the leads of an inductor seemingly stopping AC current can be explained by the physics of inductors and how they interact with alternating current (AC) in the presence of a short circuit.
 
 ### How an Inductor Stops AC Current Despite a Conducting Wire
+
 1. Inductor Opposes Current Changes:
    - An inductor resists changes in current through it due to its self-inductance. This property generates a back EMF (electromotive force) that opposes the change in current.
    - For AC, which involves continuously changing current, the inductor creates a back EMF proportional to the rate of change of the current (\( V_{ind} = L \frac{dI}{dt} \)).
@@ -14,12 +15,14 @@ The paradox of a conducting wire connected across the leads of an inductor seemi
    - AC current prefers the path of least impedance, which is the conducting wire. As a result, the inductor is effectively "shorted out," and no significant current flows through it.
 
 ### Insights
+
 - AC Current Path Selection:
    - The conducting wire diverts the AC current because it provides a much easier path (low impedance) compared to the inductor.
 - Inductor Effectively Removed:
    - With the conducting wire in place, the inductor no longer influences the circuit because almost no current flows through it.
 
 ### Why This Happens:
+
 The paradox arises because:
 1. Inductors Resist AC Flow: By their nature, inductors generate opposing EMF to changing currents, creating impedance.
 2. Wire’s Low Impedance Dominates: The conducting wire bypasses the inductor, providing a near-zero impedance path that "short-circuits" the inductor's influence on the circuit.
@@ -30,10 +33,10 @@ Here’s a simple experiment to demonstrate how a conducting wire across an indu
 
 ### Experiment: Conducting Wire Shorting an Inductor with AC
 
-#### Objective:
 To show that a conducting wire across an inductor prevents AC current from flowing through the inductor by creating a low-impedance path.
 
 #### Components:
+
 - 1 AC Power Source (e.g., 5V, 1 kHz signal generator or simulated AC source)
 - 1 Inductor (e.g., 100 mH)
 - 1 LED with Resistor (e.g., 220 Ω, to indicate current flow through the inductor)
@@ -57,6 +60,7 @@ To show that a conducting wire across an inductor prevents AC current from flowi
 - The inductor is effectively bypassed, and little to no current flows through it, causing the LED to dim or turn off.
 
 ### Observations:
+
 1. The LED lights up without the wire, as the AC current flows through the inductor.
 2. The LED dims or turns off with the wire, as the current bypasses the inductor through the low-impedance path.
 

@@ -13,7 +13,7 @@ Where:
 - \( m \) is the slope (rate of change).
 - \( b \) is the y-intercept (starting value when \( x = 0 \)).
 
-In simple terms, a linear relationship means that as one variable increases or decreases, the other does so in a steady, predictable way.
+a linear relationship means that as one variable increases or decreases, the other does so in a steady, predictable way.
 
 To plot linear and non-linear relationships involving a resistor and a diode, you can design simple experiments with varying voltage inputs and measure the resulting current. Here are two experiments:
 
@@ -33,11 +33,9 @@ Connect a resistor (e.g., 1 kΩ) in series with a variable DC power supply.
   2. Measure the current through the resistor at each voltage.
   3. Plot Voltage (V) on the x-axis and Current (I) on the y-axis.
 
-- Expected Result: A straight line, showing a linear relationship \( I = \frac{V}{R} \), where the slope represents the inverse of the resistor’s value.
+Result: A straight line, showing a linear relationship \( I = \frac{V}{R} \), where the slope represents the inverse of the resistor’s value.
 
 ### 2. Non-Linear Relationship (Diode: I-V Characteristic Experiment)
-
-- Objective:
 
 Demonstrate a non-linear relationship between voltage and current across a diode.
 
@@ -51,7 +49,7 @@ Connect a diode in series with a small resistor (e.g., 100Ω) and a variable DC 
   2. Measure the current through the diode at each voltage step.
   3. Plot Voltage (V) on the x-axis and Current (I) on the y-axis.
 
-- Expected Result: A non-linear, exponential curve. At low voltages, current remains nearly zero (cutoff region); once the threshold (around 0.7V for silicon) is crossed, current rises rapidly.
+Result: A non-linear, exponential curve. At low voltages, current remains nearly zero (cutoff region); once the threshold (around 0.7V for silicon) is crossed, current rises rapidly.
 
 These experiments show:
 

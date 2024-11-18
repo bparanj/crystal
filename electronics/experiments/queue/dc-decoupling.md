@@ -2,8 +2,6 @@
 
 A series diode can decouple voltage in a circuit by blocking the flow of current in one direction, effectively allowing voltage to pass only when the diode is forward-biased. This behavior is used to isolate parts of a circuit, prevent reverse current flow, or limit voltage transmission.
 
-### Concepts:
-
 1. Forward Bias:
    - When the diode's anode is at a higher voltage than the cathode, the diode conducts, allowing voltage and current to pass.
 

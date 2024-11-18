@@ -17,8 +17,6 @@ An experiment to demonstrate the concept that a weaker power source (like a degr
 
 Simulating a Car Alarm Current-Sensing System with Strong vs. Weak Power Sources
 
-#### Objective:
-
 To demonstrate how a degraded (weaker) power source enhances the detection of small current changes compared to a strong power source.
 
 #### Components:

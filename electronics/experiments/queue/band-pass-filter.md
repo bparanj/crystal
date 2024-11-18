@@ -5,8 +5,6 @@ PENDING
 Find a circuit diagram online
 Merge with 24.md
 
-### Objective
-
 Create an RC-RC band-pass filter to observe how it selectively allows a certain frequency range to pass and attenuates frequencies above and below this range.
 
 ### Components

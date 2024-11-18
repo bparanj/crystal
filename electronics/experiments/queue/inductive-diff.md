@@ -19,6 +19,7 @@ The paradox of an inductive differentiator lies in the behavior of the inductor 
    - The inductive differentiator is designed to respond to rapidly changing signals, yet it can behave unpredictably or inefficiently when the input signal is slow-changing or constant, creating a situation the current source dislikes.
 
 ### Why This Is a Problem
+
 - Voltage Stress: At low frequencies, the current source must increase its output voltage significantly to overcome the low impedance of the inductor.
 - Instability: The dynamic impedance mismatch between the inductor and the current source can cause oscillations or distortion in the circuit.
 - Inefficiency: The current source may waste energy compensating for the inductor’s low impedance, leading to power dissipation and reduced performance.
@@ -39,14 +40,14 @@ The paradox of an inductive differentiator lies in the behavior of the inductor 
 
 The paradox of an inductive differentiator lies in the inductor’s low-impedance behavior at low frequencies, which current sources "hate." This can lead to instability, inefficiency, or distortion. The issue is resolved by limiting the input frequency range, adding series resistance, or using a voltage source instead.
 
-Here’s a simple experiment to demonstrate the paradox of an inductive differentiator, showing how an inductor’s low impedance at low frequencies creates issues for a current source.
+a simple experiment to demonstrate the paradox of an inductive differentiator, showing how an inductor’s low impedance at low frequencies creates issues for a current source.
 
 ### Experiment: Inductive Differentiator and Current Source Paradox
 
-#### Objective:
 To show how an inductor in a differentiator circuit behaves like a low-impedance load at low frequencies, creating a situation that a current source dislikes.
 
 #### Components:
+
 - 1 Adjustable Current Source (e.g., a bench power supply in constant current mode)
 - 1 Inductor (e.g., 100 mH)
 - 1 Resistor (e.g., 100 Ω, for differentiation and voltage measurement)
@@ -55,20 +56,16 @@ To show how an inductor in a differentiator circuit behaves like a low-impedance
 
 #### Steps:
 
-1. Set Up the Inductive Differentiator:
    - Connect the inductor in series with the resistor on the breadboard.
    - Connect the series combination to the output of the adjustable current source.
    - Place the multimeter or oscilloscope across the resistor to observe the output voltage.
 
-2. Apply a Low-Frequency Current Signal:
    - Set the current source to output a low-frequency sinusoidal or triangular waveform (e.g., 1 Hz).
    - Observe the voltage across the resistor using the multimeter or oscilloscope.
 
-3. Observe the Low-Frequency Behavior:
    - At low frequencies, the inductor’s impedance is very small (\( Z_L = j\omega L \)), effectively behaving like a short circuit.
    - The voltage across the resistor will be small, and the current source may struggle to maintain a stable output, potentially showing instability or distortion.
 
-4. Apply a High-Frequency Current Signal:
    - Increase the frequency of the current source to a higher value (e.g., 1 kHz).
    - Observe the output voltage across the resistor again.
    - At high frequencies, the inductor’s impedance increases (\( Z_L = j\omega L \)), and the circuit behaves as an effective differentiator, producing a voltage proportional to the rate of change of the input current.
@@ -78,6 +75,7 @@ To show how an inductor in a differentiator circuit behaves like a low-impedance
    - Observe how this reduces the stress on the current source during low-frequency operation.
 
 ### Observations:
+
 1. Low Frequencies:
    - The inductor behaves like a low-impedance load, causing the current source to struggle or produce distorted signals.
 2. High Frequencies:

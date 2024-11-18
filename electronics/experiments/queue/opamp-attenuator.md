@@ -1,4 +1,9 @@
-This statement highlights the conceptual operation of an operational amplifier (op-amp), which fundamentally relies on attenuation of the input difference to achieve what is perceived as amplification. Here’s an explanation of this apparent paradox:
+PENDING
+
+This uses an IC.
+Move to out of scope folder
+
+The conceptual operation of an operational amplifier (op-amp), which fundamentally relies on attenuation of the input difference to achieve what is perceived as amplification. Here’s an explanation of this apparent paradox:
 
 ### Why an Op-Amp is Seen as an Attenuator
 
@@ -32,6 +37,7 @@ This statement highlights the conceptual operation of an operational amplifier (
    - As with transistors, the op-amp does not create energy; it controls the flow of external energy (from \( V_{CC} \) and \( V_{EE} \)) to generate the amplified signal.
 
 ### Insight
+
 - The op-amp itself attenuates the input difference to nearly zero, but this controlled attenuation drives the output.
 - The amplification observed in op-amp circuits is the result of external power and the feedback loop, not the op-amp itself directly creating an amplified signal.
 

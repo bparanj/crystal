@@ -46,7 +46,6 @@ In Tinkercad, replicating this exact setup with a DC motor and observing back EM
 
 ### Steps to Approximate the Circuit in Tinkercad
 
-1. Circuit Assembly:
    - DC Motor: Use a DC motor component from the Tinkercad library.
    - Power Supply: Use a 5V or 9V DC power source, matching the motor’s rating.
    - LED: Place an LED in series with the motor to act as the sensitive component.

@@ -1,7 +1,5 @@
 ### Transistor as an Amplifier
 
-Objective:
-
 Demonstrate the amplification property of a transistor by amplifying a small audio signal.
 
 Materials:
@@ -16,14 +14,11 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit:
-
    - Connect the collector of the transistor to the positive terminal of the battery through the 1 kΩ resistor.
    - Connect the emitter directly to the negative terminal of the battery.
    - Connect the base of the transistor to the audio signal source (e.g., the headphone output of a phone) through the 10 kΩ resistor and the capacitor (the capacitor blocks any DC component).
    - Connect the speaker between the collector of the transistor and the positive terminal of the battery.
 
-2. Operation:
    - Play a low-volume audio signal from the phone. The audio signal will modulate the base current of the transistor.
    - The transistor amplifies the audio signal, driving the speaker with a larger current than the original audio source could provide.
 
@@ -33,20 +28,17 @@ In Tinkercad, this exact setup can't be fully implemented due to certain limitat
 
 ### Steps to Approximate This Circuit in Tinkercad
 
-1. Circuit Assembly:
    - NPN Transistor: Use a 2N3904 transistor.
    - Resistors: Place a 1 kΩ resistor on the collector and a 10 kΩ resistor on the base.
    - Capacitor: Insert a 10 µF capacitor between the audio input (simulated voltage source) and the base to block any DC component.
    - Battery: Use a 9V battery for the power supply.
    - Speaker Substitute: Since Tinkercad doesn’t have speakers or audio output, you can use an LED or another component as a visual indicator of current flow changes.
 
-2. Connect the Circuit:
    - Connect the collector of the transistor to the positive terminal of the battery through the 1 kΩ resistor.
-   - Connect the emitter directly to the negative terminal of the battery (ground).
+   - Connect the emitter directly to the negative terminal of the battery.
    - Connect the base of the transistor to an audio source substitute, such as a small AC signal source, through the 10 kΩ resistor and 10 µF capacitor.
    - Instead of a speaker, place an LED between the collector and the positive terminal to visually observe the change in current (indicating amplification).
 
-3. Operation:
    - Set up the AC source with a small, low-frequency signal (approximating an audio signal).
    - Observe the LED brightness or use a multimeter to measure the voltage across the collector-emitter path to see how the transistor amplifies the signal.
 

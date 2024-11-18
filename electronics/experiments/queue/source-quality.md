@@ -1,3 +1,7 @@
+PENDING
+
+Uses IC. Move to intermediate folder
+
 This phenomenon occurs because the quality of a voltage source (whether it is "good" or "bad") depends on the context of the circuit it is in. A "good" voltage source maintains a stable voltage under load, but in certain scenarios, even a "good" source might perform poorly, and vice versa. Here’s an explanation with examples:
 
 ### Good Voltage Sources Acting as Bad Ones
@@ -122,7 +126,7 @@ To show that a poorly regulated voltage source can perform well when powering a 
 The unregulated power source acts as a good voltage source for a low, stable load (like the LED with a high resistance), but fails to maintain stable voltage under heavier load, demonstrating its limitations.
 
 - Experiment 1: Shows a good voltage source acting as a bad one due to high-frequency demands.
-- Experiment 2: Shows a bad voltage source acting as a good one with a stable, low-power load. 
+- Experiment 2: Shows a bad voltage source acting as a good one with a stable, low-power load.
 
 These experiments highlight the importance of matching sources to circuit conditions.
 

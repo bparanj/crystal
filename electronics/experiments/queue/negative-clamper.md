@@ -11,11 +11,9 @@ A negative clamper circuit shifts the entire AC waveform downward, "clamping" th
 
 ### Setup:
 
-1. Connect the AC Source:
    - Connect one terminal of the AC source to the input of the circuit.
    - Connect the other terminal of the AC source to ground.
 
-2. Add the Diode and Capacitor for Clamping:
    - Place the diode in series with the AC source, with the cathode connected to the AC source and the anode connected to the capacitor.
    - Connect the other end of the capacitor to ground.
    - This orientation allows the diode to conduct during the positive half of the AC cycle, charging the capacitor and clamping the signal.
@@ -23,7 +21,6 @@ A negative clamper circuit shifts the entire AC waveform downward, "clamping" th
 3. Add the Resistor for Load:
    - Connect a 1 kΩ resistor in parallel with the capacitor. This resistor provides a discharge path for the capacitor, stabilizing the output.
 
-4. Set Up the Oscilloscope:
    - Connect the oscilloscope probes to observe the input and output voltages.
    - Place one probe at the input (before the diode) and the other probe at the output (across the capacitor and resistor).
 
@@ -33,11 +30,9 @@ If you want to clamp the signal at a set negative voltage (e.g., -5V), add a sma
 
 ### Steps:
 
-1. Run the Simulation:
    - Start the simulation in Tinkercad.
    - Set the AC source to a small amplitude, like 5V peak-to-peak, with a moderate frequency (e.g., 50 Hz) to easily observe the waveform.
 
-2. Observe the Oscilloscope Readings:
    - Observe the input waveform on one channel of the oscilloscope and the output waveform on the other.
    - Expected Outcome: On the output waveform, you should see the entire AC signal shifted downward, with the highest point clamped near 0V (or the set negative DC level, if added). The waveform will be centered around a negative voltage, rather than oscillating symmetrically around 0V.
 

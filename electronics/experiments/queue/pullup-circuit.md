@@ -7,8 +7,6 @@ Is this the same: https://www.tinkercad.com/things/hrMmi5ZQvhw-resistor-pull-up-
 
 We can observe the pull-up effect using just an LED, a resistor, a pushbutton, and a power supply.
 
-### Objective
-
 To demonstrate how a pull-up resistor stabilizes a HIGH voltage level when a switch is open and pulls it to a LOW level when the switch is closed.
 
 ### Components
@@ -18,15 +16,13 @@ To demonstrate how a pull-up resistor stabilizes a HIGH voltage level when a swi
 - 1 x Pushbutton switch
 - 1 x Power supply 5V
 - 1 x Resistor (330Ω for LED current limiting)
-- Connecting wires
 
 ### Setup
 
-1. Power Supply: Connect the positive terminal of the power supply 5V to the pull-up resistor.
+1. Connect the positive terminal of the power supply 5V to the pull-up resistor.
 2. Pull-Up Resistor: Connect a 10 kΩ resistor from the positive terminal to one side of the pushbutton switch.
-3. Switch and Ground:
-   - Connect the other side of the pushbutton switch to ground (GND).
-4. LED and Observation Point:
+3. Connect the other side of the pushbutton switch to ground (GND).
+
    - At the junction between the resistor and the pushbutton switch, connect the positive (anode) side of the LED.
    - Connect the other side of the LED to ground through a 330Ω resistor to limit current.
 

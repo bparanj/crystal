@@ -4,16 +4,15 @@ This experiment in Tinkercad demonstrates how a positive clamper works.
 
 ### Components:
 
-1. AC Voltage Source: To provide an AC signal.
-2. Diode: Standard diode (e.g., 1N4148 or 1N4007).
-3. Capacitor: 10 µF capacitor (or any small value capacitor).
-4. Resistor: 1 kΩ resistor.
+1. AC Voltage Source
+2. Standard diode (e.g., 1N4148 or 1N4007).
+3. 10 µF capacitor (or any small value capacitor).
+4. 1 kΩ resistor.
 5. Oscilloscope: To observe the input and output waveforms.
 6. DC Power Supply (optional): To set a specific clamping voltage.
 
 ### Setup:
 
-1. Connect the AC Source:
    - Connect one terminal of the AC source to the input point of the circuit.
    - Connect the other terminal of the AC source to ground.
 
@@ -25,7 +24,6 @@ This experiment in Tinkercad demonstrates how a positive clamper works.
 3. Add the Resistor for Load:
    - Connect a 1 kΩ resistor in parallel with the capacitor. This resistor creates a discharge path for the capacitor and stabilizes the output.
 
-4. Set Up the Oscilloscope:
    - Connect the oscilloscope probes to observe the input and output voltages.
    - Place one probe at the input (before the diode) and the other probe at the output (across the capacitor and resistor).
 
@@ -35,11 +33,9 @@ If you want to clamp the signal at a set positive voltage (e.g., +5V), add a sma
 
 ### Steps:
 
-1. Run the Simulation:
    - Start the simulation in Tinkercad.
    - Set the AC source to a small amplitude, like 5V peak-to-peak, with a moderate frequency (e.g., 50 Hz) for easy observation.
 
-2. Observe the Oscilloscope Readings:
    - Observe the input waveform on one channel of the oscilloscope and the output waveform on the other.
    - Expected Outcome: You should see the entire AC waveform shifted upward on the output, with the lowest point clamped near 0V (or the positive DC offset level if added). The waveform will no longer be centered around 0V but instead around a positive voltage.
 

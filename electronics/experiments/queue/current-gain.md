@@ -59,8 +59,6 @@ PENDING
 
 Can this done in Tinkercad:
 
-### Objective
-
 Observe the current gain of an NPN transistor by measuring the base current and collector current, and comparing them.
 
 ### Components

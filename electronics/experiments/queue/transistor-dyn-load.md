@@ -1,9 +1,9 @@
-The paradox of a transistor amplifier with a dynamic load arises from the interaction between the dynamic load and the transistor's behavior, particularly in how it relates to a current source. Here’s the explanation:
+The paradox of a transistor amplifier with a dynamic load arises from the interaction between the dynamic load and the transistor's behavior, particularly in how it relates to a current source.
 
 ### The Paradox
 
 Current Source and Dynamic Load
- 
+
 1. What a Current Source "Likes" and "Hates":
    - A current source "likes" high-impedance loads because they allow it to deliver a constant current without significant variation in voltage.
    - A current source "hates" low-impedance or highly dynamic loads because they cause rapid voltage changes or instability, forcing the current source to adapt quickly.
@@ -23,9 +23,17 @@ Current Source and Dynamic Load
 
 ### Why This Is a Problem
 
-- Impedance Mismatch: The dynamic load doesn’t always behave as a perfect current source, leading to variations in impedance that degrade the amplifier’s linearity and gain.
-- Signal Distortion: The mismatch between the dynamic load and the transistor’s output can cause signal distortion, particularly at high frequencies or with large signal swings.
-- Instability: The fluctuating impedance of the dynamic load can interact with the transistor’s output, creating oscillations or reduced bandwidth.
+- Impedance Mismatch:
+
+The dynamic load doesn’t always behave as a perfect current source, leading to variations in impedance that degrade the amplifier’s linearity and gain.
+
+- Signal Distortion:
+
+The mismatch between the dynamic load and the transistor’s output can cause signal distortion, particularly at high frequencies or with large signal swings.
+
+- Instability:
+
+The fluctuating impedance of the dynamic load can interact with the transistor’s output, creating oscillations or reduced bandwidth.
 
 ### Resolution of the Paradox
 
@@ -65,7 +73,6 @@ To demonstrate the paradox in a transistor amplifier with a dynamic load, showin
 
 #### Steps:
 
-1. Set Up the Circuit:
    - Build a common-emitter amplifier with the NPN transistor:
      - Connect the base of the NPN transistor to the signal generator through a coupling capacitor (10 μF) and a biasing network (resistors not shown for simplicity).
      - Connect the emitter of the NPN transistor to the ground.
@@ -74,7 +81,6 @@ To demonstrate the paradox in a transistor amplifier with a dynamic load, showin
      - Connect the collector of one PNP transistor to the NPN transistor’s collector (acting as the dynamic load).
      - The other PNP transistor’s collector connects to a resistor for the reference current.
 
-2. Apply an Input Signal:
    - Use the signal generator to apply a small AC signal (e.g., 1 kHz sine wave, 100 mV peak-to-peak) to the base of the NPN transistor.
 
 3. Observe the Output Without Compensation:

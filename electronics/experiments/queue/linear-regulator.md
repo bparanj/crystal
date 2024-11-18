@@ -9,27 +9,21 @@
 
 ### Steps
 
-1. Setup the Power Supply:
    - Connect the positive terminal of the power supply to the breadboard’s positive rail and the ground to the negative rail.
 
-2. Place the Linear Regulator (LM7805):
    - Insert the LM7805 on the breadboard.
    - Connect the input pin (IN) of the LM7805 to the positive rail of the power supply.
    - Connect the ground pin (GND) of the LM7805 to the ground rail.
    - Connect the output pin (OUT) to a separate row on the breadboard (you'll measure the voltage here).
 
-3. Add Capacitors:
    - Connect a 10uF capacitor across the input pin and ground (to smooth input fluctuations).
    - Connect a 0.1uF capacitor across the output pin and ground (for output stabilization).
 
-4. Measure the Output:
    - Set up the multimeter to measure DC voltage and connect it across the output pin (OUT) and ground (GND) of the LM7805.
 
-5. Experiment:
    - Start with the power supply set to a voltage above 7V (e.g., 9V) as the LM7805 requires a higher input voltage than its output (typically 2V higher).
    - Observe the multimeter reading; it should display around 5V, showing the regulator’s stable output.
 
-6. Increase Input Voltage:
    - Increase the input voltage incrementally (up to around 12V or within the safe range for the LM7805).
    - Observe that the output voltage remains constant at 5V, demonstrating how the regulator maintains a steady output despite input fluctuations.
 

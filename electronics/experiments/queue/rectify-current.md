@@ -2,8 +2,6 @@
 
 A series diode can rectify current, allowing it to flow only in one direction. This behavior is the basis of rectification, where AC is converted to pulsating DC. The diode blocks the negative half-cycles of an AC signal, effectively filtering out the reverse current.
 
-### Concepts:
-
 1. Forward Bias:
    - When the anode is at a higher potential than the cathode, the diode conducts, allowing current to flow.
 

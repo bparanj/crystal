@@ -28,6 +28,7 @@ The paradox in a CMOS inverter lies in the interaction between the PMOS and NMOS
    - However, during switching, it creates a low-impedance path that contradicts its energy-efficient design and forces the current source (power supply) to work under undesirable conditions.
 
 ### Why This Is a Problem
+
 - The short-circuit current during switching increases overall power consumption, undermining the energy efficiency of the CMOS inverter.
 - Rapid switching (e.g., in high-frequency digital circuits) exacerbates the problem, as the current source must handle repeated surges.
 
@@ -52,10 +53,10 @@ The paradox of a CMOS inverter lies in its brief creation of a low-impedance pat
 
 ### Experiment: Demonstrating the Short-Circuit Current in a CMOS Inverter
 
-#### Objective:
 To show how a CMOS inverter creates a low-impedance path and draws significant current during switching transitions, highlighting the paradox of increased power dissipation.
 
 #### Components:
+
 - 1 CMOS Inverter IC (e.g., 74HC04, which contains multiple inverters)
 - 1 Signal Generator (to provide a square wave input)
 - 1 Power Supply (e.g., 5V DC)
@@ -86,6 +87,7 @@ To show how a CMOS inverter creates a low-impedance path and draws significant c
    - Increase the frequency of the square wave (e.g., 10 kHz, 100 kHz) to observe how higher switching frequencies lead to more frequent current spikes and increased power dissipation.
 
 #### Observations:
+
 1. Steady States:
    - Minimal current flows when the input signal is stable (either high or low), as only one transistor conducts.
 

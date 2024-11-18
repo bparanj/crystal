@@ -27,8 +27,6 @@ To design a simple toggle circuit in Tinkercad, you can use a push button, a tra
    - Connect the emitter of the NPN transistor to the ground rail.
    - The collector should be connected to the cathode of the LED.
 
-
-
 1. Connect Push Button Terminal 1a to the Positive Rail:
    - Place the push button on the breadboard.
    - Connect terminal 1a directly to the positive rail of the breadboard (connected to the positive terminal of the 9V battery).
@@ -42,20 +40,19 @@ To design a simple toggle circuit in Tinkercad, you can use a push button, a tra
 
 4. Add an Optional Capacitor for Debouncing (Noise Reduction):
    - If you want to debounce the circuit, connect a 10 μF capacitor between terminal 1b of the push button and the ground rail.
-   
+
 These steps should help keep each connection clear and allow you to build the circuit without confusion.
 
 
 5. Function of the Toggle Circuit:
    - When you press the button, it sends a small current to the base of the transistor.
    - This turns the transistor on, allowing current to flow from the collector to the emitter, lighting up the LED.
-   - When you press the button again, the LED will turn off. 
+   - When you press the button again, the LED will turn off.
 
 
-This circuit uses the transistor as a switch. The LED toggles between on and off with each press of the button. The 10 kΩ resistor limits the current to the transistor’s base, while the 220 Ω resistor limits the current through the LED to prevent burning it out. 
+This circuit uses the transistor as a switch. The LED toggles between on and off with each press of the button. The 10 kΩ resistor limits the current to the transistor’s base, while the 220 Ω resistor limits the current through the LED to prevent burning it out.
 
 This simple toggle circuit demonstrates basic switching and can be simulated in Tinkercad easily.
-
 
 
 A simpler toggle circuit using just a single transistor and few basic components. This is called a bistable multivibrator or "latch" circuit.
@@ -115,7 +112,7 @@ How it works:
    - Connect ground to ground rail (-)
 
 3. Detailed connections:
-   - R1 (1kΩ): 
+   - R1 (1kΩ):
       One end to 5V
       Other end to transistor's collector
 
@@ -154,14 +151,14 @@ Let me break down the connections one by one in a clearer sequence:
      b. The transistor collector
 
    The last connection (4b) is the feedback connection that makes toggling possible.
-   
+
 
 1. Push button terminals 1a and 1b are connected internally (they're the same point)
    - Connect either 1a or 1b to ground
 
 2. Push button terminals 2a and 2b are connected internally (they're the same point)
    - Connect either 2a or 2b to both:
-      One end of R2 (10kΩ) 
+      One end of R2 (10kΩ)
       Transistor's collector
 
 This means you can use any of the 1a/1b pins for ground connection, and any of the 2a/2b pins for the other connection - it doesn't matter which specific one you choose from each pair.
