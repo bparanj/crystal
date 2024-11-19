@@ -2,8 +2,7 @@ PENDING
 
 Refer screenshots and complete the steps
 
-
-Capacitors in series reduce the total capacitance (not add up, as they do in parallel) in Tinkercad is to create a basic circuit with two capacitors connected in series and measure the total capacitance. Here’s how:
+Capacitors in series reduce the total capacitance (not add up, as they do in parallel) in Tinkercad is to create a basic circuit with two capacitors connected in series and measure the total capacitance.
 
 ### Objective
 

@@ -16,6 +16,7 @@
 - [Magnetic Field Around a Current Carrying Wire](https://www.youtube.com/watch?v=mxwevNEa2vs)
 - [Using variable DC power supply](https://www.tinkercad.com/things/dhiOh1srnvl/editel)
 - [Export InDesign](https://helpx.adobe.com/indesign/using/export-content-epub-cc.html)
+- [Mind Maps](http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/diodecon.html#c1)
 
 Refer this: https://www.youtube.com/watch?v=CVywtFTEz3I
 His channel: https://www.youtube.com/@Ohmify

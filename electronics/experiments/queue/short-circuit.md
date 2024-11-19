@@ -9,17 +9,11 @@ In a normal circuit, current flows through components such as resistors, capacit
 
 So, short reflects the unintended, shortened route that the current takes, leading to potential hazards and malfunctions.
 
-A short circuit and a connecting wire are similar because both provide a low-resistance path for electric current. How they are alike:
-
-Low Resistance Path:
+A short circuit and a connecting wire are similar because both provide a low-resistance path for electric current.
 
 Both a short circuit and a connecting wire have very low electrical resistance, allowing current to flow easily.
 
-Direct Current Path:
-
 In both cases, electricity flows directly from one point to another without significant opposition, which is the purpose of a connecting wire in a circuit.
-
-Voltage Drop:
 
 Both have minimal voltage drop across them, as there is little resistance to impede the current.
 
@@ -29,21 +23,17 @@ The term short circuit includes short because it describes a direct, unintended 
 
 In a normal circuit, current flows through specific components (like resistors, capacitors, etc.), each adding resistance and controlling the current flow. However, in a short circuit, a low-resistance path bypasses these components, often directly connecting the power source to the ground or another point. This shortcut shortens the circuit path, allowing an uncontrolled surge of current that can damage components or create heat and sparks.
 
-So, "short" reflects the unintended, shortened route that the current takes, leading to potential hazards and malfunctions.
+So, short reflects the unintended, shortened route that the current takes, leading to potential hazards and malfunctions.
 
 ## Continuity and Short Circuit
 
 In electronics, continuity and short circuits are both related to the flow of electrical current, but they represent different conditions:
 
-Continuity:
-
-This refers to the complete path for current to flow between two points in a circuit. It is a desired condition in most circuits, where components like resistors, wires, or switches form a path for current. Continuity indicates that the circuit is connected properly without any breaks.
-
-Short Circuit:
+Continuity refers to the complete path for current to flow between two points in a circuit. It is a desired condition in most circuits, where components like resistors, wires, or switches form a path for current. Continuity indicates that the circuit is connected properly without any breaks.
 
 A short circuit happens when there is an unintended direct connection between two points in a circuit, usually bypassing the intended path (like resistors or other components). This causes excessive current to flow, which can damage components or cause overheating.
 
-In summary, continuity ensures proper current flow, while a short circuit can disrupt it by providing an unintended, often dangerous path.
+continuity ensures proper current flow, while a short circuit can disrupt it by providing an unintended, often dangerous path.
 
 ## Continuity vs Open Circuit
 
