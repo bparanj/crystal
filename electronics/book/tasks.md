@@ -1,4 +1,8 @@
+25.md Add images e1 to e8 and describe those steps
+
 20.md -> Break it down brandy with falstad.
+
+33.md Capacitor AC Pass (see capacitor ac pass folder for images)
 
 capacitors damage image folder is empty -  images
 this is in polarazed capacitor damage folder
@@ -66,7 +70,7 @@ Time constant of capacitor:
 https://www.youtube.com/watch?v=T0_Z0jw2DhI
 https://www.youtube.com/watch?v=pb0yduMthWE
 
-Capacitor AC Pass (not working ?)
+
 
 Review
 
