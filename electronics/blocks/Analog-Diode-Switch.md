@@ -50,16 +50,19 @@ To design and simulate an Analog Diode Switch that routes an analog signal based
 ### Steps
 
 #### 1. Apply Control Signal:
+
 1. Set \( V_{control} = 5V \) (forward-biasing \( D_2 \)).
 2. Observe:
    - The analog signal from the AC source is passed to the load.
 
 #### 2. Block the Signal:
+
 1. Set \( V_{control} = 0V \) (reverse-biasing \( D_2 \) and forward-biasing \( D_1 \)).
 2. Observe:
    - The analog signal is blocked, and no output is present at the load.
 
 #### 3. Vary the Input Signal:
+
 1. Adjust the amplitude and frequency of \( V_{signal} \).
 2. Observe the output signal to confirm the switching behavior under different input conditions.
 
@@ -88,6 +91,7 @@ To design and simulate an Analog Diode Switch that routes an analog signal based
    - The switching speed is limited by the diode's recovery time and the control signal frequency.
 
 In Tinkercad, you can:
+
 1. Build the described circuit with an AC source for the signal and a DC source for the control signal.
 2. Use the oscilloscope to monitor the input and output signals.
 3. Toggle the control signal (\( V_{control} \)) to observe the switching behavior.

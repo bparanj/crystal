@@ -37,7 +37,7 @@ To design and simulate a V-to-V Logarithmic Converter using a diode and demonstr
 4. Multimeter (to measure input and output voltages).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input Voltage:
    - Connect the positive terminal of the DC voltage source (\( V_{in} \)) to one end of \( R_{in} \).

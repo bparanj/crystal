@@ -24,7 +24,7 @@ To design and simulate a Series Diode Limiter Circuit and observe its ability to
 4. Oscilloscope (to visualize input and output waveforms).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. AC Input Signal:
    - Connect the AC voltage source to one end of the load resistor (\( R \)).

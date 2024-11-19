@@ -15,11 +15,12 @@ The Common-Base Amplifier is a transistor configuration where the base terminal 
    - High-frequency amplifiers.
    - Impedance matching in RF systems.
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 To design and simulate a Common-Base Amplifier using an NPN transistor and observe its voltage gain and phase relationship.
 
 #### Components:
+
 1. NPN Transistor (e.g., 2N2222 or BC547).
 2. Resistors:
    - \( R_E = 470\Omega \) (emitter resistor).
@@ -57,10 +58,12 @@ To design and simulate a Common-Base Amplifier using an NPN transistor and obser
 ### Steps
 
 #### 1. Apply Input Signal:
+
 1. Set \( V_{in} = 10mV_{peak}, 1kHz \) using the AC voltage source.
 2. Observe the input waveform on Channel 1 and the output waveform on Channel 2 of the oscilloscope.
 
 #### 2. Measure Voltage Gain:
+
 1. Measure the peak-to-peak voltage of the input signal (\( V_{in(pp)} \)).
 2. Measure the peak-to-peak voltage of the output signal (\( V_{out(pp)} \)).
 3. Calculate the voltage gain (\( A_v \)) as:
@@ -69,10 +72,12 @@ To design and simulate a Common-Base Amplifier using an NPN transistor and obser
    \]
 
 #### 3. Analyze Phase Relationship:
+
 1. Compare the input and output waveforms.
 2. Confirm that the output is in-phase with the input signal.
 
 #### 4. Experiment with Component Values:
+
 1. Vary \( R_C \) and \( R_E \) to observe their impact on gain.
 2. Increase or decrease \( C_{in} \) and \( C_{out} \) to analyze coupling effects.
 
@@ -106,6 +111,7 @@ To design and simulate a Common-Base Amplifier using an NPN transistor and obser
    - Widely used in RF amplifiers, high-frequency signal processing, and impedance matching.
 
 In Tinkercad, you can:
+
 1. Build the described circuit using the provided components.
 2. Use the oscilloscope to monitor and compare the input and output waveforms.
 3. Adjust component values (\( R_C \), \( R_E \), \( C_{in} \), \( C_{out} \)) to study their effects on gain and stability.

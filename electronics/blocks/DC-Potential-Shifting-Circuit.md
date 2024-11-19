@@ -25,7 +25,7 @@ To design and simulate a DC Potential Shifting Circuit and observe how the diode
 4. Multimeters (to measure input and output voltages).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input Voltage:
    - Connect the positive terminal of the DC voltage source to one end of the diode chain.

@@ -36,7 +36,7 @@ To design and simulate an I-to-V Logarithmic Converter using a diode and observe
 4. Multimeter (to measure the output voltage).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Current Source:
    - Connect the positive terminal of the DC power supply (\( V_{in} \)) to one end of the resistor (\( R \)).

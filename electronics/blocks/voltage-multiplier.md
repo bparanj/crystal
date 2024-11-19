@@ -18,6 +18,7 @@ A Voltage-Multiplier Circuit uses diodes and capacitors to generate higher volta
 To design and simulate a Voltage-Multiplier Circuit (Voltage Doubler) and observe how diodes and capacitors work together to double the input voltage.
 
 #### Components:
+
 1. 2 Diodes (1N4007 or similar).
 2. 2 Capacitors (\( C_1 = C_2 = 10\mu F \)).
 3. AC Voltage Source (\( V_{in} = 10V_{peak}, 50Hz \)).
@@ -25,7 +26,7 @@ To design and simulate a Voltage-Multiplier Circuit (Voltage Doubler) and observ
 5. Oscilloscope (to observe voltages).
 6. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input AC Source:
    - Connect the AC voltage source's positive terminal to the anode of the first diode (\( D_1 \)).

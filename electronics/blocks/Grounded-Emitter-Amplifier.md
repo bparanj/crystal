@@ -17,7 +17,7 @@ The Grounded-Emitter Amplifier, also known as the Common Emitter Amplifier, is a
    - Signal amplification.
    - Audio and radio frequency circuits.
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 To design and simulate a Grounded-Emitter Amplifier using a transistor and observe its voltage gain and phase inversion.
 
@@ -35,7 +35,7 @@ To design and simulate a Grounded-Emitter Amplifier using a transistor and obser
 6. Oscilloscope (to observe input and output waveforms).
 7. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Power Supply:
    - Connect the positive terminal of \( V_{CC} \) to one end of \( R_C \).
@@ -56,7 +56,7 @@ To design and simulate a Grounded-Emitter Amplifier using a transistor and obser
    - Channel 1: Connect to the input signal (\( V_{in} \)).
    - Channel 2: Connect to the output signal (\( V_{out} \)).
 
-### Steps to Perform:
+### Steps
 
 #### 1. Apply Input Signal:
 1. Set \( V_{in} = 10mV_{peak}, 1kHz \) using the AC voltage source.
@@ -94,7 +94,7 @@ To design and simulate a Grounded-Emitter Amplifier using a transistor and obser
    - Increasing \( R_C \) increases gain.
    - Increasing \( R_E \) decreases gain but improves bias stability.
 
-### Key Insights:
+### Insights
 
 1. Voltage Amplification:
    - The grounded-emitter amplifier efficiently amplifies small AC signals.

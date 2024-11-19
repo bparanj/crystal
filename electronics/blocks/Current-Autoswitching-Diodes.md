@@ -28,7 +28,7 @@ To design and simulate a Current Autoswitching Diode Circuit that switches betwe
 4. Multimeters (to measure current and voltage).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Primary Current Source (\( V_1 \)):
    - Connect \( V_1 \) to the anode of the first diode (\( D_1 \)).

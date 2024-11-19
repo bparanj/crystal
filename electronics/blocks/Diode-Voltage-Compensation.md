@@ -23,7 +23,7 @@ To design and simulate a Diode Voltage Compensation Circuit and observe how a di
 4. Multimeters (to measure voltage and current).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Voltage Reference:
    - Connect the positive terminal of the voltage reference (\( V_{ref} \)) to the anode of the diode.

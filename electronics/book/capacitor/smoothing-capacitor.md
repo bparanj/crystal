@@ -22,7 +22,7 @@ Components:
 5. Capacitor: 470µF electrolytic
 6. Oscilloscope or Voltmeter for measurement
 
-Circuit Connections:
+Circuit
 
 1. Without Capacitor:
    - AC source positive → Diode anode

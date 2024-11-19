@@ -25,7 +25,7 @@ To design and simulate a Multidiode Stabilizer Circuit and demonstrate how the d
 4. Multimeters (to measure input voltage, output voltage, and current).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input Voltage:
    - Connect the positive terminal of the power supply to the anode of the first diode (\( D_1 \)).

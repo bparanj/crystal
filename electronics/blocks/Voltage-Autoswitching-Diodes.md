@@ -19,16 +19,15 @@ A Voltage Autoswitching Diode Circuit automatically switches between two power s
 
 To design and simulate a Voltage Autoswitching Diode Circuit to demonstrate how the load is automatically powered by the higher voltage source.
 
----
-
 #### Components:
+
 1. 2 Diodes (1N4007 or similar).
 2. 2 Power Supplies (\( V_1 = 12V \), \( V_2 = 9V \)).
 3. Resistor (\( R = 1k\Omega \), load resistor).
 4. Multimeters (to measure current and voltage).
 5. Breadboard and wires.
 
-#### Circuit Connections:
+#### Circuit
 
 1. Primary Power Source (\( V_1 \)):
    - Connect \( V_1 \) to the anode of the first diode (\( D_1 \)).
@@ -48,18 +47,21 @@ To design and simulate a Voltage Autoswitching Diode Circuit to demonstrate how 
 ### Steps
 
 #### 1. Normal Operation (Primary Power On):
+
 1. Turn on both power supplies (\( V_1 = 12V, V_2 = 9V \)).
 2. Observe:
    - \( D_1 \) is forward-biased, powering the load.
    - \( D_2 \) is reverse-biased, blocking \( V_2 \).
 
 #### 2. Simulate Primary Power Failure:
+
 1. Turn off \( V_1 \) (primary source).
 2. Observe:
    - \( D_2 \) becomes forward-biased, powering the load from \( V_2 \).
    - The load seamlessly switches to the backup power source.
 
 #### 3. Restore Primary Power:
+
 1. Turn \( V_1 \) back on.
 2. Observe:
    - The circuit automatically switches back to \( V_1 \), the higher voltage source.
@@ -88,6 +90,7 @@ To design and simulate a Voltage Autoswitching Diode Circuit to demonstrate how 
    - Essential in backup systems, such as powering critical equipment from batteries when mains power fails.
 
 In Tinkercad, you can toggle the power supplies to simulate power switching and observe:
+
 1. Which diode conducts.
 2. The voltage across the load resistor.
 3. The seamless transition between power sources without manual intervention.

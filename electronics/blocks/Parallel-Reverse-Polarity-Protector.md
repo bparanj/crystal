@@ -24,7 +24,7 @@ To design and simulate a Parallel Reverse Polarity Protector circuit and observe
 5. Multimeters (to measure current and voltage).
 6. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Power Supply:
    - Connect the positive terminal of the power supply to one terminal of the load resistor (\( R \)).

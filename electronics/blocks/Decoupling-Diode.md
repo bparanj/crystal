@@ -31,7 +31,7 @@ To design and simulate a Decoupling Diode Circuit that demonstrates current isol
    - \( V2 = 5V \) (simulating a secondary supply).
 4. Multimeters (to measure current and voltage in each branch).
 
-#### Circuit Connections:
+#### Circuit
 
 1. Decoupling Diodes:
    - Place a diode (\( D1 \)) between \( V1 \) and \( R1 \) (anode to \( V1 \), cathode to \( R1 \)).

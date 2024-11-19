@@ -15,7 +15,7 @@ An Emitter Follower circuit, also known as a Common Collector amplifier, is a tr
    - Signal buffering.
    - Impedance matching between circuit stages.
 
-### Experiment Design for Tinkercad:
+### Experiment
 
 To design and simulate an Emitter Follower Circuit using an NPN transistor and observe its voltage buffering and impedance matching properties.
 
@@ -31,7 +31,7 @@ To design and simulate an Emitter Follower Circuit using an NPN transistor and o
 5. Oscilloscope (to observe input and output waveforms).
 6. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input Signal:
    - Connect the positive terminal of the input voltage source (\( V_{in} \)) to one end of the base resistor (\( R_b \)).
@@ -51,7 +51,7 @@ To design and simulate an Emitter Follower Circuit using an NPN transistor and o
    - Channel 1: Connect to \( V_{in} \) to monitor the input signal.
    - Channel 2: Connect to \( V_{out} \) to monitor the output signal.
 
-### Steps to Perform:
+### Steps
 
 #### 1. Apply the Input Signal:
 1. Set \( V_{in} \) to a DC voltage within the range \( 0-5V \).
@@ -81,7 +81,7 @@ To design and simulate an Emitter Follower Circuit using an NPN transistor and o
 3. Current Amplification:
    - The circuit provides current gain, making it suitable for driving heavier loads.
 
-### Key Insights:
+### Insights
 
 1. Voltage Follower:
    - The emitter follower is a unity-gain voltage amplifier, ideal for buffering applications.

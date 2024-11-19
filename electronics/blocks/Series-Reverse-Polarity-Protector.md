@@ -24,7 +24,7 @@ To design and simulate a Series Reverse Polarity Protector circuit and observe h
 3. DC Power Supply (\( V_{supply} = 5V \)).
 4. Multimeter (to measure current through the load and voltage across the diode).
 
-#### Circuit Connections:
+#### Circuit
 1. Diode Placement:
    - Connect the anode of the diode to the positive terminal of the power supply.
    - Connect the cathode of the diode to one end of the resistor (load).

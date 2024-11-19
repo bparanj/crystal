@@ -24,7 +24,7 @@ To design and simulate a Diode Temperature Sensor and observe how the forward vo
 4. Multimeter (to measure the diode's forward voltage).
 5. Temperature Simulation Tool (conceptual for temperature variation; Tinkercad can model static circuits but not dynamic temperature effects directly).
 
-### Circuit Connections:
+### Circuit
 
 1. DC Voltage Source:
    - Connect the positive terminal of \( V_{supply} \) to one end of the resistor (\( R \)).

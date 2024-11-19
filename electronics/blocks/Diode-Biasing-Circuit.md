@@ -25,7 +25,7 @@ To design and simulate a Diode Biasing Circuit in Tinkercad and observe the beha
 4. Multimeter (to measure voltage and current).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 #### 1. Forward Bias Configuration:
 

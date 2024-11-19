@@ -25,7 +25,7 @@ To design and simulate a Zener Diode Voltage Stabilizer and demonstrate its abil
 5. Multimeters (to measure input voltage, load voltage, and current).
 6. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input Voltage:
    - Connect the positive terminal of the power supply (\( V_{in} \)) to one end of the current-limiting resistor (\( R \)).

@@ -34,7 +34,7 @@ To design and simulate a Voltage-to-Voltage Antilogarithmic Converter and demons
 4. Multimeter (to measure input and output voltages).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input Voltage:
    - Connect the positive terminal of the DC voltage source (\( V_{in} \)) to one end of the input resistor (\( R_{input} \)).

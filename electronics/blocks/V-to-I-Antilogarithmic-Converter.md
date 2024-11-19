@@ -26,13 +26,14 @@ A V-to-I Antilogarithmic Converter using a diode exploits the exponential \( I-V
 To design and simulate a V-to-I Antilogarithmic Converter using a diode and demonstrate its exponential current response to an input voltage.
 
 #### Components:
+
 1. Diode (1N4007 or similar).
 2. Resistor (\( R = 1k\Omega \), load resistor).
 3. DC Voltage Source (\( V_{in} = 0-5V \)).
 4. Multimeters (to measure input voltage and current).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input Voltage:
    - Connect the positive terminal of the DC voltage source (\( V_{in} \)) to the anode of the diode.
@@ -122,13 +123,14 @@ A Voltage-to-Current Antilogarithmic Converter is a circuit that generates a cur
 To design and simulate a V-to-I Antilogarithmic Converter using a BJT transistor and demonstrate the exponential relationship between input voltage and output current.
 
 #### Components:
+
 1. NPN Transistor (e.g., 2N2222 or similar).
 2. Resistor (\( R = 1k\Omega \), load resistor).
 3. DC Voltage Source (\( V_{in} = 0-5V \), for input voltage).
 4. Multimeters (to measure input voltage and output current).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit
 
 1. Input Voltage:
    - Connect the positive terminal of the DC voltage source (\( V_{in} \)) to the base of the NPN transistor through a series resistor (\( R_{in} = 10k\Omega \)).

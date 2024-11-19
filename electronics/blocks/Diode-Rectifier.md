@@ -24,7 +24,7 @@ To design and simulate a Half-Wave Rectifier and a Full-Wave Rectifier circuit, 
 
 ### Half-Wave Rectifier Circuit:
 
-#### Circuit Connections:
+#### Circuit
 
 1. Input AC:
    - Connect the AC voltage source across the primary circuit.
@@ -52,7 +52,7 @@ To design and simulate a Half-Wave Rectifier and a Full-Wave Rectifier circuit, 
 
 ### Full-Wave Rectifier Circuit (Bridge Rectifier):
 
-#### Circuit Connections:
+#### Circuit
 
 1. Input AC:
    - Connect the AC voltage source across the bridge rectifier's input terminals (\( AC+ \) and \( AC- \)).
