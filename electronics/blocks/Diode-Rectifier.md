@@ -12,8 +12,6 @@ A diode rectifier is a circuit that converts AC (alternating current) into DC (d
 
 ### Experiment
 
-#### Objective:
-
 To design and simulate a Half-Wave Rectifier and a Full-Wave Rectifier circuit, demonstrating their functionality and comparing the output waveforms.
 
 #### Components:

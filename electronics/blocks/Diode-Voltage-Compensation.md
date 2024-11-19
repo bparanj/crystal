@@ -2,10 +2,6 @@
 
 **Diode Voltage Compensation** is a technique used to counteract or balance temperature-dependent voltage changes in a circuit. Diodes exhibit a negative temperature coefficient, meaning their forward voltage decreases as temperature increases. This property can be exploited to stabilize or compensate voltage changes in sensitive circuits.
 
----
-
-### Concepts
-
 1. **Diode Forward Voltage (\( V_f \))**:
    - In forward bias, a diode drops a voltage of approximately \( 0.7V \) (for silicon diodes), which decreases by around **2mV/°C** as temperature increases.
 
@@ -16,14 +12,9 @@
    - Voltage regulators.
    - Temperature compensation in transistors and amplifiers.
 
----
-
 ### Experiment
 
-#### **Objective**:
 To design and simulate a **Diode Voltage Compensation Circuit** and observe how a diode's voltage drop compensates for temperature-induced changes in a reference voltage.
-
----
 
 #### **Components**:
 1. **1 Diode** (1N4007 or similar, for voltage compensation).
@@ -31,8 +22,6 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 3. **Resistor** (\( R = 1k\Omega \)).
 4. **Multimeters** (to measure voltage and current).
 5. **Breadboard** and wires.
-
----
 
 ### **Circuit Connections**:
 
@@ -48,8 +37,6 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 4. **Multimeters**:
    - Place one multimeter across the resistor to measure the voltage drop across the load.
    - Place another multimeter across the diode to measure its forward voltage.
-
----
 
 ### Steps
 
@@ -74,8 +61,6 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 3. Observe:
    - The diode compensates by maintaining a consistent voltage difference.
 
----
-
 ### Results
 
 1. **Stable Load Voltage**:
@@ -86,8 +71,6 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 
 3. **Compensation Effect**:
    - The diode compensates for changes in the reference voltage or temperature, stabilizing the circuit.
-
----
 
 ### Insights
 
@@ -100,9 +83,6 @@ To design and simulate a **Diode Voltage Compensation Circuit** and observe how 
 3. **Practical Considerations**:
    - The effectiveness depends on the diode's temperature coefficient and the circuit's design.
 
----
-
-### Simulation
 In **Tinkercad**, you can:
 1. Build the described circuit.
 2. Adjust \( V_{ref} \) to observe how the diode compensates for voltage variations.

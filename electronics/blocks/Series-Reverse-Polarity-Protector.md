@@ -2,14 +2,10 @@
 
 A **Series Reverse Polarity Protector** is a simple circuit used to protect sensitive electronic components from damage caused by incorrect power supply polarity. It allows current to flow only when the voltage is applied in the correct polarity and blocks it if the polarity is reversed.
 
----
-
 ### **Key Components**:
 1. **Diode**: Used to allow current flow in only one direction.
 2. **Load**: The device or circuit being protected.
 3. **Power Supply**: Provides the input voltage, which may be connected with correct or reversed polarity.
-
----
 
 ### **Circuit Operation**:
 1. **Correct Polarity**:
@@ -18,22 +14,15 @@ A **Series Reverse Polarity Protector** is a simple circuit used to protect sens
 2. **Reversed Polarity**:
    - When the positive terminal is connected to the cathode of the diode, the diode blocks the current, protecting the load.
 
----
-
 ### Experiment
 
-#### **Objective**:
 To design and simulate a **Series Reverse Polarity Protector** circuit and observe how the diode protects the load from reverse polarity.
-
----
 
 #### **Components**:
 1. **1N4007 Diode** (or similar).
 2. **Resistor** (\( R = 1k\Omega \), simulating a simple load).
 3. **DC Power Supply** (\( V_{supply} = 5V \)).
 4. **Multimeter** (to measure current through the load and voltage across the diode).
-
----
 
 #### **Circuit Connections**:
 1. **Diode Placement**:
@@ -46,8 +35,6 @@ To design and simulate a **Series Reverse Polarity Protector** circuit and obser
 3. **Multimeter**:
    - Place the multimeter in series with the load to measure the current through the circuit.
    - Optionally, place another multimeter across the diode to observe its voltage drop.
-
----
 
 ### Steps
 
@@ -66,8 +53,6 @@ To design and simulate a **Series Reverse Polarity Protector** circuit and obser
      - No current flows through the load (multimeter shows 0A).
      - The diode blocks the current, protecting the load.
 
----
-
 ### Results
 
 1. **Correct Polarity**:
@@ -77,8 +62,6 @@ To design and simulate a **Series Reverse Polarity Protector** circuit and obser
 2. **Reversed Polarity**:
    - The diode blocks the current, and no power is delivered to the load.
    - The load is protected from damage due to reverse polarity.
-
----
 
 ### Insights
 
@@ -90,7 +73,5 @@ To design and simulate a **Series Reverse Polarity Protector** circuit and obser
 
 3. **Applications**:
    - Widely used in battery-powered devices and DC circuits where polarity errors can occur.
-
----
 
 This experiment can be implemented in **Tinkercad**, where you can toggle the power supply polarity and use multimeters to observe the diode's behavior in protecting the circuit.

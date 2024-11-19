@@ -2,8 +2,6 @@
 
 A **Series Diode Limiter**, also known as a **Clipping Circuit**, limits the amplitude of an input signal by "clipping" portions of the waveform beyond a certain threshold. It uses diodes to restrict the voltage reaching the load, protecting sensitive components or shaping signals.
 
----
-
 ### Concepts
 
 1. **Clipping Operation**:
@@ -17,14 +15,9 @@ A **Series Diode Limiter**, also known as a **Clipping Circuit**, limits the amp
    - Protection circuits.
    - Amplitude control in audio and communication systems.
 
----
-
 ### Experiment
 
-#### **Objective**:
 To design and simulate a **Series Diode Limiter Circuit** and observe its ability to clip the input signal at a specific threshold.
-
----
 
 #### **Components**:
 1. **Diodes** (2 × 1N4007 or similar).
@@ -32,8 +25,6 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
 3. **AC Voltage Source** (\( V_{in} = \pm 10V, 1kHz \)).
 4. **Oscilloscope** (to visualize input and output waveforms).
 5. **Breadboard** and wires.
-
----
 
 ### **Circuit Connections**:
 
@@ -53,8 +44,6 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
    - Channel 1: Connect to the AC source to monitor the input waveform.
    - Channel 2: Connect across \( R \) to monitor the output waveform.
 
----
-
 ### Steps
 
 #### **1. Observe Input and Output Waveforms**:
@@ -72,8 +61,6 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
 2. Observe how the output waveform changes:
    - For example, adding \( +2V \) and \( -2V \) offsets will clip the signal at \( \pm 2.7V \).
 
----
-
 ### Results
 
 1. **Without DC Offset**:
@@ -83,8 +70,6 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
 2. **With DC Offset**:
    - The clipping thresholds shift by the offset voltage.
    - For \( V_{offset} = \pm 2V \), the signal is clipped at \( \pm 2.7V \).
-
----
 
 ### Insights
 
@@ -98,9 +83,6 @@ To design and simulate a **Series Diode Limiter Circuit** and observe its abilit
    - Protecting circuits from overvoltage.
    - Limiting amplitude in signal processing systems.
 
----
-
-### Simulation
 In **Tinkercad**, you can:
 1. Build the circuit with the diodes, resistor, and AC voltage source.
 2. Use the oscilloscope to monitor the input and output waveforms.

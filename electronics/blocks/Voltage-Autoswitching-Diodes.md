@@ -2,9 +2,6 @@
 
 A **Voltage Autoswitching Diode Circuit** automatically switches between two power sources based on their voltages, ensuring that the higher voltage source powers the load. This is commonly used in backup power systems where a secondary source (e.g., battery) takes over if the primary source fails or drops below a threshold.
 
----
-
-### Concepts
 1. **Diode Behavior**:
    - A diode allows current to flow only in one direction, ensuring the higher voltage source powers the load.
    - The source with the higher voltage forward-biases its diode, while the lower voltage source is blocked.
@@ -18,11 +15,8 @@ A **Voltage Autoswitching Diode Circuit** automatically switches between two pow
    - Dual power supplies.
    - Battery-powered devices with external adapters.
 
----
-
 ### Experiment
 
-#### **Objective**:
 To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate how the load is automatically powered by the higher voltage source.
 
 ---
@@ -33,8 +27,6 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 3. **Resistor** (\( R = 1k\Omega \), load resistor).
 4. **Multimeters** (to measure current and voltage).
 5. **Breadboard** and wires.
-
----
 
 #### **Circuit Connections**:
 
@@ -52,8 +44,6 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 4. **Multimeters**:
    - Place one multimeter across \( R \) to measure the voltage powering the load.
    - Place another multimeter in series with \( R \) to measure the current.
-
----
 
 ### Steps
 
@@ -74,8 +64,6 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 2. Observe:
    - The circuit automatically switches back to \( V_1 \), the higher voltage source.
 
----
-
 ### Results
 
 1. **When \( V_1 > V_2 \)**:
@@ -86,8 +74,6 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 
 3. **Smooth Switching**:
    - The circuit ensures uninterrupted power to the load as it switches between sources.
-
----
 
 ### Insights
 
@@ -101,9 +87,6 @@ To design and simulate a **Voltage Autoswitching Diode Circuit** to demonstrate 
 3. **Applications**:
    - Essential in backup systems, such as powering critical equipment from batteries when mains power fails.
 
----
-
-### Simulation
 In **Tinkercad**, you can toggle the power supplies to simulate power switching and observe:
 1. Which diode conducts.
 2. The voltage across the load resistor.

@@ -2,8 +2,6 @@
 
 A Zener Diode Voltage Stabilizer is a circuit used to maintain a constant output voltage across a load, regardless of variations in the input voltage or load current. The Zener diode achieves this by operating in its reverse breakdown region, where it maintains a stable voltage.
 
-### Concepts
-
 1. Zener Diode Behavior:
    - In reverse bias, a Zener diode maintains a constant voltage across its terminals once the input voltage exceeds the diode's breakdown voltage.
 
@@ -15,8 +13,6 @@ A Zener Diode Voltage Stabilizer is a circuit used to maintain a constant output
    - Protection circuits.
 
 ### Experiment
-
-#### Objective:
 
 To design and simulate a Zener Diode Voltage Stabilizer and demonstrate its ability to stabilize voltage across a load.
 
@@ -90,8 +86,6 @@ To design and simulate a Zener Diode Voltage Stabilizer and demonstrate its abil
 
 3. Applications:
    - Zener diodes are widely used in regulated power supplies and voltage reference circuits.
-
-### Simulation
 
 In Tinkercad, you can:
 1. Simulate the circuit by varying the input voltage and load resistance.

@@ -2,8 +2,6 @@
 
 A Current Autoswitching Diode Circuit ensures that current is automatically supplied to a load from the higher-current-capacity source. This type of circuit is used in systems requiring seamless transitions between current sources, such as power supplies and batteries.
 
-### Concepts
-
 1. Diode Behavior:
    - Diodes allow current flow in only one direction, enabling current autoswitching between sources based on their ability to provide current.
 
@@ -16,8 +14,6 @@ A Current Autoswitching Diode Circuit ensures that current is automatically supp
    - Load sharing between current sources.
 
 ### Experiment
-
-#### Objective:
 
 To design and simulate a Current Autoswitching Diode Circuit that switches between two current sources based on their output capacity.
 
@@ -101,8 +97,6 @@ To design and simulate a Current Autoswitching Diode Circuit that switches betwe
 
 3. Applications:
    - Used in systems where multiple current sources, such as batteries or power supplies, must cooperate to power a load.
-
-### Simulation
 
 This experiment can be implemented in Tinkercad, where you can:
 1. Toggle the power supplies on/off.

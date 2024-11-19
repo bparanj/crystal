@@ -2,10 +2,6 @@
 
 A **Voltage-Multiplier Circuit** uses diodes and capacitors to generate higher voltage levels than the input voltage. This is achieved by storing and transferring charge through switching action, commonly used in power supplies or signal processing.
 
----
-
-### Concepts
-
 1. **Voltage Doubling/Multiplying**:
    - Diodes direct the flow of charge to specific capacitors, while capacitors store charge to create voltages higher than the input.
 
@@ -17,14 +13,9 @@ A **Voltage-Multiplier Circuit** uses diodes and capacitors to generate higher v
    - Signal processing.
    - Oscillator circuits.
 
----
-
 ### **Experiment Voltage Doubler**
 
-#### **Objective**:
 To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and observe how diodes and capacitors work together to double the input voltage.
-
----
 
 #### **Components**:
 1. **2 Diodes** (1N4007 or similar).
@@ -33,8 +24,6 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
 4. **Resistor** (\( R = 1k\Omega \), load resistor).
 5. **Oscilloscope** (to observe voltages).
 6. **Breadboard** and wires.
-
----
 
 ### **Circuit Connections**:
 
@@ -54,8 +43,6 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
    - Channel 1: Monitor the input AC waveform.
    - Channel 2: Monitor the output DC voltage across \( C_2 \).
 
----
-
 ### Steps
 
 1. **Set Up the Circuit**:
@@ -72,8 +59,6 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
 4. **Experiment with Capacitor Values**:
    - Replace \( C_1 \) and \( C_2 \) with different values (\( 1\mu F, 22\mu F \)) to observe their effect on the output voltage.
 
----
-
 ### Results
 
 1. **Input Voltage**:
@@ -84,8 +69,6 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
 
 3. **Effect of Component Values**:
    - Larger capacitance values reduce ripple and improve the stability of the output voltage.
-
----
 
 ### Insights
 
@@ -103,7 +86,4 @@ To design and simulate a **Voltage-Multiplier Circuit** (Voltage Doubler) and ob
    - High-voltage generation in low-current applications.
    - Used in CRT displays, oscilloscopes, and other electronics requiring higher-than-supply voltages.
 
----
-
-### Simulation
 This experiment can be simulated in **Tinkercad**, where you can observe the input AC waveform and the doubled DC voltage across \( C_2 \). Adjusting the load resistor and capacitors demonstrates the practical behavior of the circuit.

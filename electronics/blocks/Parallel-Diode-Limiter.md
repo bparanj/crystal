@@ -2,10 +2,6 @@
 
 A **Parallel Diode Limiter**, or Clipping Circuit, restricts the amplitude of an input signal by "clipping" the portions of the waveform that exceed a certain threshold. The diodes are connected in parallel with the load and conduct only when the input voltage surpasses a specific level.
 
----
-
-### Concepts
-
 1. **Clipping Behavior**:
    - When the input voltage exceeds the diode's forward voltage (\( V_f \)), the diode conducts, effectively "clipping" the voltage at that threshold.
 
@@ -17,14 +13,9 @@ A **Parallel Diode Limiter**, or Clipping Circuit, restricts the amplitude of an
    - Wave shaping in communication and audio systems.
    - Preventing overvoltage in sensitive circuits.
 
----
-
 ### Experiment
 
-#### **Objective**:
 To design and simulate a **Parallel Diode Limiter Circuit** and observe its ability to clip the input signal at specific voltage thresholds.
-
----
 
 #### **Components**:
 1. **2 Diodes** (e.g., 1N4007).
@@ -32,8 +23,6 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
 3. **AC Voltage Source** (\( V_{in} = \pm 10V, 1kHz \)).
 4. **Oscilloscope** (to visualize input and output waveforms).
 5. **Breadboard** and wires.
-
----
 
 ### **Circuit Connections**:
 
@@ -52,8 +41,6 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
    - Channel 1: Connect to the AC source to monitor the input waveform.
    - Channel 2: Connect across the resistor to monitor the output waveform.
 
----
-
 ### Steps
 
 #### **1. Set Up the Input Signal**:
@@ -71,8 +58,6 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
 2. Observe:
    - The clipping levels shift to \( \pm 2.7V \) (diode threshold \( \pm 0.7V \) plus the offset).
 
----
-
 ### Results
 
 1. **Without Offset**:
@@ -86,8 +71,6 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
 3. **Symmetric Clipping**:
    - Both positive and negative peaks of the waveform are clipped symmetrically.
 
----
-
 ### Insights
 
 1. **Voltage Threshold Control**:
@@ -100,9 +83,6 @@ To design and simulate a **Parallel Diode Limiter Circuit** and observe its abil
    - Preventing overvoltage conditions in sensitive circuits.
    - Shaping signals for communication or audio systems.
 
----
-
-### Simulation
 In **Tinkercad**, you can:
 1. Build the circuit using the described components.
 2. Use the oscilloscope to observe the input and output waveforms.

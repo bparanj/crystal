@@ -2,8 +2,6 @@
 
 A DC Potential Shifting Circuit is used to shift a DC voltage level by a fixed amount. This is achieved by using diodes in series, leveraging their forward voltage drop (\(~0.7V\) for silicon diodes) to shift the input voltage up or down, depending on the configuration.
 
-### Concepts
-
 1. Diode Voltage Drop:
    - When a diode is forward-biased, it drops a fixed voltage (\( ~0.7V \) for silicon diodes, \( ~0.3V \) for Schottky diodes).
 
@@ -16,8 +14,6 @@ A DC Potential Shifting Circuit is used to shift a DC voltage level by a fixed a
    - Level adjustment for logic circuits.
 
 ### Experiment
-
-#### Objective:
 
 To design and simulate a DC Potential Shifting Circuit and observe how the diodes shift the DC voltage by a fixed amount.
 
@@ -99,8 +95,6 @@ To design and simulate a DC Potential Shifting Circuit and observe how the diode
 
 3. Applications:
    - Used in biasing, level shifting for signals, and interfacing circuits with different voltage levels.
-
-### Simulation
 
 In Tinkercad, you can:
 1. Simulate the circuit with the described setup.

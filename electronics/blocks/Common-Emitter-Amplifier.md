@@ -2,9 +2,7 @@
 
 The **Common-Emitter Amplifier** is a widely used transistor amplifier configuration. It provides **voltage gain**, **current gain**, and **phase inversion** of the input signal. The configuration is ideal for signal amplification in audio, RF, and general-purpose applications.
 
----
-
-### **Key Concepts**:
+### **Concepts**:
 
 1. **Voltage Gain**:
    - The circuit provides significant voltage gain, controlled by the collector (\( R_C \)) and emitter (\( R_E \)) resistors.
@@ -19,14 +17,9 @@ The **Common-Emitter Amplifier** is a widely used transistor amplifier configura
    - Signal amplification.
    - Audio systems and RF circuits.
 
----
+### **Experiment**:
 
-### **Experiment Design for Tinkercad**:
-
-#### **Objective**:
 To design and simulate a **Common-Emitter Amplifier** using an NPN transistor and observe its voltage gain and phase inversion.
-
----
 
 #### **Components**:
 1. **NPN Transistor** (e.g., 2N2222 or BC547).
@@ -43,8 +36,6 @@ To design and simulate a **Common-Emitter Amplifier** using an NPN transistor an
 5. **AC Voltage Source** (\( V_{in} = 10mV_{peak}, 1kHz \)).
 6. **Oscilloscope** (to observe input and output waveforms).
 7. **Breadboard** and wires.
-
----
 
 ### **Circuit Connections**:
 
@@ -69,8 +60,6 @@ To design and simulate a **Common-Emitter Amplifier** using an NPN transistor an
    - Channel 1: Connect to \( V_{in} \) to monitor the input signal.
    - Channel 2: Connect to the output after \( C_{out} \).
 
----
-
 ### **Steps to Perform**:
 
 #### **1. Apply Input Signal**:
@@ -94,8 +83,6 @@ To design and simulate a **Common-Emitter Amplifier** using an NPN transistor an
 2. Remove \( C_E \) and note the reduction in gain due to emitter degeneration.
 3. Adjust \( R_E \) to observe changes in bias stability and gain.
 
----
-
 ### **Expected Results**:
 
 1. **Voltage Gain**:
@@ -112,8 +99,6 @@ To design and simulate a **Common-Emitter Amplifier** using an NPN transistor an
    - Increasing \( R_C \) increases gain.
    - Increasing \( R_E \) reduces gain but improves bias stability.
 
----
-
 ### **Key Insights**:
 
 1. **Signal Amplification**:
@@ -127,8 +112,6 @@ To design and simulate a **Common-Emitter Amplifier** using an NPN transistor an
 
 4. **Applications**:
    - Used in audio amplifiers, RF amplifiers, and other signal amplification circuits.
-
----
 
 ### **Tinkercad Simulation**:
 In **Tinkercad**, you can:

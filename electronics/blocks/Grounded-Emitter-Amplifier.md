@@ -2,10 +2,6 @@
 
 The **Grounded-Emitter Amplifier**, also known as the **Common Emitter Amplifier**, is a basic transistor amplifier configuration. It provides **voltage gain** and is widely used in audio amplification and signal processing. The "grounded-emitter" designation means the emitter is connected to ground, often through a small resistor, to provide bias stability.
 
----
-
-### **Key Concepts**:
-
 1. **Voltage Gain**:
    - The grounded-emitter amplifier offers significant voltage gain.
    - Gain is determined by the ratio of the collector resistor (\( R_C \)) to the emitter resistor (\( R_E \)).
@@ -21,14 +17,9 @@ The **Grounded-Emitter Amplifier**, also known as the **Common Emitter Amplifier
    - Signal amplification.
    - Audio and radio frequency circuits.
 
----
-
 ### **Experiment Design for Tinkercad**:
 
-#### **Objective**:
 To design and simulate a **Grounded-Emitter Amplifier** using a transistor and observe its voltage gain and phase inversion.
-
----
 
 #### **Components**:
 1. **NPN Transistor** (e.g., 2N2222).
@@ -43,8 +34,6 @@ To design and simulate a **Grounded-Emitter Amplifier** using a transistor and o
 5. **AC Voltage Source** (\( V_{in} = 10mV_{peak}, 1kHz \)).
 6. **Oscilloscope** (to observe input and output waveforms).
 7. **Breadboard** and wires.
-
----
 
 ### **Circuit Connections**:
 
@@ -66,8 +55,6 @@ To design and simulate a **Grounded-Emitter Amplifier** using a transistor and o
 5. **Oscilloscope**:
    - Channel 1: Connect to the input signal (\( V_{in} \)).
    - Channel 2: Connect to the output signal (\( V_{out} \)).
-
----
 
 ### **Steps to Perform**:
 
@@ -92,8 +79,6 @@ To design and simulate a **Grounded-Emitter Amplifier** using a transistor and o
 1. Vary \( R_C \) and \( R_E \) to observe their impact on gain.
 2. Increase or decrease \( C_{in} \) and \( C_{out} \) to analyze coupling effects.
 
----
-
 ### **Expected Results**:
 
 1. **Voltage Gain**:
@@ -109,8 +94,6 @@ To design and simulate a **Grounded-Emitter Amplifier** using a transistor and o
    - Increasing \( R_C \) increases gain.
    - Increasing \( R_E \) decreases gain but improves bias stability.
 
----
-
 ### **Key Insights**:
 
 1. **Voltage Amplification**:
@@ -122,9 +105,6 @@ To design and simulate a **Grounded-Emitter Amplifier** using a transistor and o
 3. **Applications**:
    - Used in preamplifiers and signal processing circuits.
 
----
-
-### **Tinkercad Simulation**:
 In **Tinkercad**, you can:
 1. Build the described circuit using the components.
 2. Use the oscilloscope to monitor the input and output signals.

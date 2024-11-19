@@ -2,8 +2,6 @@
 
 An **Emitter Follower** circuit, also known as a **Common Collector** amplifier, is a transistor configuration where the output is taken from the emitter terminal. It provides **voltage buffering** with **unity gain** (gain ≈ 1) while offering high input impedance and low output impedance. This makes it ideal for signal buffering and impedance matching.
 
----
-
 ### **Key Concepts**:
 
 1. **Voltage Gain**:
@@ -17,14 +15,9 @@ An **Emitter Follower** circuit, also known as a **Common Collector** amplifier,
    - Signal buffering.
    - Impedance matching between circuit stages.
 
----
-
 ### **Experiment Design for Tinkercad**:
 
-#### **Objective**:
 To design and simulate an **Emitter Follower Circuit** using an NPN transistor and observe its voltage buffering and impedance matching properties.
-
----
 
 #### **Components**:
 1. **NPN Transistor** (e.g., 2N2222).
@@ -37,8 +30,6 @@ To design and simulate an **Emitter Follower Circuit** using an NPN transistor a
 4. **Multimeters** (to measure voltages and currents).
 5. **Oscilloscope** (to observe input and output waveforms).
 6. **Breadboard** and wires.
-
----
 
 ### **Circuit Connections**:
 
@@ -60,8 +51,6 @@ To design and simulate an **Emitter Follower Circuit** using an NPN transistor a
    - Channel 1: Connect to \( V_{in} \) to monitor the input signal.
    - Channel 2: Connect to \( V_{out} \) to monitor the output signal.
 
----
-
 ### **Steps to Perform**:
 
 #### **1. Apply the Input Signal**:
@@ -79,8 +68,6 @@ To design and simulate an **Emitter Follower Circuit** using an NPN transistor a
 2. Observe:
    - The output signal remains stable, demonstrating the circuit's low output impedance and ability to drive the load.
 
----
-
 ### **Expected Results**:
 
 1. **Voltage Buffering**:
@@ -94,8 +81,6 @@ To design and simulate an **Emitter Follower Circuit** using an NPN transistor a
 3. **Current Amplification**:
    - The circuit provides current gain, making it suitable for driving heavier loads.
 
----
-
 ### **Key Insights**:
 
 1. **Voltage Follower**:
@@ -107,9 +92,6 @@ To design and simulate an **Emitter Follower Circuit** using an NPN transistor a
 3. **Applications**:
    - Used in audio amplification, impedance matching, and signal buffering.
 
----
-
-### **Tinkercad Simulation**:
 In **Tinkercad**, you can:
 1. Build the emitter follower circuit with the described components.
 2. Use multimeters and an oscilloscope to measure and observe input and output voltages.

@@ -18,8 +18,6 @@ A Decoupling Diode is used in circuits to isolate power supply branches, ensurin
 
 ### Experiment
 
-#### Objective:
-
 To design and simulate a Decoupling Diode Circuit that demonstrates current isolation between two power branches.
 
 #### Components:

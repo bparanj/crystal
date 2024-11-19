@@ -2,8 +2,6 @@
 
 An Analog Diode Switch is a circuit that uses diodes to control the flow of analog signals based on an external control signal. By applying forward or reverse bias, diodes can allow or block signal flow, effectively "switching" the analog signal path. This type of circuit is commonly used in signal routing, modulation, and multiplexing applications.
 
-### Concepts
-
 1. Diode Switching:
    - When a diode is forward-biased, it conducts and allows signal flow.
    - When reverse-biased, it blocks the signal.
@@ -18,8 +16,6 @@ An Analog Diode Switch is a circuit that uses diodes to control the flow of anal
 
 ### Experiment
 
-#### Objective:
-
 To design and simulate an Analog Diode Switch that routes an analog signal based on an external control signal.
 
 #### Components:
@@ -33,7 +29,7 @@ To design and simulate an Analog Diode Switch that routes an analog signal based
 5. Oscilloscope (to visualize the input and output signals).
 6. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit:
 
 1. Input Signal:
    - Connect the AC voltage source (\( V_{signal} \)) to one end of the load resistor (\( R_{load} \)).
@@ -90,8 +86,6 @@ To design and simulate an Analog Diode Switch that routes an analog signal based
 
 3. Limitations:
    - The switching speed is limited by the diode's recovery time and the control signal frequency.
-
-### Simulation
 
 In Tinkercad, you can:
 1. Build the described circuit with an AC source for the signal and a DC source for the control signal.

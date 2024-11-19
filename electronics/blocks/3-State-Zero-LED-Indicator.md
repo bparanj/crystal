@@ -2,8 +2,6 @@
 
 A 3-State Zero LED Indicator uses a combination of diodes and LEDs to visually indicate whether an input voltage is positive, negative, or zero. This is commonly used in signal monitoring or debugging circuits to display polarity states.
 
-### Concepts
-
 1. Voltage Polarity Detection:
    - The circuit identifies three states:
      1. Positive Voltage: Lights up one LED.
@@ -19,8 +17,6 @@ A 3-State Zero LED Indicator uses a combination of diodes and LEDs to visually i
 
 ### Experiment
 
-#### Objective:
-
 To design and simulate a 3-State Zero LED Indicator that uses diodes and LEDs to display the polarity of an input voltage.
 
 #### Components:
@@ -31,7 +27,7 @@ To design and simulate a 3-State Zero LED Indicator that uses diodes and LEDs to
 4. Power Supply (\( V_{in} = -10V \text{ to } +10V \)).
 5. Breadboard and wires.
 
-### Circuit Connections:
+### Circuit:
 
 1. Positive Voltage Indicator:
    - Connect the anode of the first LED (\( LED1 \)) to the cathode of a diode (\( D1 \)).
@@ -94,7 +90,5 @@ To design and simulate a 3-State Zero LED Indicator that uses diodes and LEDs to
 
 3. Applications:
    - Useful for monitoring signal polarity in electronics testing and debugging.
-
-### Simulation:
 
 In Tinkercad, you can simulate this circuit by varying the input voltage (\( V_{in} \)) using a DC power supply. Observe the LEDs lighting up based on the input polarity and validate the circuit's behavior.

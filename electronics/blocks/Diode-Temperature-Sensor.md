@@ -2,8 +2,6 @@
 
 A Diode Temperature Sensor utilizes the temperature-dependent voltage characteristics of a diode. The forward voltage (\( V_f \)) of a diode decreases by approximately 2mV/°C as temperature increases, making it a simple and effective temperature-sensing device.
 
-### Concepts
-
 1. Temperature Coefficient:
    - The diode's forward voltage (\( V_f \)) decreases linearly with an increase in temperature at a rate of about 2mV/°C for silicon diodes.
 
@@ -15,8 +13,6 @@ A Diode Temperature Sensor utilizes the temperature-dependent voltage characteri
    - Calibration and monitoring in electronic devices.
 
 ### Experiment
-
-#### Objective:
 
 To design and simulate a Diode Temperature Sensor and observe how the forward voltage (\( V_f \)) varies with temperature.
 
@@ -87,8 +83,6 @@ To design and simulate a Diode Temperature Sensor and observe how the forward vo
 3. Applications:
    - Simple temperature sensing in electronic devices.
    - Low-cost alternatives to thermistors or RTDs.
-
-### Simulation
 
 While Tinkercad cannot simulate dynamic temperature variations, you can:
 1. Build the circuit to measure \( V_f \) at room temperature.

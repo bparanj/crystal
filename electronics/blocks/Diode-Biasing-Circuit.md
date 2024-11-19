@@ -2,8 +2,6 @@
 
 A Diode Biasing Circuit is used to provide a specific operating condition (biasing) for diodes, ensuring they function correctly in a circuit. Diode biasing is common in applications like rectifiers, signal processing, and switching circuits.
 
-### Concepts
-
 1. Diode Forward Bias:
    - The diode conducts when the anode is more positive than the cathode by at least the forward voltage (\( ~0.7V \) for silicon diodes).
 
@@ -14,8 +12,6 @@ A Diode Biasing Circuit is used to provide a specific operating condition (biasi
    - Setting specific operating points for signal rectification, clipping, or voltage reference.
 
 ### Experiment
-
-#### Objective:
 
 To design and simulate a Diode Biasing Circuit in Tinkercad and observe the behavior of a diode under forward and reverse bias conditions.
 
@@ -96,8 +92,6 @@ To design and simulate a Diode Biasing Circuit in Tinkercad and observe the beha
 
 3. Applications:
    - Used in rectifiers, voltage clamps, and reference circuits.
-
-### Simulation
 
 In Tinkercad, you can:
 1. Simulate the forward and reverse bias configurations by toggling the power supply polarity.
