@@ -1,14 +1,15 @@
 25.md Add images e1 to e8 and describe those steps
 
-20.md -> Break it down brandy with falstad.
 
 33.md Capacitor AC Pass (see capacitor ac pass folder for images)
+34.md RC High Pass Filter
+
+20.md -> Break it down brandy with falstad.
 
 capacitors damage image folder is empty -  images
-this is in polarazed capacitor damage folder
 
 capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
-why is charge-discharge folder empty Where are the images?
+why is charge-discharge folder empty Where are the images?this is in polarazed capacitor damage folder
 
 10.md
 12.md
