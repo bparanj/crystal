@@ -1,3 +1,5 @@
+How to demonstrate the voltage and current are in phase in a simple resistor circuit? Design a simple experiment to demonstrate.
+
 25.md Add images e1 to e8 and describe those steps. Missing images. Not making any sense. Review and revise.
 
 
