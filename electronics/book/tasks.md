@@ -1,3 +1,23 @@
+
+1. Battery
+2. Battery + Resistor
+3. Battery + LED
+4. Battery + Capacitor
+5. Battery + Inductor
+
+1. AC
+2. AC + Resistor
+3. AC + Capacitor
+4. AC + LED
+5. AC + Inductor
+6. AC + Diode
+
+
+Oppposes current - Resistor
+Opposes ? - Capacitor
+Opposes ? - Inductor
+Opposes ? - Diode
+
 How to demonstrate the voltage and current are in phase in a simple resistor circuit? Design a simple experiment to demonstrate.
 
 25.md Add images e1 to e8 and describe those steps. Missing images. Not making any sense. Review and revise.

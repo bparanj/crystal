@@ -9,8 +9,6 @@ PENDING
 
 To simplify the circuit by removing the transistor, follow these steps:
 
-1. Remove the Transistor: Disconnect the transistor entirely from the circuit.
-
 2. Connect the Function Generator Directly to the LED and Capacitor:
    - Connect the positive output of the function generator to the anode of the LED.
    - Connect the cathode (negative side) of the LED to the positive terminal of the capacitor.
@@ -22,11 +20,9 @@ With this configuration, the capacitor will directly smooth the fluctuating volt
 
 ## Missing Capacitor Experiment
 
-A simple experiment to demonstrate the problem caused by not using a capacitor involves using an LED with a switch connected to a DC power supply. This setup shows how capacitors help stabilize voltage and prevent flickering or noise in circuits.
+An  experiment to demonstrate the problem caused by not using a capacitor involves using an LED with a switch connected to a DC power supply. This setup shows how capacitors help stabilize voltage and prevent flickering or noise in circuits.
 
-Here's a simple experiment design using Tinkercad to illustrate the effect of a capacitor on an LED circuit with a function generator:
-
-### Objective
+illustrate the effect of a capacitor on an LED circuit with a function generator:
 
 To observe how the absence of a capacitor affects the behavior of an LED in response to an AC signal.
 
@@ -35,7 +31,7 @@ To observe how the absence of a capacitor affects the behavior of an LED in resp
 - Function Generator (to simulate AC signal)
 - LED
 - Resistor (appropriate value, e.g., 330 Ω, to protect the LED)
-- Capacitor 
+- Capacitor
 - Breadboard
 - Wires
 
@@ -65,10 +61,6 @@ To observe how the absence of a capacitor affects the behavior of an LED in resp
 
 If the LED is still blinking even after adding the capacitor, it may be because the frequency of the input signal is too low for the capacitor to effectively smooth out the voltage.
 
-Here’s a breakdown of what might be happening:
-
-### Key Points
-
 1. Low Frequency (1–10 Hz):
    - At a low frequency (1–10 Hz), the capacitor does not have enough time to fully charge and discharge quickly enough to maintain a stable voltage across the LED.
    - The capacitor’s discharge rate is too slow relative to the cycle of the low-frequency AC signal, so it cannot maintain a consistent current to keep the LED steadily lit.
@@ -81,18 +73,18 @@ Here’s a breakdown of what might be happening:
 
 To achieve a more stable or steady LED light, try these adjustments:
 
-- Increase the Frequency: 
+- Increase the Frequency:
 
 Raise the frequency of the function generator to a higher range (e.g., 50 Hz to 100 Hz or higher). This will give the capacitor more opportunities to charge and discharge within each cycle, helping to smooth out the voltage better.
-  
-- Increase Capacitance: 
+
+- Increase Capacitance:
 
 Use a capacitor with a higher capacitance (e.g., 100 µF or more). Higher capacitance stores more charge, allowing the capacitor to maintain the voltage for longer periods and reduce the blinking effect.
 
 
 At low frequencies, the capacitor cannot smooth the signal enough to keep the LED steadily lit. Increasing the frequency or using a larger capacitor will help achieve a more stable LED brightness by allowing the capacitor to smooth out the fluctuations more effectively.
 
-Yes, for this experiment, using a polarized capacitor (such as an electrolytic capacitor) is appropriate, especially since we are dealing with a low-frequency signal and a DC-biased waveform that powers the LED. 
+Yes, for this experiment, using a polarized capacitor (such as an electrolytic capacitor) is appropriate, especially since we are dealing with a low-frequency signal and a DC-biased waveform that powers the LED.
 
 ### Recommended Value
 
