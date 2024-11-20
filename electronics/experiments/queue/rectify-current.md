@@ -1,3 +1,7 @@
+PENDING
+
+Is this the same as the negative clipper?
+
 ### Current Rectifying Using a Series Diode
 
 A series diode can rectify current, allowing it to flow only in one direction. This behavior is the basis of rectification, where AC is converted to pulsating DC. The diode blocks the negative half-cycles of an AC signal, effectively filtering out the reverse current.

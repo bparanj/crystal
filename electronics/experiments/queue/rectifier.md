@@ -1,3 +1,7 @@
+PENDING
+
+Is this the same as half wave reectifier in falstad?
+
 Rectifiers are used in various types of circuits to convert alternating current (AC) to direct current (DC). Here are some common applications:
 
 1. Power Supply Circuits: Rectifiers are a crucial component in power supplies for electronic devices, converting AC from the mains into DC for use by the device.
@@ -6,9 +10,11 @@ Rectifiers are used in various types of circuits to convert alternating current 
 
 Rectifiers are components found in electronic applications where AC to DC conversion is needed.
 
+PENDING
+
 Is this the same: https://www.tinkercad.com/things/jvxAvNYx90A/editel
 
-You can design a basic experiment to demonstrate the rectifier function of a single diode, converting AC to pulsating DC.
+experiment to demonstrate the rectifier function of a single diode, converting AC to pulsating DC.
 
 Show how a single diode can act as a rectifier by allowing current to flow in only one direction, converting an AC signal to a pulsating DC signal.
 

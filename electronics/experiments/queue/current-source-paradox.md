@@ -1,4 +1,4 @@
-This paradox arises from the circuit context and the specific load or conditions in which a current source operates. A good current source provides a stable current despite load changes, but it may behave poorly under specific circumstances. Conversely, a "bad" current source may perform well when certain conditions compensate for its limitations. Here’s an explanation with examples:
+This paradox arises from the circuit context and the specific load or conditions in which a current source operates. A good current source provides a stable current despite load changes, but it may behave poorly under specific circumstances. Conversely, a "bad" current source may perform well when certain conditions compensate for its limitations.
 
 ### Good Current Sources Acting as Bad Ones
 

@@ -75,12 +75,10 @@ First-order RC circuits are widely used for:
 - Timing circuits (to create delays in switching applications),
 - Smoothing circuits (to reduce ripple in power supplies).
 
-### Summary
-
-A "first-order RC circuit" and an "RC circuit" are the same thing in the context of single resistor-capacitor combinations. The term "first-order" simply highlights the type of response and mathematical behavior associated with this configuration.
+A first-order RC circuit and an RC circuit are the same thing in the context of single resistor-capacitor combinations. The term first-order highlights the type of response and mathematical behavior associated with this configuration.
 
 
-Yes, a first-order RC circuit and an RC circuit refer to the same thing - a basic electrical circuit containing a resistor (R) and a capacitor (C) connected in series. It's called "first-order" because:
+Yes, a first-order RC circuit and an RC circuit refer to the same thing - a basic electrical circuit containing a resistor (R) and a capacitor (C) connected in series. It's called first-order because:
 
 1. The circuit behavior is described by a first-order differential equation
 2. It has one energy storage element (the capacitor)

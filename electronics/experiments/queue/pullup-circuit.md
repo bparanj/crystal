@@ -1,4 +1,8 @@
 
+PENDING
+
+Run this experiment
+
 Is this the same: https://www.tinkercad.com/things/hrMmi5ZQvhw-resistor-pull-up-and-pull-down
 
 - Ensures a defined logic level (HIGH) when input is floating

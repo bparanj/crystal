@@ -1,6 +1,6 @@
 ### The Paradox of Series-Connected Current Sources
 
-The paradox of connecting current sources in series lies in the incompatibility of their ideal behavior. While current sources are designed to provide a constant current, connecting them in series creates a scenario that is inherently contradictory and problematic. Here’s the explanation:
+The paradox of connecting current sources in series lies in the incompatibility of their ideal behavior. While current sources are designed to provide a constant current, connecting them in series creates a scenario that is inherently contradictory and problematic.
 
 ### The Paradox
 
@@ -30,7 +30,7 @@ Current Sources in Series
    - Yes, in most cases, connecting current sources in series is theoretically incorrect because it violates the principle of independent current control for each source.
 
 2. Practically:
-   - In practice, this configuration can lead to unpredictable results, excessive voltage stress, and possible damage to the sources. However, there are controlled scenarios where this configuration might be acceptable (see below).
+   - In practice, this configuration can lead to unpredictable results, excessive voltage stress, and possible damage to the sources. However, there are controlled scenarios where this configuration might be acceptable.
 
 ### Is It Useful?
 
@@ -62,8 +62,6 @@ Yes, under strict conditions:
 The paradox of series-connected current sources arises from their conflicting behavior, as they cannot simultaneously enforce different current values through the same path. While this configuration is theoretically incorrect in most cases, it can be useful in specific, carefully controlled applications where the sources are matched or synchronized. Without these precautions, the connection is impractical and may lead to instability or damage.
 
 ### Experiment: Demonstrating the Paradox of Series-Connected Current Sources
-
-#### Objective:
 
 To demonstrate the conflict in a circuit with series-connected current sources and observe the resulting instability or excessive voltage drops.
 

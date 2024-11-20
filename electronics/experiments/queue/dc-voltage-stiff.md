@@ -106,5 +106,3 @@ Yes, the experiments require these modifications for Tinkercad:
 
 5. Voltage Monitoring:
    - Use a multimeter to measure the voltage across the load.
-
-No structural changes to the experiment are needed. Ensure proper resistor sizing to protect the Zener diode.

@@ -33,5 +33,5 @@ Increasing \( R \) decreases \( I \), while decreasing \( R \) increases \( I \)
 
 ### Insights:
 
-- The resistor "absorbs" energy from the current as heat, reducing the current flow.
+- The resistor absorbs energy from the current as heat, reducing the current flow.
 - Precise regulation may require variable resistors (potentiometers) for adjustment.

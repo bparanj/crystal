@@ -1,4 +1,4 @@
-This paradox arises because a nonlinear regulating element, such as a transistor, can provide linear regulation by leveraging feedback or circuit design principles that compensate for its inherent nonlinearity. Here’s how this paradox can be explained:
+This paradox arises because a nonlinear regulating element, such as a transistor, can provide linear regulation by leveraging feedback or circuit design principles that compensate for its inherent nonlinearity.
 
 ### How Nonlinear Elements Achieve Linear Regulation
 

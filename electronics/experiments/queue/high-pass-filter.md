@@ -1,4 +1,6 @@
 
+PENDING
+
 Difficult to demonstrate this using Tinkercad. Checkout https://www.falstad.com/circuit/e-index.html
 
 A high-pass filter allows higher frequencies to pass through while attenuating lower frequencies. You can design a simple RC high-pass filter in Tinkercad to demonstrate this concept by observing how it blocks low frequencies and allows high frequencies.

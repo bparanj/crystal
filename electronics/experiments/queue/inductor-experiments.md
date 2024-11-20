@@ -2,8 +2,6 @@
 
 Inductors store energy in a magnetic field created by current flow through a coil of wire. They resist changes in current flow, allowing DC to pass while impeding AC. Their inductance is measured in henries (H).
 
-An inductor acts like a heavy water wheel in a stream. It resists sudden changes in water flow (current) due to its inertia, smoothing out flow variations.
-
 To demonstrate an inductor's effect:
 
 a) Set up an AC circuit with a function generator, a 100mH inductor, and an oscilloscope.
@@ -16,7 +14,7 @@ e) This shows how the inductor resists rapid current changes, smoothing the sign
 
 Inductance refers to the property of an electrical conductor to oppose changes in the current flowing through it. An inductor creates inductance through its coiled structure, which generates a magnetic field when current flows, opposing changes in that current.
 
-Inductance resembles the momentum of a heavy flywheel. Just as a spinning flywheel resists changes to its rotational speed due to its momentum, an inductor resists changes to the current flowing through it due to its inductance.
+an inductor resists changes to the current flowing through it due to its inductance.
 
 11. Inductor (Demo: https://www.tinkercad.com/things/jw2rfdSUsWg-inductordemonstration)
 
@@ -130,7 +128,7 @@ In an AC circuit, an inductor resists changes in current. As the frequency of th
 
 The brightness of the bulb will change depending on the current through it. At low frequencies, the current will be higher, and the bulb will be brighter. At higher frequencies, the inductor’s reactance will limit the current, dimming the bulb.
 
-This setup can effectively demonstrate the frequency-dependent behavior of inductors in AC circuits.
+This setup demonstrates the frequency-dependent behavior of inductors in AC circuits.
 
 An AC source, like a sine wave generator, is not typically considered a general-purpose power source because it is designed to provide a varying signal rather than constant energy supply. While it generates alternating voltage and current, it is often used for signal generation and testing rather than providing the stable, continuous power needed to run most electronic circuits.
 

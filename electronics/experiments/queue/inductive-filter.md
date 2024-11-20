@@ -65,8 +65,6 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 3. Frequency Dependence:
    - The decoupling effect strengthens as the frequency increases because \( X_L \propto f \).
 
-### Insights:
-
 1. High-Frequency Decoupling:
    - Series inductors are effective at attenuating high-frequency AC components while allowing low-frequency or DC components to pass.
 
@@ -76,4 +74,4 @@ When an inductor is connected in series with an AC voltage source, it can decoup
 3. Inductor Selection:
    - Larger inductors provide stronger decoupling at lower frequencies, making them suitable for specific filtering needs.
 
-This experiment is easily simulated in Tinkercad, allowing you to observe the decoupling effects of a series inductor on AC voltage.
+observe the decoupling effects of a series inductor on AC voltage.

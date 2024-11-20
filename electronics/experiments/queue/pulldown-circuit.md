@@ -68,4 +68,4 @@ Now you can observe:
    - Remove the 10kΩ resistor
    - Notice how the LED might flicker or show unpredictable behavior due to floating input
 
-This simple setup shows how a pull-down resistor maintains a defined state in a circuit.
+This setup shows how a pull-down resistor maintains a defined state in a circuit.

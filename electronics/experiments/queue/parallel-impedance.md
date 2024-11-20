@@ -37,8 +37,6 @@ Here’s a simple experiment to demonstrate the concept of stabilizing a nonidea
 
 ### Experiment: Stabilizing a Nonideal Current Load with Added Impedance
 
-#### Objective:
-
 To show that adding a high-impedance parallel resistor across a low-impedance load stabilizes current flow from a current source.
 
 #### Components:
@@ -85,5 +83,3 @@ Yes, modifications are needed for Tinkercad:
 
 4. Measurement:
    - Measure current through the 10 Ω resistor with and without the parallel 1 kΩ resistor to observe stabilization.
-
-These adjustments make the experiment feasible in Tinkercad.

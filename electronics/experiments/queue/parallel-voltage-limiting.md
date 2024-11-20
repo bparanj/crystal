@@ -67,8 +67,6 @@ A parallel diode connected across a load limits voltage by clamping the voltage 
 3. Effect of Diode Type:
    - A silicon diode clamps at \( V_f \approx 0.7V \), while a Schottky diode clamps at \( V_f \approx 0.3V \).
 
-### Insights:
-
 1. Overvoltage Protection:
    - This configuration protects components by limiting excessive positive voltages.
 

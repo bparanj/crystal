@@ -60,9 +60,9 @@ Certain loads can behave as current sources when they store and release energy o
 3. Regenerative Braking Circuits:
    - Motors (acting as inductive loads) become current sources during regenerative braking, delivering current back to the battery.
 
-The "paradox" is explained by the fact that roles in electronics are dynamic and context-dependent, determined by energy flow and the operating conditions of components. Loads can temporarily supply current, and current sources can absorb energy, demonstrating the flexible roles components play in circuits.
+The paradox is explained by the fact that roles in electronics are dynamic and context-dependent, determined by energy flow and the operating conditions of components. Loads can temporarily supply current, and current sources can absorb energy, demonstrating the flexible roles components play in circuits.
 
-Here are two simple experiments to demonstrate the dual nature of circuits where current sources can act as loads and loads can act as current sources:
+experiments to demonstrate the dual nature of circuits where current sources can act as loads and loads can act as current sources:
 
 Skipping - Already complete
 

@@ -1,8 +1,7 @@
-The paradox of a sample & hold circuit arises from the behavior of the sampling capacitor and its interaction with the voltage source. The issue lies in how the circuit imposes demands on the voltage source that can lead to instability or inaccuracies. Here’s the explanation:
+The paradox of a sample & hold circuit arises from the behavior of the sampling capacitor and its interaction with the voltage source. The issue lies in how the circuit imposes demands on the voltage source that can lead to instability or inaccuracies.
 
 ### The Paradox: Voltage Source and Capacitor Mismatch
 
-1. What Voltage Sources "Like" and "Hate":
    - A voltage source "likes" steady, continuous current draw because this allows it to regulate voltage effectively.
    - A voltage source "hates" sudden current demands, especially if they occur in short bursts or spikes, as these are difficult to handle and can lead to instability.
 

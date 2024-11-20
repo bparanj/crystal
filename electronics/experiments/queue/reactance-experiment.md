@@ -1,4 +1,9 @@
-A simple experiment to illustrate the concept of reactance:
+
+PENDING
+
+Is this the same experiment as capacitor + AC ?
+
+experiment to illustrate the concept of reactance:
 
 To demonstrate how reactance in an inductor or capacitor affects the flow of alternating current (AC) in a circuit.
 
@@ -8,22 +13,20 @@ To demonstrate how reactance in an inductor or capacitor affects the flow of alt
 - A function generator or AC power source
 - A resistor (e.g., 100 ohms)
 - An oscilloscope or multimeter set to measure AC voltage
-- Connecting wires
-- Breadboard (optional)
 
 ### Procedure:
 
-Create a simple series circuit by connecting the resistor and the capacitor (or inductor) in series. Connect this series combination to the function generator or AC power source. If using an oscilloscope, connect its probes across the capacitor (or inductor) to measure the voltage.
+Create a simple series circuit by connecting the resistor and the capacitor in series. Connect this series combination to the function generator or AC power source. If using an oscilloscope, connect its probes across the capacitor (or inductor) to measure the voltage.
 
 Set the function generator to produce a sine wave at a low frequency (e.g., 100 Hz). Observe the voltage across the capacitor (or inductor) using the oscilloscope or multimeter. Record this voltage.
 
-Gradually increase the frequency of the AC signal from the function generator (e.g., up to 1 kHz or higher). Observe how the voltage across the capacitor (or inductor) changes as the frequency increases.
+Gradually increase the frequency of the AC signal from the function generator (e.g., up to 1 kHz or higher). Observe how the voltage across the capacitor changes as the frequency increases.
 
 Notice how the voltage changes differently for a capacitor versus an inductor as the frequency increases. For a capacitor, the voltage should decrease with increasing frequency (as capacitive reactance decreases), while for an inductor, the voltage should increase (as inductive reactance increases).
 
-This experiment demonstrates reactance, which is the opposition to AC flow due to capacitors or inductors. In a capacitor, reactance decreases as frequency increases, meaning the capacitor allows more current to pass through at higher frequencies. Conversely, in an inductor, reactance increases with frequency, meaning the inductor allows less current to pass through as the frequency rises. By observing the voltage across the reactive component (capacitor or inductor) at different frequencies, you can see how reactance affects the current flow and voltage in the circuit. This experiment helps illustrate the frequency-dependent behavior of capacitors and inductors in AC circuits.
+This experiment demonstrates reactance, which is the opposition to AC flow due to capacitors. In a capacitor, reactance decreases as frequency increases, meaning the capacitor allows more current to pass through at higher frequencies. Conversely, in an inductor, reactance increases with frequency, meaning the inductor allows less current to pass through as the frequency rises. By observing the voltage across the reactive component (capacitor or inductor) at different frequencies, you can see how reactance affects the current flow and voltage in the circuit. This experiment helps illustrate the frequency-dependent behavior of capacitors and inductors in AC circuits.
 
-A simple experiment to illustrate reactance. This experiment will help demonstrate the frequency-dependent nature of reactance using common electronic components.
+experiment to illustrate reactance. This experiment will help demonstrate the frequency-dependent nature of reactance using common electronic components.
 
 Materials:
 

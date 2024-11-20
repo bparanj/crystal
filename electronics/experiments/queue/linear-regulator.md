@@ -38,4 +38,4 @@ The dropout voltage is the minimum difference required between the input voltage
 - For standard linear regulators (like the LM7805), the dropout voltage is around 2V. This means, if you want a stable 5V output, your input voltage should be at least 7V (5V output + 2V dropout).
 - Low Dropout Regulators (LDOs) are a type of linear regulator with a much lower dropout voltage, often less than 0.5V. LDOs are useful in battery-powered or low-voltage applications where minimizing the input-output difference is critical.
 
-If the input voltage falls below the required dropout level, the regulator can no longer maintain the target output voltage and the output will drop, becoming unstable. This is especially important in applications where precise voltage regulation is essential.
+If the input voltage falls below the required dropout level, the regulator can no longer maintain the target output voltage and the output will drop, becoming unstable. This is important in applications where precise voltage regulation is needed.

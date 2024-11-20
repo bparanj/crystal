@@ -1,5 +1,10 @@
 
-A simple experiment to illustrate the concept of magnetic induction:
+PENDING
+
+Move to out of scope
+Requires galvanometer
+
+concept of magnetic induction:
 
 To demonstrate how a changing magnetic field can induce an electric current in a coil of wire.
 
@@ -8,7 +13,6 @@ To demonstrate how a changing magnetic field can induce an electric current in a
 - A bar magnet
 - A coil of wire (about 50-100 turns of insulated copper wire)
 - A sensitive galvanometer or a multimeter set to measure current
-- Connecting wires
 
 ### Procedure:
 

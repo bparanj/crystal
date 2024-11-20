@@ -1,4 +1,4 @@
-a simple experiment in Tinkercad to demonstrate reverse current protection using a diode.
+demonstrate reverse current protection using a diode.
 
 To show how a diode can protect components from damage by blocking reverse current in a circuit.
 
@@ -12,12 +12,9 @@ To show how a diode can protect components from damage by blocking reverse curre
 
 ### Steps
 
-   - Place the 9V battery on the breadboard.
-   - Connect the positive terminal of the battery to the positive rail of the breadboard.
-   - Connect the negative terminal of the battery to the negative rail of the breadboard.
+   - Connect the 9V battery on the breadboard.
 
 2. Add the Reverse Protection Diode:
-   - Place the diode on the breadboard.
    - Connect the anode (positive side) of the diode to the positive rail of the breadboard.
    - Connect the cathode (negative side) of the diode (marked with a line) to a new row on the breadboard. This configuration allows current to flow only when the battery is connected in the correct polarity.
 

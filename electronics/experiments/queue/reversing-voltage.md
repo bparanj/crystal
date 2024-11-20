@@ -1,6 +1,8 @@
-DC Voltage Reversing by Differentiation involves using a capacitor in series to create a differentiated signal that reverses the polarity of a DC voltage during transitions. This process effectively produces an alternating-like signal by responding only to changes (e.g., rising or falling edges of a pulse).
+PENDING
 
-### Concept:
+Circuit connection is not clear.
+
+DC Voltage Reversing by Differentiation involves using a capacitor in series to create a differentiated signal that reverses the polarity of a DC voltage during transitions. This process effectively produces an alternating-like signal by responding only to changes (e.g., rising or falling edges of a pulse).
 
 1. Capacitor Behavior:
    - A capacitor blocks DC but reacts to changes in voltage.
@@ -18,13 +20,14 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 ### Experiment
 
 #### Components:
+
 1. DC pulse generator (or square wave generator).
 2. Capacitor (\( C = 1\mu F \)).
 3. Resistor (Load) (\( R_L = 10k\Omega \)).
 4. Oscilloscope (to observe input and output signals).
-5. Breadboard and wires.
 
 ### Circuit
+
 1. Connect the pulse generator to the breadboard to provide a square wave with DC transitions.
 2. Place the capacitor (\( C \)) in series with the pulse generator's output.
 3. Connect the load resistor (\( R_L \)) between the capacitor’s output and ground.
@@ -63,8 +66,6 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
    - A larger capacitor (\( C \)) or resistor (\( R_L \)) increases the output pulse width.
    - Smaller \( C \) or \( R_L \) produces narrower pulses.
 
-### Insights:
-
 1. Edge Detection:
    - This method is used for edge detection in signal processing and timing circuits.
 
@@ -74,4 +75,4 @@ DC Voltage Reversing by Differentiation involves using a capacitor in series to 
 3. Applications:
    - Voltage reversing is used in applications requiring alternating signals or detecting transitions in digital logic.
 
-This experiment can be easily simulated in Tinkercad using a square wave generator and observing the differentiated output on an oscilloscope. Adjusting \( C \) and \( R_L \) helps visualize how the differentiation process affects polarity reversal.
+This experiment can be simulated in Tinkercad using a square wave generator and observing the differentiated output on an oscilloscope. Adjusting \( C \) and \( R_L \) helps visualize how the differentiation process affects polarity reversal.

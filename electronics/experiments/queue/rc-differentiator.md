@@ -1,4 +1,8 @@
-In Tinkercad, you can design a simple experiment to create and observe an RC Differentiator Circuit. This circuit will produce a voltage output that represents the rate of change of the input signal, effectively “differentiating” it. Here’s a step-by-step guide to building and testing this in Tinkercad:
+PENDING
+
+Run the experiment
+
+experiment to create and observe an RC Differentiator Circuit. This circuit will produce a voltage output that represents the rate of change of the input signal, effectively differentiating it.
 
 ### Components
 
@@ -6,7 +10,6 @@ In Tinkercad, you can design a simple experiment to create and observe an RC Dif
 2. Capacitor: 100 nF
 3. Function Generator: To provide an AC square wave signal (simulated using Tinkercad’s voltage source)
 4. Oscilloscope: To observe the input and output waveforms (Tinkercad's multimeter can measure voltages, but you can simulate observing the waveforms by using Tinkercad's time-based voltage display)
-5. Breadboard and Connecting Wires
 
 ### Steps
 
@@ -34,4 +37,4 @@ When the input is steady (at the high or low level of the square wave), the outp
 An RC Differentiator circuit generates an output signal that highlights changes in the input signal.
 In this setup, the differentiator circuit produces voltage spikes in response to the edges of the square wave, demonstrating its ability to differentiate a signal.
 
-This experiment in Tinkercad provides a hands-on demonstration of how RC differentiator circuits respond to changing input signals, emphasizing their use in edge detection and pulse generation.
+This experiment demonstrates how RC differentiator circuits respond to changing input signals, emphasizing their use in edge detection and pulse generation.

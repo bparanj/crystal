@@ -1,4 +1,4 @@
-This statement highlights a nuanced view of how transistors function in amplification. While a transistor is conventionally seen as an amplifier, its actual operation involves control and attenuation of the signal at its input. Here’s how this apparent paradox can be explained:
+This statement highlights a nuanced view of how transistors function in amplification. While a transistor is conventionally seen as an amplifier, its actual operation involves control and attenuation of the signal at its input.
 
 ### Why a Transistor Is Seen as an Attenuator
 

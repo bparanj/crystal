@@ -8,7 +8,6 @@ To observe the phase shift between the voltage across an inductor and the curren
 - Inductor (e.g., 10 mH)
 - Resistor (e.g., 1 kΩ)
 - Oscilloscope
-- Breadboard
 
 ### Setup
 

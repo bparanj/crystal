@@ -1,7 +1,5 @@
 an experiment in Tinkercad to demonstrate the behavior of two inductors connected in parallel.
 
-### Objective
-
 To observe how connecting two inductors in parallel affects the total inductance and the current in an AC circuit.
 
 ### Components
@@ -46,7 +44,12 @@ To observe how connecting two inductors in parallel affects the total inductance
 
 ### Observations
 
-Reduced Inductance in Parallel: The two inductors in parallel result in a total inductance that is lower than each individual inductor, leading to less opposition to AC current.
-Increased Current: With reduced total inductance, the circuit’s overall inductive reactance is lower, allowing more current to flow through the circuit, which is shown by a higher reading on the ammeter.
+Reduced Inductance in Parallel:
+
+The two inductors in parallel result in a total inductance that is lower than each individual inductor, leading to less opposition to AC current.
+
+Increased Current:
+
+With reduced total inductance, the circuit’s overall inductive reactance is lower, allowing more current to flow through the circuit, which is shown by a higher reading on the ammeter.
 
 This experiment demonstrates that connecting inductors in parallel reduces the total inductance, decreasing the circuit’s inductive reactance and allowing more current to flow in an AC circuit.

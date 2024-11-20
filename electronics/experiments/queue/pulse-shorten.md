@@ -1,3 +1,7 @@
+PENDING
+
+Run this experiment
+
 ### Pulse Shortening Using a Series Capacitor
 
 A series capacitor can shorten the duration of a pulse by blocking low-frequency or DC components of a signal while allowing high-frequency components to pass through. The capacitor essentially acts as a high-pass filter, allowing only the changing portions of the signal (like the edges of the pulse) to be transmitted.
@@ -36,17 +40,14 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 
 ### Steps:
 
-1. Set Input Pulse:
    - Configure the pulse generator to produce a square wave with:
      - Amplitude: \( 5V \)
      - Frequency: \( 1kHz \)
      - Pulse width: \( 500\mu s \).
 
-2. Observe Input and Output:
    - Observe the input pulse waveform on one channel of the oscilloscope.
    - Observe the output pulse waveform (across \( R_L \)) on the other channel.
 
-3. Experiment with \( R_L \) and \( C \):
    - Change the resistor value (\( R_L = 5k\Omega, 10k\Omega \)).
    - Change the capacitor value (\( C = 0.1\mu F, 1\mu F \)).
    - Observe how the output pulse width changes with the RC time constant.
@@ -74,4 +75,4 @@ A series capacitor can shorten the duration of a pulse by blocking low-frequency
 3. Capacitor Selection:
    - The capacitor value should be chosen based on the desired pulse duration and input signal frequency.
 
-This experiment can be simulated in Tinkercad using a square wave generator as the input and observing the shortened pulses across the load resistor.
+This experiment can be simulated using a square wave generator as the input and observing the shortened pulses across the load resistor.

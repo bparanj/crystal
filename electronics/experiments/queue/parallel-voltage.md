@@ -54,11 +54,9 @@ Yes, but only under specific conditions:
 
 The paradox of parallel-connected voltage sources is that they "fight" each other if their voltages are not perfectly matched, leading to circulating currents and potential damage. While it is theoretically correct, it is often problematic in practice. However, with proper design (e.g., matching, balancing circuits), this configuration can be applied effectively in systems like battery packs and redundant power supplies.
 
-Here’s a simple experiment to demonstrate the paradox of parallel-connected voltage sources, showing the issues with mismatched sources and how proper precautions can make the connection functional.
+experiment to demonstrate the paradox of parallel-connected voltage sources, showing the issues with mismatched sources and how proper precautions can make the connection functional.
 
 ### Experiment: Parallel-Connected Voltage Sources
-
-#### Objective:
 
 To demonstrate the potential issues (circulating currents, inefficiency) and the proper use of parallel-connected voltage sources.
 

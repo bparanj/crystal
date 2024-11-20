@@ -3,7 +3,7 @@ PENDING
 Is this already in existing experiment?
  merge it to any existing experiment?
 
-A simple experiment to demonstrate the problem caused by not using a diode involves a DC motor connected to a power supply without a flyback diode. This setup shows how voltage spikes from the motor can damage other components when the diode is missing.
+A experiment to demonstrate the problem caused by not using a diode involves a DC motor connected to a power supply without a flyback diode. This setup shows how voltage spikes from the motor can damage other components when the diode is missing.
 
 ### Materials:
 
@@ -11,7 +11,6 @@ A simple experiment to demonstrate the problem caused by not using a diode invol
 - Power supply (matching the motor's voltage rating)
 - LED (to act as a sensitive component that could be damaged)
 - Resistor (appropriate for the LED, e.g., 220Ω)
-- Connecting wires
 - (Optional) Multimeter to measure voltage spikes
 
 ### Steps:

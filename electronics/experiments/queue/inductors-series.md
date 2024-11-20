@@ -1,4 +1,4 @@
-A simple experiment in Tinkercad to demonstrate the behavior of two inductors connected in series.
+experiment to demonstrate the behavior of two inductors connected in series.
 
 To observe how connecting two inductors in series affects the total inductance and how it influences the current in an AC circuit.
 
@@ -40,7 +40,12 @@ To observe how connecting two inductors in series affects the total inductance a
 
 ### Observations
 
-Increased Inductance in Series: The two inductors in series increase the total inductance, leading to greater opposition to AC current (higher reactance).
-Reduced Current: The current in the circuit decreases due to the higher inductive reactance from the combined inductance.
+Increased Inductance in Series:
+
+The two inductors in series increase the total inductance, leading to greater opposition to AC current (higher reactance).
+
+Reduced Current:
+
+The current in the circuit decreases due to the higher inductive reactance from the combined inductance.
 
 This experiment demonstrates that connecting inductors in series adds their inductances together, increasing the total inductance, which decreases the current in an AC circuit due to higher reactance.

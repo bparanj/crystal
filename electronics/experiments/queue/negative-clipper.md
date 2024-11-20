@@ -1,4 +1,4 @@
-A negative clipper circuit removes the negative portion of an AC signal, allowing only the positive portion to pass through. This simple experiment in Tinkercad demonstrates how a negative clipper works.
+A negative clipper circuit removes the negative portion of an AC signal, allowing only the positive portion to pass through. This experiment demonstrates how a negative clipper works.
 
 ### Components:
 

@@ -1,3 +1,7 @@
+PENDING
+
+Move to out of scope folder
+
 ### Transistor as an Amplifier
 
 Demonstrate the amplification property of a transistor by amplifying a small audio signal.

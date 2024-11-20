@@ -1,4 +1,8 @@
 
+PENDING
+
+Steps are not clear to create the circuit.
+
 To observe how a resistor in series with a DC voltage source causes a voltage shift when supplied with a constant current from a current source.
 
 ### Components
@@ -45,8 +49,6 @@ To observe how a resistor in series with a DC voltage source causes a voltage sh
 2. Adjustable Behavior:
    - Changing the resistor value or current demonstrates how the output voltage can be tuned.
 
-### Insights:
-
 - This setup demonstrates how a resistor and current source influence a DC voltage.
 - Use Tinkercad's simulation tools to observe voltage changes dynamically as you adjust values.
 
@@ -76,8 +78,6 @@ When a DC voltage source is connected in series with a resistor, and a current s
 
 \[ V_R = I \cdot R \]
 
-### Concepts:
-
 1. Voltage across the resistor (V_R):
    The current supplied by the current source (\(I\)) flows through the resistor (\(R\)), creating a voltage drop.
 
@@ -94,8 +94,6 @@ When a DC voltage source is connected in series with a resistor, and a current s
 
 3. Current source role:
    The current source ensures a constant current (\(I\)) through the resistor, making the voltage shift predictable based on the resistor's value.
-
-### Application:
 
 This setup is often used in circuits for biasing or offsetting a signal, where the resistor transforms the input voltage by an amount proportional to the current supplied by the current source.
 

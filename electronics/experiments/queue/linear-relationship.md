@@ -19,8 +19,6 @@ To plot linear and non-linear relationships involving a resistor and a diode, yo
 
 ### 1. Linear Relationship (Resistor: Ohm’s Law Experiment)
 
-- Objective:
-
 Demonstrate a linear relationship between voltage and current across a resistor.
 
 - Setup:

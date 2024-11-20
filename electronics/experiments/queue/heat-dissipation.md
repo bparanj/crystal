@@ -21,7 +21,9 @@ The use of resistors in electronic circuits, despite their energy-dissipating na
 
 The paradox arises because, although resistors dissipate energy (which seems wasteful), they also provide essential control over current, voltage, and signal processing that is difficult or impractical to achieve otherwise. This energy dissipation is a necessary trade-off for achieving stability, protection, and precise operation in electronic circuits.
 
-Energy Dissipation vs. Functional Necessity: The energy loss in resistors is a drawback, but the control and protection they provide make them indispensable.
+Energy Dissipation vs. Functional Necessity:
+
+The energy loss in resistors is a drawback, but the control and protection they provide make them indispensable.
 
 The energy dissipation by resistors is an acceptable compromise because they enable precise control, protection, and functionality in circuits that would otherwise be challenging to achieve. This paradox illustrates how resistors serve as a foundational component despite their inherent inefficiency.
 

@@ -22,7 +22,7 @@ To demonstrate that in a series circuit, voltage divides across inductors in pro
    - You should observe that the 100 mH inductor has a higher voltage drop compared to the 10 mH inductor.
    - This is because inductive reactance (\( X_L = 2 \pi f L \)) is proportional to the inductance, so the larger inductance will have a higher impedance, leading to a larger share of the voltage in the series circuit.
 
-In an AC series circuit, voltage divides across inductors in proportion to their inductance values. The larger the inductance, the more it "impedes" the AC current, which leads to a higher voltage drop across it. This is similar to how higher resistance in a resistor divider takes more voltage, but here it’s based on inductive reactance.
+In an AC series circuit, voltage divides across inductors in proportion to their inductance values. The larger the inductance, the more it impedes the AC current, which leads to a higher voltage drop across it. This is similar to how higher resistance in a resistor divider takes more voltage, but here it’s based on inductive reactance.
 
 The voltage across each inductor can be calculated with:
 

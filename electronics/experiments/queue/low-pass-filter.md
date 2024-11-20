@@ -1,6 +1,6 @@
 A low-pass filter allows lower frequencies to pass through while attenuating higher frequencies.
 
-A simple RC low-pass filter to observe how it filters out high frequencies and allows low frequencies to pass.
+A RC low-pass filter to observe how it filters out high frequencies and allows low frequencies to pass.
 
 For an RC low-pass filter, it does not matter if the capacitor is polarized or non-polarized, as long as the following conditions are met:
 

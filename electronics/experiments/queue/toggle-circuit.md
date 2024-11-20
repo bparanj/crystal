@@ -1,5 +1,9 @@
 NOT WORKING
 
+PENDING
+
+Move to out of scope folder
+
 To design a simple toggle circuit in Tinkercad, you can use a push button, a transistor, and a flip-flop-like arrangement using basic components. Here’s a step-by-step guide to build it:
 
 ### Components Needed:

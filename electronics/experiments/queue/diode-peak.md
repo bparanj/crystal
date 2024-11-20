@@ -1,4 +1,4 @@
-The paradox of a diode peak detector arises from the conflict between the ideal behavior of the circuit and the practical limitations of real components, particularly the voltage source and the diode. Here’s the detailed explanation:
+The paradox of a diode peak detector arises from the conflict between the ideal behavior of the circuit and the practical limitations of real components, particularly the voltage source and the diode.
 
 ### The Paradox: Voltage Source and Load Mismatch
 

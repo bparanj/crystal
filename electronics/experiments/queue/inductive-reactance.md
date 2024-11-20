@@ -9,7 +9,6 @@ Materials:
 - Inductor (e.g., 100 mH)
 - Resistor (e.g., 100 ohms)
 - Oscilloscope
-- Connecting wires
 
 Procedure:
 

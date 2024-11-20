@@ -1,4 +1,4 @@
-A simple experiment to create and observe an RC Integrator Circuit in Tinkercad. An RC Integrator circuit produces an output voltage that represents the integral of the input signal over time, effectively “smoothing” it. Here’s a step-by-step guide to build and test this in Tinkercad.
+experiment to create and observe an RC Integrator Circuit in Tinkercad. An RC Integrator circuit produces an output voltage that represents the integral of the input signal over time, effectively “smoothing” it. Here’s a step-by-step guide to build and test this in Tinkercad.
 
 ### Components
 
@@ -6,7 +6,6 @@ A simple experiment to create and observe an RC Integrator Circuit in Tinkercad.
 2. Capacitor: 10 µF
 3. Function Generator: To provide an AC square wave signal (simulated with Tinkercad’s voltage source)
 4. Oscilloscope: To observe the input and output waveforms (in Tinkercad, you can view the voltages over time with the multimeter in time-based display mode)
-5. Breadboard and Connecting Wires
 
 ### Steps
 
@@ -36,4 +35,4 @@ When the input square wave is high, the capacitor charges, causing the output vo
 An RC Integrator circuit produces a smooth, integrated output when given a square wave input, demonstrating its role in smoothing or averaging signals.
 This circuit is a foundational concept for understanding signal processing, where integrators are used to create smooth waveforms or as basic elements in filters.
 
-This simple experiment demonstrates how RC integrator circuits respond to changing input signals, highlighting their application in signal smoothing and filtering in electronic circuits.
+experiment demonstrates how RC integrator circuits respond to changing input signals, highlighting their application in signal smoothing and filtering in electronic circuits.

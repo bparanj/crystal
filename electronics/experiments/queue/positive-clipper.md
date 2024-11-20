@@ -1,6 +1,9 @@
 A positive clipper circuit allows only the negative portion of an AC signal to pass through by clipping (cutting off) the positive part at a certain voltage level. You can build a simple positive clipper circuit in Tinkercad to demonstrate this concept.
 
+PENDING
+
 Is this the same: https://www.tinkercad.com/things/1lI66BoVYWB-biased-series-clipper-circuit-positive
+Is this complete?
 
 ### Components:
 
@@ -27,7 +30,7 @@ Is this the same: https://www.tinkercad.com/things/1lI66BoVYWB-biased-series-cli
 
 ### Steps:
 
-   - Start the simulation in Tinkercad.
+   - Start the simulation
    - Set the AC source to a small amplitude, like 5V peak-to-peak, and a moderate frequency (e.g., 50 Hz) to easily observe the waveform.
 
    - Observe the input waveform on one channel of the oscilloscope and the output waveform on the other.

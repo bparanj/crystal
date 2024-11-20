@@ -80,9 +80,9 @@ Charging a capacitor to its maximal or minimal value involves configuring the ci
 3. Applications:
    - Used in filters, energy storage, timers, and signal smoothing.
 
-This experiment can be easily simulated in Tinkercad, where you can visualize the capacitor's charging and discharging behavior by monitoring the voltage over time with the multimeter.
+This experiment can be simulated in Tinkercad, you can visualize the capacitor's charging and discharging behavior by monitoring the voltage over time with the multimeter.
 
-The circuit you described is commonly called an RC (Resistor-Capacitor) Circuit. Depending on its specific configuration and purpose, it can be referred to more specifically as:
+The circuit is called an RC (Resistor-Capacitor) Circuit. Depending on its specific configuration and purpose, it can be referred as:
 
 1. RC Charging Circuit: When the focus is on charging the capacitor through the resistor.
 2. RC Discharging Circuit: When the focus is on discharging the capacitor through a resistor or directly to ground.
@@ -147,7 +147,5 @@ Yes, a Peak Detector Circuit is different from a simple RC Circuit in purpose an
 | Diode              | Not required                   | Essential for peak detection    |
 | Output             | Varies with RC time constant    | Constant peak value             |
 | Applications       | Timers, filters, energy storage | Signal processing, measurements |
-
----
 
 while a Peak Detector may include an RC component (for discharge timing), its primary function and behavior differ significantly from a simple RC circuit.

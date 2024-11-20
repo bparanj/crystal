@@ -71,15 +71,11 @@ The total current is:
 I_{total} = |I_1 - I_2| = |2mA - 1mA| = 1mA
 \]
 
-### Insights
-
 - Replace ideal current sources with DC power supplies and adjust their voltages to control current using series resistors.
 - Use the ammeter tool in Tinkercad to measure the total current in the circuit.
 - Adjust source orientations for summing or subtracting current.
 
 ### Experiment 1: Summing Currents
-
-#### Objective:
 
 Demonstrate summing of currents by connecting two current sources in parallel with the same direction.
 
@@ -122,8 +118,6 @@ I_{total} = I_1 + I_2 = 2mA + 1mA = 3mA
 
 ### Experiment 2: Subtracting Currents
 
-#### Objective:
-
 Demonstrate subtracting of currents by connecting two current sources in parallel with opposing directions.
 
 #### Components:
@@ -165,8 +159,6 @@ The total current is the difference:
 I_{total} = |I_1 - I_2| = |2mA - 1mA| = 1mA
 \]
 
-### Notes
-
 - Use DC voltage sources to simulate current sources with series resistors.
 - Place an ammeter in the circuit to measure total current.
 - Adjust the resistors and polarities to switch between summing and subtracting scenarios.
@@ -177,5 +169,3 @@ Yes, modifications are needed for Tinkercad:
 2. Polarity Control: Reverse the orientation of one voltage source for the subtraction experiment.
 3. Measure Current: Use Tinkercad's ammeter tool to measure the current through the load resistor instead of directly summing currents.
 4. No Ideal Current Source: Use proper resistor values to control current through the simulated sources.
-
-These changes adapt the experiments to Tinkercad's simulation constraints.

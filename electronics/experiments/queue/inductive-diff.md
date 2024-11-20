@@ -1,4 +1,4 @@
-The paradox of an inductive differentiator lies in the behavior of the inductor and its interaction with the current source driving it. This circuit creates a situation that a current source "hates", leading to potential instability or inefficiency. Here’s the explanation:
+The paradox of an inductive differentiator lies in the behavior of the inductor and its interaction with the current source driving it. This circuit creates a situation that a current source "hates", leading to potential instability or inefficiency.
 
 ### The Paradox: Current Source and Inductor Interaction
 
@@ -94,7 +94,4 @@ Yes, modifications are needed for Tinkercad:
 2. Input Signal Simulation:
    - Use a manual switch to simulate low-frequency and high-frequency current changes by toggling it on/off rapidly or slowly.
 
-3. Measurement:
    - Use a voltmeter across the resistor to observe the voltage changes corresponding to the current signal.
-
-These adjustments make the experiment feasible in Tinkercad.

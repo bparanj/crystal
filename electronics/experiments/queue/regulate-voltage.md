@@ -41,7 +41,5 @@ The resistor's value determines the voltage drop, which impacts the voltage avai
 2. LEDs: A resistor ensures the correct operating voltage and current.
 3. Adjustable Voltage: Using a variable resistor (potentiometer) allows dynamic voltage control.
 
-### Insights:
-
 - The load connected to the circuit impacts the voltage regulation. For precise regulation, additional components like voltage regulators or Zener diodes are often used.
 - Voltage regulation with resistance alone is less efficient in high-power circuits due to energy loss as heat in the resistor.

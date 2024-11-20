@@ -106,6 +106,6 @@ This experiment demonstrates different aspects of impedance:
 
 3. The delay in circuit (c) when reconnecting demonstrates how impedance can affect the timing of electrical responses.
 
-This simple experiment helps visualize how impedance is more than just resistance. It shows how reactive components (like capacitors) can create time-dependent and frequency-dependent effects in circuits, which is a key aspect of impedance in AC circuits.
+This experiment helps visualize how impedance is more than just resistance. It shows how reactive components (like capacitors) can create time-dependent and frequency-dependent effects in circuits, which is a key aspect of impedance in AC circuits.
 
 To extend this experiment, use different capacitor values or add an inductor to explore inductive reactance as well. You could also use an oscilloscope to visualize the voltage changes across the capacitor over time.

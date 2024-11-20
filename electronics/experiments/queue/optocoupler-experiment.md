@@ -1,6 +1,8 @@
 A simple experiment to illustrate the concept of an optocoupler:
 
-https://www.tinkercad.com/things/3FjWHcOQcE3/editel
+PENDING
+
+Review https://www.tinkercad.com/things/3FjWHcOQcE3/editel
 
 Is optocoupler frequently used in electronic circuits
 

@@ -1,4 +1,4 @@
-Yes, this experiment can be set up and demonstrated in Tinkercad. Here's how to build and analyze the audio coupling circuit:
+experiment for audio coupling circuit:
 
 ### Circuit:
 
@@ -10,7 +10,7 @@ The coupling capacitor allows the AC audio signal from the function generator to
 
 - Power Supply:
   - Use a 9V battery for the circuit's DC bias.
-  
+
 - Biasing Resistor:
   - Connect a 10kΩ resistor from the positive terminal of the battery to the transistor's base.
 
@@ -90,7 +90,7 @@ This experiment is feasible in Tinkercad, and you can observe the described beha
 
 PENDING
 
-A simple audio coupling circuit demonstration that shows how a coupling capacitor passes audio signals while blocking DC.
+An audio coupling circuit demonstration that shows how a coupling capacitor passes audio signals while blocking DC.
 
 Components:
 

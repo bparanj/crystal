@@ -1,5 +1,7 @@
 First order RL circuit
 
+PENDING
+
 It this the same: https://www.tinkercad.com/things/0fsMDmFYYU2/editel
 
 a first-order RL circuit and an RL circuit refer to the same thing. The term first-order specifies that the circuit’s behavior is governed by a first-order differential equation, which applies to any RL circuit consisting of a single resistor and a single inductor.
@@ -27,7 +29,7 @@ First-order RL circuits are commonly used in:
 
 The term first-order emphasizes the mathematical nature of the circuit, describing the exponential response and time-dependent behavior due to the inductor.
 
-First-order RL circuit and an RL circuit refer to the same thing - a basic electrical circuit containing a resistor (R) and an inductor (L) connected in series. It's called "first-order" because:
+First-order RL circuit and an RL circuit refer to the same thing - a basic electrical circuit containing a resistor (R) and an inductor (L) connected in series. It's called first-order because:
 
 1. The circuit behavior is described by a first-order differential equation
 2. It has one energy storage element (the inductor)

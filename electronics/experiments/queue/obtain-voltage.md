@@ -33,8 +33,4 @@ V = I \times R = 2 \times 10 = 20 \, \text{V}
 3. Shunt Resistors:
    - Low-value resistors create small voltage drops to measure current without significant energy loss.
 
-### Insight:
-
 The polarity of the voltage depends on the current direction. Voltage appears positive on the terminal where current enters the resistor.
-
-Let me know if you'd like to explore a practical setup or examples with diagrams.

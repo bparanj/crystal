@@ -1,4 +1,4 @@
-A negative clamper circuit shifts the entire AC waveform downward, "clamping" the highest point of the signal to a lower voltage level, typically near zero or a set negative voltage. This experiment in Tinkercad will help you understand how a negative clamper works.
+A negative clamper circuit shifts the entire AC waveform downward, clamping the highest point of the signal to a lower voltage level, typically near zero or a set negative voltage. This experiment shows how a negative clamper works.
 
 ### Components:
 

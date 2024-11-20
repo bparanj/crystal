@@ -14,8 +14,6 @@ The paradox of a conducting wire connected across the leads of an inductor seemi
    - A conducting wire has near-zero resistance and no significant inductance. In contrast, the inductor has a significant impedance (\( Z = j\omega L \)), especially at higher frequencies.
    - AC current prefers the path of least impedance, which is the conducting wire. As a result, the inductor is effectively "shorted out," and no significant current flows through it.
 
-### Insights
-
 - AC Current Path Selection:
    - The conducting wire diverts the AC current because it provides a much easier path (low impedance) compared to the inductor.
 - Inductor Effectively Removed:
@@ -76,5 +74,3 @@ Yes, modifications are needed for Tinkercad:
 
 3. Simulate Inductor Shorting:
    - Connect a wire across the inductor to observe the current bypassing it, confirmed by measuring current or voltage across the inductor with a multimeter.
-
-These adjustments make the experiment feasible in Tinkercad.

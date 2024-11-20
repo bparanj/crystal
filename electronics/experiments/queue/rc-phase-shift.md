@@ -1,5 +1,9 @@
 Difficult with Tinkercad. Skip it.
 
+PENDING
+
+Move to out of scope folder
+
 Here is the step-by-step setup for your RC circuit with clear terminal connections:
 
 ### Step 1: Connect the Resistor to the AC Power Source
@@ -27,7 +31,6 @@ Here is the step-by-step setup for your RC circuit with clear terminal connectio
 - Take another LED (LED2):
   - Connect the anode (A2) of LED2 to C1 (capacitor terminal connected to the resistor).
   - Connect the cathode (K2) of LED2 to C2 (capacitor terminal connected to the negative terminal of the AC power source).
-
 
 ### Summary of Connections
 
@@ -70,6 +73,8 @@ To show the phase shift between voltage and current in an RC circuit.
    - This phase difference demonstrates that in an RC circuit, the current and voltage are not perfectly in phase. The current through the resistor leads the voltage across the capacitor, creating a phase shift.
 
 In an AC RC circuit, the voltage across the capacitor lags behind the current through the resistor due to the time it takes for the capacitor to charge and discharge. This lag causes a phase shift, where the current and voltage are no longer aligned in time.
+
+PENDING
 
 In this RC phase shift experiment:
 

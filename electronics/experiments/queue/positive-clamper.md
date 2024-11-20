@@ -1,6 +1,6 @@
 A positive clamper circuit shifts the entire waveform of an AC signal upward, clamping the lowest point of the signal to a higher voltage level (usually near zero or a set positive voltage).
 
-This experiment in Tinkercad demonstrates how a positive clamper works.
+This experiment demonstrates how a positive clamper works.
 
 ### Components:
 

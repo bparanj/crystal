@@ -1,6 +1,8 @@
-an electromagnetic armature relay experiment in Tinkercad:
+PENDING
 
-### Step-by-Step Guide:
+Run this experiment:
+
+an electromagnetic armature relay experiment in Tinkercad:
 
    - Open Tinkercad and start a new circuit project.
 
@@ -18,7 +20,7 @@ an electromagnetic armature relay experiment in Tinkercad:
    - Connect the cathode (negative leg) of the LED to one side of the resistor.
    - Connect the other side of the resistor to the negative terminal of the battery.
 
-   - Start the simulation in Tinkercad.
+   - Start the simulation.
    - When you toggle the switch, the relay should activate, allowing current to flow through the LED, causing it to light up.
 
 ### Diagram:

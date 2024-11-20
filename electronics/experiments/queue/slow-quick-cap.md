@@ -14,8 +14,7 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
      \tau_{discharge} = R_{discharge} \cdot C
      \]
 
-3. Diode Role:
-   - A diode ensures the capacitor uses separate paths for charging and discharging by directing the current flow.
+A diode ensures the capacitor uses separate paths for charging and discharging by directing the current flow.
 
 ### Experiment
 
@@ -26,10 +25,9 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
 3. Resistors:
    - \( R_{charge} = 10k\Omega \).
    - \( R_{discharge} = 1k\Omega \).
-4. Diode (e.g., 1N4148 or similar).
+4. Diode (e.g., 1N4148).
 5. Push-button switch (to trigger discharging).
 6. Multimeter (to monitor capacitor voltage).
-7. Breadboard and wires.
 
 ### Setup:
 
@@ -41,8 +39,7 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
    - Connect \( R_{discharge} \) in parallel with the capacitor through a push-button switch.
    - The diode prevents discharge through \( R_{charge} \).
 
-3. Voltage Measurement:
-   - Place the multimeter across the capacitor to monitor its voltage.
+Place the multimeter across the capacitor to monitor its voltage.
 
 ### Steps:
 
@@ -75,15 +72,10 @@ The "slowly charging, quickly discharging" behavior is a common characteristic o
 3. Time Constant Comparison:
    - Charging time constant (\( \tau_{charge} = R_{charge} \cdot C \)) is much larger than discharging time constant (\( \tau_{discharge} = R_{discharge} \cdot C \)).
 
-### Insights:
-
-1. Applications:
    - This behavior is common in circuits like camera flashes, pulse generators, or debouncing switches.
 
-2. Diode Role:
    - The diode ensures separate charge/discharge paths, allowing different time constants.
 
-3. Adjusting Behavior:
    - Modify \( R_{charge} \) and \( R_{discharge} \) to tune the charging and discharging rates.
 
-This circuit is straightforward to build and simulate in Tinkercad, where you can visualize the capacitor's voltage over time and experiment with different component values.
+you can visualize the capacitor's voltage over time and experiment with different component values.

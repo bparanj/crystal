@@ -3,8 +3,6 @@ Here are three simple experiments designed to demonstrate Ohm's Law, which state
 
 ### 1. Basic Verification of Ohm's Law
 
-Objective:
-
 Demonstrate the relationship between voltage, current, and resistance in a simple circuit.
 
 Materials:
@@ -32,8 +30,6 @@ Procedure:
 
 ### 2. Varying Voltage to Observe Changes in Current
 
-Objective:
-
 Show how changing the voltage across a resistor affects the current, verifying Ohm’s Law.
 
 Materials:
@@ -59,8 +55,6 @@ Procedure:
    - This experiment shows that as you increase the voltage, the current increases proportionally, confirming that \( V = IR \).
 
 ### 3 Varying Resistance to Observe Changes in Current
-
-Objective:
 
 Demonstrate how changing the resistance in a circuit affects the current, in accordance with Ohm’s Law.
 
@@ -91,4 +85,4 @@ Procedure:
 - Experiment 2: Demonstrates how changing the voltage affects the current in a resistor, confirming the proportional relationship.
 - Experiment 3: Shows the effect of changing resistance on current for a constant voltage, illustrating the inverse relationship described by Ohm’s Law.
 
-These experiments provide a hands-on demonstration of the principles behind Ohm's Law, helping to solidify understanding of the relationship between voltage, current, and resistance.
+These experiments demonstrates the principles behind Ohm's Law, helping to solidify understanding of the relationship between voltage, current, and resistance.

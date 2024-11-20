@@ -1,4 +1,8 @@
 
+PENDING
+
+Move this to out of scope folder
+
 May not be that clear on Tinkercad
 
 Yes, a snubber circuit is sometimes referred to as a "transient suppression circuit" or "spike suppression circuit." These terms all highlight the snubber circuit’s role in absorbing and dissipating energy spikes or transients to protect other components in the circuit.
@@ -9,11 +13,11 @@ A snubber circuit is typically used to suppress voltage spikes across a switch o
 
 ### Components:
 
-1. DC Power Source: 12V DC power supply.
+1. 12V DC power supply.
 2. Switch: To control when the snubber circuit is engaged.
-3. Inductive Load: An inductor (e.g., 10 mH) to simulate the inductive load, such as a motor or relay coil.
-4. Resistor: 100 Ω resistor.
-5. Capacitor: 0.1 µF capacitor.
+3. An inductor (e.g., 10 mH) to simulate the inductive load, such as a motor or relay coil.
+4. 100 Ω resistor.
+5.  0.1 µF capacitor.
 6. Oscilloscope: To observe voltage spikes across the switch.
 
 ### Setup:

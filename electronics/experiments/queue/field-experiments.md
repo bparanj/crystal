@@ -4,8 +4,6 @@ Which of these experiments can be done using Tinkercad?
 
 ### 1. Experiment 1: Electric Field Inside a Circuit (Capacitor)
 
-Objective:
-
 Demonstrate the presence of an electric field in a capacitor within an electronic circuit.
 
 Materials:
@@ -28,8 +26,6 @@ Use the multimeter to measure the voltage across the capacitor's terminals. This
 The electric field is established between the plates due to the potential difference provided by the battery. This field exists only as long as the capacitor is connected to the battery.
 
 ### 2. Experiment 2: Electrostatic Field Inside a Circuit (Charged Capacitor)
-
-Objective:
 
 Demonstrate the presence of an electrostatic field in a charged capacitor disconnected from the circuit.
 
@@ -57,8 +53,6 @@ The charges on the capacitor’s plates are stationary, creating an electrostati
 
 ### 3. Experiment 3: Electric Field in the Real World (Van de Graaff Generator)
 
-Objective:
-
 Demonstrate the presence of an electric field in the real world outside of circuits.
 
 Materials:
@@ -80,8 +74,6 @@ Place small metallic objects like aluminum foil strips on top of the dome. The e
 The Van de Graaff generator creates a strong electric field around its dome. This field influences nearby charges, causing the metallic strips to repel each other and align with the field lines.
 
 ### 4. Experiment 4: Electrostatic Field in the Real World (Balloon and Hair)
-
-Objective:
 
 Demonstrate the presence of an electrostatic field in the real world.
 

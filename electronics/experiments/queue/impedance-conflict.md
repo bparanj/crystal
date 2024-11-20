@@ -99,5 +99,3 @@ Yes, modifications are needed for Tinkercad:
 2. Experiment 2 (Good Current Load as Bad Voltage Load):
    - Use a 1 Ω resistor with the DC power source in voltage mode.
    - Measure the high current draw and observe potential voltage drop, simulating instability for a voltage source.
-
-These modifications allow the experiments to run in Tinkercad.
