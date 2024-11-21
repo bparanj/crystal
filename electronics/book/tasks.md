@@ -3,12 +3,10 @@ Run experiments in book/basics folder
 Create a separate document for playing with oscilloscope settings.
 
 
-
 Run experiment voltage-current.md in resistive-circuit folder.
 
 25.md Add images e1 to e8 and describe those steps. Missing images. Not making any sense. Review and revise.
 
-33.md Capacitor AC Pass (see capacitor ac pass folder for images)
 34.md RC High Pass Filter
 
 20.md -> Break it down brandy with falstad.
