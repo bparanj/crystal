@@ -1,7 +1,5 @@
 ### **Demonstrate Polarity and Rectification**
 
-#### **Objective**
-
 Demonstrate the importance of **polarity** for an LED and how it acts as a **rectifier**, allowing current to flow in only one direction when connected to an AC source.
 
 ### **Components**

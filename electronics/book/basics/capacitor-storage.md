@@ -1,6 +1,6 @@
-### **Energy Storage in Capacitor**
+This is already covered in 7.md.
 
-#### **Objective**
+### **Energy Storage in Capacitor**
 
 Demonstrate how a capacitor stores and releases energy by observing its charging and discharging behavior.
 
@@ -9,7 +9,6 @@ Demonstrate how a capacitor stores and releases energy by observing its charging
 1. **Battery** (e.g., 9V or 3V coin cell)
 2. **Electrolytic Capacitor** (e.g., 1000 µF, 16V)
 3. **LED**
-4. **Jumper Wires** (optional for neat connections)
 
 ### **Concept**
 
@@ -46,7 +45,7 @@ A capacitor temporarily stores energy in the form of an electric field and can r
 1. **Energy Storage and Release:**
    - The capacitor stores energy when connected to the battery.
    - It releases this stored energy when connected to the LED.
-   
+
 2. **Charging and Discharging:**
    - Capacitors take a finite time to charge and discharge, depending on their capacitance and the circuit's resistance.
 

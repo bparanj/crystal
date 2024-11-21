@@ -1,6 +1,6 @@
 ### **Demonstrate Capacitor Passing AC**
 
-#### **Objective**
+This is already complete in capacitor-ac-pass
 
 Demonstrate how a capacitor blocks direct current (DC) but allows alternating current (AC) to pass through.
 

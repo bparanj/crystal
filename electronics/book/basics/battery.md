@@ -1,6 +1,8 @@
 ### **Voltage as Electrical Potential**
 
-#### **Objective**
+PENDING
+
+Step 2 connections are not clear.
 
 Demonstrate the concept of **voltage** as the driving force behind the flow of current in a circuit.
 

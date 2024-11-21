@@ -18,15 +18,16 @@ Polarity is fundamental for achieving directional control and functionality in e
 
 #### **Objective**
 
+PENDING
+
+This is already demonstrated in 9.md using diode and LED.
+
 Demonstrate the concept of **polarity** and how it affects the functioning of an LED.
 
 ### **Components**
 
 1. **Battery** (e.g., 3V coin cell or 9V)
 2. **Red LED**
-3. **Jumper Wires** (optional for neat connections)
-
-### **Concept**
 
 An LED (Light Emitting Diode) is a polarized component. It allows current to flow in only one direction:
 - **Forward Bias:** The LED lights up when the **anode** (long leg) is connected to the battery's positive terminal and the **cathode** (short leg) is connected to the negative terminal.

@@ -1,6 +1,10 @@
-### **Half-Wave Rectification**
+Check biz account Have Wave Rectifier
 
-#### **Objective**
+Resistor
+Diode
+Oscilloscopes to observe the input and output
+
+### **Half-Wave Rectification**
 
 Demonstrate how a diode allows current to flow in only one direction by converting an AC signal into a pulsating DC signal through **half-wave rectification**.
 
@@ -16,16 +20,14 @@ A diode acts as a one-way valve for current. In an AC circuit, it allows only th
 
 ### **Steps**
 
-#### Step 1: 
+#### Step 1:
 
 1. Connect one terminal of the AC power source to the **anode** of the diode.
 2. Connect the **cathode** of the diode to one terminal of the bulb or LED (with resistor if required).
-3. Connect the other terminal of the bulb or LED to the second terminal of the AC power source.
 
 #### Step 2: Run the Experiment
 
 1. Turn on the AC power source.
-2. Observe the bulb or LED.
 
 ### **Observation**
 

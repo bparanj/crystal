@@ -2,6 +2,7 @@ Run experiments in book/basics folder
 
 Create a separate document for playing with oscilloscope settings.
 
+Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
 
 Run experiment voltage-current.md in resistive-circuit folder.
 

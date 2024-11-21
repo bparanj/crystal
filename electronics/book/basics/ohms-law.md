@@ -1,6 +1,8 @@
 ### **Demonstrate Ohm’s Law**
 
-#### **Objective**
+PENDING
+
+Run experiment
 
 Demonstrate **Ohm’s Law**—the relationship between voltage, current, and resistance in a circuit.
 
@@ -9,8 +11,6 @@ Demonstrate **Ohm’s Law**—the relationship between voltage, current, and res
 1. **Battery** (e.g., 9V)
 2. **Resistor** (e.g., \(1 \, \text{k}\Omega\))
 3. **Multimeter** (to measure current and voltage)
-
-### **Concept**
 
 Ohm’s Law states:
 \[
@@ -25,7 +25,7 @@ This experiment shows how increasing resistance decreases current and how voltag
 
 ### **Steps**
 
-#### Step 1: 
+#### Step 1:
 
 1. Connect one terminal of the **resistor** to the positive terminal of the **battery**.
 2. Connect the other terminal of the resistor to the **negative terminal** of the battery.

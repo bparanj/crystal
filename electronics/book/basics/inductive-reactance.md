@@ -1,6 +1,8 @@
 ### **Inductive Reactance**
 
-#### **Objective**
+PENDING
+
+This is already done. Take screenshots. Check biz account.
 
 Demonstrate the property of **inductive reactance**, showing how an inductor resists changes in current in an AC circuit.
 
@@ -22,13 +24,13 @@ Where:
 
 ### **Steps**
 
-#### Step 1: 
+#### Step 1:
 
 1. Connect one terminal of the AC power source to one terminal of the inductor.
 2. Connect the other terminal of the inductor to one terminal of the incandescent bulb.
 3. Complete the circuit by connecting the other terminal of the bulb to the AC power source.
 
-#### Step 2: Run the Experiment
+#### Step 2:
 
 1. Power the circuit with the AC source.
 2. Observe the brightness of the bulb.
