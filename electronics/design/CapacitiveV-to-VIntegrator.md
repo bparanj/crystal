@@ -52,7 +52,7 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Assemble the circuit on the breadboard as described.
 
 2. Apply Input Signal:

@@ -46,7 +46,7 @@ To design and simulate a pulse shortening circuit using an RC differentiator and
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit as described above.
 
 2. Configure Input Signal:

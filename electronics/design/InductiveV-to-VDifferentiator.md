@@ -53,7 +53,7 @@ To design and simulate an Inductive V-to-V Differentiator and observe how the ou
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Assemble the circuit on the breadboard as described.
 
 2. Apply Input Signal:

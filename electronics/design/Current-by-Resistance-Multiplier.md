@@ -51,7 +51,7 @@ To design and simulate a Current-by-Resistance Multiplier using an operational a
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit as described above, ensuring correct polarity and connections.
 
 2. Apply Input Current:

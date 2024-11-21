@@ -17,7 +17,7 @@ An inductor resists changes in current. When the current flowing through an indu
 
 ### **Steps**
 
-#### Step 1: Assemble the Circuit
+#### Step 1: 
 
 1. Connect the **negative terminal** of the battery to one terminal of the **inductor**.
 2. Connect the other terminal of the inductor to the **anode** (longer leg) of the **LED**.

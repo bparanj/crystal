@@ -19,7 +19,7 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit:
+1. :
 
    - Connect the collector of the transistor to the positive terminal of the battery through the 1 kΩ resistor.
    - Connect the emitter directly to the negative terminal of the battery.

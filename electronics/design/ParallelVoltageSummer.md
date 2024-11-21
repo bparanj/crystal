@@ -51,7 +51,7 @@ To design and simulate a Parallel Voltage Summer circuit using an operational am
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Assemble the circuit on the breadboard as described.
 
 2. Apply Input Voltages:

@@ -58,7 +58,7 @@ To design and simulate a unipolar varying voltage source and observe its behavio
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the ramp generator or sinusoidal source as described above.
 
 2. Observe Output:

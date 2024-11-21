@@ -71,7 +71,7 @@ To design and simulate a Resistance-to-Voltage Converter and observe how the out
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit as described above.
    - Use the potentiometer to simulate varying resistance.
 

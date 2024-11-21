@@ -49,7 +49,7 @@ To design and simulate an R1(R2)-to-Voltage Converter and observe how the output
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit as described above.
 
 2. Apply Input Voltage:

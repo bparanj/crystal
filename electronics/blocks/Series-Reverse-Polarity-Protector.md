@@ -38,7 +38,7 @@ To design and simulate a Series Reverse Polarity Protector circuit and observe h
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Assemble the components in Tinkercad as described above.
 
 2. Correct Polarity Test:

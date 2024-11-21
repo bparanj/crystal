@@ -18,7 +18,7 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit: Connect the signal generator to a series circuit consisting of the resistor and capacitor. Connect the output of this circuit to the speaker or buzzer.
+1. : Connect the signal generator to a series circuit consisting of the resistor and capacitor. Connect the output of this circuit to the speaker or buzzer.
 2. Set the Signal Generator: Set the signal generator to produce a low-frequency AC signal (e.g., 1 Hz). The speaker should produce a sound corresponding to the frequency.
 3. Increase the Frequency: Gradually increase the frequency of the signal generator to higher frequencies (e.g., 100 Hz, 1 kHz, etc.). Observe the sound produced by the speaker.
 

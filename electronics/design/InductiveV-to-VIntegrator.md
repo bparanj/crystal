@@ -55,7 +55,7 @@ To design and simulate an Inductive V-to-V Integrator and observe how the output
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit on a breadboard as described.
 
 2. Apply Input Voltage:

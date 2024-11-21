@@ -44,7 +44,7 @@ To design and simulate a 3-State Zero LED Indicator that uses diodes and LEDs to
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit on a breadboard in Tinkercad as described above.
 
 2. Apply Positive Voltage:

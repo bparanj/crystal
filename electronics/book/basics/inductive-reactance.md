@@ -22,7 +22,7 @@ Where:
 
 ### **Steps**
 
-#### Step 1: Assemble the Circuit
+#### Step 1: 
 
 1. Connect one terminal of the AC power source to one terminal of the inductor.
 2. Connect the other terminal of the inductor to one terminal of the incandescent bulb.
@@ -45,4 +45,4 @@ Where:
 2. **Frequency Dependence:**
    - The resistance to current (reactance) increases with higher frequencies.
 
-This experiment directly demonstrates the frequency-dependent behavior of an inductor in an AC circuit with minimal components, emphasizing its fundamental role in opposing current changes.
+This experiment demonstrates the frequency-dependent behavior of an inductor in an AC circuit and shows how it opposes current changes.

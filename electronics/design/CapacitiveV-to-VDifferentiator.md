@@ -51,7 +51,7 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit on a breadboard as described.
 
 2. Apply Input Signal:

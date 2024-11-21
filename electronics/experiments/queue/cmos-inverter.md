@@ -66,7 +66,7 @@ To show how a CMOS inverter creates a low-impedance path and draws significant c
 
 #### Steps:
 
-1. Set Up the Circuit:
+1. :
    - Connect the power supply (\( V_{DD} \)) to the CMOS inverter’s power pin and ground (\( V_{SS} \)) to its ground pin.
    - Insert a 10 Ω resistor in series with the \( V_{DD} \) line to monitor the current supplied to the inverter.
    - Connect the output of the signal generator to the input of one inverter gate on the IC.

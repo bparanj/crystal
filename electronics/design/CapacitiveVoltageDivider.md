@@ -52,7 +52,7 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Assemble the capacitors and voltage source on the breadboard as described.
 
 2. Apply Input Signal:

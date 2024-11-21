@@ -55,7 +55,7 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit: Connect the battery, coil, and LED in series, with the switch in the circuit. The circuit should be: Battery -> Coil -> LED -> Switch -> Battery.
+1. : Connect the battery, coil, and LED in series, with the switch in the circuit. The circuit should be: Battery -> Coil -> LED -> Switch -> Battery.
 2. Observe the LED: Close the switch to allow current to flow through the circuit. The LED should light up as the current flows through the coil.
 3. Open the Switch Suddenly: Open the switch suddenly and observe the LED.
 4. Observe the Kickback: When the switch is opened, the LED may briefly flash brighter due to the inductive kickback. The energy stored in the coil’s magnetic field is released rapidly when the current is interrupted.

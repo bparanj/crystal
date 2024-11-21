@@ -16,7 +16,7 @@ A diode acts as a one-way valve for current. In an AC circuit, it allows only th
 
 ### **Steps**
 
-#### Step 1: Assemble the Circuit
+#### Step 1: 
 
 1. Connect one terminal of the AC power source to the **anode** of the diode.
 2. Connect the **cathode** of the diode to one terminal of the bulb or LED (with resistor if required).

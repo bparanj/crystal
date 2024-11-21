@@ -35,7 +35,7 @@ To design and simulate a Voltage-to-Current Converter (V-I Converter) in Tinkerc
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit in Tinkercad as per the configuration above.
 
 2. Apply Input Voltage:

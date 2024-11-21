@@ -52,7 +52,7 @@ To design and simulate a Current-to-Voltage Converter using an op-amp and observ
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit as per the configuration above, ensuring proper polarity for the current source.
 
 2. Apply Input Current:

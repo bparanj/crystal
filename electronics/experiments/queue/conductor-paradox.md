@@ -105,7 +105,7 @@ To show that a low-value resistor can behave similarly to a conductor by allowin
 
 #### Steps:
 
-1. Set Up the Circuit:
+1. :
    - Connect the 1 Ω resistor in series with the LED and 220 Ω resistor to the 9V battery.
    - Connect the LED-resistor combination across the 1 Ω resistor.
 

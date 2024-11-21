@@ -65,7 +65,7 @@ To design and simulate a Voltage-by-Ratio Multiplier using an operational amplif
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Assemble the circuit as described.
 
 2. Apply Input Voltage:

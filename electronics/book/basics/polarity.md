@@ -17,8 +17,8 @@ Polarity is fundamental for achieving directional control and functionality in e
 ### **Demonstrate Polarity**
 
 #### **Objective**
-Demonstrate the concept of **polarity** and how it affects the functioning of an LED.
 
+Demonstrate the concept of **polarity** and how it affects the functioning of an LED.
 
 ### **Components**
 
@@ -56,4 +56,4 @@ An LED (Light Emitting Diode) is a polarized component. It allows current to flo
 2. **Direction of Current Flow:** Current flows from the anode to the cathode in forward bias, not in reverse bias.
 3. **Practicality of Polarity:** Understanding polarity is critical when designing circuits with diodes, LEDs, and other polarized components.
 
-This simple experiment introduces the foundational concept of polarity in electronics.
+This experiment introduces the basic concept of polarity in electronics.

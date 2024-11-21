@@ -31,7 +31,7 @@ Capacitors block DC but allow AC to pass by continuously charging and dischargin
 
 ### **Observation**
 
-- With AC: The LED or bulb lights up, indicating that the capacitor allows AC to pass by continuously charging and discharging with the alternating voltage.
+With AC, The LED or bulb lights up, indicating that the capacitor allows AC to pass by continuously charging and discharging with the alternating voltage.
 
 ### **Concepts Demonstrated**
 
@@ -45,5 +45,5 @@ Capacitors block DC but allow AC to pass by continuously charging and dischargin
 - Capacitors are used in AC circuits for signal coupling, filtering, and timing applications.
 - The principle is critical in designing circuits like high-pass filters and AC coupling in audio and RF systems.
 
-This experiment provides a simple yet profound demonstration of a capacitor's fundamental behavior in AC and DC circuits.
+This experiment demonstrates capacitor's basic behavior in AC circuits.
 

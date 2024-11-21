@@ -54,7 +54,7 @@ To design and simulate an R/2R Ladder DAC with current output and observe the re
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Connect the R/2R ladder as described.
    - Attach SPDT switches to simulate the binary inputs (e.g., \( D2, D1, D0 \)).
 

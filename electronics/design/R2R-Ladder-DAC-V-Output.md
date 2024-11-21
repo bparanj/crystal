@@ -61,7 +61,7 @@ To design and simulate an R/2R Ladder DAC (Voltage Output) using Tinkercad and d
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the R/2R ladder as described.
    - Connect SPDT switches to simulate binary inputs.
 

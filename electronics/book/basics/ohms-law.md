@@ -25,7 +25,7 @@ This experiment shows how increasing resistance decreases current and how voltag
 
 ### **Steps**
 
-#### Step 1: Set Up the Circuit
+#### Step 1: 
 
 1. Connect one terminal of the **resistor** to the positive terminal of the **battery**.
 2. Connect the other terminal of the resistor to the **negative terminal** of the battery.
@@ -73,4 +73,4 @@ This experiment shows how increasing resistance decreases current and how voltag
 2. **Current Limiting:** Importance of resistance to control current flow.
 3. **Power Dissipation:** The resistor converts electrical energy into heat, demonstrating energy transformation.
 
-This simple experiment is foundational for understanding basic electronics and circuit behavior.
+This experiment is basic for understanding electronic circuit behavior.

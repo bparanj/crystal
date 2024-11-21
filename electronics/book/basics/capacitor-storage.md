@@ -14,6 +14,7 @@ Demonstrate how a capacitor stores and releases energy by observing its charging
 ### **Concept**
 
 A capacitor temporarily stores energy in the form of an electric field and can release it when needed. This experiment shows:
+
 - How a capacitor charges from a power source.
 - How it discharges and powers an LED when disconnected from the battery.
 
@@ -52,4 +53,4 @@ A capacitor temporarily stores energy in the form of an electric field and can r
 3. **Temporary Power Supply:**
    - The capacitor acts as a temporary power source, lighting the LED briefly even after the battery is removed.
 
-This simple experiment introduces the core functionality of capacitors as energy storage components in electronic circuits.
+This experiment demonstrates the basic functionality of capacitors as energy storage components in electronic circuits.

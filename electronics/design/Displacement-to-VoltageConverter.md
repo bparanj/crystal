@@ -58,7 +58,7 @@ To design and simulate a Displacement-to-Voltage Converter using a potentiometer
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit on a breadboard as described above.
 
 2. Apply Input Voltage:

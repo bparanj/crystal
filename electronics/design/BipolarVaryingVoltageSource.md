@@ -52,7 +52,7 @@ To design and simulate a bipolar varying voltage source using a function generat
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit for either square wave or sine wave generation.
 
 2. Apply Power Supply:

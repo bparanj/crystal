@@ -40,7 +40,7 @@ a simple oscillator circuit can demonstrate how oscillators generate a periodic 
    - Connect Pin 3 (OUTPUT) of the 555 timer to the anode of the LED.
    - Connect a 220Ω resistor from the cathode of the LED to the ground rail to limit the current.
 
-8. Complete the Circuit:
+8. :
    - Optionally, connect a small capacitor (e.g., 0.1µF) between Pin 5 (CONTROL) and the ground rail to stabilize the timer's output frequency.
 
 9. Run the Circuit:

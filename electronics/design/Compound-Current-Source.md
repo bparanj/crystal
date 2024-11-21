@@ -120,7 +120,7 @@ To design and simulate a compound current source using a cascode configuration a
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit in Tinkercad as described above.
    - Ensure proper connections for Q1 and Q2, and verify \( R_{ref} = 1k\Omega \).
 

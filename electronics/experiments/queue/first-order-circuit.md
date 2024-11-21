@@ -18,7 +18,7 @@ Can this be done using Tinkercad?
    - Connect one terminal of the resistor to the positive terminal of the 5V DC power source.
    - Connect the other terminal of the resistor to one terminal of the capacitor.
 
-2. Complete the Circuit with the Switch:
+2.  with the Switch:
    - Connect the other terminal of the capacitor to ground.
    - Place a switch in parallel with the capacitor. This switch will allow you to toggle between charging and discharging the capacitor.
 

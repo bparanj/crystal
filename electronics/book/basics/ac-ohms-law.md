@@ -24,7 +24,7 @@ Where:
 
 ### **Steps**
 
-#### Step 1: Set Up the Circuit
+#### Step 1: 
 
 1. Connect one terminal of the **resistor** to one terminal of the **AC power source**.
 2. Connect the other terminal of the resistor to the other terminal of the power source.

@@ -27,7 +27,7 @@ Here are the steps to create a simple circuit demonstrating how a fuse works:
    - Connect the other end of the resistor to the anode (long leg) of the LED.
    - Connect the cathode (short leg) of the LED to the ground rail (negative terminal of the battery).
 
-4. **Complete the Circuit**: Connect the ground rail of the breadboard to the negative terminal of the battery.
+4. ****: Connect the ground rail of the breadboard to the negative terminal of the battery.
 
 5. **Test the Circuit**: The LED should light up, indicating the current is flowing through the fuse properly.
 

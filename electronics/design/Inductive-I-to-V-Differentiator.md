@@ -54,7 +54,7 @@ To design and simulate an Inductive I-to-V Differentiator and observe how the ou
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit as described, ensuring correct connections for the inductor and resistor.
 
 2. Apply Input Current:

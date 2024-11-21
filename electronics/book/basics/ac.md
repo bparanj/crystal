@@ -17,7 +17,7 @@ Demonstrate the alternating nature of AC (Alternating Current) by observing a li
 
 ### **Steps**
 
-#### Step 1: Set Up the Circuit
+#### Step 1: 
 
 1. Connect one terminal of the **light bulb** to one terminal of the **AC power source**.
 2. Connect the other terminal of the bulb to the other terminal of the power source.

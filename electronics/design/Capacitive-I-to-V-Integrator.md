@@ -63,7 +63,7 @@ To design and simulate a Capacitive I-to-V Integrator and demonstrate how the ou
 
 ### Steps
 
-1. Set Up the Circuit:
+1. :
    - Build the circuit as described above, ensuring proper connections and polarity.
 
 2. Apply Input Current:

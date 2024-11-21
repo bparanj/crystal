@@ -14,7 +14,7 @@ Materials:
 
 Procedure:
 
-1. Set Up the Circuit: 
+1. : 
 
 Connect the capacitor and resistor in series with the AC power supply.
 
