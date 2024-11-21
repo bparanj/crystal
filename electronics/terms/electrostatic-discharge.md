@@ -112,7 +112,7 @@ Materials are ranked in a triboelectric series based on their tendency to gain o
 
 5. Applications and Effects:
 
-   - Practical Applications: The triboelectric effect is used in various applications such as electrostatic painting, xerography (photocopying), and certain types of sensors.
+   - Applications: The triboelectric effect is used in various applications such as electrostatic painting, xerography (photocopying), and certain types of sensors.
    - Electrostatic Discharge (ESD): The triboelectric effect can cause ESD, which can damage electronic components.
 
 6. Factors Affecting the Triboelectric Effect:

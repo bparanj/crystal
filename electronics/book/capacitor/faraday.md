@@ -103,7 +103,7 @@ Similar to Money:
    - 1 Faraday = 96,485 Coulombs
    - Represents charge of one mole of electrons
 
-Practical Applications:
+Applications:
 
 1. Coulombs used for:
    - Electronics

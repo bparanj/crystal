@@ -111,7 +111,7 @@ def explain_electric_field():
        - Capacitors: ~1,000,000 V/m
        - Inside atoms: ~10¹¹ V/m
 
-    4. Practical Applications:
+    4. Applications:
        a) Electronic Devices:
           - Capacitors
           - Electron microscopes
@@ -252,7 +252,7 @@ def explain_electric_field():
        - Capacitors: ~1,000,000 V/m
        - Inside atoms: ~10¹¹ V/m
 
-    4. Practical Applications:
+    4. Applications:
        a) Electronic Devices:
           - Capacitors
           - Electron microscopes

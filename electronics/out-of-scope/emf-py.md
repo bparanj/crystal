@@ -103,7 +103,7 @@ def explain_emf():
        - Can be AC or DC
        - Determines maximum possible voltage
        
-    4. Practical Applications:
+    4. Applications:
        a) Power Generation:
           - Electric generators
           - Solar panels
@@ -281,7 +281,7 @@ def explain_emf():
        - Can be AC or DC
        - Determines maximum possible voltage
        
-    4. Practical Applications:
+    4. Applications:
        a) Power Generation:
           - Electric generators
           - Solar panels

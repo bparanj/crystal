@@ -113,7 +113,7 @@ I've created a complete experimental setup that includes both simulation code an
 - Shows exponential relationship in forward bias
 - Demonstrates near-zero current in reverse bias
 
-3. Practical Experiment Setup:
+3. Practical Setup:
 
 - Lists required equipment
 - Provides step-by-step instructions

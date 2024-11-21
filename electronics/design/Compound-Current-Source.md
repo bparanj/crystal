@@ -150,7 +150,7 @@ To design and simulate a compound current source using a cascode configuration a
 - Compound Current Source:
   - The use of a cascode stage results in higher output impedance compared to a simple current source, making the circuit behave closer to an ideal current source.
 
-- Practical Applications:
+- Applications:
   - This experiment showcases how compound current sources are used in analog circuits for precise and stable current control.
 
 This experiment is straightforward to implement in Tinkercad, and the results clearly demonstrate the advantages of a compound current source in achieving stable current output under varying conditions.

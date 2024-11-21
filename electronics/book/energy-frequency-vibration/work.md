@@ -401,7 +401,7 @@ Work in electronic circuits is directly related to energy transfer and can be un
 - Losses usually appear as heat
 - Efficiency = (Useful work output/Total work input) × 100%
 
-5. Practical Applications
+5. Applications
 - Battery delivering work to circuit components
 - Motor converting electrical work to mechanical work
 - Heater converting electrical work to thermal energy

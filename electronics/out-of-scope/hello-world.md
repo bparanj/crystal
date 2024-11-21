@@ -46,7 +46,7 @@ This basic circuit could indeed be considered the "Hello World" equivalent in el
 
 1. Simplicity: Just as "Hello World" is often the simplest program one can write in a programming language, this basic circuit is the simplest functional circuit one can create. It demonstrates the fundamental concept of a complete circuit with minimal components.
 
-2. Learning Foundation: In programming, "Hello World" is  the first program beginners create. It introduces basic syntax and structure. Similarly, this circuit introduces the basic components (power source, load, and conductors) and the concept of a closed loop, which are fundamental to understanding electronics.
+2. Learning In programming, "Hello World" is  the first program beginners create. It introduces basic syntax and structure. Similarly, this circuit introduces the basic components (power source, load, and conductors) and the concept of a closed loop, which are fundamental to understanding electronics.
 
 3. Verification of Setup: When programmers run "Hello World," they're often verifying that their development environment is set up correctly. Similarly, when electronics beginners create this circuit, they're verifying that they understand basic circuit construction and that their components are working.
 

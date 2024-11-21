@@ -83,7 +83,7 @@ To design and simulate a V-to-I Antilogarithmic Converter using a diode and demo
 1. Exponential Behavior:
    - The diode's \( I-V \) characteristics naturally produce an exponential relationship between \( V_{in} \) and the current.
 
-2. Practical Applications:
+2. Applications:
    - Useful in circuits requiring exponential responses, such as logarithmic amplifiers and signal conditioning.
 
 3. Load Dependency:
@@ -180,7 +180,7 @@ To design and simulate a V-to-I Antilogarithmic Converter using a BJT transistor
 1. Exponential Behavior:
    - The circuit demonstrates how a small change in \( V_{in} \) results in a large change in output current, characteristic of an antilogarithmic response.
 
-2. Practical Applications:
+2. Applications:
    - Useful in analog computations requiring exponential operations or signal shaping.
 
 3. Transistor Characteristics:

@@ -106,7 +106,7 @@ Phase in electronics refers to the position of a point in a signal's cycle, meas
 - Out-of-phase: 180° (one signal peaks while other troughs)
 - Quarter-phase: 90° (one signal peaks when other crosses zero)
 
-3. Practical Applications:
+3. Applications:
 
 - Power factor in AC circuits
 - Phase-shift keying in communications

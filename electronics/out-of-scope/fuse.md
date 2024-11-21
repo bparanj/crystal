@@ -35,5 +35,5 @@ Here are the steps to create a simple circuit demonstrating how a fuse works:
 
 7. **Fuse Blows**: The fuse will blow, breaking the circuit and turning off the LED, showing how the fuse protects the circuit.
 
-### Key Insight:
+### :
 When the current exceeds the fuse's rating, the fuse melts and stops the flow of electricity, preventing damage to the rest of the circuit.

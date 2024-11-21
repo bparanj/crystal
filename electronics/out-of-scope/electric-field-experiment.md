@@ -67,7 +67,7 @@ This experiment provides a visual representation of electric fields and helps in
    - Capacitors: ~1,000,000 V/m
    - Inside atoms: ~10¹¹ V/m
 
-4. Practical Applications:
+4. Applications:
 
    - Electronics:
      * Capacitors

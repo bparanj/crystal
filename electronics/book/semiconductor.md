@@ -13,7 +13,7 @@ They can switch between conducting and non-conducting states, acting like tiny e
 - Temperature sensitive
 - Light sensitive
 
-Practical Applications:
+Applications:
 
    - Transistors
    - Diodes

@@ -41,7 +41,7 @@ When two voltage sources are connected in series, their voltages either add or s
 - Opposing polarities result in subtraction of voltages.
 - This principle is useful in signal conditioning and power supplies where specific voltage levels are needed.
 
-#### Additional Insight:
+#### Additional 
 
 You can extend this principle to multiple voltage sources in series. The resulting voltage is the algebraic sum of all individual voltages, considering their polarities.
 

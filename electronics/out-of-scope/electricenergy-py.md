@@ -167,7 +167,7 @@ Electrical energy in simple terms:
    - Electric motors: ~85%
    - Phone chargers: ~80%
 
-6. Practical Applications:
+6. Applications:
    - Powering devices
    - Heating/cooling
    - Lighting

@@ -9,7 +9,7 @@ To observe the phase shift between voltage across a capacitor and the input sign
 - Resistor (e.g., 1 kΩ)
 - Oscilloscope
 
-### Experiment Setup
+### Setup
 
    - Place the resistor and capacitor in series on the breadboard.
    - Connect the function generator to one end of the resistor (input side).

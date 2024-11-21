@@ -16,7 +16,7 @@ This name highlights both the oscillation generation (via a transistor) and the 
 
 To design a frequency generator that steps up a 9V DC source to approximately 20V AC or DC without using an IC, we can use a transistor-based oscillator circuit along with a voltage doubler. This setup generates an AC signal, and the voltage doubler will amplify the peak voltage.
 
-### Experiment Setup in Tinkercad
+### Setup in Tinkercad
 
 1. Components Needed:
    - 9V DC power source (battery)
