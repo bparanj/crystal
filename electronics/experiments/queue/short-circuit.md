@@ -3,10 +3,6 @@ PENDING
 Put everything related to types of circuit in this document
 Extract some of the content here to the first experiment about short circuit.
 
-The term short circuit includes short because it describes a direct unintended path for current that shortens the route through the circuit.
-
-In a normal circuit, current flows through components such as resistors, capacitors, etc. Every component adds resistance and controls the current flow. In a short circuit, a low-resistance path bypasses these components, often directly connecting the power source to the ground. This shortcut shortens the circuit path, allowing an uncontrolled surge of current that can create heat and sparks.
-
 A short circuit and a connecting wire are similar because both provide a low-resistance path for electric current. Both a short circuit and a connecting wire have very low electrical resistance, allowing current to flow easily.
 
 Both have minimal voltage drop across them, as there is little resistance to impede the current.
