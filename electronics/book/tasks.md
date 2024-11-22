@@ -1,36 +1,19 @@
+25.md Add images e1 to e8 and describe those steps. Run the experiment. Verify current understanding and add the missing steps. capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
+
 Remove the breadboard and connect function generator directly to oscilloscope and take screenshots.
 Edit oscilloscope.md in oscilloscope folder and explain the settings for oscilloscope and function generator.
 
-
 Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
-
 Take screenshots of falstat curves for experiments and save it in the folders.
 Step must have the intent for each step besides the concrete connection details
 
-Run experiments in book/basics folder
+Experiments
 
-Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
-
-Run experiment voltage-current.md in resistive-circuit folder.
-
-25.md Add images e1 to e8 and describe those steps. Missing images. Not making any sense. Review and revise.
-
-34.md RC High Pass Filter
-
-20.md -> Break it down brandy with falstad.
-
-capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
-
-transistor-current.md
-capacitor-voltage.md
-
-Compared the bottom and top sections side by side for 12.md. Merge the content within the steps.
-
-Run this next:
-
-voltage-stabilizer.md
-
-Next experiments:
+- Run experiment voltage-current.md in resistive-circuit folder.
+- Run experiments in book/basics folder
+- Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
+- voltage-stabilizer.md
+- 34.md RC High Pass Filter
 
 high pass filter.md
 light-sensor.md
@@ -54,35 +37,28 @@ ac-voltage-shift.md
 capacitive-voltage-divider.md
 capacitor-parallel.md
 capacitor-series.md
-
-Questions:
-
-bypass-capacitor.md
-
-How is the current controlled in current controller? See 16.md. How does varying the resistor value affect the amount of current flowing through the circuit? This concept should be a different experiment. This should only focus on the concept: Changing the resistor values does not have any effect of the current value before or after the resistor.
-
-Experiments
-
 voltage-doubler.md (This needs the transistor oscillator to be completed first)
 transistor-oscillator.md
+transistor-current.md
+capacitor-voltage.md
 
-Review electronics/design/oscilloscope.md. Condense the notes.
-Review function-generator.md. Condense the notes.
 
-20.md Positive Clamper - Watch videos. Break down into smaller experiments.
 
-Time constant of capacitor:
+Task Breakdown
 
-https://www.youtube.com/watch?v=T0_Z0jw2DhI
-https://www.youtube.com/watch?v=pb0yduMthWE
+- 20.md -> Break it down brandy with falstad.
+- 20.md Positive Clamper - Watch videos. Break down into smaller experiments.
 
 Review
 
+- Compared the bottom and top sections side by side for 12.md. Merge the content within the steps.
 - Review discrete-passive-circuit.md
 - Review passive-component.md and extract or delete experiments
 - Review and condense load.md
 - Review Zettels and extract basic level content for different chapters
 - Review instructables for hackerboxes and take notes about using breadboard. Create diagrams to illustrate the connections.
+- electronics/design/oscilloscope.md. Condense the notes.
+- function-generator.md. Condense the notes.
 
 Search
 
@@ -135,7 +111,6 @@ Misc
 
 - Refer electronics encyclopedia book and note down categorization
 - Figure 1-1 Encyclopedia of Electronics
-
 - Render the svg using the html and take screenshots
 
 Scope

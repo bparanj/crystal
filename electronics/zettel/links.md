@@ -18,7 +18,14 @@
 - [Export InDesign](https://helpx.adobe.com/indesign/using/export-content-epub-cc.html)
 - [Mind Maps](http://hyperphysics.phy-astr.gsu.edu/hbase/Electronic/diodecon.html#c1)
 - [LTSpice Tutorials](https://learn.sparkfun.com/tutorials/getting-started-with-ltspice/all)
+- [Time constant of capacitor](https://www.youtube.com/watch?v=T0_Z0jw2DhI)
+- [Time constant of capacitor](https://www.youtube.com/watch?v=pb0yduMthWE)
+- [Should a Person Touch 200,000 Volts? A Van de Graaff generator experiment!](https://www.youtube.com/watch?v=ubZuSZYVBng)
 
 Refer this: https://www.youtube.com/watch?v=CVywtFTEz3I
 His channel: https://www.youtube.com/@Ohmify
-[Should a Person Touch 200,000 Volts? A Van de Graaff generator experiment!](https://www.youtube.com/watch?v=ubZuSZYVBng)
+
+
+
+
+
