@@ -1,8 +1,8 @@
-34.md steps are incomplete for values of components
+Remove the breadboard and connect function generator directly to oscilloscope and take screenshots.
+Edit oscilloscope.md in oscilloscope folder and explain the settings for oscilloscope and function generator.
+
 
 Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
-
-Edit oscilloscope.md in oscilloscope folder and explain the settings for oscilloscope and function generator.
 
 Take screenshots of falstat curves for experiments and save it in the folders.
 Step must have the intent for each step besides the concrete connection details
