@@ -1,6 +1,5 @@
 25.md Add images e1 to e8 and describe those steps. Run the experiment. Verify current understanding and add the missing steps. capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
 
-Remove the breadboard and connect function generator directly to oscilloscope and take screenshots.
 Edit oscilloscope.md in oscilloscope folder and explain the settings for oscilloscope and function generator.
 
 Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
