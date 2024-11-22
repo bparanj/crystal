@@ -1,9 +1,13 @@
+34.md steps are incomplete for values of components
+
+Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
+
+Edit oscilloscope.md in oscilloscope folder and explain the settings for oscilloscope and function generator.
+
 Take screenshots of falstat curves for experiments and save it in the folders.
 Step must have the intent for each step besides the concrete connection details
 
 Run experiments in book/basics folder
-
-Create a separate document for playing with oscilloscope settings.
 
 Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
 
@@ -16,9 +20,6 @@ Run experiment voltage-current.md in resistive-circuit folder.
 20.md -> Break it down brandy with falstad.
 
 capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
-
-12.md
-13.md
 
 transistor-current.md
 capacitor-voltage.md
@@ -58,7 +59,7 @@ Questions:
 
 bypass-capacitor.md
 
-How is the current controlled in current controller? See 16.md. How does varying the resistor value affect the amount of current flowing through the circuit. This concept should be a different experiment. This should only focus on the concept: Changing the resistor values does not have any effect of the current value before or after the resistor.
+How is the current controlled in current controller? See 16.md. How does varying the resistor value affect the amount of current flowing through the circuit? This concept should be a different experiment. This should only focus on the concept: Changing the resistor values does not have any effect of the current value before or after the resistor.
 
 Experiments
 
