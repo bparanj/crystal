@@ -6,12 +6,9 @@ Demonstrate **Ohm's Law** in an AC circuit by measuring the relationship between
 
 ### **Components**
 
-1. **AC Power Source** (e.g., 12V AC for safety)
+1. **AC Power Source** (e.g., 12V AC)
 2. **Resistor** (e.g., \( 1 \, \text{k}\Omega \))
 3. **Multimeter** (to measure AC voltage and current)
-4. **Wires** for connections
-
-### **Concept**
 
 Ohm's Law applies to AC circuits as well as DC circuits:
 \[
@@ -24,7 +21,7 @@ Where:
 
 ### **Steps**
 
-#### Step 1: 
+#### Step 1:
 
 1. Connect one terminal of the **resistor** to one terminal of the **AC power source**.
 2. Connect the other terminal of the resistor to the other terminal of the power source.
@@ -52,7 +49,7 @@ Where:
 
 ### **Observation**
 
-- The measured current matches the calculated current from Ohm's Law, showing the linear relationship between voltage and current in an AC circuit with a resistor.
+The measured current matches the calculated current from Ohm's Law, showing the linear relationship between voltage and current in an AC circuit with a resistor.
 
 ### **Concepts Demonstrated**
 

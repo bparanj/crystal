@@ -48,6 +48,6 @@ Inductors oppose changes in current, which helps to suppress these transients. T
 
 Detecting position, speed, or proximity in a contactless manner.
 
-Inductance is used in inductive sensors, which can detect changes in magnetic fields caused by the movement of metal objects. These sensors are widely used in industrial automation, automotive systems (like ABS sensors), and consumer electronics.
+Inductance is used in inductive sensors, which can detect changes in magnetic fields caused by the movement of metal objects. These sensors are used in industrial automation, automotive systems (like ABS sensors), and consumer electronics.
 
 Inductance solves problems related to energy storage, current smoothing, high-frequency noise filtering, impedance matching, timing, efficient energy transfer, transient suppression, and contactless sensing. Its ability to store energy in magnetic fields and oppose changes in current makes it useful in many electronic applications, ensuring the stability, efficiency, and functionality of circuits and devices.

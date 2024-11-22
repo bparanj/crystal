@@ -1,7 +1,5 @@
 ### **Demonstrating AC with a Light Bulb**
 
-#### **Objective**
-
 Demonstrate the alternating nature of AC (Alternating Current) by observing a light bulb's behavior when connected to an AC power source.
 
 ### **Components**
@@ -11,13 +9,11 @@ Demonstrate the alternating nature of AC (Alternating Current) by observing a li
 3. **Wires** for connections
 4. **Multimeter** (optional, to measure AC voltage)
 
-### **Concept**
-
 **AC Voltage** alternates its direction and magnitude over time, in contrast to DC (Direct Current), which flows in a single direction. The periodic reversal of current in AC is what powers most household devices and systems.
 
 ### **Steps**
 
-#### Step 1: 
+#### Step 1:
 
 1. Connect one terminal of the **light bulb** to one terminal of the **AC power source**.
 2. Connect the other terminal of the bulb to the other terminal of the power source.
@@ -40,12 +36,15 @@ Demonstrate the alternating nature of AC (Alternating Current) by observing a li
 ### **Concepts Demonstrated**
 
 1. **Alternating Nature of AC:**
+
    - Though AC current reverses direction periodically, the bulb lights steadily because the filament responds to the power, not the direction of current flow.
-   
+
 2. **RMS Voltage:**
+
    - The multimeter measures RMS voltage, which is the effective value of AC, showing how AC delivers energy comparable to DC.
 
 3. **Practical Use of AC:**
+
    - Demonstrates how AC powers devices like light bulbs in real-world applications.
 
 ### **Safety Note**
@@ -53,4 +52,4 @@ Demonstrate the alternating nature of AC (Alternating Current) by observing a li
 - Use low-voltage AC (e.g., 12V) for safety, especially for beginners.
 - Avoid using household AC (120V or 230V) unless under expert supervision.
 
-This experiment is simple yet foundational for understanding AC electricity, the dominant form of power transmission and usage in households and industries.
+This experiment is for understanding AC electricity, the dominant form of power transmission and usage in households and industries.

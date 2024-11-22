@@ -1,6 +1,8 @@
 ### **Demonstrate Capacitor Passing AC**
 
-This is already complete in capacitor-ac-pass
+PENDING
+
+This is already complete in capacitor-ac-pass. Merge or move to draft folder
 
 Demonstrate how a capacitor blocks direct current (DC) but allows alternating current (AC) to pass through.
 

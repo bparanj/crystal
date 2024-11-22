@@ -8,8 +8,6 @@ Demonstrate the importance of **polarity** for an LED and how it acts as a **rec
 2. **Red LED**
 3. **Resistor** (e.g., 1 kΩ to limit current)
 
-### **Concept**
-
 An LED is a polarized component that allows current to flow in only one direction. When connected to an AC source, the LED will blink, lighting up only during the half-cycles of the AC waveform where the polarity matches the LED's forward bias.
 
 ### **Steps**
@@ -33,10 +31,15 @@ An LED is a polarized component that allows current to flow in only one directio
 ### **Concepts Demonstrated**
 
 1. **Polarity and Rectification:**
+
    - The LED lights up only when forward-biased, acting as a rectifier by blocking current in the reverse direction.
+
 2. **Half-Wave Rectification:**
+
    - This experiment introduces the concept of half-wave rectification, where the LED effectively converts an AC waveform into a pulsating DC signal.
+
 3. **AC Waveform Behavior:**
+
    - Shows how alternating current changes direction periodically, affecting the behavior of polarized components like LEDs.
 
 ### **Applications**
@@ -44,4 +47,4 @@ An LED is a polarized component that allows current to flow in only one directio
 - This principle is foundational for understanding rectifiers, used in power supplies to convert AC to DC.
 - Demonstrates how LEDs can be used as indicators for AC polarity or signal presence.
 
-This simple experiment provides an intuitive understanding of polarity, rectification, and AC waveform behavior with minimal components.
+This experiment demonstration of polarity, rectification, and AC waveform behavior with minimal components.

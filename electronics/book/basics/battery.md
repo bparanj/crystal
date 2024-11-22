@@ -25,12 +25,12 @@ Demonstrate the concept of **voltage** as the driving force behind the flow of c
 3. Place the **negative probe** on the **negative terminal** of the battery.
 4. Observe the voltage reading (e.g., 9V for a 9V battery).
 
-#### Step 2: 
+#### Step 2:
 
 1. Connect one metal wire to the **positive terminal** and another wire to the **negative terminal** of the battery.
 2. Observe no current flow because the wires are not connected (open circuit).
 
-#### Step 3: 
+#### Step 3:
 
 1. Briefly touch the free ends of the wires together to complete the circuit.
 2. Feel a slight heat at the contact point, demonstrating energy transfer.
@@ -54,4 +54,4 @@ Demonstrate the concept of **voltage** as the driving force behind the flow of c
 1. Use batteries of different voltages (e.g., 1.5V, 9V) to show how the potential difference changes.
 2. Connect a low-resistance load, like a small resistor or an LED, to see visible energy transfer.
 
-This simple experiment introduces voltage, the foundation of all electrical systems, and highlights how batteries serve as a source of energy in circuits.
+This experiment introduces voltage, the foundation of all electrical systems, and highlights how batteries serve as a source of energy in circuits.

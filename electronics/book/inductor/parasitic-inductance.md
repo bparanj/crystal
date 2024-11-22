@@ -1,6 +1,6 @@
-Parasitic inductance refers to the unintended inductance that arises in electrical components and circuits due to their physical construction. It is an unwanted byproduct that can affect the performance of circuits, particularly at high frequencies.
+Parasitic inductance is the unintended inductance in electrical components and circuits due to their physical construction. It is an unwanted byproduct that can affect the performance of circuits, particularly at high frequencies.
 
-Parasitic inductance occurs because every conductor (like wires, traces on a circuit board, or leads on a component) inherently creates a small magnetic field when current flows through it. This magnetic field results in inductance, even if the component or circuit wasn’t designed to have inductance.
+Parasitic inductance occurs because every conductor inherently creates a small magnetic field when current flows through it. This magnetic field results in inductance, even if the component or circuit wasn't designed to have inductance.
 
 parasitic inductance can cause issues such as:
 
