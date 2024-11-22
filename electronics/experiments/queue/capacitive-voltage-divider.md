@@ -1,6 +1,6 @@
 PENDING
 
-This is the same as capacitor in series. Why does this have a fancy name capacitive voltage divider?
+Why does this have a fancy name capacitive voltage divider?
 
 An experiment for demonstrating the concept of division of voltage with capacitance using a capacitive voltage divider. This experiment shows how voltage divides across capacitors connected in series, which is analogous to the resistive voltage divider but operates on a different principle because capacitors behave differently in AC and DC circuits.
 
@@ -13,7 +13,6 @@ To demonstrate that in a series circuit, voltage divides across capacitors inver
 - 1 AC Power Source (e.g., 5V AC source, since capacitors block DC in steady state)
 - 2 Capacitors with different values (e.g., 1 μF and 10 μF)
 - Multimeter (to measure the voltage across each capacitor)
-- Breadboard and Wires
 
 ### Steps:
 

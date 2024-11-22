@@ -6,6 +6,11 @@ Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
 Take screenshots of falstat curves for experiments and save it in the folders.
 Step must have the intent for each step besides the concrete connection details
 
+Merge
+
+- high pass filter.md
+- dc-decoupling.md
+
 Experiments
 
 - Run experiment voltage-current.md in resistive-circuit folder.
@@ -13,13 +18,13 @@ Experiments
 - Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
 - voltage-stabilizer.md
 - 34.md RC High Pass Filter
+- capacitive-voltage-divider.md
+- capacitive-integrator.md
 
-high pass filter.md
 light-sensor.md
 
 current-source-paradox.md
 current-source.md
-dc-decoupling.md
 
 conductor paradox.md
 ideal vi load.md
@@ -29,18 +34,16 @@ parallel current
 half wave rectifier must go before 20.md
 current source.md
 current source duality
-capacitive-integrator.md
+
 amplifier-attenuate.md
 ac-voltage-stiff.md
 ac-voltage-shift.md
-capacitive-voltage-divider.md
+
 capacitor-parallel.md
-capacitor-series.md
 voltage-doubler.md (This needs the transistor oscillator to be completed first)
 transistor-oscillator.md
 transistor-current.md
 capacitor-voltage.md
-
 
 
 Task Breakdown

@@ -1,6 +1,6 @@
 PENDING
 
-Is this experiment different from a basic capcitive integrator?
+Run:
 
 This paradox occurs because increasing the resistance in a passive capacitive integrator actually improves the accuracy of integration by enhancing the circuit’s response to slowly varying signals, even though it leads to greater energy dissipation.
 
@@ -33,7 +33,9 @@ Increasing resistance in a passive integrator improves accuracy by slowing the c
 
 A simple experiment to demonstrate how increasing resistance in a passive capacitive integrator improves integration accuracy, even though it leads to greater energy dissipation.
 
-### Experiment: Improving Integration Accuracy with Increased Resistance
+### Experiment
+
+Improving Integration Accuracy with Increased Resistance
 
 To show that increasing the resistance in an RC integrator circuit enhances the accuracy of integration by slowing the response, even though it results in more energy dissipation.
 

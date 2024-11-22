@@ -1,7 +1,9 @@
 
 PENDING
 
-Difficult to demonstrate this using Tinkercad. Checkout https://www.falstad.com/circuit/e-index.html
+This is the same as 34.md. Merge and delete this document.
+
+Checkout https://www.falstad.com/circuit/e-index.html
 
 A high-pass filter allows higher frequencies to pass through while attenuating lower frequencies. You can design a simple RC high-pass filter in Tinkercad to demonstrate this concept by observing how it blocks low frequencies and allows high frequencies.
 
@@ -65,7 +67,6 @@ Create a simple RC (Resistor-Capacitor) high-pass filter to observe how it allow
 2. Capacitor (C) - 0.1 µF
 3. Signal Generator - To provide variable frequency signals (use the Function Generator in Tinkercad's circuit workspace)
 4. Oscilloscope - To observe the input and output signals (use the oscilloscope in Tinkercad)
-5. Breadboard - For connecting components
 
 ### Setup
 

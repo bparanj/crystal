@@ -1,3 +1,7 @@
+PENDING
+
+This is the same as diode experiment.
+
 ### Voltage Decoupling Using a Series Diode
 
 A series diode can decouple voltage in a circuit by blocking the flow of current in one direction, effectively allowing voltage to pass only when the diode is forward-biased. This behavior is used to isolate parts of a circuit, prevent reverse current flow, or limit voltage transmission.
@@ -19,7 +23,6 @@ A series diode can decouple voltage in a circuit by blocking the flow of current
 2. Resistor (Load) (\( R = 1k\Omega \)).
 3. Diode (e.g., 1N4148 or similar).
 4. Multimeter (to measure voltage across the load).
-5. Breadboard and wires.
 
 ### Setup:
 
@@ -66,5 +69,4 @@ A series diode can decouple voltage in a circuit by blocking the flow of current
 4. Ripple Filtering:
    - In power supplies, diodes in series decouple voltage fluctuations and rectify signals.
 
-You can test both forward- and reverse-bias conditions by reversing the voltage source. It demonstrates the diode's role in voltage decoupling and its practical implications.
-
+You can test both forward and reverse-bias conditions by reversing the voltage source. It demonstrates the diode's role in voltage decoupling and its practical implications.
