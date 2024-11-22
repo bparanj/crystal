@@ -1,3 +1,7 @@
+PENDING
+
+See Blinking LED - AC in biz account to take screenshots
+
 ### **Demonstrate Polarity and Rectification**
 
 Demonstrate the importance of **polarity** for an LED and how it acts as a **rectifier**, allowing current to flow in only one direction when connected to an AC source.

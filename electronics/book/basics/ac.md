@@ -6,7 +6,6 @@ Demonstrate the alternating nature of AC (Alternating Current) by observing a li
 
 1. **AC Power Source** (e.g., a low-voltage AC generator or transformer for safety, such as 12V AC)
 2. **Light Bulb** (e.g., a low-voltage incandescent bulb)
-3. **Wires** for connections
 4. **Multimeter** (optional, to measure AC voltage)
 
 **AC Voltage** alternates its direction and magnitude over time, in contrast to DC (Direct Current), which flows in a single direction. The periodic reversal of current in AC is what powers most household devices and systems.
