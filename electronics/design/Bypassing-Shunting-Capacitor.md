@@ -21,8 +21,6 @@ A bypassing (or shunting) capacitor is used to redirect high-frequency noise or 
 
 ### Experiment
 
-#### Objective
-
 To demonstrate the behavior of a bypassing capacitor in filtering high-frequency noise while maintaining stable DC voltage.
 
 #### Components

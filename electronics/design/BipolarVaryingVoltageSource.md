@@ -17,8 +17,6 @@ A bipolar varying voltage source generates a voltage that oscillates between pos
 
 ### Circuit
 
-#### Objective:
-
 To design and simulate a bipolar varying voltage source using a function generator circuit.
 
 #### Components:
@@ -52,8 +50,7 @@ To design and simulate a bipolar varying voltage source using a function generat
 
 ### Steps
 
-1. :
-   - Build the circuit for either square wave or sine wave generation.
+1. Build the circuit for either square wave or sine wave generation.
 
 2. Apply Power Supply:
    - Provide \( \pm 12V \) to the op-amp for bipolar operation.
@@ -146,7 +143,7 @@ Yes, an operational amplifier (op-amp) can minimize the number of components req
 ### Why an Op-Amp Reduces Components:
 
 1. Integrated Feedback:
-   - The op-amp combines amplification and waveform shaping in a single device. 
+   - The op-amp combines amplification and waveform shaping in a single device.
    - Feedback mechanisms (e.g., RC networks) directly modify behavior without requiring external amplifiers or complex networks.
 
 2. Signal Conditioning:

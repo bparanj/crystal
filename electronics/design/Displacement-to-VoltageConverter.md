@@ -36,8 +36,6 @@ A Displacement-to-Voltage Converter is a system that converts a mechanical displ
 
 ### Experiment Potentiometric Method:
 
-#### Objective
-
 To design and simulate a Displacement-to-Voltage Converter using a potentiometer and observe how the output voltage changes with displacement.
 
 #### Components
@@ -58,8 +56,7 @@ To design and simulate a Displacement-to-Voltage Converter using a potentiometer
 
 ### Steps
 
-1. :
-   - Build the circuit on a breadboard as described above.
+1. Build the circuit on a breadboard as described above.
 
 2. Apply Input Voltage:
    - Set \( V_{in} = 5V \) using the DC voltage source.

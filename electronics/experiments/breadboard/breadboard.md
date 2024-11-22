@@ -16,7 +16,7 @@ Image 8 shows another vertical group of dots for this section of the breadboard.
 
 Basics of a Breadboard
 
-### **Understanding the Basics of a Breadboard**
+### **Basics of a Breadboard**
 
 A breadboard is a prototyping tool for assembling circuits without soldering. Its structure is designed to simplify component connections by providing pre-connected rows and columns for organizing a circuit. Below, we explore the essential parts of a breadboard and how they are interconnected.
 
@@ -24,7 +24,7 @@ A breadboard is a prototyping tool for assembling circuits without soldering. It
 
 #### **Negative Terminal (Top)**
 
-- **Image 1:** The negative terminal is indicated by a **black minus sign (-)**. 
+- **Image 1:** The negative terminal is indicated by a **black minus sign (-)**.
 - The horizontal row marked in green circles connects all the dots along this line. This continuous connection forms the **negative power rail**.
 - Any component connected to this row will share the same negative connection.
 
@@ -36,7 +36,7 @@ A breadboard is a prototyping tool for assembling circuits without soldering. It
 
 #### **Negative and Positive Terminals (Bottom)**
 
-- **Images 3 and 4:** The breadboard typically mirrors the power rails at the bottom. 
+- **Images 3 and 4:** The breadboard typically mirrors the power rails at the bottom.
   - The bottom negative terminal works like the top one (black minus sign).
   - The bottom positive terminal functions like the top (red plus sign).
 - These separate rows allow for additional power distribution.
@@ -45,15 +45,15 @@ A breadboard is a prototyping tool for assembling circuits without soldering. It
 
 #### **Vertical Columns (Right Side)**
 
-- **Image 5:** 
-  - On the right-hand side, dots labeled **f, g, h, i, and j** are connected vertically. 
+- **Image 5:**
+  - On the right-hand side, dots labeled **f, g, h, i, and j** are connected vertically.
   - Each vertical column (e.g., column 1 or column 2) links all dots within it. Any component connected to these dots will be part of the same circuit path.
   - Columns are **numbered 1 through 30**. Each column provides a distinct connection point for components.
 
 #### **Vertical Columns (Left Side)**
 
 - **Image 7:**
-  - On the left-hand side, dots labeled **a, b, c, d, and e** are also connected vertically. 
+  - On the left-hand side, dots labeled **a, b, c, d, and e** are also connected vertically.
   - These columns function identically to the right-side columns but are independent of them.
   - The rows are again **numbered 1 through 30**, offering isolated vertical connections.
 

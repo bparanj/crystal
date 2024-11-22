@@ -81,10 +81,8 @@ A Compound Current Source is a circuit that combines multiple current sources (t
 - Compound current sources are essential in precision analog circuits and signal processing where stable and accurate current sources are required.
 - Designs like the Wilson and Cascode current sources are optimized for different performance criteria, such as high output impedance or low voltage sensitivity.
 
-
 ### Experiment: Compound Current Source
 
-#### Objective
 To design and simulate a compound current source using a cascode configuration and demonstrate its high output impedance and stable current behavior.
 
 ### Circuit Design: Cascode Current Source
@@ -120,8 +118,7 @@ To design and simulate a compound current source using a cascode configuration a
 
 ### Steps
 
-1. :
-   - Build the circuit in Tinkercad as described above.
+1. Build the circuit in Tinkercad as described above.
    - Ensure proper connections for Q1 and Q2, and verify \( R_{ref} = 1k\Omega \).
 
 2. Measure the Output Current:
@@ -153,4 +150,4 @@ To design and simulate a compound current source using a cascode configuration a
 - Applications:
   - This experiment showcases how compound current sources are used in analog circuits for precise and stable current control.
 
-This experiment is straightforward to implement in Tinkercad, and the results clearly demonstrate the advantages of a compound current source in achieving stable current output under varying conditions.
+The results demonstrate the advantages of a compound current source in achieving stable current output under varying conditions.

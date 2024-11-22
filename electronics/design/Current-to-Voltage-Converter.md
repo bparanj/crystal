@@ -21,8 +21,6 @@ A Current-to-Voltage Converter (I-to-V Converter) is a circuit that converts an 
 
 ### Experiment
 
-#### Objective
-
 To design and simulate a Current-to-Voltage Converter using an op-amp and observe the relationship between input current and output voltage.
 
 #### Components
@@ -52,8 +50,7 @@ To design and simulate a Current-to-Voltage Converter using an op-amp and observ
 
 ### Steps
 
-1. :
-   - Build the circuit as per the configuration above, ensuring proper polarity for the current source.
+1. Build the circuit as per the configuration above, ensuring proper polarity for the current source.
 
 2. Apply Input Current:
    - Set the input current to a known value using a variable resistor or a current source.

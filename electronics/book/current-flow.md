@@ -6,10 +6,10 @@ Opposition to current flow by a resistor is called **resistance**, denoted as \(
 R = \frac{V}{I}
 \]
 
-Where:  
-- \( R \): Resistance (in ohms)  
-- \( V \): Voltage (in volts)  
-- \( I \): Current (in amperes)  
+Where:
+- \( R \): Resistance (in ohms)
+- \( V \): Voltage (in volts)
+- \( I \): Current (in amperes)
 
 Capacitive Reactance
 
@@ -32,18 +32,18 @@ Opposition to current flow by an inductor is called **inductive reactance**, den
 X_L = 2\pi f L
 \]
 
-Where:  
-- \( X_L \): Inductive reactance (in ohms)  
-- \( f \): Frequency of the AC signal (in hertz)  
-- \( L \): Inductance (in henries)  
+Where:
+- \( X_L \): Inductive reactance (in ohms)
+- \( f \): Frequency of the AC signal (in hertz)
+- \( L \): Inductance (in henries)
 
-The distinction arises because **resistance** and **capacitance** describe fundamentally different phenomena:
+The distinction arises because **resistance** and **capacitance** describe different phenomena:
 
-1. **Resistor**: 
-   - Resistance is a constant property of a resistor that opposes current flow by converting electrical energy into heat. 
+1. **Resistor**:
+   - Resistance is a constant property of a resistor that opposes current flow by converting electrical energy into heat.
    - This opposition is independent of the signal's frequency.
 
-2. **Capacitor**: 
+2. **Capacitor**:
    - Capacitance is a measure of a capacitor's ability to store charge, not directly its opposition to current flow.
    - The opposition to current flow by a capacitor is called **reactance** (specifically, **capacitive reactance**) because it varies with the frequency of the signal:
      \[
@@ -51,25 +51,27 @@ The distinction arises because **resistance** and **capacitance** describe funda
      \]
    - Higher frequency signals encounter less opposition, making the opposition dynamic and dependent on both the capacitance and the signal's frequency.
 
-- **Resistance** is fixed for resistors, so the term "resistance" captures its opposing behavior.
+- **Resistance** is fixed for resistors, so the term resistance captures its opposing behavior.
 - **Capacitance** is not directly about opposition; instead, the frequency-dependent **reactance** describes the capacitor's dynamic opposition to current flow.
 
 The distinction arises because **resistance** and **inductance** describe different properties and behaviors:
 
 1. **Resistor**:
-   - Resistance is a constant property of a resistor that opposes current flow, converting electrical energy into heat. 
+
+   - Resistance is a constant property of a resistor that opposes current flow, converting electrical energy into heat.
    - This opposition is frequency-independent.
 
 2. **Inductor**:
+
    - Inductance is a measure of an inductor's ability to store energy in a magnetic field, not its direct opposition to current flow.
-   - The opposition to current flow by an inductor is called **reactance** (specifically, **inductive reactance**) because it varies with the frequency of the signal:
+   - The opposition to current flow by an inductor is called **inductive reactance** because it varies with the frequency of the signal:
      \[
      X_L = 2\pi f L
      \]
    - Higher frequency signals encounter more opposition, making the opposition dynamic and dependent on both the inductance and the signal's frequency.
 
-- **Resistance** is a fixed property, so "resistance" directly represents a resistor's behavior.
-- **Inductance** measures the ability to create a magnetic field, while the opposition it causes is frequency-dependent and described by **reactance**. Hence, the term **inductive reactance** is used for this specific behavior.
+**Resistance** is a fixed property, so "resistance" directly represents a resistor's behavior.
+**Inductance** measures the ability to create a magnetic field, while the opposition it causes is frequency-dependent and described by **reactance**. Hence, the term **inductive reactance** is used for this specific behavior.
 
 Inductors act as a **short circuit** for DC.
 
@@ -78,7 +80,7 @@ Inductors act as a **short circuit** for DC.
 
 2. **Inductor and DC**:
    - Inductors allow DC to flow freely because their opposition to current (\( V = L \cdot \frac{dI}{dt} \)) depends on changes in current (\( \frac{dI}{dt} \)).
-   - For steady DC, \( \frac{dI}{dt} = 0 \), so the inductor behaves like a simple conducting wire (short circuit) after the initial transient.  
+   - For steady DC, \( \frac{dI}{dt} = 0 \), so the inductor behaves like a simple conducting wire (short circuit) after the initial transient.
 
 - **Capacitor**: Open circuit for DC.
 - **Inductor**: Short circuit for DC.

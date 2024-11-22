@@ -1,42 +1,42 @@
 To choose the voltage for a power source in a circuit:
 
-Determine Component Requirements: 
+Determine Component Requirements:
 
 Check the voltage needs of all components, ensuring they operate within their specified voltage range.
 
-Consider Voltage Drops: 
+Consider Voltage Drops:
 
 Account for any significant voltage drops across components like resistors or diodes, and adjust the power source accordingly.
 
-Safety Margin: 
+Safety Margin:
 
 Add a small buffer above the minimum required voltage to account for variations and tolerances.
 
-Power Efficiency: 
+Power Efficiency:
 
 Balance providing enough voltage with minimizing excess heat for efficient operation.
 
-Standard Voltage Levels: 
+Standard Voltage Levels:
 
 If possible, select a common voltage level (e.g., 3.3V, 5V, 12V) to simplify design.
 
-Battery vs. Mains Power: 
+Battery vs. Mains Power:
 
 For battery-powered devices, consider standard battery voltages.
 
-Regulation Needs: 
+Regulation Needs:
 
 Decide if a regulated power supply is needed for stable voltage.
 
-Current Capacity: 
+Current Capacity:
 
 Ensure the power source can supply sufficient current at the chosen voltage without exceeding its limits.
 
-Application Constraints: 
+Application Constraints:
 
 Consider size, weight, and cost limitations of the power source.
 
-Future Expansion: 
+Future Expansion:
 
 Allow headroom for potential circuit additions or modifications.
 
@@ -57,13 +57,17 @@ Allow headroom for potential circuit additions or modifications.
 
 This experiment highlights the need for current-limiting components (like resistors) to protect LEDs from excessive current and the importance of selecting the right voltage. It demonstrates that even if an LED lights up, an unsuitable setup can lead to reduced lifespan or immediate damage, emphasizing careful power and component selection in circuit design.
 
-1. Determine the Forward Voltage: This is the voltage required to light the LED. It's usually around:
+1. Determine the Forward Voltage:
+
+This is the voltage required to light the LED. It's usually around:
    - 2V for Red LEDs.
    - 3.2V for Blue, White, or Green LEDs.
 
    The forward voltage should be found in the LED's datasheet.
 
-2. Power Supply Selection: You can choose any power supply voltage as long as you include a current-limiting resistor to protect the LED. For example, with a 9V battery, you must use a resistor to ensure the current stays within safe limits.
+2. Power Supply Selection:
+
+You can choose any power supply voltage as long as you include a current-limiting resistor to protect the LED. For example, with a 9V battery, you must use a resistor to ensure the current stays within safe limits.
 
 To pick the correct resistor, use Ohm’s Law:
 
@@ -93,7 +97,6 @@ So, a 350 Ω resistor would limit the current to a safe level for the LED.
 - Always use a current-limiting resistor with LEDs.
 - Check the LED’s datasheet for the maximum current and forward voltage.
 - Use Ohm’s Law to calculate the resistor needed to protect the LED.
-
 
 Without controlling the current, as demonstrated in the Tinkercad simulation, the LED will receive excessive current, causing it to overheat and fail—usually indicated by the message showing that the current far exceeds the safe limit.
 

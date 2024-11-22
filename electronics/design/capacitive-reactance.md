@@ -14,15 +14,13 @@ Materials:
 
 Procedure:
 
-1. : 
+1. Connect the capacitor and resistor in series with the AC power supply.
 
-Connect the capacitor and resistor in series with the AC power supply.
-
-2. Measure Voltage and Current: 
+2. Measure Voltage and Current:
 
 Use the oscilloscope to measure the voltage across the resistor and the capacitor.
 
-3. Vary the Frequency: 
+3. Vary the Frequency:
 
 Adjust the frequency of the AC power supply and observe the changes in voltage and current.
 
@@ -30,7 +28,7 @@ PENDING
 
 Oscilloscope can only show the voltage and current. Modification required for the experiment.
 
-4. Record Observations: 
+4. Record Observations:
 
 Note how the current increases as the frequency increases, indicating the decreasing capacitive reactance.
 
@@ -58,7 +56,7 @@ As frequency increases, capacitive reactance (Xc) decreases according to Xc = 1/
 
 Higher frequency means the voltage changes direction more often, giving electrons less time to build up on the capacitor plates. This allows more current to flow through the circuit.
 
-Example: 
+Example:
 
 If frequency doubles:
 

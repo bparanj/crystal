@@ -20,8 +20,6 @@ A blocking capacitor, also called a coupling capacitor, is used to pass AC signa
 
 ### Experiment
 
-#### Objective
-
 To demonstrate the behavior of a blocking (coupling) capacitor in separating AC signals from DC components.
 
 #### Components

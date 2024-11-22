@@ -2,8 +2,6 @@
 
 In a purely resistive circuit, the voltage and current are in phase, meaning their waveforms reach their peaks and zero crossings simultaneously. This can be demonstrated using an AC voltage source and an oscilloscope.
 
-### **Objective**:
-
 To show that the voltage and current are in phase in a resistor-only AC circuit.
 
 ### **Components**:
@@ -75,6 +73,6 @@ To demonstrate that voltage and current are in phase in Tinkercad, follow these 
 ### **Additional Tips**:
 
 - Tinkercad doesn’t have direct phase measurement tools, so the alignment of waveforms serves as the visual evidence for the in-phase relationship.
-- Use appropriate oscilloscope time and voltage settings to clearly observe the sinusoidal waveforms. 
+- Use appropriate oscilloscope time and voltage settings to clearly observe the sinusoidal waveforms.
 
 This modification allows Tinkercad to simulate the in-phase behavior of voltage and current in a resistive circuit.

@@ -18,8 +18,6 @@ A Capacitive V-to-V Integrator is a circuit that integrates an input voltage ove
 
 ### Experiment
 
-#### Objective:
-
 To design and simulate a Capacitive V-to-V Integrator and observe how the output waveform integrates the input waveform.
 
 #### Components:
@@ -48,12 +46,9 @@ To design and simulate a Capacitive V-to-V Integrator and observe how the output
 5. Output Voltage:
    - Measure \( V_{out} \) at the op-amp output terminal.
 
----
-
 ### Steps
 
-1. :
-   - Assemble the circuit on the breadboard as described.
+1. Assemble the circuit on the breadboard as described.
 
 2. Apply Input Signal:
    - Configure the function generator to provide a square wave (\( 1kHz \), \( 5V_{peak} \)) as \( V_{in} \).

@@ -52,8 +52,6 @@ A Compound Voltage Source is a circuit that combines multiple voltage sources, o
 
 ### Experiment
 
-#### Objective
-
 To demonstrate the behavior of a Compound Voltage Source by combining series and parallel voltage sources and observe their output characteristics.
 
 #### Components

@@ -18,8 +18,6 @@ This circuit often uses operational amplifiers (op-amps) or transconductance amp
 
 ### Experiment
 
-#### Objective
-
 To design and simulate a Current-by-Resistance Multiplier using an operational amplifier and demonstrate how the output current varies as the resistance changes.
 
 #### Components
@@ -51,8 +49,7 @@ To design and simulate a Current-by-Resistance Multiplier using an operational a
 
 ### Steps
 
-1. :
-   - Build the circuit as described above, ensuring correct polarity and connections.
+1. Build the circuit as described above, ensuring correct polarity and connections.
 
 2. Apply Input Current:
    - Set \( I_{in} = 1mA \).

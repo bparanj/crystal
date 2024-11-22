@@ -27,8 +27,6 @@ A Capacitive I-to-V Integrator is a circuit that converts an input current into 
 
 ### Experiment
 
-#### Objective
-
 To design and simulate a Capacitive I-to-V Integrator and demonstrate how the output voltage integrates the input current.
 
 #### Components
@@ -63,8 +61,7 @@ To design and simulate a Capacitive I-to-V Integrator and demonstrate how the ou
 
 ### Steps
 
-1. :
-   - Build the circuit as described above, ensuring proper connections and polarity.
+1. Build the circuit as described above, ensuring proper connections and polarity.
 
 2. Apply Input Current:
    - Simulate the input current using a current source or a variable resistor.

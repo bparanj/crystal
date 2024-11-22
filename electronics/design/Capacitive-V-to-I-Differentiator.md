@@ -28,8 +28,6 @@ I_C = C \cdot \frac{dV}{dt}
 
 ### Experiment
 
-#### Objective
-
 To demonstrate the concept of a Capacitive V-to-I Differentiator using a capacitor and observe the output current for varying input voltages.
 
 #### Components
@@ -70,8 +68,7 @@ To demonstrate the concept of a Capacitive V-to-I Differentiator using a capacit
      I_C = C \cdot 2\pi f \cdot V_{peak}
      \]
 
-3. Observe Waveforms:
-   - Use the oscilloscope to compare the input voltage waveform (\( V_{in} \)) and the output current waveform (\( I_C \)).
+3. Observe Waveforms: Use the oscilloscope to compare the input voltage waveform (\( V_{in} \)) and the output current waveform (\( I_C \)).
 
 4. Change Input Frequency:
    - Increase the frequency of \( V_{in} \) (e.g., \( 2kHz, 5kHz \)).

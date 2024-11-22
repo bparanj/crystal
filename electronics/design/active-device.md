@@ -17,6 +17,15 @@ pick only few from this list that will be covered in the book
    - Photodiodes
    - Schottky diodes
 
+5. Other
+
+   - Thyristors
+   - SCRs
+   - TRIACs
+   - Optocouplers
+
+OUT OF SCOPE
+
 3. Integrated Circuits (ICs)
 
    - Operational Amplifiers
@@ -30,13 +39,6 @@ pick only few from this list that will be covered in the book
    - Triodes
    - Pentodes
    - Cathode Ray Tubes
-
-5. Other
-
-   - Thyristors
-   - SCRs
-   - TRIACs
-   - Optocouplers
 
 TAG
 

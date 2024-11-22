@@ -21,8 +21,6 @@ A Capacitive V-to-V Differentiator is a circuit that generates an output voltage
 
 ### Experiment
 
-#### Objective:
-
 To design and simulate a Capacitive V-to-V Differentiator and observe how the output voltage responds to time-varying input signals.
 
 #### Components:
@@ -51,8 +49,7 @@ To design and simulate a Capacitive V-to-V Differentiator and observe how the ou
 
 ### Steps
 
-1. :
-   - Build the circuit on a breadboard as described.
+1. Build the circuit on a breadboard as described.
 
 2. Apply Input Signal:
    - Configure the function generator to produce different waveforms (sinusoidal, square, or triangular) at a frequency of \( 1kHz \) and amplitude of \( 5V_{peak} \).

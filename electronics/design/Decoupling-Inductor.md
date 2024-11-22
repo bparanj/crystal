@@ -22,8 +22,6 @@ A decoupling inductor is used in circuits to block or filter high-frequency nois
 
 ### Experiment
 
-#### Objective
-
 To demonstrate how a decoupling inductor blocks high-frequency signals while allowing low-frequency signals or DC to pass.
 
 #### Components

@@ -1,3 +1,6 @@
+Take screenshots of falstat curves for experiments and save it in the folders.
+Step must have the intent for each step besides the concrete connection details
+
 Run experiments in book/basics folder
 
 Create a separate document for playing with oscilloscope settings.

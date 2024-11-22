@@ -23,8 +23,6 @@ A Capacitive Voltage Divider is a circuit that divides the input voltage across 
 
 ### Experiment
 
-#### Objective:
-
 To design and simulate a Capacitive Voltage Divider and observe how the output voltage changes with different capacitance ratios.
 
 #### Components:
@@ -52,8 +50,7 @@ To design and simulate a Capacitive Voltage Divider and observe how the output v
 
 ### Steps
 
-1. :
-   - Assemble the capacitors and voltage source on the breadboard as described.
+1. Assemble the capacitors and voltage source on the breadboard as described.
 
 2. Apply Input Signal:
    - Configure the AC voltage source to provide a sinusoidal waveform (\( 5V_{peak}, 1kHz \)).
