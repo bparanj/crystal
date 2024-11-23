@@ -1,3 +1,7 @@
+PENDING
+
+Review energy-conservtion.md
+
 The law of conservation of energy states that energy cannot be created or destroyed, only converted from one form to another. In electronics, this fundamental principle is applied in the design, analysis, and operation of circuits and devices.
 
 ### 1. Energy Conversion in Components:

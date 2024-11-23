@@ -406,7 +406,3 @@ Work in electronic circuits is directly related to energy transfer and can be un
 - Motor converting electrical work to mechanical work
 - Heater converting electrical work to thermal energy
 - LED converting electrical work to light energy
-
-PENDING
-
-Review energy-conservtion.md

@@ -6,7 +6,7 @@ The human heart rate beats at 60 times in a minute. Its frequency is 60 beats pe
 
 Blinking Light (Flashes per Second)
 
-If a blinking light flashes twice every second, its frequency is 2 flashes per second (or 2 Hz). The faster it blinks, the higher the frequency. Frequency here is the number of flashes per second, showing how often the light turns on and off.
+If a blinking light flashes once every second, its frequency is 1 flash per second (or 1 Hz). The faster it blinks, the higher the frequency. Frequency here is the number of flashes per second, showing how often the light turns on and off.
 
 In electronics, frequency refers to how often a periodic signal or oscillation occurs in a given amount of time, usually measured in Hertz (Hz).
 
