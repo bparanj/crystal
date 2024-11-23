@@ -17,7 +17,7 @@ PENDING
 Need diagram from active.
 Need diagrsm for power gain and all the concepts explained in this article.
 
-Key characteristics of discrete active devices:
+characteristics of discrete active devices:
 
 1. Power gain: They can increase the power of a signal.
 
