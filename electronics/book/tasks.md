@@ -13,6 +13,7 @@ Merge
 
 Experiments
 
+- transistor-current.md
 - Run experiment voltage-current.md in resistive-circuit folder.
 - Run experiments in book/basics folder
 - Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
@@ -42,7 +43,7 @@ ac-voltage-shift.md
 capacitor-parallel.md
 voltage-doubler.md (This needs the transistor oscillator to be completed first)
 transistor-oscillator.md
-transistor-current.md
+
 capacitor-voltage.md
 
 

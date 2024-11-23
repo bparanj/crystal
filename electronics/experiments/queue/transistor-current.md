@@ -1,51 +1,55 @@
+NEXT
+
+See Current Limiting Transistor in personal account
+
 An experiment to demonstrate current limiting using a transistor.
 
 Components:
 
 1. 2N2222 NPN transistor
-2. LED (any color)
-3. 1kΩ resistor
-4. 10kΩ potentiometer
+2. LED
+3. 1 kΩ resistor
+4. 1 mΩ potentiometer
 5. 9V battery or power supply
 6. Breadboard and jumper wires
 
-#### Step 1: Place the Components
+#### Step 1: 
 
-- Place the 2N2222 NPN transistor on the breadboard, ensuring its terminals (collector, base, emitter) are in separate rows.
-- Place the LED near the transistor, with its anode (long leg) and cathode (short leg) accessible for connections.
+- Place the 2N2222 NPN transistor on the breadboard, collector, base, emitter are in separate rows.
+- Place the LED near the transistor
 - Place the 1kΩ resistor and the 10kΩ potentiometer on the breadboard in separate locations for easy connections.
 
-#### Step 2: Connect the Power Supply
+#### Step 2: 
 
-1. Connect the negative terminal of the 9V battery (or power supply) to the negative rail on the breadboard.
+1. Connect the negative terminal of the 9V battery to the negative rail on the breadboard.
 2. Connect the positive terminal of the battery to the positive rail on the breadboard.
 
-#### Step 3: Connect the LED to the Transistor
+#### Step 3: 
+
+Connect the LED to the Transistor
 
 1. Connect the anode (long leg) of the LED to the positive rail on the breadboard.
-2. Connect the cathode (short leg) of the LED to the collector (middle terminal) of the transistor.
+2. Connect the cathode (short leg) of the LED to the collector of the transistor.
 
-#### Step 4: Connect the Resistor to the Transistor Base
+#### Step 4: 
+
+Connect the Resistor to the Transistor Base
 
 1. Connect one terminal of the 10kΩ potentiometer to the positive rail on the breadboard.
 2. Connect the wiper (middle terminal) of the potentiometer to one terminal of the 1kΩ resistor.
 3. Connect the other terminal of the 1kΩ resistor to the base of the transistor.
 
-#### Step 5: Connect the Emitter to Ground
+#### Step 5: 
 
-1. Connect the emitter (right terminal when viewed from the front, flat side facing you) of the transistor to the negative rail on the breadboard.
+Connect the Emitter to Ground
+
+1. Connect the emitter of the transistor to the negative rail on the breadboard.
 
 ### Experiment
 
-1. Initial Setup:
-   - Ensure the potentiometer is set to maximum resistance (fully turned in one direction).
-   - Confirm all connections are secure.
-
-2. Run the Simulation:
-   - Turn on the simulation in Tinkercad.
-
-3. Adjust the Potentiometer:
-   - Slowly reduce the potentiometer resistance by turning it. Observe how the LED brightness increases as more base current flows into the transistor.
+- Ensure the potentiometer is set to maximum resistance (fully turned in one direction).
+- Turn on the simulation in Tinkercad.
+- Slowly reduce the potentiometer resistance by turning it. Observe how the LED brightness increases as more base current flows into the transistor.
 
 ### Observations
 
