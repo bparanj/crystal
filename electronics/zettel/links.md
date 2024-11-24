@@ -21,7 +21,7 @@
 - [Time constant of capacitor](https://www.youtube.com/watch?v=T0_Z0jw2DhI)
 - [Time constant of capacitor](https://www.youtube.com/watch?v=pb0yduMthWE)
 - [Should a Person Touch 200,000 Volts? A Van de Graaff generator experiment!](https://www.youtube.com/watch?v=ubZuSZYVBng)
-
+- [Phase Shift Experiments](https://www.cmm.gov.mo/eng/exhibition/secondfloor/moreinfo/2_4_4_PhaseShift.html)
 Refer this: https://www.youtube.com/watch?v=CVywtFTEz3I
 His channel: https://www.youtube.com/@Ohmify
 
