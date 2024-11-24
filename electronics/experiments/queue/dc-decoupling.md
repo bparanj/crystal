@@ -1,10 +1,18 @@
 PENDING
 
-This is the same as diode experiment.
+This is a slight variation of the diode experiment. The focus here is observing the voltage drop.
+
+DC decoupling is the process of blocking DC components in a signal while allowing AC components to pass through. It is typically achieved using capacitors, which act as a high-pass filter, removing the DC offset and preserving the AC waveform. This is commonly used in signal processing and measurement equipment like oscilloscopes.
+
+The term **DC decoupling** is used instead of "DC blocking" because it emphasizes the purpose of separating or isolating the DC component from a circuit or signal path. "Decoupling" conveys the idea of preventing interference or interaction between the DC and AC components, which is often crucial in systems where the AC signal must be preserved without distortion while the DC bias is removed. It is a broader term that fits into the context of signal integrity and system design.
+
+Voltage decoupling refers to isolating voltage fluctuations or noise on a power supply line to ensure stable operation of electronic components. It is achieved using **decoupling capacitors**, which act as local energy reservoirs, filtering out high-frequency noise and stabilizing the voltage delivered to sensitive parts of a circuit.
+
+Voltage decoupling using a **series diode** involves placing a diode in series with the supply line to isolate sections of a circuit. The diode prevents reverse current flow, ensuring that voltage fluctuations or faults in one part of the circuit do not affect other sections. This method is useful for protecting sensitive components and maintaining stable operation.
 
 ### Voltage Decoupling Using a Series Diode
 
-A series diode can decouple voltage in a circuit by blocking the flow of current in one direction, effectively allowing voltage to pass only when the diode is forward-biased. This behavior is used to isolate parts of a circuit, prevent reverse current flow, or limit voltage transmission.
+A series diode can decouple voltage in a circuit by blocking the flow of current in one direction, allowing current to flow only when the diode is forward-biased. This behavior is used to isolate parts of a circuit, prevent reverse current flow, and regulate current flow based on the applied voltage.
 
 1. Forward Bias:
    - When the diode's anode is at a higher voltage than the cathode, the diode conducts, allowing voltage and current to pass.

@@ -9,10 +9,10 @@ Step must have the intent for each step besides the concrete connection details
 Merge
 
 - high pass filter.md
-- dc-decoupling.md
 
 Experiments
 
+- dc-decoupling.md
 - transistor-current.md
 - Run experiment voltage-current.md in resistive-circuit folder.
 - Run experiments in book/basics folder
