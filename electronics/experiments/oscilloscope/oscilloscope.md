@@ -1,3 +1,17 @@
+### 2. Observe the Behavior of an AC Signal with an Oscilloscope
+
+To visualize an AC signal and understand its positive and negative cycles.
+
+Connect the function generator (set to sine wave at 1 kHz, 15V peak-to-peak) directly to an oscilloscope.
+
+Procedure:
+
+Observe how the AC signal oscillates between positive and negative voltages.
+Familiarize yourself with the wave’s movement above and below the horizontal axis (zero line).
+
+This gives a clear understanding of the alternating nature of AC signals, which is needed for the next steps in understanding how the circuit affects this waveform.
+
+
 Occilloscope is an electronic test equipment for measuring input and output signals.
 
 The positive lead is connected to the positive terminal of the device to measure and the negative lead to the ground.

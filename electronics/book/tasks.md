@@ -1,3 +1,9 @@
+Capture Images
+
+- half-wave-rectifier.md
+- blinking-led.md
+- inductive-kickback
+
 25.md Add images e1 to e8 and describe those steps. Run the experiment. Verify current understanding and add the missing steps. capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
 
 Edit oscilloscope.md in oscilloscope folder and explain the settings for oscilloscope and function generator.
@@ -9,6 +15,9 @@ Step must have the intent for each step besides the concrete connection details
 Merge
 
 - high pass filter.md
+- capacitor-ac.md
+- 7.md and capacitor-storage.md
+- 9.md and polarity.md
 
 Experiments
 
@@ -21,6 +30,8 @@ Experiments
 - 34.md RC High Pass Filter
 - capacitive-voltage-divider.md
 - capacitive-integrator.md
+- inductive-kickback.md
+- ohms-law
 
 light-sensor.md
 

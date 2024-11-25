@@ -1,3 +1,4 @@
+- [Phase Shift Experiments](https://www.cmm.gov.mo/eng/exhibition/secondfloor/moreinfo/2_4_4_PhaseShift.html)
 - [Circuit Simulation](https://www.falstad.com/circuit/e-index.html)
 - [Video 1](https://www.youtube.com/watch?v=nGQbA2jwkWI)
 - [Video 2](https://www.youtube.com/watch?v=x1-SibwIPM4)
@@ -8,7 +9,6 @@
 - [Half Wave Rectifier](https://www.youtube.com/watch?v=vghMCemjXdA)
 - [Tinkercad Tutorials](https://www.tinkercad.com/learn/circuits)
 - [Basic Simulations](https://www.youtube.com/playlist?list=PLxtiTGwRHk3OdlJg1Ita9kaN9HVv1Cgv7)
-- [Voltage Regulator](https://www.tinkercad.com/things/fBosanc7O9u-voltage-regulators)
 - [Overleaf Tutorials](https://www.overleaf.com/)
 - [Build an RC Circuit](https://www.youtube.com/watch?v=HYfKEGflqno)
 - [SEE a Magnetic Field with Iron Fillings](https://www.youtube.com/watch?v=1Nr-KtlMIKI)
@@ -21,11 +21,7 @@
 - [Time constant of capacitor](https://www.youtube.com/watch?v=T0_Z0jw2DhI)
 - [Time constant of capacitor](https://www.youtube.com/watch?v=pb0yduMthWE)
 - [Should a Person Touch 200,000 Volts? A Van de Graaff generator experiment!](https://www.youtube.com/watch?v=ubZuSZYVBng)
-- [Phase Shift Experiments](https://www.cmm.gov.mo/eng/exhibition/secondfloor/moreinfo/2_4_4_PhaseShift.html)
-Refer this: https://www.youtube.com/watch?v=CVywtFTEz3I
-His channel: https://www.youtube.com/@Ohmify
-
-
+- [Breadboard Basics](https://www.youtube.com/watch?v=CVywtFTEz3I)
 
 Jobs:
 

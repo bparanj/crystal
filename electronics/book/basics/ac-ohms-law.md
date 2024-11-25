@@ -1,7 +1,5 @@
 ### **Demonstrate Ohm's Law with AC**
 
-#### **Objective**
-
 Demonstrate **Ohm's Law** in an AC circuit by measuring the relationship between voltage, current, and resistance.
 
 ### **Components**

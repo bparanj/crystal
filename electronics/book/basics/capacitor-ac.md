@@ -48,4 +48,3 @@ With AC, The LED or bulb lights up, indicating that the capacitor allows AC to p
 - The principle is critical in designing circuits like high-pass filters and AC coupling in audio and RF systems.
 
 This experiment demonstrates capacitor's basic behavior in AC circuits.
-
