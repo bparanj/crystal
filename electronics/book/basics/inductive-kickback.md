@@ -24,6 +24,8 @@ An inductor resists changes in current. When the current flowing through an indu
 
 PENDING
 
+QUESTION
+
 The turn off switch dims the LED at the same rate if there was no inductor. How to make this more prominent? Refer Inductive Kickback in biz account
 
 1. **Close the switch:** Allow current to flow through the circuit, building a magnetic field in the inductor.

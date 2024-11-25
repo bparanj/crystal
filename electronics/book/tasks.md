@@ -57,7 +57,6 @@ transistor-oscillator.md
 
 capacitor-voltage.md
 
-
 Task Breakdown
 
 - 20.md -> Break it down brandy with falstad.

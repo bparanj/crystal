@@ -2,13 +2,15 @@ PENDING
 
 See Blinking LED - AC in biz account to take screenshots
 
+The output wave form is not fully rectified, the upper cycle is reduced a bit. Remove the rectification part and only show the polarity? Polarity is already covered in 13.md
+
 ### **Demonstrate Polarity and Rectification**
 
 Demonstrate the importance of **polarity** for an LED and how it acts as a **rectifier**, allowing current to flow in only one direction when connected to an AC source.
 
 ### **Components**
 
-1. **Low-Voltage AC Source** (e.g., 6V or 12V AC for safety)
+1. **Low-Voltage AC Source** (e.g., 5V)
 2. **Red LED**
 3. **Resistor** (e.g., 1 kΩ to limit current)
 
@@ -48,7 +50,7 @@ An LED is a polarized component that allows current to flow in only one directio
 
 ### **Applications**
 
-- This principle is foundational for understanding rectifiers, used in power supplies to convert AC to DC.
+- Rectifiers are used in power supplies to convert AC to DC.
 - Demonstrates how LEDs can be used as indicators for AC polarity or signal presence.
 
 This experiment demonstration of polarity, rectification, and AC waveform behavior with minimal components.

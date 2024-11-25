@@ -17,12 +17,12 @@ Demonstrate the alternating nature of AC (Alternating Current) by observing a li
 1. Connect one terminal of the **light bulb** to one terminal of the **AC power source**.
 2. Connect the other terminal of the bulb to the other terminal of the power source.
 
-#### Step 2: Observe the Bulb
+#### Step 2:
 
 1. Power the AC source.
 2. Observe the light bulb turning on steadily.
 
-#### Step 3: Optional - Measure Voltage
+#### Step 3:
 
 1. Connect a **multimeter** to the AC source in voltage mode.
 2. Observe the multimeter displaying the root mean square (RMS) voltage of the AC source.

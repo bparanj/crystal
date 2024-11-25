@@ -2,23 +2,23 @@ Observe the Behavior of an AC Signal with an Oscilloscope
 
 To visualize an AC signal and understand its positive and negative cycles.
 
-Connect the function generator (set to sine wave at 1 kHz, 15V peak-to-peak) directly to an oscilloscope.
+Change the function generator settings: function: sine, frequency: 1 kHz, amplitude: 15 volts
+Connect the function generator directly to an oscilloscope.
 
 Procedure:
 
 Observe how the AC signal oscillates between positive and negative voltages.
 Familiarize yourself with the wave’s movement above and below the horizontal axis (zero line).
 
-This gives a clear understanding of the alternating nature of AC signals, which is needed for the next steps in understanding how the circuit affects this waveform.
-
+This shows the alternating nature of AC signals.
 
 Occilloscope is an electronic test equipment for measuring input and output signals.
 
 The positive lead is connected to the positive terminal of the device to measure and the negative lead to the ground.
 
-You can adjust the time per division to view the wafeform. 
+You can adjust the time per division to view the wafeform. How to calculate the value for time per division?
 
-Function generator is an electronic device used to generate various voltage waveforms. There are three different waveforms available in the settings window: square, sine and triangle. 
+Function generator is an electronic device used to generate various voltage waveforms. There are three different waveforms available in the settings window: square, sine and triangle.
 
 The amplitude is the peak voltage of the waveform, which determines its height from the center line (or baseline) to its peak. It is displayed in volts. The frequency is displayed in hertz. The DC offset is the amount by which the waveform is shifted vertically from the zero-voltage baseline, effectively adding a constant voltage to the signal.
 
@@ -58,7 +58,7 @@ Image 10
 
 Step 5
 
-Set the oscilloscope time per division to 10 ms. 
+Set the oscilloscope time per division to 10 ms.
 
 Image 9
 

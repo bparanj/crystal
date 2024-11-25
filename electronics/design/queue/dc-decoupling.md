@@ -4,7 +4,7 @@ This is a slight variation of the diode experiment. The focus here is observing 
 
 DC decoupling is the process of blocking DC components in a signal while allowing AC components to pass through. It is typically achieved using capacitors, which act as a high-pass filter, removing the DC offset and preserving the AC waveform. This is commonly used in signal processing and measurement equipment like oscilloscopes.
 
-The term **DC decoupling** is used instead of "DC blocking" because it emphasizes the purpose of separating or isolating the DC component from a circuit or signal path. "Decoupling" conveys the idea of preventing interference or interaction between the DC and AC components, which is often crucial in systems where the AC signal must be preserved without distortion while the DC bias is removed. It is a broader term that fits into the context of signal integrity and system design.
+The term **DC decoupling** is used instead of DC blocking because it emphasizes the purpose of separating or isolating the DC component from a circuit or signal path. Decoupling conveys the idea of preventing interference or interaction between the DC and AC components, which is often needed in systems where the AC signal must be preserved without distortion while the DC bias is removed. It is a broader term that fits into the context of signal integrity and system design.
 
 Voltage decoupling refers to isolating voltage fluctuations or noise on a power supply line to ensure stable operation of electronic components. It is achieved using **decoupling capacitors**, which act as local energy reservoirs, filtering out high-frequency noise and stabilizing the voltage delivered to sensitive parts of a circuit.
 

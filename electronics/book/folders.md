@@ -59,7 +59,7 @@ zener-diode
 18. What happens when you don't meet the specifications of a component?
 19. Negative Clamper: Shift an AC waveform downward
 20. Negative Clipper: Zener diode limits the positive side of the input waveform to its breakdown voltage
-21. Oscilloscope - How to use function generator and oscilloscope 
+21. Oscilloscope - How to use function generator and oscilloscope
 22. Polarized Capacitor - Charging and Discharging
 23. Polarized Capacitor in a AC circuit
 24. PENDING
@@ -79,6 +79,17 @@ zener-diode
 38. Voltage Divider - how voltage is distributed across components in a series circuit
 39. Voltage Regulator - Maintains a constant output voltage even when the input voltage varies
 40. Zener diode can act as a voltage regulator in reverse bias
+
+Possible Chapter Names
+
+- Work and Energy
+
+- Energy Storage
+
+- Wave Shaping Circuits
+
+- Current
+
 
 Missing
 

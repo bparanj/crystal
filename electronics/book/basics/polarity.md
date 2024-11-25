@@ -12,7 +12,7 @@ Devices with polarity, such as diodes, LEDs, polarized capacitors, and transisto
 4. Improve Efficiency:
    - Properly oriented components optimize energy use and performance in circuits like power supplies, amplifiers, and signal processing systems.
 
-Polarity is fundamental for achieving directional control and functionality in electronic circuits.
+Polarity is useful in achieving directional control in electronic circuits.
 
 ### **Demonstrate Polarity**
 
