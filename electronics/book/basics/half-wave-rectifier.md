@@ -12,9 +12,7 @@ Demonstrate how a diode allows current to flow in only one direction by converti
 
 1. **AC Power Source** (e.g., 6V or 12V AC)
 2. **Diode** (e.g., 1N4007 or any general-purpose diode)
-3. **Small Incandescent Bulb** or **LED** with appropriate resistor for current limiting
-
-### **Concept**
+3. **LED** with appropriate resistor for current limiting
 
 A diode acts as a one-way valve for current. In an AC circuit, it allows only the positive half-cycles of the waveform to pass through, effectively blocking the negative half-cycles, creating a pulsating DC output.
 
@@ -45,4 +43,4 @@ A diode acts as a one-way valve for current. In an AC circuit, it allows only th
 
 ### **Applications**
 
-This experiment lays the foundation for understanding rectifiers, a critical component in AC-to-DC conversion used in almost every electronic power supply.
+Rectifiers can be found in AC-to-DC conversion used in almost every electronic power supply.

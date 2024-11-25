@@ -1,4 +1,4 @@
-### 2. Observe the Behavior of an AC Signal with an Oscilloscope
+Observe the Behavior of an AC Signal with an Oscilloscope
 
 To visualize an AC signal and understand its positive and negative cycles.
 

@@ -1,6 +1,6 @@
 ### **Voltage and Current in Phase in a Resistor Circuit**
 
-In a purely resistive circuit, the voltage and current are in phase, meaning their waveforms reach their peaks and zero crossings simultaneously. This can be demonstrated using an AC voltage source and an oscilloscope.
+In a resistive circuit, the voltage and current are in phase. The voltage and current waveforms reach their peaks and zero crossings simultaneously. This can be demonstrated using an AC voltage source and an oscilloscope.
 
 To show that the voltage and current are in phase in a resistor-only AC circuit.
 
@@ -41,7 +41,6 @@ To show that the voltage and current are in phase in a resistor-only AC circuit.
 
 - The voltage and current waveforms will align perfectly, confirming that they are in phase.
 - The phase difference displayed on the oscilloscope will be \( 0^\circ \).
-
 
 - In a resistive circuit, the voltage and current are in phase because the resistor does not store energy but dissipates it as heat.
 - This behavior contrasts with inductors and capacitors, which introduce phase shifts due to energy storage.

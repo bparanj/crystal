@@ -1,6 +1,6 @@
-Design an experiment to demonstrate the EMF and back-EMF created when DC current starts and stops passing through an inductor using Tinkercad
+Design an experiment to demonstrate the EMF and back-EMF created when DC current starts and stops passing through an inductor.
 
-Here's a step-by-step guide to design an experiment on Tinkercad to demonstrate EMF and back-EMF using an inductor:
+An experiment to demonstrate EMF and back-EMF using an inductor:
 
 ### Components:
 
