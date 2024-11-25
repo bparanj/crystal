@@ -80,6 +80,11 @@ zener-diode
 39. Voltage Regulator - Maintains a constant output voltage even when the input voltage varies
 40. Zener diode can act as a voltage regulator in reverse bias
 
+
+PENDING
+
+- 24.md, RL High Pass Filter, RL Low Pass Filter
+
 Possible Chapter Names
 
 - Work and Energy
@@ -89,6 +94,11 @@ Possible Chapter Names
 - Wave Shaping Circuits
 
 - Current
+
+- Voltage
+
+- Filters
+
 
 
 Missing

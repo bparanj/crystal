@@ -210,7 +210,9 @@ This is a simple oscillator circuit that generates a square wave. The feedback t
 
 ### 6. Full-Wave Rectifier with Capacitive Filtering
 
-Components: Four Diodes (D1, D2, D3, D4) and one Capacitor (C)
+Components:
+
+Four Diodes (D1, D2, D3, D4) and one Capacitor (C)
 
 This circuit converts AC to DC using a bridge rectifier (four diodes) and a capacitor to filter the output, providing smoother DC power. It’s often found in power supplies for various electronics.
 

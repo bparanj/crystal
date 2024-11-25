@@ -1,5 +1,6 @@
 Capture Images
 
+- charge-discharge.md
 - half-wave-rectifier.md
 - blinking-led.md
 - inductive-kickback
@@ -31,6 +32,7 @@ Experiments
 - capacitive-voltage-divider.md
 - capacitive-integrator.md
 - inductive-kickback.md
+- inductive-reactance
 - ohms-law
 
 light-sensor.md
