@@ -11,13 +11,6 @@ Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
 Take screenshots of falstat curves for experiments and save it in the folders.
 Step must have the intent for each step besides the concrete connection details
 
-Merge
-
-- high pass filter.md
-- capacitor-ac.md
-- 7.md and capacitor-storage.md
-- 9.md and polarity.md
-
 Experiments
 
 - dc-decoupling.md
@@ -59,7 +52,6 @@ Task Breakdown
 
 Review
 
-- Compared the bottom and top sections side by side for 12.md. Merge the content within the steps.
 - Review discrete-passive-circuit.md
 - Review passive-component.md and extract or delete experiments
 - Review and condense load.md
