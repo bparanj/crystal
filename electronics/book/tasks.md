@@ -3,7 +3,7 @@ Capture Images
 - blinking-led.md
 - inductive-kickback
 
-25.md Add images e1 to e8 and describe those steps. Run the experiment. Verify current understanding and add the missing steps. capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
+25.md capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
 
 Edit oscilloscope.md in oscilloscope folder and explain the settings for oscilloscope and function generator.
 
@@ -11,20 +11,27 @@ Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
 Take screenshots of falstat curves for experiments and save it in the folders.
 Step must have the intent for each step besides the concrete connection details
 
-Experiments
+Move to out of scope
+
+- voltage-stabilizer.md
+ 
+Screenshots
 
 - dc-decoupling.md
 - transistor-current.md
-- Run experiment voltage-current.md in resistive-circuit folder.
-- Run experiments in book/basics folder
 - Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
-- voltage-stabilizer.md
+- Check Resistor V-I Curve personal account (voltage-current.md in resistive-circuit folder)
+
+Experiments
+
+- Run experiments in book/basics folder
 - 34.md RC High Pass Filter
 - capacitive-voltage-divider.md
 - capacitive-integrator.md
 - inductive-kickback.md
 - inductive-reactance
 - ohms-law
+- vi-curve-capacitor.md
 
 light-sensor.md
 

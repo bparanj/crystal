@@ -1,3 +1,6 @@
+PENDING
+
+Not able to see the noise in the oscilloscope. Move to out of scope
 
 What should be the value of the time per division in the oscilloscope to see the noise in the output when capacitor is not yet connected? The frequency is set to 1 Hz.
 
@@ -48,15 +51,13 @@ Show how a capacitor can smooth out voltage fluctuations by acting as a decoupli
 
 ### Setup
 
-1. Power Supply: Connect the 9V DC power supply across the breadboard's power and ground rails.
-2. Resistor (Load): Connect the resistor from the positive power rail to ground. This will act as a load on the power supply.
+1. Connect the 9V DC power supply across the breadboard's power and ground rails.
+2. Connect the resistor from the positive power rail to ground. This will act as a load on the power supply.
 3. Function Generator (Noise Source):
    - Set the function generator to produce a low-frequency square wave (e.g., 1 Hz) with a small amplitude (e.g., 1V peak-to-peak) to simulate power supply noise.
    - Connect the function generator's output to the positive rail to introduce fluctuating noise on the power supply.
-4. Capacitor Placement:
-   - Place the capacitor across the power supply rails (positive leg to the positive rail and negative leg to ground). This will act as a decoupling capacitor, helping to smooth out the fluctuations.
-5. Oscilloscope Connections:
-   - Connect the oscilloscope probes across the capacitor to observe the voltage on the positive rail.
+4. Place the capacitor across the power supply rails (positive leg to the positive rail and negative leg to ground). This will act as a decoupling capacitor, helping to smooth out the fluctuations.
+5. Connect the oscilloscope probes across the capacitor to observe the voltage on the positive rail.
 
 ### Procedure
 

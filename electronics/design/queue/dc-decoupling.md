@@ -1,12 +1,8 @@
 PENDING
 
+DC Decoupling in personal account. Take screenshots.
+
 This is a slight variation of the diode experiment. The focus here is observing the voltage drop.
-
-DC decoupling is the process of blocking DC components in a signal while allowing AC components to pass through. It is typically achieved using capacitors, which act as a high-pass filter, removing the DC offset and preserving the AC waveform. This is commonly used in signal processing and measurement equipment like oscilloscopes.
-
-The term **DC decoupling** is used instead of DC blocking because it emphasizes the purpose of separating or isolating the DC component from a circuit or signal path. Decoupling conveys the idea of preventing interference or interaction between the DC and AC components, which is often needed in systems where the AC signal must be preserved without distortion while the DC bias is removed. It is a broader term that fits into the context of signal integrity and system design.
-
-Voltage decoupling refers to isolating voltage fluctuations or noise on a power supply line to ensure stable operation of electronic components. It is achieved using **decoupling capacitors**, which act as local energy reservoirs, filtering out high-frequency noise and stabilizing the voltage delivered to sensitive parts of a circuit.
 
 Voltage decoupling using a **series diode** involves placing a diode in series with the supply line to isolate sections of a circuit. The diode prevents reverse current flow, ensuring that voltage fluctuations or faults in one part of the circuit do not affect other sections. This method is useful for protecting sensitive components and maintaining stable operation.
 
@@ -29,17 +25,15 @@ A series diode can decouple voltage in a circuit by blocking the flow of current
 
 1. DC voltage source (\( V_1 = 10V \)).
 2. Resistor (Load) (\( R = 1k\Omega \)).
-3. Diode (e.g., 1N4148 or similar).
+3. Diode (e.g., 1N4148).
 4. Multimeter (to measure voltage across the load).
 
 ### Setup:
 
-1. Series Diode:
    - Connect the anode of the diode to the positive terminal of the DC voltage source.
    - Connect the cathode of the diode to one end of the resistor (\( R \)).
    - Connect the other end of the resistor to the ground of the voltage source.
 
-2. Voltage Measurement:
    - Place the multimeter across the resistor to measure the voltage after the diode.
 
 ### Steps:
@@ -77,4 +71,4 @@ A series diode can decouple voltage in a circuit by blocking the flow of current
 4. Ripple Filtering:
    - In power supplies, diodes in series decouple voltage fluctuations and rectify signals.
 
-You can test both forward and reverse-bias conditions by reversing the voltage source. It demonstrates the diode's role in voltage decoupling and its practical implications.
+You can test both forward and reverse-bias conditions by reversing the voltage source. It demonstrates the diode's role in voltage decoupling.

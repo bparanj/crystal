@@ -26,22 +26,16 @@ Components:
 
 #### Step 3: 
 
-Connect the LED to the Transistor
-
 1. Connect the anode (long leg) of the LED to the positive rail on the breadboard.
 2. Connect the cathode (short leg) of the LED to the collector of the transistor.
 
 #### Step 4: 
-
-Connect the Resistor to the Transistor Base
 
 1. Connect one terminal of the 10kΩ potentiometer to the positive rail on the breadboard.
 2. Connect the wiper (middle terminal) of the potentiometer to one terminal of the 1kΩ resistor.
 3. Connect the other terminal of the 1kΩ resistor to the base of the transistor.
 
 #### Step 5: 
-
-Connect the Emitter to Ground
 
 1. Connect the emitter of the transistor to the negative rail on the breadboard.
 
