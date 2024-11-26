@@ -1,7 +1,5 @@
 Capture Images
 
-- charge-discharge.md
-- half-wave-rectifier.md
 - blinking-led.md
 - inductive-kickback
 
@@ -39,24 +37,19 @@ light-sensor.md
 
 current-source-paradox.md
 current-source.md
-
 conductor paradox.md
 ideal vi load.md
 impedance conflict.md
 parallel current
-
 half wave rectifier must go before 20.md
 current source.md
 current source duality
-
 amplifier-attenuate.md
 ac-voltage-stiff.md
 ac-voltage-shift.md
-
 capacitor-parallel.md
 voltage-doubler.md (This needs the transistor oscillator to be completed first)
 transistor-oscillator.md
-
 capacitor-voltage.md
 
 Task Breakdown

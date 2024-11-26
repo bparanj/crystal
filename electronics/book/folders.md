@@ -11,6 +11,7 @@ capacitor-filter
 current-controller
 current-divider
 diode
+half-wave-rectifier
 inductor
 inverter-circuit
 least-resistance
@@ -52,33 +53,34 @@ zener-diode
 11. Uniform Current in Series Circuits
 12. Resistors in parallel and the amount of current through them
 13. Using a diode to control the direction of current flow
-14. Inductor behavior in a DC circuit. Its response to the sudden interruption of current
-15. Inverter circuit also known as NOT gate
-16. Least Resistance - How current distributes itself in a parallel circuit
-17. Protecting LED from damage by using a resistor
-18. What happens when you don't meet the specifications of a component?
-19. Negative Clamper: Shift an AC waveform downward
-20. Negative Clipper: Zener diode limits the positive side of the input waveform to its breakdown voltage
-21. Oscilloscope - How to use function generator and oscilloscope
-22. Polarized Capacitor - Charging and Discharging
-23. Polarized Capacitor in a AC circuit
-24. PENDING
-25. Positive clipping circuit using a diode and a resistor to clip the positive part of an AC waveform
-26. Potentiometer as a variable resistor to control current flow
-27. Pushbutton as a manual control for current flow in a circuit
-28. RC Delay Timer - How the charging time of a capacitor creates a time delay
-29. RC High Pass Filter - Allows high-frequency signals to pass while attenuating low-frequency signals
-30. RC Low Pass Filter - Allows low-frequency signals to pass through while attenuating high-frequency signals
-31. Resistive Circuit - Voltage and current are in phase PENDING
-32. RL High Pass Filter - PENDING
-33. RL Low Pass Filter - PENDING
-34. Short Circuit
-35. Slideswitch - open and closed circuits
-36. Threshold Voltage - forward voltage and how it controls the behavior of an LED
-37. Transistor - Transistor as a switch
-38. Voltage Divider - how voltage is distributed across components in a series circuit
-39. Voltage Regulator - Maintains a constant output voltage even when the input voltage varies
-40. Zener diode can act as a voltage regulator in reverse bias
+14. Half Wave Rectifier
+15. Inductor behavior in a DC circuit. Its response to the sudden interruption of current
+16. Inverter circuit also known as NOT gate
+17. Least Resistance - How current distributes itself in a parallel circuit
+18. Protecting LED from damage by using a resistor
+19. What happens when you don't meet the specifications of a component?
+20. Negative Clamper: Shift an AC waveform downward
+21. Negative Clipper: Zener diode limits the positive side of the input waveform to its breakdown voltage
+22. Oscilloscope - How to use function generator and oscilloscope
+23. Polarized Capacitor - Charging and Discharging
+24. Polarized Capacitor in a AC circuit
+25. PENDING
+26. Positive clipping circuit using a diode and a resistor to clip the positive part of an AC waveform
+27. Potentiometer as a variable resistor to control current flow
+28. Pushbutton as a manual control for current flow in a circuit
+29. RC Delay Timer - How the charging time of a capacitor creates a time delay
+30. RC High Pass Filter - Allows high-frequency signals to pass while attenuating low-frequency signals
+31. RC Low Pass Filter - Allows low-frequency signals to pass through while attenuating high-frequency signals
+32. Resistive Circuit - Voltage and current are in phase PENDING
+33. RL High Pass Filter - PENDING
+34. RL Low Pass Filter - PENDING
+35. Short Circuit
+36. Slideswitch - open and closed circuits
+37. Threshold Voltage - forward voltage and how it controls the behavior of an LED
+38. Transistor - Transistor as a switch
+39. Voltage Divider - how voltage is distributed across components in a series circuit
+40. Voltage Regulator - Maintains a constant output voltage even when the input voltage varies
+41. Zener diode can act as a voltage regulator in reverse bias
 
 
 PENDING
