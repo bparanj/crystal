@@ -91,15 +91,24 @@ Possible Chapter Names
 
 - Work and Energy
 
+- Basics
+    Breadboard, Oscilloscope, Function Generator, AC, DC, Reading Spec Sheets
+
 - Energy Storage
+    Battery, Capacitor, Inductor
 
 - Wave Shaping Circuits
+    Negative Clamper, Negative Clipper, Positive Clipper
 
 - Current
 
 - Voltage
+    Voltage Divider, Voltage Regulator
 
 - Filters
+    RC High Pass Filter, RC Low Pass Filter, RL High Pass Filter, RL Low Pass Filter, Band Pass Filter
+
+
 
 
 

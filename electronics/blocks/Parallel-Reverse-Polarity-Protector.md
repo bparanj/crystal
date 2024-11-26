@@ -17,6 +17,7 @@ A Parallel Reverse Polarity Protector is a simple circuit designed to protect a 
 To design and simulate a Parallel Reverse Polarity Protector circuit and observe how it protects a load from damage when the power supply polarity is reversed.
 
 #### Components:
+
 1. Diode (1N4007 or similar).
 2. Fuse (\( 1A \)).
 3. Resistor (\( R = 1k\Omega \), simulating the load).

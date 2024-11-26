@@ -46,7 +46,6 @@ To design and simulate a Voltage-Multiplier Circuit (Voltage Doubler) and observ
 
 ### Steps
 
-1. :
    - Assemble the circuit on the breadboard in Tinkercad as described above.
 
 2. Apply Input Signal:

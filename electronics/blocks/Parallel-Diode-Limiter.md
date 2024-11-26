@@ -18,6 +18,7 @@ A Parallel Diode Limiter, or Clipping Circuit, restricts the amplitude of an inp
 To design and simulate a Parallel Diode Limiter Circuit and observe its ability to clip the input signal at specific voltage thresholds.
 
 #### Components:
+
 1. 2 Diodes (e.g., 1N4007).
 2. Resistor (\( R = 1k\Omega \), simulating the load).
 3. AC Voltage Source (\( V_{in} = \pm 10V, 1kHz \)).
