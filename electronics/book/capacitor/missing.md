@@ -6,10 +6,7 @@ Problems running this experiment. Skipping it.
 
 Missing Capacitor Experiment
 
-PENDING
-
-- Demonstrate what happens to an electronic circuit when capacitor is not used.
-- Tinkercad Simulation is pending.
+This is already demonstrated in Half Wave Rectifier with Smoothing
 
 To simplify the circuit by removing the transistor, follow these steps:
 

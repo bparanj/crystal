@@ -1,3 +1,39 @@
+A simple experiment to demonstrate reactance in an inductor using Tinkercad involves creating an AC circuit with an inductor and observing how the inductor affects the current and voltage. Here's a step-by-step guide:
+
+### Components Needed:
+- Breadboard
+- AC power source (e.g., function generator)
+- Inductor (e.g., 100 mH)
+- Resistor (e.g., 1 kΩ)
+- Wires
+- Multimeter (to measure voltage and current)
+
+### Steps:
+
+1. **Set Up the Circuit**:
+   - Place the resistor and inductor in series on the breadboard.
+   - Connect the AC power source to the series combination of the resistor and inductor.
+   - Connect the multimeter in series to measure the current and in parallel across the inductor to measure the voltage.
+
+2. **Run the Simulation**:
+   - In Tinkercad, set up the components as described above.
+   - Configure the AC power source to a specific frequency (e.g., 50 Hz or 60 Hz).
+   - Run the simulation and observe the voltage across the inductor and the current through the circuit.
+
+### Observations:
+- **Voltage and Current Phase Difference**: You will notice that the voltage across the inductor and the current through the circuit are not in phase. The voltage leads the current in an inductive circuit.
+- **Reactance**: The inductive reactance (\(X_L\)) can be calculated using the formula \(X_L = 2\pi fL\), where \(f\) is the frequency of the AC source and \(L\) is the inductance. This reactance affects the amplitude of the current and voltage.
+
+### Explanation:
+- **Inductive Reactance**: Reactance is the opposition that an inductor offers to the flow of AC current. It depends on the frequency of the AC signal and the inductance. Higher frequencies result in higher reactance, reducing the current flow.
+- **Phase Difference**: In a purely inductive circuit, the voltage leads the current by 90 degrees. This phase difference is a key characteristic of inductive reactance.
+
+### Using Tinkercad:
+1. **Create the Circuit**: Use the Tinkercad interface to place the components on the virtual breadboard.
+2. **Simulate**: Run the simulation to observe the phase difference and the effect of reactance. Use the virtual multimeter to measure the voltage and current.
+
+This experiment helps visualize how inductors behave in AC circuits and demonstrates the concept of reactance effectively.
+
 ### **Inductive Reactance**
 
 PENDING

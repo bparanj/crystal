@@ -2,6 +2,47 @@ This is now demonstrated in Half Wave Rectifier. The variation is called Half Wa
 
 PENDING
 
+Extract only few sentences and add it to existing experiment:
+
+A simple experiment to demonstrate the smoothing of voltage by a capacitor using Tinkercad involves creating a basic rectifier circuit with a smoothing capacitor. Here's a step-by-step guide:
+
+### Components Needed:
+- Breadboard
+- AC power source (e.g., function generator)
+- Diode (e.g., 1N4007)
+- Capacitor (e.g., 100 µF)
+- Resistor (e.g., 1 kΩ)
+- Wires
+- Multimeter (to measure voltage)
+
+### Steps:
+
+1. **Set Up the Rectifier Circuit**:
+   - Place the diode on the breadboard to create a half-wave rectifier. Connect the anode of the diode to the AC power source and the cathode to one end of the resistor.
+   - Connect the other end of the resistor to the ground of the AC power source.
+
+2. **Add the Smoothing Capacitor**:
+   - Place the capacitor in parallel with the resistor. Connect one terminal of the capacitor to the cathode of the diode and the other terminal to the ground.
+
+3. **Simulate the Circuit**:
+   - In Tinkercad, set up the components as described above.
+   - Run the simulation and observe the voltage across the resistor using the multimeter.
+
+### Observations:
+- Without the capacitor, the voltage across the resistor will show a pulsating DC waveform, corresponding to the rectified AC signal.
+- With the capacitor in place, the voltage will be smoothed out, showing a more constant DC level with reduced ripple.
+
+### Explanation:
+The capacitor charges up to the peak voltage of the rectified signal and discharges when the input voltage drops, thereby filling in the gaps and smoothing the output voltage. This demonstrates how capacitors can be used to reduce voltage fluctuations in power supplies.
+
+### Using Tinkercad:
+1. **Create the Circuit**: Use the Tinkercad interface to place the components on the virtual breadboard.
+2. **Simulate**: Run the simulation to observe the effect of the capacitor on the voltage waveform. You can use the virtual multimeter to measure the voltage across the resistor and see the smoothing effect.
+
+This experiment is a great way to visualize how capacitors can smooth out voltage fluctuations, making it ideal for understanding power supply circuits.
+
+PENDING
+
 Move to draft folder
 
 Capacitor for Smoothing Pulsating DC 
