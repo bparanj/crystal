@@ -117,22 +117,14 @@ Atomic Ideas:
 THIS EXPLANATION IS BETTER
 
 Electric current represents the rate of flow of electric charge through a conductor. It measures the amount of charge passing through a cross-section of the conductor per unit time.
-Analogy: Electric current resembles the flow of water through a pipe. Just as water flows from high pressure to low pressure, electric charge flows from high potential (voltage) to low potential.
-
-Example: To observe electric current:
-
-a) Set up a simple circuit with a battery, switch, and light bulb.
-b) Connect the positive terminal of the battery to one end of the switch.
-c) Connect the other end of the switch to one terminal of the light bulb.
-d) Connect the other terminal of the light bulb to the negative terminal of the battery.
-e) Close the switch and observe the light bulb illuminating, indicating current flow.
+Electric current resembles the flow of water through a pipe. Just as water flows from high pressure to low pressure, electric charge flows from high potential (voltage) to low potential.
 
 2. How does one express current mathematically?
 
 The mathematical expression for current (I) equals the amount of charge (Q) flowing past a point divided by the time (t) taken: $I = \frac{Q}{t}$
-Analogy: This relationship resembles calculating the speed of cars passing a point on a highway. If 100 cars (charge) pass in 2 hours (time), the flow rate (current) equals 50 cars per hour.
+This relationship resembles calculating the speed of cars passing a point on a highway. If 100 cars (charge) pass in 2 hours (time), the flow rate (current) equals 50 cars per hour.
 
-Example: Calculate the current when 10 coulombs of charge flow through a wire in 2 seconds:
+ Calculate the current when 10 coulombs of charge flow through a wire in 2 seconds:
 
 a) Use the formula $I = \frac{Q}{t}$
 b) Substitute the values: $I = \frac{10 \text{ C}}{2 \text{ s}}$
@@ -142,9 +134,9 @@ d) The current equals 5 amperes.
 3. What does Ohm's Law state about current?
 
 Ohm's Law states that current (I) equals voltage (V) divided by resistance (R): $I = \frac{V}{R}$
-Analogy: This relationship resembles water flow through a pipe system. Current acts like the water flow rate, voltage like the water pressure difference, and resistance like the pipe's constriction.
+This relationship resembles water flow through a pipe system. Current acts like the water flow rate, voltage like the water pressure difference, and resistance like the pipe's constriction.
 
-Example: Determine the current flowing through a 20-ohm resistor with 5 volts across it:
+ Determine the current flowing through a 20-ohm resistor with 5 volts across it:
 
 a) Use Ohm's Law: $I = \frac{V}{R}$
 b) Substitute the values: $I = \frac{5 \text{ V}}{20 \text{ Ω}}$
@@ -154,8 +146,8 @@ d) The current through the resistor equals 0.25 amperes.
 4. How does one differentiate between direct current (DC) and alternating current (AC)?
 Direct current (DC) flows consistently in one direction, while alternating current (AC) periodically reverses direction. DC maintains a constant polarity, whereas AC oscillates between positive and negative polarities at a specific frequency.
 
-Analogy: DC resembles a river flowing consistently in one direction, while AC resembles ocean waves moving back and forth.
-Example: To demonstrate the difference between DC and AC:
+DC resembles a river flowing consistently in one direction, while AC resembles ocean waves moving back and forth.
+ To demonstrate the difference between DC and AC:
 
 a) Set up two circuits: one with a battery (DC) and one with a wall outlet (AC).
 b) Connect an LED to the battery circuit and observe steady illumination.
@@ -166,9 +158,9 @@ d) Use an oscilloscope to visualize the steady DC voltage and the sinusoidal AC 
 
 Current density (J) represents the amount of current (I) flowing per unit cross-sectional area (A) of a conductor: $J = \frac{I}{A}$
 
-Analogy: Current density resembles the concentration of people moving through a doorway. A narrow doorway (small cross-sectional area) results in a higher density of people passing through, similar to how a thin wire results in higher current density.
+Current density resembles the concentration of people moving through a doorway. A narrow doorway (small cross-sectional area) results in a higher density of people passing through, similar to how a thin wire results in higher current density.
 
-Example: Calculate the current density in a wire with a cross-sectional area of 2 mm² carrying a current of 3 amperes:
+ alculate the current density in a wire with a cross-sectional area of 2 mm² carrying a current of 3 amperes:
 
 a) Use the formula: $J = \frac{I}{A}$
 b) Convert 2 mm² to m²: 2 × 10⁻⁶ m²

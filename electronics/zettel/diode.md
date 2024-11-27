@@ -32,7 +32,7 @@ Amplification occurs when an active component like a transistor increases the po
 
    An active component requires an external power source to operate and can control or amplify electrical signals. Active components can generate or modify electrical power within a circuit.
 
-   Think of an active component like a pump in a water system that adds energy and controls the flow of water, while passive components are like pipes that merely direct the flow.
+   An active component like a pump in a water system that adds energy and controls the flow of water, while passive components are like pipes that merely direct the flow.
 
    A transistor is an active component because it requires an external power source to amplify electrical signals, allowing it to act as a switch or amplifier in a circuit.
 

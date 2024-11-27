@@ -28,7 +28,7 @@ While these components are designed for capacitance and inductance, they still h
 
 Even insulators, which are meant to block current, have a very high resistance. Over time or under extreme conditions, a small current might still pass through an insulator.
 
-This resistance in all components contributes to power loss as heat, which is why managing resistance and heat dissipation is important in electronic design. 
+This resistance in all components contributes to power loss as heat, which is why managing resistance and heat dissipation is important in electronic design.
 
 While some materials and components have very low resistance, there's always some resistance present in every electronic component.
 
@@ -78,8 +78,6 @@ However, in real-world components:
 - Inductors have resistance in their wire coils, which is especially significant in high-current applications where even small resistances cause heat buildup.
 
 - Circuit traces and wires have a tiny but non-zero resistance, often negligible but measurable in sensitive circuits.
-
-So, in practice:
 
 - Some resistance is intentional (e.g., resistors).
 - Some resistance is parasitic (e.g., ESR in capacitors, coil resistance in inductors).

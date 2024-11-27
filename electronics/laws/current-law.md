@@ -1,23 +1,31 @@
 
 water flowing through a pipe
 more water flowing, stronger the current
+
 current is measured in amps
 different parts of a circuit can have different amounts of current flowing through them
 the amount of current depends on voltage and resistance in that part of the circuit
 current is the flow of electric charge through a conductor
-For AC circuits, current and voltag ear efunctions of time and can be represented using phasors
+
+For AC circuits, current and voltage are functions of time and can be represented using phasors
 impedance includes resistance and reactance
 charge conservation
+
 how does the current behave in dynamic electromagnetic fields
 phasors take magnitude and phase into account
+
 current flows out of the battery, through the wires, through the LED and back to the battery
 current is the rate of flow of electric charge
+
 The amount of current is determined by the voltage of the battery and the resistance of the LED and wires
 current is the same at all points in a series circuit
 flow of electric charge is the electrons
+
 amperes is coulombs/second
+
 In a DC circuit with resistive elements, the current at any point is calculated using Ohm's Law
 In a AC circuit, current goes up and down in a sine wave shape and can be represented as a phasor with magnitude and phase angle
+
 Current flow in a circuit is governed by the principles of charge conservation and the electromotive force (EMF) provided by voltage sources
 
 why is sum of currents entering a node equal to sum of currents leaving a node

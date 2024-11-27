@@ -16,7 +16,7 @@ Capacity: dictionary definition
 
 the maximum amount that something can contain.
 
-A capacitor's capacity (more commonly called "capacitance") has a few definitions:
+A capacitor's capacity (called "capacitance") has a few definitions:
 
 1. Definition:
 
@@ -39,12 +39,12 @@ Capacitance measures how much electric charge the capacitor can store for a give
 
 PENDING
 
-Would you like me to elaborate on how capacitance is calculated or used in circuits?
+QUESTION
+how capacitance is calculated or used in circuits?
 
 The term "capacitor" comes from the Latin word *capacitas*, meaning "capacity" or "ability to hold." A capacitor is a device that has the ability to "hold" or store electric charge.
 
 The name reflects its primary function: storing electrical energy in the form of an electric field between two conductive plates separated by an insulating material (dielectric). When connected to a power source, the capacitor accumulates and stores charge, which it can release when needed.
-
 
 PENDING
 
