@@ -52,6 +52,21 @@ Step 9
 
 Run the simulation. Input oscilloscope shows the sine wave form at 500 Hz. The output oscilloscope shows the sine wave form with the negative cycles removed. It stops at the horizontal line of the output oscilloscope.
 
+Step 10
+
+Add a 100 micro Farad capacitor to the circuit. Connect it to g15 and g16 in the breadboard.
+
+Step 11
+
+Connect the first terminal of the capacitor to the point where the diode and resistor meet. This is the green line from g8 to g15.
+
+Step 12
+
+Connect the second terminal of the capacitor to the ground. This is the black line from f16 to the ground.
+
+Step 13
+
+Run the simulation. You can see the voltage is now DC. Capacitor is used to smoothen the voltage.
 
 Questions
 
