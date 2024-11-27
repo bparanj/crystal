@@ -1,3 +1,12 @@
+
+PENDING
+
+Summarize:
+
+Reactance is the opposition to the flow of AC in a circuit. It can be caused by inductors and capacitors. Resistance is constant. Reactance is not a constant. It depends on the frequency of the AC signal. Inductive reactance (\(X_L\)) increases with frequency and is given by \(X_L = \omega L\), where \(L\) is inductance. Capacitive reactance (\(X_C\)) decreases with frequency and is given by \(X_C = \frac{1}{\omega C}\), where \(C\) is capacitance. Reactance is measured in ohms and contributes to the overall impedance of a circuit.
+
+Inductive reactance (\(X_L\)) is directly proportional to frequency, resulting in a phase shift where the current lags the voltage. Capacitive reactance (\(X_C\)) is inversely proportional to frequency, causing the current to lead the voltage. The total reactance in a circuit can be calculated as \(X = X_L - X_C\).
+
 TAG
 
 reactance
@@ -10,7 +19,7 @@ Imagine you’re trying to push a swing. Sometimes it’s easy, but other times 
 
 Reactance is a kind of resistance, but it’s different from regular resistance. It happens in circuits with inductors (coils of wire) and capacitors (plates that store energy). Reactance changes depending on how fast the electric current is moving, which is why it’s important in AC (alternating current) circuits. It’s like how a spring pushes back more or less depending on how quickly you try to compress it.
 
-### 3. To an Undergraduate Student 
+### 3. To an Undergraduate Student
 
 Reactance is the opposition to the flow of alternating current (AC) in a circuit caused by inductors and capacitors. Unlike resistance, which is constant, reactance depends on the frequency of the AC signal. Inductive reactance (\(X_L\)) increases with frequency and is given by \(X_L = \omega L\), where \(L\) is inductance. Capacitive reactance (\(X_C\)) decreases with frequency and is given by \(X_C = \frac{1}{\omega C}\), where \(C\) is capacitance. Reactance is measured in ohms and contributes to the overall impedance of a circuit.
 

@@ -51,8 +51,7 @@ To design and simulate a Voltage-Multiplier Circuit (Voltage Doubler) and observ
 2. Apply Input Signal:
    - Set the AC source to generate a sine wave (\( 10V_{peak}, 50Hz \)).
 
-3. Observe Waveforms:
-   - Use the oscilloscope to monitor:
+3. Use the oscilloscope to monitor:
      - The input AC waveform.
      - The voltage across \( C_2 \) (output DC voltage).
 

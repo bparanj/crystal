@@ -24,7 +24,7 @@ An LED is a polarized component that allows current to flow in only one directio
 2. Connect the other terminal of the resistor to the **anode** (long leg) of the **LED**.
 3. Connect the **cathode** (short leg) of the LED to the other terminal of the AC source.
 
-#### Step 2: Run the Experiment
+#### Step 2:
 
 1. Power on the AC source.
 2. Observe the LED blinking as it lights up during half of the AC cycle.

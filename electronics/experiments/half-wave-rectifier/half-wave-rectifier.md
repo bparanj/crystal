@@ -4,26 +4,51 @@ Resistor
 Diode
 Oscilloscopes to observe the input and output
 
+Components
 
 1 k ohm resistor
 Function generator:
 Diode
 
+Steps
+
+Step 1
+
 Take a function generator and change the settings to: frequency: 500 Hz, amplitude: 5 volts, DC offset: 0, function: sine.
+
+Step 2
 
 Take a oscilloscope. Change time per division to 2 ms.
 
+Step 3
+
 Connect the oscilloscope to the function generator. This will be the input oscilloscope.
+
+Step 4
 
 Connect the anode of the diode to the positive terminal of the power rails in the breadboard.
 
+
+Step 5
+
 Connect the cathode of the diode to one end of the 1 k ohm resistor.
+
+
+Step 6
 
 Connect the other end of the resistor to the negative terminal in the power rails of the breadboard.
 
+
+Step 7
+
 Take anothe oscilloscope to observe the output. Change the time per division to 2 ms.
 
+Step 8
+
 Connect the output oscilloscope across the resistor.
+
+
+Step 9
 
 Run the simulation. Input oscilloscope shows the sine wave form at 500 Hz. The output oscilloscope shows the sine wave form with the negative cycles removed. It stops at the horizontal line of the output oscilloscope.
 
@@ -66,86 +91,3 @@ Turn on the AC power source.
 
 Rectifiers can be found in AC-to-DC conversion used in almost every electronic power supply.
 
-Components
-
-Steps
-
-Step 1
-
-
-Image
-
-Step 2
-
-
-Image
-
-Step 3
-
-
-Image
-
-Step 4
-
-
-Image
-
-Step 5
-
-
-Image
-
-Step 6
-
-
-Image
-
-Step 7
-
-
-Image
-
-Step 8
-
-
-Image
-
-Step 9
-
-
-Image
-
-Step 10
-
-
-Image
-
-Step 11
-
-
-Image
-
-Step 12
-
-
-Image
-
-Step 13
-
-
-Image
-
-Step 14
-
-
-Image
-
-Step 15
-
-
-Image
-
-Step 16
-
-
-Image

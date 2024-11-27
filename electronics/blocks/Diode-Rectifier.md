@@ -1,6 +1,6 @@
 ### Diode Rectifier
 
-A diode rectifier is a circuit that converts AC (alternating current) into DC (direct current) using diodes. This is fundamental in power supplies, where AC from the mains is converted to DC for electronic devices.
+A diode rectifier is a circuit that converts AC into DC using diodes. This is found in power supplies, where AC from the mains is converted to DC for electronic devices.
 
 ### Types of Rectifiers:
 
@@ -27,7 +27,7 @@ To design and simulate a Half-Wave Rectifier and a Full-Wave Rectifier circuit, 
 #### Circuit
 
 1. Input AC:
-   - Connect the AC voltage source across the primary circuit.
+   - Connect the AC voltage source across the circuit.
 
 2. Diode:
    - Connect the anode of the diode to one terminal of the AC source.
@@ -42,11 +42,9 @@ To design and simulate a Half-Wave Rectifier and a Full-Wave Rectifier circuit, 
 
 #### Steps:
 
-1. Set Input:
-   - Configure the AC source to generate a sine wave (\( 10V_{peak}, 50Hz \)).
+1. Configure the AC source to generate a sine wave (\( 10V_{peak}, 50Hz \)).
 
-2. Observe Waveforms:
-   - Use the oscilloscope to monitor:
+2. Use the oscilloscope to monitor:
      - Input waveform (sine wave).
      - Output waveform (half-wave rectified signal).
 
@@ -71,11 +69,9 @@ To design and simulate a Half-Wave Rectifier and a Full-Wave Rectifier circuit, 
 
 #### Steps:
 
-1. Set Input:
-   - Configure the AC source as a sine wave (\( 10V_{peak}, 50Hz \)).
+1. Configure the AC source as a sine wave (\( 10V_{peak}, 50Hz \)).
 
-2. Observe Waveforms:
-   - Use the oscilloscope to monitor:
+2. Use the oscilloscope to monitor:
      - Input waveform (sine wave).
      - Output waveform (full-wave rectified signal).
 

@@ -2,7 +2,7 @@
 
 PENDING
 
-Step 2 connections are not clear.
+Move to out of scope folder
 
 Demonstrate the concept of **voltage** as the driving force behind the flow of current in a circuit.
 
@@ -18,7 +18,7 @@ Demonstrate the concept of **voltage** as the driving force behind the flow of c
 
 ### **Steps**
 
-#### Step 1: Measure Voltage
+#### Step 1:
 
 1. Set the **multimeter** to the **voltage (V)** setting.
 2. Place the **positive probe** of the multimeter on the **positive terminal** of the battery.

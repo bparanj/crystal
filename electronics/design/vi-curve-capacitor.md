@@ -11,9 +11,6 @@
 
 ## Steps
 
-1. Open Tinkercad and create a new circuit
-
-2. Place components on workspace:
    - Drag a breadboard into the workspace
    - Add a 9V battery
    - Add a 100 µF capacitor
@@ -21,11 +18,9 @@
    - Add a switch
    - Add 2 multimeters
 
-3. Configure multimeters:
    - Set first multimeter to measure voltage (connect in parallel with capacitor)
    - Set second multimeter to measure current (connect in series with circuit)
 
-4. Make connections:
    - Connect battery positive terminal to switch
    - Connect switch to one end of the resistor
    - Connect other end of resistor to capacitor positive lead

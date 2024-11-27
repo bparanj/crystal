@@ -1,3 +1,5 @@
+23.md
+
 Capture Images
 
 - blinking-led.md
@@ -14,7 +16,7 @@ Step must have the intent for each step besides the concrete connection details
 Move to out of scope
 
 - voltage-stabilizer.md
- 
+
 Screenshots
 
 - dc-decoupling.md
@@ -24,14 +26,15 @@ Screenshots
 
 Experiments
 
+- 35.md
+- 36.md
+- vi-curve-capacitor.md
 - Run experiments in book/basics folder
-- 34.md RC High Pass Filter
 - capacitive-voltage-divider.md
 - capacitive-integrator.md
 - inductive-kickback.md
 - inductive-reactance
 - ohms-law
-- vi-curve-capacitor.md
 
 light-sensor.md
 
