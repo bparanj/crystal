@@ -25,7 +25,7 @@
 
 Jobs:
 
-- [Analyst](https://www.governmentjobs.com/careers/fulton/jobs/4584752/information-systems-analyst-iii?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic)
+- [Analyst](https://www.governmentjobs.com/careers/fulton/jobs/4584752/information-systems-analyst-iii)
 - [CTO](https://www.governmentjobs.com/jobs/81609-0/chief-information-office)
 
 https://www.governmentjobs.com/careers/gwinnett/jobs/3896574/assistant-director-of-information-technology-and-strategy
