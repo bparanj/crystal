@@ -1,6 +1,3 @@
-Finish Steps
-
-half wave rectifier
 
 
 23.md
@@ -17,9 +14,6 @@ Edit oscilloscope.md in oscilloscope folder and explain the settings for oscillo
 Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
 Take screenshots of falstat curves for experiments and save it in the folders.
 Step must have the intent for each step besides the concrete connection details
-
-Move to out of scope
-
 
 
 Screenshots
