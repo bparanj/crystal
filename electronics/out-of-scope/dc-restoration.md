@@ -1,6 +1,3 @@
-PENDING
-
-Move to out of scope folder
 
 ### Automatic Voltage Shifting of an AC Signal with Peak Value
 

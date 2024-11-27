@@ -1,7 +1,6 @@
 PENDING
 
 This uses an IC.
-Move to out of scope folder
 
 The conceptual operation of an operational amplifier (op-amp), which fundamentally relies on attenuation of the input difference to achieve what is perceived as amplification. Here’s an explanation of this apparent paradox:
 

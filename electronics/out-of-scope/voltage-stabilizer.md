@@ -1,6 +1,6 @@
 PENDING
 
-Not able to see the noise in the oscilloscope. Move to out of scope
+Not able to see the noise in the oscilloscope.
 
 What should be the value of the time per division in the oscilloscope to see the noise in the output when capacitor is not yet connected? The frequency is set to 1 Hz.
 

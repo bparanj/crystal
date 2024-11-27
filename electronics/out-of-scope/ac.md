@@ -1,8 +1,4 @@
 
-PENDING
-
-Move to out of scope folder
-
 ### **Demonstrating AC with a Light Bulb**
 
 Demonstrate the alternating nature of AC (Alternating Current) by observing a light bulb's behavior when connected to an AC power source.

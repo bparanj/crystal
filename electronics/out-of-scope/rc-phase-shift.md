@@ -1,9 +1,5 @@
 Difficult with Tinkercad. Skip it.
 
-PENDING
-
-Move to out of scope folder
-
 Here is the step-by-step setup for your RC circuit with clear terminal connections:
 
 ### Step 1: Connect the Resistor to the AC Power Source

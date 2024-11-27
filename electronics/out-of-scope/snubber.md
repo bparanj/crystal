@@ -1,8 +1,4 @@
 
-PENDING
-
-Move this to out of scope folder
-
 May not be that clear on Tinkercad
 
 Yes, a snubber circuit is sometimes referred to as a "transient suppression circuit" or "spike suppression circuit." These terms all highlight the snubber circuit’s role in absorbing and dissipating energy spikes or transients to protect other components in the circuit.

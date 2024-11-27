@@ -1,7 +1,6 @@
 
 PENDING
 
-Move to out of scope
 Requires galvanometer
 
 concept of magnetic induction:

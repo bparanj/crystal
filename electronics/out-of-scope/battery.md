@@ -1,9 +1,5 @@
 ### **Voltage as Electrical Potential**
 
-PENDING
-
-Move to out of scope folder
-
 Demonstrate the concept of **voltage** as the driving force behind the flow of current in a circuit.
 
 ### **Components**

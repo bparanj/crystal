@@ -1,6 +1,3 @@
-PENDING
-
-Move to out of scope folder
 
 ### Transistor as an Amplifier
 

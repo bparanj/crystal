@@ -1,6 +1,6 @@
 PENDING
 
-Uses IC. Move to out of scope folder
+Uses IC.
 
 This phenomenon occurs because the quality of a voltage source (whether it is "good" or "bad") depends on the context of the circuit it is in. A "good" voltage source maintains a stable voltage under load, but in certain scenarios, even a "good" source might perform poorly, and vice versa. Here’s an explanation with examples:
 

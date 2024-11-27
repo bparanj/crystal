@@ -1,9 +1,5 @@
 This is already covered in 8.md. It uses multimeter to show the discharge of capacitor. The Capacitor Charge Discharge Final uses two LEDs to show charge and discharge.
 
-PENDING
-
-Move this to out of scope folder.
-
 ### 1. Understand the Basic Behavior of a Polarized Capacitor with DC
 
 Refer Charge Discharge working experiment and capture images. See Capacitor Charge Discharge Final in personal account. 

@@ -3,7 +3,6 @@ The simplest circuit to illustrate the Principle of Electromagnetic Induction is
 PENDING
 
 Can this be done using Tinkercad.
-Move this to out of scope folder.
 
 ### Components:
 

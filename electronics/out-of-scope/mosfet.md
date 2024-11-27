@@ -1,9 +1,5 @@
 MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) are essential components in modern electronics for several reasons.
 
-PENDING
-
-Move to out of scope folder
-
 ### 1. Efficient Switching and Amplification:
 
    - Switching:

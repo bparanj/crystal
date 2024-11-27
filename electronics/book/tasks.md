@@ -1,3 +1,8 @@
+Finish Steps
+
+half wave rectifier
+
+
 23.md
 
 Capture Images
@@ -15,7 +20,7 @@ Step must have the intent for each step besides the concrete connection details
 
 Move to out of scope
 
-- voltage-stabilizer.md
+
 
 Screenshots
 
