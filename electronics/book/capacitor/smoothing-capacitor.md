@@ -1,3 +1,9 @@
+This is now demonstrated in Half Wave Rectifier. The variation is called Half Wave Rectifier with Smoothing.
+
+PENDING
+
+Move to draft folder
+
 Capacitor for Smoothing Pulsating DC 
 
 Here's a simple Tinkercad experiment to demonstrate the capacitor's smoothing function:
@@ -49,4 +55,3 @@ Results:
 - Without capacitor: LED blinks at 60Hz
 - With capacitor: LED stays steady
 - Oscilloscope will show smoothed voltage with reduced ripple after adding capacitor
-

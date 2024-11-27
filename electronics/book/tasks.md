@@ -31,8 +31,6 @@ Experiments
 - Run experiments in book/basics folder
 - capacitive-voltage-divider.md
 - capacitive-integrator.md
-- inductive-kickback.md
-- inductive-reactance
 - ohms-law
 
 light-sensor.md
@@ -72,8 +70,6 @@ Review
 Search
 
 - Run ack -w 'experiment' and revise
-
-Questions
 
 Extract
 

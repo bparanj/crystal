@@ -123,7 +123,11 @@ s3
 
 Step 4
 
-Run the simulation. You can see the voltage is now DC. Capacitor is used to smoothen the voltage. If you look closely there is ripples in the output wave.
+Run the simulation. You can see the voltage is now DC. Capacitor is used to smoothen the voltage. 
+
+This demonstrates how capacitors smooth pulsating DC by storing and releasing energy during voltage peaks and dips.
+
+If you look closely there are ripples in the output wave.
 
 s4
 

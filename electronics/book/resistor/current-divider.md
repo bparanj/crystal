@@ -45,4 +45,3 @@ Alternatively, you could calculate the expected currents using the formulas abov
 The current through each resistor depends on its resistance. For example, if \( R_1 = 1 \, \text{kΩ} \) and \( R_2 = 2 \, \text{kΩ} \) with a total current \( I_{\text{total}} \), more current will flow through \( R_1 \) (lower resistance) than through \( R_2 \).
 
 This simple circuit shows how current divides between parallel branches based on resistance, following the principle of a current divider.
-

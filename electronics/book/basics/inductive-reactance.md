@@ -2,7 +2,9 @@
 
 PENDING
 
-This is already done. Take screenshots. Check biz account.
+Not working as it is in the Observation.
+Either redesign for a better experiment. Search for a better experiment.
+This is already done. Check biz account: Inductor AC DC.
 
 Demonstrate the property of **inductive reactance**, showing how an inductor resists changes in current in an AC circuit.
 
