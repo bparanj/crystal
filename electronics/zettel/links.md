@@ -22,6 +22,7 @@
 - [Time constant of capacitor](https://www.youtube.com/watch?v=pb0yduMthWE)
 - [Should a Person Touch 200,000 Volts? A Van de Graaff generator experiment!](https://www.youtube.com/watch?v=ubZuSZYVBng)
 - [Breadboard Basics](https://www.youtube.com/watch?v=CVywtFTEz3I)
+- [Oscilloscope Basics](https://www.keysight.com/us/en/learn/bootcamp/135966.html)
 
 Jobs:
 
