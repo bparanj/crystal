@@ -1,4 +1,5 @@
 
+Edit current-limiting.md
 
 Capture Images
 
@@ -14,7 +15,7 @@ Step must have the intent for each step besides the concrete connection details
 
 Screenshots
 
-- transistor-current.md
+- transistor-current.md DO THIS NOW
 - Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
 - Check Resistor V-I Curve personal account (voltage-current.md in resistive-circuit folder)
 

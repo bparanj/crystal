@@ -1,6 +1,6 @@
-NEXT
+PENDING
 
-See Current Limiting Transistor in personal account
+Revise the steps in current-limiting, refer this document.
 
 An experiment to demonstrate current limiting using a transistor.
 
