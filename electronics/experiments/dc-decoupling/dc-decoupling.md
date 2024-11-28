@@ -1,7 +1,5 @@
 PENDING
 
-Document the steps in voltage-decoupling.md
-
 This is a slight variation of the diode experiment. The focus here is observing the voltage drop.
 
 Voltage decoupling using a **series diode** involves placing a diode in series with the supply line to isolate sections of a circuit. The diode prevents reverse current flow, ensuring that voltage fluctuations or faults in one part of the circuit do not affect other sections. This method is useful for protecting sensitive components and maintaining stable operation.
@@ -19,21 +17,9 @@ A series diode can decouple voltage in a circuit by blocking the flow of current
 3. Voltage Drop:
    - A silicon diode introduces a voltage drop of approximately 0.7V (for a silicon diode) when forward-biased.
 
-### Experiment
 
-#### Components:
-
-1. DC voltage source (\( V_1 = 10V \)).
-2. Resistor (Load) (\( R = 1k\Omega \)).
-3. Diode (e.g., 1N4148).
-4. Multimeter (to measure voltage across the load).
-
-### Setup:
 
    - Connect the anode of the diode to the positive terminal of the DC voltage source.
-   - Connect the cathode of the diode to one end of the resistor (\( R \)).
-   - Connect the other end of the resistor to the ground of the voltage source.
-
    - Place the multimeter across the resistor to measure the voltage after the diode.
 
 ### Steps:

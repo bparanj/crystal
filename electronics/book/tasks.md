@@ -14,7 +14,6 @@ Step must have the intent for each step besides the concrete connection details
 
 Screenshots
 
-- dc-decoupling.md
 - transistor-current.md
 - Check Inductor AC DC in biz account. Run experiment. Take screenshots. Check claude response. Create md file.
 - Check Resistor V-I Curve personal account (voltage-current.md in resistive-circuit folder)
