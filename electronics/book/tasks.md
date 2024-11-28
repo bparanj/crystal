@@ -2,7 +2,7 @@
 
 Capture Images
 
-- inductive-kickback
+
 
 25.md capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
 
@@ -27,6 +27,7 @@ Experiments
 - capacitive-voltage-divider.md
 - capacitive-integrator.md
 - ohms-law
+- inductive-kickback
 
 light-sensor.md
 

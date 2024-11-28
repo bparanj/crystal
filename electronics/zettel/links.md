@@ -35,3 +35,15 @@ it jobs georgia federal government
 
 https://developer.genesys.cloud/video/
 https://power-mi.com/content/industrial-machinery-vibration
+
+
+https://www.youtube.com/watch?v=v_z2qb2VenI
+https://www.youtube.com/results?search_query=inductors+or+capacitors+impedance+experiment
+https://www.youtube.com/watch?v=FWCN_uI5ygY&t=338s
+https://www.youtube.com/watch?v=CzY2abWCVTY
+https://www.youtube.com/watch?v=oHKwwvcn77Y
+https://www.youtube.com/watch?v=RXRT3dHu6_o
+https://www.youtube.com/watch?v=QEDf7wBxESQ
+
+capacitors in series circuit experiment
+time constant capacitor tinkercad

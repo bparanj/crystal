@@ -4,6 +4,15 @@ capacitor
 
 A capacitor is an electronic component that stores electrical energy between two conductive plates separated by a dielectric. It blocks DC current but allows AC to pass, making it useful for energy storage, filtering, and timing applications. Capacitance, measured in farads, determines how much energy a capacitor can store at a given voltage.
 
+We store electrical energy in a capacitor to provide a temporary energy source for circuits. Capacitors can:
+
+1. **Stabilize Voltage**: Smooth fluctuations in power supply (e.g., in rectifiers).
+2. **Store and Release Energy**: Deliver quick bursts of energy when needed (e.g., in cameras' flash circuits).
+3. **Filter Signals**: Block DC while allowing AC to pass in communication circuits.
+4. **Timing and Oscillation**: Control timing in circuits by charging and discharging at specific rates. 
+
+Capacitors are critical for managing energy flow efficiently in electronic systems.
+
 PENDING
 
 Separate Capacitor AC behaviour vs DC behavior
