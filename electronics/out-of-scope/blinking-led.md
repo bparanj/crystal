@@ -1,11 +1,9 @@
-PENDING
 
-Move to out of scope folder. 
-This is combining two things. Half Wave Rectifier demonstrates the same concept clearly.
 
 PENDING
 
 See Blinking LED - AC in biz account to take screenshots
+This is combining two things. Half Wave Rectifier demonstrates the same concept clearly.
 
 The output wave form is not fully rectified, the upper cycle is reduced a bit. Remove the rectification part and only show the polarity? Polarity is already covered in 13.md
 

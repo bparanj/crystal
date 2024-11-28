@@ -110,7 +110,6 @@ This experiment demonstrates a low-pass filter effect, where the capacitor allow
 
 ### Steps:
 
-   - Start the Tinkercad simulation.
    - Set the AC source to a high frequency, such as 10 kHz, to observe how the circuit behaves at higher frequencies.
 
    - With a high-frequency input, check the oscilloscope to see the output across the capacitor.

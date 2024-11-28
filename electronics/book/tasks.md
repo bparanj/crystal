@@ -1,10 +1,7 @@
 
 
-23.md
-
 Capture Images
 
-- blinking-led.md
 - inductive-kickback
 
 25.md capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
@@ -14,7 +11,6 @@ Edit oscilloscope.md in oscilloscope folder and explain the settings for oscillo
 Draw diagrams for all experiments. Hand drawn and screenshots of falstad curves.
 Take screenshots of falstat curves for experiments and save it in the folders.
 Step must have the intent for each step besides the concrete connection details
-
 
 Screenshots
 

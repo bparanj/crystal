@@ -1,6 +1,6 @@
 PENDING
 
-DC Decoupling in personal account. Take screenshots.
+Document the steps in voltage-decoupling.md
 
 This is a slight variation of the diode experiment. The focus here is observing the voltage drop.
 
@@ -17,7 +17,7 @@ A series diode can decouple voltage in a circuit by blocking the flow of current
    - When the cathode is at a higher voltage than the anode, the diode blocks current flow, effectively decoupling the downstream circuit from the voltage source.
 
 3. Voltage Drop:
-   - A silicon diode introduces a voltage drop of approximately 0.7V (for a silicon diode) or 0.3V (for a Schottky diode) when forward-biased.
+   - A silicon diode introduces a voltage drop of approximately 0.7V (for a silicon diode) when forward-biased.
 
 ### Experiment
 
