@@ -76,6 +76,4 @@ This code generates a resistor, capacitor and inductor in series.
 
 This will generate a simple series RLC circuit diagram in a LaTeX document.
 
-### Summary:
-
 While schematic diagrams are the standard for drawing circuits and differ in appearance and use from Mermaid diagrams, they serve a similar function in representing complex systems graphically. Tools like Circuitikz provide text-based methods for generating schematics, which is somewhat analogous to the way Mermaid diagrams are created.

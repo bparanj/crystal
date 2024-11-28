@@ -42,9 +42,9 @@ PENDING
 QUESTION
 how capacitance is calculated or used in circuits?
 
-The term "capacitor" comes from the Latin word *capacitas*, meaning "capacity" or "ability to hold." A capacitor is a device that has the ability to "hold" or store electric charge.
+The term capacitor comes from the Latin word *capacitas*, meaning capacity or ability to hold. A capacitor is a device that has the ability to store electric charge.
 
-The name reflects its primary function: storing electrical energy in the form of an electric field between two conductive plates separated by an insulating material (dielectric). When connected to a power source, the capacitor accumulates and stores charge, which it can release when needed.
+The name reflects its primary function: storing electrical energy in the form of an electric field between two conductive plates separated by an insulating material. When connected to a power source, the capacitor accumulates and stores charge, which it can release when needed.
 
 PENDING
 
@@ -54,11 +54,11 @@ Capacitors are electronic components that store electrical energy as electrical 
 
 You have to explain electric field before explaining capacitor.
 
-A capacitor is a passive electronic component. It stores electrical energy in an electric field. They block direct current (DC) from flowing through them. They allow alternating current (AC) to pass through them. They are used to store energy, filtering and timing applications.
+A capacitor is a passive electronic component. It stores electrical energy in an electric field. They block direct current from flowing through them. They allow alternating current to pass through them. They are used to store energy, filtering and timing applications.
 
 What does depending on frequency mean here? What range of frequency do they allow to pass through?
 
-The capacitive reactance (Xc) is inversely proportional to frequency (f), following this formula:
+The capacitive reactance (Xc) is inversely proportional to frequency (f):
 
 Xc = 1/(2πfC)
 
@@ -88,15 +88,9 @@ where R is the circuit's resistance in ohms.
 
 The physical reason for this behavior due to how electric charge moves in a capacitor.
 
-1. Basic Capacitor Structure:
+AC Signal Behavior:
 
-- A capacitor has two conducting plates separated by an insulator
-- When voltage is applied, charge builds up on these plates (positive on one side, negative on the other)
-- The insulator prevents the charges from actually flowing through
-
-2. AC Signal Behavior:
-
-- With AC (alternating current), the voltage constantly changes direction
+- With AC, the voltage constantly changes direction
 - This means the charges on the plates must constantly redistribute
 - Higher frequency = charges need to switch directions more often
 
@@ -140,14 +134,7 @@ Think of a capacitor like two rooms connected by a swinging door, and electrons 
 - Much less resistance to movement
 - More "flow" appears to happen through the capacitor
 
-4. The Energy Perspective:
-
-- Energy in a capacitor is stored in the electric field between plates
-- At high frequencies, energy spends less time stored in the field
-- More energy passes through rather than being stored
-- This appears as lower impedance to the signal
-
-This is why capacitors are often used to:
+Capacitors are often used to:
 
 - Block DC while passing AC (coupling capacitors)
 - Filter out low frequencies while passing high frequencies (high-pass filters)

@@ -32,8 +32,6 @@ This resistance in all components contributes to power loss as heat, which is wh
 
 While some materials and components have very low resistance, there's always some resistance present in every electronic component.
 
-While many electronic components have resistance, not all do.
-
 Components with resistance:
 
 - Resistors

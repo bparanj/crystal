@@ -1,3 +1,7 @@
+PENDING
+
+Move to out of scope folder
+
 Here's a Mermaid diagram illustrating the Principle of Reciprocity in electronics:
 
 ```mermaid

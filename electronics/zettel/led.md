@@ -2,7 +2,7 @@ TAG
 
 LED
 
-An LED (Light Emitting Diode) is a semiconductor device that emits light when current flows through it in the forward direction. Unlike incandescent bulbs, LEDs are highly efficient, durable, and have a longer lifespan. They are  used in displays, indicators, lighting, and many other applications due to their energy efficiency and versatility.
+An LED (Light Emitting Diode) is a semiconductor device that emits light when current flows through it in the forward direction. LEDs are more efficient than bulbs, durable, and have a longer lifespan. They are  used in displays, indicators, lighting, and many other applications due to their energy efficiency and versatility.
 
 ### Atomic Ideas:
 
@@ -10,15 +10,11 @@ An LED (Light Emitting Diode) is a semiconductor device that emits light when cu
 
    An LED is a diode that emits light when current flows from the anode (positive terminal) to the cathode (negative terminal).
 
-   Think of an LED as a one-way street where cars (electrons) only flow in one direction, and as they flow, streetlights (light emission) turn on.
-
    In a simple circuit powered by a 3V battery, if you connect the anode of the LED to the positive side and the cathode to the negative side, the LED will light up, emitting light.
 
 2. Why does an LED only emit light in one direction?
 
    An LED is a type of diode, and diodes only allow current to flow in one direction (forward direction). In reverse, it blocks the flow of current and does not emit light.
-
-   Imagine a door that only opens one way. If you push from the wrong side (reverse direction), the door won’t open, and nothing will happen.
 
    If you reverse the connections on an LED (anode to negative, cathode to positive), no current will flow, and the LED will remain off.
 
@@ -34,15 +30,11 @@ An LED (Light Emitting Diode) is a semiconductor device that emits light when cu
 
    A resistor limits the current flowing through the LED to prevent it from burning out. LEDs do not self-regulate current, so excessive current can damage them.
 
-   Think of a resistor like a speed bump, slowing down traffic (current) to prevent accidents (LED failure).
-
    In a 5V circuit with a 2V LED, using a 150Ω resistor helps limit the current to a safe level, ensuring the LED does not overheat.
 
 5. What are the applications of LEDs?
 
    LEDs are used in various applications, indicators on electronic devices, displays (such as in TVs and smartphones), lighting, and even in communication devices like remote controls.
-
-   LEDs are like versatile tools in a toolbox—they can serve many purposes depending on how you use them.
 
    A green LED might be used on a computer’s power button to show when the machine is turned on, while white LEDs provide efficient lighting in homes.
 
@@ -145,7 +137,7 @@ To demonstrate the relationship between semiconductor material and LED color, se
 3) Power each LED with an appropriate voltage and current.
 4) Observe the spectrum of each LED using the spectrometer or by looking at the diffracted light through the grating.
 
-You'll notice that: Red LEDs (often made of AlGaAs) emit light around 620-645 nm, Green LEDs (often made of InGaN) emit around 520-530 nm, and Blue LEDs (often made of InGaN) emit around 460-470 nm. This demonstrates how different semiconductor materials produce different colors of light.
+Red LEDs (often made of AlGaAs) emit light around 620-645 nm, Green LEDs (often made of InGaN) emit around 520-530 nm, and Blue LEDs (often made of InGaN) emit around 460-470 nm. This demonstrates how different semiconductor materials produce different colors of light.
 
 3. How does current affect LED brightness, and why is current control important?
 

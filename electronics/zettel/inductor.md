@@ -14,15 +14,11 @@ An inductor is a passive electronic component that stores energy in a magnetic f
 
    An inductor stores energy in a magnetic field when current passes through it. The inductor’s ability to store energy depends on its inductance, measured in henries (H).
 
-   Think of an inductor like a flywheel. When you push on it (apply current), it stores energy by spinning faster (creating a magnetic field). When you stop pushing, the flywheel keeps spinning for a while (the inductor resists changes in current).
-
    In a DC power supply, an inductor might be used to store energy in the magnetic field while current flows, helping to smooth out voltage fluctuations.
 
 2. What is inductance?
 
    Inductance is the property of an inductor that quantifies its ability to oppose changes in current and store energy in a magnetic field. It is measured in henries (H).
-
-    Inductance is like the mass of a flywheel. A heavier flywheel (higher inductance) takes more force to change its speed (current) and stores more energy.
 
    A 10mH (millihenry) inductor will oppose sudden changes in current more than a 1mH inductor, making it better for filtering out rapid fluctuations in a circuit.
 
@@ -30,9 +26,7 @@ An inductor is a passive electronic component that stores energy in a magnetic f
 
    An inductor generates a voltage that opposes any sudden changes in current. This phenomenon is known as Lenz’s Law and is expressed as $$ V = -L \frac{dI}{dt} $$, where $V$ is the voltage, $L$ is the inductance, and $\frac{dI}{dt}$ is the rate of change of current.
 
-    Picture a moving train. When you try to speed it up (change the current quickly), inertia (inductance) resists the change. Similarly, if you try to stop the train suddenly, it resists that too.
-
-    In a circuit with an inductor, if the current tries to increase or decrease suddenly, the inductor generates a voltage that resists this change, helping to smooth out the current.
+   In a circuit with an inductor, if the current tries to increase or decrease suddenly, the inductor generates a voltage that resists this change, helping to smooth out the current.
 
 4. What happens when current through an inductor changes suddenly?
 
