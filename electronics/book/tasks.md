@@ -4,6 +4,11 @@ Edit current-limiting.md
 Capture Images
 
 
+QUESTIONS
+
+- Amplitude
+- Peak to peak
+
 
 25.md capacitor dc block. Measure current before the capacitor. Simulate this fatstad.
 

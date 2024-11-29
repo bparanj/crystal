@@ -26,7 +26,6 @@ Design simple circuits using schematic diagrams, including voltage dividers, cur
 Practice building these circuits on a breadboard and troubleshooting any issues.
 How to learn these skills:
 
-
 Hands-on Practice:
 Purchase an electronics starter kit with a variety of components and a breadboard.
 Build simple circuits like LED lights, voltage dividers, and basic transistor circuits.

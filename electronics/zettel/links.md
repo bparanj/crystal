@@ -31,11 +31,7 @@ Jobs:
 
 https://www.governmentjobs.com/careers/gwinnett/jobs/3896574/assistant-director-of-information-technology-and-strategy
 
-it jobs georgia federal government
-
-https://developer.genesys.cloud/video/
 https://power-mi.com/content/industrial-machinery-vibration
-
 
 https://www.youtube.com/watch?v=v_z2qb2VenI
 https://www.youtube.com/results?search_query=inductors+or+capacitors+impedance+experiment

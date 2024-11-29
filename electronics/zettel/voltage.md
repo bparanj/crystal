@@ -2,13 +2,11 @@ TAG
 
 voltage
 
-Voltage represents the measure of the potential energy per unit charge between two points in an electric field. It drives the movement of electrons through a circuit. Voltage is similar to the pressure pushing water through a pipe. In the context of circuits, voltage causes electrons to move, creating an electrical current. It is also known as electric potential difference.
+Voltage is the measure of the potential energy per unit charge between two points in an electric field. It drives the movement of electrons through a circuit. Voltage causes electrons to move, creating an electrical current. It is also known as electric potential difference.
 
 ## Atomic Ideas
 
    Voltage measures the potential difference between two points in a circuit. This potential difference indicates how much work one must perform to move a charge from one point to another.
-
-   Imagine voltage as water pressure in a pipe. The higher the pressure (voltage), the more forcefully water (or electrons) moves through the pipe.
 
    In a simple flashlight circuit, the battery provides 1.5V. This means the battery creates a potential difference of 1.5 volts, pushing electrons through the bulb and causing it to light up.
 
@@ -16,15 +14,11 @@ Voltage represents the measure of the potential energy per unit charge between t
 
    Voltage quantifies the amount of electrical potential energy per unit charge. Mathematically, $V = \frac{E}{Q}$, where $V$ represents voltage, $E$ represents electrical potential energy in joules, and $Q$ represents charge in coulombs.
 
-   Think of voltage as the height from which water falls. The greater the height (voltage), the more energy the water (or charge) gains as it falls.
-
    If 2 joules of energy move through a circuit and 1 coulomb of charge passes, the voltage across the circuit is $V = \frac{2 \, \text{J}}{1 \, \text{C}} = 2 \, \text{V}$.
 
 3. How does Voltage Drive Current?
 
    Voltage creates the "push" that moves electrons, resulting in current flow. According to Ohm's Law, $V = IR$, where $V$ is voltage, $I$ is current, and $R$ is resistance.
-
-   Voltage acts like a water pump pushing water through a hose. The higher the pressure (voltage), the faster the water flows (current), assuming the hose (resistance) stays the same.
 
    In a circuit with a resistance of 10 ohms and a voltage of 5V, the current is $I = \frac{V}{R} = \frac{5 \, \text{V}}{10 \, \Omega} = 0.5 \, \text{A}$.
 
@@ -107,7 +101,7 @@ Atomic Ideas:
 
 Voltage represents the electric potential difference between two points in an electrical circuit. It quantifies the energy required to move a unit charge from one point to another within an electric field.
 
-oltage resembles the difference in water pressure between two points in a pipe system. Just as water flows from high pressure to low pressure, electrons move from high voltage to low voltage.
+Voltage resembles the difference in water pressure between two points in a pipe system. Just as water flows from high pressure to low pressure, electrons move from high voltage to low voltage.
 
 To measure voltage between two points in a simple circuit:
 
@@ -134,7 +128,6 @@ d) The voltage equals 5 volts.
 
 Ohm's Law states that voltage (V) equals the product of current (I) and resistance (R): $V = I \times R$
 
-This relationship resembles water flow through a pipe. Voltage acts like water pressure, current like the water flow rate, and resistance like the pipe's diameter.
 Determine the voltage across a 100-ohm resistor with 0.5 amperes of current flowing through it:
 
 a) Use Ohm's Law: $V = I \times R$
