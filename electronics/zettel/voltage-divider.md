@@ -19,9 +19,7 @@ A voltage divider is a circuit that reduces the input voltage to a lower output 
 
 A voltage divider splits an input voltage across two resistors in proportion to their resistances. The output voltage is a fraction of the input voltage based on the resistor values.
 
-  A voltage divider is like splitting a pizza between two people, where the size of each slice depends on how big each person’s plate is (the resistances).
-
-  If you have a 12V input and two resistors of equal value, the output voltage taken between the two resistors will be 6V (half the input).
+ If you have a 12V input and two resistors of equal value, the output voltage taken between the two resistors will be 6V (half the input).
 
 2. How is the output voltage of a voltage divider calculated?
 
@@ -31,9 +29,7 @@ A voltage divider splits an input voltage across two resistors in proportion to 
 
    where $V_{in}$ is the input voltage, $R_1$ is the resistor connected to the input, and $R_2$ is the resistor connected to ground.
 
-    Think of $R_1$ and $R_2$ as two pipes sharing water from the same tank. The amount of water that reaches the second pipe (output voltage) depends on the size of the pipes (resistances).
-
-    For a 9V input with $R_1 = 1k\Omega$ and $R_2 = 2k\Omega$, the output voltage would be:
+   For a 9V input with $R_1 = 1k\Omega$ and $R_2 = 2k\Omega$, the output voltage would be:
 
    $$ V_{out} = 9V \times \frac{2000}{1000 + 2000} = 6V $$
 
@@ -126,7 +122,7 @@ Potentiometers can be used as adjustable voltage dividers, allowing for dynamic 
    Research how voltage dividers could be designed to handle high-frequency signals, focusing on minimizing noise and maintaining signal integrity.
 
 
-A voltage divider functions as a simple circuit that uses two or more resistors (or other impedances) connected in series to divide an input voltage into smaller portions. It provides a method to obtain a desired fraction of the input voltage as an output voltage. Voltage dividers find widespread use in various electronic applications,  signal conditioning, power supplies, and sensor circuits.
+A voltage divider functions as a simple circuit that uses two or more resistors (or other impedances) connected in series to divide an input voltage into smaller portions. It provides a method to obtain a desired fraction of the input voltage as an output voltage. Voltage dividers find widespread use in various electronic applications, signal conditioning, power supplies, and sensor circuits.
 
 Atomic Ideas:
 
@@ -193,7 +189,7 @@ See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge
 
  The versatility of voltage dividers in electronics is like the versatility of ratios in cooking. Just as a chef uses ratios to adjust recipes for different serving sizes or to balance flavors, engineers use voltage dividers to adjust voltage levels for different circuit requirements.
 
- Let's explore a real-world application of a voltage divider in interfacing a temperature sensor:
+ A real-world application of a voltage divider in interfacing a temperature sensor:
 
  1) Consider a temperature sensor that outputs 10mV per °C, with a range of 0°C to 100°C (0V to 1V output).
  2) We need to interface this with an analog-to-digital converter (ADC) that has a 0-5V input range.

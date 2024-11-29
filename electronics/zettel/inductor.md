@@ -90,7 +90,7 @@ Self-resonance in inductors occurs due to parasitic capacitance between the coil
 
 Self-resonance in an inductor is like an athlete's "sweet spot" in performance. Just as an athlete performs optimally within a certain range but struggles beyond it, an inductor works effectively up to its self-resonant frequency but behaves differently beyond that point.
 
- To observe self-resonance, follow these steps:
+To observe self-resonance, follow these steps:
 
 1) Obtain a high-frequency inductor (e.g., 10 µH).
 2) Connect it to a vector network analyzer (VNA) or a frequency sweep generator and oscilloscope.
