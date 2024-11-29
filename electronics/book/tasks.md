@@ -21,8 +21,6 @@ Screenshots
 
 Experiments
 
-- 35.md
-- 36.md
 - vi-curve-capacitor.md
 - Run experiments in book/basics folder
 - capacitive-voltage-divider.md
