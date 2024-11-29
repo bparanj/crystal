@@ -9,38 +9,48 @@ A relay is an electrically operated switch that uses a small electrical current 
 1. What is a relay, and how does it function?
 
    A relay functions as a switch operated by an electrical signal, allowing a low-power control circuit to open or close a higher-power circuit.
-    Think of a relay as a remote-controlled gate. A small signal (the remote) can open or close the gate, allowing or stopping cars (the larger current) from passing through.
-    In a car's starter system, turning the key activates a small current that triggers a relay, which then switches on the higher-power circuit to start the engine.
+
+   Think of a relay as a remote-controlled gate. A small signal (the remote) can open or close the gate, allowing or stopping cars (the larger current) from passing through.
+
+   In a car's starter system, turning the key activates a small current that triggers a relay, which then switches on the higher-power circuit to start the engine.
 
 2. What are the key components of a relay?
 
    A relay consists of three main parts: the coil (electromagnet), the contacts (switching mechanism), and the armature (moving part that opens or closes the contacts).
-    Imagine a seesaw where the coil acts like a person pressing one side down, the contacts act as a gate, and the armature as the part that lifts or lowers the gate.
-    When a current flows through the coil, it creates a magnetic field that pulls the armature, causing the contacts to close and complete the circuit.
+
+   Imagine a seesaw where the coil acts like a person pressing one side down, the contacts act as a gate, and the armature as the part that lifts or lowers the gate.
+
+   When a current flows through the coil, it creates a magnetic field that pulls the armature, causing the contacts to close and complete the circuit.
 
 3. What is the difference between a normally open (NO) and a normally closed (NC) relay?
 
    In a normally open (NO) relay, the contacts remain open (circuit off) when no current flows through the coil. In a normally closed (NC) relay, the contacts remain closed (circuit on) when no current flows through the coil.
-    A open relay behaves like a door that stays closed until you press a button to open it. A normally closed relay behaves like a door that stays open until you press a button to close it.
-    In a normally open relay, pressing a button sends current to the coil, causing the contacts to close and the circuit to activate. In a normally closed relay, pressing a button breaks the current flow, causing the contacts to open and deactivate the circuit.
+
+   A open relay behaves like a door that stays closed until you press a button to open it. A normally closed relay behaves like a door that stays open until you press a button to close it.
+
+   In a normally open relay, pressing a button sends current to the coil, causing the contacts to close and the circuit to activate. In a normally closed relay, pressing a button breaks the current flow, causing the contacts to open and deactivate the circuit.
 
 4. What is the role of the coil in a relay?
 
    The coil in a relay creates a magnetic field when current passes through it. This magnetic field moves the armature, which in turn opens or closes the contacts.
-    The coil acts like a magnet you can turn on or off. When activated, it pulls metal objects (the armature) toward it.
-    In a 12V relay, when a 12V current passes through the coil, the resulting magnetic field pulls the armature, closing the normally open contacts and allowing a 120V circuit to turn on.
+
+   The coil acts like a magnet you can turn on or off. When activated, it pulls metal objects (the armature) toward it.
+
+   In a 12V relay, when a 12V current passes through the coil, the resulting magnetic field pulls the armature, closing the normally open contacts and allowing a 120V circuit to turn on.
 
 5. How does a relay provide electrical isolation?
 
    Relays provide electrical isolation between the control circuit and the power circuit, meaning the two circuits do not directly connect but communicate through the relay.
-    A relay works like a messenger in a factory. The control team sends instructions through the messenger to the power team without directly interacting with the machines themselves.
-    In an industrial setting, a 5V control signal from a microcontroller can operate a 240V motor without the control system handling the high voltage directly, thanks to the isolation provided by the relay.
+
+   A relay works like a messenger in a factory. The control team sends instructions through the messenger to the power team without directly interacting with the machines themselves.
+
+   In an industrial setting, a 5V control signal from a microcontroller can operate a 240V motor without the control system handling the high voltage directly, thanks to the isolation provided by the relay.
 
 ### Solution:
 
 Solving How a Relay Works in a Simple Circuit:
 
-Consider a circuit where we want to use a 5V signal from a microcontroller to control a 12V motor. Here’s the step-by-step breakdown:
+Consider a circuit where we want to use a 5V signal from a microcontroller to control a 12V motor.
 
 1. Connect the control side: Wire the relay coil to the 5V output of the microcontroller. When the microcontroller sends a 5V signal, the coil energizes.
 2. Connect the power side: Wire the 12V motor and power supply to the relay’s normally open (NO) contacts.

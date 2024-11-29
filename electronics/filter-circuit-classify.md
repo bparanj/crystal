@@ -1,10 +1,10 @@
 Electronic filter circuits are categorized based on the following classifications:
 
 ### 1. **Frequency Domain Classification**
-   - **Low-Pass Filter (LPF)**: Allows frequencies below a cutoff frequency and attenuates higher frequencies.  
-   - **High-Pass Filter (HPF)**: Passes frequencies above a cutoff frequency and attenuates lower frequencies.  
-   - **Band-Pass Filter (BPF)**: Allows a specific range of frequencies while attenuating others.  
-   - **Band-Stop Filter (BSF)**: Rejects a specific range of frequencies and allows others (e.g., notch filter).  
+   - **Low-Pass Filter (LPF)**: Allows frequencies below a cutoff frequency and attenuates higher frequencies.
+   - **High-Pass Filter (HPF)**: Passes frequencies above a cutoff frequency and attenuates lower frequencies.
+   - **Band-Pass Filter (BPF)**: Allows a specific range of frequencies while attenuating others.
+   - **Band-Stop Filter (BSF)**: Rejects a specific range of frequencies and allows others (e.g., notch filter).
    - **All-Pass Filter**: Passes all frequencies but changes the phase relationship.
 
 ### 2. **Nature of Components**
@@ -40,15 +40,11 @@ Each classification highlights specific design purposes or operating principles,
 
 Analog electronic components can be classified based on their function and characteristics:
 
----
-
 ### 1. **Passive Components**
    - **Resistors**: Components that oppose the flow of current and dissipate energy as heat. Example: Carbon film resistor.
    - **Capacitors**: Store electrical energy in an electric field and release it when needed. Example: Ceramic capacitor, electrolytic capacitor.
    - **Inductors**: Store energy in a magnetic field when current flows through them. Example: Air-core and iron-core inductors.
    - **Transformers**: Transfer electrical energy between circuits through electromagnetic induction.
-
----
 
 ### 2. **Active Components**
    Active components require an external power source to operate:
@@ -63,37 +59,25 @@ Analog electronic components can be classified based on their function and chara
    - **Operational Amplifiers (Op-Amps)**: High-gain voltage amplifiers used for signal processing.
    - **Integrated Circuits (ICs)**: Complex circuits embedded into a chip, combining multiple transistors, resistors, and capacitors.
 
----
-
 ### 3. **Electromechanical Components**
    - **Relays**: Electrically controlled switches.
    - **Potentiometers**: Variable resistors for adjusting voltage.
    - **Switches**: Manually control circuit connectivity.
 
----
-
 ### 4. **Specialized Components**
    - **Sensors**: Convert physical parameters (e.g., temperature, light) into electrical signals. Examples: Thermistors, photodiodes.
    - **Oscillators**: Generate periodic waveforms (e.g., crystal oscillator).
-
----
 
 ### 5. **Power Components**
    - **Voltage Regulators**: Maintain a constant output voltage. Example: 7805 regulator IC.
    - **Rectifiers**: Convert AC to DC. Example: Bridge rectifier.
 
----
-
 ### 6. **Analog Signal Processing Components**
    - **Filters**: Passive or active components for frequency selection.
    - **Transformers**: Used in power supplies and signal coupling.
 
----
-
 ### 7. **Communication Components**
    - **Mixers**: Combine two frequencies to produce sum and difference frequencies.
    - **Modulators/Demodulators**: Modify signals for transmission or extract them.
-
----
 
 This classification helps group components by their role in analog circuit design, making it easier to understand their functions and applications.

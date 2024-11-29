@@ -1,63 +1,45 @@
 ### **Step-by-Step Learning Plan for Creating an eBook Using InDesign**
 
----
-
 #### **1. Getting Started with InDesign**
 - Familiarize yourself with the InDesign interface: panels, tools, and workspace setup.
 - Understand how to set up a new document: configure page size, orientation, margins, and bleed.
 - Practice saving, organizing, and managing projects effectively.
-
----
 
 #### **2. Creating the Book Template**
 - Set up **master pages** to define consistent elements like headers, footers, and page numbers throughout your eBook.
 - Create and manage **layers** to keep different types of content organized (e.g., text, images, and background elements).
 - Define **grids and guides** to maintain alignment and consistency across pages.
 
----
-
 #### **3. Working with Styles**
 - Create **paragraph styles** for headings, subheadings, and body text to ensure typographical consistency.
 - Use **character styles** for additional formatting, such as emphasizing certain words or phrases (e.g., bold or italic).
 - Apply and modify styles to keep formatting uniform across all content.
-
----
 
 #### **4. Handling Images**
 - Learn to import and place images within **image frames** for precise positioning.
 - Practice resizing and cropping images while maintaining their aspect ratio to fit your layout appropriately.
 - Use **text wrapping** to position text around images for enhanced visual flow.
 
----
-
 #### **5. Structuring the eBook**
 - Organize content into **chapters and sections** using multiple pages for a structured approach.
 - Apply master pages and manage layers for easy navigation and consistency across chapters.
 - Add **page numbers** using your master page setup for automated numbering throughout.
-
----
 
 #### **6. Managing Text**
 - Import text content and place it into linked **text frames** for smooth flow across pages.
 - Adjust the flow of text across multiple columns or pages for natural progression.
 - Fine-tune typography settings, including spacing, alignment, and justification, to ensure readability.
 
----
-
 #### **7. Adding Finishing Touches**
 - Insert additional visual elements, such as lines, shapes, and background colors, to add interest.
 - Review the layout for consistency in style, formatting, and alignment.
 - Add a **table of contents** (if applicable) using paragraph styles to automate its generation.
 
----
-
 #### **8. Exporting the eBook**
 - Export your eBook as a **PDF**, making sure to select the appropriate resolution and settings for your intended audience (e.g., print or web).
 - Understand how different export settings impact file quality and compatibility.
 
----
-
-### **Key Skills for Template Creation**
+### **Skills for Template Creation**
 
 #### **1. Master Pages Setup**
 - Learn how to create and apply **master pages** for consistent headers, footers, and overall structure.
@@ -76,8 +58,6 @@
 
 #### **6. Page Numbering**
 - Learn to automatically insert and format page numbers to appear consistently across the document.
-
----
 
 ### **Working with Images**
 

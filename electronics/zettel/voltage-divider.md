@@ -134,6 +134,8 @@ Atomic Ideas:
 
 PENDING
 
+MERGE
+
 See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge into one document. Remove duplication.
 
 2.  How does one calculate the output voltage of a voltage divider?
@@ -200,7 +202,7 @@ See voltage-divider-circuit.md and voltage-divider.md inside terms folder. Merge
  5) This scales the sensor output by a factor of 5, matching the ADC input range.
  6) In practice, you'd also consider loading effects and potentially add a buffer amplifier.
 
- This example demonstrates how voltage dividers enable interfacing between components with different voltage ranges.
+This example demonstrates how voltage dividers enable interfacing between components with different voltage ranges.
 
 Related Atomic Ideas:
 

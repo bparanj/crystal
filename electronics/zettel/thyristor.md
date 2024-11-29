@@ -2,14 +2,14 @@ TAG
 
 thyristor
 
-A thyristor is a semiconductor device that acts as a switch and controls the flow of electrical power in circuits. It has three main terminals: the anode, cathode, and gate. Unlike regular transistors, once triggered by a small gate current, a thyristor remains "on" until the current through it drops below a certain threshold. Thyristors often find use in high-power applications such as motor speed control, light dimming, and power regulation in AC and DC systems.
+A thyristor is a semiconductor device that acts as a switch and controls the flow of electrical power in circuits. It has three main terminals: the anode, cathode, and gate. Unlike regular transistors, once triggered by a small gate current, a thyristor remains on until the current through it drops below a certain threshold. Thyristors often find use in high-power applications such as motor speed control, light dimming, and power regulation in AC and DC systems.
 
 ### Atomic Ideas:
 
 1. What is a thyristor, and how does it work?
    A thyristor works as a switch that stays "on" once activated by a small gate current. It turns off when the current flowing through it decreases below a threshold value.
 
-    Think of a thyristor as a latch on a door. Once you push the latch (gate signal), the door stays open (current flows) until you close it by reducing the power.
+   Think of a thyristor as a latch on a door. Once you push the latch (gate signal), the door stays open (current flows) until you close it by reducing the power.
 
    In a light dimming circuit, a thyristor gets triggered by a small gate signal to turn on the light, and it remains on until the power drops or a specific action turns it off.
 
@@ -17,7 +17,7 @@ A thyristor is a semiconductor device that acts as a switch and controls the flo
 
    A thyristor consists of three key terminals: the anode (positive terminal), the cathode (negative terminal), and the gate (control terminal). The gate controls the activation of the thyristor.
 
-    Imagine the anode as a water inlet, the cathode as the outlet, and the gate as a valve that, when opened, allows water (current) to flow.
+   Imagine the anode as a water inlet, the cathode as the outlet, and the gate as a valve that, when opened, allows water (current) to flow.
 
    In a circuit with a 230V AC supply, the anode connects to the positive side of the power source, the cathode to the load, and the gate to a control circuit that triggers the thyristor.
 
@@ -25,7 +25,7 @@ A thyristor is a semiconductor device that acts as a switch and controls the flo
 
    The gate terminal controls when the thyristor turns on. A small pulse to the gate triggers the thyristor, allowing current to flow between the anode and cathode.
 
-    The gate terminal works like a light switch. Flick the switch (send a gate pulse), and the light stays on until the power drops.
+   The gate terminal works like a light switch. Flick the switch (send a gate pulse), and the light stays on until the power drops.
 
    In a motor control circuit, a gate pulse to the thyristor allows current to flow to the motor, starting it. The motor runs continuously until the circuit gets turned off or the current drops.
 
@@ -33,14 +33,14 @@ A thyristor is a semiconductor device that acts as a switch and controls the flo
 
    A transistor can turn on and off as long as a control signal gets applied, while a thyristor remains on even after the control signal is removed, provided the current through it remains above the holding value.
 
-    A transistor behaves like a faucet where water flows as long as the handle is turned. A thyristor works like a trapdoor that stays open after being triggered.
+   A transistor behaves like a faucet where water flows as long as the handle is turned. A thyristor works like a trapdoor that stays open after being triggered.
    In an AC power regulator, a transistor adjusts power continuously with a varying control signal. In contrast, a thyristor latches and stays on until the current drops.
 
 5. What is the holding current in a thyristor?
 
    The holding current refers to the minimum current required to keep the thyristor conducting. When the current drops below this level, the thyristor turns off.
 
-    Think of holding current as the fuel needed to keep a fire burning. If the fuel (current) decreases too much, the fire (thyristor) goes out.
+   Think of holding current as the fuel needed to keep a fire burning. If the fuel (current) decreases too much, the fire (thyristor) goes out.
    In a power circuit, if the current drops below the holding value due to a load decrease or power fluctuation, the thyristor turns off, cutting the power flow.
 
 ### Solution:

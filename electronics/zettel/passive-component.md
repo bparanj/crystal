@@ -2,7 +2,7 @@ TAG
 
 passive
 
-A passive electronic component is a device that does not require an external power source to operate. These components do not produce or amplify electrical signals but instead modify or store energy in the form of electrical signals. Common passive components include resistors, capacitors, and inductors, which controls current, stores energy, and shaping electrical signals within a circuit.
+A passive electronic component is a device that does not require an external power source to operate. These components do not produce or amplify electrical signals. They modify or store energy in the form of electrical signals. Common passive components include resistors, capacitors, and inductors, which controls current, stores energy, and shaping electrical signals within a circuit.
 
 There is a subtle difference between produce and create, especially in technical contexts like electronics.
 
@@ -42,15 +42,11 @@ So, produce is a better fit than create when referring to how passive components
 
    An inductor stores energy in the form of a magnetic field when current flows through its coil. It opposes changes in current, making it useful for filtering AC signals or stabilizing power supplies.
 
-   Think of an inductor like a flywheel that resists changes in speed (current). Once it starts spinning, it tends to keep going, just as an inductor resists sudden changes in current.
-
    In a circuit, when the current through a 1H inductor changes by 2A in 1 second, it generates a back voltage of $V = L \frac{dI}{dt} = 1 \times 2 = 2V$.
 
 5. How do passive components like resistors, capacitors, and inductors influence AC signals in a circuit?
 
    Passive components shape AC signals by controlling how voltage and current respond to changes in frequency. Resistors limit the current regardless of frequency, while capacitors and inductors react differently depending on the signal's frequency—capacitors block low-frequency signals and allow high-frequency signals, while inductors do the opposite.
-
-   Passive components act like filters in a river. A resistor is like a gate that restricts water flow regardless of the water speed, a capacitor is like a filter that stops slow-moving debris but lets fast-moving water pass, and an inductor is like a gate that opens slowly, allowing fast-moving water to stop.
 
    In a low-pass filter circuit, an inductor passes low-frequency signals while blocking high-frequency ones. Adding a capacitor to create a high-pass filter would allow only the higher frequencies to pass.
 
@@ -120,7 +116,7 @@ Atomic Ideas:
 
 A passive electronic component interacts with electrical energy without requiring an external power source for operation. It cannot generate, amplify, or process electrical signals using external power. Passive components either dissipate, store, or release electrical energy.
 
-Passive components resemble various types of plumbing fixtures. Like how pipes, valves, and tanks control water flow without pumping, passive components manage electrical energy without actively generating or boosting it.
+Passive components manage electrical energy without actively generating or boosting it.
 
 2. How do resistors function as passive components?
 

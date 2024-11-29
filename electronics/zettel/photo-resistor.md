@@ -2,7 +2,7 @@ TAG
 
 resistor
 
-A photoresistor is a passive electronic component whose resistance changes depending on the amount of light it receives. When exposed to light, its resistance decreases, allowing more current to flow through the circuit. Photoresistors are  used in light-sensitive devices such as automatic lighting systems, light meters, and alarm systems.
+A photoresistor is a passive electronic component. Its resistance changes depending on the amount of light. When exposed to light, its resistance decreases, allowing more current to flow through the circuit. Photoresistors are used in light-sensitive devices such as automatic lighting systems, light meters, and alarm systems.
 
 Photoresistor is also known as light-dependent resistor or LDR.
 
@@ -12,32 +12,33 @@ Photoresistor is also known as light-dependent resistor or LDR.
 
    A photoresistor is a variable resistor whose resistance decreases as the intensity of light increases. It operates based on the principle that certain materials change their electrical conductivity when exposed to light.
 
-    Think of a photoresistor like a window blind. The more you open the blind (expose the photoresistor to light), the more light (current) can enter the room (flow through the circuit).
-    In an automatic streetlight, a photoresistor can detect ambient light levels. As it gets dark, its resistance increases, triggering the streetlight to turn on.
+   In an automatic streetlight, a photoresistor can detect ambient light levels. As it gets dark, its resistance increases, triggering the streetlight to turn on.
 
 2. How does the resistance of a photoresistor change with light?
 
    The resistance of a photoresistor is inversely proportional to the amount of light it receives. In the dark, the resistance is high, and in bright light, the resistance is low.
-    Imagine a water faucet that is harder to turn when it is dark (resistance is high), restricting water flow (current). As the light increases, the faucet becomes easier to turn (resistance lowers), allowing more water to flow.
-    If a photoresistor has 1MΩ resistance in darkness, and 10kΩ resistance in bright light, the current flow in the circuit will significantly increase as the light level rises.
+
+   If a photoresistor has 1MΩ resistance in darkness, and 10kΩ resistance in bright light, the current flow in the circuit will significantly increase as the light level rises.
 
 3. What materials are used to make photoresistors?
 
    Photoresistors are made from materials such as cadmium sulfide (CdS) or lead sulfide (PbS), which are semiconductors that change their conductivity when exposed to photons.
-    These materials are like sponges that absorb light, and when they absorb enough, they let electricity flow through more easily, much like a sponge gets saturated and allows water to pass through.
-    A CdS photoresistor in a light meter will react to visible light, changing its resistance based on the intensity of the light, helping the meter gauge brightness.
+
+   A CdS photoresistor in a light meter will react to visible light, changing its resistance based on the intensity of the light, helping the meter gauge brightness.
 
 4. What are common applications of photoresistors?
 
    Photoresistors are used in a wide range of applications such as light-sensitive switches, light meters, alarm systems, and streetlights, where they detect changes in light levels to trigger actions.
-    A photoresistor acts like an eye for a machine, detecting how much light there is and deciding how to respond, like turning on a light when it’s dark or activating an alarm.
-    In a nightlight, a photoresistor senses when the room gets dark and automatically turns on the light, conserving energy by turning off when the room is bright again.
+
+   A photoresistor acts like an eye for a machine, detecting how much light there is and deciding how to respond, like turning on a light when it’s dark or activating an alarm.
+
+   In a nightlight, a photoresistor senses when the room gets dark and automatically turns on the light, conserving energy by turning off when the room is bright again.
 
 5. What limitations do photoresistors have?
 
    Photoresistors are slow to respond to changes in light and are less accurate than other light-sensing technologies like photodiodes. They are also sensitive to temperature changes, which can affect their resistance.
-    Imagine a photoresistor like a camera with a slow shutter speed—it can detect light changes, but not very quickly. It can also be thrown off by the "weather" (temperature) around it.
-    In a camera’s light meter, a photoresistor might not be fast enough to detect sudden changes in light when moving from a dark to a bright environment, causing inaccuracies.
+
+   Photoresistor can detect light changes, but not very quickly. It can also be thrown off by the temperature around it.
 
 ### Related Atomic Ideas:
 

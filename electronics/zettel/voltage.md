@@ -101,14 +101,13 @@ Voltage exists due to electric fields between two points. Understanding electric
 
    Study how high-voltage circuits differ from low-voltage circuits. What unique challenges and solutions exist when working with high-voltage systems?
 
-
 Voltage, also known as electrical potential difference, represents the energy per unit charge available to move electrons through a conductor. It serves as the driving force in electrical circuits, causing current to flow when a complete path exists. Measured in volts (V), voltage plays a crucial role in determining the behavior and capabilities of electrical systems.
 
 Atomic Ideas:
 
 Voltage represents the electric potential difference between two points in an electrical circuit. It quantifies the energy required to move a unit charge from one point to another within an electric field.
 
- Voltage resembles the difference in water pressure between two points in a pipe system. Just as water flows from high pressure to low pressure, electrons move from high voltage to low voltage.
+oltage resembles the difference in water pressure between two points in a pipe system. Just as water flows from high pressure to low pressure, electrons move from high voltage to low voltage.
 
 To measure voltage between two points in a simple circuit:
 
@@ -122,7 +121,7 @@ e) Read the displayed value, which represents the voltage across the battery.
 
 The mathematical expression for voltage (V) equals the work done (W) to move a charge (Q) divided by the amount of that charge: $V = \frac{W}{Q}$
 
- This relationship resembles calculating the cost per item when shopping. If you spend $10 (work done) to buy 5 apples (charge), the cost per apple (voltage) equals $2.
+This relationship resembles calculating the cost per item when shopping. If you spend $10 (work done) to buy 5 apples (charge), the cost per apple (voltage) equals $2.
 
 Calculate the voltage needed to move 3 coulombs of charge using 15 joules of energy:
 
@@ -135,7 +134,7 @@ d) The voltage equals 5 volts.
 
 Ohm's Law states that voltage (V) equals the product of current (I) and resistance (R): $V = I \times R$
 
- This relationship resembles water flow through a pipe. Voltage acts like water pressure, current like the water flow rate, and resistance like the pipe's diameter.
+This relationship resembles water flow through a pipe. Voltage acts like water pressure, current like the water flow rate, and resistance like the pipe's diameter.
 Determine the voltage across a 100-ohm resistor with 0.5 amperes of current flowing through it:
 
 a) Use Ohm's Law: $V = I \times R$
@@ -147,7 +146,7 @@ d) The voltage across the resistor equals 50 volts.
 
 Electric potential energy represents the energy stored in a system of charged particles due to their positions within an electric field. Voltage quantifies the difference in this energy per unit charge between two points.
 
- Electric potential energy resembles the potential energy of a ball on a hill. The higher the ball's position (higher voltage), the more potential energy it possesses.
+Electric potential energy resembles the potential energy of a ball on a hill. The higher the ball's position (higher voltage), the more potential energy it possesses.
 
 Calculate the electric potential energy of a 2-coulomb charge in a 5-volt potential difference:
 
@@ -160,7 +159,7 @@ d) The electric potential energy equals 10 joules.
 
 Electric field strength (E) equals the negative gradient of voltage (V) with respect to distance (d): $E = -\frac{dV}{dd}$
 
- This relationship resembles the steepness of a hill. The electric field strength corresponds to the slope, while voltage represents the height at different points.
+This relationship resembles the steepness of a hill. The electric field strength corresponds to the slope, while voltage represents the height at different points.
 
 Calculate the electric field strength between two plates 2 cm apart with a potential difference of 100 volts:
 
