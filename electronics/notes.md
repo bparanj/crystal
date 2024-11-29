@@ -19,3 +19,4 @@ A resistor in series with a capacitor is known as an RC network (Resistor-Capaci
 At any moment, the time that the capacitor takes to acquire 63% of the difference between its current charge and the voltage being supplied to it is known as the time constant for the circuit.
 
 Encyclopedia pg 108
+g5sPV3z!Q&EJYn/
