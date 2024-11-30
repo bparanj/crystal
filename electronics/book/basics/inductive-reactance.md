@@ -10,13 +10,10 @@ A simple experiment to demonstrate reactance in an inductor using Tinkercad invo
 
 ### Steps:
 
-1. **Set Up the Circuit**:
    - Place the resistor and inductor in series on the breadboard.
    - Connect the AC power source to the series combination of the resistor and inductor.
    - Connect the multimeter in series to measure the current and in parallel across the inductor to measure the voltage.
 
-2. **Run the Simulation**:
-   - In Tinkercad, set up the components as described above.
    - Configure the AC power source to a specific frequency (e.g., 50 Hz or 60 Hz).
    - Run the simulation and observe the voltage across the inductor and the current through the circuit.
 

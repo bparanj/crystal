@@ -48,6 +48,7 @@ Describe some of the important areas where electronics technology is applied.
 List examples of common electronic components.
 Define the basic units of measurement.
 Describe the SI system of measurement.
+
 Be able to express numbers in scientific notation.
 Convert from one power of 10 to another.
 Define engineering notation.
