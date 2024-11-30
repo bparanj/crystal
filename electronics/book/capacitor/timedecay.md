@@ -4,7 +4,8 @@ PENDING
 
 Run
 
-### Components Needed:
+### Components:
+
 - Breadboard
 - Resistor (e.g., 1 kΩ)
 - Capacitor (e.g., 100 µF)

@@ -1,6 +1,6 @@
 A simple experiment to demonstrate reactance in an inductor using Tinkercad involves creating an AC circuit with an inductor and observing how the inductor affects the current and voltage. Here's a step-by-step guide:
 
-### Components Needed:
+### Components:
 - Breadboard
 - AC power source (e.g., function generator)
 - Inductor (e.g., 100 mH)

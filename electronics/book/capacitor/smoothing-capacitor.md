@@ -4,9 +4,10 @@ PENDING
 
 Extract only few sentences and add it to existing experiment:
 
-A simple experiment to demonstrate the smoothing of voltage by a capacitor using Tinkercad involves creating a basic rectifier circuit with a smoothing capacitor. Here's a step-by-step guide:
+An experiment to demonstrate the smoothing of voltage by a capacitor using Tinkercad involves creating a basic rectifier circuit with a smoothing capacitor.
 
-### Components Needed:
+### Components:
+
 - Breadboard
 - AC power source (e.g., function generator)
 - Diode (e.g., 1N4007)
@@ -45,7 +46,7 @@ PENDING
 
 Move to draft folder
 
-Capacitor for Smoothing Pulsating DC 
+Capacitor for Smoothing Pulsating DC
 
 Here's a simple Tinkercad experiment to demonstrate the capacitor's smoothing function:
 

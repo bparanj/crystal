@@ -24,9 +24,7 @@ The history of electricity is a fascinating journey that spans thousands of year
 
 Electricity has evolved from ancient curiosities to a cornerstone of modern civilization, driving technological progress and improving quality of life.
 
-The history of electricity is a fascinating journey of discovery and innovation, stretching from ancient observations to the foundation of modern technology. 
-
----
+The history of electricity is a fascinating journey of discovery and innovation, stretching from ancient observations to the foundation of modern technology.
 
 ### **Ancient Observations (600 BCE - 1600s)**
 
@@ -37,8 +35,6 @@ The history of electricity is a fascinating journey of discovery and innovation,
 2. **Lodestones and Magnetism**:
    - Ancient civilizations (e.g., the Chinese and Greeks) discovered natural magnets (lodestones) and their ability to attract iron.
    - While magnetism was understood separately, its connection to electricity was unknown at this stage.
-
----
 
 ### **Early Theories and Experiments (1600s - 1700s)**
 
@@ -55,8 +51,6 @@ The history of electricity is a fascinating journey of discovery and innovation,
 4. **Benjamin Franklin (1752)**:
    - Demonstrated that lightning is a form of electricity using his famous kite experiment.
    - Proposed the concept of positive and negative charges.
-
----
 
 ### **The Age of Discovery (Late 1700s - Early 1800s)**
 
@@ -77,8 +71,6 @@ The history of electricity is a fascinating journey of discovery and innovation,
    - Discovered electromagnetic induction, showing that a changing magnetic field generates electricity.
    - Built the first dynamo (electric generator), paving the way for electrical power generation.
 
----
-
 ### **Industrial Era and Practical Applications (Mid-1800s)**
 
 1. **Georg Ohm (1827)**:
@@ -96,8 +88,6 @@ The history of electricity is a fascinating journey of discovery and innovation,
 5. **Heinrich Hertz (1887)**:
    - Confirmed the existence of electromagnetic waves, laying the groundwork for radio communication.
 
----
-
 ### **Modern Era and Technological Advances (1900s - Present)**
 
 1. **Electric Power Grids**:
@@ -110,8 +100,6 @@ The history of electricity is a fascinating journey of discovery and innovation,
 3. **Renewable Energy and Sustainability (2000s)**:
    - Advances in solar, wind, and battery technologies have transformed electricity generation and storage.
    - Focus shifted to reducing reliance on fossil fuels and improving energy efficiency.
-
----
 
 ### **Historical Perspectives**
 - Early discoveries of static electricity and magnetism were purely observational.

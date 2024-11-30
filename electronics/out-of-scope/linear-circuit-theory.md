@@ -1,6 +1,3 @@
-PENDING
-
-Move to out of scope folder
 
 What is linear circuit theory?
 

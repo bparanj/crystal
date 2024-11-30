@@ -1,4 +1,4 @@
-A resistive element, commonly known as a resistor, is a fundamental component in electronics that introduces electrical resistance into a circuit. Here are the key points about resistors:
+A resistive element, commonly known as a resistor, is a fundamental component in electronics that introduces electrical resistance into a circuit.
 
 1. **Function**:
    - **Resistance**: Resistors oppose the flow of electric current, creating a voltage drop across their terminals. This property is known as resistance, measured in ohms (Ω).

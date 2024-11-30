@@ -1,7 +1,5 @@
 A **voltage source** and a **current source** are two fundamental types of electrical sources, each defined by the quantity they provide and how they behave in a circuit. Here's a clear differentiation:
 
----
-
 ### **1. Definition**
 - **Voltage Source**:
   - A device that delivers a constant voltage regardless of the current drawn by the load.
@@ -10,8 +8,6 @@ A **voltage source** and a **current source** are two fundamental types of elect
 - **Current Source**:
   - A device that delivers a constant current regardless of the voltage across it.
   - Examples: Current regulators, transistor circuits configured as current sources.
-
----
 
 ### **2. Symbol**
 - **Voltage Source**:
@@ -23,8 +19,6 @@ A **voltage source** and a **current source** are two fundamental types of elect
   - Represented as:
     - \( \rightarrow \) (with a current arrow).
 
----
-
 ### **3. Output Behavior**
 - **Voltage Source**:
   - Maintains a fixed voltage output.
@@ -33,8 +27,6 @@ A **voltage source** and a **current source** are two fundamental types of elect
 - **Current Source**:
   - Maintains a fixed current output.
   - The voltage varies depending on the load impedance.
-
----
 
 ### **4. Ideal Characteristics**
 - **Voltage Source**:
@@ -47,16 +39,12 @@ A **voltage source** and a **current source** are two fundamental types of elect
     - Output current remains constant regardless of the load voltage.
   - **Real Current Source**: Includes a finite internal resistance, causing the current to vary slightly with load voltage.
 
----
-
 ### **5. Example Behavior**
 - **Voltage Source**:
   - A 12V battery will maintain 12V across its terminals regardless of whether it powers a light bulb or a resistor, up to its capacity.
 
 - **Current Source**:
   - A 2A current source will supply 2A to any load, whether it's a high-impedance circuit or a low-impedance circuit, within its voltage compliance range.
-
----
 
 ### **6. Applications**
 - **Voltage Source**:
@@ -66,8 +54,6 @@ A **voltage source** and a **current source** are two fundamental types of elect
 - **Current Source**:
   - Used in applications requiring constant current, such as LED drivers, biasing transistors, and charging batteries.
   - Examples: Constant-current chargers, transistor current mirrors.
-
----
 
 ### **7. Mathematical Representation**
 - **Voltage Source**:
@@ -82,8 +68,6 @@ A **voltage source** and a **current source** are two fundamental types of elect
     I = \text{constant}
     \]
 
----
-
 ### **Comparison Table**
 
 | **Aspect**             | **Voltage Source**                 | **Current Source**                 |
@@ -94,7 +78,5 @@ A **voltage source** and a **current source** are two fundamental types of elect
 | **Voltage Behavior**    | Fixed, regardless of load           | Varies with load resistance         |
 | **Symbol**              | \( \bigoplus\bigominus \), \( \sim \) | \( \rightarrow \) (current arrow)  |
 | **Applications**        | Power supply for devices           | LED drivers, transistor biasing    |
-
----
 
 In summary, a **voltage source** focuses on maintaining a steady voltage, while a **current source** ensures a steady current. Each has specific use cases based on the requirements of the circuit or application.

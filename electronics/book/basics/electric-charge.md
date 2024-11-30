@@ -1,14 +1,10 @@
 The **principle of electric charge** forms the foundation of electromagnetism and electronics. It describes the nature, behavior, and interaction of electric charges, which are intrinsic properties of matter.
 
----
-
 - Electric charge is a fundamental property of particles that determines their electromagnetic interactions.
 - It is measured in **coulombs (C)**.
 - Charges come in two types:
   1. **Positive charge**: Found in protons.
   2. **Negative charge**: Found in electrons.
-
----
 
 ### **Basic Principles**
 
@@ -50,8 +46,6 @@ The **principle of electric charge** forms the foundation of electromagnetism an
      \]
    - Direction: Away from positive charges and toward negative charges.
 
----
-
 ### **Applications**
 
 1. **Electrostatics**:
@@ -68,8 +62,6 @@ The **principle of electric charge** forms the foundation of electromagnetism an
 
 5. **Electronics**:
    - Charge flow and interaction underpin all electronic devices and circuits.
-
----
 
 - Electric charge governs fundamental interactions in nature, from atomic bonding to macroscopic forces.
 - Its conservation and quantization make it a predictable and measurable property.

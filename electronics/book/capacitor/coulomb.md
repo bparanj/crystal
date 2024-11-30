@@ -62,7 +62,7 @@ Common Usage:
 
 Coulomb is a charge unit. Farad is capacitance unit.
 
-Coulombs measure electric charge, like the amount of charge stored on a capacitor. Farads measure capacitance, which is a component's ability to store charge for a given voltage. They are related by the formula: 
+Coulombs measure electric charge, like the amount of charge stored on a capacitor. Farads measure capacitance, which is a component's ability to store charge for a given voltage. They are related by the formula:
 
 C = Q/V
 
@@ -70,9 +70,20 @@ No, the coulomb is not used only when talking about capacitors. While capacitors
 
 Here are a few examples:
 
-1. **Electric Current**: The flow of electric charge is measured in amperes, where one ampere equals one coulomb of charge passing through a point in one second.
-2. **Electrostatics**: Coulombs are used to quantify the amount of charge on objects and the forces between them, as described by Coulomb's law.
-3. **Electrolysis**: In electrochemistry, the amount of substance that is deposited or dissolved at an electrode is directly proportional to the number of coulombs of charge passed through the electrolyte.
-4. **Battery Capacity**: The charge stored in batteries is often measured in ampere-hours (Ah), which can be converted to coulombs (1 Ah = 3600 C).
+1. **Electric Current**:
 
-So, the coulomb is a versatile unit used in various applications beyond just capacitors. 
+The flow of electric charge is measured in amperes, where one ampere equals one coulomb of charge passing through a point in one second.
+
+2. **Electrostatics**:
+
+Coulombs are used to quantify the amount of charge on objects and the forces between them, as described by Coulomb's law.
+
+3. **Electrolysis**:
+
+In electrochemistry, the amount of substance that is deposited or dissolved at an electrode is directly proportional to the number of coulombs of charge passed through the electrolyte.
+
+4. **Battery Capacity**:
+
+The charge stored in batteries is often measured in ampere-hours (Ah), which can be converted to coulombs (1 Ah = 3600 C).
+
+So, the coulomb is a versatile unit used in various applications beyond just capacitors.

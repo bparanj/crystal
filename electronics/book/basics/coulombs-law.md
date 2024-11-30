@@ -2,8 +2,6 @@
 
 The magnitude of the electrostatic force (\(F\)) between two point charges is directly proportional to the product of the magnitudes of the charges and inversely proportional to the square of the distance (\(r\)) between them.
 
----
-
 ### **Mathematical Expression**:
 \[
 F = k \frac{q_1 q_2}{r^2}
@@ -15,8 +13,6 @@ Where:
 - \(r\): Distance between the charges (meters, \(m\)).
 - \(k\): Coulomb's constant, \(k = 8.99 \times 10^9 \, \text{Nm}^2/\text{C}^2\).
 
----
-
 ### **Vector Form**:
 The force is a vector quantity, so it also has direction. The vector form of Coulomb's Law is:
 \[
@@ -25,8 +21,6 @@ The force is a vector quantity, so it also has direction. The vector form of Cou
 Where:
 - \(\hat{r}\): Unit vector along the line connecting the charges, indicating the direction of the force.
 - The force is **attractive** if \(q_1 q_2 < 0\) (opposite charges) and **repulsive** if \(q_1 q_2 > 0\) (like charges).
-
----
 
 ### **Characteristics**:
 
@@ -38,8 +32,6 @@ Where:
 
 3. **Line of Action**:
    - The force acts along the straight line connecting the centers of the two charges.
-
----
 
 ### **Applications**:
 

@@ -1,4 +1,4 @@
-To demonstrate reactance in a capacitor using Tinkercad, you can set up a simple RC (resistor-capacitor) circuit. Here's a step-by-step guide:
+To demonstrate reactance in a capacitor using Tinkercad, you can set up a simple RC (resistor-capacitor) circuit.
 
 1. **Create a New Circuit**:
    - Open Tinkercad and start a new circuit project.
@@ -23,4 +23,4 @@ To demonstrate reactance in a capacitor using Tinkercad, you can set up a simple
    - Start the simulation to observe the behavior of the circuit.
    - You should see the voltage across the capacitor change with the frequency of the AC source, demonstrating the concept of reactance.
 
-This setup will help you visualize how the capacitor's reactance varies with the frequency of the applied AC voltage. You can adjust the frequency to see how the reactance changes, which is a key characteristic of capacitors.
+visualize how the capacitor's reactance varies with the frequency of the applied AC voltage. You can adjust the frequency to see how the reactance changes, which is a key characteristic of capacitors.

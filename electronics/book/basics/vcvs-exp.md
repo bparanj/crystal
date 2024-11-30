@@ -1,11 +1,7 @@
-Yes, you can build a **Voltage-Controlled Voltage Source (VCVS)** using only **analog components** such as resistors and transistors, avoiding the use of an operational amplifier. One simple way is to use a **common-emitter transistor amplifier** to achieve voltage control and amplification.
-
----
+You can build a **Voltage-Controlled Voltage Source (VCVS)** using only **analog components** such as resistors and transistors, avoiding the use of an operational amplifier. One simple way is to use a **common-emitter transistor amplifier** to achieve voltage control and amplification.
 
 ### **Experiment: VCVS Using Transistors**
 This design uses a **bipolar junction transistor (BJT)** to demonstrate the behavior of a Voltage-Controlled Voltage Source.
-
----
 
 ### **Components Needed**
 1. **BJT Transistor** (e.g., 2N3904 or BC547, NPN type)
@@ -18,8 +14,6 @@ This design uses a **bipolar junction transistor (BJT)** to demonstrate the beha
 5. **Multimeter** – to measure output voltage (\(V_{\text{out}}\)).
 6. Breadboard and connecting wires.
 
----
-
 ### **Circuit Design**
 1. **Transistor Configuration**:
    - The transistor is set up in a **common-emitter configuration** to amplify the input voltage.
@@ -27,8 +21,6 @@ This design uses a **bipolar junction transistor (BJT)** to demonstrate the beha
    - Use \( R_1 \) to provide a biasing voltage to the transistor's base, ensuring it operates in the active region.
 3. **Output Voltage**:
    - Taken from the transistor's collector terminal, where the amplified signal appears.
-
----
 
 ### **Circuit Diagram**
 ```
@@ -47,8 +39,6 @@ This design uses a **bipolar junction transistor (BJT)** to demonstrate the beha
                 GND
 ```
 
----
-
 ### **Working Principle**
 1. **Voltage-Controlled Voltage Behavior**:
    - \( V_{\text{in}} \): The input voltage applied to the transistor's base through \( R_1 \).
@@ -57,8 +47,6 @@ This design uses a **bipolar junction transistor (BJT)** to demonstrate the beha
 
 2. **Amplification Factor**:
    - The output voltage (\( V_{\text{out}} \)) is related to the input voltage (\( V_{\text{in}} \)) through the transistor’s current gain and the ratio of \( R_2 \) to \( R_3 \).
-
----
 
 ### **Theoretical Analysis**
 1. **Base Voltage**:
@@ -83,8 +71,6 @@ This design uses a **bipolar junction transistor (BJT)** to demonstrate the beha
 4. **Relationship**:
    By designing the resistor values (\( R_1, R_2, R_3 \)), you can set the proportionality factor between \( V_{\text{out}} \) and \( V_{\text{in}} \).
 
----
-
 ### **Steps to Perform the Experiment**
 1. Assemble the circuit on a breadboard as per the diagram.
 2. Apply a constant power supply (\( V_{\text{CC}} = 12 \, \text{V} \)).
@@ -92,19 +78,13 @@ This design uses a **bipolar junction transistor (BJT)** to demonstrate the beha
 4. Measure the output voltage (\( V_{\text{out}} \)) across the collector and ground using a multimeter.
 5. Record the relationship between \( V_{\text{in}} \) and \( V_{\text{out}} \).
 
----
-
 ### **Expected Results**
 - The output voltage will increase linearly with the input voltage, demonstrating the behavior of a VCVS.
 - The proportionality constant depends on the circuit design and transistor characteristics.
 
----
-
 ### **Advantages**
 - Demonstrates the concept of a VCVS with analog components.
 - Requires fewer specialized components like op-amps.
-
----
 
 ### **Applications**
 - Understanding transistor amplifiers.

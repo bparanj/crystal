@@ -62,4 +62,4 @@ The measured current matches the calculated current from Ohm's Law, showing the 
 
 - Understanding the basic behavior of resistors in AC circuits is fundamental for analyzing more complex circuits with inductors or capacitors.
 
-This experiment is simple yet foundational for introducing AC circuit behavior and verifying the universal application of Ohm's Law.
+This experiment introduces AC circuit behavior and verifying the universal application of Ohm's Law.

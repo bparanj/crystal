@@ -1,13 +1,9 @@
 Here’s a simple experiment to demonstrate a **Current-Controlled Current Source (CCCS)** using analog components such as transistors.
 
----
-
 ### **Objective**
 To design and observe the behavior of a Current-Controlled Current Source (CCCS), where the output current depends linearly on the input current.
 
----
-
-### **Components Needed**
+### **Components**
 1. **BJT Transistors** (e.g., 2N3904 or BC547, NPN type) – 2 units.
 2. **Resistors**:
    - \( R_1 = 1 \, \text{k}\Omega \) (base bias resistor for input transistor).
@@ -17,13 +13,9 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
 5. **Multimeter** – to measure the output current (\( I_{\text{out}} \)).
 6. Breadboard and connecting wires.
 
----
-
 ### **Circuit Design**
 1. Use one transistor to sense the input current (\( I_{\text{in}} \)) and generate a base current for the second transistor.
 2. The second transistor acts as the output stage, replicating the input current at its collector.
-
----
 
 ### **Circuit Diagram**
 ```
@@ -48,8 +40,6 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
             GND
 ```
 
----
-
 ### **Working Principle**
 1. **Input Current (\( I_{\text{in}} \))**:
    - The input current is applied to the emitter of the first transistor (\( Q_1 \)) through resistor \( R_1 \).
@@ -61,8 +51,6 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
 
 3. **Relationship Between \( I_{\text{in}} \) and \( I_{\text{out}} \)**:
    - \( I_{\text{out}} \approx \beta_2 \cdot I_{\text{in}} \), where \( \beta_2 \) is the current gain of \( Q_2 \).
-
----
 
 ### **Steps to Perform the Experiment**
 1. **Assemble the Circuit**:
@@ -79,8 +67,6 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
    - Adjust the input current in steps (e.g., 0.1mA, 0.2mA, up to 1mA).
    - Record the corresponding \( I_{\text{out}} \) values.
 
----
-
 ### **Expected Results**
 - The output current (\( I_{\text{out}} \)) will increase linearly with the input current (\( I_{\text{in}} \)).
 - The relationship depends on the current gain (\( \beta \)) of the transistors:
@@ -90,14 +76,10 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
   For instance:
   - If \( \beta_2 = 100 \) and \( I_{\text{in}} = 0.1 \, \text{mA} \), \( I_{\text{out}} = 10 \, \text{mA} \).
 
----
-
 ### **Applications**
 1. Demonstrates the principle of a Current-Controlled Current Source.
 2. Useful for understanding transistor operation and current mirrors.
 3. Foundational for analog circuits like current amplifiers and feedback systems.
-
----
 
 ### **Advantages**
 - Uses only analog components (transistors and resistors).

@@ -1,4 +1,4 @@
-In electronics, a reactive element is a component that stores and releases energy rather than dissipating it as heat. The two primary types of reactive elements are capacitors and inductors. 
+In electronics, a reactive element is a component that stores and releases energy rather than dissipating it as heat. The two primary types of reactive elements are capacitors and inductors.
 
 ### Capacitors
 - **Function**: Capacitors store energy in an electric field created between two conductive plates separated by an insulating material (dielectric).
@@ -18,7 +18,6 @@ In electronics, a reactive element is a component that stores and releases energ
   where \( f \) is the frequency and \( L \) is the inductance.
 - **Behavior**: In an AC circuit, inductors cause the voltage to lead the current by 90 degrees.
 
-### Key Points
 - **Energy Storage**: Unlike resistors, which dissipate energy as heat, reactive elements store energy temporarily and release it back into the circuit.
 - **Impedance**: The total opposition to AC current flow in a circuit with both resistive and reactive elements is called impedance, denoted as \( Z \). It combines resistance (R) and reactance (X) and is given by:
   $$

@@ -1,7 +1,5 @@
 **Electric current** is the flow of electric charge through a conductor or medium. It is a fundamental concept in electronics and electrical engineering, representing the movement of charges (typically electrons in a metal conductor) in response to an electric field.
 
----
-
 ### **Definition**:
 Electric current (\(I\)) is defined as the rate at which electric charge (\(Q\)) flows through a given point in a circuit.
 
@@ -13,8 +11,6 @@ Where:
 - \(I\): Electric current (in amperes, \(A\)).
 - \(Q\): Total charge (in coulombs, \(C\)).
 - \(t\): Time (in seconds, \(s\)).
-
----
 
 ### **Characteristics**:
 
@@ -30,8 +26,6 @@ Where:
    - The SI unit of electric current is the **ampere (A)**.
    - \(1 \, \text{ampere} = 1 \, \text{coulomb/second}\).
 
----
-
 ### **Current in a Circuit**:
 - Driven by an **electric potential difference** (voltage) provided by a source like a battery.
 - Opposed by the **resistance** of the conductor or circuit components.
@@ -43,8 +37,6 @@ I = \frac{V}{R}
 Where:
 - \(V\): Voltage (in volts, \(V\)).
 - \(R\): Resistance (in ohms, \(\Omega\)).
-
----
 
 ### **Applications**:
 1. **Powering Devices**: Current flows through circuits to power electronic and electrical systems.

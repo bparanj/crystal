@@ -1,14 +1,10 @@
 The **International System of Units (SI)** is the globally accepted standard for measuring physical quantities. It provides a consistent framework for measurement, ensuring uniformity across scientific, engineering, and industrial applications.
 
----
-
 ### **Key Features of the SI System**
 1. **Base Units**: The SI system is built on seven fundamental base units, each representing a basic physical quantity.
 2. **Derived Units**: Other quantities are expressed as combinations of base units (e.g., speed, force, energy).
 3. **Prefixes**: SI uses prefixes to represent multiples and submultiples of units (e.g., kilo-, milli-, micro-).
 4. **Universality**: It is used worldwide, simplifying international collaboration and communication in science and engineering.
-
----
 
 ### **The Seven SI Base Units**
 1. **Length**:
@@ -39,8 +35,6 @@ The **International System of Units (SI)** is the globally accepted standard for
    - Unit: **Candela (cd)**
    - Definition: The intensity of light in a given direction from a source emitting monochromatic radiation at \( 540 \times 10^{12} \) Hz.
 
----
-
 ### **Derived Units in Electronics**
 These are units derived from the seven base units and are commonly used in electronics:
 1. **Volt (V)**: \( 1 \, \text{V} = 1 \, \text{W} / \text{A} \)
@@ -49,8 +43,6 @@ These are units derived from the seven base units and are commonly used in elect
 4. **Henry (H)**: \( 1 \, \text{H} = 1 \, \text{V·s} / \text{A} \)
 5. **Hertz (Hz)**: \( 1 \, \text{Hz} = 1 / \text{s} \)
 6. **Watt (W)**: \( 1 \, \text{W} = 1 \, \text{J} / \text{s} \)
-
----
 
 ### **SI Prefixes for Scaling**
 SI prefixes are used to express very large or very small quantities conveniently:
@@ -62,8 +54,6 @@ SI prefixes are used to express very large or very small quantities conveniently
   - \( \text{milli-} (m) = 10^{-3} \)
   - \( \text{micro-} (\mu) = 10^{-6} \)
   - \( \text{nano-} (n) = 10^{-9} \)
-
----
 
 ### **Benefits of the SI System**
 1. **Standardization**: Ensures consistency in measurements worldwide.

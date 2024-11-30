@@ -14,7 +14,7 @@ A transistor is a three-terminal device (base, collector, emitter) that can swit
 
 In an amplifier circuit, a bipolar junction transistor (BJT) amplifies an audio signal by controlling a larger current with a smaller input signal.
 
-A diode allows current to flow in one direction while blocking it in the opposite direction. This makes diodes useful for converting alternating current (AC) to direct current (DC) in rectifier circuits.
+A diode allows current to flow in one direction while blocking it in the opposite direction. This makes diodes useful for converting AC to DC in rectifier circuits.
 
 In a power supply circuit, a diode is used to convert AC from a wall outlet into DC that powers electronic devices, such as your phone charger.
 
@@ -40,15 +40,15 @@ Amplification occurs when an active component like a transistor increases the po
 
    A transistor is a three-terminal device (base, collector, emitter) that can switch or amplify signals. By applying a small current to the base, the transistor allows a much larger current to flow between the collector and emitter, thus controlling the overall current in the circuit.
 
-   Imagine a transistor like a faucet. A small twist of the handle (base current) allows a larger flow of water (collector-emitter current) through the faucet.
+   Imagine a transistor like a faucet. A small twist of the handle base current allows a larger flow of water collector-emitter current through the faucet.
 
    In an amplifier circuit, a bipolar junction transistor (BJT) amplifies an audio signal by controlling a larger current with a smaller input signal.
 
 3. How does a diode function as an active component in a circuit?
 
-   A diode allows current to flow in one direction while blocking it in the opposite direction. This makes diodes useful for converting alternating current (AC) to direct current (DC) in rectifier circuits.
+   A diode allows current to flow in one direction while blocking it in the opposite direction. This makes diodes useful for converting AC to DC in rectifier circuits.
 
-   Think of a diode like a one-way valve in a plumbing system, where water (current) can only flow in one direction.
+   Think of a diode like a one-way valve in a plumbing system, where water can only flow in one direction.
 
    In a power supply circuit, a diode is used to convert AC from a wall outlet into DC that powers electronic devices, such as your phone charger.
 

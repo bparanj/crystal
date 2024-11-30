@@ -1,7 +1,5 @@
 PENDING
 
-Move to out of scope folder
-
 Problems running this experiment. Skipping it.
 
 Missing Capacitor Experiment

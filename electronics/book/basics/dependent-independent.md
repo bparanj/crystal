@@ -1,6 +1,4 @@
-In electrical circuits, **dependent sources** and **independent sources** are types of ideal sources that provide voltage or current. 
-
----
+In electrical circuits, **dependent sources** and **independent sources** are types of ideal sources that provide voltage or current.
 
 ### **1. Definition**
 - **Independent Source**:
@@ -11,8 +9,6 @@ In electrical circuits, **dependent sources** and **independent sources** are ty
   - A source whose output (voltage or current) depends on another variable in the circuit, such as voltage or current at a different location.
   - Also called a **controlled source**.
 
----
-
 ### **2. Symbol in Circuit Diagrams**
 - **Independent Source**:
   - Voltage: \( \bigoplus \bigominus \) (DC) or \( \sim \) (AC).
@@ -22,8 +18,6 @@ In electrical circuits, **dependent sources** and **independent sources** are ty
   - Voltage: Diamond-shaped symbol with \( \bigoplus \bigominus \) inside.
   - Current: Diamond-shaped symbol with an arrow inside.
 
----
-
 ### **3. Behavior**
 - **Independent Source**:
   - Provides a fixed voltage or current regardless of what happens elsewhere in the circuit.
@@ -32,8 +26,6 @@ In electrical circuits, **dependent sources** and **independent sources** are ty
   - Its value is determined by a specific circuit parameter, such as:
     - Voltage across a component (voltage-controlled).
     - Current through a component (current-controlled).
-
----
 
 ### **4. Types of Dependent Sources**
 Dependent sources are categorized based on the type of control and output:
@@ -52,8 +44,6 @@ Where:
 - \( I_c \): Controlling current.
 - \( k \): Proportional constant (gain).
 
----
-
 ### **5. Applications**
 - **Independent Sources**:
   - Used to provide power to circuits.
@@ -64,8 +54,6 @@ Where:
   - Examples:
     - A **VCVS** can represent an operational amplifier.
     - A **CCCS** can represent a current gain in a transistor.
-
----
 
 ### **6. Mathematical Representation**
 - **Independent Source**:
@@ -78,8 +66,6 @@ Where:
     V_x = k \cdot V_c \quad \text{or} \quad I_x = k \cdot I_c
     \]
 
----
-
 ### **Comparison Table**
 
 | **Aspect**              | **Independent Source**            | **Dependent Source**              |
@@ -89,8 +75,6 @@ Where:
 | **Control**              | No control needed                | Controlled by voltage or current  |
 | **Applications**         | Power supply for circuits         | Amplifiers, transistor models     |
 | **Examples**             | Battery, AC generator             | Operational amplifier, transistor |
-
----
 
 In summary:
 - An **independent source** provides a constant voltage or current irrespective of circuit conditions.
