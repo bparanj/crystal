@@ -68,7 +68,7 @@ Discuss electric potential and voltage.
 List the five main types of voltage sources.
 Differentiate between a voltage source and a current source.
 Explain the difference between a dependent source and independent source.
-Define resistance. CONTINUE HERE
+Define resistance. 
 Describe the relationship between temperature and resistance.
 List various types of resistors.
 Utilize the resistor color code.
@@ -95,7 +95,7 @@ Upon completion of this module the student will be able to:
 
 Describe how voltages are distributed around a series circuit.
 Explain the purpose of double subscript notation.
-Define Kirchhoff's voltage law.
+Define Kirchhoff's voltage law. CONTINUE HERE
 Express the voltage divider rule and determine where it can be applied.
 Determine the polarity of EMFS and voltage drops.
 Explain the meaning of positive ground and negative ground.
