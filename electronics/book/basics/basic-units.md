@@ -1,3 +1,48 @@
+In electronics, several fundamental units of measurement are used to quantify various electrical properties. Here are the basic units:
+
+### 1. **Voltage (V)**
+- **Unit**: Volt (V)
+- **Description**: Measures the electrical potential difference between two points. One volt is the potential difference that will move one coulomb of charge with one joule of energy.
+- **Formula**: \( V = I \times R \)
+
+### 2. **Current (I)**
+- **Unit**: Ampere (A)
+- **Description**: Measures the flow of electric charge. One ampere is the current that flows with one coulomb of charge per second.
+- **Formula**: \( I = \frac{V}{R} \)
+
+### 3. **Resistance (R)**
+- **Unit**: Ohm (Ω)
+- **Description**: Measures the opposition to the flow of current. One ohm is the resistance that produces a current of one ampere with a voltage of one volt.
+- **Formula**: \( R = \frac{V}{I} \)
+
+### 4. **Power (P)**
+- **Unit**: Watt (W)
+- **Description**: Measures the rate of energy consumption or generation. One watt is the power produced by a current of one ampere flowing through a potential difference of one volt.
+- **Formula**: \( P = V \times I \)
+
+### 5. **Capacitance (C)**
+- **Unit**: Farad (F)
+- **Description**: Measures the ability to store electrical charge. One farad is the capacitance that stores one coulomb of charge with a potential difference of one volt.
+- **Formula**: \( C = \frac{Q}{V} \)
+
+### 6. **Inductance (L)**
+- **Unit**: Henry (H)
+- **Description**: Measures the ability to induce voltage when the current changes. One henry is the inductance that induces one volt when the current changes at one ampere per second.
+- **Formula**: \( V_L = L \frac{dI}{dt} \)
+
+### 7. **Frequency (f)**
+- **Unit**: Hertz (Hz)
+- **Description**: Measures the number of cycles per second in an alternating current (AC) signal.
+- **Formula**: \( f = \frac{1}{T} \) where \( T \) is the period of the cycle.
+
+### 8. **Charge (Q)**
+- **Unit**: Coulomb (C)
+- **Description**: Measures the quantity of electricity transported in one second by a current of one ampere.
+- **Formula**: \( Q = I \times t \)
+
+These units form the foundation of electrical and electronic measurements, allowing for precise and standardized communication of electrical properties.
+
+
 In electronics, several basic units of measurement are used to quantify electrical properties and describe circuit behavior. Below are the key units and their definitions:
 
 ---
