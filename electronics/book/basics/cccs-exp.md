@@ -40,7 +40,6 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
             GND
 ```
 
-### **Working Principle**
 1. **Input Current (\( I_{\text{in}} \))**:
    - The input current is applied to the emitter of the first transistor (\( Q_1 \)) through resistor \( R_1 \).
    - \( Q_1 \) operates in the active region, converting the emitter current into a proportional collector current.
@@ -67,7 +66,7 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
    - Adjust the input current in steps (e.g., 0.1mA, 0.2mA, up to 1mA).
    - Record the corresponding \( I_{\text{out}} \) values.
 
-### **Expected Results**
+### **Results**
 - The output current (\( I_{\text{out}} \)) will increase linearly with the input current (\( I_{\text{in}} \)).
 - The relationship depends on the current gain (\( \beta \)) of the transistors:
   \[
@@ -85,4 +84,4 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
 - Uses only analog components (transistors and resistors).
 - Provides hands-on experience with current-controlled sources.
 
-This experiment effectively models a CCCS, showcasing how an input current can control and replicate an output current in analog circuits.
+This experiment models a CCCS, showing how an input current can control and replicate an output current in analog circuits.

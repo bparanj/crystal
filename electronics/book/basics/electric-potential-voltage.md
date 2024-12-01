@@ -38,7 +38,6 @@ This means there is a potential difference of 5 volts between the two points.
 
 ### **1. Electric Potential**
 
-- **Definition**:
   Electric potential is the amount of electric potential energy per unit charge at a specific point in an electric field. It represents the ability of a location in the field to do work on a charge.
 
 - **Formula**:
@@ -59,7 +58,6 @@ This means there is a potential difference of 5 volts between the two points.
 
 ### **2. Voltage**
 
-- **Definition**:
   Voltage is the difference in electric potential between two points. It drives the movement of electric charges in a circuit, analogous to pressure in a water system.
 
 - **Formula**:

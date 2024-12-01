@@ -1,4 +1,4 @@
-A **voltage source** and a **current source** are two fundamental types of electrical sources, each defined by the quantity they provide and how they behave in a circuit. Here's a clear differentiation:
+A **voltage source** and a **current source** are two fundamental types of electrical sources, each defined by the quantity they provide and how they behave in a circuit.
 
 ### **1. Definition**
 - **Voltage Source**:
@@ -79,4 +79,4 @@ A **voltage source** and a **current source** are two fundamental types of elect
 | **Symbol**              | \( \bigoplus\bigominus \), \( \sim \) | \( \rightarrow \) (current arrow)  |
 | **Applications**        | Power supply for devices           | LED drivers, transistor biasing    |
 
-In summary, a **voltage source** focuses on maintaining a steady voltage, while a **current source** ensures a steady current. Each has specific use cases based on the requirements of the circuit or application.
+a **voltage source** focuses on maintaining a steady voltage, while a **current source** ensures a steady current. Each has specific use cases based on the requirements of the circuit.

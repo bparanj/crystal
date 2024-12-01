@@ -1,30 +1,30 @@
-To determine the power used by a simple AC circuit, you need to consider the different types of power involved: real power, reactive power, and apparent power. 
+To determine the power used by a AC circuit, consider the different types of power involved: real power, reactive power, and apparent power.
 
 ### 1. **Real Power (P)**
-- **Definition**: Real power, also known as active power, is the actual power consumed by the resistive elements in the circuit. It is measured in watts (W).
-- **Formula**: 
+ Real power, also known as active power, is the actual power consumed by the resistive elements in the circuit. It is measured in watts (W).
+- **Formula**:
   $$
   P = V_{\text{rms}} \cdot I_{\text{rms}} \cdot \cos(\phi)
   $$
   where \( V_{\text{rms}} \) is the root mean square (RMS) voltage, \( I_{\text{rms}} \) is the RMS current, and \( \phi \) is the phase angle between the voltage and current.
 
 ### 2. **Reactive Power (Q)**
-- **Definition**: Reactive power is the power stored and released by the reactive elements (inductors and capacitors) in the circuit. It is measured in volt-amperes reactive (VAR).
-- **Formula**: 
+ Reactive power is the power stored and released by the reactive elements (inductors and capacitors) in the circuit. It is measured in volt-amperes reactive (VAR).
+- **Formula**:
   $$
   Q = V_{\text{rms}} \cdot I_{\text{rms}} \cdot \sin(\phi)
   $$
 
 ### 3. **Apparent Power (S)**
-- **Definition**: Apparent power is the combination of real power and reactive power. It represents the total power supplied to the circuit. It is measured in volt-amperes (VA).
-- **Formula**: 
+ Apparent power is the combination of real power and reactive power. It represents the total power supplied to the circuit. It is measured in volt-amperes (VA).
+- **Formula**:
   $$
   S = V_{\text{rms}} \cdot I_{\text{rms}}
   $$
 
 ### 4. **Power Factor (PF)**
-- **Definition**: The power factor is the ratio of real power to apparent power and indicates the efficiency of the circuit.
-- **Formula**: 
+ The power factor is the ratio of real power to apparent power and indicates the efficiency of the circuit.
+- **Formula**:
   $$
   \text{PF} = \cos(\phi) = \frac{P}{S}
   $$
@@ -37,4 +37,4 @@ To determine the power used by a simple AC circuit, you need to consider the dif
 5. **Calculate Apparent Power**: Use the formula \( S = V_{\text{rms}} \cdot I_{\text{rms}} \) to find the apparent power.
 6. **Determine Power Factor**: Calculate the power factor using \( \text{PF} = \cos(\phi) \).
 
-These calculations help you understand how much power is being used effectively in the circuit and how much is being stored and released by reactive components.
+These calculations is used to determine how much power is being used effectively in the circuit and how much is being stored and released by reactive components.

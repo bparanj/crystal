@@ -76,7 +76,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
    - Adjust the input current in steps (e.g., 0.1mA, 0.2mA, up to 1mA).
    - Record the corresponding \( V_{\text{out}} \) values.
 
-### **Expected Results**
+### **Results**
 - The output voltage (\( V_{\text{out}} \)) will increase linearly with the input current (\( I_{\text{in}} \)).
 - For example, if \( \beta = 100 \), \( R_2 = 1 \, \text{k}\Omega \):
   \[

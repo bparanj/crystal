@@ -68,4 +68,4 @@ Where:
 2. Designing capacitors and other charge-storage devices.
 3. Understanding atomic and molecular interactions where electrostatic forces are significant.
 
-Coulomb's Law is fundamental in electrostatics, forming the basis for understanding electric fields, potentials, and forces in electronic and physical systems.
+Coulomb's Law forms the basis for understanding electric fields, potentials, and forces in electronic and physical systems.

@@ -1,6 +1,4 @@
-In a **series circuit**, the total voltage from the power source is distributed across the components in proportion to their resistance. Here's a detailed explanation of how voltages are distributed:
-
----
+In a **series circuit**, the total voltage from the power source is distributed across the components in proportion to their resistance.
 
 ### **1. Voltage in a Series Circuit**
 - The total voltage (\(V_{\text{total}}\)) is the sum of the voltages across all individual components:
@@ -10,8 +8,6 @@ In a **series circuit**, the total voltage from the power source is distributed 
   Where:
   - \(V_1, V_2, \dots, V_n\): Voltages across individual components.
   - \(V_{\text{total}}\): Voltage of the power source.
-
----
 
 ### **2. Relationship Between Voltage and Resistance**
 - According to **Ohm’s Law**:
@@ -33,15 +29,11 @@ In a **series circuit**, the total voltage from the power source is distributed 
   V_i = I_{\text{total}} \cdot R_i
   \]
 
----
-
 ### **3. Proportional Voltage Distribution**
 - The voltage across a component is proportional to its resistance:
   \[
   \frac{V_1}{R_1} = \frac{V_2}{R_2} = \dots = \frac{V_n}{R_n} = I_{\text{total}}
   \]
-
----
 
 ### **4. Total Resistance in a Series Circuit**
 - The total resistance (\(R_{\text{total}}\)) is the sum of all individual resistances:
@@ -58,8 +50,6 @@ In a **series circuit**, the total voltage from the power source is distributed 
   \[
   V_i = I_{\text{total}} \cdot R_i = \frac{V_{\text{total}} \cdot R_i}{R_{\text{total}}}
   \]
-
----
 
 ### **5. Example Calculation**
 **Circuit Setup**:
@@ -86,8 +76,6 @@ I_{\text{total}} = \frac{V_{\text{total}}}{R_{\text{total}}} = \frac{12}{12} = 1
 V_{\text{total}} = V_1 + V_2 + V_3 = 2 + 4 + 6 = 12 \, \text{V}
 \]
 
----
-
 ### **Points**
 1. **Voltage is Divided**:
    - The total voltage is shared among the components in proportion to their resistance.
@@ -96,11 +84,9 @@ V_{\text{total}} = V_1 + V_2 + V_3 = 2 + 4 + 6 = 12 \, \text{V}
 3. **Higher Resistance = Higher Voltage**:
    - Components with greater resistance have a larger share of the total voltage.
 
----
-
 ### **Applications**
 - Voltage dividers.
 - Series lighting circuits (e.g., older Christmas lights).
-- Sensors with resistive elements (e.g., potentiometers). 
+- Sensors with resistive elements (e.g., potentiometers).
 
 Understanding this distribution is useful for designing and analyzing circuits effectively.

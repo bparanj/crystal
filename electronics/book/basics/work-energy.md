@@ -1,6 +1,4 @@
-**Work** and **energy** are closely related concepts in physics, but they differ in definition, application, and scope. Here's a clear differentiation:
-
----
+**Work** and **energy** are closely related concepts in physics, but they differ in definition, application, and scope.
 
 ### **1. Definition**
 - **Work**:
@@ -19,18 +17,12 @@
   - Energy is the capacity of a system to perform work.
   - It is a property of a system and exists in various forms (e.g., kinetic, potential, thermal, electrical).
 
----
-
 ### **2. Difference**
 - **Work** is the process of transferring energy.
 - **Energy** is the ability to perform work or cause change.
 
----
-
 ### **3. Units**
 - Both work and energy are measured in **joules (J)** in the SI system, but their context of use differs.
-
----
 
 ### **4. Types**
 - **Work**:
@@ -43,8 +35,6 @@
   - Potential Energy: Energy due to position (\(PE = mgh\)).
   - Other forms: Thermal, electrical, chemical, nuclear, etc.
 
----
-
 ### **5. Context**
 - **Work**:
   - Describes the act of transferring energy (e.g., pushing a block, lifting a weight).
@@ -54,16 +44,12 @@
   - Describes the state of a system or object (e.g., a battery stores electrical energy, a moving car has kinetic energy).
   - It exists in a system regardless of whether work is being done.
 
----
-
 ### **6. Conservation**
 - **Work**:
   - Work done by or on a system can change its energy.
 
 - **Energy**:
   - Energy is conserved in a system (law of conservation of energy), though it can change forms (e.g., potential energy converting to kinetic energy).
-
----
 
 ### **Comparison**
 
@@ -75,8 +61,6 @@
 | **Context**       | A process or activity                  | A property of a system                   |
 | **Dependency**    | Requires force and displacement         | Exists inherently in a system            |
 
----
-
 ### **Example**
 - **Work**: Pushing a box with a force of \(10 \, N\) over \(2 \, m\):
   \[
@@ -86,8 +70,6 @@
   \[
   KE = \frac{1}{2}mv^2 = \frac{1}{2}(1,000)(10)^2 = 50,000 \, \text{J}
   \]
-
----
 
 ### Summary
 - Work involves energy transfer through motion.

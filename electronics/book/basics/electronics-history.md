@@ -1,4 +1,4 @@
-The history of electronics is a rich and fascinating journey that has transformed the way we live and interact with the world.
+The history of electronics is a rich and fascinating journey that has transformed the way we live in the world.
 
 ### Early Foundations
 - **1897**: The discovery of the electron by J.J. Thomson marked the beginning of modern electronics. This fundamental particle's behavior became the basis for understanding electrical conduction.
@@ -106,4 +106,4 @@ The history of electronics reflects the evolution of humanity’s understanding 
 - **Digital Era**: Led to the rise of computing and communication systems.
 - **Current Trends**: Focus on sustainability, connectivity, and intelligence.
 
-Electronics has evolved from simple circuits to complex systems that underpin virtually all modern technology, reflecting humanity's ability to harness and innovate with electricity.
+Electronics has evolved from simple circuits to complex systems that underpin virtually all modern technology, reflecting our ability to harness and innovate with electricity.

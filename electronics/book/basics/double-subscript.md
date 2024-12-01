@@ -1,7 +1,5 @@
 **Double subscript notation** is used in electrical engineering and circuit analysis to clearly identify the voltage between two specific points in a circuit. This notation avoids ambiguity and ensures that the reference points for voltage measurements are explicitly stated.
 
----
-
 ### **Purpose**
 1. **Clear Identification of Voltage**:
    - It specifies the voltage between two points in a circuit, indicating both the starting and ending points.
@@ -16,8 +14,6 @@
    - It removes confusion in circuits where there are multiple voltage sources or reference points.
    - Instead of saying "the voltage is 5V," double subscript notation clarifies which two points this voltage applies to.
 
----
-
 ### **How It Works**
 - **General Form**: \( V_{XY} \)
   - \( X \): Positive terminal (starting point of the measurement).
@@ -27,8 +23,6 @@
 - **Polarity**:
   - If \( V_{AB} > 0 \), point \( A \) is at a higher potential than point \( B \).
   - If \( V_{AB} < 0 \), point \( A \) is at a lower potential than point \( B \).
-
----
 
 ### **Examples**
 1. **Voltage Across a Resistor**:
@@ -41,8 +35,6 @@
 3. **Complex Circuits**:
    - In circuits with multiple branches, double subscript notation helps specify voltages clearly, such as \( V_{XY} \), \( V_{XZ} \), and \( V_{YZ} \).
 
----
-
 ### **Advantages**
 1. **Unambiguous Communication**:
    - Engineers and analysts can precisely discuss voltages without misunderstanding.
@@ -51,8 +43,6 @@
 3. **Supports Multimeter Measurements**:
    - Matches the method used when measuring voltage with a multimeter, where the leads correspond to the two points in the notation.
 
----
-
 ### **Applications**
 - **Circuit Analysis**:
   - Essential in solving for node voltages or branch currents.
@@ -60,8 +50,6 @@
   - Used to identify voltages across transmission lines or components.
 - **Measurement and Testing**:
   - Guides accurate voltage measurements using oscilloscopes or multimeters.
-
----
 
 ### **Example Circuit**
 1. **Circuit Description**:

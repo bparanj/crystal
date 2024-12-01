@@ -1,6 +1,4 @@
-To determine the **efficiency** of an electrical device, you need to compare the useful output power (or energy) to the input power (or energy). Efficiency is expressed as a percentage and quantifies how effectively the device converts input energy into useful output.
-
----
+To determine the **efficiency** of an electrical device, compare the useful output power (or energy) to the input power (or energy). Efficiency is expressed as a percentage and quantifies how effectively the device converts input energy into useful output.
 
 ### **Formula for Efficiency**
 \[
@@ -11,8 +9,6 @@ Where:
 - \(\eta\): Efficiency (in percentage, \(%\)).
 - **Useful Output Power**: The power delivered to the desired load or application.
 - **Input Power**: The total power supplied to the device.
-
----
 
 ### **Calculate Efficiency**
 1. **Measure Input Power (\(P_{\text{in}}\))**:
@@ -38,8 +34,6 @@ Where:
    \eta = \frac{P_{\text{out}}}{P_{\text{in}}} \times 100
    \]
 
----
-
 ### **Example**
 **Determine the efficiency of a motor:**
 - Input power: \(V_{\text{in}} = 240 \, \text{V}\), \(I_{\text{in}} = 10 \, \text{A}\)
@@ -52,8 +46,6 @@ Efficiency:
 \[
 \eta = \frac{P_{\text{out}}}{P_{\text{in}}} \times 100 = \frac{2,000}{2,400} \times 100 = 83.33\%.
 \]
-
----
 
 ### **Considerations**
 1. **Energy Efficiency**:
@@ -73,14 +65,10 @@ Efficiency:
      - Light bulbs: 5–15% (traditional incandescent) or 80–90% (LEDs)
      - Power supplies: 85–95%
 
----
-
 ### **Improving Efficiency**
 - Reduce losses (e.g., use better insulation, reduce friction).
 - Match the device to the load for optimal operation.
 - Use high-efficiency components (e.g., transformers, LEDs).
-
----
 
 ### **Summary**
 Efficiency measures how effectively a device converts input power to useful output power. It helps assess performance, identify energy losses, and optimize system design.

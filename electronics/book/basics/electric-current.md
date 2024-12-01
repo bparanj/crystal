@@ -83,4 +83,4 @@ Where:
 2. **Communication**: Modulated current carries signals in telecommunication.
 3. **Energy Conversion**: Drives motors, generates heat, or creates light in various devices.
 
-Understanding electric current is essential for analyzing and designing circuits, as it directly affects the performance and functionality of electronic systems.
+Understanding electric current is essential for analyzing and designing circuits, as it affects the performance and functionality of electronic systems.
