@@ -106,13 +106,15 @@ Upon completion of this module the student will be able to:
 
 Describe how voltages are distributed around a series circuit.
 Explain the purpose of double subscript notation.
-Define Kirchhoff's voltage law. CONTINUE HERE
+Define Kirchhoff's voltage law. 
 Express the voltage divider rule and determine where it can be applied.
 Determine the polarity of EMFS and voltage drops.
 Explain the meaning of positive ground and negative ground.
 Calculate power in a series circuit.
 Define internal resistance. Explain the purpose of fuses and switches.
 Troubleshoot open circuit and short circuit conditions in a series circuit.
+
+
 
 This module will provide the student with an introduction to voltage in parallel circuits and the application of Ohm's law to these circuit configurations. The module is designed to demonstrate the effect of current, voltage, and resistance in parallel circuits and describe how Kirchhoff's current law can be applied to problem solving and troubleshooting techniques.
 
@@ -137,7 +139,7 @@ Learning Outcomes:
 
 Upon completion of this module the student will be able to:
 
-Define a series parallel circuit.
+Define a series parallel circuit. CONTINUE HERE
 Determine the total resistance in a series parallel circuit.
 Apply Kirchhoff's current and voltage law to a series parallel circuit.
 Calculate voltage drops and power.
@@ -146,6 +148,36 @@ Explain the purpose of loaded voltage dividers.
 List some applications of series parallel circuits.
 Describe the effects of open and short circuits on series parallel resistor networks.
 Determine the total voltage of series parallel voltage sources.
+
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 
 This module includes the study of both analogue and digital dc measuring instruments including ammeters, voltmeters, and ohmmeters. Voltmeter loading and sensitivity are presented with an emphasis on practical applications and safe operation of these instruments. This module also covers multimeters, electronic meters, and an introduction to digital measuring instruments.
 
