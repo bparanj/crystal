@@ -1,3 +1,16 @@
+
+The **International System of Units (SI)**, also known as the metric system, is the most widely used system of measurement globally. It is based on seven fundamental units, which are:
+
+1. **Meter (m)** for length
+2. **Kilogram (kg)** for mass
+3. **Second (s)** for time
+4. **Ampere (A)** for electric current
+5. **Kelvin (K)** for thermodynamic temperature
+6. **Mole (mol)** for the amount of substance
+7. **Candela (cd)** for luminous intensity.
+
+These base units can be combined to form derived units for other quantities, such as newtons for force or joules for energy. The SI system also includes prefixes like kilo-, centi-, and milli- to represent multiples or fractions of these units, making it versatile for various applications in science, industry, and everyday life.
+
 The **International System of Units (SI)** is the globally accepted standard for measuring physical quantities. It provides a consistent framework for measurement, ensuring uniformity across scientific, engineering, and industrial applications.
 
 ### **Key Features of the SI System**

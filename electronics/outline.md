@@ -62,6 +62,17 @@ Learning Outcomes:
 
 Upon completion of this module the student will be able to:
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+
 Define electric current.
 Describe electron flow and conventional flow.
 Discuss electric potential and voltage.
