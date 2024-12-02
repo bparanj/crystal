@@ -2,9 +2,7 @@
 
 When voltage sources are connected in parallel, their output voltage remains the same as that of a single source (if they are identical). However, the total current capability increases because the sources share the load current.
 
----
-
-### Reasoning Behind the Effect
+### Reasoning
 
 1. **Same Voltage Requirement**:
    - In a parallel connection, the voltage across all parallel components must be the same because they share the same two nodes.
@@ -24,8 +22,6 @@ When voltage sources are connected in parallel, their output voltage remains the
 4. **Avoiding Mismatch**:
    - Connecting sources with slightly different voltages can cause circulating currents, which can lead to overheating or damage.
 
----
-
 ### Formula
 
 1. **Total Current**:
@@ -39,8 +35,6 @@ When voltage sources are connected in parallel, their output voltage remains the
    \[
    V_T = V_{\text{source}}
    \]
-
----
 
 ### Example
 

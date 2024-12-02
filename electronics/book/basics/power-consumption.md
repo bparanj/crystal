@@ -1,7 +1,5 @@
 **Power consumption in kilowatt-hours (kWh)** is calculated by multiplying the power used by a device in kilowatts (kW) by the time it operates in hours (h). This is a common unit used by utility companies to measure energy usage.
 
----
-
 ### **Formula for Power Consumption**
 \[
 \text{Energy Consumption} (kWh) = \text{Power} (kW) \times \text{Time} (h)
@@ -10,8 +8,6 @@
 Where:
 - **Power**: Power rating of the device in kilowatts (1 kilowatt = 1,000 watts).
 - **Time**: Duration the device is in use, in hours.
-
----
 
 ### **Steps to Calculate Power Consumption**
 1. **Convert Power to Kilowatts**:
@@ -24,8 +20,6 @@ Where:
    - Determine how many hours (\(h\)) the device operates.
    - Multiply power in \(kW\) by time in hours to get energy consumption in \(kWh\).
 
----
-
 ### **Example 1: A 100-Watt Light Bulb**
 - Power rating: \(100 \, W = \frac{100}{1,000} = 0.1 \, kW\).
 - Operating time: \(5 \, \text{hours}\).
@@ -33,8 +27,6 @@ Where:
 \[
 \text{Energy Consumption} = 0.1 \, \text{kW} \times 5 \, \text{h} = 0.5 \, \text{kWh}.
 \]
-
----
 
 ### **Example 2: A 2,000-Watt Air Conditioner**
 - Power rating: \(2,000 \, W = \frac{2,000}{1,000} = 2 \, kW\).
@@ -46,8 +38,6 @@ Where:
 \[
 \text{Energy Consumption for 30 Days} = 16 \, \text{kWh/day} \times 30 \, \text{days} = 480 \, \text{kWh}.
 \]
-
----
 
 ### **Applications**
 1. **Electricity Bills**:
@@ -67,9 +57,7 @@ Where:
 3. **Appliance Ratings**:
    - Energy-efficient devices are often rated in terms of their \(kWh\) consumption.
 
----
-
-### **Key Points**
+### **Points**
 - **Kilowatt-hour (kWh)** measures energy, not power.
 - Accurate calculations require knowing the device's power rating and usage duration.
 - Lowering usage time or choosing lower-power devices reduces energy consumption and costs.

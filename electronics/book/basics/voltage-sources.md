@@ -1,5 +1,3 @@
-Sure! Let's break down the main types of voltage sources in a simple way:
-
 ### Types of Voltage Sources:
 
 1. **Independent Voltage Sources**:
@@ -10,7 +8,7 @@ Sure! Let's break down the main types of voltage sources in a simple way:
    - **Voltage Controlled Voltage Source (VCVS)**: The output voltage depends on a voltage elsewhere in the circuit.
    - **Current Controlled Voltage Source (CCVS)**: The output voltage depends on a current elsewhere in the circuit.
 
-### Key Points:
+### Points:
 - **Independent Sources**: Provide a fixed or variable voltage that does not depend on other elements in the circuit.
 - **Dependent Sources**: Provide a voltage that depends on other circuit parameters (voltage or current).
 
@@ -28,7 +26,7 @@ For dependent sources, the voltage is expressed in terms of the controlling vari
   - \( I_{control} \) is the controlling current.
   - \( k \) is a proportionality constant.
 
-### Reasoning Behind the Formulas:
+### Reasoning
 - **VCVS**: The output voltage is directly proportional to the controlling voltage elsewhere in the circuit.
 - **CCVS**: The output voltage is directly proportional to the controlling current elsewhere in the circuit.
 

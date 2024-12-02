@@ -2,9 +2,7 @@
 
 Power in a parallel circuit refers to the rate at which electrical energy is consumed by the components. The total power is the sum of the power consumed by each branch.
 
----
-
-### Reasoning Behind the Formula
+### Reasoning
 
 1. **Independent Power Consumption**:
    - In a parallel circuit, each branch operates independently, with the same voltage across all branches. The power consumed by each branch depends on its resistance and the common voltage.
@@ -25,8 +23,6 @@ Power in a parallel circuit refers to the rate at which electrical energy is con
      P_T = P_1 + P_2 + \dots + P_n
      \]
 
----
-
 ### Formulas for Power in a Parallel Circuit
 
 1. **Power in Each Branch**:
@@ -45,8 +41,6 @@ Power in a parallel circuit refers to the rate at which electrical energy is con
    \[
    P_T = V \cdot I_T
    \]
-
----
 
 ### Example
 

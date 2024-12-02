@@ -1,6 +1,4 @@
-Resistors come in various types based on material, construction, and application. Here's a categorized list:
-
----
+Resistors come in various types based on material, construction, and application.
 
 ### **1. Fixed Resistors**
 These have a constant resistance value that cannot be adjusted.
@@ -38,8 +36,6 @@ These have a constant resistance value that cannot be adjusted.
    - Surface-mount resistors (SMT) for compact circuit designs.
    - Example: Modern PCBs.
 
----
-
 ### **2. Variable Resistors**
 These allow manual adjustment of resistance.
 
@@ -54,8 +50,6 @@ These allow manual adjustment of resistance.
 3. **Trimmers**:
    - Small, adjustable resistors used for calibration or fine-tuning.
    - Example: Tuning circuits in radios.
-
----
 
 ### **3. Special Purpose Resistors**
 Designed for specific applications or environmental conditions.
@@ -91,8 +85,6 @@ Designed for specific applications or environmental conditions.
    - Essentially a wire link packaged as a resistor for PCB routing.
    - Example: Circuit jumpers.
 
----
-
 ### **4. Integrated Resistors**
 Resistors integrated into larger devices or systems.
 
@@ -103,8 +95,6 @@ Resistors integrated into larger devices or systems.
 2. **Resistors in ICs**:
    - Built directly into integrated circuits.
    - Example: Microprocessors, amplifiers.
-
----
 
 ### **Comparison**
 
@@ -118,7 +108,5 @@ Resistors integrated into larger devices or systems.
 | LDR                      | Light sensitivity             | Automatic lighting           |
 | Varistors                | Voltage spike protection      | Surge protectors             |
 | Chip Resistors           | Surface mount, compact        | Modern PCBs                  |
-
----
 
 The choice of resistor depends on the application requirements, including resistance value, tolerance, power rating, and environmental conditions.

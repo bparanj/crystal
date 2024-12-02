@@ -1,5 +1,3 @@
-Sure! Let's break down voltage sources and current sources in a simple way:
-
 ### Voltage Source:
 - **Definition**: A voltage source is a device that provides a constant voltage across its terminals, regardless of the current flowing through it.
 - **Examples**: Batteries, power supplies, and generators.
@@ -16,11 +14,11 @@ For a voltage source, the voltage (\( V \)) is given directly. For example, a 9V
 ### Formula:
 For a current source, the current (\( I \)) is given directly. For example, a current source providing 2 amperes (A) will maintain that current through the circuit.
 
-### Key Differences:
+### Differences:
 - **Voltage Source**: Keeps voltage constant, adjusts current.
 - **Current Source**: Keeps current constant, adjusts voltage.
 
-### Reasoning Behind the Formulas:
+### Reasoning
 - **Voltage Source**: The voltage is specified and remains constant, so no additional formula is needed.
 - **Current Source**: The current is specified and remains constant, so no additional formula is needed.
 

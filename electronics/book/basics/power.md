@@ -1,7 +1,5 @@
 **Power** is the rate at which work is done or energy is transferred in a system. It quantifies how quickly energy is converted from one form to another or how fast work is performed.
 
----
-
 ### **Mathematical Definition**
 \[
 P = \frac{W}{t}
@@ -11,15 +9,11 @@ Where:
 - \(W\): Work done or energy transferred (in joules, \(J\)).
 - \(t\): Time taken (in seconds, \(s\)).
 
----
-
 ### **SI Unit**
 - The SI unit of power is the **watt (W)**:
   \[
   1 \, \text{Watt} = 1 \, \text{joule per second (J/s)}.
   \]
-
----
 
 ### **Alternative Expressions**
 1. **In terms of Force and Velocity**:
@@ -37,8 +31,6 @@ Where:
    - \(V\): Voltage (in volts, \(V\)).
    - \(I\): Current (in amperes, \(A\)).
 
----
-
 ### **Types of Power**
 1. **Mechanical Power**:
    - Associated with mechanical systems (e.g., engines, turbines).
@@ -51,8 +43,6 @@ Where:
 3. **Thermal Power**:
    - Associated with heat transfer (e.g., heaters, radiators).
 
----
-
 ### **Concepts**
 1. **Instantaneous Power**:
    - The power at a specific moment in time.
@@ -64,8 +54,6 @@ Where:
 2. **Average Power**:
    - The total work done divided by the total time taken.
 
----
-
 ### **Applications**
 1. **Electrical Devices**:
    - Measuring the power consumption of devices (e.g., light bulbs, motors).
@@ -73,8 +61,6 @@ Where:
    - Calculating engine or turbine output.
 3. **Energy Efficiency**:
    - Assessing energy transfer rates to optimize performance.
-
----
 
 ### **Examples**
 1. **Mechanical Power**:
@@ -92,7 +78,4 @@ Where:
      P = V \cdot I = 12 \cdot 2 = 24 \, \text{W}
      \]
 
----
-
-### **Summary**
 Power is a measure of how quickly energy is used, produced, or transferred in a system. It provides insight into the efficiency and performance of machines, devices, and processes.

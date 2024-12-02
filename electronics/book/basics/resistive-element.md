@@ -19,5 +19,3 @@ A resistive element, commonly known as a resistor, is a fundamental component in
 
 5. **Power Rating**:
    - Resistors dissipate electrical energy as heat. The power rating, measured in watts (W), indicates how much power a resistor can safely dissipate without being damaged.
-
-Resistors are ubiquitous in electronic circuits and play a crucial role in controlling and managing electrical energy.

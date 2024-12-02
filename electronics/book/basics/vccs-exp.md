@@ -1,9 +1,9 @@
-a simple experiment to demonstrate a **Voltage-Controlled Current Source (VCCS)** using basic analog components like a transistor.
+a experiment to demonstrate a **Voltage-Controlled Current Source (VCCS)** using basic analog components like a transistor.
 
 ### **Objective**
 To build and observe the behavior of a Voltage-Controlled Current Source (VCCS), where the output current is proportional to the input voltage.
 
-### **Components Needed**
+### **Components**
 1. **BJT Transistor** (e.g., 2N3904 or BC547, NPN type)
 2. **Resistors**:
    - \( R_1 = 10 \, \text{k}\Omega \) (base bias resistor)
@@ -13,7 +13,7 @@ To build and observe the behavior of a Voltage-Controlled Current Source (VCCS),
 5. **Multimeter** – to measure the output current (\( I_{\text{out}} \)).
 6. Breadboard and connecting wires.
 
-### **Circuit Design**
+### **Circuit**
 1. The transistor operates in the **active region**, where the base-emitter junction is forward-biased, and the collector-emitter junction is reverse-biased.
 2. The input voltage (\( V_{\text{in}} \)) applied to the base through \( R_1 \) controls the current flowing into the base.
 3. The output current (\( I_{\text{out}} \)) is measured through the collector terminal, and its value is determined by the input voltage.
@@ -71,7 +71,7 @@ To build and observe the behavior of a Voltage-Controlled Current Source (VCCS),
 4. Measure the output current (\( I_{\text{out}} \)) using a multimeter placed in series with the load resistor \( R_2 \).
 5. Record the relationship between \( V_{\text{in}} \) and \( I_{\text{out}} \).
 
-### **Expected Results**
+### **Results**
 - As \( V_{\text{in}} \) increases, the output current \( I_{\text{out}} \) will increase linearly within the active region of the transistor.
 - The relationship between \( I_{\text{out}} \) and \( V_{\text{in}} \) is governed by the proportionality factor \( \beta / R_1 \).
 
@@ -84,4 +84,4 @@ To build and observe the behavior of a Voltage-Controlled Current Source (VCCS),
 - Simple to implement with basic analog components.
 - Provides a hands-on understanding of controlled current sources.
 
-This experiment effectively demonstrates how a VCCS works using a transistor as the primary control element, linking the input voltage to the output current in a predictable manner.
+This experiment demonstrates how a VCCS works using a transistor as the primary control element, linking the input voltage to the output current in a predictable manner.

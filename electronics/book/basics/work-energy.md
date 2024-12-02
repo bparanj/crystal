@@ -71,6 +71,5 @@
   KE = \frac{1}{2}mv^2 = \frac{1}{2}(1,000)(10)^2 = 50,000 \, \text{J}
   \]
 
-### Summary
 - Work involves energy transfer through motion.
 - Energy is the capacity to perform work, existing in different forms within systems.

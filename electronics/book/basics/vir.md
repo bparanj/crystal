@@ -1,14 +1,12 @@
 ### Ohm's Law for Parallel Circuits
 
-Ohm's Law states the relationship between voltage (\(V\)), current (\(I\)), and resistance (\(R\)):  
+Ohm's Law states the relationship between voltage (\(V\)), current (\(I\)), and resistance (\(R\)):
 \[
 V = I \cdot R
 \]
 In a **parallel circuit**, the total current (\(I_T\)) is divided among the branches, but the voltage (\(V\)) across all branches is the same.
 
----
-
-### Reasoning Behind the Formula for Parallel Circuits
+### Reasoning
 
 1. **Same Voltage Across Branches**:
    - In a parallel circuit, all branches are connected to the same two points. This ensures the voltage is equal across every branch.
@@ -21,8 +19,6 @@ In a **parallel circuit**, the total current (\(I_T\)) is divided among the bran
 
 4. **Total Current**:
    - The total current (\(I_T\)) entering the parallel network is the sum of currents through all branches (\(I_1, I_2, \dots\)).
-
----
 
 ### Formulas for Parallel Circuits
 
@@ -48,8 +44,6 @@ In a **parallel circuit**, the total current (\(I_T\)) is divided among the bran
    \[
    I_T = V \cdot \left( \frac{1}{R_1} + \frac{1}{R_2} + \dots + \frac{1}{R_n} \right)
    \]
-
----
 
 ### Example
 

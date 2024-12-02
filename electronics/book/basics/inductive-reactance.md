@@ -1,4 +1,4 @@
-A simple experiment to demonstrate reactance in an inductor using Tinkercad involves creating an AC circuit with an inductor and observing how the inductor affects the current and voltage. Here's a step-by-step guide:
+A experiment to demonstrate reactance in an inductor using Tinkercad involves creating an AC circuit with an inductor and observing how the inductor affects the current and voltage.
 
 ### Components:
 
@@ -20,7 +20,7 @@ A simple experiment to demonstrate reactance in an inductor using Tinkercad invo
 
 ### Observations:
 
-- **Voltage and Current Phase Difference**: You will notice that the voltage across the inductor and the current through the circuit are not in phase. The voltage leads the current in an inductive circuit.
+- **Voltage and Current Phase Difference**: You will see that the voltage across the inductor and the current through the circuit are not in phase. The voltage leads the current in an inductive circuit.
 - **Reactance**: The inductive reactance (\(X_L\)) can be calculated using the formula \(X_L = 2\pi fL\), where \(f\) is the frequency of the AC source and \(L\) is the inductance. This reactance affects the amplitude of the current and voltage.
 
 ### Explanation:
@@ -33,7 +33,7 @@ A simple experiment to demonstrate reactance in an inductor using Tinkercad invo
 1. **Create the Circuit**: Use the Tinkercad interface to place the components on the virtual breadboard.
 2. **Simulate**: Run the simulation to observe the phase difference and the effect of reactance. Use the virtual multimeter to measure the voltage and current.
 
-This experiment helps visualize how inductors behave in AC circuits and demonstrates the concept of reactance effectively.
+This experiment shows how inductors behave in AC circuits and demonstrates the concept of reactance.
 
 ### **Inductive Reactance**
 

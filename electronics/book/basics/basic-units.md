@@ -103,5 +103,3 @@ In electronics, several basic units of measurement are used to quantify electric
  The work done or energy transferred in a circuit.
    - **Unit**: Joule (J)
    - **Formula**: \( E = P \cdot t \), where \( P \) is power in watts, \( t \) is time in seconds.
-
-These basic units of measurement are essential for describing and analyzing the behavior of electronic circuits. They serve as the foundation for all calculations and designs in electronics.

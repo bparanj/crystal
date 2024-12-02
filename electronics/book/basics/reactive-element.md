@@ -24,3 +24,7 @@ In electronics, a reactive element is a component that stores and releases energ
   Z = \sqrt{R^2 + X^2}
   $$
 - **Applications**: Reactive elements are crucial in various applications, including filtering, tuning circuits, and managing power in AC systems.
+
+PENDING
+
+Why is it called reactive? Does it react to something?

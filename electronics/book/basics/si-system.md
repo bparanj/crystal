@@ -13,7 +13,7 @@ These base units can be combined to form derived units for other quantities, suc
 
 The **International System of Units (SI)** is the globally accepted standard for measuring physical quantities. It provides a consistent framework for measurement, ensuring uniformity across scientific, engineering, and industrial applications.
 
-### **Key Features of the SI System**
+### **Features of the SI System**
 1. **Base Units**: The SI system is built on seven fundamental base units, each representing a basic physical quantity.
 2. **Derived Units**: Other quantities are expressed as combinations of base units (e.g., speed, force, energy).
 3. **Prefixes**: SI uses prefixes to represent multiples and submultiples of units (e.g., kilo-, milli-, micro-).
@@ -68,7 +68,7 @@ SI prefixes are used to express very large or very small quantities conveniently
   - \( \text{micro-} (\mu) = 10^{-6} \)
   - \( \text{nano-} (n) = 10^{-9} \)
 
-### **Benefits of the SI System**
+### **Benefits**
 1. **Standardization**: Ensures consistency in measurements worldwide.
 2. **Scalability**: Covers a vast range of values with its prefixes.
 3. **Simplicity**: Based on the decimal system, making calculations straightforward.

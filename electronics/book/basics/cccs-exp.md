@@ -1,6 +1,5 @@
-Here’s a simple experiment to demonstrate a **Current-Controlled Current Source (CCCS)** using analog components such as transistors.
+experiment to demonstrate a **Current-Controlled Current Source (CCCS)** using analog components such as transistors.
 
-### **Objective**
 To design and observe the behavior of a Current-Controlled Current Source (CCCS), where the output current depends linearly on the input current.
 
 ### **Components**
@@ -13,7 +12,7 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
 5. **Multimeter** – to measure the output current (\( I_{\text{out}} \)).
 6. Breadboard and connecting wires.
 
-### **Circuit Design**
+### **Circuit**
 1. Use one transistor to sense the input current (\( I_{\text{in}} \)) and generate a base current for the second transistor.
 2. The second transistor acts as the output stage, replicating the input current at its collector.
 
@@ -51,7 +50,7 @@ To design and observe the behavior of a Current-Controlled Current Source (CCCS)
 3. **Relationship Between \( I_{\text{in}} \) and \( I_{\text{out}} \)**:
    - \( I_{\text{out}} \approx \beta_2 \cdot I_{\text{in}} \), where \( \beta_2 \) is the current gain of \( Q_2 \).
 
-### **Steps to Perform the Experiment**
+### **Steps**
 1. **Assemble the Circuit**:
    - Build the circuit on a breadboard using the diagram.
    - Ensure the transistors are oriented correctly.

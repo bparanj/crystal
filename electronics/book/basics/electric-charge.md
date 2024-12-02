@@ -1,14 +1,24 @@
 Electric charge is a fundamental property of matter that causes it to experience a force when placed in an electromagnetic field. Here are the key principles:
 
-1. **Types of Charge**: There are two types of electric charge: positive and negative. Protons carry a positive charge, while electrons carry a negative charge. Neutrons, on the other hand, have no charge and are neutral.
+1. **Types of Charge**:
 
-2. **Interaction of Charges**: Like charges repel each other, while opposite charges attract each other. This means that two positively charged objects will push away from each other, as will two negatively charged objects. However, a positively charged object and a negatively charged object will pull towards each other.
+There are two types of electric charge: positive and negative. Protons carry a positive charge, while electrons carry a negative charge. Neutrons, on the other hand, have no charge and are neutral.
 
-3. **Conservation of Charge**: The total electric charge in an isolated system remains constant. This principle, known as the conservation of charge, means that charge can neither be created nor destroyed, only transferred from one object to another.
+2. **Interaction of Charges**:
 
-4. **Quantization of Charge**: Electric charge is quantized, meaning it comes in discrete amounts. The smallest unit of charge is the charge of an electron or proton, approximately \(1.602 \times 10^{-19}\) coulombs. All observable charges are integer multiples of this elementary charge.
+Like charges repel each other, while opposite charges attract each other. This means that two positively charged objects will push away from each other, as will two negatively charged objects. However, a positively charged object and a negatively charged object will pull towards each other.
 
-5. **Coulomb's Law**: The force between two charged objects is described by Coulomb's Law, which states that the force is directly proportional to the product of the charges and inversely proportional to the square of the distance between them. Mathematically, it is expressed as:
+3. **Conservation of Charge**:
+
+The total electric charge in an isolated system remains constant. This principle, known as the conservation of charge, means that charge can neither be created nor destroyed, only transferred from one object to another.
+
+4. **Quantization of Charge**:
+
+Electric charge is quantized, meaning it comes in discrete amounts. The smallest unit of charge is the charge of an electron or proton, approximately \(1.602 \times 10^{-19}\) coulombs. All observable charges are integer multiples of this elementary charge.
+
+5. **Coulomb's Law**:
+
+The force between two charged objects is described by Coulomb's Law, which states that the force is directly proportional to the product of the charges and inversely proportional to the square of the distance between them. Mathematically, it is expressed as:
    $$
    F = k_e \frac{q_1 q_2}{r^2}
    $$
@@ -22,12 +32,14 @@ The **principle of electric charge** forms the foundation of electromagnetism an
 - Electric charge is a fundamental property of particles that determines their electromagnetic interactions.
 - It is measured in **coulombs (C)**.
 - Charges come in two types:
+
   1. **Positive charge**: Found in protons.
   2. **Negative charge**: Found in electrons.
 
 ### **Basic Principles**
 
 1. **Opposite Charges Attract, Like Charges Repel**:
+
    - **Attraction**: Positive and negative charges pull toward each other.
    - **Repulsion**: Positive-positive or negative-negative charges push away from each other.
    - This is described by **Coulomb's law**, which quantifies the force between charges:
@@ -40,10 +52,12 @@ The **principle of electric charge** forms the foundation of electromagnetism an
      - \(k\): Coulomb's constant (\(8.99 \times 10^9 \, \text{Nm}^2/\text{C}^2\)).
 
 2. **Conservation of Charge**:
+
    - Electric charge cannot be created or destroyed, only transferred from one object to another.
    - Total charge in an isolated system remains constant.
 
 3. **Quantization of Charge**:
+
    - Electric charge exists in discrete packets, always as integer multiples of the elementary charge (\(e\)):
      \[
      q = n \cdot e
@@ -52,12 +66,15 @@ The **principle of electric charge** forms the foundation of electromagnetism an
      - \(n\): Integer representing the number of charges.
 
 4. **Charge Transfer**:
+
    - Charges can be transferred between objects through:
+
      - **Friction**: Rubbing two materials transfers electrons.
      - **Conduction**: Direct contact transfers charge between conductors.
      - **Induction**: A nearby charged object induces charge separation without direct contact.
 
 5. **Electric Field**:
+
    - Charges produce an electric field around them, influencing other charges in the vicinity.
    - The electric field (\(E\)) at a point is defined as the force (\(F\)) per unit charge (\(q\)):
      \[

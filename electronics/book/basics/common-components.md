@@ -170,5 +170,3 @@ Here are examples of common electronic components categorized by their function:
    - Pin headers
    - USB connectors
    - Screw terminals
-
-These components are fundamental building blocks of electronic circuits, used in a wide variety of applications.

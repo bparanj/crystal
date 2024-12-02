@@ -1,6 +1,5 @@
 To demonstrate the behavior of a **Current-Controlled Voltage Source (CCVS)** using analog components, we can design a simple circuit based on a **transistor** and resistors.
 
-### **Objective**
 Build and observe a circuit where the output voltage depends linearly on an input current, demonstrating the functionality of a Current-Controlled Voltage Source (CCVS).
 
 ### **Components**
@@ -13,7 +12,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
 5. **Multimeter** – to measure the output voltage (\( V_{\text{out}} \)).
 6. Breadboard and connecting wires.
 
-### **Circuit Design**
+### **Circuit**
 1. **Current Control**:
    - The base current (\( I_B \)) of the transistor is set by the input current (\( I_{\text{in}} \)).
    - The input current is fed into the base of the transistor through \( R_1 \).
@@ -39,7 +38,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
             GND
 ```
 
-### **Working Principle**
+### **Principle**
 1. **Current Control**:
    - The input current (\( I_{\text{in}} \)) is applied to the base of the transistor via \( R_1 \).
    - The base-emitter voltage (\( V_{\text{BE}} \)) ensures the transistor operates in the active region.
@@ -61,7 +60,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
      V_{\text{out}} = \beta \cdot I_{\text{in}} \cdot R_2
      \]
 
-### **Steps to Perform the Experiment**
+### **Steps**
 1. **Assemble the Circuit**:
    - Connect the components on a breadboard as per the circuit diagram.
    - Ensure the transistor’s base is connected to \( I_{\text{in}} \) via \( R_1 \).

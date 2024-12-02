@@ -11,7 +11,7 @@ Where:
 
 ---
 
-### **Key Characteristics of the Linear Relationship**
+### **Characteristics of the Linear Relationship**
 
 1. **Direct Proportionality**:
    - Current (\(I\)) is directly proportional to voltage (\(V\)) when resistance (\(R\)) is constant.
@@ -26,8 +26,6 @@ Where:
    - The material must behave as an **ohmic conductor**, meaning it follows Ohm’s Law.
    - Examples: Metals like copper and aluminum, under normal operating conditions.
 
----
-
 ### **Graphical Representation**
 
 - **Ohmic Conductors**:
@@ -37,24 +35,18 @@ Where:
 - **Non-Ohmic Conductors**:
   - Materials like diodes or transistors do not show a linear relationship. Their \(I\)-\(V\) curves are non-linear.
 
----
-
 ### **Real-World Example**
 - Consider a resistor of \(10 \, \Omega\):
   - When \(V = 10 \, \text{V}\), \(I = 10/10 = 1 \, \text{A}\).
   - When \(V = 20 \, \text{V}\), \(I = 20/10 = 2 \, \text{A}\).
   - Doubling the voltage doubles the current, illustrating the linearity.
 
----
-
-### **Applications of the Linear Relationship**
+### **Applications**
 1. **Circuit Analysis**:
    - Simplifies calculations of current and voltage in resistive circuits.
 2. **Design**:
    - Helps in selecting appropriate resistors for voltage and current regulation.
 3. **Testing Materials**:
    - Used to identify whether a material is ohmic (linear) or non-ohmic (non-linear).
-
----
 
 The linear relationship between current and voltage is used in analysis and design of resistive circuits.

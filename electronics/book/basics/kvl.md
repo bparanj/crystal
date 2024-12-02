@@ -1,8 +1,8 @@
-### Kirchhoff's Voltage Law (KVL) Explained
+### Kirchhoff's Voltage Law (KVL)
 
 Kirchhoff's Voltage Law states that the total voltage around any closed loop in a circuit is equal to zero. This is based on the principle of energy conservation: the energy gained from voltage sources is completely used up by the components (like resistors) in the loop.
 
-### Reasoning Behind KVL
+### Reasoning
 - **Energy Conservation**: In a closed loop, all the energy supplied by the voltage sources is consumed by the circuit elements (resistors, capacitors, etc.). No energy is "lost."
 - **Polarity and Sign**: When traversing the loop, you add the voltage:
   - **Positive** when moving from the negative to the positive terminal of a voltage source.
@@ -42,16 +42,12 @@ The principle of conservation of energy dictates that energy cannot be created o
 
 Thus, the energy supplied by the voltage source must equal the energy consumed by the components.
 
----
-
 ### 2. **Voltage Represents Energy Per Charge**
 Voltage measures the energy available per unit charge. As charges move through a circuit:
 - A **voltage source** gives energy to the charges.
 - Components **take energy** from the charges, creating voltage drops.
 
 In a closed loop, every bit of energy given to the charges by the voltage source is removed by the components, ensuring a net energy balance of zero.
-
----
 
 ### 3. **What Happens to the Energy?**
 - **Resistors**: Convert electrical energy into heat due to resistance (Joule heating).
@@ -61,14 +57,10 @@ In a closed loop, every bit of energy given to the charges by the voltage source
 
 Each of these processes "uses up" the energy provided by the source.
 
----
-
 ### Why None is Left Unused
 If any energy remained unused, the circuit would gain energy perpetually, violating the conservation law. Similarly, if less energy were consumed than supplied, charges would accumulate, creating imbalances that stabilize by consuming all supplied energy. This is why in any closed loop, the sum of all voltages (energy contributions and drops) is always zero.
 
 We create an equation that sums to zero in Kirchhoff's Voltage Law (KVL) because it is a mathematical way to enforce the **law of energy conservation** in a circuit. Here’s why this approach is necessary and logical:
-
----
 
 ### 1. **Representing Energy Balance**
 In a closed loop, the total energy supplied by voltage sources is exactly consumed by the components. This balance ensures that:
@@ -81,16 +73,12 @@ When expressed in terms of voltages (energy per charge), this balance becomes:
 \]
 The equation captures the fact that there is no "extra" energy in the loop.
 
----
-
 ### 2. **Tracking Voltage Contributions**
 Voltage sources **add energy** to the charges, while circuit components like resistors, capacitors, and others **remove energy** (as voltage drops). By assigning proper signs to voltage rises and drops, we ensure all contributions are accounted for:
 - Positive for energy gain (voltage source).
 - Negative for energy loss (voltage drop across components).
 
 The summation ensures every voltage is considered, maintaining the energy flow's integrity.
-
----
 
 ### 3. **Simplifying Problem-Solving**
 The equation:
@@ -101,14 +89,10 @@ provides a structured, logical way to analyze circuits. By setting up equations 
 - We can solve for unknown voltages, currents, or resistances.
 - It simplifies analysis of complex circuits by breaking them into manageable loops.
 
----
-
 ### 4. **Why 0 Specifically?**
 The total voltage across a closed loop is zero because the circuit is **cyclic**:
 - A charge leaving a point and traveling through the loop returns to the same point with no net energy change.
 - If the sum weren't zero, charges would either gain or lose energy indefinitely, violating conservation laws.
-
----
 
 ### Example
 Imagine a loop with:
@@ -121,3 +105,7 @@ Adding their contributions gives:
 10 - 6 - 4 = 0
 \]
 The zero ensures the loop is balanced, showing energy consistency. Without this, we couldn’t reliably solve or understand circuit behavior.
+
+PENDING
+
+Why 0, when the current is going back to the negative terminal?

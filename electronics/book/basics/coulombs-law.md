@@ -1,11 +1,7 @@
-Sure! Let's break down Coulomb's Law in a simple way:
-
 **Coulomb's Law** tells us how strong the force is between two charged objects. Imagine you have two tiny balls, each with some electric charge. The force between them depends on two things:
 
 1. **The amount of charge** on each ball.
 2. **The distance** between the two balls.
-
-Here's a simple way to think about it:
 
 - If the charges are bigger, the force is stronger.
 - If the balls are closer together, the force is stronger.
@@ -21,11 +17,10 @@ where:
 - \( q_1 \) and \( q_2 \) are the amounts of charge on the two objects.
 - \( r \) is the distance between the charges.
 
-In simple terms, just remember:
 - **More charge = more force.**
 - **Less distance = more force.**
 
-This law helps us understand how charged objects interact, which is super important in electronics for things like capacitors and electric fields. 
+This law helps us understand how charged objects interact, which is super important in electronics for things like capacitors and electric fields.
 
 **Coulomb's Law** mathematically describes the force between two electric charges. It states that:
 
