@@ -3,6 +3,16 @@
 1. Fundamental Electrical and Electronic Principles by Christopher R Robertson
 2. Teach Yourself Electricity and Electronics by Stan Gibilisco
 
+Explain how the units of measurement for electricity were developed and used.
+Signal Matching
+Voltage Reference
+Voltage Divider
+
+https://www.youtube.com/watch?v=fmSC0NoaG_I
+https://everycircuit.com/app
+
+wget 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64' -O /tmp/code_latest_amd64.deb
+sudo dpkg -i /tmp/code_latest_amd64.deb
 
 I don't understand this statement:
 Energy is power dissipated over a length of time.
