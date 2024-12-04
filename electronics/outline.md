@@ -62,17 +62,6 @@ Learning Outcomes:
 
 Upon completion of this module the student will be able to:
 
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-
 Define electric current.
 Describe electron flow and conventional flow.
 Discuss electric potential and voltage.
@@ -114,8 +103,6 @@ Calculate power in a series circuit.
 Define internal resistance. Explain the purpose of fuses and switches.
 Troubleshoot open circuit and short circuit conditions in a series circuit.
 
-
-
 This module will provide the student with an introduction to voltage in parallel circuits and the application of Ohm's law to these circuit configurations. The module is designed to demonstrate the effect of current, voltage, and resistance in parallel circuits and describe how Kirchhoff's current law can be applied to problem solving and troubleshooting techniques.
 
 Learning Outcomes:
@@ -139,7 +126,9 @@ Learning Outcomes:
 
 Upon completion of this module the student will be able to:
 
-Define a series parallel circuit. CONTINUE HERE
+CONTINUE HERE
+
+Define a series parallel circuit. 
 Determine the total resistance in a series parallel circuit.
 Apply Kirchhoff's current and voltage law to a series parallel circuit.
 Calculate voltage drops and power.
@@ -149,34 +138,21 @@ List some applications of series parallel circuits.
 Describe the effects of open and short circuits on series parallel resistor networks.
 Determine the total voltage of series parallel voltage sources.
 
+As an expert in electronics explain series parallel circuit  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+As an expert in electronics explain total resistance in a series parallel circuit in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+As an expert in electronics explain Kirchhoff's current and voltage law to a series parallel circuit in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+As an expert in electronics explain voltage drops and power in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+As an expert in electronics explain how to recognize the various configurations of series parallel networks. in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+As an expert in electronics explain the purpose of loaded voltage dividers in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+As an expert in electronics explain the effects of open and short circuits on series parallel resistor networks in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
-As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+As an expert in electronics explain the total voltage of series parallel voltage sources in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 
 This module includes the study of both analogue and digital dc measuring instruments including ammeters, voltmeters, and ohmmeters. Voltmeter loading and sensitivity are presented with an emphasis on practical applications and safe operation of these instruments. This module also covers multimeters, electronic meters, and an introduction to digital measuring instruments.
@@ -194,6 +170,22 @@ Describe the operating characteristics of the dc wattmeter.
 Describe the operation of the ohmmeter.
 Discuss the basic principles of electronic and digital multimeters.
 
+As an expert in electronics explain the necessity of a shunt resistor in a dc ammeter circuit in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain the effects of ammeter and voltmeter loading in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain the basic operation of a multi range ammeter in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain the purpose of a multiplier resistor in a dc voltmeter in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain voltmeter sensitivity in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain the operating characteristics of the dc wattmeter in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain operation of the ohmmeter in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain the basic principles of electronic and digital multimeters in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 Network Theorems provides an overview of fundamental circuit analysis techniques. The student will learn the methods used to solve problems using loop analysis, Nodal analysis, Thvenin's theorem, Norton's theorem, and the Superposition theorem. The maximum power transfer theorem is emphasized by demonstrating both theoretical and practical considerations of power expended versus power consumed. This module also covers Millman's theorem and the conversion voltage and current sources.
 
 Learning Outcomes:
@@ -208,6 +200,23 @@ Convert voltage sources to current sources, and vice versa.
 Use Millman's theorem to reduce multiple voltage sources in parallel to a single equivalent voltage source.
 Apply superposition to a circuit with more than one voltage or current source.
 Define the maximum power transfer theorem.
+
+As an expert in electronics explain loop analysis to DC circuits in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 
 This module provides an introduction to magnetism including the nature of magnetism, magnetic fields, and magnetic materials. Electromagnets and permanent magnets are also presented using a combination of video and animation allowing the student to gain a better understanding of magnetic field theory. The Hall effect sensor is also introduced in this module.
 
@@ -228,6 +237,30 @@ Explain how magnetic fields are used to store audio and video signals.
 Name two types of permanent magnets.
 Describe the Hall Effect.
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 This module will focus on the magnetic circuit and the magnetic properties of materials. The student will learn the principles of magnetic force, reluctance, permeance, and permeability. Ampere's circuit law is also discussed as well as design considerations for air gaps in magnetic circuits. This module also introduces the student to the effects of magnetic hysteresis and residual magnetism on a magnetic circuit.
 
 Learning Outcomes:
@@ -243,6 +276,24 @@ Describe the magnetic properties of common materials.
 Define magnetic hysteresis and residual magnetism.
 Express Ampere's circuit law.
 Describe the effect of air gaps in a magnetic circuit.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 This module introduces the student to the fundamentals of alternating voltages and currents. In addition to sine waves, the module also covers non sinusoidal waveforms and harmonic frequencies. The principles of frequency, period, and wavelength are presented emphasizing practical applications and troubleshooting techniques. Theoretical areas of study include instantaneous, RMS and average values of sine waves.
 
@@ -260,6 +311,24 @@ Differentiate between a sinusoidal wave and a non sinusoidal wave.
 Name three types of non sinusoidal waves.
 Define harmonics.
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 This module includes the study of both analogue and digital AC measuring instruments including ammeters, voltmeters and ohmmeters. Oscilloscopes, signal generators, and frequency counters are presented with an emphasis on practical applications and safe operation of these instruments. This module is designed to reinforce troubleshooting techniques using AC meters.
 
 Learning Outcomes:
@@ -272,6 +341,18 @@ Determine voltage and frequency values from oscilloscope displays.
 List two applications of signal generators.
 Define a function generator.
 Define harmonics.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 This module covers the principles of capacitance including relative permittivity, dielectric strength and leakage current. The types of capacitors covered in this module include electrolytic, ceramic, mylar and tantalum. Series and parallel configurations of capacitor circuits are included in the module as well as an introduction to bypass and coupling capacitors.
 
@@ -293,6 +374,33 @@ Discuss the relationship between capacitors connected in series and in parallel.
 Define coupling capacitors and bypass capacitors.
 Troubleshoot capacitors.
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+
 This module introduces the student to electromagnetic induction, Faraday's law and Lenz's law. Various types of inductors are described and the student will learn to calculate the values of transients in RL circuits. This module also covers inductors in series and parallel, and the effect on current, voltage and inductive reactance in these circuits.
 
 Learning Outcomes:
@@ -309,6 +417,24 @@ Explain inductive time constants and transients in RL circuits.
 Discuss energy stored in a magnetic field.
 Troubleshoot inductors.
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 This module is designed to present an overview of transformers and their applications in electronic circuits. Module work will be primarily based on transformer principles, design considerations and reinforcement of key concepts such as reflected load and maximum power transfer. Transformer types such as pulse, center tap, multiple winding and auto transformers are also discussed.
 
 Learning Outcomes:
@@ -324,6 +450,22 @@ Express the significance of transformer polarity.
 Differentiate between isolation transformers and auto transformers.
 Troubleshoot transformers.
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 This module includes resistance in ac circuits, inductive reactance and capacitive reactance as well as coverage of impedance and the impedance triangle. In addition the module is designed to provide the student with an overview of series and parallel RL, RC and RLC circuits. The module also introduces the student to power in ac circuits and effective resistance.
 
 Learning Outcomes:
@@ -337,6 +479,20 @@ Define impedance.
 Utilize the voltage divider rule in AC calculations.
 Explain admittance and susceptance in AC circuits.
 Discuss power in AC circuits.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 This module will build on previous topics by presenting an introduction to resonance in series and parallel circuits. The module also covers bandwidth, tuning circuits, and the decibel. The Q of a series circuit is also presented using practical and theoretical examples of problem solving for resonance.
 
@@ -352,6 +508,22 @@ Name the three resonant conditions of a parallel RLC circuit.
 Understand the purpose of damping resistors.
 List the three basic functions performed by a tuning circuit.
 Explain why the decibel is used when discussing cutoff frequencies in resonant circuits.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 It is in this module that the student learns the principles of direct coupling, transformer coupling, and capacitive coupling. Filter circuit such as low pass, high pass, band pass and band stop filters are presented emphasizing practical design and troubleshooting considerations. An introduction to Bode plots and active filters is also covered in this module. Bode plot assignments are completed using laboratory software.
 
@@ -370,6 +542,26 @@ Understand how low pass filters can be used to smooth the output of a pulsating 
 Draw a basic Bode plot.
 List four characteristics of an ideal op amp.
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 This module introduces the student to the PN junction and i application in modern electronic circuits. Semiconductor diodes and configurations such as half wave and full wave rectifiers are presented using both theoretical and practical examples which are reinforced by laboratory experiments. Other diodes such as Zener, Varactor, and Light Emitting Diodes (LEDs) are also introduced in this module.
 
 Learning Outcomes:
@@ -385,6 +577,24 @@ Troubleshoot diodes and rectifier circuits.
 Discuss the basic operation of half wave and full-wave rectifiers.
 Describe the operating characteristics of zener diodes.
 Name two types of optoelectronic devices and describe their operation.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 Bipolar Junction Transistors (BJTs) are covered in this module and their application in amplifier and switching circuits is also presented. This module also introduces Field Effects Transistors (FETs), and thyristors such as Silicon Controlled Rectifiers (SCRs) and Triacs. In addition the module also includes transistor troubleshooting problems and assignments as well as laboratory experiments for transistor circuits.
 
@@ -404,6 +614,28 @@ Exam FETs and thyristors.
 Explain how SCRs and triacs are used for phase angle control.
 Describe the basic principles of a relaxation oscillator.
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 This module covers common base, common collector and common-emitter amplifiers. In addition, the student is introduced to the effect of AC signals on amplifiers, FET amplifiers and multistage amplifiers. The student will also learn the differences between Class A, B, and C amplifiers and their applications in industry. Emphasis is placed on design, problem solving, and troubleshooting of amplifier circuits.
 
 Learning Outcomes:
@@ -419,6 +651,24 @@ Discuss the advantages and disadvantages of direct coupling, capacitor coupling 
 Differentiate between class A, B and C amplifiers.
 Define crossover distortion.
 Troubleshoot amplifier circuits.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 This module will provide the student with an overview of operational amplifiers and their characteristics. The student will learn basic op amp configurations such as inverting and non inverting amplifiers, as well as summing amplifiers and comparators. An introduction to analogue to digital converters is also presented in this module. Integrators, differentiators, oscillators and active filters are included emphasizing real world control applications.
 
@@ -436,6 +686,26 @@ Describe the basic operation of a comparator.
 List two types of op amp voltage regulators.
 Determine resonant frequency of an oscillator.
 Name three types of multi vibrators.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 This module covers a wide variety of topics relating to digital electronics including number systems, logic gates, flip flops and counters. Boolean algebra and DeMorgan's theorem is also introduced as well as troubleshooting and problem solving techniques for digital logic circuits. The logic gates presented in the module include AND, OR, NOR, NAND and inverters.
 
@@ -457,6 +727,32 @@ Understand logic gate combinations.
 Name eight Boolean theorems.
 Apply basic troubleshooting techniques to digital circuits.
 
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
 This module provides an overview of the basic theory and operation of microprocessors and their logical and programming characteristics. It will introduce the concepts of instruction sets, machine language programming, input/output, interrupts and interfacing techniques. Hardware and software aspects of popular 8-bit and 32-bit microprocessors are studied in detail. Specific topics include microprocessor architecture (registers, memory maps, status, program counter, and stack), logic operations, assembly language programming, embedded-systems design and an introduction to control algorithms. In addition, the module also covers microcontrollers and an introduction to PC architecture.
 
 Learning Outcomes:
@@ -472,3 +768,21 @@ Name two types of programming languages used by MPUs
 List the major features of microcontrollers
 Explain the purpose of a memory management unit
 Differentiate between multitasking and multiprocessing
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
+
+As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
