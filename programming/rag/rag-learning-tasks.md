@@ -15,18 +15,28 @@ Install:
 - beautifulsoup4 4.12.3
 - requests 2.31.0
 
-[Code](https://github.com/Denis2054/RAG-Driven-Generative-AI)
+- [RAG Driven Code](https://github.com/Denis2054/RAG-Driven-Generative-AI)
+- [Unlocking Data Code](https://github.com/PacktPublishing/)
 
 ## Setup Environment
 
 ### Install 
 
+#### RAG Driven
+
 - Python virtual environment
-- Python
+- Python 3.10
 - Install 
 - Pip
 - openai 
 	!pip install openai==1.40.3 
+
+#### Unlocking Data
+
+- Python 3.10
+- LangChain
+- OpenAP API
+- Jupyter notebooks
 
 ### General
 
@@ -36,6 +46,7 @@ Install:
 
 ## Questions
 
-- How to free the version of package installed using pip
+## Experiment
 
-
+- [Private GPT](https://docs.privategpt.dev/installation/getting-started/main-concepts)
+- [ML Apps](https://www.gradio.app/)

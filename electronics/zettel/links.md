@@ -29,9 +29,8 @@ Jobs:
 - [Analyst](https://www.governmentjobs.com/careers/fulton/jobs/4584752/information-systems-analyst-iii)
 - [CTO](https://www.governmentjobs.com/jobs/81609-0/chief-information-office)
 
-https://www.governmentjobs.com/careers/gwinnett/jobs/3896574/assistant-director-of-information-technology-and-strategy
-
-https://power-mi.com/content/industrial-machinery-vibration
+https://www.amazon.com/Anbear-Bi-Directional-Female-Adapter-Conveter/dp/B07TBLWFQX/
+apple cinema display 30 2012
 
 https://www.youtube.com/watch?v=v_z2qb2VenI
 https://www.youtube.com/results?search_query=inductors+or+capacitors+impedance+experiment
