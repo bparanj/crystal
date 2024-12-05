@@ -43,6 +43,7 @@ This design uses a **bipolar junction transistor (BJT)** to demonstrate the beha
 ```
 
 ### **Principle**
+
 1. **Voltage-Controlled Voltage Behavior**:
    - \( V_{\text{in}} \): The input voltage applied to the transistor's base through \( R_1 \).
    - \( V_{\text{out}} \): The output voltage is taken from the collector terminal.

@@ -118,6 +118,7 @@ Where:
 ### **5. Applications**
 
 - **Independent Sources**:
+
   - Used to provide power to circuits.
   - Examples: Batteries, generators, AC power supplies.
 
@@ -131,10 +132,12 @@ Where:
 ### **6. Mathematical Representation**
 
 - **Independent Source**:
+
   - Voltage Source: \( V = \text{constant} \)
   - Current Source: \( I = \text{constant} \)
 
 - **Dependent Source**:
+
   - Voltage or Current is expressed as:
     \[
     V_x = k \cdot V_c \quad \text{or} \quad I_x = k \cdot I_c

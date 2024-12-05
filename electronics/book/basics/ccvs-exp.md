@@ -3,6 +3,7 @@ To demonstrate the behavior of a **Current-Controlled Voltage Source (CCVS)** us
 Build and observe a circuit where the output voltage depends linearly on an input current, demonstrating the functionality of a Current-Controlled Voltage Source (CCVS).
 
 ### **Components**
+
 1. **BJT Transistor** (e.g., 2N3904 or BC547, NPN type).
 2. **Resistors**:
    - \( R_1 = 10 \, \text{k}\Omega \) (base resistor for current control).
@@ -13,6 +14,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
 6. Breadboard and connecting wires.
 
 ### **Circuit**
+
 1. **Current Control**:
    - The base current (\( I_B \)) of the transistor is set by the input current (\( I_{\text{in}} \)).
    - The input current is fed into the base of the transistor through \( R_1 \).
@@ -20,6 +22,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
    - The output voltage is taken from the collector of the transistor and is proportional to the collector current (\( I_C \)).
 
 ### **Circuit Diagram**
+
 ```
           V_CC (+12V)
              |
@@ -39,11 +42,14 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
 ```
 
 ### **Principle**
+
 1. **Current Control**:
+
    - The input current (\( I_{\text{in}} \)) is applied to the base of the transistor via \( R_1 \).
    - The base-emitter voltage (\( V_{\text{BE}} \)) ensures the transistor operates in the active region.
 
 2. **Voltage Generation**:
+
    - The transistor amplifies the base current (\( I_B \)) to produce a collector current (\( I_C \)).
    - The voltage drop across the collector resistor (\( R_2 \)) is proportional to \( I_C \):
      \[
@@ -51,6 +57,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
      \]
 
 3. **Relationship Between \( V_{\text{out}} \) and \( I_{\text{in}} \)**:
+
    - Using the transistor's current gain (\( \beta \)):
      \[
      I_C = \beta \cdot I_B
@@ -61,6 +68,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
      \]
 
 ### **Steps**
+
 1. **Assemble the Circuit**:
    - Connect the components on a breadboard as per the circuit diagram.
    - Ensure the transistor’s base is connected to \( I_{\text{in}} \) via \( R_1 \).
@@ -76,6 +84,7 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
    - Record the corresponding \( V_{\text{out}} \) values.
 
 ### **Results**
+
 - The output voltage (\( V_{\text{out}} \)) will increase linearly with the input current (\( I_{\text{in}} \)).
 - For example, if \( \beta = 100 \), \( R_2 = 1 \, \text{k}\Omega \):
   \[
@@ -85,11 +94,13 @@ Build and observe a circuit where the output voltage depends linearly on an inpu
   - When \( I_{\text{in}} = 0.2 \, \text{mA} \), \( V_{\text{out}} = 20 \, \text{V} \), and so on.
 
 ### **Applications**
+
 1. Demonstrates the principle of a Current-Controlled Voltage Source.
 2. Useful for understanding transistor operation and current-to-voltage conversion.
 3. Foundational for analog circuits like current amplifiers and feedback systems.
 
 ### **Advantages**
+
 - Uses simple, readily available analog components.
 - Provides hands-on experience with current-controlled sources.
 

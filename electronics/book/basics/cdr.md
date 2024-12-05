@@ -5,14 +5,17 @@ The **Current Divider Rule** explains how current splits between parallel branch
 ### Reasoning
 
 1. **Parallel Paths**:
+
    - In a parallel circuit, the voltage across all branches is the same because they share the same two nodes.
    - Current splits inversely proportional to the resistance of each branch (Ohm's Law: \(I = V / R\)).
 
 2. **Lower Resistance → Higher Current**:
+
    - A branch with lower resistance allows more current to flow through it because it offers less opposition to the flow of charge.
    - Conversely, a higher-resistance branch carries less current.
 
 3. **Proportional Distribution**:
+
    - Each branch's share of the total current is determined by the ratio of its resistance to the total parallel resistance.
 
 ### Formula for Current Divider Rule
@@ -59,6 +62,7 @@ This shows how \(I_T\) splits proportionally based on resistance.
 The reasoning behind the **Current Divider Rule (CDR)** formulas lies in understanding how parallel circuits work and how current flows through them according to **Ohm’s Law** and the properties of parallel resistances.
 
 ### 1. **Constant Voltage Across Parallel Branches**
+
 In a parallel circuit:
 - The voltage across all parallel branches is the same because they are connected to the same two nodes.
 - The current through each branch depends only on its resistance and the shared voltage.
@@ -73,6 +77,7 @@ Where:
 - \(R_k\): Resistance of branch \(k\).
 
 ### 2. **Current Splits Based on Resistance**
+
 - A branch with **lower resistance** draws more current because it provides less opposition to the flow of charge.
 - Conversely, a branch with **higher resistance** draws less current.
 
@@ -84,6 +89,7 @@ I_k \propto \frac{1}{R_k}
 This relationship forms the core of the Current Divider Rule.
 
 ### 3. **Parallel Resistance Reduces Total Resistance**
+
 The total current \(I_T\) entering the parallel combination is shared among the branches:
 \[
 I_T = I_1 + I_2 + \dots + I_n
@@ -96,6 +102,7 @@ The total resistance of the parallel network (\(R_T\)) is given by:
 This relationship shows how resistances combine in parallel.
 
 ### 4. **Relating Branch Current to Total Current**
+
 Using Ohm's Law for the total circuit:
 \[
 I_T = \frac{V}{R_T}
@@ -108,6 +115,7 @@ I_k = I_T \cdot \frac{\frac{1}{R_k}}{\sum_{i=1}^{n} \frac{1}{R_i}}
 \]
 
 ### 5. **Two-Branch Simplification**
+
 For two parallel resistors, the total current \(I_T\) splits as:
 - Current through \(R_1\):
   \[
