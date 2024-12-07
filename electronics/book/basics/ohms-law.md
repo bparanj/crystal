@@ -1,3 +1,16 @@
+When we apply Ohm’s law (I = V/R) to a theoretical circuit with zero resistance, it suggests that the current would be infinitely large. However, no real circuit behaves this way because:
+
+1. **Real Materials Have Non-Zero Resistance:**  
+   Even conductors marketed as “very good conductors” still have a small amount of resistance. There is no perfectly zero-resistance material under normal conditions (except superconductors at very low temperatures, which introduce their own complexities).
+
+2. **Internal Resistance of Sources:**  
+   Real batteries and power supplies have internal resistance. This means that the voltage source itself cannot deliver infinite current. As you draw more current, the source’s internal resistance drops the voltage, preventing the current from rising without limit.
+
+3. **Physical Limitations and Damage:**  
+   If you tried to approximate a zero-resistance path (like a near-direct short circuit), the current would become extremely high, potentially limited only by the source’s ability to supply it. This would cause wires to heat, fuses to blow, components to burn out, or the power supply’s protection mechanisms to trigger. Essentially, the circuit would fail or be damaged before reaching anything like “infinite” current.
+
+In short, the theoretical idea of infinite current assumes ideal conditions that don’t exist in the real world. Real circuits always have some form of resistance or limitation that prevents infinite current from occurring.
+
 ### **Demonstrate Ohm’s Law**
 
 PENDING
