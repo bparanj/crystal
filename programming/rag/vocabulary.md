@@ -66,6 +66,9 @@ Embeddings capture semantic information for tasks such as similarity search.
 - Semantic Search
 
 
+- Asymmetric Semantic Search
+
+
 - Overfitting
 
 

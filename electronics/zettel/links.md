@@ -30,7 +30,6 @@ Jobs:
 - [CTO](https://www.governmentjobs.com/jobs/81609-0/chief-information-office)
 
 https://www.amazon.com/Anbear-Bi-Directional-Female-Adapter-Conveter/dp/B07TBLWFQX/
-apple cinema display 30 2012
 
 https://www.youtube.com/watch?v=v_z2qb2VenI
 https://www.youtube.com/results?search_query=inductors+or+capacitors+impedance+experiment
@@ -42,3 +41,5 @@ https://www.youtube.com/watch?v=QEDf7wBxESQ
 
 capacitors in series circuit experiment
 time constant capacitor tinkercad
+apple cinema display 30 2012
+dual link dvi adapter hdmi
