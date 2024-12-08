@@ -2,7 +2,6 @@
 
 Below is an example showing how to implement the serverless functions in Go for Vercel, using Vue.js on the frontend and Vercel KV (Upstash Redis) for persistence. We’ll switch from a JavaScript-based serverless function to a Go-based one.
 
-**Key Points:**
 - Vercel KV is backed by Upstash Redis. To access it from Go, you’ll use the environment variables `VERCEL_REDIS_URL` and `VERCEL_REDIS_TOKEN`.
 - You’ll write two serverless functions in Go: `api/save.go` and `api/load.go`.
 - Each function starts an HTTP server and handles requests using `http.HandleFunc`. Vercel’s Go runtime will invoke this handler for each request.
