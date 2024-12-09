@@ -4,8 +4,6 @@ Below are step-by-step instructions for adding syntax highlighting to code block
 - A Nuxt 3 project with Nuxt Content configured.
 - Some markdown files in your `content/` directory that contain code blocks (e.g., triple backticks) you want to highlight.
 
----
-
 ### 1. Configure Highlighting in `nuxt.config.ts`
 
 Nuxt Content provides built-in syntax highlighting via [Shiki](https://shiki.matsu.io/). You can configure highlight settings directly in `nuxt.config.ts`.
@@ -133,9 +131,6 @@ pre[class*="language-"] {
 
 Adjust this styling as needed. The syntax highlighting is primarily handled by the inline styles and classes Shiki injects, but you can still tweak the container’s appearance.
 
----
-
-**Key Takeaways:**
 - Nuxt Content integrates with Shiki by default, making syntax highlighting easy.
 - Configuring `content.highlight` in `nuxt.config.ts` allows you to choose a theme and languages.
 - Code blocks in markdown, when properly annotated with a language identifier, are automatically highlighted.

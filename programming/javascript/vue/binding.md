@@ -1,6 +1,7 @@
-Below are step-by-step instructions to create a simple Vue.js program that demonstrates data binding. We’ll use a basic setup with a single HTML file and a CDN link to Vue, so you don’t need any build tools.
+Step-by-step instructions to create a simple Vue.js program that demonstrates data binding. We’ll use a basic setup with a single HTML file and a CDN link to Vue, so you don’t need any build tools.
 
-**Prerequisites:**  
+**Prerequisites:**
+
 - A text editor  
 - A modern web browser
 
@@ -72,7 +73,6 @@ Below are step-by-step instructions to create a simple Vue.js program that demon
    - You should see the heading "Hello, Vue!" and an input field below it.
    - As you type into the input field, the heading will update in real-time to match what you typed.
 
-**Key Takeaways:**
 - **Interpolation (`{{ }}`)** displays Vue data in the DOM.
 - **`v-model`** enables two-way data binding between form inputs and the Vue instance’s data.
 - The `createApp()` method initializes the Vue application, and `mount('#app')` ties it to the DOM element with the `id="app"`.

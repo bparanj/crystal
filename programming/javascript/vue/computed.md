@@ -74,6 +74,5 @@ Below are step-by-step instructions to create a simple Vue.js program demonstrat
    - You will see the original message and the reversed message.
    - As you type into the input field, `message` updates, and so does `reversedMessage`.
 
-**Key Takeaways:**
 - **Computed Properties** allow you to define properties that depend on reactive data. They are cached, meaning they recalculate only when their dependencies change.
 - In this example, as you change `message`, the computed property `reversedMessage` automatically updates, demonstrating how computed properties provide clean, declarative logic based on your data.

@@ -59,6 +59,5 @@ Below are step-by-step instructions to create a simple Vue.js program demonstrat
    - Initially, “Hello, Vue!” is set as the message in `data()`, but almost immediately after mounting, the `mounted()` hook runs and changes the message to “This message was updated in the mounted hook.”
    - Check the browser’s developer console (F12 or Ctrl+Shift+I on Windows) to see the console log: “The component has been mounted to the DOM.”
 
-**Key Takeaways:**
 - Lifecycle hooks like `mounted()` let you run code at specific times in a component’s lifecycle.
 - In this example, `mounted()` is used to log a message and update the component’s data after the component is visible on the page.

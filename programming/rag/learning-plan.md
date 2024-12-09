@@ -44,15 +44,15 @@ This sequence ensures you start from fundamental AI concepts, move through NLP a
 
 Below are experiments that correspond to each concept. They are presented as small, progressively complex Python tasks. These experiments are meant to be illustrative. Exact code may vary depending on libraries chosen, but the descriptions outline what you’d implement.
 
----
-
 **1. Basic AI & ML Concepts**  
 **Experiment:** Train a simple logistic regression model on a small text classification dataset.  
+
 - **Task:**  
   - Use a small dataset with two categories (e.g., positive vs. negative sentences).  
   - Convert text to simple bag-of-words features using `scikit-learn`’s `CountVectorizer`.  
   - Train a `LogisticRegression` model and evaluate accuracy.
 - **Concrete Steps (Pseudocode):**  
+
   ```python
   from sklearn.feature_extraction.text import CountVectorizer
   from sklearn.linear_model import LogisticRegression
@@ -73,8 +73,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   print("Accuracy:", accuracy_score(y_test, preds))
   ```
 
----
-
 **2. NLP Basics**  
 **Experiment:** Tokenize a sentence and compare different tokenization approaches.  
 - **Task:**  
@@ -89,8 +87,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   tokens = [token.text for token in doc]
   print(tokens)
   ```
-
----
 
 **3. Embeddings & Vector Representations**  
 **Experiment:** Generate sentence embeddings and find which sentences are most similar.  
@@ -108,8 +104,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   similarity = util.pytorch_cos_sim(embeddings, embeddings)
   print(similarity)
   ```
-
----
 
 **4. Vector Similarity Search & Vector Databases**  
 **Experiment:** Store embeddings in a vector store (like FAISS) and run a similarity query.  
@@ -136,8 +130,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   print("Most similar sentence:", sentences[I[0][0]])
   ```
 
----
-
 **5. Large Language Models (LLMs)**  
 **Experiment:** Use a small open-source LLM (e.g., GPT-2) to generate text completions.  
 - **Task:**  
@@ -152,8 +144,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   output = generator(prompt, max_length=50, do_sample=True, temperature=0.7)
   print(output[0]['generated_text'])
   ```
-
----
 
 **6. Retrieval-Augmented Generation (RAG) Concept**  
 **Experiment:** Manually implement a simple RAG loop.  
@@ -172,8 +162,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   output = generator(final_prompt, max_length=50)
   print(output[0]['generated_text'])
   ```
-
----
 
 **7. Building a Basic RAG Pipeline**  
 **Experiment:** Combine retrieval and generation in a structured function.  
@@ -197,8 +185,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   print(answer_question("What pets are mentioned?"))
   ```
 
----
-
 **8. Integrating Frameworks (LangChain)**  
 **Experiment:** Use LangChain to build a retrieval chain.  
 - **Task:**  
@@ -221,8 +207,6 @@ Below are experiments that correspond to each concept. They are presented as sma
 
   print(qa_chain.run("What do cats do?"))
   ```
-
----
 
 **9. Handling Document Formats (PDFs) & Preprocessing**  
 **Experiment:** Extract text from a PDF and build a RAG system over it.  
@@ -249,8 +233,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   # Add chunks to FAISS or another vector store as before, then query as in Experiment 8
   ```
 
----
-
 **10. Optimization & Advanced Techniques**  
 **Experiment:** Compare different embedding models or adjust retrieval parameters to improve answer quality.  
 - **Task:**  
@@ -268,9 +250,6 @@ Below are experiments that correspond to each concept. They are presented as sma
   # Rebuild vector store and test if results differ in quality.
   ```
 
----
-
-**Key Takeaways**:  
 - Each experiment turns abstract concepts (like embeddings, vector searches, and LLMs) into a concrete Python implementation.  
 - By progressing step-by-step, you connect fundamental NLP and ML knowledge to a fully realized RAG pipeline.
 

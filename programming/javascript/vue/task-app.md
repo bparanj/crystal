@@ -97,7 +97,6 @@ Below are step-by-step instructions to create a basic Vue task app without build
    - You should see the initial three tasks listed.
    - Clicking “Add New Task” will add a new task to the bottom of the list.
 
-**Key Takeaways:**
 - By structuring the app into a parent component (the main app) and a child component (`TaskItem`), we separate concerns and make the code more maintainable.
 - Using `v-for` and passing data through props demonstrates the flow of data from parent to child.
 - Vue’s reactivity ensures that updating the tasks array immediately updates the rendered list, making it easy to build interactive, stateful interfaces.

@@ -126,6 +126,8 @@ Learning Outcomes:
 
 Upon completion of this module the student will be able to:
 
+-----------------
+
 CONTINUE HERE
 
 Define a series parallel circuit. 
@@ -399,7 +401,6 @@ As an expert in electronics explain  in a concise mannner for a beginner to elec
 As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
 
 As an expert in electronics explain  in a concise mannner for a beginner to electronics. Provide formulas after explaining the reasoning behind the formula.
-
 
 This module introduces the student to electromagnetic induction, Faraday's law and Lenz's law. Various types of inductors are described and the student will learn to calculate the values of transients in RL circuits. This module also covers inductors in series and parallel, and the effect on current, voltage and inductive reactance in these circuits.
 
