@@ -1,6 +1,6 @@
 ## Vue Frontend + Go Backend
 
-Below is an example showing how to implement the serverless functions in Go for Vercel, using Vue.js on the frontend and Vercel KV (Upstash Redis) for persistence. We’ll switch from a JavaScript-based serverless function to a Go-based one.
+An example showing how to implement the serverless functions in Go for Vercel, using Vue.js on the frontend and Vercel KV (Upstash Redis) for persistence.
 
 - Vercel KV is backed by Upstash Redis. To access it from Go, you’ll use the environment variables `VERCEL_REDIS_URL` and `VERCEL_REDIS_TOKEN`.
 - You’ll write two serverless functions in Go: `api/save.go` and `api/load.go`.
@@ -206,11 +206,11 @@ func main() {
 }
 ```
 
-### Frontend (Vue.js)
+### Frontend
 
 The frontend code communicates with `/api/save` and `/api/load`.
 
-**`src/App.vue`** (unchanged from previous):
+**`src/App.vue`**:
 
 ```vue
 <template>
@@ -315,12 +315,11 @@ async function loadDocument() {
 
 - Vercel’s Go runtime will run your Go programs as serverless functions. You need to ensure the code is written to listen on `:3000` and handle requests as shown.
 - The KV store is accessed via Upstash Redis credentials.
-- This approach moves the backend logic from JS to Go, while keeping the same overall architecture.
-
+- This approach moves the backend logic to Go.
 
 ## Vue Frontend + Node Backend 
 
-Below is an example of how to rewrite the file sharing program using Vue.js for the frontend and Vercel KV for persistence in the backend. This setup allows you to store and retrieve documents by their generated 4-digit code. The code will run on Vercel, using serverless functions for the API routes and the KV store for persistence.
+An example of how to rewrite the file sharing program using Vue.js for the frontend and Vercel KV for persistence in the backend. This setup allows you to store and retrieve documents by their generated 4-digit code. The code will run on Vercel, using serverless functions for the API routes and the KV store for persistence.
 
 ### Overview
 
@@ -333,7 +332,7 @@ Below is an example of how to rewrite the file sharing program using Vue.js for 
 
 - A Vercel account.
 - Install Vercel CLI: `npm i -g vercel`
-- Vercel KV enabled on your account (currently in Beta, check Vercel docs for details).
+- Vercel KV enabled on your account.
 
 ### Project Structure
 
@@ -424,7 +423,7 @@ export default async function handler(req, res) {
 }
 ```
 
-### Frontend (Vue.js)
+### Frontend
 
 **Install Vue and Vite:**
 ```bash
@@ -564,7 +563,5 @@ createApp(App).mount('#app')
    - Serve `api/save.js` and `api/load.js` as serverless functions.
    - Use Vercel KV to store and retrieve documents by code.
 
-**Note on Persistence:**  
+**Notes**  
 Vercel KV is a managed key-value store. The data you store with `kv.set()` will persist and be accessible as long as you have Vercel KV configured. This allows your documents to remain available across deployments and requests, unlike in-memory or ephemeral storage solutions.
-
-This rewritten version uses Vue for the front end, serverless functions for the backend routes, and Vercel KV for storage, thus achieving the original goal with persistent storage and a fully deployed solution on Vercel.
