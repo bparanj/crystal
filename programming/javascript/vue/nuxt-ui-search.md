@@ -1,24 +1,16 @@
-Below are step-by-step instructions for integrating the search feature provided by Nuxt UI Pro’s docs template. The Nuxt UI Pro docs template often comes with a built-in search integration (commonly using Algolia DocSearch or a similar service). By following these steps, you’ll add a search bar to your docs layout, configure it, and allow users to search through your documentation content.
+Instructions for integrating the search feature provided by Nuxt UI Pro’s docs template. The Nuxt UI Pro docs template comes with a built-in search integration. By following these steps, you’ll add a search bar to your docs layout, configure it, and allow users to search through your documentation content.
 
 **Prerequisites:**
 - A working Nuxt 3 project with Nuxt UI Pro set up and the docs layout already in use.
-- Your documentation content is stored in `content/` and properly indexed by Nuxt Content.
-- Access to Algolia DocSearch or a similar search service with the necessary API keys and configuration (if you’re using Algolia for search).
-
----
+- Documentation content is stored in `content/` and properly indexed by Nuxt Content.
 
 ### 1. Obtain or Configure Your Search Credentials
 
-If using Algolia DocSearch:
-- Sign up for [Algolia DocSearch](https://docsearch.algolia.com/).
-- Once approved, you’ll receive an `appId`, `apiKey`, and `indexName`.
-- Keep these values handy as we’ll add them to your Nuxt configuration.
-
-If Nuxt UI Pro provides a local search solution (check their documentation), follow their instructions for indexing. Most likely, Algolia DocSearch is the recommended approach.
+If Nuxt UI Pro provides a local search solution, follow their instructions for indexing.
 
 ### 2. Add Search Configuration to `nuxt.config.ts`
 
-Open your `nuxt.config.ts` and configure the search parameters. Nuxt UI Pro typically allows configuration under the `ui` key, something like:
+Open your `nuxt.config.ts` and configure the search parameters. Nuxt UI Pro typically allows configuration under the `ui` key:
 
 ```ts
 // nuxt.config.ts
@@ -38,13 +30,13 @@ export default defineNuxtConfig({
 })
 ```
 
-Adjust `YOUR_APP_ID`, `YOUR_API_KEY`, and `YOUR_INDEX_NAME` with the actual values from Algolia DocSearch. If your Nuxt UI Pro version or documentation suggests a different configuration block, follow that guidance.
+Adjust `YOUR_APP_ID`, `YOUR_API_KEY`, and `YOUR_INDEX_NAME` with the actual values from Algolia DocSearch. 
 
 ### 3. Add the Search Component to Your Docs Layout
 
-Nuxt UI Pro’s docs layout often comes with a search component, such as `<NDocSearch>` or a similar component integrated into the docs header.
+Nuxt UI Pro’s docs layout often comes with a search component, such as `<NDocSearch>` into the docs header.
 
-In your `layouts/docs.vue` (or whichever layout you created for the docs), add the search component inside the header slot. For example:
+In your `layouts/docs.vue`, add the search component inside the header slot.
 
 ```vue
 <!-- layouts/docs.vue -->
@@ -75,13 +67,11 @@ In your `layouts/docs.vue` (or whichever layout you created for the docs), add t
 </template>
 ```
 
-**What’s Happening Here:**
-- `<NDocSearch />` (or the equivalent component provided by Nuxt UI Pro) creates a search input integrated with DocSearch or the configured provider.
+- `<NDocSearch />` (or the equivalent component provided by Nuxt UI Pro) creates a search input integrated with DocSearch.
 - The component will handle showing a search box, suggestions, and linking to relevant docs pages.
 
 ### 4. Run the Development Server and Test
 
-Start your Nuxt dev server:
 ```bash
 npm run dev
 ```
@@ -93,9 +83,7 @@ Try typing a query into the search box. If everything is set up correctly:
 - Selecting a result should navigate you to the corresponding doc page.
 
 If no results appear, verify that:
-- Your Algolia index is configured correctly and contains your pages.
 - Your `nuxt.config.ts` docSearch credentials are correct.
-- You’ve followed any additional instructions from Nuxt UI Pro’s documentation regarding search indexing or configuration.
 
 ### 5. Optional Customization
 
@@ -109,12 +97,6 @@ You can customize styling, placeholders, or the position of `<NDocSearch>` withi
 - Add instructions or a tooltip for users so they know how to search effectively.
 - Integrate with metadata fields in your markdown if you want to refine search results further.
 
----
-
-**Key Takeaways:**
-
 - The Nuxt UI Pro docs template can integrate seamlessly with a DocSearch-powered search bar.
 - By providing `ui.docSearch` credentials in `nuxt.config.ts` and adding `<NDocSearch>` to your layout’s header, you enable full-text search over your documentation content.
 - Testing and verifying your Algolia index configuration is crucial to ensuring search results appear as expected.
-
-With these steps, you’ve successfully integrated the Nuxt UI Pro docs template’s search feature into your documentation site.
