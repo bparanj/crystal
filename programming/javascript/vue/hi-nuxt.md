@@ -1,13 +1,11 @@
-Below are step-by-step instructions to create a basic Nuxt 3 application using the Nuxt Content module. We’ll add Markdown files to the `content` directory, then fetch and display their data within a page. This demonstrates how to integrate and use Nuxt Content for a simple CMS-like experience.
-
-**Prerequisites:**
-- Node.js and npm installed.
-- Basic familiarity with the terminal.
+Instructions to create a basic Nuxt 3 application using the Nuxt Content module. We’ll add Markdown files to the `content` directory, then fetch and display their data within a page. 
 
 **Steps:**
 
 ### 1. Create a New Nuxt 3 Project
-First, create a new Nuxt 3 project using the official Nuxt CLI:
+
+Run the Nuxt CLI command:
+
 ```bash
 npx nuxi init nuxt-content-app
 ```
@@ -23,8 +21,8 @@ Install dependencies:
 npm install
 ```
 
-### 2. Add the Nuxt Content Module
-Install the Nuxt Content module:
+### 2. Install the Nuxt Content Module
+
 ```bash
 npm install @nuxt/content
 ```
@@ -39,10 +37,12 @@ export default defineNuxtConfig({
 })
 ```
 
-This integrates Nuxt Content into your Nuxt 3 application.
+This integrates Nuxt Content into your application.
 
 ### 3. Create the Content Directory and Add Markdown Files
+
 Create a `content` directory at the project root:
+
 ```
 nuxt-content-app/
  ├─ content/
@@ -67,9 +67,10 @@ Inside `content`, create a couple of Markdown files:
   ```
 
 ### 4. Query Content in a Page
+
 Now we’ll create a page that fetches and displays one of these documents. Nuxt Content provides composables like `useContent()` to query your markdown files.
 
-Create or edit `pages/index.vue`:
+Create `pages/index.vue`:
 ```vue
 <!-- pages/index.vue -->
 <template>
@@ -96,14 +97,13 @@ const docContent = doc.value ? doc.value.body : 'Loading...'
 </script>
 ```
 
-**What’s Happening Here:**
 - We use `queryContent('hello')` to find the `hello.md` document.
 - `findOne()` returns the first matching document.
 - `doc.value` now contains the parsed content, including `body`, which holds the HTML-rendered markdown.
 - We then insert `docContent` into the template using `v-html` to render the markdown as HTML.
 
 ### 5. Run the Development Server
-Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -155,9 +155,8 @@ Now, if you navigate to `http://localhost:3000/about`, it will display `about.md
 - Access frontmatter fields via `doc.value` to display metadata.
 - Add styling and layouts for a nicer presentation.
 
-**Key Takeaways:**
 - Nuxt Content allows you to store markdown files in `content` and query them using `queryContent()`.
 - The returned object provides `body` as HTML, making it easy to insert into your pages.
 - Using Nuxt’s file-based routing and composables, you can quickly build a static-site-like experience with dynamic content served from markdown files.
 
-This setup demonstrates how to integrate Nuxt Content, place markdown files in the `content` directory, query them, and display their content on your Nuxt pages. It provides a straightforward foundation for building a CMS-like site with markdown and Nuxt.
+This setup demonstrates how to integrate Nuxt Content, place markdown files in the `content` directory, query them, and display their content on your Nuxt pages. 
