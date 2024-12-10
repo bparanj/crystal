@@ -1,4 +1,4 @@
-Below are revised instructions using Nuxt Content (version compatible with Nuxt 3), which provides the `queryContent()` composable for querying Markdown files. We’ll create a basic documentation structure with a sidebar listing all available pages and a main content area that displays the selected doc. This approach mimics a typical docs layout, showing how to integrate a navigation sidebar with Nuxt Content 3.
+Instructions using Nuxt Content, which provides the `queryContent()` composable for querying Markdown files. We’ll create a basic documentation structure with a sidebar listing all available pages and a main content area that displays the selected doc. This approach mimics a typical docs layout, showing how to integrate a navigation sidebar with Nuxt Content 3.
 
 **Prerequisites:**
 - A Nuxt 3 project set up.
@@ -24,7 +24,7 @@ Below are revised instructions using Nuxt Content (version compatible with Nuxt 
 
 #### 1. Create `content` Directory and Add Markdown Files
 
-Create a `content` directory at the root of your Nuxt project if it doesn’t exist:
+Create a `content` directory at the root of the Nuxt project:
 
 ```
 my-nuxt-app/
@@ -131,10 +131,9 @@ const docsList = docList.value || []
 </style>
 ```
 
-**What Changed from Nuxt Content 2 to Nuxt Content 3:**
-- We now use `queryContent()` from `#content` instead of `$content`.
+- We now use `queryContent()` from `#content`.
 - Document properties like `_path` and `_id` are standard fields returned by `queryContent()`.
-- The rest of the logic remains similar, but now we rely on modern Nuxt 3 composables.
+- We rely on modern Nuxt 3 composables.
 
 #### 3. Create a Default Page or Redirect for `/docs`
 
@@ -170,8 +169,6 @@ Click around the links in the sidebar to navigate between docs. The URL and the 
 - Add a layout file (e.g., `layouts/docs.vue`) if you want a more complex structure and apply it to the docs pages with `definePageMeta({ layout: 'docs' })`.
 
 ---
-
-**Key Takeaways:**
 
 - Using `queryContent()` in Nuxt Content 3 lets you query markdown documents easily.
 - Dynamic routes (`[slug].vue`) make it simple to serve any doc file based on its filename.
