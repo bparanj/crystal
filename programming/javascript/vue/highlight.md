@@ -1,4 +1,4 @@
-Below are step-by-step instructions for adding syntax highlighting to code blocks within your markdown content and displaying them on your Nuxt Content pages. This setup assumes you’re using Nuxt 3 and Nuxt Content 3.
+Instructions for adding syntax highlighting to code blocks within your markdown content and displaying them on Nuxt Content pages. This uses Nuxt 3 and Nuxt Content 3.
 
 **Prerequisites:**
 - A Nuxt 3 project with Nuxt Content configured.
@@ -28,13 +28,12 @@ export default defineNuxtConfig({
 })
 ```
 
-**What This Does:**
 - The `highlight.theme` option sets the color theme used by Shiki for highlighting code.
 - Preloading languages can speed things up if you know which languages your docs contain.
 
 ### 2. Add Code Blocks to Your Markdown
 
-In your markdown files within `content/`, ensure that code blocks specify a language for proper highlighting. For example, in `content/introduction.md`:
+In your markdown files within `content/`,  specify a language for highlighting. For example, in `content/introduction.md`:
 
 ```md
 ---
@@ -44,6 +43,7 @@ title: "Introduction"
 # Introduction
 
 Here is a code example in JavaScript:
+```
 
 ```js
 function greet(name) {
@@ -52,13 +52,12 @@ function greet(name) {
 
 console.log(greet('World'));
 ```
-```
 
 By specifying `js` after the triple backticks, Nuxt Content knows to highlight using JavaScript syntax rules.
 
 ### 3. Displaying the Content
 
-If you’re already using Nuxt Content to fetch and display your markdown content (e.g., using `queryContent()` and then rendering `doc.body`), the syntax highlighting will happen automatically on any code blocks in your markdown.
+If you’re already using Nuxt Content to fetch and display your markdown content (e.g., using `queryContent()` and then rendering `doc.body`), the syntax highlighting will happen automatically on any code blocks in markdown.
 
 A typical Nuxt Content page might look like this (`pages/docs/[slug].vue` as an example):
 
@@ -95,7 +94,7 @@ Because Nuxt Content processes markdown to HTML on the server, including code hi
 npm run dev
 ```
 
-Visit a page displaying a markdown file with code blocks. You should see highlighted syntax according to the chosen theme.
+Visit a page displaying a markdown file with code blocks. You should see highlighted syntax.
 
 ### 5. Adjusting the Theme or Language Support (Optional)
 
@@ -135,5 +134,3 @@ Adjust this styling as needed. The syntax highlighting is primarily handled by t
 - Configuring `content.highlight` in `nuxt.config.ts` allows you to choose a theme and languages.
 - Code blocks in markdown, when properly annotated with a language identifier, are automatically highlighted.
 - The final HTML returned by `doc.body` includes highlighted code ready to display.
-
-With these steps, you can quickly and easily add beautiful syntax highlighting to code examples in your Nuxt Content-powered documentation or blog.
