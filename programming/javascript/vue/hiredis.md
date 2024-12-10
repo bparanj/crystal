@@ -79,4 +79,4 @@ func main() {
    - If successful, you’ll see a message that includes “PING -> PONG”.
    - If there’s an error, it will be printed on the page.
 
-This approach ensures that the environment variables are correct, the connection is established, and that basic Redis commands work as expected.
+This ensures that the environment variables are correct, the connection is established, and that basic Redis commands work as expected.

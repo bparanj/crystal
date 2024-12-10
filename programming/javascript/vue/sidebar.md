@@ -16,9 +16,7 @@ Instructions using Nuxt Content, which provides the `queryContent()` composable 
   })
   ```
 
-**Note:** Nuxt Content 3 introduces `queryContent()` and no longer uses `$content`.
-
----
+Nuxt Content 3 uses `queryContent()`.
 
 ### Step-by-Step Instructions
 
@@ -167,8 +165,6 @@ Click around the links in the sidebar to navigate between docs. The URL and the 
 - Style the sidebar to highlight the active doc.
 - Add error handling if a doc is not found.
 - Add a layout file (e.g., `layouts/docs.vue`) if you want a more complex structure and apply it to the docs pages with `definePageMeta({ layout: 'docs' })`.
-
----
 
 - Using `queryContent()` in Nuxt Content 3 lets you query markdown documents easily.
 - Dynamic routes (`[slug].vue`) make it simple to serve any doc file based on its filename.

@@ -128,7 +128,7 @@ pre[class*="language-"] {
 }
 ```
 
-Adjust this styling as needed. The syntax highlighting is primarily handled by the inline styles and classes Shiki injects, but you can still tweak the container’s appearance.
+Adjust this styling as needed. The syntax highlighting is handled by the inline styles and classes Shiki injects, but you can still tweak the container’s appearance.
 
 - Nuxt Content integrates with Shiki by default, making syntax highlighting easy.
 - Configuring `content.highlight` in `nuxt.config.ts` allows you to choose a theme and languages.

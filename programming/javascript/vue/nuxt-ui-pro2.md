@@ -139,7 +139,7 @@ if (doc && docsList.length > 0) {
 
 ### 3. Create the Docs Layout Using Nuxt UI Pro
 
-We already have a docs-like layout available from Nuxt UI Pro. Modify `layouts/docs.vue` to wrap the page:
+We have a docs-like layout available from Nuxt UI Pro. Modify `layouts/docs.vue` to wrap the page:
 
 ```vue
 <!-- layouts/docs.vue -->

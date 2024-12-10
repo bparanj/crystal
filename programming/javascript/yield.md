@@ -1,4 +1,4 @@
-Yes, the `yield` keyword in JavaScript and Ruby share similarities in their fundamental concept, which is to pause and resume execution within a function. However, there are differences in their usage and behavior due to the different nature of these languages.
+The `yield` keyword in JavaScript and Ruby share similarities in their fundamental concept, which is to pause and resume execution within a function. However, there are differences in their usage and behavior due to the different nature of these languages.
 
 **JavaScript:**
 
@@ -16,7 +16,7 @@ Yes, the `yield` keyword in JavaScript and Ruby share similarities in their fund
 4. **Error if No Block Given**: In Ruby, if `yield` is called within a method and no block is given, it raises a `LocalJumpError`.
 5. **Block_given?**: Ruby provides a `block_given?` method to check if a block has been passed to avoid errors.
 
-**Key Differences:**
+**Differences:**
 
 - **Purpose and Usage**: JavaScript's `yield` is primarily used for iteration and handling asynchronous operations in a sequence, while Ruby's `yield` is used for passing execution to blocks, often for custom iteration, resource handling, or applying a custom action to data.
 - **Control Flow**: In JavaScript, `yield` is about pausing and resuming the execution state of a function, while in Ruby, it's about transferring control to and from blocks.

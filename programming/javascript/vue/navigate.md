@@ -3,6 +3,7 @@ Instructions to set up a simple Nuxt 3 application that demonstrates basic routi
 **Steps:**
 
 ### 1. Create a New Nuxt 3 Project
+
 Use the official Nuxt CLI (nuxi) to scaffold a new project:
 ```bash
 npx nuxi init my-nuxt-app
@@ -20,6 +21,7 @@ npm install
 ```
 
 ### 2. Run the Development Server
+
 To verify that everything is working initially:
 ```bash
 npm run dev
@@ -27,7 +29,8 @@ npm run dev
 Open the URL shown in the terminal (usually `http://localhost:3000/`) to see the default Nuxt welcome page.
 
 ### 3. Create a Few Pages
-Nuxt uses a file-based routing system. Pages are created inside the `pages` directory. We’ll create three pages: `index.vue`, `about.vue`, and `contact.vue`.
+
+Nuxt uses a file-based routing system. Pages are created inside the `pages` directory. Create three pages: `index.vue`, `about.vue`, and `contact.vue`.
 
 - `pages/index.vue` (Home Page):
   ```vue
@@ -77,12 +80,14 @@ Nuxt uses a file-based routing system. Pages are created inside the `pages` dire
   </template>
   ```
 
-Now you have three pages, and you can navigate between them using `<NuxtLink>` components.
+We can navigate between them using `<NuxtLink>` components.
 
 ### 4. Add a Layout
+
 Layouts let you define a common structure shared by all pages. For example, you might want a common header or footer on every page.
 
 Create a `layouts` directory at the project root:
+
 ```
 my-nuxt-app/
  ├─ layouts/
@@ -91,6 +96,7 @@ my-nuxt-app/
 ```
 
 Inside `layouts`, create a file named `default.vue`:
+
 ```vue
 <!-- layouts/default.vue -->
 <template>
@@ -110,9 +116,11 @@ Inside `layouts`, create a file named `default.vue`:
 By default, all pages use the `default.vue` layout if none is specified. Now your pages will have a common header and footer.
 
 ### 5. Create a Reusable Component
-Let’s create a simple reusable component that displays a stylized title. We’ll call it `MyTitle.vue`.
+
+Let’s create a simple reusable component that displays a stylized title.
 
 Create a `components` directory:
+
 ```
 my-nuxt-app/
  ├─ components/
@@ -122,6 +130,7 @@ my-nuxt-app/
 ```
 
 Inside `components`, create `MyTitle.vue`:
+
 ```vue
 <!-- components/MyTitle.vue -->
 <template>
@@ -148,6 +157,7 @@ const titleStyle = {
 This component takes a `text` prop and displays it in a styled `<h1>`.
 
 ### 6. Use the Component in a Page
+
 Open one of your pages, for example `pages/index.vue`, and replace its `<h1>` with `<MyTitle>`:
 ```vue
 <!-- pages/index.vue -->
@@ -194,4 +204,4 @@ Visit `http://localhost:3000`:
 - **Layouts:** Putting a `default.vue` file in `layouts` applies a shared layout to all pages.
 - **Components:** Creating a `components` directory and importing components into pages allows for reusable UI elements, promoting code reuse and consistency.
 
-This setup gives you a small, functional Nuxt app that demonstrates basic routing, a shared layout, and reusable components, forming a foundation for more complex projects.
+This gives a functional Nuxt app with basic routing, a shared layout, and reusable components.

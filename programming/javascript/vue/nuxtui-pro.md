@@ -170,4 +170,4 @@ Click the navigation links in the top bar to navigate between pages. The layout 
 - By using `NLayoutDocs`, `NLayoutHeader`, `NLayoutSidebar`, and `NLayoutMain`, you can define a common layout with a top bar, sidebar, and content area.
 - The `definePageMeta({ layout: 'docs' })` in each page ensures that page is rendered within the docs layout, keeping navigation and structure consistent across the site.
 
-This setup gives you a starting point for building a site with a stable navigation framework and a clear content area, all styled and structured by Nuxt UI Pro’s components.
+This gives you a starting point for building a site with a stable navigation framework and a clear content area, all styled and structured by Nuxt UI Pro’s components.

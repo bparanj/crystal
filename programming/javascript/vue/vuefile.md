@@ -563,5 +563,4 @@ createApp(App).mount('#app')
    - Serve `api/save.js` and `api/load.js` as serverless functions.
    - Use Vercel KV to store and retrieve documents by code.
 
-**Notes**  
 Vercel KV is a managed key-value store. The data you store with `kv.set()` will persist and be accessible as long as you have Vercel KV configured. This allows your documents to remain available across deployments and requests, unlike in-memory or ephemeral storage solutions.

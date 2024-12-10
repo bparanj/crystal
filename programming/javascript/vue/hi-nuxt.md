@@ -159,4 +159,4 @@ Now, if you navigate to `http://localhost:3000/about`, it will display `about.md
 - The returned object provides `body` as HTML, making it easy to insert into your pages.
 - Using Nuxt’s file-based routing and composables, you can quickly build a static-site-like experience with dynamic content served from markdown files.
 
-This setup demonstrates how to integrate Nuxt Content, place markdown files in the `content` directory, query them, and display their content on your Nuxt pages. 
+This demonstrates how to integrate Nuxt Content, place markdown files in the `content` directory, query them, and display their content on your Nuxt pages. 

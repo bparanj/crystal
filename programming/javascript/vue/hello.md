@@ -1,8 +1,8 @@
-Below are step-by-step instructions to set up a basic “Hello World” application using the latest official Vue tooling (Vite):
+Instructions to set up a basic “Hello World” application using the latest official Vue tooling (Vite):
 
 **Prerequisites:**
-- Make sure you have [Node.js](https://nodejs.org/) installed (version 14 or later is recommended).
-- Ensure `npm` (comes with Node) or `yarn` is available as your package manager.
+- Make sure you have [Node.js](https://nodejs.org/) installed.
+- Ensure `npm` (comes with Node) is available as your package manager.
 
 **Steps:**
 

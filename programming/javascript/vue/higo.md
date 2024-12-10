@@ -1,4 +1,4 @@
-Below are the steps to create a basic “Hello World” application in Go:
+Steps to create a basic “Hello World” application in Go:
 
 **Prerequisites:**
 - [Install Go](https://go.dev/dl/) if you haven’t already, and ensure it’s in your system’s PATH.  

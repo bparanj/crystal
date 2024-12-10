@@ -1,6 +1,7 @@
-Instructions for integrating the search feature provided by Nuxt UI Pro’s docs template. The Nuxt UI Pro docs template comes with a built-in search integration. By following these steps, you’ll add a search bar to your docs layout, configure it, and allow users to search through your documentation content.
+Instructions for integrating the search feature provided by Nuxt UI Pro’s docs template. The Nuxt UI Pro docs template comes with a built-in search integration. We will add a search bar to docs layout, configure it, and allow users to search through documentation content.
 
 **Prerequisites:**
+
 - A working Nuxt 3 project with Nuxt UI Pro set up and the docs layout already in use.
 - Documentation content is stored in `content/` and properly indexed by Nuxt Content.
 

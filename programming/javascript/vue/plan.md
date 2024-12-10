@@ -1,4 +1,4 @@
-Planning and Implementing Vue 3 Applications from Visual Designs: A Step-by-Step Guide
+Planning and Implementing Vue 3 Applications from Visual Designs
 
 Starting from a visual design or prototype and planning the implementation with components in Vue 3 involves a structured approach to break down the design into reusable components, define their responsibilities, and plan their interactions.
 
