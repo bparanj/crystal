@@ -1,4 +1,4 @@
-Below is an example Go program that uses the official Go Redis client to connect to the Vercel KV (Upstash Redis) instance using `VERCEL_REDIS_URL` and `VERCEL_REDIS_TOKEN`, sends a PING command, and checks for a PONG response. This ensures that not only are the environment variables correct, but the connection to Redis is functional.
+An example Go program that uses the official Go Redis client to connect to the Vercel KV instance using `VERCEL_REDIS_URL` and `VERCEL_REDIS_TOKEN`, sends a PING command, and checks for a PONG response. This ensures that not only are the environment variables correct, but the connection to Redis is functional.
 
 **Prerequisites:**
 - Add the Go Redis client library to your project:
@@ -66,7 +66,6 @@ func main() {
 }
 ```
 
-**What This Does:**
 - Reads `VERCEL_REDIS_URL` and `VERCEL_REDIS_TOKEN` from environment variables.
 - Uses the `go-redis` library to create a Redis client configured with the given URL and token.
 - Sends a PING command to verify connectivity and authentication.
