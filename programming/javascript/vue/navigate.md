@@ -1,8 +1,4 @@
-Below are step-by-step instructions to set up a simple Nuxt 3 application that demonstrates basic routing, layouts, and reusable components. We’ll create a few pages to show navigation, introduce a shared layout, and use a reusable component within those pages.
-
-**Prerequisites:**
-- Node.js and npm installed.
-- Familiarity with a terminal/command line.
+Instructions to set up a simple Nuxt 3 application that demonstrates basic routing, layouts, and reusable components. We’ll create a few pages to show navigation, introduce a shared layout, and use a reusable component within those pages.
 
 **Steps:**
 
@@ -175,10 +171,11 @@ import MyTitle from '~/components/MyTitle.vue'
 </script>
 ```
 
-We imported the component and used it in the template. Now the home page title is rendered by our reusable component.
+We imported the component and used it in the template. Now the home page title is rendered by a reusable component.
 
 ### 7. Check the Results
-Run (or restart) the development server:
+
+Run the development server:
 ```bash
 npm run dev
 ```
@@ -193,7 +190,6 @@ Visit `http://localhost:3000`:
 - Add some global styling by creating a `app.vue` or configuring CSS in Nuxt.
 - Experiment with another layout (e.g., `layouts/alternate.vue`) and assign it to one of the pages by adding `definePageMeta({ layout: 'alternate' })` in that page’s script section.
 
-**Key Takeaways:**
 - **Routing:** Nuxt auto-generates routes from the `pages` directory. Each `.vue` file in `pages` is a route.
 - **Layouts:** Putting a `default.vue` file in `layouts` applies a shared layout to all pages.
 - **Components:** Creating a `components` directory and importing components into pages allows for reusable UI elements, promoting code reuse and consistency.
