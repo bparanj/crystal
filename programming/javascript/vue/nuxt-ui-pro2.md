@@ -1,15 +1,13 @@
-Below are revised instructions for Nuxt Content 3, integrating content queries into the Nuxt UI Pro docs template. We’ll query markdown files from the `content` directory, display them as a list of documentation pages in the sidebar, and load the selected page’s content in the main area. We’ll also implement simple next/previous navigation at the bottom of each page.
+Instructions for Nuxt Content 3, integrating content queries into the Nuxt UI Pro docs template. We’ll query markdown files from the `content` directory, display them as a list of documentation pages in the sidebar, and load the selected page’s content in the main area. We’ll also implement simple next/previous navigation at the bottom of each page.
 
 **Prerequisites:**
 - A Nuxt 3 project with Nuxt Content installed and configured.
 - Nuxt UI Pro installed and configured for the docs layout.
 - Some Markdown documents in your `content` directory.
 
----
-
 ### 1. Set Up the Content Directory
 
-Create a few markdown files with front matter in `content/` to represent your documentation pages:
+Create a few markdown files with front matter in `content/`:
 
 ```
 content/
@@ -34,9 +32,7 @@ Do the same for `getting-started.md` and `advanced-features.md`, ensuring each h
 
 ### 2. Create a Dynamic Page for Docs
 
-We will serve docs at a route like `/docs/[...slug].vue` so any URL under `/docs/` can show a doc. Using a catch-all might be useful if you want nested docs, but if you prefer a single-level route, use `[slug].vue`.
-
-For simplicity, let’s use `[slug].vue`:
+We will serve docs at a route like `/docs/[...slug].vue` so any URL under `/docs/` can show a doc. If you prefer a single-level route, use `[slug].vue`.
 
 Create `pages/docs/[slug].vue`:
 
@@ -135,8 +131,6 @@ if (doc && docsList.length > 0) {
 </style>
 ```
 
-**What’s Happening Here:**
-
 - We query the current doc by its `slug` using `queryContent(slug).findOne()`.
 - We also query all docs (`queryContent().only(['title', '_path']).find()`) to build a sidebar and allow next/previous navigation.
 - The sidebar loops through `docsList` and highlights the current doc using a bold font.
@@ -145,7 +139,7 @@ if (doc && docsList.length > 0) {
 
 ### 3. Create the Docs Layout Using Nuxt UI Pro
 
-We already have a docs-like layout available from Nuxt UI Pro. Modify `layouts/docs.vue` to wrap our page:
+We already have a docs-like layout available from Nuxt UI Pro. Modify `layouts/docs.vue` to wrap the page:
 
 ```vue
 <!-- layouts/docs.vue -->
@@ -196,7 +190,7 @@ definePageMeta({
 </script>
 ```
 
-Add this right after the `<script setup>` line in `[slug].vue`. This ensures that the doc pages use our `docs.vue` layout.
+Add this after the `<script setup>` line in `[slug].vue`.  The doc pages use `docs.vue` layout.
 
 ### 5. Create a Redirect from `/docs` to the First Doc
 
@@ -237,10 +231,6 @@ Click on a sidebar link to navigate between docs. The main content updates accor
 - Add CSS to highlight the active doc in the sidebar.
 - Refine the next/previous link styling or add icons.
 - Add a search feature using Nuxt Content’s features or additional logic.
-
----
-
-**Key Takeaways:**
 
 - We combined Nuxt Content queries with Nuxt UI Pro’s docs layout to build a docs-like site.
 - The sidebar is populated dynamically from the content files, and the main area displays the selected doc.
