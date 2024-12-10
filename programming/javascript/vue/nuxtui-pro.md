@@ -1,17 +1,14 @@
-Below are step-by-step instructions to set up a Nuxt 3 project using the Nuxt UI Pro docs template. The result will be a layout that includes a top navigation bar, a sidebar, and a main content area. We’ll add simple navigation items (Home, About, Contact) to the top bar and demonstrate how to customize the sidebar and content section.
+Instructions to set up a Nuxt 3 project using the Nuxt UI Pro docs template. The result will be a layout that includes a top navigation bar, a sidebar, and a main content area. We’ll add a top navigation bar and demonstrate how to customize the sidebar and content section.
 
 **Prerequisites:**
 - A Nuxt 3 project set up.
 - Nuxt UI Pro installed and configured. (Refer to Nuxt UI Pro’s installation instructions, as it’s a commercial product. You’ll need your access token or installation steps from the Nuxt UI Pro docs.)
 
-**Key Idea:**
-Nuxt UI Pro provides a “docs” layout template that you can adapt. It uses a set of components designed for documentation-like sites, but you can customize them for general content and navigation.
-
----
+Nuxt UI Pro provides a “docs” layout template that you can customize. It uses a set of components designed for documentation-like sites, but you can customize them for general content and navigation.
 
 ### 1. Install and Configure Nuxt UI Pro
 
-Follow the official Nuxt UI Pro documentation to add it to your Nuxt project. Typically this involves:
+Follow the official Nuxt UI Pro documentation to add it to your Nuxt project. 
 
 - Installing Nuxt UI:
   ```bash
@@ -29,11 +26,11 @@ Follow the official Nuxt UI Pro documentation to add it to your Nuxt project. Ty
   })
   ```
 
-- Ensure you have access to Nuxt UI Pro’s components. Nuxt UI Pro may require an additional token or configuration. Once that’s set up, proceed.
+- Nuxt UI Pro requires a licnese. 
 
 ### 2. Create a Docs Layout Using Nuxt UI Components
 
-Nuxt UI Pro provides pre-made components like `<NLayoutDocs>`, `<NLayoutSidebar>`, `<NLayoutHeader>`, etc., that you can use to rapidly build a docs-style layout.
+Nuxt UI Pro provides pre-made components like `<NLayoutDocs>`, `<NLayoutSidebar>`, `<NLayoutHeader>`, etc., that you can use to build a docs-style layout.
 
 Create a layout file `layouts/docs.vue` to define the general structure:
 
@@ -89,7 +86,6 @@ Create a layout file `layouts/docs.vue` to define the general structure:
 </style>
 ```
 
-**What’s Happening Here:**
 - `<NLayoutDocs>` is a Nuxt UI Pro component that provides a docs-style layout structure with slots for header, sidebar, and main content.
 - The `#header` template slot places your `<NLayoutHeader>` at the top.
 - The `#sidebar` template slot puts `<NLayoutSidebar>` on the left (by default) for your navigation links or categories.
@@ -97,7 +93,7 @@ Create a layout file `layouts/docs.vue` to define the general structure:
 
 ### 3. Apply the Docs Layout to Pages
 
-Create some simple pages to see the layout in action:
+Create some pages to see the layout in action:
 
 - `pages/index.vue` (Home page):
   ```vue
@@ -169,10 +165,6 @@ Click the navigation links in the top bar to navigate between pages. The layout 
 - Add icons or additional styling to the header and sidebar.
 - Adjust spacing, colors, and typography by customizing Nuxt UI theme settings or adding custom CSS.
 - Add responsive behavior to handle smaller screens by checking the Nuxt UI Pro docs for responsive classes or variants.
-
----
-
-**Key Takeaways:**
 
 - Nuxt UI Pro’s docs layout components provide a quick way to create a structured, documentation-like interface.
 - By using `NLayoutDocs`, `NLayoutHeader`, `NLayoutSidebar`, and `NLayoutMain`, you can define a common layout with a top bar, sidebar, and content area.
