@@ -1,4 +1,6 @@
 
+NOT TESTED CONTENT:
+
 pipx install virtualenv
 
 python<version> -m venv <virtual-environment-name>
@@ -19,28 +21,6 @@ $ sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt update
 
 sudo apt install python3.x-full
 
-1. Enable the Ubuntu repository that provides older Python versions. For newer Ubuntu releases, use a PPA like deadsnakes:  
-   ```bash
-   sudo add-apt-repository ppa:deadsnakes/ppa
-   sudo apt update
-   ```
-   
-2. Install Python 3.10:  
-   ```bash
-   sudo apt install python3.10 python3.10-venv
-   ```
-
-3. Create a virtual environment using Python 3.10:  
-   ```bash
-   python3.10 -m venv my_project_env
-   ```
-
-4. Activate the virtual environment:  
-   ```bash
-   source my_project_env/bin/activate
-   ```
-
-5. Now your project uses Python 3.10 inside the virtual environment.
 
 Hatch and Rye are Python toolchains that focus on packaging, environment management, and dependency handling. They abstract away the need to install multiple Python versions system-wide. Instead, they manage project environments in a more portable and reproducible way.
 
