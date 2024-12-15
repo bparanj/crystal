@@ -3,6 +3,19 @@
 
 ## Bookmarks
 
+- [VueJS](https://learning.oreilly.com/videos/vue-js-3-and/9781805125723/9781805125723-video4_3/)
 - [LangChain Course Video](https://learning.oreilly.com/videos/gen-ai/9781836204138/9781836204138-video1_8/)
 - [LangChain Course Oreilly](https://learning.oreilly.com/course/langchain-masterclass/9781835464427/)
 - [Overly Long Course](https://learning.oreilly.com/videos/quick-start-guide/9780135384800/9780135384800-QGL2_01_03_03/)
+- [Time Series with PyTorch](https://learning.oreilly.com/library/view/time-series-with/9781805128182/)
+- [Generative AI with Python and PyTorch](https://learning.oreilly.com/library/view/generative-ai-with/9781835884447/)
+- [Build a Large Language Model (From Scratch)](https://learning.oreilly.com/library/view/build-a-large/9781633437166/)
+- [AI Engineering](https://learning.oreilly.com/library/view/ai-engineering/9781098166298/)
+- [Programming Generative AI](Programming Generative AI)
+- [Machine Learning Foundation](https://learning.oreilly.com/course/the-essential-machine/9780137903245/)
+- [Linear Algebra for Machine Learning](https://learning.oreilly.com/course/linear-algebra-for/9780137398119/)
+- [Generative AI in Action](https://learning.oreilly.com/library/view/generative-ai-in/9781633436947/)
+- [Deep Reinforcement Learning Hands-On](https://learning.oreilly.com/library/view/deep-reinforcement-learning/9781835882702/)
+- [AI-Assisted Programming](https://learning.oreilly.com/library/view/ai-assisted-programming/9781098164553/)
+- [Build a Large Language Model (From Scratch), Video Edition](https://learning.oreilly.com/videos/build-a-large/9781633437166VE/)
+- [​AI Strategies for Web Development](https://learning.oreilly.com/library/view/ai-strategies-for/9781835886304/)
