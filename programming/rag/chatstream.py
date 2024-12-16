@@ -13,6 +13,6 @@ def chatbot(values):
         yield token
 
 for part in chatbot.stream({
-    "question": "Which model providers offer Large Language Models"
+    "question": "Which model providers offer LLMs"
 }):
     print(part)
