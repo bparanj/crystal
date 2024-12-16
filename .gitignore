@@ -113,3 +113,8 @@ logs/*
 *.swp
 *.swo
 
+programming/rag/.env
+programming/rag/__pycache__/
+programming/rag/.ipynb_checkpoints/
+programming/rag/rag/bin
+programming/rag/rag/
