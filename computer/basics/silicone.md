@@ -1,0 +1,1 @@
+Yes, silicone is  used in breast implants. Silicone breast implants are filled with silicone gel, which is designed to mimic the feel of natural breast tissue. There are also saline-filled breast implants, which are filled with sterile salt water. Both types are used in breast augmentation and reconstruction.
