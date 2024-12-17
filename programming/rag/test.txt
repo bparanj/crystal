@@ -1,0 +1,545 @@
+Page 1:
+==================================================
+As can be learned from his biograph y, Genrich
+Altshuller analyzed thousands of worldwide patents
+from the leading engineering fields. He then ana-
+lyzed solutions that were, in his judgment, most ef-
+fective. This work provided the first understanding
+of the trends, or patterns, of evolution for technical
+systems. It also laid the foundation for the develop-
+ment of an analytical approach to solving inventive
+problems, later becoming the foundation for TRIZ,
+his theory of inventing problem solving, with its axiom:
+The evolution of all technical systems is
+governed by objective laws.
+These laws reveal that, during the evolution of a
+technical system, improvement of any pa rt of that
+system having already reached its pinnacle of func-
+tional performance will lead to conflict with another
+part. This conflict will lead to the eventual improve-
+ment of the less evolved pa rt. This continuing, self-
+sustaining process pushes the system ever closer to
+its ideal state. Understanding this evolutionary pro-
+cess allows us to forecast future trends in the devel-
+opment of a technical system.
+Over the past 40 years, TRIZ has developed into
+a set of practical tools for inventing and solving tech-
+nical problems of varying complexity. Today, we can
+identify several basic TRIZ tools as well as other meth-
+ods and techniques that combine to makeup what is
+known as Systematic Innovation. Students and fol-
+lowers of Altshuller developed these additional tech-
+niques over the past 15 years.
+This section p rovides a short int roduction to
+some basic TRIZ tools. It is here for two reasons:
+First, it is important for new readers to first learn
+TRIZ terminology and its meaning so that they may
+effectively utilize the 40 Principles to solve problems.
+Second, it is important for the reader to be familiar
+with the philosophy underlying TRIZ tools and tech-
+niques in order to be able to fully apply them.
+THE FOUNDATION OF TRIZ
+1. Technical Systems:
+Everything that performs a function is a techni-
+cal system. Examples of technical systems include cars,
+pens, books and knifes. Any technical system can con-
+sist of one or more subsystems. A car is composed of
+the subsystems engine, steering mechanism, brakes
+and so on. Each of these is also a technical system
+unto itself (with its own series of subsystems) — and
+each performs its own function. The hierarchy of tech-
+nical systems spans from the least complex, with only
+two elements, to the most complex with many inter-
+acting elements.
+The table below shows the hierarchy of the tech-
+nical system called “Transportation.” In the left col-
+umn are names of technical systems. They are placed
+in descending order. Horizontal rows contain names
+of subsystems that belong to the technical system
+described on the left.
+For example, the technical system “Brake” is a
+subsystem of the technical system “Car” — as well as
+a supersystem for the technical system “Pad.”
+When a technical system produces inadequate or
+harmful functions it may need to be improved. This
+Introduction to TRIZ
+by Lev Shulyak
+TTTTTechnical System sechnical System sechnical System sechnical System sechnical Systems
+TTTTTransportatio nransportatio nransportatio nransportatio nransportation  Cars Roads Maps Drivers Service Stations
+CarCarCarCarCar Power train Brakes Heating Steering Electrical
+Brake sBrake sBrake sBrake sBrakes  Brake pedal Hydraulic cylinders Fluid Brake pad assembly
+Brake pad Assembl yBrake pad Assembl yBrake pad Assembl yBrake pad Assembl yBrake pad Assembl y Pad Mounting plate Rivets
+PPPPPadadadadad Particles A Particles B Chemical bond
+Chemical Bon dChemical Bon dChemical Bon dChemical Bon dChemical Bond  Molecules A Molecules B
+Subsystems for TSubsystems for TSubsystems for TSubsystems for TSubsystems for Technical System sechnical System sechnical System sechnical System sechnical Systems
+
+Metadata:
+{'source': './lev-triz.pdf', 'page': 0}
+==================================================
+
+
+Page 2:
+==================================================
+requires the imaginative reduction of the system to
+its simplest state. In TRIZ, the simplest technical sys-
+tem consists of two elements with energy passing from
+one element to the other.
+Chalk and a blackboard are not, together, a tech-
+nical system unless some energy  (mechanical force)
+passes through the chalk causing it to interact with
+the chalkboard. The technical system   “chalk, black-
+board and applied force” can then become functional
+— a chalkboa rd. Chalk and board, as separate ele-
+ments, are each independent technical systems. Chalk
+has a molecular st ructure. Interaction of di fferent
+chemical elements within its st ructure p roduces a
+bond creating a material called “chalk.” Should the
+quality of the bond require improvement, then the
+technical system of the molecular st ructure must be
+analyzed. At the same time, chalk is a subsystems of
+the supersystem chalkboard.
+All subsystems are interconnected with each other
+within the bounds of the higher system. Changes in
+any one subsystem can produce changes in highe r,
+supersystems. When solving a technical problem al-
+ways consider interactions of the existing technical
+system with those systems above and below it.
+In addition, technical systems are like biological
+systems. They are not immortal. They emerge, ripen
+to maturity, and die — only to be replaced with new
+systems.
+2. Levels of Innovation
+Analysis of a large number of patents reveals that
+not eve ry invention is equal in its inventive value.
+Altshuller proposed five levels of innovation:
+Level #1. A simple improvement of a technical
+system. Requires knowledge available within a trade
+relevant to that system.
+Level #2. An invention that includes the resolu-
+tion of a technical contradiction. Requires knowl-
+edge from different areas within an industry relevant
+to the system.
+Level #3. An invention containing a resolution
+of a physical contradiction. Requires knowledge from
+other industries.
+Level #1 is not really innovative. It provides only
+an improvement to an existing system without solv-
+ing any technical problem. Levels #2 & #3 solve con-
+tradictions, and therefore are innovative by definition.
+Level #4. A new technology is developed con-
+taining a breakthrough solution that requires knowl-
+edge from different fields of science.
+This fourth level also improves upon a technical
+system, but without solving an existing technical
+problem. Instead, it solves the problem by replacing
+the original technology with a new technology.
+Level #5. Discovery of new phenomena.
+Here a new phenomenon is discovered that al-
+lows pushing the existing technology to a higher level.
+Altshuller concluded from his research that a large
+number of patents (77%) belong only to Levels #1
+and #2. The practical utilization of TRIZ methodol-
+ogy can help inventors elevate their innovative solu-
+tions to Levels #3 and #4.
+3. Law of Ideality
+The goal of any technical system is to provide
+some function. Conventional engineering thought
+states: “It is required to deliver such and such a func-
+tion. Therefore, we must build such and such a mecha-
+nism or device.”  TRIZ thinks: “It is required to de-
+liver such and such a function without introducing a
+new mechanism or device into the system.”
+The Law of Ideality states that any technical sys-
+tem, throughout its lifetime, tends to become more
+reliable, simple, effective — more ideal. Eve ry time
+we improve a technical system, we nudge that sys-
+tem closer to Ideality. It costs less, requires less space,
+wastes less energy, etc.
+Ideality always reflects the maximum utilization
+of existing resou rces, both inte rnal and external to
+the system.  The more free or readily available the
+resources utilized, the more ideal the system will be.
+We can judge an inventive work by its degree of
+Ideality. The further an invention is from its Ideal state,
+the more complex the system will be —  and visa versa.
+What happens when a system reaches Ideality?  The
+mechanism disappears, while the function is performed.
+Example: A meat plant in South America ships
+its product to the United States. Refrigeration is
+required during transport to keep the meat frozen.
+The meat is flown to the United States, so refrig-
+eration systems were installed in cargo planes. When
+competition increased, the owner of the plant sought
+to reduce delivery cost. It became obvious that he
+
+Metadata:
+{'source': './lev-triz.pdf', 'page': 1}
+==================================================
+
+
+Page 3:
+==================================================
+must increase the amount of product per air ship-
+ment. Analysis of the situation revealed that he
+could compete better if  the weight of the refrig-
+eration system were replaced with that of meat.
+He did exactly that. Flying at an altitude of 15,000
+- 25,000 feet the air temperature is below 32 o F,
+so no refrigeration system was actually needed. Con-
+clusion: Utilization of existing resources costing
+nothing brought the system closer to Ideality.
+ The art of inventing is the ability to remove bar-
+riers to Ideality in order to qualitatively improve a
+technical system. (In this book we are talking only
+about technical systems. Of course, this statement
+can be applied to any system.)
+There are several ways to make a system more ideal:
+A. Increase the amount of functions of the system.
+Example: An entertainment center contains a ra-
+dio, tape player, CD player, and amplifier.
+B. Transfer as many functions as possible to that
+working element which produces the system’s final
+action.
+Example: A crimping tool also cuts  wire, strips
+insulation, and crimps the terminal to the wire.
+C. Transfer some functions of the system to a
+supersystem or to the outside environment.
+Example: Usually, windows in a green house op-
+erated manually. When the outside temperature is
+low, the windows are closed. When it is hot, the
+windows are opened for better ventilation. A new,
+more ideal system can be developed when the win-
+dows open and close automaticall y. This is ac-
+complished with a temperature sensitive bimetal-
+lic spiral mechanism.
+D. Utilize internal and external resources that al-
+ready exist and are available.
+Example: Comtrad Industries, Inc. of Virginia re-
+cently developed its Spectrum AntennaTM that uti-
+lizes the existing wiring system of a house as an
+additional receptor.
+4. Contradictions
+As mentioned before, the most effective solutions
+are achieved when an inventor solves a technical prob-
+lem that contains a contradiction. When and where
+does a contradiction occur? It occurs when we are
+trying to improve one characteristic, or paramete r,
+of a technical system and cause another characteris-
+tic, or parameter, of the system to deteriorate. A com-
+promise solution is then usually considered.
+A technical system has several characteristics (pa-
+rameters) — weight, size, colo r, speed, rigidity, and
+so on.  These characteristics describe the physical state
+of a technical system. When solving technical prob-
+lems, these characteristics help determine the tech-
+nical contradictions residing in the problem.
+Examples:
+Increasing the power of an engine (positive improve-
+ment) requires an increase in the size of the engine
+(negative effect). So, an inventor considers increas-
+ing the power partially in order to reduce the nega-
+tive effect (compromise solution).
+To increase the speed of an airplane, a new and more
+powerful engine is installed. This inc reases the
+weight of the airplane so the wings can no longer
+support it during takeoff. Increasing the wing size
+produces more drag, slowing the airplane down.
+These are some examples of how improvements
+can produce contradictions. The improvement goals
+were never fully achieved because the root technical
+contradictions were never resolved. These are called
+technical contradictions because they happen inside
+of technical systems. The 40 Principles are used to
+resolve technical contradictions.
+There is another type of contradiction — physi-
+cal contradiction —  appearing when two opposite
+properties are required from the same element of a
+technical system or from the technical system itself.
+There are different methods for resolving physical
+contradictions (separation of contradicto ry require-
+ments in time or space, changing the physical state
+of a substance, etc.).
+Examples:
+Landing gear must be present on an airplane in or-
+der to land and takeoff. It should not be present
+
+Metadata:
+{'source': './lev-triz.pdf', 'page': 2}
+==================================================
+
+
+Page 4:
+==================================================
+during flight because of an increase in air drag. The
+physical contradiction is that the landing gear must
+be both present and absent. This contradiction is
+resolved by separating the requirements in time —
+make the landing gear retractable.
+For high water diving, water must be “ha rd” to
+support the diver and “soft” so as not to injure the
+diver. The physical contradiction: The water must
+be hard and soft at the same time. This contradic-
+tion is resolved by separating the requirements in
+space: Saturate the water with air bubbles — the
+pool contains both air and water.
+5. Evolution of Technical Systems
+Altshuller established eight Patterns, or Lines, of
+technical systems evolution:
+1. Life cycle.
+2. Dynamization.
+3. Multiplication cycle.
+(Transition to Bi- or Poly- system)
+4. Transition from macro to micro level.
+5. Synchronization.
+6. Scaling up or down
+7. Uneven development of parts
+8. Replacement of human (Automation)
+Here are some of these patterns:
+The Pattern of Dynamization suggests that any
+technical system during its evolutionary process makes
+a transition from a rigid to a flexible st ructure. This
+transition can be summarized as follows: A solid sys-
+tem obtains one joint, then many joints, then the
+whole system becomes completely flexible. Dynam-
+ization also means that a ridged system may be di-
+vided into elements that can become moveable rela-
+tive to each other.
+Examples:
+The steering column of a car has a joint allowing
+adjustment of its vertical position.
+An antenna becomes collapsible.
+The landing gear of an airplane folds and retracts.
+A good example of complete Dynamization is a
+screwdriver whose stem is made of two springs, one
+inside the other, with opposite winding directions
+making it completely flexible.
+The Pattern of Multiplication states that a tech-
+nical system evolves first as a single system and then
+later multiplies itself.
+When similar elements are added togethe r, it is
+called a homogeneous system. This combination of
+elements acquires a whole new property.
+Example: Two boats attached through a single
+frame (a catamaran) become more stable than two
+separate boats.
+Different elements added together form a het-
+erogeneous system. Such a system provide s mo re
+functions while occupying less space.
+Example: The pocketknife began its cycle with a
+single blade. Different types of blades were added,
+then scissors, screwdriver, a file and so on.
+Another variation on the heterogeneous system
+involves the addition of an opposite function pro-
+ducing higher levels of innovation.
+Examples:
+A pencil and eraser are joined together.
+A tape recorder can both record and erase.
+The Pattern of Multiplication usually ends with
+the rejection of all extra elements that belong to the
+heterogeneous system  — driving the system back to
+a mono system and thus beginning a new cycle.
+The Pattern of Transition to Micro level states
+that elements of a technical system during its life-
+time have a tendency to decrease in size, eventually
+collapsing into the micro level (molecules and atoms).
+Examples:
+1. A record playing device transitions f rom a
+mechanical needle (having mechanical contact with
+the surface grove of a record) into an optical system
+with a laser reading information on a digital disk.
+2. A computer mouse has a ball that converts me-
+chanical hand movement into an electrical signal.
+The next generation of mouse is a touch plate, where
+the mechanical motion of a finger is transformed
+
+Metadata:
+{'source': './lev-triz.pdf', 'page': 3}
+==================================================
+
+
+Page 5:
+==================================================
+A factory produces a new type of steel. Different
+additives are added into the mix of molten steel. In
+order to prevent the blade of the mixer from melt-
+ing away during the mixing process, the blade must
+have a protective coating. However, this coating may
+pollute the mixture of molten steel.
+2. Standards are the most e ffective method for
+providing a graphical model of a problem. This
+is called S-Field modeling.
+S-Field modeling of a technical system is per-
+formed in the Operating Zone, the area where the
+core of the problem — the actual contradiction —
+occurs. In this area, two substances (elements) and a
+field (energy) must be present. Analysis of the S-Field
+model helps determine changes necessary within the
+technical system in order to improve it.
+The diagram above shows a graphical model of
+the molten steel mixer problem. S1 is the blade, S2 is
+the molten steel, and F2 is the thermal energy of the
+steel that melts blade S1. The wavy arrow represents
+THE MAIN TOOLS OF TRIZ:
+PRINCIPLES
+The tools used to overcome technical contradic-
+tions are called Principles.
+Principles are generic suggestions for pe rform-
+ing an action to, and within, a technical system. For
+instance, Principle #1 (Segmentation) suggests find-
+ing a way to separate one element of a technical sys-
+tem into many small interconnected elements.
+Example: How can we prevent a nail from mak-
+ing a flat tire? The Segmentation principle indi-
+cates we should separate all available internal space
+of the tire into many sections —  hundreds , thou-
+sand, millions....
+The Periodic Action principle means that a con-
+tinuous action should be replaced with a periodic, or
+pulsating, action.
+Example: Watering a lawn with a continuous stream
+of water can damage the soil. A pulsating sprinkler
+system eliminates this problem.
+The 40 Principles described in this book allow
+the development of numerous solution concepts for
+every technical p roblem — without introducing a
+compromise. Implementing a chosen concept still re-
+mains the work of an engineer.
+STANDARDS
+Standards are st ructured rules for the synthesis
+and reconstruction of technical systems. Once un-
+derstood — and with some experience in their imple-
+mentation — Standards can help combat many com-
+plex problems.
+Standards provide two functions:
+1. Standards help to improve an existing system
+or synthesize a new one.
+Examples:
+In order to improve a system, a certain substance
+should be introduced; however, its introduction is
+prohibited by conditions native to the problem.
+into an electrical signal.
+Additive intake
+Cooling substance
+Blades
+Mixer
+A molten steel mixer.
+
+Metadata:
+{'source': './lev-triz.pdf', 'page': 4}
+==================================================
+
+
+Page 6:
+==================================================
+a harmful interaction between the hot molten steel
+(S2) and the blade (S1). To protect the blade, a third
+substance, S3, must be introduced. In this case, S3 is
+a modification of S2. By providing cold (F3) to blade
+S1, a crust from the molten material will develop on
+the blade’s surface and protect it from melting.
+Altshuller offered 72 Standards divided into five
+classes:
+Class #1: Build or destroy an S-Field.
+Class #2: Develop an S-Field.
+Class #3: Transition from the base system to a
+supersystem or to the micro-level.
+Class #4: Measure or detect anything within a
+technical system.
+Class #5: Describes how to introduce sub
+stances or fields into the technical
+system.
+ARIZ
+(Algorithm to Solve an Inventive Problem)
+ARIZ is the central analytical tool of TRIZ.  It
+provides specific sequential steps for developing a
+solution for complex problems.
+The first version of ARIZ was developed in 1968
+and many modifications during the next 20 years re-
+ceived. Over the years, it has become a precise tool
+for solving a wide variety of technical problems.
+The most recent version, ARIZ- 85C, was pub-
+lished in 1985 and contains nine steps. Each step
+includes many sub-steps. Below is brief description
+of the nine steps.
+Step #1. Analysis of the problem.
+Begin by making the transition from vaguely de-
+fined statements of the problem to a simply stated
+(without jargon or terminology specific to any in-
+dustry) mini-problem.
+Example: “A technical system consisting of elements
+A, B, and C has technical contradiction TC (state
+the contradiction). It is necessary to provide required
+function F  (state the function) while incurring  mini-
+mal changes to the system.”
+It is not important that such a result is achiev-
+able; however, it is important to state that the system
+should stay the same — or become even simple r.
+Step #1 also provides for an analysis of conflict-
+ing situations; i.e., technical contradictions. Here a
+decision has to be made as to which contradiction
+should be considered for further resolution. Once
+decided, a model of the problem is formulated.
+Step #2. Analysis of the problem’s model.
+A simplified diagram modeling the conflict in the
+Operating Zone is drawn. (The Operating Zone is a
+specified narrow area of the conflict). Then an as-
+sessment of all available resources is made.
+Step #3. Formulation of the Ideal Final Re-
+sult (IFR).
+Usually, the statement of the IFR reveals contra-
+dictory requirements to the critical component of the
+system in the Operating Zone. This is the Physical
+Contradiction.
+As a result of these first three steps, a vague prob-
+lem is transformed into a specific physical problem —
+the Physical Contradiction.
+In many cases the problem is solved by the end of
+Step #3. If so, you can p roceed to steps 7, 8 and 9.
+There are several additional steps in ARIZ that provide
+more recommendations for resolving a contradiction.
+Step #4. Utilization of outside substances and
+field resources.
+If the problem remains unclear, the “Small Min-
+iature Man” model f rom Step #4 is imaginatively
+applied in order to better understand the problem.
+Step #5. Utilization of informational data
+bank.
+Consider solving the problem by applying Standards
+in conjunction with a database of physical effects.
+Step 6. Change or reformulate the problem.
+If the problem has still not been solved, ARIZ rec-
+ommends returning to the starting point and reformu-
+lating the problem in respect to the supersystem. This
+looping process can be done several times.
+The following steps apply once a solution has been
+found:
+Step 7. Analysis of the method that removed
+the Physical Contradiction.
+The main goal of this step is to check out the
+
+Metadata:
+{'source': './lev-triz.pdf', 'page': 5}
+==================================================
+
+
+Page 7:
+==================================================
+quality of a solution: Has the Physical Contradiction
+been removed most ideally?
+Step 8. Utilization of found solution.
+This step guides you through an analysis of effects the
+new system may have on adjacent systems. It also forces the
+search for applications to other technical problems.
+Step 9.  Analysis of steps that lead to the
+solution.
+This is a check point where the real process used to
+solve a problem is compared with that suggested by
+ARIZ. Deviations are analyzed for possible future use.
+Mastering the powerful TRIZ tools requires many
+hours of stud y, along with working many practice
+problems. We hope that other books in this series
+will help you accomplish this task.
+
+Metadata:
+{'source': './lev-triz.pdf', 'page': 6}
+==================================================
