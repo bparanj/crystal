@@ -2,6 +2,8 @@ from langchain_community.document_loaders import TextLoader
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_postgres.vectorstores import PGVector
+from langchain_core.documents import Document
+
 from pprint import pprint
 
 # brew install postgresql
@@ -75,4 +77,34 @@ for i, (doc, score) in enumerate(search_results_with_scores, 1):
 
 # Continue from db.add_documents([Document...
 
+# After adding documents, here's how to delete specific documents
+# Instead of using ids, we need to use metadata
 
+# Add documents (without specifying ids since PGVector doesn't use them)
+db.add_documents([
+    Document(
+        page_content="there are rabbits in the yard", 
+        metadata={"location": "yard", "topic": "animals", "doc_id": "1"}
+    ),
+    Document(
+        page_content="ducks are also found in the yard", 
+        metadata={"location": "yard", "topic": "animals", "doc_id": "2"}
+    )
+])
+
+# To delete a specific document, use metadata filtering
+
+# This will delete the document about ducks
+# db.delete(
+#     {"page_content": "ducks are also found in the yard"}
+# )
+
+# Or delete by metadata
+db.delete(
+    {"doc_id": "2"}
+)
+
+# To delete all documents with specific metadata
+# db.delete(
+#     {"location": "yard", "topic": "animals"}
+# )
