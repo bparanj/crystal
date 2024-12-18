@@ -38,4 +38,3 @@ def choose_route(result):
         return "chain for js_docs"
 
 full_chain = router | RunnableLambda(choose_route)
-

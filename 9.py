@@ -24,4 +24,3 @@ def qa(input):
     return answer
 
 qa.invoke("What is TRIZ?")
-

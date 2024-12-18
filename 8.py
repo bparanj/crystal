@@ -63,5 +63,3 @@ def multi_query_qa(input):
     return answer
 
 multi_query_qa.invoke("What is TRIZ?")
-
-

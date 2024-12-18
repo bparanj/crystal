@@ -21,4 +21,3 @@ docs = retriever.invoke("What is TRIZ?")
 retriever = db.as_retriever(search_kwargs={"k": 2})
 # fetch the 2 most relevant documents
 docs = retriever.invoke("What is TRIZ?")
-

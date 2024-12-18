@@ -11,4 +11,3 @@ chain = prompt | llm
 # fetch relevant documents
 docs = retriever.get_relevant_documents("What is TRIZ?")
 chain.invoke({"context": docs, "question": "What is TRIZ?"})
-

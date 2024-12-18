@@ -20,5 +20,3 @@ def qa(input):
     return {"answer": answer, "docs": docs}
 
 qa.invoke("What is TRIZ?")
-
-

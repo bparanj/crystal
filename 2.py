@@ -9,5 +9,3 @@ index(
     record_manager,
     vectorstore,
     cleanup='incremental')
-
-
