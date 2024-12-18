@@ -14,4 +14,18 @@ def get_unique_union(document_lists):
     return list(deduped_docs.values())
 
 retrieval_chain = query_gen | retriever.batch | get_unique_union
-prompt = ...
+prompt = ChatPromptTemplate.from_template("""Answer the following question based on this context:
+                                          {context}
+                                          Question: {question}""")
+llm = ChatOpenAI(temperature=0)
+@chain
+def multi_query_qa(input):
+    # fetch relevant documents
+    docs = retrieval_chain.invoke(input)
+    # format prompt
+    formatted = prompt.invoke({"context": docs, "question": input})
+    # generate answer
+    answer = llm.invoke(formatted)
+    return answer
+
+multi_query_qa.invoke("What is TRIZ?")
