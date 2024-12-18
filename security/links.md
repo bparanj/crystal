@@ -1,3 +1,6 @@
+Funding via Github
+https://www.youtube.com/watch?v=VursLz2IpnY
+
 www.isecom.org/OSSTMM.3.pdf
 csrc.nist.gov/publications/detail/sp/800-115/final
 www.owasp.org/images/1/19/OTGv4.pdf
