@@ -1,4 +1,4 @@
-Install the Go from its website.
+Install Go from its website.
 
 To define the `GOPATH` on a Mac, follow these steps:
 
