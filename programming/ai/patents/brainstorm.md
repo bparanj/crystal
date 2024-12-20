@@ -312,3 +312,12 @@ If your input data is **patents in cybersecurity**, the focus shifts to analyzin
 ---
 
 By combining these tools, you can create a comprehensive pipeline to process, analyze, and extract insights from patents in **cybersecurity threat detection**. This will enable you to identify trends, evaluate innovation levels, and uncover new opportunities in the field.
+
+You don’t need reinforcement learning-based fine-tuning for this task. Instead, you should perform standard supervised fine-tuning.
+
+**Reasoning:**  
+- If you have a dataset of cybersecurity patent text, you can fine-tune your base model using regular supervised training. This means providing the model with example inputs (patent text) and possibly target outputs (e.g., next-token prediction in a language modeling setup), so that it adapts its weights to this domain-specific data.
+- Reinforcement learning-based approaches (like RLHF) are more often used to align models with human preferences, correct unwanted behaviors, or enforce certain policies. They are not the standard approach for domain adaptation.
+- For your purpose—teaching the model to better understand and generate text related to cybersecurity patents—standard fine-tuning, possibly using a language model objective, is the typical method.
+
+AI-driven TRIZ analysis of cybersecurity patents reveals novel threat detection insights, strengthening your patent portfolio and IP strategy.
