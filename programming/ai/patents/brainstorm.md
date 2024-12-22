@@ -1,19 +1,24 @@
-You can apply Altshuller's systematic approach to analyze cybersecurity patents in threat detection using AI by adapting his methodology to focus on patterns, contradictions, and inventive principles specific to this domain. Here's a step-by-step guide:
+You can apply Altshuller's systematic approach to analyze cybersecurity patents in threat detection using AI by adapting his methodology to focus on patterns, contradictions, and inventive principles specific to this domain. 
 
 ---
 
 ### 1. **Define the Scope**
-   - Focus on patents specifically related to **AI-based threat detection**.
+   - Focus on patents specifically related to **Cybersecurity threat detection**. 
+        - This is not applying AI to detect threats. It is about analyzing existing patents to extract insights similar to Altshuller. 
    - Collect a significant sample size of patents for analysis (e.g., patents involving machine learning models, anomaly detection systems, intrusion detection methods).
+        - What is a significant sample size to use?
 
 ---
 
 ### 2. **Categorize the Problems and Solutions**
-   - **Identify Problems:** Break down each patent into the specific cybersecurity problem it addresses. For example:
+   - **Identify Problems:** Break down each patent into the specific cybersecurity problem it addresses. Can we use the existing libraries to identify the problem?
+
+   For example:
      - Identifying zero-day attacks.
      - Detecting malicious insider behavior.
      - Filtering false positives in anomaly detection.
-   - **Understand Solutions:** Extract the essence of the AI-based solution:
+   - **Understand Solutions:** Extract the essence of the solution:
+        The scope does not include coming up with any AI-based solution.
      - Techniques used (e.g., supervised learning, unsupervised learning, reinforcement learning).
      - Innovations in algorithm design or deployment.
 
@@ -21,10 +26,10 @@ You can apply Altshuller's systematic approach to analyze cybersecurity patents 
 
 ### 3. **Identify Contradictions**
    - Look for **technical contradictions** in the problem and solution:
-     - Example: Improving threat detection accuracy often increases computation time, reducing real-time responsiveness.
+     - Example: Improving threat detection accuracy often increases computation time, reducing real-time responsiveness. Can this be done by any existing libraries reliably?
    - Examine how the patent resolves these contradictions:
      - Using lightweight models to balance accuracy and speed.
-     - Combining AI with rule-based systems to improve interpretability.
+     - Combining AI with rule-based systems to improve interpretability. 
 
 ---
 
@@ -32,7 +37,7 @@ You can apply Altshuller's systematic approach to analyze cybersecurity patents 
    - Abstract specific solutions into **universal problem-solving strategies**.
    - For instance:
      - **Data Optimization:** Techniques to reduce data requirements while maintaining high accuracy.
-     - **Explainability:** Strategies to make AI predictions more interpretable for security analysts.
+     - **Explainability:** Strategies to make AI predictions more interpretable for security analysts. This is not relevant.
      - **Scalability:** Approaches to ensure models can handle high network traffic in real-time.
 
 ---
@@ -42,14 +47,14 @@ You can apply Altshuller's systematic approach to analyze cybersecurity patents 
      - Use of ensemble methods for improving detection accuracy.
      - Integration of AI with traditional signature-based systems.
      - Utilization of real-time data streams for adaptive learning.
-   - Categorize these as **patterns of innovation** in AI-driven cybersecurity.
+   - Categorize these as **patterns of innovation** in cybersecurity.
 
 ---
 
 ### 6. **Analyze the Levels of Innovation**
    - Classify each patent according to its inventive level:
-     - **Level 1:** Minor tweaks to existing AI models (e.g., adjusting hyperparameters).
-     - **Level 2:** Improvements in existing AI methods for better threat detection (e.g., new feature extraction techniques).
+     - **Level 1:** Minor tweaks to existing cybersecurity patents.
+     - **Level 2:** Improvements in existing cybersecurity threat detection methods for better threat detection (e.g., new feature extraction techniques).
      - **Level 3:** Novel applications of AI in specific security contexts (e.g., using federated learning for distributed systems).
      - **Level 4:** Cross-disciplinary innovations (e.g., combining quantum computing with AI for encryption analysis).
      - **Level 5:** Breakthroughs (e.g., completely new paradigms in AI for detecting advanced persistent threats).
@@ -176,7 +181,7 @@ To analyze patents in the domain of **cybersecurity with AI as a tool** and **th
 
 This structured approach will allow you to systematically study AI-based cybersecurity patents, uncover reusable principles, and contribute meaningful advancements in the field of threat detection.
 
-If your input data is **patents in cybersecurity**, the focus shifts to analyzing and extracting valuable insights from patent documents. You’ll need tools and libraries to process text data, extract relevant information, and apply AI to detect patterns or trends. Here’s a list of open-source libraries and tools tailored for this specific use case:
+If your input data is **patents in cybersecurity**, the focus shifts to analyzing and extracting valuable insights from patent documents. You’ll need tools and libraries to process text data, extract relevant information, and apply AI to detect patterns or trends.
 
 ---
 
