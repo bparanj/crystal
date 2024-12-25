@@ -3,6 +3,16 @@
 - [Deep Learning Illustrated](https://github.com/the-deep-learners/deep-learning-illustrated)
 - [GenAI Foundations](https://github.com/robbarto2/GenAI-Foundations)
 - [Deep Learning](https://github.com/sinanuozdemir/oreilly-pytorch-dl)
+- [LangChain Programming for Beginners](https://github.com/codewithnathan97/langchain-python)
+- [Groq Python Library](https://github.com/groq/groq-python)
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands) 39.1k
+- [Llama Chat Engine](https://github.com/developersdigest/llm-answer-engine)
+- [RAG Chat with PDF](https://github.com/sudarshan-koirala/rag-chat-with-pdf)
+- [Groq Docs](https://docs-chat.groqcloud.com/)
+
+## Experiments
+
+- [OpenHands](https://docs.all-hands.dev/modules/usage/installation)
 
 ## Videos
 
@@ -12,3 +22,7 @@
 - [Deep Learning and NLP Video](https://learning.oreilly.com/course/deep-learning-for/9780136620013/)
 - [Deep Learning Video](https://learning.oreilly.com/course/deep-learning-with/9780136617617/)
 - [Machine Learning Video](https://learning.oreilly.com/course/machine-learning-with/9780135474198/)
+
+## Books
+
+- [AI Business](https://learning.oreilly.com/library/view/artificial-intelligence-business/9781800566514/Text/Artificial_inter-8.xhtml#sigil_toc_id_21)
