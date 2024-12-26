@@ -4,11 +4,7 @@ The **WipeOS appliance** is a dedicated hardware device, but without typical per
 - It operates on the network, communicating with client machines to facilitate disk wiping.
 - It is designed to be **headless** (no monitor, keyboard, or mouse), and administrators manage it remotely, often through a web portal or command-line interface.
 
-<<<<<<< Updated upstream
-The appliance  connects to the local network and works by booting client machines via PXE (network boot) to initiate the disk wiping process. It's specialized hardware or software pre-configured to handle these operations efficiently.
-=======
 The appliance connects to the local network and works by booting client machines via PXE (network boot) to initiate the disk wiping process. It's specialized hardware or software pre-configured to handle these operations efficiently.
->>>>>>> Stashed changes
 
 You can use a ThinkPad running Ubuntu to implement the functionality of a WipeOS appliance. The core requirements of a WipeOS appliance are its ability to manage data wiping tasks over a network, such as booting client machines via PXE and running disk wiping operations. These functionalities can be achieved on an Ubuntu-based machine.
 
@@ -131,6 +127,7 @@ To implement the functionality provided by the WipeOS appliance, a Linux distrib
      - Parted Magic is designed for secure data erasure and partitioning, with a clear focus on compliance with wiping standards, which aligns with WipeOS's functionality.
 
 ### Recommendation:
+
 For the closest experience to WipeOS:
 - **ShredOS** is a great option if you're focused on secure disk wiping without extra functionality.
 - If you need PXE booting and wiping for multiple machines, **Clonezilla SE** might offer the best balance between flexibility and network-based operations.
@@ -304,4 +301,3 @@ If none of these tools fully match your needs, you can start by combining **Shre
 - **Logging & Remote Management**: If logging or remote management is required, consider adding a web interface for remote control or integrating SSH-based management tools.
   
 This approach lets you start with minimal open-source tools and extend them over time as needed, much like WipeOS.
-
