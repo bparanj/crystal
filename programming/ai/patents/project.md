@@ -1,4 +1,4 @@
-Your project’s unique focus on applying **TRIZ methodology** to analyze patents using **AI** makes it distinct from other existing open-source projects. None of the listed projects align precisely with this goal. Let’s break this down in the context of **TRIZ’s approach** and **AI capabilities**:
+Your project’s unique focus on applying **TRIZ methodology** to analyze patents using **AI** makes it distinct from other existing open-source projects. None of the listed projects align with this goal. Let’s break this down in the context of **TRIZ’s approach** and **AI capabilities**:
 
 ---
 
@@ -46,16 +46,11 @@ Your project’s unique focus on applying **TRIZ methodology** to analyze patent
 
 ---
 
-### **Conclusion**
-Your project is unique in combining **TRIZ-inspired patent analysis** with **AI-driven automation**. This approach does not overlap with existing open-source projects, making it a pioneering effort in the field. It has the potential to provide actionable insights for innovation, particularly in a critical domain like cybersecurity. 
+Your project is unique in combining **TRIZ-inspired patent analysis** with **AI-driven automation**. This approach does not overlap with existing open-source projects, making it a pioneering effort in the field. It can provide actionable insights for innovation, in a critical domain like cybersecurity. 
 
 ---
 
-
-
----
-
-None of the open-source projects listed have the **exact same goal** as your project—integrating **AI-driven patent analysis** specifically for **cybersecurity threat detection**. However, there are overlaps in functionality, focus areas, or methodologies. Here's a closer evaluation of how they relate:
+None of the open-source projects listed have the **exact same goal** as your project—integrating **AI-driven patent analysis** specifically for **cybersecurity threat detection**. However, there are overlaps in functionality, focus areas, or methodologies. 
 
 ---
 
@@ -107,7 +102,6 @@ None of the open-source projects listed have the **exact same goal** as your pro
 
 ---
 
-### **Conclusion**  
 None of these projects combine **cybersecurity** and **AI-driven patent analysis** with the specific goals of:
 1. Identifying innovation trends in threat detection.
 2. Extracting contradictions from patent claims.

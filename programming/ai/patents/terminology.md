@@ -1,6 +1,6 @@
 If a model is trained in aero space, physics, auto industry does it require fine tuning to translate the concepts used across different industries to innovate to apply to a new untrained field like cybersecurity for building an AI application
 
-Yes, fine-tuning is generally necessary when applying a model trained in one domain to a different domain, such as from aerospace, physics, or the auto industry to cybersecurity. Here are some reasons why fine-tuning is important:
+Yes, fine-tuning is generally necessary when applying a model trained in one domain to a different domain, such as from aerospace, physics, or the auto industry to cybersecurity. Reasons why fine-tuning is important:
 
 ### 1. **Domain-Specific Knowledge**
    - **Terminology and Concepts**: Each industry has its own specific terminology, concepts, and jargon. A model trained in aerospace might not be familiar with the specific language and concepts used in cybersecurity.

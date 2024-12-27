@@ -1,4 +1,4 @@
-The Transformer architecture is indeed powerful and versatile, but applying concepts learned in one field directly to another without any fine-tuning or additional training is quite challenging. Here's why:
+The Transformer architecture is indeed powerful and versatile, but applying concepts learned in one field directly to another without any fine-tuning or additional training is challenging. 
 
 ### **Limitations Without Fine-Tuning:**
 1. **Domain Specificity**: Transformers are initially trained on specific types of data, which means they learn patterns and terminology unique to that domain. Applying these directly to another domain may not yield accurate results.

@@ -1,6 +1,6 @@
 ### **Guide to Preparing Labeled Data for Fine-Tuning**
 
-Fine-tuning an existing model requires **high-quality labeled data** that represents your specific tasks (e.g., extracting contradictions, summarizing patents, or classifying TRIZ principles). Below is a step-by-step guide:
+Fine-tuning an existing model requires **high-quality labeled data** that represents your specific tasks (e.g., extracting contradictions, summarizing patents, or classifying TRIZ principles). 
 
 ---
 
@@ -171,7 +171,7 @@ help setting up annotation tools or fine-tuning pipelines
 
 ---
 
-The examples provided earlier are not using **Reinforcement Learning (RL)**; they are based on **supervised learning** techniques, which are better suited for tasks like **named entity recognition (NER)**, **classification**, and **summarization** because they rely on labeled datasets. However, **Reinforcement Learning (RL)** can be applied in specific parts of this project, especially where decision-making and optimization are involved. Here's a breakdown:
+The examples provided earlier are not using **Reinforcement Learning (RL)**; they are based on **supervised learning** techniques, which are better suited for tasks like **named entity recognition (NER)**, **classification**, and **summarization** because they rely on labeled datasets. However, **Reinforcement Learning (RL)** can be applied in specific parts of this project, especially where decision-making and optimization are involved.
 
 ---
 
@@ -242,7 +242,7 @@ The examples provided earlier are not using **Reinforcement Learning (RL)**; the
 2. **Train the Agent**:
    - Use an RL library like OpenAI's `stable-baselines` or Hugging Face's `transformers` with RL capabilities.
 
-   Example pseudocode:
+   Pseudocode:
    ```python
    from transformers import AutoTokenizer, AutoModelWithLMHead
    from stable_baselines3 import PPO
@@ -287,5 +287,4 @@ The examples provided earlier are not using **Reinforcement Learning (RL)**; the
 
 ---
 
-### **Conclusion**
-While the provided examples use **supervised learning**, reinforcement learning can complement or even replace parts of the workflow where dynamic exploration, optimization, or creative resolution is needed. If you’d like, I can help design a specific RL-based solution for one of the tasks in your project.
+While the provided examples use **supervised learning**, reinforcement learning can complement or even replace parts of the workflow where dynamic exploration, optimization, or creative resolution is needed. Design a specific RL-based solution for one of the tasks in your project.

@@ -1,4 +1,4 @@
-Yes, fine-tuning an **existing model** is a viable and often efficient alternative to building models from scratch for this project. Here’s why and how fine-tuning can be applied to your **AI-powered TRIZ-inspired cybersecurity patent analysis**:
+Fine-tuning an **existing model** is a viable alternative to building models from scratch for this project. Here’s why and how fine-tuning can be applied to your **AI-powered TRIZ-inspired cybersecurity patent analysis**:
 
 ---
 
@@ -55,7 +55,7 @@ Fine-tune the model for the following tasks:
 #### **2. Fine-Tune the Model**
 - Use frameworks like **Hugging Face Transformers** for fine-tuning.
 
-Example for NER using Hugging Face:
+NER using Hugging Face:
 ```python
 from transformers import AutoTokenizer, AutoModelForTokenClassification, Trainer, TrainingArguments
 
@@ -105,7 +105,7 @@ trainer.train()
 
 ### **Challenges**
 1. **Data Labeling**:
-   - Fine-tuning requires labeled data. You’ll need to annotate contradictions, resolutions, and TRIZ principles in a subset of patents.
+   - Fine-tuning requires labeled data. You need to annotate contradictions, resolutions, and TRIZ principles in a subset of patents.
    - Use tools like **Prodigy** or **Label Studio** to streamline annotation.
 
 2. **Computational Power**:
@@ -113,8 +113,7 @@ trainer.train()
 
 ---
 
-### **Conclusion**
-Fine-tuning an existing model is an efficient, practical approach to implementing CyberShu. It allows you to quickly adapt powerful pre-trained NLP models for your specific goals, uncovering new insights in patent data analysis with less time and computational effort. 
+Fine-tuning an existing model is a practical approach to implementing CyberShu. You can quickly adapt powerful pre-trained NLP models for your specific goals, uncovering new insights in patent data analysis with less time and computational effort. 
 
 Guidance on preparing labeled data for fine-tuning or setting up a training pipeline?
 
