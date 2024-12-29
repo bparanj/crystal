@@ -1,0 +1,1 @@
+The component that handles the initial pre-trained model and fine-tuning the model in RAG AI application is called the **“model management pipeline”** (or **“model adaptation pipeline”**). It oversees the lifecycle of the pre-trained model, including tasks like loading the base model, fine-tuning with domain-specific data, and versioning updated model checkpoints.

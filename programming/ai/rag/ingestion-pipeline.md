@@ -1,0 +1,1 @@
+Data collection, processing, storage, and retrieval in RAG AI application is end-to-end process—collecting, processing, storing, and retrieving data—is called the **ingestion pipeline** (or **data/knowledge ingestion pipeline**) in a RAG system. It covers all steps from raw data ingestion to indexing and retrieval.
