@@ -279,8 +279,6 @@ be concise and as short as possible.
 
 
 
-
-
 Start on this after finishing the Unlocking Data:
 
 https://github.com/Denis2054/RAG-Driven-Generative-AI/blob/main/Chapter01/RAG_Overview.ipynb

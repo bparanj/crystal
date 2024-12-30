@@ -1,3 +1,4 @@
+https://github.com/assafelovic/gpt-researcher
 https://github.com/deepseek-ai/DeepSeek-Coder
 https://github.com/PacktPublishing/Building-Autonomous-AI-Agents-with-LangGraph
 https://github.com/lazyprogrammer/machine_learning_examples
