@@ -4,6 +4,7 @@
 - [GenAI Foundations](https://github.com/robbarto2/GenAI-Foundations)
 - [Deep Learning](https://github.com/sinanuozdemir/oreilly-pytorch-dl)
 - [LangChain Programming for Beginners](https://github.com/codewithnathan97/langchain-python)
+		Continue from here: https://github.com/codewithnathan97/langchain-python/blob/main/12_Uploading_Different_Document_Types/app_gpt.py
 - [Groq Python Library](https://github.com/groq/groq-python)
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) 39.1k
 - [Llama Chat Engine](https://github.com/developersdigest/llm-answer-engine)
