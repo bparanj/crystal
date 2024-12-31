@@ -1,3 +1,4 @@
+https://github.com/cline/cline
 https://github.com/assafelovic/gpt-researcher
 https://github.com/deepseek-ai/DeepSeek-Coder
 https://github.com/PacktPublishing/Building-Autonomous-AI-Agents-with-LangGraph

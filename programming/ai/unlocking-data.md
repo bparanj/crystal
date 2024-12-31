@@ -217,9 +217,18 @@ Print the relevance score, answer and retrieved docs
 
 ## Hybrid Ensemble
 
-...
+- Create ensemble retriever
+- Use a RAG prompt from hum
+- Create Relevance Check Prompt
 
+This chain assigns a formatted version of the documents (“context”) to two parallel branches. One branch produces a “relevance_score” (by templating the question and context, then sending it to the LLM). The other branch produces an “answer” (by applying a prompt to the context, sending it to the LLM). Finally, it merges these results and uses a conditional function to produce the “final_answer.”
 
+It runs two inputs in parallel—“context” is retrieved by `ensemble_retriever` and “question” just passes through—then feeds both to `rag_chain_from_docs`. The result is assigned as “answer.”
+
+Invoke user query
+Print retrieved docs with relevance score
+
+## RAGA Eval
 
 
 
