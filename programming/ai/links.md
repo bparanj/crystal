@@ -13,7 +13,8 @@
 
 ## Experiments
 
-
+- [Google Workspace Marketplace](https://developers.google.com/workspace/marketplace/how-to-publish)
+- [Model Distillation](https://cookbook.openai.com/examples/leveraging_model_distillation_to_fine-tune_a_model)
 
 ## Videos
 
@@ -27,4 +28,5 @@
 ## Books
 
 - [AI Business](https://learning.oreilly.com/library/view/artificial-intelligence-business/9781800566514/Text/Artificial_inter-8.xhtml#sigil_toc_id_21)
+
 
