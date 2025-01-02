@@ -37,7 +37,7 @@ Smaller tasks you can illustrate with a line chart:
    - Show how the loss function decreases (or not) as training proceeds.
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 
 **Project Description: “Loss over Time” Line Chart**
 
@@ -80,7 +80,7 @@ Devin:
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 
 **Project Description: “Accuracy Over Time” Line Chart**
 
@@ -145,7 +145,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Comparison of Training vs. Validation Metrics”**
 
 1. **Data Requirements**  
@@ -209,7 +209,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Multiple Runs or Hyperparameters” Line Chart**
 
 1. **Data Requirements**  
@@ -267,7 +267,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Early Stopping Detection”**
 
 1. **Goal**  
@@ -341,7 +341,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Dimensionality Reduction Visualization”**
 
 1. **Concept Overview**  
@@ -406,7 +406,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project.Deploy every change and after every feedback.  Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Cluster Visualization”**
 
 1. **Goal**  
@@ -465,7 +465,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Classification Boundaries”**
 
 1. **Goal**  
@@ -536,7 +536,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Deploy every change and after every feedback. Sample data must be different from default data used in the display. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Outlier Detection”**
 
 1. **Goal**  
@@ -596,7 +596,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Deploy every change and after every feedback. Sample data must be different from default data used in the display of the graph. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Data Distribution and Overlap”**
 
 1. **Goal**  
@@ -665,7 +665,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Deploy every change and after every feedback. Sample data must be different from default data used in the display. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Feature Importance Ranking”**
 
 1. **Goal**  
@@ -725,7 +725,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Deploy every change and after every feedback. Sample data must be different from default data used in the display. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Model Performance Comparison”**
 
 1. **Goal**  
@@ -783,7 +783,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Deploy every change and after every feedback. Sample data must be different from default data used in the display. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Hyperparameter Impact”**
 
 1. **Goal**  
@@ -840,7 +840,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Deploy every change and after every feedback. Sample data must be different from default data used in the display. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Dataset Variations”**
 
 1. **Goal**  
@@ -897,7 +897,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Class Distribution”**
 
 1. **Goal**  
@@ -958,10 +958,10 @@ Describe to a junior front end developer the project description for:
 Do not write code. Create a high level description for the junior developer can use for implementing this task using d3js. Tell only what needs to be done. Not how it needs to be done. Interactivity must be implemented such that the user learns by interacting with the chart and providing some data. Provide sample data that covers enough cases to understand the concept. Define the data format provided by the user and validation rules to implement.
 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Correlation Matrix”**
 
 1. **Goal**  
@@ -1021,10 +1021,10 @@ Describe to a junior front end developer the project description for:
 
 Do not write code. Create a high level description for the junior developer can use for implementing this task using d3js. Tell only what needs to be done. Not how it needs to be done. Interactivity must be implemented such that the user learns by interacting with the chart and providing some data. Provide sample data that covers enough cases to understand the concept. Define the data format provided by the user and validation rules to implement.
 
-Add this page to the existing main Streamlit App. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use streamlit to develop:
+Add this page to the existing main Streamlit App. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use streamlit to develop and deploy to make it publicly available on the internet::
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Confusion Matrix”**
 
 1. **Goal**  
@@ -1083,7 +1083,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Attention Map”**
 
 1. **Goal**  
@@ -1164,7 +1164,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Feature-Feature Interactions”**
 
 1. **Goal**  
@@ -1225,7 +1225,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Pairwise Similarity”**
 
 1. **Goal**  
@@ -1290,7 +1290,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Knowledge Graph Visualization”**
 
 1. **Goal**  
@@ -1356,7 +1356,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Relationship Inference”**
 
 1. **Goal**  
@@ -1425,7 +1425,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Graph Clustering”**
 
 1. **Goal**  
@@ -1497,7 +1497,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Node Influence”**
 
 1. **Goal**  
@@ -1569,7 +1569,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Neural Network Topology”**
 
 1. **Goal**  
@@ -1667,7 +1667,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Data Pipeline Flow”**
 
 1. **Goal**  
@@ -1736,7 +1736,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Feature Extraction”**
 
 1. **Goal**  
@@ -1810,7 +1810,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Model Input/Output Distribution”**
 
 1. **Goal**  
@@ -1878,7 +1878,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Resource Consumption”**
 
 1. **Goal**  
@@ -1941,7 +1941,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Error/Dropout Tracking”**
 
 1. **Goal**  
@@ -2017,7 +2017,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Decision Tree Breakdown”**
 
 1. **Goal**  
@@ -2107,7 +2107,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Hierarchical Clustering”**
 
 1. **Goal**  
@@ -2197,7 +2197,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Nested Feature Categories”**
 
 1. **Goal**  
@@ -2297,7 +2297,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Model Architecture”**
 
 1. **Goal**  
@@ -2390,7 +2390,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Domain Taxonomy”**
 
 1. **Goal**  
@@ -2494,7 +2494,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Dataset Composition by Class”**
 
 1. **Goal**  
@@ -2551,7 +2551,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet:
 **Project Description: “Nested Feature Grouping”**
 
 1. **Goal**  
@@ -2629,7 +2629,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Model Components Distribution”**
 
 1. **Goal**  
@@ -2684,7 +2684,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description: “Hierarchical Resource Allocation”**
 
 1. **Goal**  
@@ -2779,7 +2779,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **Project Description (High-Level)**  
 You need to build an interactive data visualization that shows how various error types (or root causes) contribute to overall issues, and which subcategories dominate or need priority fixes. Users will input a set of error data, and the chart should help them understand the distribution and severity of errors by letting them hover or click on different segments to see more details. The user’s interaction with the chart should guide them to learn which errors have the largest impact and deserve immediate attention.
 
@@ -2882,7 +2882,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Feature Distribution Visualization)**  
 You need to create a chart that places each *feature* on its own vertical axis and draws a line for every data instance as it “weaves” through these feature axes. This shows how each instance’s values change across multiple features. The goal is to let users see patterns, anomalies, or clusters in how data points align or diverge across various features.
 
@@ -3000,7 +3000,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Feature Correlation)**  
 You need to create a chart that shows how changes in one feature correlate with changes in another across multiple data points. The goal is for users to observe patterns or divergences in how features move together, as well as identify groups of data that behave similarly. Each data point (or instance) should be visible on the chart in a way that reveals how correlated the features are. Users will interact with this chart—hovering or clicking to see details, filter items, or otherwise explore patterns.
 
@@ -3121,7 +3121,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Class Differentiation)**  
 You need to create a visualization that displays data lines (or paths) and color-codes them based on each instance’s class label. The primary goal is for users to see if certain classes cluster around similar feature ranges, or if they visibly diverge from one another. The user will provide data, interact with the chart to highlight or filter specific classes, and learn how different classes behave across various features.
 
@@ -3256,7 +3256,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Outlier Identification)**  
 You need to build a visualization that helps users spot data instances (often drawn as lines or paths) that significantly deviate on one or more features. An “outlier” in this context means an instance whose feature values are unusually high, low, or otherwise distinct from the majority. The user will interact with the chart, highlight or filter lines, and see which points are unusually different so they know where to investigate further.
 
@@ -3381,7 +3381,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Feature Tuning)**  
 You need to create a visualization that demonstrates how altering or transforming feature scales (e.g., normalizing, standardizing, or applying log transformations) can affect the way data points cluster or separate. By interacting with the chart, the user will experiment with different feature transformations and see which ones clarify or obscure patterns. The user’s goal is to learn how changes to feature scales can impact the apparent structure or grouping in the data.
 
@@ -3512,7 +3512,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Data Ingestion and Validation)**  
 You need to visualize the process of how raw data enters a pipeline and demonstrate the validation checks that ensure data quality. By interacting with the chart, users will see where data comes from, how it’s structured, and what rules govern acceptance or rejection of each data record. The user will provide sample data, step through a validation process, and learn how improperly formatted or incorrect data is flagged or removed from the pipeline.
 
@@ -3636,7 +3636,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Preprocessing Steps)**  
 You will create a data visualization that illustrates the transformations applied to raw data before it’s used in further analysis or modeling. This includes showing how records are cleaned, normalized, and how new features (feature engineering) are constructed. Also, you’ll highlight decision points such as whether to fill missing values or drop them. The user will interact with the chart to see how each step affects the data.
 
@@ -3768,7 +3768,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Model Training Lifecycle)**  
 You will create a visualization that highlights how data flows into a machine learning model’s training stage. The chart should show each phase, including hyperparameter tuning, validation checks, and checkpoint saving. The user will interact with this visualization, input some basic parameters, and see how those parameters affect each stage in the training lifecycle.
 
@@ -3896,7 +3896,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Evaluation and Feedback)**  
 In this visualization, you will illustrate the evaluation stages (where model performance is measured by metrics or human review) and the feedback loops that feed into retraining or parameter tuning. The user can interact with the chart to see how performance results guide adjustments to the model, hyperparameters, or even the data itself. This provides a dynamic picture of continuous improvement in a machine learning workflow.
 
@@ -4042,7 +4042,7 @@ Do not write code. Create a high level description for the junior developer can 
 Create a new project. Sample data must be different from default data used in the display.  Deploy every change and after every feedback. Use d3js to develop:
 
 Add this page to the existing main Streamlit App. 
-Use streamlit to develop:
+Use streamlit to develop and deploy to make it publicly available on the internet::
 **High-Level Project Description (Deployment and Monitoring)**  
 You will create a visualization that demonstrates how a trained model transitions into a production environment, and how it’s monitored in real-time. This includes showing different model versions, how traffic flows to the deployed model, and what happens when errors or performance thresholds are triggered. The user will interact with the chart to simulate incoming data, track performance metrics, and see how error handling or version rollbacks occur.
 
