@@ -86,3 +86,73 @@
   - Trust issues with compliance despite SOC 2 certification.
 
 ---
+
+**Thoughtworks Tech Radar Format**
+
+---
+
+### **Adopt**
+
+1. **Phi-4 Model by Microsoft**  
+   Microsoft’s Phi-4 model, released under the MIT license, offers strong reasoning capabilities and fine-tuning flexibility while maintaining a small size (14B parameters).  
+   - *Why Adopt?* Open-source licensing and competitive performance make it a practical choice for reasoning tasks and smaller-scale deployments.
+
+2. **Speculative Decoding for Faster LLM Inference**  
+   Speculative Decoding implementation in llama.cpp yields a 25-60% increase in processing speed without significant loss in accuracy.  
+   - *Why Adopt?* Increases efficiency in real-time applications and large-scale model deployments.
+
+3. **Unsloth API and Training Web UI**  
+   New local APIs and web UIs enable fine-tuning and merging of LoRA adapters seamlessly.  
+   - *Why Adopt?* Streamlines the model training process and supports diverse LoRA use cases.
+
+---
+
+### **Trial**
+
+1. **NVIDIA Cosmos**  
+   A world foundation model trained on 20 million hours of video, Cosmos is designed to build virtual worlds and generate synthetic data for testing.  
+   - *Why Trial?* Promising for simulation-heavy industries like robotics and autonomous systems, but broader applications need validation.
+
+2. **NVIDIA Digits (Grace Blackwell Superchip)**  
+   A compact AI system supporting up to 200B-parameter models locally, offering high performance for edge AI and research purposes.  
+   - *Why Trial?* Viable for local model development and prototyping, though hardware and cost constraints may limit adoption.
+
+3. **DeepSeek V3 Quantization**  
+   DeepSeek V3 with 2-8 bit quantization enables running massive models locally on high-resource setups (e.g., 48GB RAM).  
+   - *Why Trial?* Optimizes resource usage for large models but requires careful evaluation of trade-offs in performance and compatibility.
+
+---
+
+### **Assess**
+
+1. **LangChain Integrations**  
+   New LangChain packages enhance integration with tools like Ollama-OCR and simplify application development for LLM-powered solutions.  
+   - *Why Assess?* Offers flexibility for complex workflows but may require significant setup and maintenance.
+
+2. **AI in Software Development (CodeLLM)**  
+   CodeLLM enables frontend code generation from mocks, with plans for backend context integration.  
+   - *Why Assess?* Shows potential in improving development productivity, though real-world usability needs further exploration.
+
+3. **Multi-GPU Support for Unsloth**  
+   Unsloth currently lacks multi-GPU training capabilities, with plans to make this a commercial feature.  
+   - *Why Assess?* Evaluate cost-benefit trade-offs for scaling training tasks with multiple GPUs.
+
+---
+
+### **Hold**
+
+1. **FP4 Precision for GPUs (NVIDIA)**  
+   NVIDIA’s promotion of FP4 as a metric for GPU performance has sparked skepticism due to unclear benefits over FP8.  
+   - *Why Hold?* Until real-world benchmarks validate its effectiveness, adoption is premature.
+
+2. **AI21 Labs’ Model Security Concerns**  
+   Reports of malicious tokens claiming association with AI21 Labs emphasize the need for stricter vigilance.  
+   - *Why Hold?* Limit deployment of models until platform security and official affiliations are clarified.
+
+3. **Shampoo Optimizations for Memory Efficiency**  
+   Optimizations in the Shampoo library reduce memory usage significantly, but the complexity of implementation may not justify the gains in all scenarios.  
+   - *Why Hold?* Explore simpler alternatives unless high memory constraints are critical.  
+
+---
+
+This structured format categorizes trends and tools into actionable adoption stages, focusing on readiness and industry impact.

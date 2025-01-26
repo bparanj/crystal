@@ -47,3 +47,53 @@ Technologies or practices that should be used with caution, or avoided entirely 
 - **DeepSeek V3 Deployment Challenges**: High resource requirements limit accessibility for most users.
 
 ---
+
+**Thoughtworks Tech Radar Format**  
+
+---
+
+### **Adopt**
+1. **NVIDIA Cosmos**  
+   NVIDIA's Cosmos, an open-source video world model trained on 20 million hours of video, is revolutionizing robotics and autonomous driving. It sets a benchmark for using video data to train AI models with broad applications across industries.  
+   - *Why Adopt?* Accelerates understanding of basic physics through vast datasets, with strong potential in manufacturing and autonomous systems.  
+
+2. **Fine-Tuning Llama Models**  
+   The success of continual pretraining (e.g., Llama 3.2 3B) with high-quality domain-specific data demonstrates significant improvements in specific tasks like mathematics.  
+   - *Why Adopt?* Enables model specialization and targeted performance gains without degrading general capabilities.
+
+---
+
+### **Trial**
+1. **NVIDIA Digits**  
+   NVIDIA’s $3,000 AI supercomputer (Project DIGITS) provides accessible local AI computing for models up to 200 billion parameters.  
+   - *Why Trial?* Ideal for prototyping large models locally, though questions remain about performance limitations and cost scalability.
+
+2. **Speculative Decoding**  
+   Emerging techniques in LLM inference, such as speculative decoding, promise significant speed improvements with minimal accuracy trade-offs.  
+   - *Why Trial?* Optimizes LLM throughput across platforms and could redefine efficiency standards for production-scale deployments.
+
+---
+
+### **Assess**
+1. **FP4 vs. FP8 Precision for GPUs**  
+   NVIDIA's shift to FP4 for RTX 5090 raises concerns about marketing transparency and real-world implications for AI workloads.  
+   - *Why Assess?* Critical to benchmark and validate the practical trade-offs of FP4 performance metrics for industry adoption.  
+
+2. **Ontological Embeddings**  
+   Moving from token-based to concept-based embeddings offers potential for deeper semantic understanding in AI applications.  
+   - *Why Assess?* Promising for improving contextual relevance in models but requires further validation on scalability and accuracy.
+
+---
+
+### **Hold**
+1. **Deepspeed Zero-3**  
+   Reports of no significant memory gains during multi-GPU training highlight issues with gradient checkpointing overhead.  
+   - *Why Hold?* Until resolved, existing approaches like efficient fine-tuning or other optimizers remain more reliable.
+
+2. **OpenAI Agents Deployment Delays**  
+   Prompt injection vulnerabilities delay broader deployment of OpenAI agents, and pricing strategies suggest enterprise-only focus.  
+   - *Why Hold?* Consider alternate solutions until security and accessibility are clarified.  
+
+---
+
+This radar-style segmentation highlights actionable trends, technologies, and their adoption readiness.
