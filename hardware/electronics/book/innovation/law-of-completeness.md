@@ -2,7 +2,7 @@ PENDING
 
 It is not clear how to identify the different things in the system
 
-Law of System Completeness: In TRIZ (Theory of Inventive Problem Solving), the Law of System Completeness states that a functional system requires four key elements: engine, transmission, working unit, and control unit. For a system to function effectively, all these components must be present and interdependent.
+Law of System Completeness: In TRIZ , the Law of System Completeness states that a functional system requires four key elements: engine, transmission, working unit, and control unit. For a system to function effectively, all these components must be present and interdependent.
 
 In the context of a simple electronic circuit with a battery, resistor, and LED:
 
@@ -28,7 +28,7 @@ By having all these elements, the circuit completes a functional system as defin
 
 Why is the wiring not the transmission?
 
-Let's examine the electronic circuit consisting of a battery, resistor, and LED through the lens of the Law of System Completeness from TRIZ (Theory of Inventive Problem Solving). This law states that a complete technical system should have four essential parts: an engine, a transmission, a working unit, and a control unit. Let's break down our circuit in this context:
+Let's examine the electronic circuit consisting of a battery, resistor, and LED through the lens of the Law of System Completeness from TRIZ . This law states that a complete technical system should have four essential parts: an engine, a transmission, a working unit, and a control unit. Let's break down our circuit in this context:
 
 Now, let's analyze each component of the circuit in terms of the Law of System Completeness:
 

@@ -1,6 +1,6 @@
 ## Ideal Resistor
 
-From the perspective of TRIZ (Theory of Inventive Problem Solving), an ideal resistor would embody the concept of Ideality, where the system delivers the maximum useful function with minimal drawbacks or resources.
+From the perspective of TRIZ , an ideal resistor would embody the concept of Ideality, where the system delivers the maximum useful function with minimal drawbacks or resources.
 
 Useful function:
 
